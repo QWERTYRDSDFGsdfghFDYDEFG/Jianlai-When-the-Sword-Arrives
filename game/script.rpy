@@ -18,6 +18,7 @@ label start:
 
     voice "audio/李宝瓶5.mp3"
     a "昨晚就走了吗"
+    $ story_mood_event("a", "separation")
     
     scene bg midnight_lake
     voice "audio/崔东山.mp3"
