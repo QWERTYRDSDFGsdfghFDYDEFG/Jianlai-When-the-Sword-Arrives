@@ -42,6 +42,7 @@ define gs = Character("顾氏")
 define zyfs = Character("紫阳府修士")
 define jdf = Character("金丹妇人")
 define kjxn = Character("开襟小娘")
+define lzg = Character("老掌柜")
 
 
 
