@@ -30,7 +30,6 @@ define lcs = Character("吕采桑")
 define yy = Character("圆圆")
 define xnq = Character("徐小桥")
 define znr = Character("中年男人")
-define lcr = Character("刘重润")
 define hs = Character("红酥")
 define mxgx = Character("马姓鬼修")
 define lcr = Character("刘重润")
@@ -43,6 +42,7 @@ define zyfs = Character("紫阳府修士")
 define jdf = Character("金丹妇人")
 define kjxn = Character("开襟小娘")
 define lzg = Character("老掌柜")
+define lmm = Character("老嬷嬷")
 
 
 
