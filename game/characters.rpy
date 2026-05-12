@@ -20,10 +20,12 @@ define rq = Character("阮邛")
 define sdx = Character("孙登先")
 define jssr = Character("金色儒衫小人儿")
 define gt = Character("顾韬")
+define gc = Character("顾璨")
+
 define lmx = Character("李牧玺")
 define slz = Character("宋郎中")
 define thj = Character("田湖君")
-define gc = Character("顾璨")
+
 define ylt = Character("杨老头")
 define fy = Character("范彦")
 define lcs = Character("吕采桑")
@@ -31,7 +33,8 @@ define yy = Character("圆圆")
 define xnq = Character("徐小桥")
 define znr = Character("中年男人")
 define hs = Character("红酥")
-define mxgx = Character("马姓鬼修")
+#后面修改这个变量
+define mxgx = Character("马远致")
 define lcr = Character("刘重润")
 define yh = Character("俞桧")
 define zk = Character("钟魁")
@@ -43,6 +46,8 @@ define jdf = Character("金丹妇人")
 define kjxn = Character("开襟小娘")
 define lzg = Character("老掌柜")
 define lmm = Character("老嬷嬷")
+define zy = Character("曾掖")
+define zy1 = Character("章靥")
 
 
 

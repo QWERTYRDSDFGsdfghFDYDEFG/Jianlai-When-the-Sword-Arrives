@@ -4,8 +4,10 @@
 
 你正在开发 Jianlai-When-the-Sword-Arrives v1.0 项目《剑来—书简湖》。请先阅读：
 
-1. `01_FIRST_PLAYABLE.md`
-2. `GDD.md`
+1. 根目录 `README.md`
+2. `Codex/00_MASTER_PROMPT.md`
+3. 根目录 `GDD.md`
+4. `Codex/01_FIRST_PLAYABLE.md`
 
 你的任务不是自由发挥做一个新游戏，而是在现有设计约束内，把项目逐步实现成可运行原型。
 
