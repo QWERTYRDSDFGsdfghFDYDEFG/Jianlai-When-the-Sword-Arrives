@@ -48,6 +48,11 @@ define lzg = Character("老掌柜")
 define lmm = Character("老嬷嬷")
 define zy = Character("曾掖")
 define zy1 = Character("章靥")
+define ghost_woman = Character("白离草")
+define ghost_girl = Character("年轻女鬼")
+define ghost_cold = Character("冷漠女鬼")
+define ghost_man = Character("贾高")
+define ghost_zs = Character("赵史")
 
 
 
