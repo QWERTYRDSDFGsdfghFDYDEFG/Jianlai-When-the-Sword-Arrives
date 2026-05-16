@@ -148,11 +148,18 @@
 
 继续执行任何开发、剧情、演出或验证任务前，请依次读取：
 
-1. `Codex/00_MASTER_PROMPT.md`
-2. `GDD.md`
-3. `Codex/01_FIRST_PLAYABLE.md`
+1. `game/Codex/00_MASTER_PROMPT.md`
+2. `game/GDD.md`
+3. `game/Codex/01_FIRST_PLAYABLE.md`
 
-如果任务涉及剧情脚本，还需要读取当前相关的 `script_chapter*.rpy`、`characters.rpy` 和必要的系统脚本。
+如果任务涉及剧情脚本，还需要读取 `game/` 下当前相关的 `script_chapter*.rpy`、`characters.rpy` 和必要的系统脚本。
+
+长会话默认遵循：
+
+- `Process_narration=false`，减少冗长过程叙述。
+- Measure twice, cut once，先列任务清单和验证点，再改文件。
+- 可用时采用 orchestrator 思路，把研究、执行、验证拆给并行 agents，主线程负责审阅和整合。
+- 保持代码库干净，不留下临时文件、死代码、无用目录或一次性草稿。
 
 ---
 

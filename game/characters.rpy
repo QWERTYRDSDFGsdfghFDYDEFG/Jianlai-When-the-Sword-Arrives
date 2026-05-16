@@ -30,7 +30,7 @@ define ylt = Character("杨老头")
 define fy = Character("范彦")
 define lcs = Character("吕采桑")
 define yy = Character("圆圆")
-define xnq = Character("徐小桥")
+define tx = Character("徐小桥")
 define znr = Character("中年男人")
 define hs = Character("红酥")
 #后面修改这个变量
