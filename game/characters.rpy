@@ -5,15 +5,19 @@ define c = Character("李槐")
 define zl = Character("朱敛")
 define e = Character("石柔")
 define peiqian = Character("裴钱")
+
 define cpa = Character("陈平安")
 #陈平安的配音与人对话可以采用，心里不需要
+
 define k = Character("茅小冬")
 define wy = Character("吴懿")
 define donsujing = Character("董水井")
 define c1 = Character("高煊")
 define xuluo = Character("许弱")
 define rx = Character("阮秀")
+
 define xxq = Character("徐小桥")
+
 define xhjs = Character("绣花江水神")
 define h1 = Character("吴鸢")
 define rq = Character("阮邛")
@@ -30,7 +34,7 @@ define ylt = Character("杨老头")
 define fy = Character("范彦")
 define lcs = Character("吕采桑")
 define yy = Character("圆圆")
-define tx = Character("徐小桥")
+
 define znr = Character("中年男人")
 define hs = Character("红酥")
 #后面修改这个变量
@@ -48,11 +52,7 @@ define lzg = Character("老掌柜")
 define lmm = Character("老嬷嬷")
 define zy = Character("曾掖")
 define zy1 = Character("章靥")
-define ghost_woman = Character("白离草")
-define ghost_girl = Character("年轻女鬼")
-define ghost_cold = Character("冷漠女鬼")
-define ghost_man = Character("贾高")
-define ghost_zs = Character("赵史")
+define tx = Character("炭雪")
 
 
 

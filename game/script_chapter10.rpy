@@ -2833,7 +2833,7 @@ gc "都比你好。"
 
 
 
-
+jump chapter11_start
 
 
     return
