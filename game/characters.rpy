@@ -53,6 +53,7 @@ define lmm = Character("老嬷嬷")
 define zy = Character("曾掖")
 define zy1 = Character("章靥")
 define tx = Character("炭雪")
+define wg = Character("武将")
 
 
 
