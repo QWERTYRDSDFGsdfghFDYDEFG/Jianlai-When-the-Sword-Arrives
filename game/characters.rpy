@@ -57,6 +57,9 @@ define wg = Character("武将")
 define sxz = Character("苏心斋")
 define znxs = Character("中年修士")
 define hls = Character("黄篱山老祖师")
+define mf = Character("门房")
+define msjz = Character("马氏家主")
+define mdy = Character("马笃宜")
 
 
 
