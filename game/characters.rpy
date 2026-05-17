@@ -54,6 +54,10 @@ define zy = Character("曾掖")
 define zy1 = Character("章靥")
 define tx = Character("炭雪")
 define wg = Character("武将")
+define sxz = Character("苏心斋")
+define znxs = Character("中年修士")
+define hls = Character("黄篱山老祖师")
+
 
 
 
