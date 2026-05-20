@@ -1,4 +1,4 @@
-label chapter10_start:
+﻿label chapter10_start:
     $ renpy.force_autosave()
 
     narrator "红酥已离开朱弦府，被刘志茂安排到横波府，名义上有了女官身份。"
@@ -435,17 +435,17 @@ label chapter10_start:
 
     narrator "是个壮年男子。"
 
-    ghost_zs "神仙老爷。"
+    zy1 "神仙老爷。"
 
-    ghost_zs "我不求投胎。"
+    zy1 "我不求投胎。"
 
-    ghost_zs "也不敢让神仙老爷做那些费劲事情。"
+    zy1 "也不敢让神仙老爷做那些费劲事情。"
 
-    ghost_zs "就是有一个小小心愿。"
+    zy1 "就是有一个小小心愿。"
 
-    ghost_zs "既不花费神仙老爷一枚雪花钱。"
+    zy1 "既不花费神仙老爷一枚雪花钱。"
 
-    ghost_zs "也不会让神仙老爷分半点心。"
+    zy1 "也不会让神仙老爷分半点心。"
 
     narrator "陈平安眯起眼。"
 
@@ -460,35 +460,35 @@ label chapter10_start:
 
     narrator "咧嘴而笑。"
 
-    ghost_zs "小的唯一心愿。"
+    zy1 "小的唯一心愿。"
 
-    ghost_zs "就是想着能够在神仙老爷那座仙家府邸里边，一直待着。"
+    zy1 "就是想着能够在神仙老爷那座仙家府邸里边，一直待着。"
 
-    ghost_zs "然后呢。"
+    zy1 "然后呢。"
 
-    ghost_zs "还能像活着的时候那样。"
+    zy1 "还能像活着的时候那样。"
 
-    ghost_zs "手底下继续管着几个开襟小娘。"
+    zy1 "手底下继续管着几个开襟小娘。"
 
-    ghost_zs "如今嘛。"
+    zy1 "如今嘛。"
 
-    ghost_zs "稍微多想一些。"
+    zy1 "稍微多想一些。"
 
-    ghost_zs "想着可以去她们住处串串门。"
+    zy1 "想着可以去她们住处串串门。"
 
-    ghost_zs "做点……男人的事情。"
+    zy1 "做点……男人的事情。"
 
-    ghost_zs "活着的时候，只能偷瞧几眼。"
+    zy1 "活着的时候，只能偷瞧几眼。"
 
-    ghost_zs "都不敢过足眼瘾。"
+    zy1 "都不敢过足眼瘾。"
 
-    ghost_zs "今儿恳请神仙老爷开恩。"
+    zy1 "今儿恳请神仙老爷开恩。"
 
-    ghost_zs "行不行？"
+    zy1 "行不行？"
 
-    ghost_zs "若是不行的话……"
+    zy1 "若是不行的话……"
 
-    ghost_zs "我便真是死不瞑目了。"
+    zy1 "我便真是死不瞑目了。"
 
     narrator "名为白离草的少女。"
 
@@ -501,7 +501,7 @@ label chapter10_start:
     cpa "行啊。"
     cpa "这点小事。"
 
-    ghost_zs "神仙老爷英明！"
+    zy1 "神仙老爷英明！"
 
     narrator "陈平安甚至没有去翻那本账册。"
 
@@ -524,7 +524,7 @@ label chapter10_start:
 
     narrator "赵史神色尴尬。"
 
-    ghost_zs "让神仙老爷笑话了。"
+    zy1 "让神仙老爷笑话了。"
 
     narrator "下一刻。"
 
@@ -543,11 +543,11 @@ label chapter10_start:
 
     narrator "发出凄厉惨叫。"
 
-    ghost_zs "陈平安！"
+    zy1 "陈平安！"
 
-    ghost_zs "你说话不算话！"
+    zy1 "你说话不算话！"
 
-    ghost_zs "我诅咒你——"
+    zy1 "我诅咒你——"
 
     narrator "陈平安抬起手臂。"
 
