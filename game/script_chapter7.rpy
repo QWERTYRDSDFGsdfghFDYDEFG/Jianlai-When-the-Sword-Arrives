@@ -72,11 +72,9 @@ label chapter7_start:
     narrator "从袖子里拿出那只锦囊。"
     narrator "这是在红烛镇离别前，裴钱送给他的，"
     narrator "说是在最生气的时候，一定要打开看一看。"
-
     narrator "陈平安打开锦囊，取出里边的一张字条。"
     narrator "上边写着：“陈平安，请你不要对这个世界失望。”"
     narrator "陈平安看完之后，收入锦囊，放回袖子。"
-
     narrator "陈平安转头望向窗外的夜幕。"
 
     cpa "我只是对自己很失望。"
@@ -129,28 +127,23 @@ label chapter7_start:
     narrator "姓名，籍贯，出生年月，师承，亲人和家族。"
     narrator "其中许多名字，已经按照青峡岛香火房老规矩，"
     narrator "将名字以朱笔抹去，这叫销档。"
-
     narrator "陈平安每看到一个自己想要寻找的名字，"
     narrator "就写在一本手边故意没有版刻文字内容的空白册子上。"
     narrator "除了出生年月、籍贯，"
     narrator "还有这些人在青峡岛上担任过的职务。"
-
     narrator "香火房的档案，每个青峡岛修士或是杂役的内容厚薄，"
     narrator "只与修为高低挂钩。"
     narrator "修为高，记载就多；修为卑微，几乎就是姓名加上籍贯，仅此而已，不到十个字。"
     narrator "还有许多死人，其实连在香火房档案上都没有出现过。"
     narrator "死了，一个名字都没能留住。"
-
     narrator "陈平安接下来除了去香火房，"
     narrator "询问被自己记下名字那拨人为人处事的口碑、旁人的大致观感，"
     narrator "还要顺藤摸瓜，从如今青峡岛各路修士、府邸管事和开襟小娘嘴里，"
     narrator "问出那些个名字，一一记在书上。"
-
     narrator "可能在这期间，会像麻烦田湖君去跟香火房转告一样，"
     narrator "也会麻烦一些青峡岛位居要津的掌权人物。"
     narrator "不然如今的陈平安，虽然谈不上为此耗费心神，"
     narrator "却会在来来往往的路途上消耗太多光阴。"
-
     narrator "顾璨转头对小泥鳅说道。"
 
     gc "总喊你小泥鳅也不是个事儿。"
@@ -182,7 +175,6 @@ label chapter7_start:
     narrator "整个人散发出一股令人窒息的气势。"
     narrator "这个书简湖令人闻风丧胆的混世小魔王，"
     narrator "可不是只靠小泥鳅和刘志茂才走到今天这一步的。"
-
     narrator "顾璨苦笑道。"
 
     gc "那你说，怎么补救？"
@@ -203,7 +195,6 @@ label chapter7_start:
     narrator "笑着跟陈平安说了此行的目的，"
     narrator "想要他帮着给小泥鳅取个名字，"
     narrator "不涉及世间妖物和蛟龙之属的本命名字。"
-
     narrator "陈平安放下笔，抬起头，想了想。"
 
     cpa "就叫炭雪吧，炭雪同炉，相亲相近，尤为可贵。"
@@ -222,12 +213,10 @@ label chapter7_start:
 
     narrator "顾璨赶紧闭上嘴巴，偷偷转头，"
     narrator "发现陈平安已经重新提笔，继续低头写字。"
-
     narrator "顾璨晒了一会儿秋末的温煦日头，"
     narrator "懒洋洋的，不要太惬意，都快要打盹睡着了。"
     narrator "自己坐在小板凳上，天塌下来，"
     narrator "都有坐在身后、书案那边的陈平安，顾璨不怕。"
-
     narrator "顾璨伸了个大懒腰，转头问道。"
 
     gc "我娘亲说晚饭她下厨，做一份比上次更地道的家常菜，有空不？"
@@ -324,7 +313,6 @@ label chapter7_start:
     narrator "低头看着两幅画卷，"
     narrator "一幅是顾璨与婢女小泥鳅的言行举动，"
     narrator "一幅是账房先生陈平安的屋内光景。"
-
     narrator "崔东山开始点评顾璨。"
 
     cds "骨耸者早夭，骨露者无以立，骨横者气凶悍，骨象金石者命极硬。"
@@ -471,7 +459,6 @@ label chapter7_start:
     narrator "陈平安昼夜不息，将这些岛屿逛完，已经是三天之后。"
     narrator "他又记下一些不在香火的事。"
     narrator "去往青峡岛，水路迢迢。"
-
     narrator "陈平安暂时没打算去往附近的书简湖岛屿，"
     narrator "结果在半路就遇上了来接他的那艘巨大楼船。"
     narrator "陈平安飘掠上船头，顾璨和小泥鳅并肩而立。"
@@ -500,7 +487,6 @@ label chapter7_start:
     cpa "看了一条线。"
 
     narrator "顾璨跟小泥鳅面面相觑。"
-
     narrator "顾璨不打算自讨苦吃，转移话题，笑道。"
 
     gc "青峡岛已经收到第一份飞剑传信了，"
@@ -523,15 +509,11 @@ label chapter7_start:
     gc "我都会先想过了再动手。"
 
     narrator "小泥鳅揉了揉肚子，其实有些饿了。"
-
     narrator "然后陈平安收回视线，继续远眺湖景。"
     narrator "他不知道这辈子还有没有机会，回首望之，美玉粲然。"
-
     narrator "到了青峡岛，陈平安去剑房取了魏檗从披云山寄来的回信，"
     narrator "那把飞剑一闪而逝，返回大骊龙泉郡。"
-
     narrator "与顾璨分开，陈平安独自来到山门口那间屋子。"
-
     narrator "打开密信，魏檗把阴阳相隔、亡魂凝聚与借道问灵之法，都写得极细。"
     narrator "陈平安反复读完，最后只记下一个要紧词。"
     narrator "行亭。"
@@ -539,7 +521,6 @@ label chapter7_start:
     narrator "这是一个二等供奉的修道之地。"
     narrator "供奉本名早已无人知晓，只知姓马，鬼修出身。"
     narrator "他来历含混，却在青峡岛熬成了老资历供奉。"
-
     narrator "鬼修在已经让谱牒仙师瞧不起的山泽野修里边，"
     narrator "又是极其不受待见的一种。"
     narrator "故而这栋府邸位于青峡岛的偏远僻静地带，"
@@ -547,7 +528,6 @@ label chapter7_start:
     narrator "占据了一口每隔一段时间就有阴风吹拂的古怪水井。"
     narrator "府邸四周常年阴气森森，四周邻里间从无往来。"
     narrator "青峡岛人来人往，他的位置也被越挤越靠后。"
-
     narrator "门房是个瘦骨嶙峋、满身腥臭的老妪，"
     narrator "但是满头青丝，眼眸雪白。"
     narrator "瞧见了这个姓陈的账房先生，"
@@ -556,15 +536,11 @@ label chapter7_start:
     narrator "老妪还有些羞赧，赶紧用绣花鞋脚尖在地上偷偷一拧，"
     narrator "结果发出噼里啪啦的爆裂声响，"
     narrator "这就不是瘆人，而是恶心人了。"
-
     narrator "老妪也察觉到了这点，"
     narrator "竟是脸上泛起羞愧难当之色，"
     narrator "嘴唇微动，却说不出一个字来。"
-
     narrator "陈平安神色自若，认得出眼前这个阳气稀薄、灵性迟暮的老妪，其实不过是二十岁出头的女子而已。"
-
     narrator "世间女子，皆有爱美之心。"
-
     narrator "老妪摇晃了一下房门旁一串铃铛，"
     narrator "对陈平安说道。"
 
@@ -650,7 +626,6 @@ label chapter7_start:
 
     narrator "陈平安回到青峡岛山门那边，没有返回屋子。"
     narrator "而是去了渡口，撑船去往珠钗岛。"
-
     narrator "他再次见到了那位高大丰腴的美妇人——岛主刘重润。"
 
     lcr "陈先生，上次拒绝您登门上岛，实在不是我的本意。"
@@ -670,17 +645,12 @@ label chapter7_start:
     lcr "就请陈先生马上打道回府。"
 
     narrator "陈平安只得撑船离开，去找那位道号山湖鬼王的俞桧。"
-
     narrator "俞桧是书简湖恶名昭彰的大鬼修。"
     narrator "月钩岛一夜易主后，他靠炼化魂魄暴富，也靠这份恶名坐稳了位置。"
-
     narrator "渡船靠岸之时，陈平安拈出那张日夜游神真身符。"
-
     narrator "召出两尊符胆之中，孕育出一点神光的傀儡真神。"
-
     narrator "就这么登山。"
     narrator "行事风格，很书简湖。"
-
     narrator "不再是青峡岛上那个，对谁都和气的账房先生了。"
 
     yh "陈先生，贵客到访，有失远迎。"
@@ -721,26 +691,18 @@ label chapter7_start:
     yh "就直接送给陈先生了。"
 
     narrator "购买阴物魂魄之事敲定后，"
-
     narrator "陈平安又问了一些，"
     narrator "关于温养魂魄的符箓之道。"
-
     narrator "俞桧边回答，边小心翼翼提防着"
     narrator "这位年轻人身后的两尊傀儡。"
-
     narrator "生怕一言不合，"
     narrator "它们就要暴起杀人。"
-
     narrator "面对这些不痛不痒的询问，"
     narrator "他自然知无不言，言无不尽。"
-
     narrator "询问过后，陈平安没有让俞桧送行。"
-
     narrator "到了渡口，收起那张符胆神光"
     narrator "越来越黯淡的日夜游神真身符，藏入袖中。"
-
     narrator "随后撑船离开。"
-
     narrator "鬼修府邸的那个门房老妪，最近多了一点生气。"
     narrator "她每天都盼着那个年纪轻轻的账房先生，"
     narrator "能够登门拜访。"

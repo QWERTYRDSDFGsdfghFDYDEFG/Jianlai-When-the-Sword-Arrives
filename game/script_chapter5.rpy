@@ -62,7 +62,6 @@ label chapter5_start:
     narrator "小泥鳅手指微动。"
     narrator "顾璨反而笑了，转过身，对小泥鳅摇摇头。"
     narrator "任由这名刺客在那边磕头求饶，船板上砰砰作响。"
-
     narrator "陈平安颤颤巍巍摘下养剑葫，喝了一大口酒。"
     narrator "这才转过身。"
     narrator "却不是看那个喊自己好人与活菩萨的妇人，而是顾璨。"
@@ -143,7 +142,6 @@ label chapter5_start:
     cpa "我去青峡岛见过了婶婶，可能说完话就走。"
 
     narrator "陈平安不再说话。"
-
     narrator "顾璨与小泥鳅心意相通。"
     narrator "无需顾璨说话，小泥鳅就将那名金丹境地仙如同拎鸡崽儿似的。"
     narrator "抓去了一间船舱密室关押起来。"
@@ -361,7 +359,6 @@ label chapter5_start:
 
     narrator "府邸很大，过了大门，光是走到吃饭的地方，就走了很久。"
     narrator "陈平安跨过门槛的时候，摘掉了那张朱敛精心打造的面皮，露出了本来面目。"
-
     narrator "穿着华贵的顾氏站在大堂门口，翘首以盼。"
     narrator "见着了顾璨身边的陈平安，一下子就红了眼眶。"
     narrator "她快步走下台阶，来到陈平安身边，仔细打量着那个个子已经长高许多的少年。"
@@ -387,21 +384,16 @@ label chapter5_start:
     gs "说什么混话！"
 
     narrator "顾氏瞪了陈平安一眼。"
-
     narrator "陈平安不再说话。"
-
     narrator "母子二人，还有一个母子二人都不会视为外人的人，一起进了屋子。"
     narrator "三人落座。"
     narrator "虽然是家常菜，可还是极为丰盛，摆满了一大桌子。"
-
     narrator "顾氏还准备好了书简湖最稀罕的仙家乌啼酒。"
     narrator "那与池水城市井贩卖的所谓乌啼酒，真是云泥之别。"
-
     narrator "顾氏给陈平安倒满了一杯。"
     narrator "陈平安怎么劝阻都拦不下。"
     narrator "不爱喝酒的顾璨，尤其是在家中从来不喝酒的顾璨，今天也跟娘亲要了一杯酒。"
     narrator "顾氏愣了一下，便笑着倒了一杯。"
-
     narrator "一张大圆桌，顾氏坐主位。"
     narrator "陈平安坐在背对屋门的位置上。"
     narrator "顾璨坐在两人之间的座椅上。"
@@ -491,33 +483,27 @@ label chapter5_start:
     narrator "桌上又有一碗饭。"
     narrator "当年在泥瓶巷的别人家里，陈平安还是个比如今顾璨还要小的孩子。"
     narrator "也有一碗饭，就这样摆在桌上。"
-
     narrator "陈平安抬起一只手，有些颤抖。"
     narrator "最后他没有拿起筷子。"
     narrator "而是从怀中掏出一本书，放在那碗饭旁边。"
-
     narrator "那本书，是一部老旧泛黄的拳谱。"
-
     narrator "陈平安伸手轻轻抚平。"
     narrator "它陪伴着他走过千山万水。"
     narrator "见过无奇不有的大千世界。"
     narrator "见证过陈平安所有的悲欢离合。"
     narrator "翻阅了那么多次，依旧齐齐整整。"
     narrator "几乎没有任何褶皱。"
-
     narrator "只给落魄山竹楼老人看过一次。"
     narrator "那次陈平安恨不得老人每翻一页都小心点。"
     narrator "他唠唠叨叨了无数遍。"
     narrator "结果被老人又赏了一顿拳，教训说练武之人。"
     narrator "连一本破烂书都放不下，还想在拳意之中装下天下？"
-
     narrator "给心爱的姑娘看过。"
     narrator "当时还没有相互喜欢。"
     narrator "因为要识字，要知道拳谱到底讲了什么，才给她看的。"
     narrator "当时一样惹来她的不快。"
     narrator "她误以为陈平安看轻了她。"
     narrator "以为她贪图这部拳谱上的那点拳法，会偷学。"
-
     narrator "一饭之恩，是活命之恩。"
     narrator "一本拳谱，还是救命之恩。"
     narrator "陈平安咬了咬嘴唇。"
@@ -541,14 +527,12 @@ label chapter5_start:
     narrator "在性情偏激又极其早慧的孩子眼中。"
     narrator "天底下就只有陈平安讲道理了。"
     narrator "一直是这样的。"
-
     narrator "陈平安没有说话。"
     narrator "他拿起那双筷子，低头扒饭。"
     narrator "一直到吃完那碗饭，他都再没有抬过头。"
     narrator "当顾璨哭着说完那句话后。"
     narrator "顾氏的脑袋低垂，浑身颤抖。"
     narrator "不知道是伤心，还是愤怒。"
-
     narrator "陈平安轻轻放下筷子。"
     narrator "他轻轻喊了一声。"
 
@@ -605,7 +589,6 @@ label chapter5_start:
     narrator "他又挪了挪椅子，挪到距离陈平安更近的地方。"
     narrator "生怕陈平安反悔，说话不算话，转头就要离开这间屋子和这座青峡岛。"
     narrator "到时候，他好更快拦着陈平安。"
-
     narrator "然后顾璨自己跑去盛了一碗米饭，坐下开始低头扒饭。"
     narrator "从小到大，他就喜欢学陈平安。"
     narrator "吃饭是这样，双手笼袖也是这样。"
@@ -616,7 +599,6 @@ label chapter5_start:
     narrator "若说骂人的功夫，损人的本事。"
     narrator "那会儿挂着两条鼻涕的顾璨，就已经比陈平安强很多了。"
     narrator "所以往往是陈平安被顾璨说得无话可说。"
-
     narrator "陈平安看了眼顾璨，然后转头，对妇人说道。"
 
     cpa "婶婶，如果今天再有一个孩子，在门外徘徊不去。"
@@ -650,7 +632,6 @@ label chapter5_start:
     narrator "顾氏仍是默默垂泪，不说是与不是。"
     narrator "她害怕今天自己不管说了什么，对于儿子顾璨的未来来说，都会变得不好。"
     narrator "所以她宁肯一个字都不多说。"
-
     narrator "陈平安懂这个。"
     narrator "所以哪怕顾璨说了当年顾氏在那条小泥鳅一事上的选择。"
     narrator "陈平安依旧没有半点怨恨。"
@@ -676,7 +657,6 @@ label chapter5_start:
     cpa "可以吗？"
 
     narrator "顾氏神色犹豫不决，最后仍是艰难点头。"
-
     narrator "陈平安就那么坐着。"
     narrator "没有去拿桌上的那壶乌啼酒，也没有摘下腰间的养剑葫。"
 
@@ -762,7 +742,6 @@ label chapter5_start:
     cpa "总还是有对有错吧？"
 
     narrator "顾璨停下筷子，陷入深思。"
-
     narrator "顾氏看了看陈平安，再看了看顾璨。"
 
     gs "陈平安，我只是个没读过书、不认识字的妇道人家。"

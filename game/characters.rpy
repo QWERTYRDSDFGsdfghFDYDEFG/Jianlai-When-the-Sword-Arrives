@@ -64,6 +64,17 @@ define hjx = Character("韩靖信")
 define zxs = Character("曾先生")
 define hh = Character("胡邯")
 define xm = Character("许茂")
+define ghost_woman = Character("白离草")
+define ghost_girl = Character("年轻阴物")
+define ghost_cold = Character("冷漠女子")
+define ghost_man = Character("贾高")
+define shhz = Character("马贼")
+define sr = Character("僧人")
+define lxs = Character("老修士")
+define hy = Character("雪白狐狸")
+define lfq = Character("李芙蕖")
+define nqsr = Character("年轻僧人")
+define qyxt = Character("青衣小童")
 
 
 

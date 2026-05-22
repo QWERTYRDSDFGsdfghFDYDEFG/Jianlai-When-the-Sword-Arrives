@@ -11,7 +11,6 @@ label chapter8_start:
     narrator "都不为过。"
     narrator "陈平安吃完了宵夜，装好食盒。"
     narrator "摊开手边一份仙家邸报，书简湖当天的热闹，第二天就会传遍湖上。"
-
     narrator "陈平安走出屋子。"
     narrator "这次没有忘记吹灭书案与饭桌上的两盏灯火。"
     narrator "过了青峡岛山门，"
@@ -395,7 +394,6 @@ label chapter8_start:
     # Merged from script_chapter12.rpy
     narrator "隆冬时分，湖上飞鸟几乎绝迹，偶有点点。"
     narrator "应该快要下雪了。"
-
     narrator "就在这天的黄昏时分，陈平安在书案那边猛然抬头。"
     narrator "他快步走到窗口附近。"
 
@@ -423,46 +421,32 @@ label chapter8_start:
 
     narrator "刘老成神色自若，以心湖涟漪问话陈平安。"
     narrator "得到答案后，刘老成点了点头。"
-
     narrator "在战战兢兢的青峡岛修士眼中——"
     narrator "那个账房先生依旧悬在原地。"
-
     narrator "他做了一个奇怪动作。"
     narrator "手腕一拧，倒持长剑。"
-
     narrator "依旧没有说话。"
     narrator "却面朝刘老成，双手抱拳。"
-
     narrator "像是在致谢。"
-
     narrator "刘老成点点头。"
     narrator "收起书简湖中的金身法相。"
     narrator "以及那方本命印章。"
-
     narrator "就此一掠而走。"
-
     narrator "刘老成在青峡岛大展威风。"
     narrator "以上五境修士的无敌之姿——"
     narrator "将顾璨和那条蛟龙之属，一并打成濒死重伤。"
-
     narrator "作为新一任江湖君主的刘志茂。"
     narrator "青峡岛的主人，从头到尾都没有露面。"
-
     narrator "反而是那个账房先生——"
     narrator "出手阻拦了刘老成。"
-
     narrator "最后——"
     narrator "那个曾说出“杀人杀到心软，也不可以手软”的宫柳岛岛主。"
     narrator "竟然还手下留情？"
-
     narrator "一时间，整座书简湖数万野修。"
     narrator "都觉得雾里看花。"
-
     narrator "越看越迷糊。"
-
     narrator "山路上。"
     narrator "随着小泥鳅进入巢穴，开始休眠。"
-
     narrator "顾璨的伤势，也稍稍好转了一些。"
 
     gc "陈平安。"
@@ -643,7 +627,6 @@ label chapter8_start:
     cpa "也可能会互相看不顺眼。"
 
     narrator "顾璨有些开心。"
-
     narrator "因为这是陈平安第一次——"
     narrator "跟他说起与他“捆绑”在一起的将来。"
 
@@ -668,34 +651,21 @@ label chapter8_start:
 
     narrator "顾璨轻轻点头。"
     narrator "终于放心睡去。"
-
     narrator "他已经睡着了。"
-
     narrator "所以没有察觉到——"
-
     narrator "陈平安无法擦拭的脸庞上。"
     narrator "不断有鲜血滴落。"
-
     narrator "一滴一滴——"
     narrator "落在他的手臂上。"
-
     narrator "春庭府内。"
-
     narrator "顾璨躺在床上。"
     narrator "顾氏坐在床边。"
-
     narrator "伤心欲绝。"
-
     narrator "田湖君带来了青峡岛秘藏的珍贵丹药。"
-
     narrator "但是——"
-
     narrator "当她看到那个站在床边的账房先生时。"
-
     narrator "心中一颤。"
-
     narrator "连手都微微发抖。"
-
     narrator "陈平安瞥了眼她手中的药瓶。"
 
     cpa "没有问题？"
@@ -708,7 +678,6 @@ label chapter8_start:
     cpa "我近期会找他。"
 
     narrator "田湖君只得应下。"
-
     narrator "给昏迷中的顾璨服下丹药后。"
     narrator "田湖君落荒而逃。"
 
@@ -717,7 +686,6 @@ label chapter8_start:
 
     narrator "顾氏仓皇失措。"
     narrator "只是反复呢喃。"
-
     narrator "陈平安动作微颤。"
     narrator "搬了把椅子，坐在旁边。"
 
@@ -725,7 +693,6 @@ label chapter8_start:
 
     narrator "顾氏抬起头。"
     narrator "泪眼婆娑。"
-
     narrator "她看着这个面容消瘦许多的年轻人。"
     narrator "这一刻——"
     narrator "竟觉得如此陌生。"
@@ -746,55 +713,37 @@ label chapter8_start:
     narrator "顾氏叹了口气。"
     narrator "眉眼低敛。"
     narrator "满脸泪痕。"
-
     narrator "这一刻。"
     narrator "陈平安有些伤心。"
-
     narrator "与顾璨、与顾氏有关。"
     narrator "却又关系不大。"
-
     narrator "那夜在渡口。"
     narrator "他其实已经想明白了一个死结的症结。"
-
     narrator "他陈平安想要证明这一点，并不难。"
-
     narrator "只需要在顾璨面前——"
     narrator "不露痕迹地展现一两个细节。"
-
     narrator "例如——"
     narrator "对某件身外物的重视程度。"
     narrator "要超过顾璨。"
-
     narrator "那么顾璨的本心。"
     narrator "那块与陈平安有关的心田——"
-
     narrator "一样会荒废。"
-
     narrator "很快杂草丛生。"
-
     narrator "甚至——"
     narrator "以顾璨那容易走极端的性情。"
-
     narrator "终有一天。"
     narrator "会与他反目成仇。"
-
     narrator "陈平安不愿去验证。"
     narrator "也不想试探人心。"
-
     narrator "知道了答案"
     narrator "又能如何？"
-
     narrator "撇开所有。"
     narrator "只说恩怨和利益得失。"
-
     narrator "平安并不是怕顾璨对自己的看法会从亲人变成仇寇。"
-
     narrator "他不希望自己已经失去的那个小鼻涕虫。"
     narrator "再失去一个——"
     narrator "初衷是为了娘亲、走到这一步的书简湖顾璨。"
-
     narrator "更不希望顾璨与自己一样伤心。"
-
     narrator "世事人情。"
     narrator "是不是一个人想得越深，就越与人无话可说？"
 
@@ -808,68 +757,50 @@ label chapter8_start:
 
     narrator "陈平安一走出春庭府。"
     narrator "就立即一手捂住心口，一手捂住嘴。"
-
     narrator "他强提一口气。"
     narrator "缓缓走向山门口的屋子。"
-
     narrator "到了屋子前。"
     narrator "开门。"
     narrator "关门。"
     narrator "点上桌上的灯。"
-
     narrator "陈平安坐在背对窗户的长凳上。"
     narrator "整个人颤颤巍巍。"
-
     narrator "他取出从杨家药铺买来的药膏。"
     narrator "强行咽下。"
-
     narrator "屋内，他一人独坐。"
     narrator "桌上搁着养剑葫。"
     narrator "飞剑“初一”和“十五”。"
     narrator "一柄守在门口，一柄悬在窗边。"
-
     narrator "非人情，不可，难近，难亲。"
     narrator "于是，失望便出现了。"
-
     narrator "想得家中夜深坐。"
     narrator "还应说着远行人。"
     narrator "似乎便有了希望。"
     narrator "可到头来，还是会失望。"
-
     narrator "吃下杨老头炼制的药膏后。"
     narrator "从体魄到神魂，陈平安都已经毫无知觉。"
-
     narrator "他怔怔地看着灯火。"
     narrator "灯花渐瘦，天将明。"
-
     narrator "眼神死寂如古井深渊的年轻人。"
     narrator "缓缓转头，望向窗外。"
-
     narrator "天亮了。"
     narrator "大寒时节，湖水苍茫，寒气砭骨。"
-
     narrator "顾璨昏迷了三天三夜。"
     narrator "陈平安每天都会去病榻旁坐上一段时间。"
     narrator "闻着浓郁的药味。"
-
     narrator "就像先前顾璨和小泥鳅。"
     narrator "会去山门口屋子外晒太阳一样。"
-
     narrator "陈平安在屋子里时不时起身。"
     narrator "坐到床头，查看顾璨的脉象。"
-
     narrator "久病成医，陈平安已不算门外汉。"
     narrator "伤势加剧还是好转，他都能看出一些门道。"
-
     narrator "刘志茂当初让田湖君捎来的那瓶灵丹妙药——"
     narrator "效果显著。"
     narrator "极有可能是类似青虎宫陆雍专门为地仙炼制的珍稀丹丸。"
-
     narrator "这一天，顾璨终于醒转过来。"
     narrator "他看见坐在椅子上的陈平安，咧嘴一笑。"
     narrator "只是很快又沉沉睡去。"
     narrator "不过，呼吸已经沉稳许多。"
-
     narrator "陈平安离开春庭府后。"
     narrator "顾氏犹豫了片刻。"
     narrator "最终，让府上一位龙门境的老管家去请刘志茂，说她有事商议。"
@@ -931,7 +862,6 @@ label chapter8_start:
     narrator "如果按照刘志茂的说法，那天晚上，从见到陈平安背着顾璨返回春庭府，到陈平安最后"
     narrator "离开屋子，确实是她做得差了。"
     narrator "听过刘志茂这些话，若再有那晚的事情，她绝不会那般做错说错处处错。"
-
     narrator "这两年一有闲暇光阴，顾氏让府上婢女在旁，朗读书籍内容。"
     narrator "士大夫、文人雅士推崇的大道理，她也听了，只是未必爱听。"
     narrator "倒是一些典故，经常让她大受启发。"
@@ -939,7 +869,6 @@ label chapter8_start:
     narrator "顾氏悟出其中道理，觉得自己也可以借用。"
     narrator "还有名垂青史的将领，愿为士卒吸脓水，令全军上下愿效死。"
     narrator "诸如此类，顾氏都有自己的心得体会。"
-
     narrator "顾氏恨不得给自己一耳光。"
     narrator "刘志茂的言语，其实就是书上的道理，自己明明都知道，却临场没做到。"
 
@@ -960,11 +889,9 @@ label chapter8_start:
     lzm "如今的书简湖，没有谁敢杀一个刘老成都没有杀掉的人！"
 
     narrator "顾氏将信将疑。"
-
     narrator "刘志茂没有多说什么。"
     narrator "眼前女子，话说一半，由着她自己去琢磨就行。"
     narrator "无论真话假话，只要说得太死，她反而疑神疑鬼，选择不信。"
-
     narrator "顾氏转身拿起茶杯，低头喝了口茶水。"
     narrator "姿态雍容，动作优雅，再无半点泥土味。"
 
@@ -1000,27 +927,20 @@ label chapter8_start:
 
     narrator "刘志茂伸手指了指顾氏，哈哈大笑。"
     narrator "轻轻将杯盖放回茶杯上，告辞离去，让顾氏不用送。"
-
     narrator "顾氏站起身又落座，沉思片刻，起身离开。"
-
     narrator "远远站在院门口而不是厅门的老管家，赶紧走入客厅。"
     narrator "若是平时，自然是让府上婢女收拾残局。"
     narrator "今天不同，岛主亲临，他觉得应该亲自收拾。"
-
     narrator "老修士收起刘志茂的茶时，发现杯中茶水已点滴不剩。"
     narrator "唯有绿如翡翠的几片仙家茶叶，躺在杯底。"
     narrator "老修士心中感慨，岛主对春庭府和夫人，还是一如既往地信任有加。"
-
     narrator "刘志茂离开春庭府后，直接返回自家府邸。"
     narrator "先让人去朱荧王朝京城购买几斤最贵的茶叶。"
-
     narrator "书简湖最有希望跻身上五境的截江真君，坐在密室一个价值连城的蒲团上。"
     narrator "摊开手心，上有一小团水球，晶莹剔透。"
     narrator "他从袖中取出一只白碗，将掌心水球放入碗中。"
-
     narrator "一直枯坐到深夜时分，刘志茂才施展神通。"
     narrator "出现在山门口那座屋前，轻轻敲门。"
-
     narrator "刘志茂推门而入，陈平安已经绕出书案，坐在桌旁，朝他伸手示意落座。"
 
     lzm "先前陈先生不准我擅自打搅，我便只好不去讲什么地主之谊了。"
@@ -1030,7 +950,6 @@ label chapter8_start:
     cpa "……"
 
     narrator "陈平安面无表情，伸出手。"
-
     narrator "刘志茂赶紧手腕翻拧，手心上方悬停一枚晶莹剔透的玉牌。"
     narrator "竟是不敢触碰丝毫，轻轻一推，被陈平安收起。"
 
@@ -1136,8 +1055,8 @@ label chapter8_start:
     cpa "我听过他自己讲述的陈年往事，说到朱弦府的时候，颇为自得，但又不愿给出答案。"
     cpa "我便去了趟珠钗岛，以‘朱弦府’三字试探刘重润，这个女修立即恼羞成怒，虽然一样"
     cpa "没有说破真相，但骂了马远致一句‘无耻之徒’。"
-    cpa "在猿哭街以购买古籍之名，问过几座书肆的老掌柜，才知道原来在刘重润和马远致故国"
-    cpa "，有一句相对生僻的诗词‘重润响朱弦’，便解开了谜题。"
+    cpa "在猿哭街以购买古籍之名，问过几座书肆的老掌柜，才知道原来在刘重润和马远致故国，"
+    cpa "有一句相对生僻的诗词‘重润响朱弦’，便解开了谜题。"
     cpa "马远致的沾沾自得，在将府邸命名为朱弦，更在‘响’谐音‘想’。"
 
     lzm "妙哉，若非陈先生揭开谜底，我都不晓得原来马远致这个身份卑贱的驮饭人，还有此等雅致肠子。"
@@ -1208,13 +1127,9 @@ label chapter8_start:
     cpa "山门口那边，有个姓陈的账房先生，是你的朋友。"
 
     narrator "红酥有些莫名其妙。"
-
     narrator "可她还是很开心。"
-
     narrator "她悄悄转过头，看着身边这个账房先生。"
-
     narrator "冬寒渐重。"
-
     narrator "不知不觉间，他已经换上一身青色厚重的棉衣长袍。"
 
     jump chapter9_start

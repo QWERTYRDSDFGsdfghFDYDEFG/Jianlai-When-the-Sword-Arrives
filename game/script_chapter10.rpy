@@ -1,14 +1,10 @@
-﻿label chapter10_start:
+label chapter10_start:
     $ renpy.force_autosave()
 
     narrator "红酥已离开朱弦府，被刘志茂安排到横波府，名义上有了女官身份。"
-
     narrator "陈平安去见过她一次。"
-
     narrator "在书简湖，多出一个真诚以待的朋友，意味着更多牵扯，也意味着更多代价。"
-
     narrator "可陈平安心里清楚，红酥这样的朋友，对他很重要。"
-
     narrator "这天，曾掖满脸血迹，跌跌撞撞推开屋门。"
 
     zy "陈先生，对不起。"
@@ -37,11 +33,8 @@
     cpa "在聪明人不用停步的笨事情上，多花费功夫，多吃苦。"
 
     narrator "曾掖点了点头。"
-
     narrator "道理浅显，他还是听得懂的。"
-
     narrator "陈平安摘下养剑葫，喝了口酒。"
-
     narrator "他犹豫了一下，才缓缓开口。"
 
     cpa "唯有竭尽所能和万般努力之后。"
@@ -49,109 +42,57 @@
     cpa "不要分心。"
 
     narrator "曾掖立即屏气凝神。"
-
     narrator "陈平安站起身，帮忙关上屋门。"
-
     narrator "他原本想去渡口散心赏景。"
-
     narrator "犹豫片刻后，却还是返回了自己的屋子。"
-
     narrator "陈平安从竹箱中取出那座阎王殿。"
-
     narrator "随后丢入一枚枚雪花钱。"
-
     narrator "神仙钱之所以能够成为神仙钱，就在于灵气纯粹，不分阴阳。"
-
     narrator "修士能用，鬼魅亦可。"
-
     narrator "道无偏私。"
-
     narrator "陈平安坐在书案旁，翻开案边一部全是手书的‘账本’。"
-
     narrator "他取出一颗珠钗岛水殿秘藏丹药，轻轻咽下。"
-
     narrator "随后闭目养神。"
-
     narrator "当那股灵气缓缓流入自身水府后，仍略有盈余。"
-
     narrator "陈平安重新睁开眼。"
-
     narrator "他又看了一遍账本首页。"
-
     narrator "上面记录着一个个名字、籍贯与生平事迹。"
-
     narrator "总计九人。"
-
     narrator "陈平安深吸一口气。"
-
     narrator "这才开始在心中默念法诀。"
-
     narrator "他双指并拢，掐出剑诀，指向桌上那座阎王殿。"
-
     narrator "以鬼道敕令，将九个魂魄残缺的阴灵鬼物请出。"
-
     narrator "屋内早已贴符布阵。"
-
     narrator "形成了一块适合鬼魅重返阳间落脚的阴冥土地。"
-
     narrator "三张符箓，分别是《丹书真迹》上的‘云水镇宅符’。"
-
     narrator "符胆中央，有金书三山九侯先生讳字。"
-
     narrator "还有‘柏槐符’。"
-
     narrator "若宅邸之气如烟火鬼形，既可压胜，也可敕召。"
-
     narrator "全看张贴符箓之人的心意。"
-
     narrator "最后，则是阴阳家修士附赠传授的‘桃木为钉符’。"
-
     narrator "对于鬼魅阴物的凶戾本性，能够先天克制。"
-
     narrator "尽量恢复其清明神志。"
-
     narrator "至于那座为孱弱阴物提供‘立锥之地’的阵法。"
-
     narrator "则学自月钩岛地仙俞桧。"
-
     narrator "陈平安专门让人搬来一条巨大的书简湖水底青石。"
-
     narrator "削成青石板后，再刻以符字，嵌入地下。"
-
     narrator "铺成屋内地板。"
-
     narrator "除此之外，青石板附近的地底。"
-
     narrator "还埋有从别处岛屿购买而来的‘本命福德方土’。"
-
     narrator "依照方位，一一填埋。"
-
     narrator "陈平安每报出一个姓名与籍贯。"
-
     narrator "便有一个阴物走出阎王殿。"
-
     narrator "站在那块占据半间屋子的青色石板之上。"
-
     narrator "这九个阴物。"
-
     narrator "都来自当年青峡岛首席供奉与顾璨大师兄的两座府邸。"
-
     narrator "既有开襟小娘，也有府上杂役。"
-
     narrator "先前，陈平安已经通过鬼修秘法，成为这座阎王殿的暂时主人。"
-
     narrator "与此同时，他也曾分别进入阁楼各间屋子。"
-
     narrator "告诉那些阴物鬼魅。"
-
     narrator "他是谁。"
-
     narrator "与顾璨是什么关系。"
-
     narrator "为何要在青峡岛做这些事。"
-
     narrator "以及，将来又会如何去做。"
-
     narrator "陈平安缓缓开口。"
 
     cpa "你们有无临终遗愿？"
@@ -160,15 +101,10 @@
     cpa "我会尽力帮你们完成心愿。"
 
     narrator "书案之上，除了堆积成山的账本。"
-
     narrator "还有用来提神的养剑葫。"
-
     narrator "以及六个‘狐皮美人’符箓纸人。"
-
     narrator "那是清风城许氏精心打造之物。"
-
     narrator "可供阴物栖息其中，以纸人女子容貌，行走阳间。"
-
     narrator "陈平安停顿片刻。"
 
     cpa "如果追本溯源，我确实欠了你们。"
@@ -184,79 +120,49 @@
     cpa "所以，我会尽力。"
 
     narrator "没有谁率先开口。"
-
     narrator "屋内。"
-
     narrator "活人死人，一起陷入长久沉默。"
-
     narrator "那些阴物，不管此刻是什么情绪。"
-
     narrator "当他们望向那个坐在书案后的年轻人时。"
-
     narrator "冥冥之中。"
-
     narrator "仿佛从他身上，看见了各自不同的情绪。"
-
     narrator "如镜自照，悲欢相通。"
-
     narrator "忽然。"
-
     narrator "一个开襟小娘神色狰狞。"
 
     ghost_woman "我想你一命偿一命！"
-
     ghost_woman "你做得到吗？！"
 
     cpa "当然做不到。"
 
     ghost_woman "那你做什么假善人，伪君子？！"
-
     ghost_woman "你就该死！"
-
     ghost_woman "你就该跟顾璨那个杂种一起去死！"
-
     ghost_woman "挫骨扬灰，死无葬身之地！"
 
     narrator "陈平安只是静静看着她。"
-
     narrator "女子脸庞扭曲。"
-
     narrator "刻骨仇恨，骤然爆发。"
-
     narrator "她猛然冲向青石板外。"
-
     narrator "却像撞上一堵无形墙壁。"
-
     narrator "砰然倒飞出去。"
-
     narrator "她跌倒在地，又挣扎起身。"
-
     narrator "扑到那层无形屏障前，疯狂抓挠。"
 
     ghost_woman "我死了！"
-
     ghost_woman "你也不得好死！"
-
     ghost_woman "你在这里惺惺作态！"
-
     ghost_woman "你最该死！"
-
     ghost_woman "比顾璨更该死……"
 
     narrator "最后。"
-
     narrator "她瘫软在地，呜咽不止。"
-
     narrator "陈平安站起身。"
-
     narrator "青石板上，其余八个阴物几乎同时后退一步。"
-
     narrator "陈平安绕过书案。"
-
     narrator "来到青石板外，缓缓蹲下。"
 
     ghost_woman "我就是不想死。"
-
     ghost_woman "我就想活着。"
 
     cpa "没有。"
@@ -291,29 +197,19 @@
     narrator "白离草抹去眼泪。"
 
     ghost_woman "你可以随意处置我。"
-
     ghost_woman "但是顾璨不死，我就死不瞑目！"
-
     ghost_woman "生生死死，我都会记住他顾璨……"
-
     ghost_woman "还有你！"
-
     ghost_woman "你不是神通广大吗？！"
-
     ghost_woman "你不妨直接将我打得魂飞魄散！"
-
     ghost_woman "这样就能眼不见心不烦了！"
 
     narrator "陈平安只是轻轻摇头。"
-
     narrator "随后站起身。"
-
     narrator "一个同样出身开襟小娘的年轻阴物，小心翼翼开口。"
 
     ghost_girl "哪怕以阴物之身留在世上，我都愿意。"
-
     ghost_girl "再就是……"
-
     ghost_girl "以后可以不用遭受神魂煎熬的痛楚吗？"
 
     cpa "可以。"
@@ -321,17 +217,12 @@
     cpa "想到了，也可以告诉我。"
 
     narrator "年轻女子顿时雀跃起来。"
-
     narrator "她姿容婉约，朝陈平安施了个万福。"
-
     narrator "又有一个神色冷漠的女子阴物。"
-
     narrator "抬手指向桌上的阎王殿。"
 
     ghost_cold "我想投胎转世。"
-
     ghost_cold "再也不用被拘押在这种鬼地方。"
-
     ghost_cold "做得到吗？"
 
     cpa "放你去转世，当然不难。"
@@ -367,37 +258,22 @@
     cpa "对不起。"
 
     narrator "她没有说话。"
-
     narrator "只是低头哭泣。"
-
     narrator "这时。"
-
     narrator "一个始终最惊恐慌张的中年杂役男子，颤声开口。"
 
     ghost_man "神仙老爷。"
-
     ghost_man "我叫贾高。"
-
     ghost_man "不晓得小人的名字也没关系，更不用记。"
-
     ghost_man "我就是想……"
-
     ghost_man "能够去我爹娘坟头上柱香。"
-
     ghost_man "只是有些远。"
-
     ghost_man "不在石毫国。"
-
     ghost_man "是在朱荧王朝的藩属小国，春华国。"
-
     ghost_man "若是神仙嫌麻烦，便算了。"
-
     ghost_man "我只要神仙老爷真能开办周天大醮和水陆道场。"
-
     ghost_man "再帮着咱们积攒些阴德。"
-
     ghost_man "顺顺利利投胎转世。"
-
     ghost_man "我就不怨那顾璨了。"
 
     cpa "我知道你的籍贯。"
@@ -407,15 +283,11 @@
     narrator "贾高顿时泣不成声。"
 
     ghost_man "上坟的开销……"
-
     ghost_man "就有劳神仙老爷破费了。"
-
     ghost_man "只能下辈子有机会，再还。"
 
     narrator "陈平安转身拿起养剑葫。"
-
     narrator "他仰头喝了一大口酒。"
-
     narrator "这才重新走回原处。"
 
     cpa "就这样吗？"
@@ -426,76 +298,47 @@
     ghost_man "足够了！"
 
     narrator "陈平安嘴唇微动。"
-
     narrator "他绷着脸色，没有说话。"
-
     narrator "突然。"
-
     narrator "又有阴物搓手而笑。"
-
     narrator "是个壮年男子。"
 
     zy1 "神仙老爷。"
-
     zy1 "我不求投胎。"
-
     zy1 "也不敢让神仙老爷做那些费劲事情。"
-
     zy1 "就是有一个小小心愿。"
-
     zy1 "既不花费神仙老爷一枚雪花钱。"
-
     zy1 "也不会让神仙老爷分半点心。"
 
     narrator "陈平安眯起眼。"
-
     narrator "面无表情。"
 
     cpa "赵史。"
     cpa "说说看。"
 
     narrator "那个曾经的春庭府小管事。"
-
     narrator "瞥了眼身边几个开襟小娘阴物。"
-
     narrator "咧嘴而笑。"
 
     zy1 "小的唯一心愿。"
-
     zy1 "就是想着能够在神仙老爷那座仙家府邸里边，一直待着。"
-
     zy1 "然后呢。"
-
     zy1 "还能像活着的时候那样。"
-
     zy1 "手底下继续管着几个开襟小娘。"
-
     zy1 "如今嘛。"
-
     zy1 "稍微多想一些。"
-
     zy1 "想着可以去她们住处串串门。"
-
     zy1 "做点……男人的事情。"
-
     zy1 "活着的时候，只能偷瞧几眼。"
-
     zy1 "都不敢过足眼瘾。"
-
     zy1 "今儿恳请神仙老爷开恩。"
-
     zy1 "行不行？"
-
     zy1 "若是不行的话……"
-
     zy1 "我便真是死不瞑目了。"
 
     narrator "名为白离草的少女。"
-
     narrator "满脸冷笑。"
-
     narrator "陈平安点了点头。"
-
     narrator "轻轻扯了扯嘴角。"
 
     cpa "行啊。"
@@ -504,7 +347,6 @@
     zy1 "神仙老爷英明！"
 
     narrator "陈平安甚至没有去翻那本账册。"
-
     narrator "只是缓缓开口。"
 
     cpa "赵史。"
@@ -527,32 +369,23 @@
     zy1 "让神仙老爷笑话了。"
 
     narrator "下一刻。"
-
     narrator "陈平安一步跨入青石板。"
-
     narrator "伸手攥住赵史脖颈。"
-
     narrator "面无表情。"
 
     cpa "笑话？"
     cpa "我不觉得好笑。"
 
     narrator "赵史被五指掐住脖子。"
-
     narrator "仿佛坠入滚油锅中。"
-
     narrator "发出凄厉惨叫。"
 
     zy1 "陈平安！"
-
     zy1 "你说话不算话！"
-
     zy1 "我诅咒你——"
 
     narrator "陈平安抬起手臂。"
-
     narrator "将其悬在半空。"
-
     narrator "不给他继续开口的机会。"
 
     cpa "算话啊。"
@@ -571,35 +404,20 @@
     cpa "她叫魏青玉。"
 
     narrator "下一刻。"
-
     narrator "赵史阴魂轰然炸碎。"
-
     narrator "灰飞烟灭。"
-
     narrator "陈平安退出青石板。"
-
     narrator "轻轻咳嗽了几声。"
-
     narrator "随后走回书案之后。"
-
     narrator "望向青石板。"
-
     narrator "其中一男一女两个阴物。"
-
     narrator "原本分别窃喜与狐疑。"
-
     narrator "此时此刻。"
-
     narrator "却不知为何。"
-
     narrator "已经开始跪地磕头。"
-
     narrator "一个时辰后。"
-
     narrator "陈平安推开屋门，走了出来。"
-
     narrator "曾掖早已等在门口。"
-
     narrator "少年转头望见陈平安，顿时满脸惊喜。"
 
     zy "陈先生，下雪了！"
@@ -607,109 +425,62 @@
     zy "这是咱们书简湖今年的头一场大雪！"
 
     narrator "只是很快。"
-
     narrator "曾掖便闭上了嘴。"
-
     narrator "神色有些悻悻然。"
-
     narrator "对于陈先生这样的山上大修士而言。"
-
     narrator "人间下不下雪。"
-
     narrator "又有什么意义？"
-
     narrator "陈平安抬起头。"
-
     narrator "双手笼袖。"
-
     narrator "冬至这天。"
-
     narrator "按照家乡习俗，春庭府包了饺子。"
-
     narrator "前一天。"
-
     narrator "小泥鳅终于压下伤势，得以重返岸上。"
-
     narrator "今天又被顾璨打发来喊陈平安去春庭府吃饺子。"
-
     narrator "说话的时候。"
-
     narrator "顾璨与娘亲正在灶房忙碌。"
-
     narrator "如今春庭府的灶房。"
-
     narrator "比泥瓶巷那两间祖宅加起来，还要大。"
-
     narrator "炭雪一路前往山门。"
-
     narrator "心中其实也很好奇。"
-
     narrator "顾璨说，陈平安要交给她一样东西。"
-
     narrator "到底是什么？"
-
     narrator "听说最近这一旬。"
-
     narrator "陈平安深居简出，几乎足不出户。"
-
     narrator "偶尔露面。"
-
     narrator "也只是看看大雪封湖的景色。"
-
     narrator "与之前四处游逛书简湖时，大不相同。"
-
     narrator "她还是有些怕陈平安。"
-
     narrator "最开始在池水城重逢。"
-
     narrator "那是涉及大道根本的本能敬畏。"
-
     narrator "后来陈平安与刘老成一战。"
-
     narrator "她就更怕了。"
-
     narrator "只是与此同时。"
-
     narrator "她又由衷喜欢顾璨这个主人。"
-
     narrator "甚至一直庆幸。"
-
     narrator "当年陈平安将自己转赠给了顾璨。"
-
     narrator "因为如今在陈平安身边。"
-
     narrator "她会拘谨。"
-
     narrator "炭雪来到屋外，轻轻敲门。"
 
     cpa "门没闩，进来吧。"
     cpa "小心别踩坏了青石板。"
 
     narrator "她推开屋门。"
-
     narrator "门外积蓄已久的寒气，顿时涌入屋内。"
-
     narrator "起初她并未在意。"
-
     narrator "对于天寒地冻。"
-
     narrator "她天生亲近喜欢。"
-
     narrator "只是当她看见书案后那个脸色惨白的陈平安开始咳嗽时。"
-
     narrator "立即反手关上屋门。"
-
     narrator "绕过那块巨大的青石板。"
-
     narrator "小心翼翼站在书案附近。"
 
     tx "先生。"
     tx "顾璨让我来喊你去春庭府吃饺子。"
 
     narrator "陈平安已经停笔。"
-
     narrator "膝上放着一只竹编铜胆炭笼。"
-
     narrator "正借着炭火驱寒。"
 
     cpa "我就不去了。"
@@ -721,9 +492,7 @@
     cpa "算了。"
 
     narrator "炭雪还想说什么。"
-
     narrator "只是看到陈平安那双眼睛后。"
-
     narrator "便立即打消了念头。"
 
     cpa "知道为什么给你取名炭雪吗？"
@@ -752,7 +521,6 @@
     tx "听顾璨娘亲随口提起过。"
 
     narrator "陈平安终于抬起头。"
-
     narrator "露出一丝笑意。"
 
     cpa "脾气跟顾璨一样。"
@@ -760,9 +528,7 @@
     cpa "是跟婶婶学的？"
 
     narrator "炭雪默不作声。"
-
     narrator "睫毛微颤。"
-
     narrator "楚楚可怜。"
 
     cpa "我在顾璨那边。"
@@ -774,39 +540,22 @@
     cpa "小泥鳅。"
 
     narrator "炭雪缓缓抬头。"
-
     narrator "那双金黄色竖瞳。"
-
     narrator "死死盯住书案后的年轻账房。"
-
     narrator "屋内杀气骤重。"
-
     narrator "以至于门外风雪呼啸。"
-
     narrator "她如今虽然虚弱。"
-
     narrator "可眼前这个病秧子，又好到哪里去？"
-
     narrator "一旦涉及大道与生死。"
-
     narrator "她绝不会有丝毫犹豫。"
-
     narrator "在那之外。"
-
     narrator "她甚至愿意为陈平安鞍前马后。"
-
     narrator "百依百顺。"
-
     narrator "只是。"
-
     narrator "她与顾璨。"
-
     narrator "本就是天生投缘，大道契合。"
-
     narrator "陈平安轻轻咳嗽。"
-
     narrator "手腕一抖。"
-
     narrator "一根金色绳索落在桌上。"
 
     cpa "怎么？"
@@ -814,9 +563,7 @@
     cpa "不如看看你同类的下场？"
 
     narrator "陈平安放下刻刀。"
-
     narrator "拿起那根缚妖索。"
-
     narrator "缓缓绕出书案。"
 
     cpa "当然不是我亲手杀的。"
@@ -851,17 +598,11 @@
     cpa "以此作为豪赌一场、冲击玉璞境的立身之本？"
 
     narrator "炭雪满脸怒容。"
-
     narrator "浑身颤抖。"
-
     narrator "她很想一爪剖开眼前这个病秧子的胸膛。"
-
     narrator "只是。"
-
     narrator "她不敢。"
-
     narrator "陈平安伸出手。"
-
     narrator "一指狠狠戳在她额头。"
 
     cpa "多大的碗。"
@@ -870,29 +611,22 @@
     cpa "真不怕撑死你？！"
 
     narrator "其中一个很重要的原因。"
-
     narrator "是墙壁上挂着的那把半仙兵。"
-
     narrator "除此之外。"
-
     narrator "她还在陈平安身上，察觉到一丝天然压胜的古怪气息。"
-
     narrator "陈平安一次次戳着她额头。"
 
     cpa "就连怎么当一个聪明坏人都不会。"
     cpa "还真以为自己能活得长久？！"
 
     narrator "陈平安终于收回手。"
-
     narrator "咳嗽不止。"
 
     cpa "你只见过一个刘老成。"
     cpa "就差点死了。"
 
     narrator "炭雪恼羞成怒。"
-
     narrator "那双金色竖瞳中的杀意，越来越浓。"
-
     narrator "她甚至懒得掩饰。"
 
     cpa "到底为什么。"
@@ -949,9 +683,7 @@
     tx "没什么两样。"
 
     narrator "陈平安随手将缚妖索丢回桌上。"
-
     narrator "双手掌心贴拢。"
-
     narrator "竟也笑了。"
 
     cpa "这就对了。"
@@ -969,28 +701,19 @@
     tx "干脆一鼓作气，直接转入魔道？"
 
     narrator "陈平安笑了。"
-
     narrator "是真觉得这些话有点意思。"
-
     narrator "甚至又让他多看到了一种可能性。"
-
     narrator "于是。"
-
     narrator "屋内那股剑拔弩张的气氛，也随之淡去几分。"
-
     narrator "陈平安伸手，示意炭雪坐下。"
-
     narrator "自己则转身走向书案。"
-
     narrator "后背就这样毫无防备地留给了她。"
 
     tx "既然陈先生是喜欢讲规矩的读书人。"
     tx "那我站着说话就好了。"
 
     narrator "陈平安重新坐回椅子。"
-
     narrator "抱着炭笼取暖。"
-
     narrator "搓了搓手，又呵了口热气。"
 
     cpa "与你说件小事。"
@@ -1038,14 +761,12 @@
     cpa "怎么做一个聪明些的好人。"
 
     narrator "炭雪沉默许久。"
-
     narrator "咬紧嘴唇。"
 
     tx "陈平安。"
     tx "你不要逼我今天就杀了你！"
 
     narrator "陈平安微微偏头。"
-
     narrator "笑着反问。"
 
     cpa "为什么要杀我？"
@@ -1143,9 +864,7 @@
     cpa "你们吃屎上瘾了吧？"
 
     narrator "年轻的账房先生语速不快。"
-
     narrator "虽然言语有疑问，可语气几乎没有起伏。"
-
     narrator "依旧像是在说一个小小的笑话。"
 
     tx "陈先生有本事，"
@@ -1175,50 +894,33 @@
     cpa "拿着。"
 
     narrator "是那块篆刻有“吾善养浩然气”的玉牌。"
-
     narrator "炭雪皱了皱眉头。"
-
     narrator "心意微动，没有伸手去接那块“火炭”。"
-
     narrator "只是将其悬停在身前，一脸疑惑。"
-
     narrator "骤然之间，炭雪心中一悚。"
-
     narrator "果不其然。"
-
     narrator "地面上那块青石板出现微妙异象。"
-
     narrator "不仅如此。"
-
     narrator "那根缚妖索一闪而逝，缠绕向她的腰肢。"
 
     tx "……"
 
     narrator "她冷笑不已。"
-
     narrator "然后遍体生寒。"
-
     narrator "低头望去，抬头看去。"
-
     narrator "一根极其纤细的金线，"
     narrator "从墙壁那边一直蔓延到她心口之前。"
-
     narrator "然后有一把锋芒无匹的半仙兵，"
     narrator "从她身躯贯穿而过。"
-
     narrator "陈平安伸手掏出一只瓷瓶。"
-
     narrator "倒出一颗水殿秘藏的丹丸，吞咽而下。"
-
     narrator "然后将瓷瓶轻轻搁在桌上。"
-
     narrator "他先在嘴边竖起手指。"
 
     cpa "劝你别出声。"
     cpa "不然立即死。"
 
     narrator "陈平安对于她的惨状，无动于衷。"
-
     narrator "只是默默消化、汲取那颗丹药的灵气。"
 
     cpa "我一直在等你能登岸。"
@@ -1242,11 +944,8 @@
     cpa "你真是会死的。"
 
     narrator "陈平安站起身，绕过书案。"
-
     narrator "他一招手，驾驭那块玉牌从地上飞起，轻轻握在手中。"
-
     narrator "他似乎根本不怕那条泥鳅的垂死挣扎和临死反扑。"
-
     narrator "就那么直接走到她身前几步外，笑问道。"
 
     cpa "元婴境界的空架子。"
@@ -1274,13 +973,9 @@
     cpa "白白让这个世道亏欠自己。"
 
     narrator "陈平安伸出一只手。"
-
     narrator "却不是握住那把剑仙。"
-
     narrator "而是以掌心抵住剑柄。"
-
     narrator "一点一点，一寸一寸，往前推去。"
-
     narrator "剑身不断向前。"
 
     cpa "其实我吃了那颗丹药，"
@@ -1314,15 +1009,10 @@
     cpa "你也有道理要讲？"
 
     narrator "陈平安收起那个动作，站直身体。"
-
     narrator "然后一推剑柄。"
-
     narrator "炭雪随之踉跄后退，背靠屋门。"
-
     narrator "剑仙的剑尖早已穿透屋门。"
-
     narrator "将她就这么死死地钉在门上。"
-
     narrator "陈平安双手笼袖，笑了笑。"
 
     cpa "但是你问过我，"
@@ -1346,11 +1036,8 @@
     cpa "想要找回点场子？"
 
     narrator "她唯有默然，满心悲苦。"
-
     narrator "难道真是自己错了？"
-
     narrator "那么错在哪里？"
-
     narrator "似乎看穿了她的心思，陈平安说道。"
 
     cpa "如果我说，"
@@ -1419,14 +1106,12 @@
     cpa "因为你没有这个。"
 
     narrator "炭雪紧贴门板处的背部传来一阵滚烫。"
-
     narrator "她骤然间醒悟。"
 
     tx "那道符箓……"
     tx "给你刻写在了门上！"
 
     narrator "陈平安伸出食指，竖于双唇前。"
-
     narrator "示意她说话的时候不要嗓门太大。"
 
     cpa "是不是很奇怪？"
@@ -1458,7 +1143,6 @@
     cpa "与你不亲近。"
 
     narrator "言语之间。"
-
     narrator "陈平安从咫尺物当中，"
     narrator "拈出两张金色材质的符箓。"
 
@@ -1474,17 +1158,11 @@
     cpa "是你无法想象的。"
 
     narrator "飞剑初一和十五从养剑葫中飞掠而出。"
-
     narrator "剑尖分别刺中两张符箓符胆。"
-
     narrator "灵光乍放。"
-
     narrator "宛如两只光辉温煦的炭笼。"
-
     narrator "两把飞剑。"
-
     narrator "一把悬停在炭雪眉心处的阙中穴。"
-
     narrator "一把悬停在炭雪腹部气海外。"
 
     cpa "别介意。"
@@ -1496,50 +1174,32 @@
     cpa "省得你觉得我又在诈你。"
 
     narrator "陈平安向前跨出几步。"
-
     narrator "竟是完全无视被钉死在门板上的她。"
-
     narrator "轻轻打开门。"
 
     cpa "让真君久等了。"
 
     narrator "原来截江真君刘志茂，"
     narrator "早已立雪于门外。"
-
     narrator "陈平安侧过身。"
 
     cpa "真君屋里坐。"
 
     narrator "刘志茂心中叹息一声。"
-
     narrator "面带笑意，大步走入其中。"
-
     narrator "绕过那块青石板，坐在桌旁。"
-
     narrator "陈平安重新关上门。"
-
     narrator "虽然开门和关门的动作都不大。"
-
     narrator "可怜炭雪被一把剑仙穿透。"
-
     narrator "如坠冰窟。"
-
     narrator "再被那道写在门板上的符箓压制。"
-
     narrator "又如同置身于煮沸油锅中。"
-
     narrator "既是雪上加霜。"
-
     narrator "又是火上加油。"
-
     narrator "让她痛不欲生。"
-
     narrator "陈平安再次与刘志茂相对而坐。"
-
     narrator "刘志茂也再次拿出那只白碗。"
-
     narrator "放在桌上，轻轻一推。"
-
     narrator "显然是又要讨酒喝了。"
 
     lzm "有陈先生这样的客人。"
@@ -1547,15 +1207,10 @@
     lzm "人生幸事也。"
 
     narrator "陈平安一招手。"
-
     narrator "养剑葫被驭入手中。"
-
     narrator "这次不比第一次。"
-
     narrator "陈平安十分豪爽。"
-
     narrator "给白碗倒满了仙家乌啼酒。"
-
     narrator "却没有立即回推过去。"
 
     cpa "想好了？"
@@ -1592,25 +1247,15 @@
     lzm "是一虚一实。"
 
     narrator "刘志茂停顿片刻。"
-
     narrator "见陈平安仍是安安静静等着下文的神态。"
-
     narrator "又有些唏嘘。"
-
     narrator "其实陈平安只凭“一虚一实”四字。"
-
     narrator "就知道大致真相了。"
-
     narrator "可仍是不会多说一个字。"
-
     narrator "就是可以等。"
-
     narrator "就是愿意熬和慢。"
-
     narrator "这种细微处的心性之妙。"
-
     narrator "只有刘志茂这种修为、心性足够高的老修士。"
-
     narrator "大概才会理解。"
 
     lzm "大骊是希望我能够维持虚的江湖君主身份。"
@@ -1642,149 +1287,77 @@
     lzm "简直就是贻笑大方。"
 
     narrator "陈平安皱了皱眉头。"
-
     narrator "暂时想不通其中关节。"
-
     narrator "因为他根本不知道。"
-
     narrator "玉圭宗荀渊的谋划。"
-
     narrator "下宗选址书简湖。"
-
     narrator "以及荀渊与刘老成之间的结盟关系。"
-
     narrator "更猜不到。"
-
     narrator "姜尚真这位手握云窟福地的“老熟人”。"
-
     narrator "即将成为下宗的首任宗主。"
-
     narrator "作为玉圭宗的下宗。"
-
     narrator "必然是囊括整座书简湖都还嫌小。"
-
     narrator "说不定连朱荧王朝在书简湖附近的周边藩属。"
-
     narrator "例如石毫国在内。"
-
     narrator "都要划入下宗辖境。"
-
     narrator "陈平安沉默不语。"
-
     narrator "这个消息，好坏参半。"
-
     narrator "好的是。"
-
     narrator "刘志茂与自己开价的底气。"
-
     narrator "跌落谷底。"
-
     narrator "坐镇宫柳岛的刘老成如此硬气。"
-
     narrator "青峡岛春庭府那边。"
-
     narrator "以及朱弦府。"
-
     narrator "刘志茂跟陈平安坐地起价的东西。"
-
     narrator "分量会越来越轻。"
-
     narrator "坏的是。"
-
     narrator "这意味着想要做成心中事情。"
-
     narrator "陈平安需要在大骊那边付出更多。"
-
     narrator "甚至陈平安开始怀疑。"
-
     narrator "一个粒粟岛谭元仪。"
-
     narrator "够不够资格影响到大骊中枢的策略。"
-
     narrator "能不能以大骊宋氏在书简湖代言人的身份。"
-
     narrator "与自己谈买卖。"
-
     narrator "一旦谭元仪嗓门不够大。"
-
     narrator "陈平安在此人身上耗费的精力。"
-
     narrator "就会打水漂。"
-
     narrator "更怕谭元仪因功升迁。"
-
     narrator "去了大骊别处。"
-
     narrator "书简湖换了新的大骊话事人。"
-
     narrator "陈平安与谭元仪结下的那点“香火情”。"
-
     narrator "反而会坏事。"
-
     narrator "最怕的是。"
-
     narrator "谭元仪被刘老成横插一脚。"
-
     narrator "导致书简湖形势变化。"
-
     narrator "要知道。"
-
     narrator "书简湖的最终归属。"
-
     narrator "真正最大的功臣。"
-
     narrator "从来不是什么粒粟岛。"
-
     narrator "而是朱荧王朝边境上的那支大骊铁骑。"
-
     narrator "是这支铁骑的势如破竹。"
-
     narrator "决定了书简湖的姓氏。"
-
     narrator "一旦谭元仪被大骊那些上柱国姓氏。"
-
     narrator "在庙堂上盖棺论定。"
-
     narrator "认为他办事不力。"
-
     narrator "那么陈平安就根本不用去粒粟岛了。"
-
     narrator "因为谭元仪已经自身难保。"
-
     narrator "说不定还会将他陈平安当作救命稻草。"
-
     narrator "死死攥紧。"
-
     narrator "死都不放手。"
-
     narrator "希冀着以此作为死地求生的最后本钱。"
-
     narrator "那个时候的谭元仪。"
-
     narrator "一个能够一夜之间决定青冢、天姥两座大岛命运的地仙修士。"
-
     narrator "会变得更加可怕。"
-
     narrator "更加不择手段。"
-
     narrator "道理再简单不过。"
-
     narrator "此刻炭雪会被陈平安钉死在屋门上。"
-
     narrator "陈平安同样有可能。"
-
     narrator "会沦落为下一个炭雪。"
-
     narrator "这才是真正的行走江湖。"
-
     narrator "生死自负。"
-
     narrator "刘志茂一直耐心等待陈平安开口。"
-
     narrator "没有打断这个账房先生的沉思。"
-
     narrator "良久之后。"
-
     narrator "陈平安终于开口。"
 
     cpa "劳烦真君请动谭元仪。"
@@ -1823,24 +1396,17 @@
     lzm "可以！"
 
     narrator "陈平安似乎有些讶异。"
-
     narrator "刘志茂摊开一只手掌。"
-
     narrator "陈平安微微一笑。"
-
     narrator "将那只装满酒的白碗推向刘志茂。"
-
     narrator "刘志茂端起酒碗，喝了一口。"
 
     lzm "陈先生是我在书简湖的唯一知己。"
     lzm "我自然要拿出些诚意。"
 
     narrator "刘志茂转头看了眼那条小泥鳅。"
-
     narrator "收回视线后。"
-
     narrator "伸出一根手指。"
-
     narrator "点了点自己脑袋。"
 
     lzm "这玩意。"
@@ -1853,29 +1419,17 @@
     lzm "还说不是知己？"
 
     narrator "可是她看到刘志茂走进来、坐下来。"
-
     narrator "身为青峡岛主人。"
-
     narrator "但是连喝不喝得成一碗酒。"
-
     narrator "都得陈平安这个客人先点头答应。"
-
     narrator "并且总算拿回了酒碗。"
-
     narrator "喝成了酒。"
-
     narrator "还挺开心。"
-
     narrator "一位连她都很忌惮的元婴老修士。"
-
     narrator "竟然以“知己”形容那个还不到二十岁的年轻人。"
-
     narrator "她才真正承认。"
-
     narrator "自己面对陈平安。"
-
     narrator "是真的不够聪明。"
-
     narrator "陈平安指了指炭雪。"
 
     cpa "大骊国师会喜欢这副元婴境蛟龙的遗蜕。"
@@ -1893,7 +1447,6 @@
     lzm "陈先生真舍得这条畜生？"
 
     narrator "陈平安拿起养剑葫，喝了一口酒。"
-
     narrator "他指了指炭雪。"
 
     cpa "我给了她很多次机会。"
@@ -1919,13 +1472,11 @@
     lzm "莫不是在“观道”与“合道”？"
 
     narrator "陈平安喝了口酒。"
-
     narrator "像是在开玩笑。"
 
     cpa "原来真君真是知己。"
 
     narrator "刘志茂郑重其事地放下酒碗。"
-
     narrator "抱拳以对。"
 
     lzm "你我大道不同。"
@@ -1956,17 +1507,11 @@
     cpa "一起吃顿我们家乡的冬至饺子。"
 
     narrator "半仙兵。"
-
     narrator "两把本命飞剑。"
-
     narrator "三张斩锁符。"
-
     narrator "都是咱们书简湖的极好道理。"
-
     narrator "实在得很。"
-
     narrator "陈平安看也不看她。"
-
     narrator "只是对刘志茂说道。"
 
     cpa "去的路上。"
@@ -1983,33 +1528,19 @@
     cpa "就不来吃饺子了。"
 
     narrator "一顿饺子吃完。"
-
     narrator "陈平安放下筷子。"
-
     narrator "说饱了。"
-
     narrator "与妇人道了一声谢。"
-
     narrator "刘志茂便也放下筷子。"
-
     narrator "二人联袂离开。"
-
     narrator "之后。"
-
     narrator "两人分道扬镳。"
-
     narrator "刘志茂先返回横波府。"
-
     narrator "再悄然返回春庭府。"
-
     narrator "陈平安则独自返回屋子。"
-
     narrator "风雪夜归人。"
-
     narrator "剑仙的剑尖还在门上。"
-
     narrator "陈平安打开门，进了屋子。"
-
     narrator "炭雪开口说了第一句话。"
 
     tx "我不想死。"
@@ -2017,25 +1548,15 @@
     cpa "这就是你的道理？"
 
     narrator "陈平安没有再理睬她。"
-
     narrator "在书案和桌上点燃两盏灯火。"
-
     narrator "从竹箱里搬出那座“下狱”阎王殿。"
-
     narrator "放在桌上。"
-
     narrator "继续做着这大半个月来的事情。"
-
     narrator "她就一直被钉死在门上。"
-
     narrator "等到后半夜。"
-
     narrator "精疲力尽的陈平安喝酒提神后。"
-
     narrator "收起了那座阎王殿，放回竹箱。"
-
     narrator "陈平安望着岛上大雪满山的冷寂景色。"
-
     narrator "轻声道。"
 
     cpa "四页账本。"
@@ -2062,9 +1583,7 @@
     cpa "就是春庭府忘恩负义的仇人了。"
 
     narrator "她满脸泪水。"
-
     narrator "道心几近崩溃。"
-
     narrator "反复呢喃。"
 
     tx "陈平安。"
@@ -2074,47 +1593,28 @@
     cpa "你只是知道自己要死了。"
 
     narrator "风雪夜中，又有客至。"
-
     narrator "一位身穿墨青色蟒袍的少年飞奔而来。"
-
     narrator "跪在门外雪地里。"
-
     narrator "陈平安持剑横扫。"
-
     narrator "将她一分为二。"
-
     narrator "门外剑仙的金色剑尖。"
-
     narrator "横移出一段距离后。"
-
     narrator "依旧没有被持剑之人拔出。"
-
     narrator "然后屋门被打开。"
-
     narrator "陈平安站在门口。"
 
     cpa "顾璨。"
 
     narrator "顾璨抬起头。"
-
     narrator "无声而哭。"
-
     narrator "这是他离开家乡。"
-
     narrator "在书简湖这些年。"
-
     narrator "第一次哭得像当年泥瓶巷那个小鼻涕虫。"
-
     narrator "顾璨就这么一直哭到身体抽搐。"
-
     narrator "哭到没了力气。"
-
     narrator "开始呜咽。"
-
     narrator "待攒出些气力。"
-
     narrator "又开始干号。"
-
     narrator "像是把所有心气都给哭没了。"
 
     cpa "为什么不跟我求情？"
@@ -2123,19 +1623,12 @@
     cpa "我们最后一点藕断丝连，也就没了？"
 
     narrator "陈平安叹了口气。"
-
     narrator "走到顾璨身前。"
-
     narrator "脚踩积雪。"
-
     narrator "每一步都发出吱呀声响。"
-
     narrator "他弯腰递过去手中的炭笼。"
-
     narrator "顾璨不接。"
-
     narrator "陈平安蹲下身。"
-
     narrator "面对面看着顾璨。"
 
     cpa "小鼻涕虫。"
@@ -2144,18 +1637,14 @@
     cpa "我都听着。"
 
     narrator "顾璨抓起一大把雪。"
-
     narrator "转过头去，往脸上糊了糊。"
-
     narrator "这才转回头。"
-
     narrator "哽咽道。"
 
     gc "陈平安。"
     gc "你是最坏的人！"
 
     narrator "陈平安哑然失笑。"
-
     narrator "犹豫片刻后说道。"
 
     cpa "在你们书简湖。"
@@ -2176,17 +1665,11 @@
     cpa "你回去吧。"
 
     narrator "顾璨一拳打在陈平安胸膛。"
-
     narrator "打得陈平安跌坐在雪地里。"
-
     narrator "顾璨站起身，踉跄跑走。"
-
     narrator "跑出去十数步后。"
-
     narrator "顾璨停下脚步。"
-
     narrator "没有转身。"
-
     narrator "只是抽泣道。"
 
     gc "陈平安。"

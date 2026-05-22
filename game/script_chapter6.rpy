@@ -86,7 +86,6 @@ label chapter6_start:
     narrator "在那个人到来后，变得妩媚可爱了起来。"
     narrator "如果哪天陈平安不生气了，还愿意留在他的新家里。"
     narrator "那么这里肯定就是天底下最风光秀美的地方了。"
-
     narrator "顾璨坐下后，开门见山。"
 
     gc "陈平安，我大致知道你为什么生气了。"
@@ -200,7 +199,6 @@ label chapter6_start:
     narrator "读过多少书，就敢说这个世道就是这样的？"
     narrator "见过多少人，就敢说男人女人都是这般德行？"
     narrator "亲眼见过多少太平和苦难，才敢断言他人的善恶？"
-
     narrator "陈平安提笔写字。"
     narrator "在两张纸上已经分别写了‘分先后’‘审大小’。"
     narrator "两张并排放着，并没有去拿出第三张纸写‘定善恶’。"
@@ -269,7 +267,6 @@ label chapter6_start:
     narrator "陈平安写完之后，神色憔悴。"
     narrator "便拿起养剑葫喝了一口酒，帮着提神。"
     narrator "然后在‘一地乡俗’之后，又写下‘书简湖’三个字。"
-
     narrator "顾璨坐在桌旁，单手托着腮帮子。"
     narrator "让三个开襟小娘站成一排。"
 
@@ -364,7 +361,6 @@ label chapter6_start:
 
     narrator "小泥鳅身体前倾，伸出一根手指。"
     narrator "轻轻抚平顾璨紧皱的眉头。"
-
     narrator "拂晓时分，天边渐渐泛起鱼肚白。"
     narrator "一宿没睡的陈平安离开屋子，走出府邸，想要出去散散步。"
     narrator "一袭墨青色蟒袍的顾璨很快追上来。"
@@ -397,7 +393,6 @@ label chapter6_start:
 
     narrator "说到这里，陈平安走出白玉石板小路，往湖边走去。"
     narrator "顾璨紧随其后。"
-
     narrator "陈平安蹲下身，以树枝作笔，在地上画了一个圈。"
 
     cpa "我与你说一个我瞎琢磨想出来的道理，还不完善。"
@@ -408,7 +403,6 @@ label chapter6_start:
     gc "我为啥在书简湖就没有遇到好朋友。"
 
     narrator "顾璨恨不得陈平安在天底下只有他一个朋友。"
-
     narrator "陈平安笑了笑，在所画小圆圈里边写了两个字。"
     narrator "贤人。"
 
@@ -550,7 +544,6 @@ label chapter6_start:
     narrator "好像陈平安没有昨天那么生气和伤心了。"
     narrator "但是陈平安好像更加失望了。"
     narrator "可又不是对他顾璨。"
-
     narrator "这天夜里，顾璨发现陈平安屋内还是灯火依旧，便去敲门。"
     narrator "陈平安绕过书案，走到正厅桌旁。"
 
