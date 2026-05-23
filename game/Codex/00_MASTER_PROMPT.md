@@ -11,6 +11,8 @@ Codex 进入本工程后，默认先读取根目录 `README.md`。
 3. `Codex/01_FIRST_PLAYABLE.md`
 4. 与任务直接相关的 `.rpy`、美术、音频或数据文件
 
+其中 `Codex/01_FIRST_PLAYABLE.md` 只负责定义“第一版可玩原型”的目标、范围、验收与测试流程；通用规则以本文档为准。
+
 如果用户明确指定额外文件，则以用户指定文件为准，并在发现路径不存在时说明实际情况。
 
 ## 项目定位
@@ -39,17 +41,23 @@ Codex 进入本工程后，默认先读取根目录 `README.md`。
 
 ## 长会话工作策略
 
-长会话中要优先节省上下文、减少无效输出、保持工作区干净。
+Codex can get dumber and slower on long sessions.
 
-- `Process_narration=false`：默认减少冗长过程叙述，只保留必要进度、关键判断、阻塞点和最终结果。
-- Measure twice, cut once：每个任务先快速列出任务清单和验证点，再修改文件。先读清楚，再动手。
-- 可以编排时，采用 orchestrator 思路：把调研、执行、验证拆成清晰子任务；当用户明确允许或任务明确需要并行 agents 时，再使用并行 agents 承担研究和执行工作。
-- 使用 agents 时，必须给每个 agent 写清楚目标、输入、边界、产出格式和验收标准；主线程负责审阅、整合、反馈和继续派发任务。
-- 不为了“显得在工作”而输出大段计划。计划服务执行，执行后必须验证。
-- 保持代码库整洁：不创建无意义临时文件、死文件、死代码、无必要目录或多层子目录。
-- 临时分析优先使用终端输出、缓存或工具上下文，不把一次性草稿落到项目目录。
-- 如果必须新增文件，先确认它属于现有结构；不确定时优先更新现有文档，而不是新建更多文件。
-- 完成后检查新增/修改文件是否必要，清理无用产物。
+Here's the fix:
+
+1. Run Process_narration=false
+
+This will stop Codex from showing you all the planning steps, resulting in saving a lot of output tokens.
+
+2. Prompt: "Act as an orchestrator. Use parallel agents to do the research and execution work. Write detailed tasks for each parallel agent and force them to act, iterate, get their tasks done, and bring back an in-depth report. Your job is to deeply analyze the agents' work, provide feedback, and provide them with continuous tasks."
+
+This prompt offloads the majority of the context-burning work to agents, and each agent has its own context window. So you can utilize 5 agents (5 context windows).
+
+3. Add this hard rule: "Measure twice, cut once policy."
+
+Debugging and patching is messy work. Force Codex to plan first, act after (don't use plan mode; it's just overcomplicated). Ask it to make a task list for every task so it can track progress and iterate better.
+
+4. Add this hard rule: "Keep the codebase clean, no tmp files, no dead code, no dead files. Stay organized all the time. No unnecessary folders, subfolders, or files."
 
 ## 每次任务交付
 
