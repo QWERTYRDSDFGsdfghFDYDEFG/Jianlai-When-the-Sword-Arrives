@@ -119,6 +119,17 @@ default preferences.text_cps = 0
 
 default preferences.afm_time = 15
 
+## 语音在点击推进对话时是否继续播放（不被立即打断）。
+## 你的配音文件往往覆盖多句台词（1 个 voice 对应多句 say），建议默认开启。
+default preferences.voice_sustain = True
+
+init -1 python:
+    # 旧存档/旧偏好可能把 voice_sustain 记成 False，导致点击推进对话就立刻切断配音。
+    # 由于本项目的配音经常覆盖多句台词，这里只在第一次运行时自动开启一次。
+    if not getattr(persistent, "_voice_sustain_initialized", False):
+        persistent._voice_sustain_initialized = True
+        preferences.voice_sustain = True
+
 
 ## 自动保存 ########################################################################
 

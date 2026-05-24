@@ -3,40 +3,40 @@
 
     scene bg midnight_courtyard_return
 
-    voice "audio/李宝瓶1.mp3"
+    voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0001")
     a "三天后小师叔就要离开山崖书院了。李槐、裴钱他们最近经常偷偷摸摸聚在一起，就连小师叔都时不时失踪，唉"
 
-    voice "audio/李宝瓶2.mp3"
+    voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0002")
     a "小师叔？小师叔？人呢？难道小师叔又偷偷走了？"
 
-    voice "audio/李宝瓶3.mp3"
+    voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0003")
     a "崔东山，小师叔呢走了多久？"
 
-    voice "audio/李宝瓶4.mp3"
+    voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0004")
     cds "早走了啊。昨晚半夜的事情，你不知道吗？"
 
-    voice "audio/李宝瓶5.mp3"
+    voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0005")
     a "昨晚就走了吗"
 
     $ story_mood_event("a", "separation")
 
     scene bg midnight_lake
 
-    voice "audio/崔东山.mp3"
+    voice voice_id("voice.scn_0002_midnight_lake.cds.0001")
     #这段音频需要分2段，
     cds "哎哎，别多想，肯定是我家先生害怕看到你现在的模样，"
     cds "上次不也这样？你小师叔明明已经换上了新衣衫新靴子，"
     cds "也一样没去书院，当时只有我陪着他，看着先生一步三回头的。"
     cds "不然我陪你去湖边散散心，聊聊我家先生？"
 
-    voice "audio/崔东山1.mp3"
+    voice voice_id("voice.scn_0002_midnight_lake.cds.0002")
     cds "小宝瓶，我觉得你小师叔不辞而别，太不厚道了。"
     cds "放心，只要你不认他这个小师叔，我就陪着你也不认这个先生了。你说我是不是很讲义气"
 
-    voice "audio/李宝瓶6.mp3"
+    voice voice_id("voice.scn_0002_midnight_lake.lbp.0001")
     a "你说什么呢，天底下只有不要李宝瓶的小师叔，没有不要小师叔的李宝瓶！"
 
-    voice "audio/崔东山2.mp3"
+    voice voice_id("voice.scn_0002_midnight_lake.cds.0003")
     cds "这样啊。"
 
     scene bg lihuai
@@ -46,7 +46,7 @@
     narrator "只见那李槐在远处湖边小路上，突然现身。只见这家伙手牵雪白麋鹿，学某人戴了一顶"
     narrator "斗笠，悬佩狭刀祥符，腰间晃荡着一只银白色小葫芦。李宝瓶愣了愣。"
 
-    voice "audio/李槐1.mp3"
+    voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
     scene bg Eclipse Combat
@@ -56,29 +56,29 @@
 
     scene bg Sword_Youth_Elder_Night
 
-    voice "audio/李槐2.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0001")
     c "住手！"
 
-    voice "audio/朱敛1.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.zl.0001")
     zl "你一样要留下过路钱，交出买命财！"
 
-    voice "audio/李槐3.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0002")
     c "不长眼的小小毛贼，也敢打劫我李大侠，我今天就要路见不平一声吼，你们有本事就只"
     c "管来取。哈哈哈。你没吃饭吧"
 
-    voice "audio/朱敛2.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.zl.0002")
     zl "这这这位……少侠……好深的内力！"
 
-    voice "audio/李槐4.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0003")
     c "滚开！"
 
-    voice "audio/石柔1.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.sr.0001")
     e "你到底是何方神圣，江湖上从来没有听说过有你这样深不可测的高手！"
 
-    voice "audio/李槐5.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0004")
     c "实在是我武功太高，一下子没有收住手"
 
-    voice "audio/李槐6.mp3"
+    voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0005")
     c "记住了，我就是龙泉郡总舵、东华山分舵、学舍小舵舵主李槐！"
     c "江湖人称双拳无敌手、两脚踏山岳的‘拳脚双绝’李大侠，"
     c "我们的总舵主，便是威震天下、一统千秋的当代武林盟主——李！宝！瓶！"
@@ -87,7 +87,7 @@
 
     scene bg DuskLakeDuet
 
-    voice "audio/旁白4.mp3"
+    voice voice_id("voice.scn_0005_du_klakeduet.narr.0001")
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"
     narrator "那江湖上的神仙侠侣。笛声幽幽，琴声悠扬，越来越激昂慷慨。"
 
@@ -110,63 +110,63 @@
 
     scene bg peiqian3
 
-    voice "audio/裴钱1.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0001")
     peiqian "江湖没什么好的，也就酒还行。酒呢，来来来！谁来与我共饮这江湖酒"
 
-    voice "audio/崔东山3.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0001")
     cds "我来"
 
-    voice "audio/裴钱2.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0002")
     peiqian "好酒"
 
-    voice "audio/崔东山4.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0002")
     cds "好酒好酒"
 
-    voice "audio/崔东山5.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0003")
     cds "店小二，我读了些书，认了好些字，攒了一肚子学问，卖不了几文钱。"
 
-    voice "audio/裴钱3.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0003")
     peiqian "臭豆腐好吃买不起哟"
 
-    voice "audio/崔东山6.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0004")
     cds "山上有魑魅魍魉，湖泽江河有水鬼，吓得一转头，原来离家好多年。"
 
-    voice "audio/裴钱4.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0004")
     peiqian "吓得我赶紧吃块臭豆腐压压惊哟"
 
-    voice "audio/崔东山7.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0005")
     cds "哪家的小姑娘，身上带着兰花香，为何哭花了脸，你说可怜不可怜？"
 
-    voice "audio/裴钱5.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0005")
     peiqian "吃臭豆腐哟，臭豆腐跟兰花一样香哟！"
 
-    voice "audio/崔东山8.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0006")
     cds "试问夫子先生怎么办，树枝上挂着一只晒着日头的小纸鸢。"
 
-    voice "audio/裴钱6.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0006")
     peiqian "爬树摘下小纸鸢，回家吃臭豆腐喽！"
 
-    voice "audio/崔东山9.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0007")
     cds "坟前烧香神仙若少年，坟中子孙白骨已百年，你说可笑不可笑？"
 
     #这是崔东山在胡说八道呢，
 
-    voice "audio/裴钱7.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0007")
     peiqian "唉？臭豆腐到底给谁吃哟？"
 
-    voice "audio/崔东山10.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0008")
     cds "你讲你的理，我有我的拳，江湖纷纷扰扰，恩怨到底何时了？"
 
-    voice "audio/裴钱8.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.pq.0008")
     peiqian "你再这样，我可连臭豆腐也要吃撑了哟！"
 
-    voice "audio/崔东山11.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.cds.0009")
     cds "吃过了臭豆腐，喝过了酒，剑仙呢？"
 
-    voice "audio/旁白9.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.narr.0001")
     cds "喊一声试试看？"
 
-    voice "audio/李宝瓶7.mp3"
+    voice voice_id("voice.scn_0006_peiqian3.lbp.0001")
     a "小师叔！"
 
     scene bg chengpinan
@@ -176,23 +176,23 @@
     narrator "如一位白衣仙人站在了幽幽镜面。"
     narrator "陈平安并没有背负那把剑仙，只是腰间挂了一只养剑葫。陈平安一伸手，崔东山从咫尺物当中取出一把长剑"
 
-    voice "audio/崔东山12.mp3"
+    voice voice_id("voice.scn_0007_chengpinan.cds.0001")
     cds "走你！"
 
     scene bg chengpinan2
 
-    voice "audio/陈平安1.mp3"
+    voice voice_id("voice.scn_0008_chengpinan2.cpy.0001")
     cpa "世人皆言那积雪为粮、磨砖作镜，是痴儿，我偏要逆流而上，撞一撞那南墙！"
     cpa "饮尽江湖酒，知晓世间理，我有一剑复一剑，剑剑更快，"
     cpa "终有一天，一剑递出，便是天下头等风流快活剑……"
 
-    voice "audio/陈平安2.mp3"
+    voice voice_id("voice.scn_0008_chengpinan2.cpy.0002")
     cpa "仙人撩衣剑出袖，因势采剑画弧走。"
     cpa "定式眉眼看剑尖，剑尖之上有江山。"
 
     scene bg chengpinan3
 
-    voice "audio/陈平安3.mp3"
+    voice voice_id("voice.scn_0009_chengpinan3.cpy.0001")
     cpa "夜游水神庙，日访城隍阁，一叶扁舟蛟龙沟，仙人背剑如列阵……"
     cpa "世人皆说道理最无用，我却言那书中自有剑仙意，字字有剑光，"
     cpa "且教圣贤看我一剑长气冲斗牛！"
@@ -204,44 +204,44 @@
     narrator "裴钱斜挎包裹，手持行山杖，腰悬刀剑错。朱敛和石柔站在一旁。李槐与裴钱一番窃窃"
     narrator "私语，约好了以后一定要一起闯荡江湖"
 
-    voice "audio/李槐7.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.lh.0001")
     c "到了龙泉郡，一定记得帮忙看看我家宅子啊。"
 
-    voice "audio/陈平安4.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.cpy.0001")
     cpa "没问题。你们都去学堂上课吧，不用送了，已经耽搁了不少时间，估计夫子们以后不太愿意再看到我了。"
 
-    voice "audio/李宝瓶8.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.lbp.0001")
     a "小师叔，路上小心。"
 
-    voice "audio/陈平安5.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.cpy.0002")
     cpa "小师叔还要你说。"
 
-    voice "audio/陈平安6.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.cpy.0003")
     cpa "茅山主告辞了。"
 
-    voice "audio/茅小冬1.mp3"
+    voice voice_id("voice.scn_0010_huyuanko.mxd.0001")
     k "以后常来"
 
     scene bg dasuei
 
-    voice "audio/崔东山13.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cds.0001")
     cds "你们该上课的上课，该给人上课的上课，剩下的一程就由我单独送送先生，散了散了吧。"
     cds "先生，我没有觉得如今世道，变得比以前更坏了。"
     cds "山上的修道人越来越多，山下的丰衣足食，其实更多。你觉得呢？"
 
-    voice "audio/陈平安7.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cpy.0001")
     cpa "应该是这样的。"
 
-    voice "audio/崔东山14.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cds.0002")
     cds "但是不可否认，高出大地的山峰，像一把把剑一样，直指天幕的那些山峰，每百年千年"
     cds "之间，它们出现的次数，确实越来越少了。"
     cds "所以我希望我们所有的悲欢离合，不要都变成鸡笼外边的啄食，麻雀窝里的叽叽喳喳，枝头上的那点寒蝉凄切。"
 
-    voice "audio/崔东山15.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cds.0003")
     cds "更高处的天空中，总要有一两声鹤唳嘶鸣，离地很远，可就是会让人感到悲伤。"
     cds "仰头见过了，听过了，就让人再难忘记。"
 
-    voice "audio/陈平安8.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cpy.0002")
     cpa "你能这么想，我觉得很好."
     cpa "先生读书还不多，学识浅薄，暂时给不了你答案，但是我会多想想，"
     cpa "哪怕最后还是给不出答案，也会告诉你，先生想不明白，学生把先生给难住了，"
@@ -249,15 +249,18 @@
 
     narrator "这大概是陈平安生平第一次承认，自己是崔东山的先生。"
 
-    voice "audio/崔东山16.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cds.0004")
     cds "故乡垄头，陌上花开，先生可以缓缓归矣。"
 
-    voice "audio/陈平安9.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cpy.0003")
     cpa "这都入秋了。"
 
-    voice "audio/崔东山17.mp3"
+    voice voice_id("voice.scn_0011_da_uei.cds.0005")
     cds "愿先生心境，四季如春。"
 
     jump chapter2_start
 
     return
+
+
+
