@@ -1,7 +1,7 @@
 ﻿label start:
     $ renpy.force_autosave()
 
-    scene bg midnight_courtyard_return
+    scene bg lbp_return
 
     voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0001")
     a "三天后小师叔就要离开山崖书院了。李槐、裴钱他们最近经常偷偷摸摸聚在一起，就连小师叔都时不时失踪，唉"
@@ -169,7 +169,7 @@
     voice voice_id("voice.scn_0006_peiqian3.lbp.0001")
     a "小师叔！"
 
-    scene bg chengpinan
+    scene bg cpa
 
     narrator "崔东山打了个响指，李槐众人都现出身形，所有人都望向东华山之巅，李宝瓶也转头望去。"
     narrator "一抹雪白身影从山顶一掠而来，气势如虹，落在了湖面之上。一身金醴法袍飘荡不已，"
@@ -179,7 +179,7 @@
     voice voice_id("voice.scn_0007_chengpinan.cds.0001")
     cds "走你！"
 
-    scene bg chengpinan2
+    scene bg cpa2
 
     voice voice_id("voice.scn_0008_chengpinan2.cpy.0001")
     cpa "世人皆言那积雪为粮、磨砖作镜，是痴儿，我偏要逆流而上，撞一撞那南墙！"
@@ -190,7 +190,7 @@
     cpa "仙人撩衣剑出袖，因势采剑画弧走。"
     cpa "定式眉眼看剑尖，剑尖之上有江山。"
 
-    scene bg chengpinan3
+    scene bg cpa3
 
     voice voice_id("voice.scn_0009_chengpinan3.cpy.0001")
     cpa "夜游水神庙，日访城隍阁，一叶扁舟蛟龙沟，仙人背剑如列阵……"
