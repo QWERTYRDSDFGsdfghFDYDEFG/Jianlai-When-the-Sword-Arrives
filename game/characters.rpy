@@ -1,79 +1,41 @@
-﻿define a = Character("李宝瓶")
+define a = Character("李宝瓶")
 define cds = Character("崔东山")
-define cc = Character("崔瀺")
 define c = Character("李槐")
 define zl = Character("朱敛")
 define e = Character("石柔")
 define peiqian = Character("裴钱")
-
 define cpa = Character("陈平安")
 #陈平安的配音与人对话可以采用，心里不需要
-
 define k = Character("茅小冬")
 define wy = Character("吴懿")
+define donsujing = Character("董水井")
+define c1 = Character("高煊")
+define xuluo = Character("许弱")
 define rx = Character("阮秀")
-
 define xxq = Character("徐小桥")
-
 define xhjs = Character("绣花江水神")
 define h1 = Character("吴鸢")
 define rq = Character("阮邛")
+define cc = Character("崔瀺")
 define sdx = Character("孙登先")
 define jssr = Character("金色儒衫小人儿")
 define gt = Character("顾韬")
 define gc = Character("顾璨")
-
 define lmx = Character("李牧玺")
 define slz = Character("宋郎中")
+define lzg = Character("老掌柜")
 define thj = Character("田湖君")
-
 define ylt = Character("杨老头")
 define fy = Character("范彦")
 define lcs = Character("吕采桑")
-define yy = Character("圆圆")
-
+define yy = Character("元袁")
+define xnq = Character("小泥鳅")
 define znr = Character("中年男人")
-define hs = Character("红酥")
-#后面修改这个变量
-define mxgx = Character("马远致")
-define lcr = Character("刘重润")
-define yh = Character("俞桧")
-define zk = Character("钟魁")
-define lzm = Character("刘志茂")
-define llc = Character("刘老成")
 define gs = Character("顾氏")
-define zyfs = Character("紫阳府修士")
-define jdf = Character("金丹妇人")
-define kjxn = Character("开襟小娘")
-define lzg = Character("老掌柜")
-define lmm = Character("老嬷嬷")
-define zy = Character("曾掖")
-define zy1 = Character("章靥")
-define tx = Character("炭雪")
-define wg = Character("武将")
-define sxz = Character("苏心斋")
-define znxs = Character("中年修士")
-define hls = Character("黄篱山老祖师")
-define mf = Character("门房")
-define msjz = Character("马氏家主")
-define mdy = Character("马笃宜")
-define hjx = Character("韩靖信")
-define zxs = Character("曾先生")
-define hh = Character("胡邯")
-define xm = Character("许茂")
-define sr = Character("僧人")
-define lxs = Character("老修士")
-define hy = Character("狐妖")
-define lfq = Character("李芙蕖")
-define nqsr = Character("年轻僧人")
-define qyxt = Character("青衣小童")
-
-
+define ws = Character("文圣")
 
 
 
 
 
 define narrator = Character(None)
-
-
