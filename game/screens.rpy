@@ -93,24 +93,94 @@ style frame:
 ## https://doc.renpy.cn/zh-CN/screen_special.html#say
 
 screen say(who, what):
+    $ ui = get_dialogue_ui(who)
 
     window:
         id "window"
+        style ui["window_style"]
+        background ui["window_background"]
 
-        if who is not None:
+        frame:
+            background ui["accent_color"]
+            xpos 0
+            ypos 0
+            xsize 10
+            ysize 400
+            padding (0, 0, 0, 0)
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+        frame:
+            background ui["accent_glow"]
+            xpos 0
+            ypos 0
+            xsize 1920
+            ysize 5
+            padding (0, 0, 0, 0)
 
-        text what id "what"
+        if ui["theme"] == "narration":
+            vbox:
+                xfill True
+                yalign 0.5
+                spacing 12
 
+                if ui["paralanguage"]:
+                    frame:
+                        style "say_para_tag"
+                        xalign 0.0
+                        background ui["para_background"]
 
-    ## 如果有对话框头像，会将其显示在文本之上。请不要在手机界面下显示这个，因为
-    ## 没有空间。
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+                        text ui["paralanguage"] style "say_para_text" color ui["para_color"]
+
+                text what:
+                    id "what"
+                    style ui["what_style"]
+                    color ui["what_color"]
+                    xmaximum 1560
+        else:
+            hbox:
+                xfill True
+                yfill True
+                spacing 28
+
+                if ui["show_avatar"]:
+                    frame:
+                        style "say_avatar_frame"
+                        if ui["avatar"]:
+                            background ui["avatar_background"]
+                        else:
+                            background ui["seal_background"]
+
+                        if ui["avatar"]:
+                            add ui["avatar"] xalign 0.5 yalign 1.0
+                        else:
+                            text ui["seal_text"] style "say_avatar_seal" color ui["seal_color"]
+
+                vbox:
+                    xfill True
+                    yalign 0.5
+                    spacing 10
+
+                    if ui["show_name"]:
+                        frame:
+                            id "namebox"
+                            style "say_nameplate"
+                            xalign 0.0
+                            background ui["name_background"]
+
+                            text who id "who" style "say_label" color ui["name_color"]
+
+                    if ui["paralanguage"]:
+                        frame:
+                            style "say_para_tag"
+                            xalign 0.0
+                            background ui["para_background"]
+
+                            text ui["paralanguage"] style "say_para_text" color ui["para_color"]
+
+                    text what:
+                        id "what"
+                        style ui["what_style"]
+                        color ui["what_color"]
+                        xmaximum 1440
 
 
 ## 通过 Character 对象使名称框可用于样式化。
@@ -120,10 +190,21 @@ init python:
 style window is default
 style say_label is default
 style say_dialogue is default
+style say_narration_text is say_dialogue
+style say_para_text is default
 style say_thought is say_dialogue
 
 style namebox is default
 style namebox_label is say_label
+style say_nameplate is default
+style say_avatar_frame is default
+style say_avatar_seal is default
+style say_para_tag is default
+style say_window_speaker is default
+style say_window_protagonist is say_window_speaker
+style say_window_narration is say_window_speaker
+style say_window_thought is say_window_speaker
+style say_window_protagonist_thought is say_window_thought
 
 
 style window:
@@ -145,18 +226,96 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
-    yalign 0.5
+    font gui.name_text_font
+    size 34
+    bold True
+    kerning 1.0
+    outlines [(2, "#00000066", 0, 0)]
 
 style say_dialogue:
-    properties gui.text_properties("dialogue")
-
-    xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
-    ypos gui.dialogue_ypos
-
+    font gui.text_font
+    size 33
+    line_spacing 5
+    layout "subtitle"
     adjust_spacing False
+
+style say_narration_text:
+    font gui.text_font
+    size 32
+    line_spacing 6
+    layout "subtitle"
+    adjust_spacing False
+
+style say_thought:
+    font gui.text_font
+    size 32
+    italic True
+    line_spacing 6
+    layout "subtitle"
+    adjust_spacing False
+
+style say_para_text:
+    font gui.text_font
+    size 20
+    bold True
+    kerning 0.5
+
+style say_nameplate:
+    xfit True
+    yfit True
+    left_padding 20
+    right_padding 24
+    top_padding 8
+    bottom_padding 10
+
+style say_avatar_frame:
+    xsize 166
+    ysize 166
+    left_padding 8
+    right_padding 8
+    top_padding 8
+    bottom_padding 8
+
+style say_avatar_seal:
+    font gui.name_text_font
+    size 54
+    bold True
+    xalign 0.5
+    yalign 0.5
+
+style say_para_tag:
+    xfit True
+    yfit True
+    left_padding 14
+    right_padding 16
+    top_padding 6
+    bottom_padding 7
+
+style say_window_speaker:
+    xalign 0.5
+    xfill True
+    yalign 1.0
+    ysize 344
+    left_padding 56
+    right_padding 62
+    top_padding 26
+    bottom_padding 28
+
+style say_window_protagonist:
+    ysize 352
+
+style say_window_narration:
+    ysize 300
+    left_padding 88
+    right_padding 88
+    top_padding 24
+    bottom_padding 28
+
+style say_window_thought:
+    ysize 300
+
+style say_window_protagonist_thought:
+    ysize 312
 
 ## 输入屏幕 ########################################################################
 ##

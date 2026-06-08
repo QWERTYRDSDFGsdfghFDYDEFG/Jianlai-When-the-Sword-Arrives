@@ -4,7 +4,7 @@ define c = Character("李槐")
 define zl = Character("朱敛")
 define e = Character("石柔")
 define peiqian = Character("裴钱")
-define cpa = Character("陈平安")
+define cpa = Character("陈平安", callback=set_dialogue_theme("protagonist"))
 #陈平安的配音与人对话可以采用，心里不需要
 define k = Character("茅小冬")
 define wy = Character("吴懿")
@@ -38,4 +38,8 @@ define ws = Character("文圣")
 
 
 
-define narrator = Character(None)
+define narrator = Character(None, callback=set_dialogue_theme("narration"))
+
+# 预留给后续脚本使用：切换角色对象即可进入心声文本框样式。
+define cpa_thought = Character(None, callback=set_dialogue_theme("protagonist_thought"), what_style="say_thought")
+define inner_voice = Character(None, callback=set_dialogue_theme("thought"), what_style="say_thought")
