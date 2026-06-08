@@ -91,7 +91,7 @@
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"
     narrator "那江湖上的神仙侠侣。笛声幽幽，琴声悠扬，越来越激昂慷慨。"
 
-    scene bg peiqian
+    scene bg prologue_peiqian_run
 
     narrator "李宝瓶所在高台正对面的湖岸那边，在崔东山微微一笑后，有一个黑瘦身影刹那之间出"
     narrator "现，一路狂奔，以行山杖支撑在地，高高跃起，扑向湖中，在空中双手分别抽出腰间的"
@@ -103,12 +103,12 @@
     narrator "间，落地后，以那套她自创的疯魔剑法继续向前狂奔。"
     narrator "这套独门绝学，她更是觉得天下无双；这一套剑法，裴钱打得酣畅淋漓，一气呵成。"
 
-    scene bg platform
+    scene bg prologue_platform_pose
 
     narrator "一个站定，收起竹剑。裴钱站在距离高台不过七八丈外的湖面上，手腕翻转，突然变出"
     narrator "那个手拈小葫芦，高高举起，仰头摆出饮酒状。"
 
-    scene bg peiqian3
+    scene bg prologue_platform_duet
 
     voice voice_id("voice.scn_0006_peiqian3.pq.0001")
     peiqian "江湖没什么好的，也就酒还行。酒呢，来来来！谁来与我共饮这江湖酒"
