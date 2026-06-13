@@ -5,7 +5,8 @@
 母版基准图：
 
 - 脸部身份母版：`cpa_face_standard_01.png`
-- 当前服装母版：`cpa_outfit_variant_06_warm_weather.png`
+- 当前通用服装母版：`cpa_outfit_variant_06_warm_weather.png`
+- `script.rpy` 陈平安服装母版：`c1_10_cpa_arrival_v14.png`
 
 ## 1. 目标定义
 
@@ -87,7 +88,9 @@
 
 ### 2.5 当前服装锁定
 
-- 以 `cpa_outfit_variant_06_warm_weather.png` 为当前唯一服装母版。
+- 默认以 `cpa_outfit_variant_06_warm_weather.png` 为陈平安通用唯一服装母版。
+- `script.rpy` 相关陈平安画面，以 `c1_10_cpa_arrival_v14.png` 为该场次唯一服装母版。
+- 若不是 `script.rpy` 指定场次，仍回到 `cpa_outfit_variant_06_warm_weather.png` 的通用服装口径。
 - 当前阶段默认固定为该图的暖天行路装，不再允许自由更换其他服装版本。
 - 必须保持该图的整体服装结构关系，包括：
   - 灰蓝色短袖外袍
@@ -120,7 +123,8 @@
 - 禁止把下颌改宽、改圆、改成陌生人
 - 禁止把整体年龄感画年轻或画老
 - 禁止把气质改成偶像风、美型风、妖俊风
-- 禁止脱离 `cpa_outfit_variant_06_warm_weather.png` 另起一套服装
+- 禁止脱离 `cpa_outfit_variant_06_warm_weather.png` 另起一套通用服装
+- `script.rpy` 相关图禁止偏离 `c1_10_cpa_arrival_v14.png` 的该场次服装版本
 - 禁止擅自改外袍长度、袖型、内衫结构、裤型、鞋型、绑带体系
 - 禁止把背后行路架改成书箱、背篓、木框背架以外的陌生结构
 - 禁止把当前暖天行路装画成贵气、华丽、精修偶像风穿搭
@@ -130,13 +134,13 @@
 后续任何陈平安出图，都必须默认附带以下约束：
 
 ```text
-以 cpa_face_standard_01 为唯一脸部身份母版，以 cpa_outfit_variant_06_warm_weather 为唯一当前服装母版。
+以 cpa_face_standard_01 为唯一脸部身份母版。通用服装母版以 cpa_outfit_variant_06_warm_weather 为准；若为 `script.rpy` 陈平安指定场次，则以 c1_10_cpa_arrival_v14 为该场次唯一服装母版。
 严格锁定陈平安的脸型、五官比例、年龄感、气质底色和当前服装版本。
 禁止重新设计脸，禁止改变脸部骨相，禁止改变眉眼鼻口之间的相对比例。
 禁止擅自更换服装版本，禁止偏离当前暖天行路装结构。
 必须保持 20-22 岁青年感，气质沉静、可靠、自持、坚韧。
-只允许修改表情、动作和场景，服装仍以 cpa_outfit_variant_06_warm_weather 为准。
-如果新图更好看但不像 cpa_face_standard_01，或服装偏离 cpa_outfit_variant_06_warm_weather，也判定为失败。
+只允许修改表情、动作和场景；非 `script.rpy` 指定场次服装仍以 cpa_outfit_variant_06_warm_weather 为准，`script.rpy` 指定场次服装以 c1_10_cpa_arrival_v14 为准。
+如果新图更好看但不像 cpa_face_standard_01，或服装偏离当前所对应的母版口径，也判定为失败。
 ```
 
 ## 5. 生成时的负面约束
@@ -156,7 +160,7 @@
 3. 眉、眼、鼻、口的位置关系是否与母版一致。
 4. 年龄感是否仍然稳定在 20-22 岁。
 5. 气质是否仍然是沉静、可靠、自持、坚韧，而非风格漂移。
-6. 服装是否仍然是 `cpa_outfit_variant_06_warm_weather.png` 的当前固定版本。
+6. 服装是否仍然符合当前场次所对应的固定版本：通用图对齐 `cpa_outfit_variant_06_warm_weather.png`，`script.rpy` 场次图对齐 `c1_10_cpa_arrival_v14.png`。
 7. 本次变化是否只发生在表情、动作、场景。
 
 只要第 1-4 项里有任一项不稳定，或第 6 项服装跑偏，就直接判定废弃，不进入后续使用。
@@ -164,7 +168,8 @@
 ## 7. 文件与版本约定
 
 - `cpa_face_standard_01.png` 是陈平安固定脸部身份母版。
-- `cpa_outfit_variant_06_warm_weather.png` 是陈平安当前固定服装母版。
+- `cpa_outfit_variant_06_warm_weather.png` 是陈平安当前通用固定服装母版。
+- `c1_10_cpa_arrival_v14.png` 是 `script.rpy` 陈平安场次固定服装母版。
 - 后续所有陈平安图，默认都应注明“基于该母版锁脸并锁服装生成”。
 - 新图命名应表达“版本变化项”，而不是暗示“重新做人设”。
 
