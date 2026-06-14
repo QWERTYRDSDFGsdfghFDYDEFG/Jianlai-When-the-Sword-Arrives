@@ -8,12 +8,16 @@ image bg Eclipse Combat = "images/chapter1/Eclipse Combat.png"
 image bg Sword_Youth_Elder_Night = "images/chapter1/Sword_Youth_Elder_Night.png"
 image bg DuskLakeDuet = "images/chapter1/DuskLakeDuet.png"
 
-image bg prologue_peiqian_run_v3 = im.Scale("images/chapter1/prologue_peiqian_run_v3.png", 1920, 1080)
-image bg prologue_platform_pose_v1 = im.Scale("images/chapter1/prologue_platform_pose_v1.png", 1920, 1080)
+image bg c1_07_pq_run_v3 = im.Scale("images/chapter1/c1_07_pq_run_v3.png", 1920, 1080)
+image bg c1_08_platform_pose_v1 = im.Scale("images/chapter1/c1_08_platform_pose_v1.png", 1920, 1080)
 image bg prologue_platform_duet = im.Scale("images/chapter1/prologue_platform_duet_v3.png", 1920, 1080)
 
-image bg prologue_cpa_arrival_v14_hulu_clean = im.Scale("images/chapter1/prologue_cpa_arrival_v14_hulu_clean.png", 1920, 1080)
 
+image bg c1_10_cpa_arrival = im.Scale("images/chapter1/c1_10_cpa_arrival.png", 1920, 1080)
+
+image bg c1_11_cpa_sword_01 = im.Scale("images/chapter1/c1_11_cpa_sword_01.png", 1920, 1080)
+image bg c1_12_cpa_sword_02 = im.Scale("images/chapter1/c1_12_cpa_sword_02.png", 1920, 1080)
+image bg c1_12_cpa_sword_03 = im.Scale("images/chapter1/c1_12_cpa_sword_03.png", 1920, 1080)
 
 
 image bg platform = "images/chapter1/platform.png"

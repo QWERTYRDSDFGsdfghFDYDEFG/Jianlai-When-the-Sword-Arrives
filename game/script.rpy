@@ -1,4 +1,4 @@
-﻿label start:
+label start:
     $ renpy.force_autosave()
 
     scene bg lbp_return
@@ -91,7 +91,7 @@
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"
     narrator "那江湖上的神仙侠侣。笛声幽幽，琴声悠扬，越来越激昂慷慨。"
 
-    scene bg prologue_peiqian_run_v3
+    scene bg c1_07_pq_run_v3
 
     narrator "李宝瓶所在高台正对面的湖岸那边，在崔东山微微一笑后，有一个黑瘦身影刹那之间出"
     narrator "现，一路狂奔，以行山杖支撑在地，高高跃起，扑向湖中，在空中双手分别抽出腰间的"
@@ -103,7 +103,7 @@
     narrator "间，落地后，以那套她自创的疯魔剑法继续向前狂奔。"
     narrator "这套独门绝学，她更是觉得天下无双；这一套剑法，裴钱打得酣畅淋漓，一气呵成。"
 
-    scene bg prologue_platform_pose_v1
+    scene bg c1_08_platform_pose_v1
 
     narrator "一个站定，收起竹剑。裴钱站在距离高台不过七八丈外的湖面上，手腕翻转，突然变出"
     narrator "那个手拈小葫芦，高高举起，仰头摆出饮酒状。"
@@ -169,7 +169,7 @@
     voice voice_id("voice.scn_0006_peiqian3.lbp.0001")
     a "小师叔！"
 
-    scene bg prologue_cpa_arrival_v14_hulu_clean
+    scene bg c1_10_cpa_arrival
 
     narrator "崔东山打了个响指，李槐众人都现出身形，所有人都望向东华山之巅，李宝瓶也转头望去。"
     narrator "一抹雪白身影从山顶一掠而来，气势如虹，落在了湖面之上。一身金醴法袍飘荡不已，"
@@ -179,19 +179,21 @@
     voice voice_id("voice.scn_0007_chengpinan.cds.0001")
     cds "走你！"
 
-   
-
+    
+    scene bg c1_11_cpa_sword_01
     voice voice_id("voice.scn_0008_chengpinan2.cpy.0001")
     cpa "世人皆言那积雪为粮、磨砖作镜，是痴儿，我偏要逆流而上，撞一撞那南墙！"
     cpa "饮尽江湖酒，知晓世间理，我有一剑复一剑，剑剑更快，"
     cpa "终有一天，一剑递出，便是天下头等风流快活剑……"
 
+
+    scene bg c1_12_cpa_sword_02
     voice voice_id("voice.scn_0008_chengpinan2.cpy.0002")
     cpa "仙人撩衣剑出袖，因势采剑画弧走。"
     cpa "定式眉眼看剑尖，剑尖之上有江山。"
 
 
-
+    scene bg c1_12_cpa_sword_03
     voice voice_id("voice.scn_0009_chengpinan3.cpy.0001")
     cpa "夜游水神庙，日访城隍阁，一叶扁舟蛟龙沟，仙人背剑如列阵……"
     cpa "世人皆说道理最无用，我却言那书中自有剑仙意，字字有剑光，"
