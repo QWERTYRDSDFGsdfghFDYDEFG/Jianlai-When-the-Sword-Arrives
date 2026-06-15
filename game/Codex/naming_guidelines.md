@@ -22,7 +22,7 @@
 推荐改成短名：
 
 - `cds_face_ref.md`
-- `c1_08_platform_pose_v1.png`
+- `c1_08_pq_pose_v1.png`
 - `c2_01_rest_v1.png`
 
 ### 1.2 默认只用小写英文字母、数字、下划线
@@ -85,11 +85,12 @@ scene bg c1_07_pq_run_v1
 
 示例：
 
-- `c1_01_lbp_return_v1.png`
+- `c1_01_lbp_return_v2.png`
+- `c1_02_midnight_lake_v1.png`
 - `c1_07_pq_run_v1.png`
-- `c1_08_platform_pose_v1.png`
+- `c1_08_pq_pose_v1.png`
 - `c1_09_platform_duet_v1.png`
-- `c1_10_cpa_arrival_v5.png`
+- `c1_10_cpa_arrival_v1.png`
 - `c2_01_rest_v1.png`
 - `c2_02_cpa_pq_v1.png`
 
@@ -135,7 +136,7 @@ scene bg c1_07_pq_run_v1
 
 更推荐：
 
-- `c1_08_platform_pose_v1.png`
+- `c1_08_pq_pose_v1.png`
 - 如果场景已明确，也可以进一步缩成 `c1_08_pose_v1.png`
 
 ---
@@ -178,7 +179,7 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 - `image bg` 名和文件名不一样，但没有记录
 - 文件改名了，`bg_images.rpy` 没改
 - `scene bg` 里多写一个下划线
-- 同一张图同时存在 `cpa`、`chengpinan`、`prologue_cpa_arrival_v5` 三套叫法却没人知道主名是哪一个
+- 同一张图同时存在 `cpa`、`chengpinan`、`c1_10_cpa_arrival_v1` 三套叫法却没人知道主名是哪一个
 
 ---
 
@@ -295,4 +296,3 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 以后尽量执行这一条：
 
 `文件名短 + 全小写下划线 + 文件名 = image bg 名 = scene bg 名`
-

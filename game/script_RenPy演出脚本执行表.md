@@ -20,7 +20,7 @@
 
 - 每次切新图直接用 `scene bg xxx`。
 - 同一图下的连续对白尽量不重复 `scene`。
-- `midnight_lake` 系列建议后续拆成“母图 + 金色法术 overlay”的做法，减少重画。
+- `c1_02_midnight_lake_v1` 系列建议后续拆成“母图 + 金色法术 overlay”的做法，减少重画。
 
 ### 立绘
 
@@ -61,7 +61,7 @@
 **执行骨架**
 
 ```renpy
-scene bg prologue_courtyard_night
+scene bg c1_01_lbp_return_v2
 with fade
 
 show lbp standard at left_medium
@@ -78,7 +78,7 @@ with dissolve
 ### 序-02 湖边夜谈
 
 ```renpy
-scene bg prologue_midnight_lake
+scene bg c1_02_midnight_lake_v1
 with fade
 
 show lbp standard at left_medium
@@ -93,7 +93,7 @@ with dissolve
 ### 序-03 李槐持鹿登场
 
 ```renpy
-scene bg prologue_lihuai_ring_path
+scene bg c1_03_lh_entry_v1
 with Dissolve(1.0)
 
 show lh hero at center_medium
@@ -108,7 +108,7 @@ with dissolve
 ### 序-04 戏台匪寇铺垫
 
 ```renpy
-scene bg prologue_stage_far
+scene bg c1_04_stage_far_v1
 with dissolve
 
 show zl bandit at left_medium
@@ -125,7 +125,7 @@ with dissolve
 ### 序-05 李槐英雄救场
 
 ```renpy
-scene bg prologue_stage_near
+scene bg c1_05_stage_near_v1
 with dissolve
 
 show lh hero at center_medium
@@ -141,7 +141,7 @@ with dissolve
 ### 序-06 湖边琴笛对景
 
 ```renpy
-scene bg prologue_duet_lakeside
+scene bg c1_06_duet_lake_v1
 with fade
 ```
 
@@ -152,7 +152,7 @@ with fade
 ### 序-07 裴钱踏湖演武
 
 ```renpy
-scene bg prologue_peiqian_run
+scene bg c1_07_pq_run_v1
 with Dissolve(1.0)
 
 show peiqian sword at center_medium
@@ -166,7 +166,7 @@ with dissolve
 ### 序-08 湖心高台收势
 
 ```renpy
-scene bg prologue_platform_pose
+scene bg c1_08_pq_pose_v1
 with dissolve
 
 show peiqian sword at center_medium
@@ -180,7 +180,7 @@ with dissolve
 ### 序-09 湖上对唱唤剑仙
 
 ```renpy
-scene bg prologue_platform_duet
+scene bg c1_09_platform_duet_v1
 with dissolve
 
 show peiqian sword at left_medium
@@ -195,7 +195,7 @@ with dissolve
 ### 序-10 陈平安踏湖现身
 
 ```renpy
-scene bg prologue_cpa_arrival
+scene bg c1_10_cpa_arrival_v1
 with Dissolve(1.0)
 
 show cpa sword_robe at center_medium
@@ -211,7 +211,7 @@ with dissolve
 ### 序-11 陈平安演剑上段
 
 ```renpy
-scene bg prologue_cpa_sword_01
+scene bg c1_11_cpa_sword_01_v1
 with dissolve
 
 show cpa sword_robe at center_medium
@@ -226,7 +226,7 @@ with dissolve
 ### 序-12 陈平安演剑下段
 
 ```renpy
-scene bg prologue_cpa_sword_02
+scene bg c1_12_cpa_sword_02_v1
 with Dissolve(1.0)
 
 show cpa sword_robe at center_medium
@@ -242,7 +242,7 @@ with dissolve
 ### 序-13 书院门口正式送别
 
 ```renpy
-scene bg prologue_academy_gate_farewell
+scene bg c1_13_academy_gate_farewell_v1
 with fade
 
 show cpa standard at center_medium
@@ -261,7 +261,7 @@ with dissolve
 ### 序-14 大隋官道师生送行
 
 ```renpy
-scene bg prologue_autumn_road_sendoff
+scene bg c1_14_autumn_road_sendoff_v1
 with fade
 
 show cpa standard at left_medium
@@ -277,8 +277,8 @@ with dissolve
 
 ## 图片复用建议
 
-- `prologue_midnight_lake` 作为湖区母图，可派生 `lihuai / duet_lakeside / peiqian / platform_duet`。
-- `prologue_stage_far` 与 `prologue_stage_near` 做成同一戏台远近景。
-- `prologue_peiqian_run` 与 `prologue_platform_pose` 建议共用同一人物造型与水面体系。
-- `prologue_cpa_arrival / prologue_cpa_sword_01 / prologue_cpa_sword_02` 必须作为连续三联图设计。
-- `prologue_courtyard_night / prologue_academy_gate_farewell / prologue_autumn_road_sendoff` 是序章首尾情绪三锚点，优先保证完成度。
+- `c1_02_midnight_lake_v1` 作为湖区母图，可派生 `c1_03_lh_entry_v1 / c1_06_duet_lake_v1 / c1_07_pq_run_v1 / c1_09_platform_duet_v1`。
+- `c1_04_stage_far_v1` 与 `c1_05_stage_near_v1` 做成同一戏台远近景。
+- `c1_07_pq_run_v1` 与 `c1_08_pq_pose_v1` 建议共用同一人物造型与水面体系。
+- `c1_10_cpa_arrival_v1 / c1_11_cpa_sword_01_v1 / c1_12_cpa_sword_02_v1` 必须作为连续三联图设计。
+- `c1_01_lbp_return_v2 / c1_13_academy_gate_farewell_v1 / c1_14_autumn_road_sendoff_v1` 是序章首尾情绪三锚点，优先保证完成度。

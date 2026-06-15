@@ -1,7 +1,7 @@
 label chapter2_start:
     $ renpy.force_autosave()
 
-    scene bg chapter2_homecoming_rest
+    scene bg c2_01_rest_v1
 
     narrator "从大隋京城走回大骊龙郡的返乡路，陈平安熟门熟路，仍旧拣山野小径赶路，四下清静。"
     narrator "离开大隋边境后，他换回草鞋，结实省事却也磨脚；裴钱拿针挑破脚底水疱时，朱敛照旧在旁说风凉话。"
@@ -39,7 +39,7 @@ label chapter2_start:
     peiqian "跟李槐挖着了所有值钱宝贝，与他说好了，一律平分。"
     peiqian "到时候我那份，肯定都往师父兜里装。"
 
-    scene bg c2_02_cpa_pq
+    scene bg c2_02_cpa_pq_v1
     narrator "一行人顺顺当当地走到御江畔的黄庭国郡城。"
     narrator "当年陈平安与崔东山路过此地，见识过小国州郡里仙师野修的放纵，百姓求告无门。"
     narrator "正是在这座郡城内，崔东山曾在芝兰曹氏藏书楼收服粉裙女童，又与作威作福的青衣小童结下因果。"

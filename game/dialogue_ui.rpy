@@ -84,22 +84,22 @@ init -5 python:
     # 有现成头像素材的角色直接显示裁切图，没有素材时回退为单字印章。
     DIALOGUE_AVATAR_IMAGES = {
         "陈平安": im.Scale(
-            im.Crop("cpa/cpa_face_standard_01.png", 350, 40, 420, 420),
+            im.Crop("lh/cpa/cpa_face_standard_01.png", 350, 40, 420, 420),
             150,
             150
         ),
         "李宝瓶": im.Scale(
-            im.Crop("images/chapter1/lbp_return.png", 920, 100, 420, 420),
+            im.Crop("images/chapter1/c1_01_lbp_return_v2.png", 920, 100, 420, 420),
             150,
             150
         ),
         "李槐": im.Scale(
-            im.Crop("images/chapter1/lihuai.png", 620, 110, 420, 420),
+            im.Crop("images/chapter1/c1_03_lh_entry_v1.png", 620, 110, 420, 420),
             150,
             150
         ),
         "裴钱": im.Scale(
-            im.Crop("images/chapter1/peiqian1.png", 540, 60, 420, 420),
+            im.Crop("images/chapter1/c1_08_pq_pose_v1.png", 540, 60, 420, 420),
             150,
             150
         ),

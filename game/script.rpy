@@ -1,7 +1,7 @@
 label start:
     $ renpy.force_autosave()
 
-    scene bg lbp_return
+    scene bg c1_01_lbp_return_v2
 
     voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0001")
     a "三天后小师叔就要离开山崖书院了。李槐、裴钱他们最近经常偷偷摸摸聚在一起，就连小师叔都时不时失踪，唉"
@@ -20,7 +20,7 @@ label start:
 
     $ story_mood_event("a", "separation")
 
-    scene bg midnight_lake
+    scene bg c1_02_midnight_lake_v1
 
     voice voice_id("voice.scn_0002_midnight_lake.cds.0001")
     #这段音频需要分2段，
@@ -39,7 +39,7 @@ label start:
     voice voice_id("voice.scn_0002_midnight_lake.cds.0003")
     cds "这样啊。"
 
-    scene bg lihuai
+    scene bg c1_03_lh_entry_v1
 
     narrator "湖水四周岸边小道上骤然间亮起一条光彩绚烂的金色光环，是以那把仙人飞剑金穗画出"
     narrator "的一座雷池，此刻崔东山撤去了其中一部分障眼法。"
@@ -49,12 +49,12 @@ label start:
     voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
-    scene bg Eclipse Combat
+    scene bg c1_04_stage_far_v1
 
     narrator "只见高台不远处出现了两个身影，可怜朱敛和石柔，扮演那剪径匪寇，正在分别暴揍两"
     narrator "个“文弱书生”于禄和林守一。"
 
-    scene bg Sword_Youth_Elder_Night
+    scene bg c1_05_stage_near_v1
 
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0001")
     c "住手！"
@@ -85,13 +85,13 @@ label start:
 
     narrator "崔东山打了个响指，李槐、雪白麋鹿与朱敛、石柔，还有于禄、林守一，都消失不见。"
 
-    scene bg DuskLakeDuet
+    scene bg c1_06_duet_lake_v1
 
     voice voice_id("voice.scn_0005_du_klakeduet.narr.0001")
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"
     narrator "那江湖上的神仙侠侣。笛声幽幽，琴声悠扬，越来越激昂慷慨。"
 
-    scene bg c1_07_pq_run_v3
+    scene bg c1_07_pq_run_v1
 
     narrator "李宝瓶所在高台正对面的湖岸那边，在崔东山微微一笑后，有一个黑瘦身影刹那之间出"
     narrator "现，一路狂奔，以行山杖支撑在地，高高跃起，扑向湖中，在空中双手分别抽出腰间的"
@@ -103,12 +103,12 @@ label start:
     narrator "间，落地后，以那套她自创的疯魔剑法继续向前狂奔。"
     narrator "这套独门绝学，她更是觉得天下无双；这一套剑法，裴钱打得酣畅淋漓，一气呵成。"
 
-    scene bg c1_08_platform_pose_v1
+    scene bg c1_08_pq_pose_v1
 
     narrator "一个站定，收起竹剑。裴钱站在距离高台不过七八丈外的湖面上，手腕翻转，突然变出"
     narrator "那个手拈小葫芦，高高举起，仰头摆出饮酒状。"
 
-    scene bg prologue_platform_duet
+    scene bg c1_09_platform_duet_v1
 
     voice voice_id("voice.scn_0006_peiqian3.pq.0001")
     peiqian "江湖没什么好的，也就酒还行。酒呢，来来来！谁来与我共饮这江湖酒"
@@ -169,7 +169,7 @@ label start:
     voice voice_id("voice.scn_0006_peiqian3.lbp.0001")
     a "小师叔！"
 
-    scene bg c1_10_cpa_arrival
+    scene bg c1_10_cpa_arrival_v1
 
     narrator "崔东山打了个响指，李槐众人都现出身形，所有人都望向东华山之巅，李宝瓶也转头望去。"
     narrator "一抹雪白身影从山顶一掠而来，气势如虹，落在了湖面之上。一身金醴法袍飘荡不已，"
@@ -180,26 +180,26 @@ label start:
     cds "走你！"
 
     
-    scene bg c1_11_cpa_sword_01
+    scene bg c1_11_cpa_sword_01_v1
     voice voice_id("voice.scn_0008_chengpinan2.cpy.0001")
     cpa "世人皆言那积雪为粮、磨砖作镜，是痴儿，我偏要逆流而上，撞一撞那南墙！"
     cpa "饮尽江湖酒，知晓世间理，我有一剑复一剑，剑剑更快，"
     cpa "终有一天，一剑递出，便是天下头等风流快活剑……"
 
 
-    scene bg c1_12_cpa_sword_02
+    scene bg c1_12_cpa_sword_02_v1
     voice voice_id("voice.scn_0008_chengpinan2.cpy.0002")
     cpa "仙人撩衣剑出袖，因势采剑画弧走。"
     cpa "定式眉眼看剑尖，剑尖之上有江山。"
 
 
-    scene bg c1_12_cpa_sword_03
+    scene bg c1_12_cpa_sword_03_v1
     voice voice_id("voice.scn_0009_chengpinan3.cpy.0001")
     cpa "夜游水神庙，日访城隍阁，一叶扁舟蛟龙沟，仙人背剑如列阵……"
     cpa "世人皆说道理最无用，我却言那书中自有剑仙意，字字有剑光，"
     cpa "且教圣贤看我一剑长气冲斗牛！"
 
-    scene bg shuyuanko
+    scene bg c1_13_academy_gate_farewell_v1
 
     narrator "一行人站在书院门口。"
     narrator "陈平安已经背好长剑剑仙和那只大竹箱。"
@@ -224,7 +224,7 @@ label start:
     voice voice_id("voice.scn_0010_huyuanko.mxd.0001")
     k "以后常来"
 
-    scene bg dasuei
+    scene bg c1_14_autumn_road_sendoff_v1
 
     voice voice_id("voice.scn_0011_da_uei.cds.0001")
     cds "你们该上课的上课，该给人上课的上课，剩下的一程就由我单独送送先生，散了散了吧。"
