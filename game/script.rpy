@@ -3,6 +3,8 @@ label start:
 
     scene bg c1_01_lbp_return_v2
 
+    narrator "李宝瓶快步穿过深夜庭院，停在崔东山房门前，抬手敲了敲门。"
+
     voice voice_id("voice.scn_0001_midnight_courtyard_return.lbp.0001")
     a "三天后小师叔就要离开山崖书院了。李槐、裴钱他们最近经常偷偷摸摸聚在一起，就连小师叔都时不时失踪，唉"
 

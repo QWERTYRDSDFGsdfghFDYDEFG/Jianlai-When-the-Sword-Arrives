@@ -1,0 +1,23 @@
+{
+  "character": "cds",
+  "display_name": "崔东山",
+  "token": "cds_person",
+  "data_dir": "training/identity_lock/data/cds",
+  "output_dir": "training/identity_lock/output/cds",
+  "output_name": "cds_face_lock_lora_v1",
+  "resolution": "512,512",
+  "num_repeats": 8,
+  "max_train_steps": 1800,
+  "learning_rate": 0.0001,
+  "unet_lr": 0.0001,
+  "text_encoder_lr": 0.00005,
+  "network_dim": 8,
+  "network_alpha": 8,
+  "gradient_accumulation_steps": 4,
+  "optimizer_type": "AdamW",
+  "lr_scheduler": "cosine_with_restarts",
+  "lr_scheduler_num_cycles": 1,
+  "seed": 42,
+  "sample_prompt": "cds_person, 崔东山, male age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, white outer robe over inner robe, strict identity lock, same face as anchor images, Song-dynasty fantasy visual novel, restrained expression, real age feeling, real clothing structure",
+  "negative_prompt": "wider face, rounder jaw, bigger eyes, idol handsome face, generic ancient-costume male lead, identity drift, over-beautified face"
+}

@@ -58,7 +58,8 @@
 | --- | --- | --- | --- | --- |
 | 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | `lh/cpa/cpa_face_standard_01.png`、`lh/cpa/cpa_outfit_variant_06_warm_weather.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
-| 崔东山 | 崔东山、cds | `lh/cuidongshan/CUIDONGSHAN_FACE_IDENTITY_STANDARD.md` | `lh/cuidongshan/cuidongshan_face_locked_identity_sheet_02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 崔东山 | 崔东山、cds | `lh/cuidongshan/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | `lh/cuidongshan/cuidongshan_face_locked_identity_sheet_02.png`、`lh/cuidongshan/cds_t00_base_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 
 ---
 
@@ -68,7 +69,6 @@
 
 | 角色 | 触发词 / 变量名 | 当前优先参考 | 当前状态 |
 | --- | --- | --- | --- |
-| 李宝瓶 | 李宝瓶、a | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 李槐 | 李槐、c | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 朱敛 | 朱敛、zl | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 石柔 | 石柔、e | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |

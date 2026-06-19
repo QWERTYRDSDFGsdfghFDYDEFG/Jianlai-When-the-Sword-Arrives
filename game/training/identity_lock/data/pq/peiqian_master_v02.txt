@@ -1,0 +1,1 @@
+pq_person, 裴钱, female child, stable face identity from master image, same person across poses and scenes, identity anchor reference, same face in every scene, same person, preserve exact facial structure and age feeling

@@ -1,0 +1,129 @@
+{
+  "slug": "cds",
+  "display_name": "崔东山",
+  "token": "cds_person",
+  "summary": "male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome",
+  "docs": [
+    "lh/cuidongshan/cds_face_ref.md",
+    "lh/cuidongshan/cds_face_test.md"
+  ],
+  "anchors": [
+    "cuidongshan_face_locked_identity_sheet_02.png",
+    "cds_face_test_01_plain_v1.png"
+  ],
+  "outfit_bases": [
+    "cds_t00_base_v1.png"
+  ],
+  "scene_refs": [
+    "cds_face_test_04_courtyard_night_v1.png",
+    "cds_face_test_05_lakeside_night_v1.png",
+    "cds_t01_court_v1.png",
+    "cds_t02_lake_v1.png"
+  ],
+  "negatives": [
+    "wider face",
+    "rounder jaw",
+    "bigger eyes",
+    "idol handsome face",
+    "generic ancient-costume male lead"
+  ],
+  "image_count": 16,
+  "images": [
+    {
+      "file": "data/cds/cds_face_test_01_plain_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_01_plain_v1.png",
+      "role": "anchor",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, identity anchor reference, same face in every scene, same person, preserve exact facial structure and age feeling"
+    },
+    {
+      "file": "data/cds/cds_face_test_02_halfbody_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_02_halfbody_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_03_study_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_03_study_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_04_courtyard_night_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_04_courtyard_night_v1.png",
+      "role": "scene_ref",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, same character in another scene, preserve exact face identity under different lighting and composition"
+    },
+    {
+      "file": "data/cds/cds_face_test_05_lakeside_night_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_05_lakeside_night_v1.png",
+      "role": "scene_ref",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, same character in another scene, preserve exact face identity under different lighting and composition"
+    },
+    {
+      "file": "data/cds/cds_face_test_06_corridor_warm_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_06_corridor_warm_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_07_riverside_wind_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_07_riverside_wind_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_08_desk_downward_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_08_desk_downward_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_09_lowangle_moon_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_09_lowangle_moon_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_face_test_10_topdown_v1.png",
+      "source": "lh/cuidongshan/cds_face_test_10_topdown_v1.png",
+      "role": "face_stress_test",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, cross-scene stability test image, preserve exact facial proportions and identity under angle or lighting changes"
+    },
+    {
+      "file": "data/cds/cds_t00_base_v1.png",
+      "source": "lh/cuidongshan/cds_t00_base_v1.png",
+      "role": "outfit_base",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, outfit base reference, preserve the same face and clothing structure, stable visual novel character design"
+    },
+    {
+      "file": "data/cds/cds_t01_court_v1.png",
+      "source": "lh/cuidongshan/cds_t01_court_v1.png",
+      "role": "scene_ref",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, same character in another scene, preserve exact face identity under different lighting and composition"
+    },
+    {
+      "file": "data/cds/cds_t02_lake_v1.png",
+      "source": "lh/cuidongshan/cds_t02_lake_v1.png",
+      "role": "scene_ref",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, same character in another scene, preserve exact face identity under different lighting and composition"
+    },
+    {
+      "file": "data/cds/cds_t05_scroll_v1.png",
+      "source": "lh/cuidongshan/cds_t05_scroll_v1.png",
+      "role": "reference",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, reference image, preserve exact face identity and age feeling, do not redesign the character"
+    },
+    {
+      "file": "data/cds/cuidongshan_face_locked_identity_sheet_02.png",
+      "source": "lh/cuidongshan/cuidongshan_face_locked_identity_sheet_02.png",
+      "role": "anchor",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, identity anchor reference, same face in every scene, same person, preserve exact facial structure and age feeling"
+    },
+    {
+      "file": "data/cds/崔东山.png",
+      "source": "lh/cuidongshan/崔东山.png",
+      "role": "reference",
+      "caption": "cds_person, 崔东山, male, age 18-21, narrow slightly long face, slightly narrow long eyes, small brow mark, restrained scholar temperament, not template handsome, reference image, preserve exact face identity and age feeling, do not redesign the character"
+    }
+  ]
+}

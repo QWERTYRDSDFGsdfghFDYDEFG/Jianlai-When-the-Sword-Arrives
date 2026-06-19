@@ -1,0 +1,28 @@
+{
+  "slug": "pq",
+  "display_name": "裴钱",
+  "token": "pq_person",
+  "summary": "female child, stable face identity from master image, same person across poses and scenes",
+  "docs": [
+    "lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md"
+  ],
+  "anchors": [
+    "peiqian_master_v02.png"
+  ],
+  "outfit_bases": [],
+  "scene_refs": [],
+  "negatives": [
+    "identity drift",
+    "older face",
+    "idolized styling"
+  ],
+  "image_count": 1,
+  "images": [
+    {
+      "file": "data/pq/peiqian_master_v02.png",
+      "source": "lh/peiqian/peiqian_master_v02.png",
+      "role": "anchor",
+      "caption": "pq_person, 裴钱, female child, stable face identity from master image, same person across poses and scenes, identity anchor reference, same face in every scene, same person, preserve exact facial structure and age feeling"
+    }
+  ]
+}

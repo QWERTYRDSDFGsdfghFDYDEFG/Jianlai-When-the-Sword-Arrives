@@ -64,15 +64,16 @@
 scene bg c1_01_lbp_return_v2
 with fade
 
-show lbp standard at left_medium
-show cds standard at right_medium
+show lbp standard at left_front
+with dissolve
+show cds standard at right_back
 with dissolve
 ```
 
 **脚本口径**
 
-- 开场先留 `1` 句环境感，不急着切复杂调度。
-- 李宝瓶先说，再补崔东山进场，更有“人不见了”的空落。
+- 开场先留 `1` 句“李宝瓶穿过庭院、敲崔东山房门”的环境感，不急着切复杂调度。
+- 李宝瓶先在左前入画，崔东山后从右后门边接话，更有“人不见了，消息却已经坐实”的空落。
 - 本场结束后直接切湖边夜景，不需要额外 `hide all`。
 
 ### 序-02 湖边夜谈
