@@ -1,0 +1,8 @@
+Sample prompt:
+lbp_person, 李宝瓶, female child age 12, straight bangs, high double buns, small bell ornaments, precise ribbon shape, delicate face, short winter outer jacket with fur collar, strict identity lock, same face as anchor images, Song-dynasty fantasy visual novel, restrained expression, real age feeling, real clothing structure
+
+Negative prompt:
+too young toddler look, older teenager look, long robe silhouette, missing bells, wrong ribbon shape, identity drift, generic anime child
+
+Command:
+"E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\.venv\Scripts\python.exe" "E:\新建文件夹\When the Sword Arrives\game\third_party\sd-scripts\train_network.py" --pretrained_model_name_or_path D:\ai_models\sd15\v1-5-pruned-emaonly.safetensors --dataset_config "E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\generated_configs\lbp_dataset.toml" --output_dir "E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\output\lbp" --output_name lbp_face_lock_lora_v1 --save_model_as safetensors --prior_loss_weight 1.0 --max_train_steps 1600 --learning_rate 0.0001 --unet_lr 0.0001 --network_module networks.lora --network_dim 8 --network_alpha 8 --resolution 512,512 --train_batch_size 1 --gradient_accumulation_steps 4 --mixed_precision fp16 --save_precision fp16 --optimizer_type AdamW --lr_scheduler cosine_with_restarts --lr_scheduler_num_cycles 1 --cache_latents --gradient_checkpointing --max_data_loader_n_workers 0 --bucket_reso_steps 32 --min_bucket_reso 256 --max_bucket_reso 768 --seed 42 --caption_dropout_rate 0.0 --caption_tag_dropout_rate 0.0 --keep_tokens 1 --text_encoder_lr 5e-05

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\新建文件夹\When the Sword Arrives\game\third_party\sd-scripts\train_network.py", line 17, in <module>
+    import torch
+  File "E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\.venv\Lib\site-packages\torch\__init__.py", line 262, in <module>
+    _load_dll_libraries()
+  File "E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\.venv\Lib\site-packages\torch\__init__.py", line 258, in _load_dll_libraries
+    raise err
+OSError: [WinError 126] 找不到指定的模块。 Error loading "E:\新建文件夹\When the Sword Arrives\game\training\identity_lock\.venv\Lib\site-packages\torch\lib\cudnn_cnn64_9.dll" or one of its dependencies.
