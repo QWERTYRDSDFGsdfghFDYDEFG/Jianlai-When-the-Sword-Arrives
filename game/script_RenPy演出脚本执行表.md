@@ -262,7 +262,7 @@ with dissolve
 ### 序-14 大隋官道师生送行
 
 ```renpy
-scene bg c1_14_autumn_road_sendoff_v1
+scene bg c1_14_autumn_road_sendoff_v2
 with fade
 
 show cpa standard at left_medium
@@ -282,4 +282,4 @@ with dissolve
 - `c1_04_stage_far_v1` 与 `c1_05_stage_near_v1` 做成同一戏台远近景。
 - `c1_07_pq_run_v1` 与 `c1_08_pq_pose_v1` 建议共用同一人物造型与水面体系。
 - `c1_10_cpa_arrival_v1 / c1_11_cpa_sword_01_v1 / c1_12_cpa_sword_02_v1` 必须作为连续三联图设计。
-- `c1_01_lbp_return_v2 / c1_13_academy_gate_farewell_v1 / c1_14_autumn_road_sendoff_v1` 是序章首尾情绪三锚点，优先保证完成度。
+- `c1_01_lbp_return_v2 / c1_13_academy_gate_farewell_v1 / c1_14_autumn_road_sendoff_v2` 是序章首尾情绪三锚点，优先保证完成度。

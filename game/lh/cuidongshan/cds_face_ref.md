@@ -4,29 +4,17 @@
 
 当前唯一主标准文件：
 
-- `lh/cuidongshan/cds_face_ref.md`
+
 
 母版基准图：
 
-- 固定脸部身份母版：`cuidongshan_face_locked_identity_sheet_02.png`
-- 当前通用服装母版：`cds_t00_base_v1.png`
-- 正式主母版：`cds_face_test_01_plain_v1.png`
-- 辅助母版（夜景稳定验证）：`cds_face_test_04_courtyard_night_v1.png`
-- 辅助母版（湖边情绪验证）：`cds_face_test_05_lakeside_night_v1.png`
 
-母版使用口径：
-
-- `cuidongshan_face_locked_identity_sheet_02.png` 仍是最初的固定脸部身份原始锚点。
-- `cds_t00_base_v1.png` 仍是当前通用服装母版。
-- `cds_face_test_01_plain_v1.png` 作为后续生成时优先参考的正式主母版，负责锁定“最稳定、最中性、最适合作为基准脸”的崔东山。
-- `cds_face_test_04_courtyard_night_v1.png` 作为夜景条件下的辅助母版，负责验证月夜庭院光线下不跑脸。
-- `cds_face_test_05_lakeside_night_v1.png` 作为湖边夜景与轻情绪条件下的辅助母版，负责验证冷色夜景下的身份稳定度。
 
 执行原则：
 
 - 以后查崔东山标准，只看这一份。
 - 后续一切出图，先锁同一个人，再谈场景、情绪和构图。
-- 这份文件同时覆盖原先的锁脸说明、服装口径、提示词约束和高压场景提醒。
+- 这份文件同时覆盖原先的锁脸说明、服装口径、提示词约束、高压场景提醒和情绪版主母版口径。
 
 ## 1. 目标定义
 
@@ -58,7 +46,7 @@
 
 ### 2.1 脸型锁定
 
-- 以 `cuidongshan_face_locked_identity_sheet_02.png` 为唯一脸型母版。
+为唯一脸型母版。
 - 脸部整体必须偏窄、偏长、收束明确，不能变圆，不能变宽，也不能削成夸张 V 脸。
 - 额头、颧侧、下颌、下巴的收放关系必须保持母版一致。
 - 下颌不能成熟化，不能贵公子化，不能偶像脸化。
@@ -120,7 +108,7 @@
 
 ### 2.7 当前服装锁定
 
-- 以 `cds_t00_base_v1.png` 为当前唯一通用服装母版。
+- 以 为当前唯一通用服装母版。
 - 当前阶段默认固定为“白色外袍 + 灰蓝内衫”的白衣读书人装束。
 - 必须保持以下结构关系：
   - 白色长外袍
@@ -185,6 +173,7 @@
 如果新图更好看但不像母版里的同一个崔东山，或服装偏离 cds_t00_base_v1，也判定为失败。
 ```
 
+
 ## 6. 生成时的负面约束
 
 后续生成时，应同时加入以下否定约束：
@@ -209,21 +198,7 @@
 
 ## 8. 文件与版本约定
 
-- `cuidongshan_face_locked_identity_sheet_02.png` 是崔东山固定脸部身份母版。
-- `cds_t00_base_v1.png` 是崔东山当前通用固定服装母版。
-- `cds_face_test_01_plain_v1.png` 是崔东山当前正式主母版。
-- `cds_face_test_04_courtyard_night_v1.png` 和 `cds_face_test_05_lakeside_night_v1.png` 是当前辅助母版。
-- `cds_face_ref.md` 是崔东山当前唯一主标准文件。
-- 后续所有崔东山图，默认都应注明“基于主母版锁脸，并参考辅助母版校验夜景稳定度；服装对齐 `cds_t00_base_v1.png` 生成”。
-- 若后续建立新服装版本，必须单独获得批准，并同步更新本文件；在那之前，不再拆分维护别的崔东山标准文档。
 
-推荐命名思路：
-
-- `cds_face_locked_exp_xx.png`
-- `cds_face_locked_act_xx.png`
-- `cds_face_locked_scene_xx.png`
-
-## 9. 执行原则
 
 结论只有一条：
 

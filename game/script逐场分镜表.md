@@ -276,8 +276,8 @@
 | 项目 | 内容 |
 |---|---|
 | 剧情节点 | 崔东山单独送陈平安一程，终于谈到世道、悲欢与“先生可以缓缓归矣” |
-| 现用图名 | `bg c1_14_autumn_road_sendoff_v1` |
-| 统一主名 | `bg c1_14_autumn_road_sendoff_v1` |
+| 现用图名 | `bg c1_14_autumn_road_sendoff_v2` |
+| 统一主名 | `bg c1_14_autumn_road_sendoff_v2` |
 | 背景 | 大隋官道 / 初秋路景 / 天地空阔 |
 | 立绘 | 陈平安、崔东山 |
 | 表情 | 崔东山难得认真；陈平安温和、略疲惫 |
@@ -295,7 +295,7 @@
 | P0 | `c1_02_midnight_lake_v1` | 湖区母图，后续多场可派生 |
 | P0 | `c1_10_cpa_arrival_v1` | 序章核心大图，承担情绪爆点 |
 | P0 | `c1_13_academy_gate_farewell_v1` | 群像送别核心图 |
-| P0 | `c1_14_autumn_road_sendoff_v1` | 收尾情绪核心图 |
+| P0 | `c1_14_autumn_road_sendoff_v2` | 收尾情绪核心图 |
 | P1 | `c1_04_stage_far_v1` + `c1_05_stage_near_v1` | 李槐戏台演出套图，喜剧感来源 |
 | P1 | `c1_07_pq_run_v1` + `c1_09_platform_duet_v1` | 裴钱与崔东山的演出高点 |
 | P1 | `c1_11_cpa_sword_01_v1` + `c1_12_cpa_sword_02_v1` | 陈平安演剑连续高潮 |

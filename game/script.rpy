@@ -226,7 +226,7 @@ label start:
     voice voice_id("voice.scn_0010_huyuanko.mxd.0001")
     k "以后常来"
 
-    scene bg c1_14_autumn_road_sendoff_v1
+    scene bg c1_14_autumn_road_sendoff_v2
 
     voice voice_id("voice.scn_0011_da_uei.cds.0001")
     cds "你们该上课的上课，该给人上课的上课，剩下的一程就由我单独送送先生，散了散了吧。"
