@@ -24,4 +24,4 @@ Avoid: round face, wide jaw, mature male lead face, noble young master styling, 
 
 - 方向锁定为：空手、正常走路、白色外袍、灰蓝内衫、半写实宋韵、低饱和留白背景。
 - 当前环境里内置 `image_gen` 能生成会话预览，但未提供可直接复制到项目目录的本地文件路径。
-- 后续如具备可落盘路径，应优先使用本提示词直接生成正式文件，例如：`cds_master_walk_v1.png`。
+- 后续如具备可落盘路径，应优先使用本提示词直接生成正式母版文件，例如命名为 `cds_master_walk_v1`。

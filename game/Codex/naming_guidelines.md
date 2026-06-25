@@ -245,9 +245,123 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 - 角色参考资料：`lh/角色缩写/`
 - 通用说明：项目根目录或 `Codex/`
 
+### 5.3 角色目录图片增加“状态词”
+
+角色目录中的图片，以后建议明确区分“测试图 / 候选图 / 正式图”，不要都混成同一类。
+
+推荐状态词：
+
+- `test`：测试图
+- `cand`：候选图
+- `master`：正式母版
+- `exp_sheet`：正式表情差分页
+- `pose_sheet`：正式动作页
+
+说明：
+
+- `test` 只表示“这张图拿来试”，不代表质量差。
+- `cand` 表示“这张图有机会转正”，但还不是当前唯一标准。
+- `master` 才表示“这张图已经被确认成当前正式标准”。
+
 ---
 
-## 6. 新增资源时的执行步骤
+## 6. 角色目录图片命名规范
+
+### 6.1 推荐结构
+
+角色目录内的图片，推荐统一为：
+
+`角色缩写_内容_状态_v版本号.png`
+
+示例：
+
+- `cds_face_test_v1.png`
+- `cds_face_cand_v2.png`
+- `cds_face_master_v1.png`
+- `cds_exp_sheet_v1.png`
+- `cds_pose_sheet_v1.png`
+- `lbp_face_test_v1.png`
+- `lbp_face_cand_v2.png`
+- `lbp_face_master_v1.png`
+- `lbp_exp_sheet_v1.png`
+- `lbp_pose_sheet_v1.png`
+
+### 6.2 常用内容词
+
+建议优先使用短词：
+
+- `face`
+- `face_close`
+- `face_34`
+- `face_lowturn`
+- `exp`
+- `exp_sheet`
+- `pose`
+- `pose_sheet`
+- `walk`
+- `sit`
+- `turn`
+
+不要继续写成很长的英文句子式文件名。
+
+### 6.3 推荐组合写法
+
+正式锁脸母版：
+
+- `cds_face_master_v1.png`
+- `lbp_face_master_v1.png`
+
+近景锁脸母版：
+
+- `cds_face_close_master_v1.png`
+- `lbp_face_close_master_v1.png`
+
+候选近景图：
+
+- `cds_face_close_cand_v1.png`
+- `lbp_face_close_cand_v1.png`
+
+测试动作图：
+
+- `cds_walk_test_v1.png`
+- `lbp_turn_test_v1.png`
+
+正式表情分页：
+
+- `cds_exp_sheet_v1.png`
+- `lbp_exp_sheet_v1.png`
+
+正式动作页：
+
+- `cds_pose_sheet_v1.png`
+- `lbp_pose_sheet_v1.png`
+
+### 6.4 状态词位置固定
+
+建议状态词永远放在版本号前面，不要一会儿放中间，一会儿放结尾。
+
+推荐：
+
+- `cds_face_cand_v1.png`
+
+不推荐：
+
+- `cds_cand_face_v1.png`
+- `cds_face_v1_cand.png`
+- `cand_cds_face_v1.png`
+
+### 6.5 现有老文件的处理口径
+
+当前目录里已经存在的老文件，不要求立刻全部重命名。
+
+从现在开始只执行两条：
+
+1. 新增文件尽量遵守这套规则。
+2. 只有在用户明确要求整理旧文件时，才逐个把老文件收敛到新命名口径。
+
+---
+
+## 7. 新增资源时的执行步骤
 
 每次新增背景图，按下面顺序处理：
 
@@ -267,9 +381,9 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 
 ---
 
-## 7. 当前推荐的统一方向
+## 8. 当前推荐的统一方向
 
-### 7.1 背景图
+### 8.1 背景图
 
 后续新背景图尽量统一成：
 
@@ -277,7 +391,7 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 - `c1_02_xxx_v1.png`
 - `c2_01_xxx_v1.png`
 
-### 7.2 角色参考文档
+### 8.2 角色参考文档
 
 后续角色资料尽量统一成：
 
@@ -289,9 +403,19 @@ image bg c1_07_pq_run_v1 = im.Scale("images/chapter1/c1_07_pq_run_v1.png", 1920,
 
 - `XXX_FACE_IDENTITY_STANDARD.md`
 
+### 8.3 角色目录图片
+
+后续角色目录新增图片，尽量统一成：
+
+- `角色缩写_face_test_v1.png`
+- `角色缩写_face_cand_v1.png`
+- `角色缩写_face_master_v1.png`
+- `角色缩写_exp_sheet_v1.png`
+- `角色缩写_pose_sheet_v1.png`
+
 ---
 
-## 8. 一句话版
+## 9. 一句话版
 
 以后尽量执行这一条：
 

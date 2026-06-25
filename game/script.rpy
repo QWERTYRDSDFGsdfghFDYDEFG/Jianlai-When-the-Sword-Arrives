@@ -2,6 +2,7 @@ label start:
     $ renpy.force_autosave()
 
     scene bg c1_01_lbp_return_v2
+    show cds standard at right_back
 
     narrator "李宝瓶快步穿过深夜庭院，停在崔东山房门前，抬手敲了敲门。"
 
@@ -23,6 +24,7 @@ label start:
     $ story_mood_event("a", "separation")
 
     scene bg c1_02_midnight_lake_v1
+    show cds standard at right_medium
 
     voice voice_id("voice.scn_0002_midnight_lake.cds.0001")
     #这段音频需要分2段，
@@ -111,6 +113,7 @@ label start:
     narrator "那个手拈小葫芦，高高举起，仰头摆出饮酒状。"
 
     scene bg c1_09_platform_duet_v1
+    show cds standard at right_medium
 
     voice voice_id("voice.scn_0006_peiqian3.pq.0001")
     peiqian "江湖没什么好的，也就酒还行。酒呢，来来来！谁来与我共饮这江湖酒"
@@ -227,6 +230,7 @@ label start:
     k "以后常来"
 
     scene bg c1_14_autumn_road_sendoff_v2
+    show cds standard at right_medium
 
     voice voice_id("voice.scn_0011_da_uei.cds.0001")
     cds "你们该上课的上课，该给人上课的上课，剩下的一程就由我单独送送先生，散了散了吧。"
