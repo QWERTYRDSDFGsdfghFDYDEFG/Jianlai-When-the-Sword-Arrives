@@ -114,8 +114,8 @@
 
 #### 序-01 补充执行备注
 
-- 人设直接对齐 [lh/lbp/李宝瓶固定脸部身份与当前服装标准.md](/E:/新建文件夹/When the Sword Arrives/game/lh/lbp/李宝瓶固定脸部身份与当前服装标准.md:1) 和 [lh/cuidongshan/cds_face_ref.md](/E:/新建文件夹/When the Sword Arrives/game/lh/cuidongshan/cds_face_ref.md:1)。
-- 锁脸时带参考图：`lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/cuidongshan/cds.png`；崔东山侧角度再补 `lh/cuidongshan/cds_16view_v1.png`。
+- 人设直接对齐 [lh/lbp/李宝瓶固定脸部身份与当前服装标准.md](/E:/新建文件夹/When the Sword Arrives/game/lh/lbp/李宝瓶固定脸部身份与当前服装标准.md:1) 和 [lh/cds/cds_face_ref.md](/E:/新建文件夹/When the Sword Arrives/game/lh/cds/cds_face_ref.md:1)。
+- 锁脸时带参考图：`lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`；崔东山当前先严格按 `lh/cds/cds_face_ref.md` 锁身份，首批正式近景资产目标为 `lh/cds/cds_face_close_master_v1.png`、`lh/cds/cds_face_34_master_v1.png`、`lh/cds/cds_turn_sheet_v1.png`。
 - 流程用 `先构图，后校脸`，精修重点放在李宝瓶侧脸可读性、收手发问手势、压低崔东山古偶感。
 
 ### 场次 序-02 湖边夜谈

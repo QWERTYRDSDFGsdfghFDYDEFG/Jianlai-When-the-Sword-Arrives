@@ -47,6 +47,7 @@
 
 - `Codex/character_generation_workflow.md`
 - `Codex/character_asset_update_rules.md`
+- `Codex/semi_to_cel_guide.md`（涉及半写实身份图转赛璐璐 / 动画风时额外必读）
 - `角色立绘设计原则.md`
 - `《剑来》VN演出与构图总手册.md`
 
@@ -68,7 +69,7 @@
 | 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | `lh/cpa/cpa_face_standard_01.png`、`lh/cpa/cpa_outfit_variant_06_warm_weather.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/lbp/lbp_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
-| 崔东山 | 崔东山、cds | `lh/cuidongshan/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | `lh/cuidongshan/cds.png`、`lh/cuidongshan/cds_16view_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 当前优先候选：`lh/cds/cds_exp_sheet_cand_v2.png`、`lh/cds/cds_34_sheet_cand_v2.png`、`lh/cds/cds_turn_sheet_cand_v2.png`；旧版失败样例：`lh/cds/cds_exp_sheet_cand_v1.png`、`lh/cds/cds_34_sheet_cand_v1.png`、`lh/cds/cds_turn_sheet_cand_v1.png`；首批正式待补：`lh/cds/cds_face_close_master_v1.png`、`lh/cds/cds_face_34_master_v1.png`、`lh/cds/cds_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 
 ---
 
