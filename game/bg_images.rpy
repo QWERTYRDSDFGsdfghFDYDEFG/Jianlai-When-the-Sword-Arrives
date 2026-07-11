@@ -1,6 +1,7 @@
 # Background image definitions
 
 image bg c1_01_lbp_return_v2 = im.Scale("images/chapter1/c1_01_lbp_return_v2.png", 1920, 1080)
+image bg c1_01_cds_open_v1 = im.Scale("images/chapter1/c1_01_cds_open_v1.png", 1920, 1080)
 
 image bg c1_02_midnight_lake_v1 = im.Scale("images/chapter1/c1_02_midnight_lake_v1.png", 1920, 1080)
 
