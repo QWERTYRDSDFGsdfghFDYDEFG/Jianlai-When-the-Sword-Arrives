@@ -69,7 +69,15 @@
 | 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | `lh/cpa/cpa_face_standard_01.png`、`lh/cpa/cpa_outfit_variant_06_warm_weather.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/lbp/lbp_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
-| 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 当前优先候选：`lh/cds/cds_exp_sheet_cand_v2.png`、`lh/cds/cds_34_sheet_cand_v2.png`、`lh/cds/cds_turn_sheet_cand_v2.png`；旧版失败样例：`lh/cds/cds_exp_sheet_cand_v1.png`、`lh/cds/cds_34_sheet_cand_v1.png`、`lh/cds/cds_turn_sheet_cand_v1.png`；首批正式待补：`lh/cds/cds_face_close_master_v1.png`、`lh/cds/cds_face_34_master_v1.png`、`lh/cds/cds_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 正面身份母版：`lh/cds/cds-v1.png`；三分之四侧母版：`lh/cds/cds_exp_34_v1.png`；同机位表情差分基底：`lh/cds/cds_face_34_cand_v1.png`；全身体型与当前服装母版：`lh/cds/cds_full_base_v11.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+
+### 3.1 崔东山母版调用顺序
+
+- 生成或修正脸部身份：先读 `lh/cds/cds_face_ref.md`，以 `lh/cds/cds-v1.png` 为最高优先级。
+- 生成三分之四侧镜头：以 `lh/cds/cds_exp_34_v1.png` 锁定转角后的骨相与五官透视。
+- 生成认真、疑惑、微笑、委屈、小得意等表情差分：以 `lh/cds/cds_face_34_cand_v1.png` 固定镜头、光线、角度和构图，只允许微调表情肌。
+- 生成全身、服装或动作差分：以 `lh/cds/cds_full_base_v11.png` 固定体型、站姿、袍服层级、配色、腰带、垂绦和鞋履，同时用 `lh/cds/cds-v1.png` 回锁脸部身份。
+- 若近景与全身图的脸部细节冲突，以近景身份母版为准；全身图不得反向覆盖近景脸部标准。
 
 ---
 
