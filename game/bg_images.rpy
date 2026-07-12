@@ -19,7 +19,7 @@ image bg c1_10_cpa_arrival_v1 = im.Scale("images/chapter1/c1_10_cpa_arrival_v1.p
 image bg c1_11_cpa_sword_01_v1 = im.Scale("images/chapter1/c1_11_cpa_sword_01_v1.png", 1920, 1080)
 image bg c1_12_cpa_sword_02_v1 = im.Scale("images/chapter1/c1_12_cpa_sword_02_v1.png", 1920, 1080)
 image bg c1_12_cpa_sword_03_v1 = im.Scale("images/chapter1/c1_12_cpa_sword_03_v1.png", 1920, 1080)
-image bg c1_13_academy_gate_farewell_v1 = im.Scale("images/chapter1/c1_14_autumn_road_sendoff_v2.png", 1920, 1080)
+image bg c1_13_academy_gate_farewell_v1 = im.Scale("images/chapter1/c1_13_academy_gate_farewell_v1.png", 1920, 1080)
 image bg c1_14_autumn_road_sendoff_v2 = im.Scale("images/chapter1/c1_14_autumn_road_sendoff_v2.png", 1920, 1080)
 
 image bg c2_01_rest_v1 = im.Scale("images/chapter2/c2_01_rest_v1.png", 1920, 1080)

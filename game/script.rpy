@@ -44,7 +44,7 @@ label start:
     voice voice_id("voice.scn_0002_midnight_lake.cds.0003")
     cds "这样啊。"
 
-    scene bg c1_03_lh_entry_v1
+    # c1_03 独立画面尚未接入，暂时延续湖边夜景，避免重复加载 c1_02。
 
     narrator "湖水四周岸边小道上骤然间亮起一条光彩绚烂的金色光环，是以那把仙人飞剑金穗画出"
     narrator "的一座雷池，此刻崔东山撤去了其中一部分障眼法。"
@@ -54,12 +54,12 @@ label start:
     voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
-    scene bg c1_04_stage_far_v1
+    # c1_04 独立画面尚未接入，避免提前显示序-09的湖上对唱画面。
 
     narrator "只见高台不远处出现了两个身影，可怜朱敛和石柔，扮演那剪径匪寇，正在分别暴揍两"
     narrator "个“文弱书生”于禄和林守一。"
 
-    scene bg c1_05_stage_near_v1
+    # c1_05 独立画面尚未接入，避免提前显示序-08的裴钱收势画面。
 
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0001")
     c "住手！"
@@ -90,7 +90,7 @@ label start:
 
     narrator "崔东山打了个响指，李槐、雪白麋鹿与朱敛、石柔，还有于禄、林守一，都消失不见。"
 
-    scene bg c1_06_duet_lake_v1
+    # c1_06 独立画面尚未接入，避免再次加载 c1_02 湖边夜景。
 
     voice voice_id("voice.scn_0005_du_klakeduet.narr.0001")
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"
