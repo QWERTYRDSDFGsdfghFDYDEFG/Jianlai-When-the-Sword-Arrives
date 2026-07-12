@@ -1,4 +1,5 @@
 # 半写实身份图转赛璐璐 / 动画风精简流程
+
 ## 文档用途
 
 本文件用于处理以下类型任务：
@@ -10,7 +11,7 @@
 需要从脸部 / 半身身份图扩展为全身标准基准图；
 需要迁移指定服装参考，但不能让服装参考带走脸部身份。
 
-## 适用范围
+适用范围：
 
 男性角色肩部以上近景；
 角色脸部身份母版；
@@ -21,7 +22,7 @@
 全身标准基准图；
 服装迁移；
 立绘、表情差分、剧情 CG 的风格统一。
-# 1. 核心问题
+1. 核心问题
 
 这类任务的核心矛盾主要有四条：
 
@@ -38,8 +39,8 @@
 
 先保人，再推风格；先做桥接，再推角度；先锁镜头，再改表情；先定全身结构，再谈成图美感。
 
-# 2. 总原则
-## 2.1 必须遵守的原则
+2. 总原则
+2.1 必须遵守的原则
 先锁身份，再轻度风格化。
 先稳定正面，再做三分之四侧桥接，再做侧脸和回头。
 表情差分不是重画角色，只能在同一帧里微调表情肌肉。
@@ -47,7 +48,7 @@
 服装参考只负责衣服结构，不负责脸部身份。
 每一轮只解决一个问题，不同时要求“更像、更侧、更赛璐璐、更好看、更全身、更有气质”。
 只要跑偏，就退回上一张稳定图，不在错误底图上硬修。
-## 2.2 不要做的事
+2.2 不要做的事
 不要一上来就写：
 full anime redesign
 strong cel-shaded style
@@ -59,8 +60,8 @@ complete 2D animation conversion
 不要让服装参考图同时影响脸、气质和身份。
 不要在全身基准图阶段加入卷轴、剑、扇子、书本等剧情道具。
 不要为了追求“书卷、古怪、清醒”而在全身图里反复改眼神和五官。
-# 3. 标准流程
-## 3.1 先做身份母版
+3. 标准流程
+3.1 先做身份母版
 
 先选一张最像、最稳的底图，要求至少满足：
 
@@ -77,7 +78,7 @@ complete 2D animation conversion
 不做跨角度；
 不做表情差分；
 不做全身服装迁移。
-## 3.2 再做低强度风格化
+3.2 再做低强度风格化
 
 第一次风格转换只做轻度整理，不追求一步到位。
 
@@ -101,7 +102,7 @@ complete 2D animation conversion
 阴影块面更明确一点；
 皮肤和发丝少一点写实感；
 整体更统一。
-## 3.3 正面稳定后，先做三分之四侧桥接
+3.3 正面稳定后，先做三分之四侧桥接
 
 三分之四侧不是终点，而是正面到侧脸之间的桥。
 
@@ -117,7 +118,7 @@ complete 2D animation conversion
 
 角度够用，身份稳定，男主感不过量，气质不阴沉。
 
-## 3.4 再做标准侧脸
+3.4 再做标准侧脸
 
 侧脸阶段重点不是好看，而是骨相一致。
 
@@ -135,7 +136,7 @@ complete 2D animation conversion
 
 眉心痣在侧脸可能弱化或不可见，这不一定是错；
 但不能被乱改成额饰、花钿或新装饰。
-## 3.5 再做回头镜头
+3.5 再做回头镜头
 
 回头镜头必须放在侧脸之后。
 
@@ -152,7 +153,7 @@ complete 2D animation conversion
 有观察或判断；
 有警觉或回望动作；
 不是“给观众看的美男回眸”。
-## 3.6 当前镜头稳定后，再做表情差分
+3.6 当前镜头稳定后，再做表情差分
 
 表情差分的前提：
 
@@ -191,7 +192,7 @@ complete 2D animation conversion
 
 原因很简单：越往后越容易男主化、幼态化或恋爱向。
 
-## 3.7 再做全身标准基准图
+3.7 再做全身标准基准图
 
 全身阶段的目标不是“做一张好看的宣传图”，而是：
 
@@ -227,8 +228,8 @@ complete 2D animation conversion
 → 同服装半身基准图
 → 全身动作差分
 → 半身表情差分
-# 4. 全身基准图经验回溯
-## 4.1 这次遇到的问题
+4. 全身基准图经验回溯
+4.1 这次遇到的问题
 
 本轮任务的目标是：
 
@@ -346,7 +347,7 @@ do not change identity
 
 所以这类情况不能继续硬修，必须回退。
 
-## 4.2 难点是什么
+4.2 难点是什么
 
 全身图的难点不在于“画不出全身”，而在于：
 
@@ -367,7 +368,7 @@ do not change identity
 
 近景 / 半身图：负责脸、眼神、表情、古怪感
 全身图：负责比例、服装、站姿、整体轮廓
-## 4.3 实际解决过程
+4.3 实际解决过程
 第一阶段：直接从近景扩展全身
 
 最开始直接根据近景身份和服装参考做全身，能得到完整人物，但常见问题是：
@@ -452,7 +453,7 @@ do not change identity
 
 它是一张可用的全身标准基准图，而不是最终脸部身份母版。
 
-## 4.4 解决后又出现了什么问题
+4.4 解决后又出现了什么问题
 1. 脸部不会像近景那样稳定
 
 全身图里脸太小，不能要求它承担：
@@ -488,8 +489,8 @@ do not change identity
 
 所以全身图里的“古怪”只能是轻微气质，不要当作主要目标。
 
-# 5. 全身基准图原则
-## 5.1 明确参考图职责
+5. 全身基准图原则
+5.1 明确参考图职责
 
 服装参考图只负责：
 
@@ -512,7 +513,7 @@ do not change identity
 核心句：
 
 Use lh/lcds/崔东山.png only for clothing structure and full-body costume reference, not face identity.
-## 5.2 全身基准图不是宣传海报
+5.2 全身基准图不是宣传海报
 
 全身基准图要避免：
 
@@ -538,7 +539,7 @@ Use lh/lcds/崔东山.png only for clothing structure and full-body costume refe
 核心句：
 
 This is a reusable full-body standard character base image, not a cinematic poster.
-## 5.3 人物大小
+5.3 人物大小
 
 全身图里人物不能太小。
 
@@ -559,7 +560,7 @@ This is a reusable full-body standard character base image, not a cinematic post
 裁脚；
 裁衣摆；
 丢失全身结构。
-## 5.4 背景要压干净
+5.4 背景要压干净
 
 全身基准图背景最好是：
 
@@ -573,7 +574,7 @@ This is a reusable full-body standard character base image, not a cinematic post
 
 背景越复杂，模型越容易把它当成剧情图。
 
-## 5.5 服装贵气只能小幅压
+5.5 服装贵气只能小幅压
 
 服装迁移时常见问题是：
 
@@ -598,7 +599,7 @@ old, poor, dirty, rough, torn
 
 保留白衣层次和读书人结构，减少仙侠门派公子感。
 
-## 5.6 道具先不要加
+5.6 道具先不要加
 
 全身基准图阶段不要加：
 
@@ -618,7 +619,7 @@ old, poor, dirty, rough, torn
 
 先做干净母版，后面再做道具差分。
 
-## 5.7 全身图不是锁脸图
+5.7 全身图不是锁脸图
 
 全身图主要负责：
 
@@ -638,7 +639,7 @@ old, poor, dirty, rough, torn
 嘴角差分；
 古怪感细节；
 近景级别身份判断。
-## 5.8 不要在全身图里强修眼神
+5.8 不要在全身图里强修眼神
 
 以下词在全身图里高风险：
 
@@ -664,7 +665,7 @@ slightly quieter body presence
 less standard male-lead aura
 more restrained scholar-like bearing
 robe hangs naturally on a lean body
-## 5.9 不要让“书卷、古怪”变成新角色设定
+5.9 不要让“书卷、古怪”变成新角色设定
 
 错误写法：
 
@@ -683,8 +684,8 @@ only make the overall body presence slightly more restrained and scholar-like
 
 不要把气质词写成角色定义，要写成微调方向。
 
-# 6. 常用提示词模板
-## 6.1 轻度赛璐璐模板
+6. 常用提示词模板
+6.1 轻度赛璐璐模板
 Use the current image as the only base image.
 
 This is not a redesign.
@@ -700,7 +701,7 @@ make the hair rendering slightly less strand-based.
 
 Do not turn him into a generic handsome anime male lead.
 Do not beautify the face.
-## 6.2 表情差分固定前缀
+6.2 表情差分固定前缀
 Use the current image as the only base image.
 
 This is an expression variation, not a new character image.
@@ -719,15 +720,15 @@ This must look like the same frame with only the expression changed.
 通用负面词：
 
 different person, face redesign, changed angle, changed lighting, changed hairstyle, changed clothing, changed background, changed face shape, changed eye shape, changed nose, changed jawline, generic handsome male lead, romance game male lead, pretty-boy face, over-beautified, larger eyes, glossy lips, different identity
-## 6.3 侧脸补充句
+6.3 侧脸补充句
 This is a side-profile identity study, not a beautiful side-profile poster.
 Keep the same person and the same bone structure.
 Do not turn him into a generic elegant side-profile male.
-## 6.4 回头补充句
+6.4 回头补充句
 This is not a romantic looking-back shot.
 Do not make him look like a handsome male lead turning back.
 Do not make the gaze soft, inviting, or emotionally posed.
-## 6.5 表情目标短语
+6.5 表情目标短语
 
 可在固定前缀后追加：
 
@@ -736,7 +737,134 @@ Do not make the gaze soft, inviting, or emotionally posed.
 微笑：very faint restrained smile, knowing, not warm, not romantic
 小得意：subtle smugness, quiet confidence, slight mischief, restrained
 委屈：restrained grievance, slight stubbornness, not fragile, not romantic
-## 6.6 全身基准图通用模板
+
+6.6 阴影过硬修正模板
+
+当轻度赛璐璐化产生脸颊大三角阴影、贴片式阴影或不服从骨相的硬边时，不要继续增加赛璐璐强度，只修阴影形状：
+
+```text
+This edit is only for shadow-shape refinement.
+Do not change the face, identity, expression, angle, lighting direction, hairstyle, clothing, or composition.
+
+Refine the shadow shapes.
+Make cheek shadows natural.
+Avoid pasted-on triangular shadows.
+Keep every shadow fitted to the face structure.
+Do not make the cel shading stronger or harder.
+```
+
+6.7 详细表情差分模板
+
+以下内容应接在“表情差分固定前缀”之后使用。每轮只选择一个目标，不要一次生成多个表情。
+
+认真 v1：
+
+```text
+Expression target: serious and focused.
+
+Only change the expression slightly:
+make the gaze more focused and attentive,
+lower the upper eyelids very slightly,
+bring the brows slightly closer with mild concentration,
+make the mouth flatter and more restrained,
+reduce any soft or pretty male-lead feeling.
+
+The expression should feel calm, serious, clear-headed, and observant.
+Do not make him angry, gloomy, or villain-like.
+Do not change the face structure.
+```
+
+认真 v2（只在 v1 识别度不足时使用）：
+
+```text
+Expression target: serious v2.
+
+The current result is close, but the serious expression needs to be slightly clearer.
+Only adjust the facial expression very subtly:
+make the gaze a little more focused and concentrated,
+lower the upper eyelids slightly more,
+bring the brows slightly closer with mild concentration,
+add a little more attentive tension around the eyes,
+keep the mouth flat and restrained.
+
+The expression should feel calm, serious, attentive, clear-headed, and observant.
+Do not make him angry, gloomy, villain-like, romantic, or soft.
+Do not make major changes.
+This must still look like the same frame with only a slightly clearer serious expression.
+```
+
+认真做到 v2 后应停止；继续加强容易滑向严肃、不悦或阴沉。
+
+疑惑 v1：
+
+```text
+Expression target: subtle doubt and questioning.
+
+Only change the expression slightly:
+raise one eyebrow very subtly,
+make the eyes look more questioning and observant,
+add a slight skeptical tension around the eyelids,
+keep the mouth closed and restrained,
+make the mouth corners slightly tighter.
+
+The expression should feel like quiet doubt, clear-headed questioning, and subtle judgment.
+Do not make him cute or childishly confused.
+Do not tilt the head or change the face structure.
+```
+
+微笑 v1：
+
+```text
+Expression target: very faint restrained smile.
+
+Only change the expression slightly:
+lift the mouth corners very subtly,
+make the smile thin, restrained, and barely visible,
+keep the eyes calm, clear-headed, and observant,
+do not soften the gaze too much,
+keep a slight self-aware feeling.
+
+The expression should feel like a quiet, subtle, knowing smile.
+Not warm, romantic, cute, openly happy, or like a gentle male lead.
+Do not change the face structure.
+```
+
+小得意 v1：
+
+```text
+Expression target: subtle smugness.
+
+Only change the expression slightly:
+make one corner of the mouth lift just a little,
+add a faint self-aware smugness,
+make the eyes look calm, clever, and slightly amused,
+keep the expression restrained and controlled.
+
+The expression should feel like quiet confidence and slight mischief.
+Do not make him evil, arrogant, flirtatious, or villain-like.
+Do not make the smile wide or change the face structure.
+```
+
+委屈 v1：
+
+```text
+Expression target: restrained grievance.
+
+Only change the expression slightly:
+lower the gaze just a little,
+make the eyelids slightly heavier,
+make the mouth corners slightly pressed down,
+add a restrained feeling of being wronged,
+but keep the expression controlled and self-aware.
+
+The expression should feel like quiet, restrained grievance, with a little stubbornness.
+Do not make him cry, soft, cute, childish, fragile, or romantic.
+Do not make the eyes watery or change the face structure.
+```
+
+表情建议按风险从低到高依次制作：认真、疑惑、微笑、小得意、委屈。表情一旦成立就停止，不追求更强识别度。
+
+6.8 全身基准图通用模板
 Use the current locked face identity as the highest-priority identity standard.
 
 This is not a character redesign.
@@ -771,7 +899,7 @@ Do not turn him into a generic handsome ancient-style male lead.
 全身基准图负面词：
 
 face redesign, different person, loss of identity, generic handsome ancient-style male, costume-drama poster hero, elegant xianxia prince, noble refined aura, immortal prince costume, luxurious robe, fantasy robe, overly pristine clothing, delicate decorative patterns, excessive ornaments, fairy-like elegance, overly graceful sleeves, stiff hands, default character-sheet hands, dramatic prop, scroll, cinematic poster, dramatic background, heavy mist, cropped body, cropped feet
-## 6.7 全身基准图安全模板
+6.9 全身基准图安全模板
 
 以后从近景身份图扩展全身，优先用这版：
 
@@ -821,7 +949,7 @@ but the identity must remain faithful to the close-up references.
 全身安全负面词：
 
 new character, different person, changed face, face redesign, changed eyes, sharper gaze, judging gaze, generic handsome ancient-style male lead, romance-game male lead, noble xianxia prince, immortal prince, heroic pose, glamorous elegance, poster composition, cinematic background, dramatic clouds, added props, plain generic scholar robe, over-simplified costume, luxurious robe, ornate prince robe, feminine body, sickly body, exaggerated eccentricity
-## 6.8 错误脸回贴模板
+6.10 错误脸回贴模板
 
 当全身图结构可用、但脸已经跑偏时，不要继续普通微调。
 应改成“脸部身份回贴”。
@@ -860,8 +988,8 @@ Only correct the face identity.
 
 如果没有正确近景锁脸图，只靠错误脸底图，基本救不回。
 
-# 7. 跑偏信号与修正原则
-## 7.1 通用跑偏信号
+7. 跑偏信号与修正原则
+7.1 通用跑偏信号
 
 只要出现以下任意明显情况，就应退回上一张稳定图：
 
@@ -878,7 +1006,7 @@ Only correct the face identity.
 全身图变成白衣仙侠贵公子；
 服装参考图带走脸部身份；
 道具让全身图变成剧情图。
-## 7.2 修正原则
+7.2 修正原则
 脸不像，只修身份；
 风格太弱，只动渲染；
 阴影太硬，只修阴影形状；
@@ -890,7 +1018,7 @@ Only correct the face identity.
 全身人物太小，只放大人物，不改服装和脸；
 服装太贵，只小幅压贵气，不改成破旧；
 手部太僵，只修手部自然度，不加道具。
-## 7.3 全身基准图跑偏信号
+7.3 全身基准图跑偏信号
 
 只要出现以下情况，就要回退，不要继续硬修：
 
@@ -911,8 +1039,8 @@ Only correct the face identity.
 
 一旦发现某一版已经变脸，就不能继续在这张图上修。必须回退到脸正确的版本。
 
-# 8. 验收清单
-## 8.1 通用验收
+8. 验收清单
+8.1 通用验收
 还是不是同一个人；
 脸型有没有变；
 眼型有没有变成标准男主眼；
@@ -923,14 +1051,14 @@ Only correct the face identity.
 是否像恋爱游戏可攻略男主头像；
 风格是否只是轻度二维整理；
 阴影是否贴合脸部骨相。
-## 8.2 三分之四侧验收
+8.2 三分之四侧验收
 是否真的比正面更侧；
 是否还没跳成纯侧脸；
 鼻梁、嘴、下巴是否仍符合身份；
 眼神是否开始“回眸男主化”；
 气质是否过阴、过沉、反派化；
 是否能作为正面到侧脸之间的桥。
-## 8.3 表情差分验收
+8.3 表情差分验收
 镜头有没有变；
 光线有没有变；
 头部角度有没有变；
@@ -943,7 +1071,7 @@ Only correct the face identity.
 
 如果表情已经成立，就停，不继续追求更强识别度。
 
-## 8.4 全身基准图验收
+8.4 全身基准图验收
 
 全身图定稿前检查：
 
@@ -972,7 +1100,7 @@ Only correct the face identity.
 
 不要为了追求更强的“古怪感”继续修全身。
 
-# 9. 最终记忆点
+9. 最终记忆点
 
 以后遇到这类任务，只记住下面这些：
 
