@@ -17,7 +17,6 @@
         "voice.scn_0004_word_youth_elder_night.lh.0003": "audio/voice/scn_0004_word_youth_elder_night/lh/0003.mp3",
         "voice.scn_0004_word_youth_elder_night.lh.0004": "audio/voice/scn_0004_word_youth_elder_night/lh/0004.mp3",
         "voice.scn_0004_word_youth_elder_night.lh.0005": "audio/voice/scn_0004_word_youth_elder_night/lh/0005.mp3",
-        "voice.scn_0004_word_youth_elder_night.sr.0001": "audio/voice/scn_0004_word_youth_elder_night/sr/0001.mp3",
         "voice.scn_0004_word_youth_elder_night.zl.0001": "audio/voice/scn_0004_word_youth_elder_night/zl/0001.mp3",
         "voice.scn_0004_word_youth_elder_night.zl.0002": "audio/voice/scn_0004_word_youth_elder_night/zl/0002.mp3",
         "voice.scn_0005_du_klakeduet.narr.0001": "audio/voice/scn_0005_du_klakeduet/narr/0001.mp3",

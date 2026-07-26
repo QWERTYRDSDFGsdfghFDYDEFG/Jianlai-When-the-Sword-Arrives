@@ -70,6 +70,8 @@
 | 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/lbp/lbp_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 正面身份母版：`lh/cds/cds-v1.png`；三分之四侧母版：`lh/cds/cds_exp_34_v1.png`；同机位表情差分基底：`lh/cds/cds_face_34_cand_v1.png`；全身体型与当前服装母版：`lh/cds/cds_full_base_v11.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 李槐 | 李槐、lihuai、lh、c | `lh/lihuai/lh_face_ref.md` | 脸部与表情：`lh/lihuai/lh_expression_sheet_basic_v1.png`；全身服装与序-03动作：`lh/lihuai/lh_action_c1_03_white_deer_entry_v1.png`；序-05动作：`lh/lihuai/lh_action_c1_05_hero_entry_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
+| 朱敛 | 朱敛、zl、老厨子 | `lh/zl/zl_face_ref.md`；原文考据先读 `lh/zl/zl_text_evidence.md` | 当前无可调用的图片母版；老奴面皮骨相已写入标准，下一张候选图计划为 `lh/zl/zl_face_cand_v1.png`，全身母版尚未制作 | `script逐场分镜表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 
 ### 3.1 崔东山母版调用顺序
 
@@ -87,9 +89,6 @@
 
 | 角色 | 触发词 / 变量名 | 当前优先参考 | 当前状态 |
 | --- | --- | --- | --- |
-| 李槐 | 李槐、c | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
-| 朱敛 | 朱敛、zl | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
-| 石柔 | 石柔、e | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 茅小冬 | 茅小冬、k | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |
 | 吴懿 | 吴懿、wy | `script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 董水井 | 董水井、donsujing | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |

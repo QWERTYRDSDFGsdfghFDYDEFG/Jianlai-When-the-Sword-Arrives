@@ -101,6 +101,7 @@
 - 陈平安 -> `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md`
 - 裴钱 -> `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md`
 - 李宝瓶 -> `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md`
+- 李槐 -> `lh/lihuai/lh_face_ref.md`
 
 ### 4.0.2 角色图不只看人设，还要看场次演出口径
 

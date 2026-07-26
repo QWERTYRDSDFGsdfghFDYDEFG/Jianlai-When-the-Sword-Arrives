@@ -44,7 +44,8 @@ label start:
     voice voice_id("voice.scn_0002_midnight_lake.cds.0003")
     cds "这样啊。"
 
-    # c1_03 独立画面尚未接入，暂时延续湖边夜景，避免重复加载 c1_02。
+    scene bg c1_03_lh_entry_v1
+    with dissolve
 
     narrator "湖水四周岸边小道上骤然间亮起一条光彩绚烂的金色光环，是以那把仙人飞剑金穗画出"
     narrator "的一座雷池，此刻崔东山撤去了其中一部分障眼法。"
@@ -54,12 +55,12 @@ label start:
     voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
-    # c1_04 独立画面尚未接入，避免提前显示序-09的湖上对唱画面。
 
-    narrator "只见高台不远处出现了两个身影，可怜朱敛和石柔，扮演那剪径匪寇，正在分别暴揍两"
-    narrator "个“文弱书生”于禄和林守一。"
 
-    # c1_05 独立画面尚未接入，避免提前显示序-08的裴钱收势画面。
+    narrator "只见高台不远处出现了三个身影。朱敛一人扮演那剪径匪寇，一会儿拦住于禄，一会儿"
+    narrator "转身逼退林守一，把两个“文弱书生”折腾得左右躲闪。"
+
+
 
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0001")
     c "住手！"
@@ -77,8 +78,7 @@ label start:
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0003")
     c "滚开！"
 
-    voice voice_id("voice.scn_0004_word_youth_elder_night.sr.0001")
-    e "你到底是何方神圣，江湖上从来没有听说过有你这样深不可测的高手！"
+    narrator "朱敛踉跄着退开几步，满脸都是遇见绝世高手的震惊。"
 
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0004")
     c "实在是我武功太高，一下子没有收住手"
@@ -88,7 +88,7 @@ label start:
     c "江湖人称双拳无敌手、两脚踏山岳的‘拳脚双绝’李大侠，"
     c "我们的总舵主，便是威震天下、一统千秋的当代武林盟主——李！宝！瓶！"
 
-    narrator "崔东山打了个响指，李槐、雪白麋鹿与朱敛、石柔，还有于禄、林守一，都消失不见。"
+    narrator "崔东山打了个响指，李槐、雪白麋鹿与朱敛，还有于禄、林守一，都消失不见。"
 
     # c1_06 独立画面尚未接入，避免再次加载 c1_02 湖边夜景。
 
@@ -208,7 +208,7 @@ label start:
 
     narrator "一行人站在书院门口。"
     narrator "陈平安已经背好长剑剑仙和那只大竹箱。"
-    narrator "裴钱斜挎包裹，手持行山杖，腰悬刀剑错。朱敛和石柔站在一旁。李槐与裴钱一番窃窃"
+    narrator "裴钱斜挎包裹，手持行山杖，腰悬刀剑错。朱敛站在一旁。李槐与裴钱一番窃窃"
     narrator "私语，约好了以后一定要一起闯荡江湖"
 
     voice voice_id("voice.scn_0010_huyuanko.lh.0001")

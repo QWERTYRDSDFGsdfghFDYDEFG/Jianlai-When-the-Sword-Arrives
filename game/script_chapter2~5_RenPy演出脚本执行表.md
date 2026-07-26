@@ -22,6 +22,7 @@
 - 未发言角色：若后续有系统支持，可切 `dim` 版；当前文档先用“压暗未发言角色”作为实现目标
 - [script_chapter2~5逐场分镜表.md](/E:/新建文件夹/When the Sword Arrives/game/script_chapter2~5逐场分镜表.md:1) 标成 `A2` 的场次，优先用动作版占位，不要只挪位置。
 - 标成 `A3` 的场次，优先整图推进；脚本里的 `show` 只作为占位过渡，而不是最终画面形态。
+- `zl standard` / `zl walk_talk` 必须遵守 `lh/zl/zl_face_ref.md`；当前默认是老奴面皮状态，不是隐藏真容。
 
 ### 转场
 
@@ -85,7 +86,6 @@ with fade
 show cpa standard at left_medium
 show peiqian standard at right_medium
 show zl standard at left_back
-show shirou standard at right_back
 with dissolve
 ```
 
@@ -93,7 +93,7 @@ with dissolve
 
 - 开头 2 到 3 句旁白直接铺背景，不急着切人。
 - 陈平安回乡念头开始后再 `show cpa`.
-- 优先用 `cpa listen` 或带歇脚感的动作版，不要四人都用默认站姿。
+- 优先用 `cpa listen` 或带歇脚感的动作版，不要三人都用默认站姿。
 - 裴钱挑水疱和朱敛插话，用双人或三人固定构图，不频繁进出场。
 - 本场结尾不 `hide`，直接接入入城场更顺。
 
@@ -259,11 +259,12 @@ with fade
 
 show cpa standard at left_medium
 show zl standard at right_medium
+show peiqian standard at center_back
 with dissolve
 ```
 
-- 全段以双人走路对话为主。
-- 两人若有动作版，优先 `cpa walk_talk` + `zl walk_talk`，不要站定说理。
+- 全段以陈平安、朱敛的双人走路对话为主，裴钱保持后景安静随行。
+- 两名说话者若有动作版，优先 `cpa walk_talk` + `zl walk_talk`，不要站定说理；裴钱不频繁切表情。
 - 只在话题转换明显时，切一次更远的背景即可。
 
 ### 3-06 去往嫁衣女鬼府邸前
@@ -271,8 +272,14 @@ with dissolve
 ```renpy
 scene bg mountain_road_dusk
 with dissolve
+
+show cpa standard at left_medium
+show peiqian standard at center_back
+show zl standard at right_medium
+with dissolve
 ```
 
+- 三人进入府邸前保持陈平安在前、裴钱居中、朱敛断后的保护关系。
 - 可以不重摆太多，只把语气往“悬念”收。
 - 章节末尾建议 `hide all` 再 `with fade`。
 
@@ -288,10 +295,11 @@ with fade
 
 show cpa standard at left_medium
 show zl standard at right_medium
+show peiqian standard at center_back
 with dissolve
 ```
 
-- 这是纯计划戏，保持双人固定构图最省成本。
+- 这是计划戏，前景保持陈平安与朱敛的双人固定构图；裴钱在后景听候安排。
 
 ### 4-02 石毫国战乱车队
 
