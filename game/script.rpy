@@ -55,7 +55,8 @@ label start:
     voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
-
+    scene bg c1_04_stage_far_v1
+    with dissolve
 
     narrator "只见高台不远处出现了三个身影。朱敛一人扮演那剪径匪寇，一会儿拦住于禄，一会儿"
     narrator "转身逼退林守一，把两个“文弱书生”折腾得左右躲闪。"

@@ -7,7 +7,7 @@ image bg c1_02_midnight_lake_v1 = im.Scale("images/chapter1/c1_02_midnight_lake_
 
 # Imported prologue event image; later entries below still include temporary placeholders.
 image bg c1_03_lh_entry_v1 = im.Scale("images/chapter1/c1_03_lh_entry_v1.png", 1920, 1080)
-image bg c1_04_stage_far_v1 = im.Scale("images/chapter1/c1_09_platform_duet_v1.png", 1920, 1080)
+image bg c1_04_stage_far_v1 = im.Scale("images/chapter1/c1_04_stage_far_v1.png", 1920, 1080)
 image bg c1_05_stage_near_v1 = im.Scale("images/chapter1/c1_08_pq_pose_v1.png", 1920, 1080)
 image bg c1_06_duet_lake_v1 = im.Scale("images/chapter1/c1_02_midnight_lake_v1.png", 1920, 1080)
 
