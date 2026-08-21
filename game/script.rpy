@@ -55,13 +55,12 @@ label start:
     voice voice_id("voice.scn_0003_lihuai.lh.0001")
     c "我李槐闭关三天，终于学成了一身好武艺，这次下山闯荡江湖，要好好领教五湖四海各路豪杰的能耐。"
 
-    scene bg c1_04_stage_far_v1
+    scene bg c1_04_stage_far_zl_lock_test_v1
     with dissolve
 
     narrator "只见高台不远处出现了三个身影。朱敛一人扮演那剪径匪寇，一会儿拦住于禄，一会儿"
     narrator "转身逼退林守一，把两个“文弱书生”折腾得左右躲闪。"
-
-
+    scene bg c1_05_lh_stop_view_high34_castfix_v2
 
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0001")
     c "住手！"
@@ -76,8 +75,12 @@ label start:
     voice voice_id("voice.scn_0004_word_youth_elder_night.zl.0002")
     zl "这这这位……少侠……好深的内力！"
 
+    scene bg c1_05_lh_gunkai_v1
+
     voice voice_id("voice.scn_0004_word_youth_elder_night.lh.0003")
     c "滚开！"
+
+    scene bg c1_05_zl_stagger_v2
 
     narrator "朱敛踉跄着退开几步，满脸都是遇见绝世高手的震惊。"
 
@@ -91,7 +94,8 @@ label start:
 
     narrator "崔东山打了个响指，李槐、雪白麋鹿与朱敛，还有于禄、林守一，都消失不见。"
 
-    # c1_06 独立画面尚未接入，避免再次加载 c1_02 湖边夜景。
+    scene bg c1_06_duet_lake_v1
+    with dissolve
 
     voice voice_id("voice.scn_0005_du_klakeduet.narr.0001")
     narrator "接下来，只见于禄和谢谢出现在左右两侧的湖边，一人站而吹笛，一人坐而抚琴，像是"

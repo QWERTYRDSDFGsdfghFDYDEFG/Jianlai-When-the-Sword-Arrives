@@ -71,7 +71,7 @@
 | 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/lbp/lbp_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 正面身份母版：`lh/cds/cds-v1.png`；三分之四侧母版：`lh/cds/cds_exp_34_v1.png`；同机位表情差分基底：`lh/cds/cds_face_34_cand_v1.png`；全身体型与当前服装母版：`lh/cds/cds_full_base_v11.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 李槐 | 李槐、lihuai、lh、c | `lh/lihuai/lh_face_ref.md` | 脸部与表情：`lh/lihuai/lh_expression_sheet_basic_v1.png`；全身服装与序-03动作：`lh/lihuai/lh_action_c1_03_white_deer_entry_v1.png`；序-05动作：`lh/lihuai/lh_action_c1_05_hero_entry_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
-| 朱敛 | 朱敛、zl、老厨子 | `lh/zl/zl_face_ref.md`；原文考据先读 `lh/zl/zl_text_evidence.md` | 当前无可调用的图片母版；老奴面皮骨相已写入标准，下一张候选图计划为 `lh/zl/zl_face_cand_v1.png`，全身母版尚未制作 | `script逐场分镜表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
+| 朱敛 | 朱敛、zl、老厨子 | `lh/zl/zl_face_ref.md`；原文考据先读 `lh/zl/zl_text_evidence.md`；语义拓扑读 `lh/zl/zl_face_topology_v1.md`；规则变形网格读 `lh/zl/zl_face_grid_mesh_rules_v1.md` | 脸部母版：`lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png`；478点数据：`lh/zl/zl_face_mesh_v1.json`；规则网格：`lh/zl/zl_face_grid_mesh_v1.json`；网格检查图：`lh/zl/zl_face_grid_mesh_map_v1.png`；全身母版：`lh/zl/zl_full_base_v1.png` | `script逐场分镜表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 
 ### 3.1 崔东山母版调用顺序
 
