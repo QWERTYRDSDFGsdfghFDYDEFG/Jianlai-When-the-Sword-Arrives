@@ -513,16 +513,18 @@ screen main_menu():
     ## use 语句将其他的屏幕包含进此屏幕。标题屏幕的实际内容在导航屏幕中。
     use navigation
 
-    if gui.show_name:
+    ## 独立中文题字。与 config.name 解耦，避免工程名直接占据主视觉。
+    vbox:
+        style "main_menu_title_group"
 
-        vbox:
-            style "main_menu_vbox"
+        text _("剑来"):
+            style "main_menu_title_mark"
 
-            text "[config.name!t]":
-                style "main_menu_title"
+        frame:
+            style "main_menu_title_rule"
 
-            text "[config.version]":
-                style "main_menu_version"
+        text _("书简湖问心局"):
+            style "main_menu_title_subtitle"
 
 
 style main_menu_frame is empty
@@ -530,12 +532,16 @@ style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
+style main_menu_title_group is vbox
+style main_menu_title_mark is main_menu_text
+style main_menu_title_subtitle is main_menu_text
+style main_menu_title_rule is empty
 
 style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    background "#08080666"
 
 style main_menu_vbox:
     xalign 1.0
@@ -553,6 +559,35 @@ style main_menu_title:
 style main_menu_version:
     properties gui.text_properties("version")
 
+style main_menu_title_group:
+    xpos 1370
+    xanchor 0.5
+    ypos 180
+    spacing 18
+
+style main_menu_title_mark:
+    font gui.interface_text_font
+    size 108
+    color "#30271e"
+    kerning 12
+    textalign 0.5
+    xalign 0.5
+    outlines [(1, "#f3ead899", 1, 2)]
+
+style main_menu_title_rule:
+    background "#9b5944"
+    xsize 260
+    ysize 2
+    xalign 0.5
+
+style main_menu_title_subtitle:
+    font gui.interface_text_font
+    size 38
+    color "#5f4d3b"
+    kerning 8
+    textalign 0.5
+    xalign 0.5
+
 
 ## 游戏菜单屏幕 ######################################################################
 ##
@@ -566,10 +601,9 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     style_prefix "game_menu"
 
-    if main_menu:
-        add gui.main_menu_background
-    else:
-        add gui.game_menu_background
+    ## 所有二级菜单统一使用暗色旧卷背景，避免从标题页进入设置时
+    ## 继续沿用明亮的主菜单画面，削弱文字与控件的可读性。
+    add gui.game_menu_background
 
     frame:
         style "game_menu_outer_frame"
@@ -650,7 +684,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    background "gui/overlay/game_menu.png"
+    background None
 
 style game_menu_navigation_frame:
     xsize 420

@@ -11,12 +11,13 @@
 ##
 ## 带有 _() 的字符串表示其可被翻译。
 
-define config.name = _("Jianlai-When-the-Sword-Arrives")
+define config.name = _("剑来-书简湖问心局")
 
 
 ## 决定上面给出的标题是否显示在标题界面屏幕。设置为 False 来隐藏标题。
 
-define gui.show_name = True
+## 主菜单使用 screens.rpy 中独立排版的中文题字，不再直接显示工程名。
+define gui.show_name = False
 
 
 ## 游戏版本号。

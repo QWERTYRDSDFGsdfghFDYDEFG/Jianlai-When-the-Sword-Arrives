@@ -2,6 +2,7 @@ label chapter2_start:
     $ renpy.force_autosave()
 
     scene bg c2_01_rest_v1
+    with trans_chapter_in
 
     narrator "从大隋京城走回大骊龙郡的返乡路，陈平安熟门熟路，仍旧拣山野小径赶路，四下清静。"
     narrator "离开大隋边境后，他换回草鞋，结实省事却也磨脚；裴钱拿针挑破脚底水疱时，朱敛照旧在旁说风凉话。"
