@@ -1,0 +1,71 @@
+﻿Ren'Py 8.5.3.26051504 lint report, generated at: Fri Sep 11 22:11:07 2026
+
+
+Obsolete Image Manipulators:
+
+game/bg_images.rpy:
+    * line     3 im.Scale
+    * line     4 im.Scale
+    * line     6 im.Scale
+    * line     9 im.Scale
+    * and 16 more.
+
+game/dialogue_ui.rpy:
+    * line    88 im.Scale
+    * line    89 im.Crop
+    * line    93 im.Scale
+    * line    94 im.Crop
+    * and 4 more.
+
+audio/刘彬濠 - 我有一剑.mp3 contains non-ASCII characters in its filename.
+(ZIP file distributions can only reliably include ASCII filenames.)
+
+audio/旁白1.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白10.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白11.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白12.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白13.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白2.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白3.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白5.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白6.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白7.mp3 contains non-ASCII characters in its filename.
+
+audio/旁白8.mp3 contains non-ASCII characters in its filename.
+
+audio/裴钱9.mp3 contains non-ASCII characters in its filename.
+
+lh/cds/崔东山.png contains non-ASCII characters in its filename.
+
+lh/lbp/李宝瓶固定脸部身份与当前服装标准.md contains non-ASCII characters in its filename.
+
+script_chapter2~5_RenPy演出脚本执行表.md contains non-ASCII characters in its filename.
+
+script_chapter2~5逐场分镜表.md contains non-ASCII characters in its filename.
+
+script逐场分镜表.md contains non-ASCII characters in its filename.
+
+角色立绘设计原则.md contains non-ASCII characters in its filename.
+
+陈平安出图总手册.md contains non-ASCII characters in its filename.
+
+
+Statistics:
+
+The game contains 8,076 dialogue blocks, containing 8,088 words and 145,892
+characters, for an average of 1.0 words and 18 characters per block.
+
+The game contains 2 menus, 21 images, and 37 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

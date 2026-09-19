@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "authorization": "允许按这份新清单批量删除",
+  "manifestSha256": "34b4d6622855a08d7661a084af5f06346d8922feee95e9c8e5c0fd12f57805d6",
+  "started": "2026-09-11T22:09:07.6870378+08:00",
+  "completed": "2026-09-11T22:09:34.2673481+08:00",
+  "deletedFiles": 1032,
+  "deletedBytes": 39814794,
+  "emptyDirectoriesRemoved": 108,
+  "protectedFilesVerified": 4040,
+  "remainingSelectedFilesBeforeQA": 0,
+  "executionError": null,
+  "verificationErrors": []
+}

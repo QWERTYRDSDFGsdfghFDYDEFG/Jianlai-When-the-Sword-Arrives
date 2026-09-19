@@ -62,13 +62,13 @@ style vscrollbar:
 
 style slider:
     ysize gui.slider_size
-    base_bar Frame("gui/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/horizontal_[prefix_]thumb.png"
+    base_bar Solid("#263437")
+    thumb Solid("#c99b5c", xysize=(16, gui.slider_size))
 
 style vslider:
     xsize gui.slider_size
-    base_bar Frame("gui/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/slider/vertical_[prefix_]thumb.png"
+    base_bar Solid("#263437")
+    thumb Solid("#c99b5c", xysize=(gui.slider_size, 16))
 
 
 style frame:
@@ -489,8 +489,8 @@ screen quick_menu():
                 textbutton _("回退") action Rollback()
                 textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
                 textbutton _("自动") action Preference("auto-forward", "toggle")
-                textbutton _("快存") action QuickSave()
-                textbutton _("快读") action QuickLoad()
+                textbutton _("快存") action StoryQuickSave()
+                textbutton _("快读") action StoryQuickLoad()
                 textbutton _("菜单") action ShowMenu()
 
 
@@ -545,54 +545,14 @@ screen navigation():
     vbox:
         style_prefix "navigation"
 
-        xpos (92 if main_menu else gui.navigation_xpos)
-        yalign (0.55 if main_menu else 0.5)
+        xpos gui.navigation_xpos
+        yalign 0.5
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            textbutton _("继续问心"):
-                style "main_menu_navigation_button"
-                text_style "main_menu_navigation_button_text"
-                action Continue()
-
-            textbutton _("开始游戏"):
-                style "main_menu_navigation_button"
-                text_style "main_menu_navigation_button_text"
-                action Start()
-
-            textbutton _("读取旧档"):
-                style "main_menu_navigation_button"
-                text_style "main_menu_navigation_button_text"
-                action ShowMenu("load")
-
-            textbutton _("设置"):
-                style "main_menu_navigation_button"
-                text_style "main_menu_navigation_button_text"
-                action ShowMenu("preferences")
-
-            null height 18
-
-            hbox:
-                spacing 18
-
-                textbutton _("关于"):
-                    style "main_menu_secondary_button"
-                    text_style "main_menu_secondary_button_text"
-                    action ShowMenu("about")
-
-                if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-                    textbutton _("帮助"):
-                        style "main_menu_secondary_button"
-                        text_style "main_menu_secondary_button_text"
-                        action ShowMenu("help")
-
-                if renpy.variant("pc"):
-                    textbutton _("退出"):
-                        style "main_menu_secondary_button"
-                        text_style "main_menu_secondary_button_text"
-                        action Quit(confirm=False)
+            textbutton _("开始游戏") action Start()
 
         else:
 
@@ -600,37 +560,33 @@ screen navigation():
 
             textbutton _("保存") action ShowMenu("save")
 
-            textbutton _("读取游戏") action ShowMenu("load")
+        textbutton _("读取游戏") action ShowMenu("load")
 
-            textbutton _("设置") action ShowMenu("preferences")
+        textbutton _("设置") action ShowMenu("preferences")
 
-            if _in_replay:
+        if _in_replay:
 
-                textbutton _("结束回放") action EndReplay(confirm=True)
+            textbutton _("结束回放") action EndReplay(confirm=True)
 
-            else:
+        elif not main_menu:
 
-                textbutton _("标题菜单") action MainMenu()
+            textbutton _("标题菜单") action MainMenu()
 
-            textbutton _("关于") action ShowMenu("about")
+        textbutton _("关于") action ShowMenu("about")
 
-            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-                ## “帮助”对移动设备来说并非必需或相关。
-                textbutton _("帮助") action ShowMenu("help")
+            ## “帮助”对移动设备来说并非必需或相关。
+            textbutton _("帮助") action ShowMenu("help")
 
-            if renpy.variant("pc"):
+        if renpy.variant("pc"):
 
-                ## 退出按钮在 iOS 上是被禁止使用的，在安卓和网页上也不是必要的。
-                textbutton _("退出") action Quit(confirm=True)
+            ## 退出按钮在 iOS 上是被禁止使用的，在安卓和网页上也不是必要的。
+            textbutton _("退出") action Quit(confirm=True)
 
 
 style navigation_button is gui_button
 style navigation_button_text is gui_button_text
-style main_menu_navigation_button is navigation_button
-style main_menu_navigation_button_text is navigation_button_text
-style main_menu_secondary_button is navigation_button
-style main_menu_secondary_button_text is navigation_button_text
 
 style navigation_button:
     size_group "navigation"
@@ -639,38 +595,34 @@ style navigation_button:
 style navigation_button_text:
     properties gui.text_properties("navigation_button")
 
-style main_menu_navigation_button:
-    xsize 330
-    ysize 58
-    left_padding 16
-    right_padding 16
-    background None
-    hover_background "#8f5b3d38"
-    selected_background "#8f5b3d28"
 
-style main_menu_navigation_button_text:
-    font gui.interface_text_font
-    size 38
-    color "#c8c0b5"
-    hover_color "#f0d4a8"
-    selected_color "#f0d4a8"
-    insensitive_color "#746f68"
-    outlines [(1, "#000000aa", 0, 1)]
+screen main_menu_navigation():
+    vbox:
+        style_prefix "main_menu_nav"
+        xpos 132
+        ypos 399
+        spacing 4
 
-style main_menu_secondary_button:
-    xfit True
-    ysize 40
-    left_padding 4
-    right_padding 4
-    background None
+        textbutton _("新游戏"):
+            id "story_new_game"
+            action Start()
+        textbutton _("继续"):
+            id "story_continue"
+            action StoryContinue()
+        textbutton _("读档"):
+            id "story_load"
+            action ShowMenu("load")
+        textbutton _("设置"):
+            id "story_preferences"
+            action ShowMenu("preferences")
 
-style main_menu_secondary_button_text:
-    font gui.interface_text_font
-    size 22
-    color "#8f8980"
-    hover_color "#d2ad7c"
-    selected_color "#d2ad7c"
-    outlines [(1, "#00000099", 0, 1)]
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+            textbutton _("帮助") action ShowMenu("help")
+
+        textbutton _("关于") action ShowMenu("about")
+
+        if renpy.variant("pc"):
+            textbutton _("退出") action Quit(confirm=True)
 
 
 ## 标题菜单屏幕 ######################################################################
@@ -684,99 +636,116 @@ screen main_menu():
     ## 此语句可确保替换掉任何其他菜单屏幕。
     tag menu
 
-    use main_menu_live_background
+    ## 按存档选择序章夜湖、湖畔相聚和书院送别三个静态场景。
+    use main_menu_dynamic_background
+    use main_menu_navigation
 
-    ## 此空框可使标题菜单变暗。
-    frame:
-        style "main_menu_frame"
-
-    ## use 语句将其他的屏幕包含进此屏幕。标题屏幕的实际内容在导航屏幕中。
-    use navigation
-
-    ## 独立中文题字。与 config.name 解耦，避免工程名直接占据主视觉。
+    ## 文本始终独立于图片，所有阶段共用左侧留白。
     text _("剑来"):
         style "main_menu_title_mark"
-        xpos 1570
-        xanchor 0.5
-        ypos 124
+        xpos 140
+        ypos 130
 
     frame:
         style "main_menu_title_rule"
-        xpos 1440
-        ypos 254
+        xpos 144
+        ypos 297
 
-    text _("书简湖问心局"):
+    text _("书简湖"):
         style "main_menu_title_subtitle"
-        xpos 1570
-        xanchor 0.5
-        ypos 278
+        xpos 148
+        ypos 318
+
+    if not StoryContinue().get_sensitive():
+        text _("尚未启程，暂无存档"):
+            style "main_menu_empty"
+            xpos 148
+            ypos 919
+    else:
+        $ title_phase_caption = story_title_phase_label()
+        text _("序章：[title_phase_caption]"):
+            style "main_menu_empty"
+            xpos 148
+            ypos 919
 
     text _("版本 [config.version]"):
         style "main_menu_version"
 
-
 style main_menu_frame is empty
-style main_menu_vbox is vbox
 style main_menu_text is gui_text
-style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
-style main_menu_title_group is vbox
 style main_menu_title_mark is gui_text
 style main_menu_title_subtitle is gui_text
 style main_menu_title_rule is empty
+style main_menu_empty is gui_text
+style main_menu_nav_button is empty
+style main_menu_nav_button_text is gui_button_text
 
 style main_menu_frame:
-    xsize 500
-    yfill True
-
-    background "#08080626"
-
-style main_menu_vbox:
-    xalign 1.0
-    xoffset -30
-    xmaximum 1200
-    yalign 1.0
-    yoffset -30
+    background None
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
 
-style main_menu_title:
-    properties gui.text_properties("title")
-
 style main_menu_version:
     font gui.interface_text_font
     size 18
-    color "#8f8980"
-    outlines [(1, "#00000099", 0, 1)]
+    color "#b8b9af"
+    outlines [(1, "#111f23cc", 0, 1)]
     xalign 1.0
     yalign 1.0
     xoffset -24
     yoffset -18
 
-style main_menu_title_group:
-    spacing 14
-
 style main_menu_title_mark:
     font gui.interface_text_font
-    size 100
-    color "#e2d9cc"
-    kerning 12
-    textalign 0.5
-    outlines [(2, "#080909cc", 0, 2)]
+    size 118
+    color "#ece6d7"
+    kerning 22
+    outlines [(1, "#152229aa", 0, 1)]
 
 style main_menu_title_rule:
-    background "#a7654d"
+    background "#c5b58e88"
     xsize 260
-    ysize 2
+    ysize 1
 
 style main_menu_title_subtitle:
     font gui.interface_text_font
+    size 32
+    color "#c7c2b2"
+    kerning 14
+    outlines [(1, "#152229aa", 0, 1)]
+
+style main_menu_empty:
+    font gui.interface_text_font
+    size 24
+    color "#b7bdb4"
+    kerning 1
+    outlines [(1, "#152229aa", 0, 1)]
+
+style main_menu_nav_button:
+    xsize 330
+    ysize 62
+    background None
+    hover_background Solid("#d6ccad14")
+    selected_background None
+    left_padding 16
+    right_padding 16
+    top_padding 5
+    bottom_padding 5
+
+style main_menu_nav_button_text:
+    font gui.interface_text_font
     size 34
-    color "#b8ab9a"
-    kerning 8
-    textalign 0.5
-    outlines [(1, "#080909bb", 0, 1)]
+    color "#e1ddd0"
+    hover_color "#fff1ca"
+    selected_color "#e1ddd0"
+    insensitive_color "#697d80"
+    xalign 0.0
+    yalign 0.5
+    textalign 0.0
+    kerning 5
+    outlines [(1, "#152229aa", 0, 1)]
 
 
 ## 游戏菜单屏幕 ######################################################################
@@ -1003,9 +972,19 @@ screen file_slots(title):
                 for i in range(gui.file_slot_cols * gui.file_slot_rows):
 
                     $ slot = i + 1
+                    $ file_caption = FileSaveName(slot)
+                    $ file_chapter = FileJson(slot, "story_chapter")
+                    $ file_version = FileJson(slot, "story_progress_version")
+                    if file_version in (1, 2) and story_valid_chapter(file_chapter):
+                        $ chapter_caption = _("序章") if file_chapter == 1 else _("第 {} 章").format(file_chapter)
+                        $ file_phase = FileJson(slot, "story_prologue_phase")
+                        if file_chapter == 1 and file_version == 2 and story_valid_phase(file_phase):
+                            $ chapter_caption += _("：") + story_title_phase_label(file_phase)
+                        $ file_caption = chapter_caption + (" / " + file_caption if file_caption else "")
 
                     button:
-                        action FileAction(slot)
+                        id "story_slot_{}".format(slot)
+                        action StoryFileAction(slot)
 
                         has vbox
 
@@ -1014,7 +993,7 @@ screen file_slots(title):
                         text FileTime(slot, format=_("{#file_time}%Y-%m-%d %H:%M"), empty=_("空存档位")):
                             style "slot_time_text"
 
-                        text FileSaveName(slot):
+                        text file_caption:
                             style "slot_name_text"
 
                         key "save_delete" action FileDelete(slot)
@@ -1086,6 +1065,9 @@ style page_button_text:
 
 style slot_button:
     properties gui.button_properties("slot_button")
+    background Solid("#26373a")
+    hover_background Solid("#35484c")
+    selected_background Solid("#35484c")
 
 style slot_button_text:
     properties gui.text_properties("slot_button")
@@ -1122,6 +1104,14 @@ screen preferences():
                     textbutton _("未读文本") action Preference("skip", "toggle")
                     textbutton _("选项后继续") action Preference("after choices", "toggle")
                     textbutton _("忽略转场") action InvertSelected(Preference("transitions", "toggle"))
+
+                vbox:
+                    style_prefix "check"
+                    label _("辅助功能")
+
+                    textbutton _("文字与声音辅助"):
+                        action ShowMenu("accessibility_settings")
+                        tooltip _("调整文字大小、行距、高对比度、单声道和自述语音。")
 
                 ## 可在此处添加 radio_pref 或 check_pref 类型的额外 vbox，以添加
                 ## 额外的创建者定义的偏好设置。
@@ -1219,7 +1209,9 @@ style radio_vbox:
 
 style radio_button:
     properties gui.button_properties("radio_button")
-    foreground "gui/button/radio_[prefix_]foreground.png"
+    foreground None
+    selected_foreground Solid("#d5a56f", xysize=(7, 39))
+    selected_hover_foreground Solid("#f0d4a8", xysize=(7, 39))
 
 style radio_button_text:
     properties gui.text_properties("radio_button")
@@ -1229,7 +1221,9 @@ style check_vbox:
 
 style check_button:
     properties gui.button_properties("check_button")
-    foreground "gui/button/check_[prefix_]foreground.png"
+    foreground None
+    selected_foreground Solid("#d5a56f", xysize=(7, 39))
+    selected_hover_foreground Solid("#f0d4a8", xysize=(7, 39))
 
 style check_button_text:
     properties gui.text_properties("check_button")
@@ -1247,6 +1241,74 @@ style slider_button_text:
 
 style slider_vbox:
     xsize 675
+
+
+## 项目内可见的辅助设置页。沿用游戏菜单布局，避免引擎内置浮层与本项目
+## 的分辨率、配色和返回逻辑发生冲突。
+screen accessibility_settings():
+
+    tag menu
+
+    use game_menu(_("文字与声音辅助"), scroll="viewport"):
+
+        vbox:
+            spacing 30
+
+            text _("这些设置用于改善阅读与听觉体验，可随时恢复默认。"):
+                size 28
+                color "#c8c0b5"
+
+            hbox:
+                spacing 90
+
+                vbox:
+                    style_prefix "radio"
+                    xsize 430
+                    label _("机器朗读")
+                    textbutton _("关闭") action Preference("self voicing", "disable")
+                    textbutton _("语音合成") action Preference("self voicing", "enable")
+                    textbutton _("复制到剪贴板") action Preference("clipboard voicing", "enable")
+
+                vbox:
+                    style_prefix "radio"
+                    xsize 430
+                    label _("单声道")
+                    textbutton _("启用") action Preference("mono audio", "enable")
+                    textbutton _("关闭") action Preference("mono audio", "disable")
+
+                vbox:
+                    style_prefix "radio"
+                    xsize 430
+                    label _("高对比文字")
+                    textbutton _("启用") action Preference("high contrast text", "enable")
+                    textbutton _("关闭") action Preference("high contrast text", "disable")
+
+            hbox:
+                spacing 90
+
+                vbox:
+                    style_prefix "slider"
+                    xsize 610
+                    label _("文字大小")
+                    bar value Preference("font size") xsize 500
+                    textbutton _("恢复默认") action Preference("font size", 1.0)
+
+                vbox:
+                    style_prefix "slider"
+                    xsize 610
+                    label _("行距")
+                    bar value Preference("font line spacing") xsize 500
+                    textbutton _("恢复默认") action Preference("font line spacing", 1.0)
+
+            hbox:
+                spacing 90
+
+                vbox:
+                    style_prefix "slider"
+                    xsize 610
+                    label _("机器朗读时的其他音量")
+                    bar value Preference("self voicing volume drop") xsize 500
+                    textbutton _("恢复默认") action Preference("self voicing volume drop", 0.5)
 
 
 ## 历史屏幕 ########################################################################
@@ -1519,25 +1581,30 @@ screen confirm(message, yes_action, no_action):
 
     style_prefix "confirm"
 
-    add "gui/overlay/confirm.png"
+    ## 直接使用代码遮罩，避免退出、覆盖存档等关键操作依赖易丢失的图片路径。
+    add Solid("#00000099")
 
     frame:
+        style "confirm_border"
 
-        vbox:
-            xalign .5
-            yalign .5
-            spacing 45
+        frame:
+            style "confirm_frame"
 
-            label _(message):
-                style "confirm_prompt"
-                xalign 0.5
+            vbox:
+                xalign .5
+                yalign .5
+                spacing 45
 
-            hbox:
-                xalign 0.5
-                spacing 150
+                label _(message):
+                    style "confirm_prompt"
+                    xalign 0.5
 
-                textbutton _("确定") action yes_action
-                textbutton _("取消") action no_action
+                hbox:
+                    xalign 0.5
+                    spacing 150
+
+                    textbutton _("确定") action yes_action
+                    textbutton _("取消") action no_action
 
     ## 右键点击退出并答复 no（取消）。
     key "game_menu" action no_action
@@ -1548,12 +1615,17 @@ style confirm_prompt is gui_prompt
 style confirm_prompt_text is gui_prompt_text
 style confirm_button is gui_medium_button
 style confirm_button_text is gui_medium_button_text
+style confirm_border is empty
 
-style confirm_frame:
-    background Frame([ "gui/confirm_frame.png", "gui/frame.png"], gui.confirm_frame_borders, tile=gui.frame_tile)
-    padding gui.confirm_frame_borders.padding
+style confirm_border:
+    background Solid("#a87842")
+    padding (3, 3)
     xalign .5
     yalign .5
+
+style confirm_frame:
+    background Solid("#15110df2")
+    padding gui.confirm_frame_borders.padding
 
 style confirm_prompt_text:
     textalign 0.5
@@ -1962,14 +2034,14 @@ style vscrollbar:
 style slider:
     variant "small"
     ysize gui.slider_size
-    base_bar Frame("gui/phone/slider/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/phone/slider/horizontal_[prefix_]thumb.png"
+    base_bar Solid("#263437")
+    thumb Solid("#c99b5c", xysize=(16, gui.slider_size))
 
 style vslider:
     variant "small"
     xsize gui.slider_size
-    base_bar Frame("gui/phone/slider/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/phone/slider/vertical_[prefix_]thumb.png"
+    base_bar Solid("#263437")
+    thumb Solid("#c99b5c", xysize=(gui.slider_size, 16))
 
 style slider_vbox:
     variant "small"

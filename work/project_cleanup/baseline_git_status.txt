@@ -1,0 +1,45 @@
+ M README.md
+ M game/AGENTS.md
+ M game/Codex/asset_pipeline_sop.md
+ M game/Codex/character_asset_update_rules.md
+ M game/Codex/character_image_index.md
+ M game/characters.rpy
+ M game/gui.rpy
+ D game/gui/game_menu_ink_v1.png
+ D game/gui/main_menu_ink_v1.png
+ D game/gui/main_menu_live/flame_v1.png
+ D game/gui/main_menu_live/glow_v1.png
+ D game/gui/main_menu_live/lamp_v1.png
+ D game/gui/main_menu_live/light_v1.png
+ D game/gui/main_menu_live/mist_v1.png
+ D game/gui/main_menu_live/shadow_v1.png
+ D game/gui/main_menu_shujianhu_v1.png
+ D game/gui/overlay/confirm.png
+ D game/gui/overlay/game_menu.png
+ D game/gui/overlay/main_menu.png
+ M game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md
+ D game/main_menu_live.rpy
+ M game/mood_system.rpy
+ M game/options.rpy
+ M game/portrait_stage_test.rpy
+ M game/screens.rpy
+ M game/script.rpy
+ M game/script_chapter10.rpy
+ M game/script_chapter12.rpy
+?? game/Codex/main_menu_background_sop.md
+?? game/build_demo.rpy
+?? game/gui/button/overlay/
+?? game/gui/main_menu_b2_color.png
+?? game/gui/main_menu_b2_grayscale.png
+?? game/gui/main_menu_layers/
+?? game/gui/menu_live2d/
+?? game/main_menu_dynamic.rpy
+?? game/main_menu_live2d.rpy
+?? game/menu_live2d_benchmark.rpy
+?? game/menu_live2d_test.rpy
+?? game/tmp_state_5.sqlite-shm
+?? game/tmp_state_5.sqlite-wal
+?? gude-2026-09-10.log
+?? gude-2026-09-11.log
+?? tools/
+?? work/

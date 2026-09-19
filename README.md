@@ -16,7 +16,10 @@
 - 多章节主线脚本
 - 部分背景、角色图与音频素材
 - 书简湖篇核心剧情推进
+- 按最后成功保存或读取进度选择的序章标题背景：夜湖、湖畔相聚、书院送别；读回旧档时可回到对应阶段，当前后续章节沿用送别场景。
+- 旧原创主题、候选和测试图已按批准清单清理；《哀鸿》逆向成果已按用户要求移出，项目不再引用。当前资产采用状态见 [图片索引](game/Codex/character_image_index.md)。
 - Codex 辅助开发文档入口
+- 图片代号与看图速查：[写作规则](game/Codex/image_code_guide.md)、[代号总表](game/Codex/image_code_catalog.md)、[本地看图页](game/Codex/image_code_gallery.html)。剧本按固定编号引用图片，现有文件与旧调用保持兼容。
 
 仍在建设：
 
@@ -151,6 +154,7 @@
 1. `game/Codex/00_MASTER_PROMPT.md`
 2. `game/GDD.md`
 3. `game/Codex/01_FIRST_PLAYABLE.md`
+4. `game/Codex/main_menu_background_sop.md`（制作或修改主题背景时）
 
 如果任务涉及剧情脚本，还需要读取 `game/` 下当前相关的 `script_chapter*.rpy`、`characters.rpy` 和必要的系统脚本。
 

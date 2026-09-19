@@ -1,5 +1,10 @@
 # Background image definitions
 
+# Static title scenes follow the saved prologue milestone.
+image bg title_prologue_night = Transform("gui/title_progress/prologue_night.png", xysize=(1920, 1080))
+image bg title_prologue_gathering = Transform("gui/title_progress/prologue_gathering.png", xysize=(1920, 1080))
+image bg title_prologue_farewell = Transform("gui/title_progress/prologue_farewell.png", xysize=(1920, 1080))
+
 image bg c1_01_lbp_return_v2 = im.Scale("images/chapter1/c1_01_lbp_return_v2.png", 1920, 1080)
 image bg c1_01_cds_open_v1 = im.Scale("images/chapter1/c1_01_cds_open_v1.png", 1920, 1080)
 

@@ -1,0 +1,69 @@
+2026-09-11 14:11:30 UTC
+Windows-11-10.0.26200-SP0
+Ren'Py 8.5.3.26051504
+
+Early init took 25 ms
+Loading error handling took 13 ms
+Loading script took 81 ms
+Loading save slot metadata took 10 ms
+Loading persistent took 0 ms
+Running init code took 45 ms
+Loading analysis data took 2 ms
+Analyze and compile ATL took 1 ms
+Reloading save slot metadata took 2 ms
+Dump and make backups took 0 ms
+Cleaning cache took 0 ms
+Making clean stores took 0 ms
+Initial gc took 19 ms
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -175.' (can be ignored)
+Creating interface object took 3217 ms
+Init translation took 0 ms
+Cleaning stores took 0 ms
+Load screen analysis took 11 ms
+Analyze screens took 0 ms
+Save screen analysis took 0 ms
+Save pyanalysis took 0 ms
+Save bytecode took 0 ms
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global.cleanup_menu
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26200-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  1.0
+
+[rpytest] [exc] + global
+Running _start took 2 ms
+Interface start took 137 ms
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'ATI Technologies Inc.'
+Renderer: 'AMD Radeon(TM) Graphics'
+Version: '4.6.0 Compatibility Profile Context 25.9.1.250822'
+Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 0), 'shifts': (16, 8, 0, 0), 'losses': (0, 0, 0, 8), 'current_w': 2560, 'current_h': 1440, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
+Screen sizes: virtual=(1920, 1080) physical=(2560, 1440) drawable=(2560, 1440)
+Maximum texture size: 4096x4096
+Could not open 'cache/shaders.txt':
+[rpytest] [exc]   + cleanup_menu
+[rpytest] [exc]     - current_and_legacy
+Cleaning stores took 0 ms
+Load screen analysis took 9 ms
+Analyze screens took 0 ms
+Running _start took 0 ms
+[rpytest] [exc]     - current_and_legacy (13.481 s)
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     3 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     1 skipped |     0 not run
+[rpytest] Test cases :     7 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     6 skipped |     0 not run
+[rpytest] Test hooks :     2 |     2 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :    17 |    17 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 15.606 s
+[rpytest] Status: PASSED 
+

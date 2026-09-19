@@ -157,32 +157,25 @@ screen mood_hud():
 
             button:
                 action ShowMenu("mood_status")
-                hovered SetVariable("mood_hud_expanded", True)
-                unhovered SetVariable("mood_hud_expanded", False)
+                tooltip "查看心境说明与所有角色状态"
                 background None
                 hover_background Solid("#c9a06118")
                 padding (8, 3)
 
-                if mood_hud_expanded:
-                    hbox:
-                        spacing 10
-                        yalign 0.5
+                hbox:
+                    spacing 10
+                    yalign 0.5
 
-                        text "心境":
-                            size 20
-                            color "#eadfce"
-                            font gui.interface_text_font
+                    text "心境":
+                        size 20
+                        color "#eadfce"
+                        font gui.interface_text_font
 
-                        use mood_bar(score, 92, 8)
+                    use mood_bar(score, 92, 8)
 
-                        text "[state_text]":
-                            size 20
-                            color "#d5b174"
-                            font gui.interface_text_font
-                else:
-                    text "心境  [state_text]":
-                        size 19
-                        color "#d8ccba"
+                    text "[state_text]":
+                        size 20
+                        color "#d5b174"
                         font gui.interface_text_font
 
 screen mood_status():

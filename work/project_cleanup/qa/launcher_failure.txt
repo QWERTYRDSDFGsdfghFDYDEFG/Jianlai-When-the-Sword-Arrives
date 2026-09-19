@@ -1,0 +1,47 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+OSError: [Errno 22] Invalid argument
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "renpy/bootstrap.py", line 401, in bootstrap
+    renpy.main.main()
+    ~~~~~~~~~~~~~~~^^
+  File "renpy/main.py", line 596, in main
+    run(restart)
+    ~~~^^^^^^^^^
+  File "renpy/main.py", line 92, in run
+    if not renpy.arguments.post_init():
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^ 
+  File "renpy/arguments.py", line 355, in post_init
+    return commands[command]()
+           ~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 1014, in test_command
+    initialize(args.testcase)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "renpy/test/testexecution.py", line 110, in initialize
+    process_only_flag()
+    ~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 336, in process_only_flag
+    testreporter.reporter.log_message(f"Running {len(has_only)} test(s) marked with 'only' flag.")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testreporter.py", line 927, in log_message
+    reporter.log_message(message)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "renpy/test/testreporter.py", line 750, in log_message
+    self._print(f"{ANSIColors.CYAN}[rpytest] [log]{ANSIColors.RESET} {message}")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testreporter.py", line 521, in _print
+    print(text, end=end)
+    ~~~~~^^^^^^^^^^^^^^^
+  File "renpy/log.py", line 256, in write
+    self.real_file.flush()
+    ~~~~~~~~~~~~~~~~~~~~^^
+OSError: [Errno 22] Invalid argument
+
+Windows-11-10.0.26200-SP0 AMD64
+Ren'Py 8.5.3.26051504
+剑来-书简湖问心局 1.0
+Fri Sep 11 22:10:32 2026

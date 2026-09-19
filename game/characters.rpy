@@ -34,6 +34,49 @@ define znr = Character("中年男人")
 define gs = Character("顾氏")
 define ws = Character("文圣")
 
+# 书简湖主线人物
+define lcr = Character("刘重润")
+define llc = Character("刘老成")
+define lzm = Character("刘志茂")
+define mxgx = Character("马远致")
+define hs = Character("红酥")
+define tx = Character("炭雪")
+define zk = Character("钟魁")
+define zy = Character("曾掖")
+define zy1 = Character("章靥")
+define mdy = Character("马笃宜")
+define sxz = Character("苏心斋")
+define lfq = Character("李芙蕖")
+
+# 石毫国及沿途人物
+define hjx = Character("韩靖信")
+define hh = Character("胡邯")
+define xm = Character("许茂")
+define zxs = Character("曾先生")
+define wg = Character("魏将军")
+define yh = Character("俞桧")
+define msjz = Character("马氏家主")
+define mf = Character("门房修士")
+
+# 阎王殿阴物
+define ghost_woman = Character("白离草")
+define ghost_girl = Character("年轻阴物")
+define ghost_cold = Character("冷漠女子")
+define ghost_man = Character("贾高")
+define zhaoshi = Character("赵史")
+
+# 暂未具名或以身份出场的人物
+define jdf = Character("金丹妇人")
+define kjxn = Character("开襟小娘")
+define lmm = Character("老嬷嬷")
+define lxs = Character("老仙师")
+define nqsr = Character("年轻僧人")
+define sr = Character("年轻僧人")
+define qyxt = Character("青衣小童")
+define shhz = Character("年轻马贼")
+define hy = Character("狐妖")
+define zyfs = Character("紫阳府修士")
+define zndd = Character("中年道人")
 
 
 

@@ -24,6 +24,13 @@ define gui.show_name = False
 
 define config.version = "1.0"
 
+## 保持窗口与 1920×1080 虚拟画布同为 16:9。Windows 的“最大化窗口”
+## 会扣除任务栏高度，产生非 16:9 客户区，Ren'Py 因而在左右补黑边。
+define config.physical_width = 1920
+define config.physical_height = 1080
+define config.gl_resize = False
+define config.save_physical_size = False
+
 
 ## 放置在游戏内“关于”屏幕上的文本。将文本放在三个引号之间，并在段落之间留出空
 ## 行。
@@ -111,6 +118,10 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## 默认设置 ########################################################################
 
+## 主题画面默认使用真正全屏，避免 Windows 窗口外框进入主菜单画面。
+## 玩家之后仍可在设置中切回固定 16:9 窗口。
+default preferences.fullscreen = True
+
 ## 控制默认的文字显示速度。默认的 0 为瞬间，而其他数字则是每秒显示出的字符数。
 
 default preferences.text_cps = 0
@@ -125,12 +136,19 @@ default preferences.afm_time = 15
 default preferences.voice_sustain = True
 
 init -1 python:
+    # 清除旧设置中记住的最大化状态。全屏模式本身仍由玩家在设置中选择。
+    if not preferences.fullscreen:
+        preferences.maximized = False
+        preferences.physical_size = (
+            config.physical_width,
+            config.physical_height,
+        )
+
     # 旧存档/旧偏好可能把 voice_sustain 记成 False，导致点击推进对话就立刻切断配音。
     # 由于本项目的配音经常覆盖多句台词，这里只在第一次运行时自动开启一次。
     if not getattr(persistent, "_voice_sustain_initialized", False):
         persistent._voice_sustain_initialized = True
         preferences.voice_sustain = True
-
 
 ## 自动保存 ########################################################################
 

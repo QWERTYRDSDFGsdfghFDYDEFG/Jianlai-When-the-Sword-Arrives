@@ -1,6 +1,6 @@
 init:
-    # Temporary Cui Dongshan standing portrait for prologue scene testing.
-    image cds standard = "images/portraits/cds_standard_temp_v1.png"
+    # Keep the staging alias tied to the existing indexed full-body reference.
+    image cds standard = "lh/cds/cds_full_base_v11.png"
 
 transform left_front:
     xalign 0.18

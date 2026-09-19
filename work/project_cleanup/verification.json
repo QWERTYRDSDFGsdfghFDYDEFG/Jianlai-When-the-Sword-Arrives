@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-11T22:14:12.773908+08:00",
+  "approvedFilesDeleted": 1032,
+  "approvedBytesDeleted": 39814794,
+  "unchangedProtectedFiles": 4039,
+  "approvedDocumentationChanges": [
+    {
+      "path": "game/Codex/character_image_index.md",
+      "before": "d74a7088b52d9eb329d6af48476e61e4a2158b5c7c30b9b8c94136f9e871f173",
+      "after": "add8454de8895489332bbe2f457680b4f19bdf6580996f6c3c2227001b33cc08"
+    }
+  ],
+  "playerSaveFilesUnchanged": 27,
+  "regeneratedFiles": [
+    {
+      "path": "game/cache/bytecode-312.rpyb",
+      "group": "renpy_cache",
+      "bytes": 530707
+    },
+    {
+      "path": "game/cache/py3analysis.rpyb",
+      "group": "renpy_cache",
+      "bytes": 30302
+    },
+    {
+      "path": "game/cache/screens.rpyb",
+      "group": "renpy_cache",
+      "bytes": 84286
+    },
+    {
+      "path": "game/cache/shaders.txt",
+      "group": "renpy_cache",
+      "bytes": 1255
+    }
+  ],
+  "selectedPathsCurrentlyAbsent": 1028,
+  "runtimeReferencesChecked": 25,
+  "archives": [
+    {
+      "path": "work/menu_live2d/final_delivery/Jianlai-Live2D-Demo-1.0-win.zip",
+      "sha256": "24392a74370ce388b514622a0fdf67ccfcd7bc79742eac6355472eec3e54da5d",
+      "crcPassed": true
+    },
+    {
+      "path": "work/menu_live2d/final_delivery/Jianlai-Live2D-Source-1.0.zip",
+      "sha256": "5e1c38471535f268251f9d03e2692ec283b9263d2df8217da6ef311b6bde5fa9",
+      "crcPassed": true
+    }
+  ],
+  "menuTestCasesPassed": 1,
+  "menuAssertionsPassed": 17,
+  "menuScreenshotsVisuallyReviewed": [
+    "qa/screenshots/current_menu.png",
+    "qa/screenshots/legacy_menu.png"
+  ],
+  "lint": "No script or missing-asset errors; existing im.Scale/im.Crop and non-ASCII filename warnings remain.",
+  "notRetested": [
+    "Full chapter chain and three-position save/load regression",
+    "Cubism Editor reopen",
+    "Other physical computers"
+  ],
+  "errors": []
+}

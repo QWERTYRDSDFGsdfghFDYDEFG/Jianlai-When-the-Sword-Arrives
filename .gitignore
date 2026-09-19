@@ -27,3 +27,6 @@
 
 # Local secrets and credentials.
 /.env.local
+
+# Local tooling logs.
+/gude-*.log

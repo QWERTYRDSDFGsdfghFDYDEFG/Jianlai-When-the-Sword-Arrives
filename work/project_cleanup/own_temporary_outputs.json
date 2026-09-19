@@ -1,0 +1,19 @@
+[
+  {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\tmp_state_5.sqlite-wal",
+    "bytes": 0,
+    "reason": "Empty WAL created by our read-only schema audit at 14:04:06 UTC."
+  },
+  {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\tmp_state_5.sqlite-shm",
+    "sha256": "FD4C9FDA9CD3F9AE7C962B0DDF37232294D55580E1AA165AA06129B8549389EB",
+    "bytes": 32768,
+    "reason": "Shared-memory sidecar created by the same schema audit."
+  },
+  {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\traceback.txt",
+    "sha256": "090925010C3D3A7452623C1E98ECA01A9982EC635FC5A7CED47D0CDA0476998E",
+    "reason": "Our initial GUI launcher stdout error; console interpreter retry passed.",
+    "retained": "qa/launcher_failure.txt"
+  }
+]

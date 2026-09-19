@@ -25,7 +25,7 @@ define config.check_conflicting_properties = True
 ## 界面中文本的颜色。
 
 ## 整个界面中使用的强调色，用于标记和突出显示文本。
-define gui.accent_color = '#0099cc'
+define gui.accent_color = '#c9a061'
 
 ## 当文本按钮既未被选中也未被悬停时使用的颜色。
 define gui.idle_color = '#888888'
@@ -34,14 +34,14 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#aaaaaa'
 
 ## 当按钮和滑条被悬停时使用的颜色。
-define gui.hover_color = '#66c1e0'
+define gui.hover_color = '#f0d4a8'
 
 ## 当文本按钮被选中但非焦点时使用的颜色。当一个按钮为当前屏幕或设置选项值时，会
 ## 处于选中状态。
-define gui.selected_color = '#ffffff'
+define gui.selected_color = '#d5a56f'
 
 ## 当文本按钮无法被选择时使用的颜色。
-define gui.insensitive_color = '#8888887f'
+define gui.insensitive_color = '#746f687f'
 
 ## 滑条未填充的部分使用的颜色。这些颜色不直接使用，但在重新生成条形图像文件时使
 ## 用。
@@ -86,8 +86,8 @@ define gui.title_text_size = 75
 ## 标题和游戏菜单 #####################################################################
 
 ## 标题菜单和游戏菜单使用的图像。
-define gui.main_menu_background = "gui/main_menu_shujianhu_v1.png"
-define gui.game_menu_background = "gui/game_menu_ink_v1.png"
+define gui.main_menu_background = "gui/title_progress/prologue_night.png"
+define gui.game_menu_background = "gui/game_menu.png"
 
 
 ## 对话 ##########################################################################

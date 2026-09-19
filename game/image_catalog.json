@@ -1,0 +1,2434 @@
+{
+  "schema_version": 1,
+  "characters": [
+    {
+      "id": "01",
+      "name": "陈平安",
+      "variables": [
+        "cpa"
+      ],
+      "image_tag": "cpa"
+    },
+    {
+      "id": "02",
+      "name": "裴钱",
+      "variables": [
+        "peiqian"
+      ],
+      "image_tag": "peiqian"
+    },
+    {
+      "id": "03",
+      "name": "李宝瓶",
+      "variables": [
+        "a"
+      ],
+      "image_tag": "lbp"
+    },
+    {
+      "id": "04",
+      "name": "崔东山",
+      "variables": [
+        "cds"
+      ],
+      "image_tag": "cds"
+    },
+    {
+      "id": "05",
+      "name": "李槐",
+      "variables": [
+        "c"
+      ],
+      "image_tag": "lihuai"
+    },
+    {
+      "id": "06",
+      "name": "朱敛",
+      "variables": [
+        "zl"
+      ],
+      "image_tag": "zl"
+    },
+    {
+      "id": "07",
+      "name": "于禄",
+      "variables": [],
+      "image_tag": "yl"
+    },
+    {
+      "id": "08",
+      "name": "林守一",
+      "variables": [],
+      "image_tag": "lsy"
+    },
+    {
+      "id": "09",
+      "name": "茅小冬",
+      "variables": [
+        "k"
+      ],
+      "image_tag": "k"
+    },
+    {
+      "id": "10",
+      "name": "吴懿",
+      "variables": [
+        "wy"
+      ],
+      "image_tag": "wy"
+    },
+    {
+      "id": "11",
+      "name": "董水井",
+      "variables": [
+        "donsujing"
+      ],
+      "image_tag": "donsujing"
+    },
+    {
+      "id": "12",
+      "name": "高煊",
+      "variables": [
+        "c1"
+      ],
+      "image_tag": "c1"
+    },
+    {
+      "id": "13",
+      "name": "许弱",
+      "variables": [
+        "xuluo"
+      ],
+      "image_tag": "xuluo"
+    },
+    {
+      "id": "14",
+      "name": "阮秀",
+      "variables": [
+        "rx"
+      ],
+      "image_tag": "rx"
+    },
+    {
+      "id": "15",
+      "name": "徐小桥",
+      "variables": [
+        "xxq"
+      ],
+      "image_tag": "xxq"
+    },
+    {
+      "id": "16",
+      "name": "绣花江水神",
+      "variables": [
+        "xhjs"
+      ],
+      "image_tag": "xhjs"
+    },
+    {
+      "id": "17",
+      "name": "吴鸢",
+      "variables": [
+        "h1"
+      ],
+      "image_tag": "h1"
+    },
+    {
+      "id": "18",
+      "name": "阮邛",
+      "variables": [
+        "rq"
+      ],
+      "image_tag": "rq"
+    },
+    {
+      "id": "19",
+      "name": "崔瀺",
+      "variables": [
+        "cc"
+      ],
+      "image_tag": "cc"
+    },
+    {
+      "id": "20",
+      "name": "孙登先",
+      "variables": [
+        "sdx"
+      ],
+      "image_tag": "sdx"
+    },
+    {
+      "id": "21",
+      "name": "金色儒衫小人儿",
+      "variables": [
+        "jssr"
+      ],
+      "image_tag": "jssr"
+    },
+    {
+      "id": "22",
+      "name": "顾韬",
+      "variables": [
+        "gt"
+      ],
+      "image_tag": "gt"
+    },
+    {
+      "id": "23",
+      "name": "顾璨",
+      "variables": [
+        "gc"
+      ],
+      "image_tag": "gc"
+    },
+    {
+      "id": "24",
+      "name": "李牧玺",
+      "variables": [
+        "lmx"
+      ],
+      "image_tag": "lmx"
+    },
+    {
+      "id": "25",
+      "name": "宋郎中",
+      "variables": [
+        "slz"
+      ],
+      "image_tag": "slz"
+    },
+    {
+      "id": "26",
+      "name": "老掌柜",
+      "variables": [
+        "lzg"
+      ],
+      "image_tag": "lzg"
+    },
+    {
+      "id": "27",
+      "name": "田湖君",
+      "variables": [
+        "thj"
+      ],
+      "image_tag": "thj"
+    },
+    {
+      "id": "28",
+      "name": "杨老头",
+      "variables": [
+        "ylt"
+      ],
+      "image_tag": "ylt"
+    },
+    {
+      "id": "29",
+      "name": "范彦",
+      "variables": [
+        "fy"
+      ],
+      "image_tag": "fy"
+    },
+    {
+      "id": "30",
+      "name": "吕采桑",
+      "variables": [
+        "lcs"
+      ],
+      "image_tag": "lcs"
+    },
+    {
+      "id": "31",
+      "name": "元袁",
+      "variables": [
+        "yy"
+      ],
+      "image_tag": "yy"
+    },
+    {
+      "id": "32",
+      "name": "小泥鳅",
+      "variables": [
+        "xnq"
+      ],
+      "image_tag": "xnq"
+    },
+    {
+      "id": "33",
+      "name": "中年男人",
+      "variables": [
+        "znr"
+      ],
+      "image_tag": "znr"
+    },
+    {
+      "id": "34",
+      "name": "顾氏",
+      "variables": [
+        "gs"
+      ],
+      "image_tag": "gs"
+    },
+    {
+      "id": "35",
+      "name": "文圣",
+      "variables": [
+        "ws"
+      ],
+      "image_tag": "ws"
+    },
+    {
+      "id": "36",
+      "name": "刘重润",
+      "variables": [
+        "lcr"
+      ],
+      "image_tag": "lcr"
+    },
+    {
+      "id": "37",
+      "name": "刘老成",
+      "variables": [
+        "llc"
+      ],
+      "image_tag": "llc"
+    },
+    {
+      "id": "38",
+      "name": "刘志茂",
+      "variables": [
+        "lzm"
+      ],
+      "image_tag": "lzm"
+    },
+    {
+      "id": "39",
+      "name": "马远致",
+      "variables": [
+        "mxgx"
+      ],
+      "image_tag": "mxgx"
+    },
+    {
+      "id": "40",
+      "name": "红酥",
+      "variables": [
+        "hs"
+      ],
+      "image_tag": "hs"
+    },
+    {
+      "id": "41",
+      "name": "炭雪",
+      "variables": [
+        "tx"
+      ],
+      "image_tag": "tx"
+    },
+    {
+      "id": "42",
+      "name": "钟魁",
+      "variables": [
+        "zk"
+      ],
+      "image_tag": "zk"
+    },
+    {
+      "id": "43",
+      "name": "曾掖",
+      "variables": [
+        "zy"
+      ],
+      "image_tag": "zy"
+    },
+    {
+      "id": "44",
+      "name": "章靥",
+      "variables": [
+        "zy1"
+      ],
+      "image_tag": "zy1"
+    },
+    {
+      "id": "45",
+      "name": "马笃宜",
+      "variables": [
+        "mdy"
+      ],
+      "image_tag": "mdy"
+    },
+    {
+      "id": "46",
+      "name": "苏心斋",
+      "variables": [
+        "sxz"
+      ],
+      "image_tag": "sxz"
+    },
+    {
+      "id": "47",
+      "name": "李芙蕖",
+      "variables": [
+        "lfq"
+      ],
+      "image_tag": "lfq"
+    },
+    {
+      "id": "48",
+      "name": "韩靖信",
+      "variables": [
+        "hjx"
+      ],
+      "image_tag": "hjx"
+    },
+    {
+      "id": "49",
+      "name": "胡邯",
+      "variables": [
+        "hh"
+      ],
+      "image_tag": "hh"
+    },
+    {
+      "id": "50",
+      "name": "许茂",
+      "variables": [
+        "xm"
+      ],
+      "image_tag": "xm"
+    },
+    {
+      "id": "51",
+      "name": "曾先生",
+      "variables": [
+        "zxs"
+      ],
+      "image_tag": "zxs"
+    },
+    {
+      "id": "52",
+      "name": "魏将军",
+      "variables": [
+        "wg"
+      ],
+      "image_tag": "wg"
+    },
+    {
+      "id": "53",
+      "name": "俞桧",
+      "variables": [
+        "yh"
+      ],
+      "image_tag": "yh"
+    },
+    {
+      "id": "54",
+      "name": "马氏家主",
+      "variables": [
+        "msjz"
+      ],
+      "image_tag": "msjz"
+    },
+    {
+      "id": "55",
+      "name": "门房修士",
+      "variables": [
+        "mf"
+      ],
+      "image_tag": "mf"
+    },
+    {
+      "id": "56",
+      "name": "白离草",
+      "variables": [
+        "ghost_woman"
+      ],
+      "image_tag": "ghost_woman"
+    },
+    {
+      "id": "57",
+      "name": "年轻阴物",
+      "variables": [
+        "ghost_girl"
+      ],
+      "image_tag": "ghost_girl"
+    },
+    {
+      "id": "58",
+      "name": "冷漠女子",
+      "variables": [
+        "ghost_cold"
+      ],
+      "image_tag": "ghost_cold"
+    },
+    {
+      "id": "59",
+      "name": "贾高",
+      "variables": [
+        "ghost_man"
+      ],
+      "image_tag": "ghost_man"
+    },
+    {
+      "id": "60",
+      "name": "赵史",
+      "variables": [
+        "zhaoshi"
+      ],
+      "image_tag": "zhaoshi"
+    },
+    {
+      "id": "61",
+      "name": "金丹妇人",
+      "variables": [
+        "jdf"
+      ],
+      "image_tag": "jdf"
+    },
+    {
+      "id": "62",
+      "name": "开襟小娘",
+      "variables": [
+        "kjxn"
+      ],
+      "image_tag": "kjxn"
+    },
+    {
+      "id": "63",
+      "name": "老嬷嬷",
+      "variables": [
+        "lmm"
+      ],
+      "image_tag": "lmm"
+    },
+    {
+      "id": "64",
+      "name": "老仙师",
+      "variables": [
+        "lxs"
+      ],
+      "image_tag": "lxs"
+    },
+    {
+      "id": "65",
+      "name": "年轻僧人",
+      "variables": [
+        "nqsr",
+        "sr"
+      ],
+      "image_tag": "nqsr"
+    },
+    {
+      "id": "66",
+      "name": "青衣小童",
+      "variables": [
+        "qyxt"
+      ],
+      "image_tag": "qyxt"
+    },
+    {
+      "id": "67",
+      "name": "年轻马贼",
+      "variables": [
+        "shhz"
+      ],
+      "image_tag": "shhz"
+    },
+    {
+      "id": "68",
+      "name": "狐妖",
+      "variables": [
+        "hy"
+      ],
+      "image_tag": "hy"
+    },
+    {
+      "id": "69",
+      "name": "紫阳府修士",
+      "variables": [
+        "zyfs"
+      ],
+      "image_tag": "zyfs"
+    },
+    {
+      "id": "70",
+      "name": "中年道人",
+      "variables": [
+        "zndd"
+      ],
+      "image_tag": "zndd"
+    },
+    {
+      "id": "71",
+      "name": "谢谢",
+      "variables": [],
+      "image_tag": "xiexie"
+    }
+  ],
+  "expressions": [
+    {
+      "id": "00",
+      "name": "原图表情（未标准化）"
+    },
+    {
+      "id": "01",
+      "name": "平静"
+    },
+    {
+      "id": "02",
+      "name": "微笑"
+    },
+    {
+      "id": "03",
+      "name": "严肃"
+    },
+    {
+      "id": "04",
+      "name": "惊讶"
+    },
+    {
+      "id": "05",
+      "name": "害羞"
+    },
+    {
+      "id": "06",
+      "name": "悲伤"
+    },
+    {
+      "id": "07",
+      "name": "愤怒"
+    },
+    {
+      "id": "08",
+      "name": "疑惑"
+    }
+  ],
+  "assets": [
+    {
+      "code": "CG01·01·01",
+      "kind": "cg",
+      "title": "李宝瓶夜访敲门",
+      "path": "images/chapter1/c1_01_lbp_return_v2.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "03"
+      ],
+      "target": "bg c1_01_lbp_return_v2",
+      "alias": "bg cg01_01_01",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·01·02",
+      "kind": "cg",
+      "title": "崔东山开门与李宝瓶相见",
+      "path": "images/chapter1/c1_01_cds_open_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "03",
+        "04"
+      ],
+      "target": "bg c1_01_cds_open_v1",
+      "alias": "bg cg01_01_02",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·02·01",
+      "kind": "cg",
+      "title": "李宝瓶与崔东山月夜湖边",
+      "path": "images/chapter1/c1_02_midnight_lake_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "03",
+        "04"
+      ],
+      "target": "bg c1_02_midnight_lake_v1",
+      "alias": "bg cg01_02_01",
+      "notes": "人物与湖景已合并的占位CG，不能当作无人背景或分层母图。"
+    },
+    {
+      "code": "CG01·03·01",
+      "kind": "cg",
+      "title": "李槐牵白鹿登场",
+      "path": "images/chapter1/c1_03_lh_entry_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "05"
+      ],
+      "target": "bg c1_03_lh_entry_v1",
+      "alias": "bg cg01_03_01",
+      "notes": "现有剧情整图；含角色、白鹿、金色光圈与湖景。"
+    },
+    {
+      "code": "CG01·04·01",
+      "kind": "cg",
+      "title": "朱敛扮匪拦住于禄与林守一",
+      "path": "images/chapter1/c1_04_stage_far_zl_lock_test_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "06",
+        "07",
+        "08"
+      ],
+      "target": "bg c1_04_stage_far_zl_lock_test_v1",
+      "alias": "bg cg01_04_01",
+      "notes": "现有三人演戏整图；文件含test字样，登记为实际运行资产，不据此宣布最终确认。"
+    },
+    {
+      "code": "CG01·05·01",
+      "kind": "cg",
+      "title": "李槐伸掌喝止远景",
+      "path": "images/chapter1/c1_05_lh_stop_view_high34_castfix_v2.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "target": "bg c1_05_lh_stop_view_high34_castfix_v2",
+      "alias": "bg cg01_05_01",
+      "notes": "沿现有脚本住手前的实际切图编目。"
+    },
+    {
+      "code": "CG01·05·02",
+      "kind": "cg",
+      "title": "李槐向朱敛喝退近景",
+      "path": "images/chapter1/c1_05_lh_gunkai_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "05",
+        "06"
+      ],
+      "target": "bg c1_05_lh_gunkai_v1",
+      "alias": "bg cg01_05_02",
+      "notes": "沿现有滚开对白前的切图编目。"
+    },
+    {
+      "code": "CG01·05·03",
+      "kind": "cg",
+      "title": "朱敛配合李槐踉跄退步",
+      "path": "images/chapter1/c1_05_zl_stagger_v2.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "05",
+        "06"
+      ],
+      "target": "bg c1_05_zl_stagger_v2",
+      "alias": "bg cg01_05_03",
+      "notes": "现有脚本实际调用；不改变分镜对后续拆镜和重制的要求。"
+    },
+    {
+      "code": "CG01·06·01",
+      "kind": "cg",
+      "title": "于禄与谢谢湖畔合奏",
+      "path": "images/chapter1/c1_06_duet_lake_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "07",
+        "71"
+      ],
+      "target": "bg c1_06_duet_lake_v1",
+      "alias": "bg cg01_06_01",
+      "notes": "人物依据script.rpy合奏段确认；谢谢仅登记图片身份，尚无独立Character变量。"
+    },
+    {
+      "code": "CG01·07·01",
+      "kind": "cg",
+      "title": "裴钱湖上持刀剑奔跑",
+      "path": "images/chapter1/c1_07_pq_run_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "02"
+      ],
+      "target": "bg c1_07_pq_run_v1",
+      "alias": "bg cg01_07_01",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·08·01",
+      "kind": "cg",
+      "title": "裴钱湖上举葫芦饮酒",
+      "path": "images/chapter1/c1_08_pq_pose_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "02"
+      ],
+      "target": "bg c1_08_pq_pose_v1",
+      "alias": "bg cg01_08_01",
+      "notes": "现有剧情整图，不作为可拆分表情立绘。"
+    },
+    {
+      "code": "CG01·09·01",
+      "kind": "cg",
+      "title": "裴钱与崔东山隔岸对话",
+      "path": "images/chapter1/c1_09_platform_duet_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "02",
+        "04"
+      ],
+      "target": "bg c1_09_platform_duet_v1",
+      "alias": "bg cg01_09_01",
+      "notes": "现有扁平占位图；后续独立立绘与空背景尚未制作接入。"
+    },
+    {
+      "code": "CG01·10·01",
+      "kind": "cg",
+      "title": "陈平安月夜现身",
+      "path": "images/chapter1/c1_10_cpa_arrival_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01"
+      ],
+      "target": "bg c1_10_cpa_arrival_v1",
+      "alias": "bg cg01_10_01",
+      "notes": "现有占位CG；身份标准另提及的c1_10_cpa_arrival_v14.png不在本次图片目录中，不能据此冒认母版。"
+    },
+    {
+      "code": "CG01·11·01",
+      "kind": "cg",
+      "title": "陈平安挥剑第一镜",
+      "path": "images/chapter1/c1_11_cpa_sword_01_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01"
+      ],
+      "target": "bg c1_11_cpa_sword_01_v1",
+      "alias": "bg cg01_11_01",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·12·01",
+      "kind": "cg",
+      "title": "陈平安挥剑第二镜",
+      "path": "images/chapter1/c1_12_cpa_sword_02_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01"
+      ],
+      "target": "bg c1_12_cpa_sword_02_v1",
+      "alias": "bg cg01_12_01",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·12·02",
+      "kind": "cg",
+      "title": "陈平安挥剑第三镜",
+      "path": "images/chapter1/c1_12_cpa_sword_03_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01"
+      ],
+      "target": "bg c1_12_cpa_sword_03_v1",
+      "alias": "bg cg01_12_02",
+      "notes": "现有扁平占位图；运行中使用不等于最终美术确认。"
+    },
+    {
+      "code": "CG01·13·01",
+      "kind": "cg",
+      "title": "书院门口众人送别",
+      "path": "images/chapter1/c1_13_academy_gate_farewell_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "06",
+        "09"
+      ],
+      "target": "bg c1_13_academy_gate_farewell_v1",
+      "alias": "bg cg01_13_01",
+      "notes": "已核对当前文件存在且被调用；旧分镜表的缺失记录与当前磁盘不一致。"
+    },
+    {
+      "code": "CG01·14·01",
+      "kind": "cg",
+      "title": "崔东山与陈平安秋日送行",
+      "path": "images/chapter1/c1_14_autumn_road_sendoff_v2.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01",
+        "04"
+      ],
+      "target": "bg c1_14_autumn_road_sendoff_v2",
+      "alias": "bg cg01_14_01",
+      "notes": "现有扁平占位图；后续空背景和独立立绘尚未接入。"
+    },
+    {
+      "code": "CG02·01·01",
+      "kind": "cg",
+      "title": "陈平安裴钱朱敛途中歇脚",
+      "path": "images/chapter2/c2_01_rest_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01",
+        "02",
+        "06"
+      ],
+      "target": "bg c2_01_rest_v1",
+      "alias": "bg cg02_01_01",
+      "notes": "现有三人剧情整图，沿原注册缩放。"
+    },
+    {
+      "code": "CG02·02·01",
+      "kind": "cg",
+      "title": "陈平安与裴钱行经街市",
+      "path": "images/chapter2/c2_02_cpa_pq.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01",
+        "02"
+      ],
+      "target": "bg c2_02_cpa_pq_v1",
+      "alias": "bg cg02_02_01",
+      "notes": "文件基名不含_v1，已有注册名含_v1；代号映射保留该兼容关系。"
+    },
+    {
+      "code": "CG01·90·01",
+      "kind": "cg",
+      "title": "陈平安挥剑未归档散图甲",
+      "path": "images/chapter1/ig_01ab7e77024f8c16016a2e6897fb348191af6181eb66ecbf42.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "未发现现有image bg注册；90起为本章待归档事件编号，不对应已确认剧本场次。内容与采用状态待确认，不开放剧情调用。"
+    },
+    {
+      "code": "CG01·91·01",
+      "kind": "cg",
+      "title": "陈平安月夜近景未归档散图",
+      "path": "images/chapter1/ig_0ef873879e7fc71c016a314713b4b881998a9aea91797806af.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "未发现现有image bg注册；90起为本章待归档事件编号，不对应已确认剧本场次。内容与采用状态待确认，不开放剧情调用。"
+    },
+    {
+      "code": "CG01·92·01",
+      "kind": "cg",
+      "title": "陈平安挥剑未归档散图乙",
+      "path": "images/chapter1/ig_0fb49c2b9647f447016a2e203d145081918d1672173ce66a5f.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "未发现现有image bg注册；90起为本章待归档事件编号，不对应已确认剧本场次。内容与采用状态待确认，不开放剧情调用。"
+    },
+    {
+      "code": "CG02·90·01",
+      "kind": "cg",
+      "title": "双人楼台远眺未归档散图",
+      "path": "images/chapter2/ig_0c8d4a052bfbc81a016a18defe8a8081918fbc9cf37fe9a8ab.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "未发现现有image bg注册；90起为本章待归档事件编号，不对应已确认剧本场次。内容与采用状态待确认，不开放剧情调用。"
+    },
+    {
+      "code": "参考01·01",
+      "kind": "reference",
+      "title": "陈平安脸部身份标准页",
+      "path": "lh/cpa/cpa_face_standard_01.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准明确登记的脸部母版；多视角拼页，仅供参考，不直接当作立绘。"
+    },
+    {
+      "code": "参考01·02",
+      "kind": "reference",
+      "title": "陈平安暖天行路服母版",
+      "path": "lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "服装01：灰蓝短袖外袍、白内衫、深裤、绳带布袋、绑腿草鞋、背架行囊；有底色全身参考，不是透明立绘。"
+    },
+    {
+      "code": "参考01·03",
+      "kind": "reference",
+      "title": "陈平安多视角身份参考页",
+      "path": "lh/cpa/cpa_face_locked_identity_sheet_01.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "现有三视角参考页，未在当前标准中明确采用，不替代脸部母版。"
+    },
+    {
+      "code": "参考02·01",
+      "kind": "reference",
+      "title": "裴钱身份与深色行路服母版",
+      "path": "lh/peiqian/peiqian_master_v02.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "02"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "标准明确登记；服装01为深黑蓝短打、收袖束腰、绑腿布鞋；白底全身参考，不是透明最终立绘。"
+    },
+    {
+      "code": "参考03·01",
+      "kind": "reference",
+      "title": "李宝瓶正面近景参考",
+      "path": "lh/lbp/lbp_face_close_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "03"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "身份索引仍登记本图，但当前角色标准指定的lbp_master_academy_agents_v1.png缺失；仅保留参考，不冒认最新母版。"
+    },
+    {
+      "code": "参考03·02",
+      "kind": "reference",
+      "title": "李宝瓶三分之四近景参考",
+      "path": "lh/lbp/lbp_face_34_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "03"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "身份索引登记的角度参考；当前角色标准所指全身母版缺失，仍需核实最新采用口径。"
+    },
+    {
+      "code": "参考03·03",
+      "kind": "reference",
+      "title": "李宝瓶六格表情参考页",
+      "path": "lh/lbp/lbp_exp_sheet_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "03"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "多格表情拼页，未拆分并审核为独立表情资产；不直接绑定01至08表情编号。"
+    },
+    {
+      "code": "参考04·01",
+      "kind": "reference",
+      "title": "崔东山正面脸部身份母版",
+      "path": "lh/cds/cds-v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "04"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色身份索引明确登记；所指cds_face_ref.md当前缺失，沿已有母版记录使用，不补写身份结论。"
+    },
+    {
+      "code": "参考04·02",
+      "kind": "reference",
+      "title": "崔东山三分之四脸部母版",
+      "path": "lh/cds/cds_exp_34_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "04"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色身份索引登记的三分之四透视母版；此图是单张近景，不凭exp字样分配情绪编号。"
+    },
+    {
+      "code": "参考04·03",
+      "kind": "reference",
+      "title": "崔东山同机位表情差分基底",
+      "path": "lh/cds/cds_face_34_cand_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "04"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色身份索引明确登记为表情差分基底，采用依据为索引而非文件中的cand字样；未将其当成已制作的情绪差分。"
+    },
+    {
+      "code": "参考04·04",
+      "kind": "reference",
+      "title": "崔东山全身体型与服装母版",
+      "path": "lh/cds/cds_full_base_v11.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "04"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "服装01：白色交领宽袖长袍、灰色腰带与垂绦、浅色鞋；姿势01：正面略侧、双臂自然垂落的全身站姿。灰蓝实底1024×1536参考，同时供cds standard测试别名使用。"
+    },
+    {
+      "code": "参考04·05",
+      "kind": "reference",
+      "title": "崔东山旧水墨人物参考",
+      "path": "lh/cds/崔东山.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "04"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "现有旧参考，未见当前身份标准采用结论；不能替代已登记的正面、三分之四及全身母版。"
+    },
+    {
+      "code": "参考05·01",
+      "kind": "reference",
+      "title": "李槐基础表情参考页",
+      "path": "lh/lihuai/lh_expression_sheet_basic_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "05"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准登记的脸部与表情母版；四格拼页仅供参考，未拆成独立运行差分。"
+    },
+    {
+      "code": "参考05·02",
+      "kind": "reference",
+      "title": "李槐牵白鹿动作与服装母版",
+      "path": "lh/lihuai/lh_action_c1_03_white_deer_entry_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "05"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准登记；白灰交领短袍、灰下装、绑腿布靴、双葫芦和佩刀；有底色人物与白鹿整体参考。"
+    },
+    {
+      "code": "参考05·03",
+      "kind": "reference",
+      "title": "李槐全身多视角补充页",
+      "path": "lh/lihuai/lh_action_c1_03_white_deer_entry_v2.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "05"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准限定为补充构图参考，不能覆盖v1身份、服装和道具；实际为多视角拼页。"
+    },
+    {
+      "code": "参考05·04",
+      "kind": "reference",
+      "title": "李槐伸掌喝止动作母版",
+      "path": "lh/lihuai/lh_action_c1_05_hero_entry_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "05"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准登记的英雄表演动作：开步、伸掌喝止、扶刀；有底色动作参考。"
+    },
+    {
+      "code": "参考06·01",
+      "kind": "reference",
+      "title": "朱敛老奴面皮脸部母版",
+      "path": "lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "06"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准明确登记的多视角脸部母版，不按随机文件名推断状态。"
+    },
+    {
+      "code": "参考06·02",
+      "kind": "reference",
+      "title": "朱敛灰褐行路服全身母版",
+      "path": "lh/zl/zl_full_base_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "06"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "角色标准明确登记；灰褐交领旧布衣、深色内层、束腰、深裤与旧鞋；实底全身参考，非透明立绘。"
+    },
+    {
+      "code": "参考06·03",
+      "kind": "reference",
+      "title": "朱敛脸部语义网格检查图",
+      "path": "lh/zl/zl_face_mesh_map_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "06"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "脸部拓扑检查用途，带辅助线；不可用于剧情显示或反向替代母版。"
+    },
+    {
+      "code": "参考06·04",
+      "kind": "reference",
+      "title": "朱敛脸部规则网格检查图",
+      "path": "lh/zl/zl_face_grid_mesh_map_v1.png",
+      "status": "当前使用",
+      "availability": "仅参考",
+      "character_ids": [
+        "06"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "规则网格检查用途，带彩色辅助面；不可用于剧情显示或反向替代母版。"
+    },
+    {
+      "code": "参考06·05",
+      "kind": "reference",
+      "title": "朱敛服装结构参考页",
+      "path": "lh/zl/zl_outfit_design_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "06"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "已有正侧面及细节拼页；当前标准未明确指定其采用状态，不替代全身母版。"
+    },
+    {
+      "code": "参考07·01",
+      "kind": "reference",
+      "title": "于禄外观参考",
+      "path": "lh/yl/yl_ref_user_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "07"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "已有角色目录参考，暂无专属身份标准和采用结论；只登记，不反推正式服装与姿势编号。"
+    },
+    {
+      "code": "参考08·01",
+      "kind": "reference",
+      "title": "林守一外观参考",
+      "path": "lh/lsy/lsy_ref_user_v1.png",
+      "status": "待修正",
+      "availability": "仅参考",
+      "character_ids": [
+        "08"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "已有角色目录参考，暂无专属身份标准和采用结论；只登记，不反推正式服装与姿势编号。"
+    },
+    {
+      "code": "立绘04·01·01·00",
+      "kind": "portrait",
+      "title": "崔东山常服全身站姿测试",
+      "path": "lh/cds/cds_full_base_v11.png",
+      "status": "候选",
+      "availability": "可调用",
+      "character_ids": [
+        "04"
+      ],
+      "target": "cds standard",
+      "alias": "cds o01_p01_e00",
+      "notes": "与参考04·04共用同一原图，属于现有cds standard测试用法。服装01：白色宽袖交领长袍、灰腰带与垂绦、浅色鞋；姿势01：正面略侧、双臂自然垂落站姿；表情00：原图表情，未标准化。实际为灰蓝实底1024×1536，不是透明最终立绘，不能当作剧情采用确认。"
+    },
+    {
+      "code": "立绘01·01·01·01",
+      "kind": "portrait",
+      "title": "待制作：陈平安行路服平静站姿",
+      "path": null,
+      "status": "待修正",
+      "availability": "待制作",
+      "character_ids": [
+        "01"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "服装01沿通用母版：灰蓝短袖外袍、白内衫、深裤、腰绳布袋、绑腿草鞋、背架行囊。姿势01需求：正面略侧、自然站立、双臂放松；表情01平静。仅为制作需求，尚无合格透明成图，不可调用。"
+    },
+    {
+      "code": "立绘03·01·01·01",
+      "kind": "portrait",
+      "title": "待制作：李宝瓶书院红服平静站姿",
+      "path": null,
+      "status": "待修正",
+      "availability": "待制作",
+      "character_ids": [
+        "03"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "服装01按现有文字标准为书院时期红色日常服；姿势01需求：全身纯站姿、双臂自然收放；表情01平静。文字标准所指lbp_master_academy_agents_v1.png缺失，制作前先核回母版；此条不是已存在资产，不可调用。"
+    },
+    {
+      "code": "界面02·01",
+      "kind": "ui",
+      "title": "数值条：下段",
+      "path": "gui/bar/bottom.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面02·02",
+      "kind": "ui",
+      "title": "数值条：左段",
+      "path": "gui/bar/left.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面02·03",
+      "kind": "ui",
+      "title": "数值条：右段",
+      "path": "gui/bar/right.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面02·04",
+      "kind": "ui",
+      "title": "数值条：上段",
+      "path": "gui/bar/top.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·01",
+      "kind": "ui",
+      "title": "通用界面：对白气泡",
+      "path": "gui/bubble.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·01",
+      "kind": "ui",
+      "title": "桌面按钮：复选·前景",
+      "path": "gui/button/check_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·02",
+      "kind": "ui",
+      "title": "桌面按钮：复选·选中·前景",
+      "path": "gui/button/check_selected_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·03",
+      "kind": "ui",
+      "title": "桌面按钮：选项·悬停·底图",
+      "path": "gui/button/choice_hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·04",
+      "kind": "ui",
+      "title": "桌面按钮：选项·默认·底图",
+      "path": "gui/button/choice_idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·05",
+      "kind": "ui",
+      "title": "桌面按钮：悬停·底图",
+      "path": "gui/button/hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·06",
+      "kind": "ui",
+      "title": "桌面按钮：默认·底图",
+      "path": "gui/button/idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面04·01",
+      "kind": "ui",
+      "title": "桌面覆盖图：确认",
+      "path": "gui/button/overlay/confirm.png",
+      "status": "待修正",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面覆盖图资源；保持现有路径与界面调用，不开放剧情图片代号调用。当前采用/具体引用尚待核实，不凭文件存在宣布已采用。"
+    },
+    {
+      "code": "界面04·02",
+      "kind": "ui",
+      "title": "桌面覆盖图：游戏菜单",
+      "path": "gui/button/overlay/game_menu.png",
+      "status": "待修正",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面覆盖图资源；保持现有路径与界面调用，不开放剧情图片代号调用。当前采用/具体引用尚待核实，不凭文件存在宣布已采用。"
+    },
+    {
+      "code": "界面04·03",
+      "kind": "ui",
+      "title": "桌面覆盖图：主菜单",
+      "path": "gui/button/overlay/main_menu.png",
+      "status": "待修正",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面覆盖图资源；保持现有路径与界面调用，不开放剧情图片代号调用。当前采用/具体引用尚待核实，不凭文件存在宣布已采用。"
+    },
+    {
+      "code": "界面03·07",
+      "kind": "ui",
+      "title": "桌面按钮：快捷·悬停·底图",
+      "path": "gui/button/quick_hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·08",
+      "kind": "ui",
+      "title": "桌面按钮：快捷·默认·底图",
+      "path": "gui/button/quick_idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·09",
+      "kind": "ui",
+      "title": "桌面按钮：单选·前景",
+      "path": "gui/button/radio_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·10",
+      "kind": "ui",
+      "title": "桌面按钮：单选·选中·前景",
+      "path": "gui/button/radio_selected_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·11",
+      "kind": "ui",
+      "title": "桌面按钮：存档槽·悬停·底图",
+      "path": "gui/button/slot_hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面03·12",
+      "kind": "ui",
+      "title": "桌面按钮：存档槽·默认·底图",
+      "path": "gui/button/slot_idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·02",
+      "kind": "ui",
+      "title": "通用界面：边框",
+      "path": "gui/frame.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·03",
+      "kind": "ui",
+      "title": "通用界面：游戏菜单",
+      "path": "gui/game_menu.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·04",
+      "kind": "ui",
+      "title": "通用界面：主菜单",
+      "path": "gui/main_menu.png",
+      "status": "待修正",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。当前采用/具体引用尚待核实，不凭文件存在宣布已采用。"
+    },
+    {
+      "code": "界面01·05",
+      "kind": "ui",
+      "title": "通用界面：书简湖菜单彩色合成图",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_b2_color.png。"
+    },
+    {
+      "code": "界面01·06",
+      "kind": "ui",
+      "title": "通用界面：书简湖菜单灰阶构图",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_b2_grayscale.png。"
+    },
+    {
+      "code": "界面13·01",
+      "kind": "ui",
+      "title": "书简湖动态菜单：云影层",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_layers/cloud_shadow.png。"
+    },
+    {
+      "code": "界面13·02",
+      "kind": "ui",
+      "title": "书简湖动态菜单：远雾层",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_layers/far_fog.png。"
+    },
+    {
+      "code": "界面13·03",
+      "kind": "ui",
+      "title": "书简湖动态菜单：群岛静态底层",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_layers/islands_static.png。"
+    },
+    {
+      "code": "界面13·04",
+      "kind": "ui",
+      "title": "书简湖动态菜单：灯火光晕层",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_layers/lamp_glow.png。"
+    },
+    {
+      "code": "界面13·05",
+      "kind": "ui",
+      "title": "书简湖动态菜单：水面光层",
+      "path": null,
+      "status": "停用",
+      "availability": "已删除",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 按用户批准清理旧原创主题；保留固定编号，不复用。历史路径：gui/main_menu_layers/water_light.png。"
+    },
+    {
+      "code": "界面01·07",
+      "kind": "ui",
+      "title": "通用界面：姓名框",
+      "path": "gui/namebox.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·08",
+      "kind": "ui",
+      "title": "通用界面：通知条",
+      "path": "gui/notify.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·09",
+      "kind": "ui",
+      "title": "通用界面：长文本底框",
+      "path": "gui/nvl.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面08·01",
+      "kind": "ui",
+      "title": "手机版数值条：下段",
+      "path": "gui/phone/bar/bottom.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面08·02",
+      "kind": "ui",
+      "title": "手机版数值条：左段",
+      "path": "gui/phone/bar/left.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面08·03",
+      "kind": "ui",
+      "title": "手机版数值条：右段",
+      "path": "gui/phone/bar/right.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面08·04",
+      "kind": "ui",
+      "title": "手机版数值条：上段",
+      "path": "gui/phone/bar/top.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版数值条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·01",
+      "kind": "ui",
+      "title": "手机版按钮：复选·前景",
+      "path": "gui/phone/button/check_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·02",
+      "kind": "ui",
+      "title": "手机版按钮：复选·选中·前景",
+      "path": "gui/phone/button/check_selected_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·03",
+      "kind": "ui",
+      "title": "手机版按钮：选项·悬停·底图",
+      "path": "gui/phone/button/choice_hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·04",
+      "kind": "ui",
+      "title": "手机版按钮：选项·默认·底图",
+      "path": "gui/phone/button/choice_idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·05",
+      "kind": "ui",
+      "title": "手机版按钮：悬停·底图",
+      "path": "gui/phone/button/hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·06",
+      "kind": "ui",
+      "title": "手机版按钮：默认·底图",
+      "path": "gui/phone/button/idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·07",
+      "kind": "ui",
+      "title": "手机版按钮：单选·前景",
+      "path": "gui/phone/button/radio_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·08",
+      "kind": "ui",
+      "title": "手机版按钮：单选·选中·前景",
+      "path": "gui/phone/button/radio_selected_foreground.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·09",
+      "kind": "ui",
+      "title": "手机版按钮：存档槽·悬停·底图",
+      "path": "gui/phone/button/slot_hover_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面09·10",
+      "kind": "ui",
+      "title": "手机版按钮：存档槽·默认·底图",
+      "path": "gui/phone/button/slot_idle_background.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版按钮资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面07·01",
+      "kind": "ui",
+      "title": "手机版通用界面：长文本底框",
+      "path": "gui/phone/nvl.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面10·01",
+      "kind": "ui",
+      "title": "手机版覆盖图：游戏菜单",
+      "path": "gui/phone/overlay/game_menu.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版覆盖图资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面10·02",
+      "kind": "ui",
+      "title": "手机版覆盖图：主菜单",
+      "path": "gui/phone/overlay/main_menu.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版覆盖图资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·01",
+      "kind": "ui",
+      "title": "手机版滚动条：横向·悬停·轨道",
+      "path": "gui/phone/scrollbar/horizontal_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·02",
+      "kind": "ui",
+      "title": "手机版滚动条：横向·悬停·滑块",
+      "path": "gui/phone/scrollbar/horizontal_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·03",
+      "kind": "ui",
+      "title": "手机版滚动条：横向·默认·轨道",
+      "path": "gui/phone/scrollbar/horizontal_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·04",
+      "kind": "ui",
+      "title": "手机版滚动条：横向·默认·滑块",
+      "path": "gui/phone/scrollbar/horizontal_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·05",
+      "kind": "ui",
+      "title": "手机版滚动条：纵向·悬停·轨道",
+      "path": "gui/phone/scrollbar/vertical_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·06",
+      "kind": "ui",
+      "title": "手机版滚动条：纵向·悬停·滑块",
+      "path": "gui/phone/scrollbar/vertical_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·07",
+      "kind": "ui",
+      "title": "手机版滚动条：纵向·默认·轨道",
+      "path": "gui/phone/scrollbar/vertical_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面11·08",
+      "kind": "ui",
+      "title": "手机版滚动条：纵向·默认·滑块",
+      "path": "gui/phone/scrollbar/vertical_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·01",
+      "kind": "ui",
+      "title": "手机版滑动条：横向·悬停·轨道",
+      "path": "gui/phone/slider/horizontal_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·02",
+      "kind": "ui",
+      "title": "手机版滑动条：横向·悬停·滑块",
+      "path": "gui/phone/slider/horizontal_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·03",
+      "kind": "ui",
+      "title": "手机版滑动条：横向·默认·轨道",
+      "path": "gui/phone/slider/horizontal_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·04",
+      "kind": "ui",
+      "title": "手机版滑动条：横向·默认·滑块",
+      "path": "gui/phone/slider/horizontal_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·05",
+      "kind": "ui",
+      "title": "手机版滑动条：纵向·悬停·轨道",
+      "path": "gui/phone/slider/vertical_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·06",
+      "kind": "ui",
+      "title": "手机版滑动条：纵向·悬停·滑块",
+      "path": "gui/phone/slider/vertical_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·07",
+      "kind": "ui",
+      "title": "手机版滑动条：纵向·默认·轨道",
+      "path": "gui/phone/slider/vertical_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面12·08",
+      "kind": "ui",
+      "title": "手机版滑动条：纵向·默认·滑块",
+      "path": "gui/phone/slider/vertical_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面07·02",
+      "kind": "ui",
+      "title": "手机版通用界面：对白框",
+      "path": "gui/phone/textbox.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "手机版通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·01",
+      "kind": "ui",
+      "title": "桌面滚动条：横向·悬停·轨道",
+      "path": "gui/scrollbar/horizontal_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·02",
+      "kind": "ui",
+      "title": "桌面滚动条：横向·悬停·滑块",
+      "path": "gui/scrollbar/horizontal_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·03",
+      "kind": "ui",
+      "title": "桌面滚动条：横向·默认·轨道",
+      "path": "gui/scrollbar/horizontal_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·04",
+      "kind": "ui",
+      "title": "桌面滚动条：横向·默认·滑块",
+      "path": "gui/scrollbar/horizontal_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·05",
+      "kind": "ui",
+      "title": "桌面滚动条：纵向·悬停·轨道",
+      "path": "gui/scrollbar/vertical_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·06",
+      "kind": "ui",
+      "title": "桌面滚动条：纵向·悬停·滑块",
+      "path": "gui/scrollbar/vertical_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·07",
+      "kind": "ui",
+      "title": "桌面滚动条：纵向·默认·轨道",
+      "path": "gui/scrollbar/vertical_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面05·08",
+      "kind": "ui",
+      "title": "桌面滚动条：纵向·默认·滑块",
+      "path": "gui/scrollbar/vertical_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滚动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·10",
+      "kind": "ui",
+      "title": "通用界面：快进提示",
+      "path": "gui/skip.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·01",
+      "kind": "ui",
+      "title": "桌面滑动条：横向·悬停·轨道",
+      "path": "gui/slider/horizontal_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·02",
+      "kind": "ui",
+      "title": "桌面滑动条：横向·悬停·滑块",
+      "path": "gui/slider/horizontal_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·03",
+      "kind": "ui",
+      "title": "桌面滑动条：横向·默认·轨道",
+      "path": "gui/slider/horizontal_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·04",
+      "kind": "ui",
+      "title": "桌面滑动条：横向·默认·滑块",
+      "path": "gui/slider/horizontal_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·05",
+      "kind": "ui",
+      "title": "桌面滑动条：纵向·悬停·轨道",
+      "path": "gui/slider/vertical_hover_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·06",
+      "kind": "ui",
+      "title": "桌面滑动条：纵向·悬停·滑块",
+      "path": "gui/slider/vertical_hover_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·07",
+      "kind": "ui",
+      "title": "桌面滑动条：纵向·默认·轨道",
+      "path": "gui/slider/vertical_idle_bar.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面06·08",
+      "kind": "ui",
+      "title": "桌面滑动条：纵向·默认·滑块",
+      "path": "gui/slider/vertical_idle_thumb.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "桌面滑动条资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·11",
+      "kind": "ui",
+      "title": "通用界面：对白框",
+      "path": "gui/textbox.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·12",
+      "kind": "ui",
+      "title": "通用界面：心声气泡",
+      "path": "gui/thoughtbubble.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面01·13",
+      "kind": "ui",
+      "title": "通用界面：窗口图标",
+      "path": "gui/window_icon.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "通用界面资源；保持现有路径与界面调用，不开放剧情图片代号调用。"
+    },
+    {
+      "code": "界面16·01",
+      "kind": "ui",
+      "title": "序章标题：夜湖",
+      "path": "gui/title_progress/prologue_night.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 当前序章标题静态背景。阶段 0：新游戏起点的书院夜湖纯场景。由最后成功保存或读取的进度选择，可随旧档回退；独立于剧情背景调用，不代表已完成全员通关标题。"
+    },
+    {
+      "code": "界面16·02",
+      "kind": "ui",
+      "title": "序章标题：湖畔相聚",
+      "path": "gui/title_progress/prologue_gathering.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 当前序章标题静态背景。阶段 1：prologue_lakeside_gathering（c1_03）起，湖畔少量金线与暖光。由最后成功保存或读取的进度选择，可随旧档回退；独立于剧情背景调用，不代表已完成全员通关标题。"
+    },
+    {
+      "code": "界面16·03",
+      "kind": "ui",
+      "title": "序章标题：书院送别",
+      "path": "gui/title_progress/prologue_farewell.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-19 当前序章标题静态背景。阶段 2：prologue_academy_farewell（c1_13）起，秋日书院山门纯场景；当前后续章节沿用。由最后成功保存或读取的进度选择，可随旧档回退；独立于剧情背景调用，不代表已完成全员通关标题。"
+    }
+  ],
+  "reserved_codes": [
+    "界面14·01",
+    "纹理04·01",
+    "纹理03·01",
+    "纹理03·02",
+    "纹理03·03",
+    "纹理01·01",
+    "纹理01·02",
+    "纹理01·03",
+    "纹理01·04",
+    "纹理01·05",
+    "纹理01·06",
+    "界面15·01",
+    "界面15·02",
+    "界面15·03",
+    "界面15·04",
+    "界面15·05",
+    "界面15·06",
+    "界面15·07",
+    "界面15·08",
+    "界面15·09",
+    "界面15·10",
+    "界面15·11",
+    "纹理02·01",
+    "纹理02·02",
+    "纹理02·03",
+    "纹理02·04"
+  ]
+}

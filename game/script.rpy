@@ -50,6 +50,7 @@ label start:
 
     $ clear_dialogue_pair()
 
+label prologue_lakeside_gathering:
     scene bg c1_03_lh_entry_v1
     with trans_illusion
 
@@ -233,6 +234,7 @@ label start:
 
     pause 1.0
 
+label prologue_academy_farewell:
     scene bg c1_13_academy_gate_farewell_v1
     with trans_time
 
