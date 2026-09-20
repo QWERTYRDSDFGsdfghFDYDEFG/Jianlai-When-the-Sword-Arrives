@@ -41,6 +41,8 @@ label chapter2_start:
     peiqian "到时候我那份，肯定都往师父兜里装。"
 
     scene bg c2_02_cpa_pq_v1
+    with trans_location
+
     narrator "一行人顺顺当当地走到御江畔的黄庭国郡城。"
     narrator "当年陈平安与崔东山路过此地，见识过小国州郡里仙师野修的放纵，百姓求告无门。"
     narrator "正是在这座郡城内，崔东山曾在芝兰曹氏藏书楼收服粉裙女童，又与作威作福的青衣小童结下因果。"
@@ -56,6 +58,9 @@ label chapter2_start:
 
     zl "听说落魄山有一位止境宗师后，我倒是想见识见识。"
 
+    scene bg c2_02_observe_v1
+    with trans_short
+
     # 这段配音不需要文字
     cpa "这次倒是没有遇上游戏人间的潇洒剑修。"
     cpa "不然我不介意他们肆意伤人之时，将其打落飞剑。"
@@ -64,8 +69,14 @@ label chapter2_start:
 
     narrator "如当年一行人，曾借宿于黄庭国户部老侍郎隐于山林的私人宅邸。"
     narrator "程老侍郎与大骊北岳正神魏檗相交，又受朝廷招徕，如今在披云山林鹿书院任副山长。"
+    scene bg c2_02_notice_v1
+    with trans_short
+
     narrator "当陈平安刚要带头走入一家客栈的时候，"
     narrator "与朱敛一起转头望向大街，一个面容冷漠的高挑女子姗姗而来。"
+    scene bg c2_02_invite_v1
+    with trans_short
+
     narrator "走到陈平安他们身前露出微笑，正是那程老侍郎的长女，奉父命前来相邀。"
 
     wy "公子，家父与你们大骊北岳正神魏檗是好友。"
@@ -76,6 +87,9 @@ label chapter2_start:
     wy "若是这些窥探冒犯了陈公子，还希望见谅。"
     wy "在这里，我诚心恳请陈公子去我那紫阳府做客几日。"
 
+    scene bg c2_02_consider_v1
+    with trans_short
+
     cpa "着急赶路。"
     cpa "如果我今天婉拒了前辈，会不会给前辈带来麻烦？"
 
@@ -85,6 +99,9 @@ label chapter2_start:
     wy "若是陈公子不答应，我虽不会被父亲和山岳正神责骂。"
     wy "可若是陈公子愿意给这个面子，"
     wy "我肯定能够被赏罚分明的父亲与魏正神记住这点小小的功劳。"
+
+    scene bg c2_02_accept_v1
+    with trans_short
 
     cpa "好吧，那我们就叨扰前辈一两天。"
 

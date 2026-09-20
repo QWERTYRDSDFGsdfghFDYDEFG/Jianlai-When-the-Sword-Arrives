@@ -1,10 +1,10 @@
 ################################################################################
-## 随存档进度变化的静态标题场景
+## 按第一章已完成场景累计解锁的静态标题背景
 ################################################################################
 
 init -1 python:
     # Only the three approved prologue scenes are available. Unknown milestones
-    # and missing later artwork always fall back to the initial academy night.
+    # use the latest unlocked artwork that is actually available.
     story_title_backgrounds = {
         0: gui.main_menu_background,
         1: "gui/title_progress/prologue_gathering.png",
@@ -12,10 +12,10 @@ init -1 python:
     }
 
     def story_title_background():
-        background = story_title_backgrounds.get(
-            story_title_stage(), story_title_backgrounds[0])
-        if renpy.loadable(background):
-            return background
+        for stage in range(story_title_stage(), -1, -1):
+            background = story_title_backgrounds.get(stage)
+            if background and renpy.loadable(background):
+                return background
         return story_title_backgrounds[0]
 
 

@@ -1,9 +1,11 @@
-# The title follows the last successfully saved or loaded story, including after
-# a restart. Keep this separate from global read/unlock history.
+# Continue follows the last successfully saved or loaded story. The title uses
+# separate, cumulative prologue milestones and never regresses with an old save.
 default story_chapter = 0
 default story_prologue_phase = 0
 default story_complete = False
 default persistent.story_title_selection = None
+default persistent.story_title_unlocks = set()
+default persistent.story_title_unlock_version = 0
 
 # Enable only when a real final ending calls story_mark_complete(). Chapter 12
 # currently ends the prototype; reaching its return is not full-game completion.
@@ -50,6 +52,56 @@ init -5 python:
     def story_valid_phase(value):
         return type(value) is int and 0 <= value <= 2
 
+    def story_normalize_title_unlocks(value):
+        if not isinstance(value, (set, frozenset, list, tuple)):
+            return set()
+        return {event for event in value
+                if isinstance(event, str) and event in story_prologue_scene_ids[1:]}
+
+    def story_merge_title_unlocks(old, new, current):
+        return (story_normalize_title_unlocks(old)
+                | story_normalize_title_unlocks(new)
+                | story_normalize_title_unlocks(current))
+
+    def story_unlock_title(event, loaded=False):
+        # Called only from normal story execution, never from save threads or
+        # screen rendering. Persistent data intentionally survives rollback.
+        if (main_menu or _in_replay or renpy.context_nesting_level() != 0
+                or (renpy.in_rollback() and not loaded)
+                or event not in story_prologue_scene_ids[1:]):
+            return False
+        phase = story_prologue_scene_ids.index(event)
+        previous = story_normalize_title_unlocks(persistent.story_title_unlocks)
+        unlocked = previous | set(story_prologue_scene_ids[1:phase + 1])
+        if unlocked == previous:
+            return False
+        persistent.story_title_unlocks = unlocked
+        renpy.save_persistent()
+        return True
+
+    def story_completed_title_events(chapter, phase):
+        # Old phase markers denote entry, not completion: reaching farewell
+        # proves gathering was read; only later chapters prove farewell ended.
+        if story_valid_chapter(chapter) and chapter >= 2:
+            return set(story_prologue_scene_ids[1:])
+        if story_valid_chapter(chapter) and chapter == 1 and story_valid_phase(phase) and phase == 2:
+            return {"lakeside_gathering"}
+        return set()
+
+    def story_import_title_unlocks():
+        if _in_replay or persistent.story_title_unlock_version == 1:
+            return
+        unlocked = story_normalize_title_unlocks(persistent.story_title_unlocks)
+        records = story_save_records()
+        selected = story_selected_save()
+        for record in records:
+            if selected and record["fingerprint"] == selected["fingerprint"]:
+                record = selected
+            unlocked.update(story_completed_title_events(record["chapter"], record["phase"]))
+        persistent.story_title_unlocks = unlocked
+        persistent.story_title_unlock_version = 1
+        renpy.save_persistent()
+
     def story_phase_from_location(filename, line):
         if story_chapter_from_filename(filename) != 1:
             return None
@@ -84,15 +136,6 @@ init -5 python:
             (story_chapter, story_prologue_phase, bool(story_complete and story_title_completion_enabled)))
         return story_previous_autosave_prefix() if story_previous_autosave_prefix else "auto-"
 
-    def story_stage_for(chapter, complete=False, phase=None):
-        # Only the completed prologue has title artwork. Draft later chapters
-        # keep its final scene, never imply whole-game completion.
-        if chapter is None:
-            return 0
-        if chapter >= 2:
-            return 2
-        return phase if story_valid_phase(phase) else 0
-
     def story_valid_chapter(value):
         return type(value) is int and 1 <= value <= 12
 
@@ -113,6 +156,7 @@ init -5 python:
             store.story_prologue_phase = story_prologue_markers[label]
             if label == "start":
                 store.story_complete = False
+                renpy.session.pop("story_title_reconcile_load", None)
             story_state_change_end()
         elif label.startswith("chapter") and label.endswith("_start"):
             number = label[len("chapter"):-len("_start")]
@@ -215,20 +259,17 @@ init -5 python:
                     record = dict(record, phase=selected["phase"])
                 return record
         # Deleted/overwritten selections fall back to the newest extant save.
-        # The same resolver drives the title AND the continue button.
+        # This resolver drives Continue; title unlocks are independent.
         return max(records, key=lambda record: (record["modified"], record["slot"]))
 
     def story_selected_slot():
         record = story_selected_save()
         return record["slot"] if record else None
 
-    def story_title_chapter():
-        record = story_selected_save()
-        return record["chapter"] if record else None
-
     def story_title_raw_stage():
-        record = story_selected_save()
-        return story_stage_for(record["chapter"], record["complete"], record["phase"]) if record else 0
+        unlocked = story_normalize_title_unlocks(persistent.story_title_unlocks)
+        return max([0] + [phase for phase, event in enumerate(story_prologue_scene_ids)
+                          if event in unlocked])
 
     def story_title_phase_label(phase=None):
         if phase is None:
@@ -265,6 +306,7 @@ init -5 python:
 
     def story_after_load():
         story_state_change_end()
+        renpy.session["story_title_reconcile_load"] = True
         pending = renpy.session.pop("story_pending_load", None)
         if pending is None:
             return
@@ -277,7 +319,7 @@ init -5 python:
         renpy.session["story_loaded_record"] = record["fingerprint"]
 
     def story_statement_progress(statement):
-        if main_menu or renpy.context_nesting_level() != 0:
+        if main_menu or _in_replay or renpy.context_nesting_level() != 0:
             return
         filename, line = renpy.get_filename_line()
         chapter = story_chapter_from_filename(filename)
@@ -301,6 +343,14 @@ init -5 python:
             record = dict(selected, chapter=chapter, phase=phase,
                           complete=bool(store.story_complete and story_title_completion_enabled), verified=True)
             story_remember(record, "load", selected["event_time"])
+        # Reconcile only an actual load, once its resumed location is known.
+        # A development jump alone must not manufacture completed milestones.
+        if renpy.session.get("story_title_reconcile_load"):
+            renpy.session.pop("story_title_reconcile_load", None)
+            for event in story_completed_title_events(chapter, phase):
+                # Ren'Py resumes loads through rollback machinery. This is a
+                # verified load, so import before the player's next advance.
+                story_unlock_title(event, loaded=True)
 
     def story_mark_complete():
         """Reserved for the future final ending; inactive in this prototype."""
@@ -388,6 +438,8 @@ init -5 python:
     def StoryQuickLoad():
         return StoryLoad(story_slot_name(1, "quick"))
 
+    renpy.register_persistent("story_title_unlocks", story_merge_title_unlocks)
+    config.start_callbacks.append(story_import_title_unlocks)
     config.label_callbacks.append(story_label_progress)
     config.statement_callbacks.append(story_statement_progress)
     config.save_json_callbacks.append(story_save_metadata)

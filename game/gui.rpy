@@ -55,14 +55,15 @@ define gui.interface_text_color = '#ffffff'
 
 ## 字体和字体大小 #####################################################################
 
-## 游戏内文本使用的字体。
-define gui.text_font = "SourceHanSansLite.ttf"
+## 完整中文静态字库（Light / 300），覆盖正文和姓名中的生僻字。
+## 字体来源、许可证与维护说明见 fonts/README.md。
+define gui.text_font = "fonts/noto_sans_sc_light.ttf"
 
 ## 角色名称使用的字体。
-define gui.name_text_font = "SourceHanSansLite.ttf"
+define gui.name_text_font = gui.text_font
 
 ## 游戏外文本使用的字体。
-define gui.interface_text_font = "SourceHanSansLite.ttf"
+define gui.interface_text_font = gui.text_font
 
 ## 普通对话文本的大小。
 define gui.text_size = 33

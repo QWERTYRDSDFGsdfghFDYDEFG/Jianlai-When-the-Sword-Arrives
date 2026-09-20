@@ -68,12 +68,13 @@
 
 | 角色 | 触发词 / 别名 / 变量名 | 专属身份标准文件 | 关键母版 | 分镜 / 演出补充 |
 | --- | --- | --- | --- | --- |
-| 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | `lh/cpa/cpa_face_standard_01.png`、`lh/cpa/cpa_outfit_variant_06_warm_weather.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
+| 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | 脸部：`lh/cpa/cpa_face_standard_01.png`；通用服装：`lh/cpa/cpa_outfit_variant_06_warm_weather.png`；书箱：`lh/cpa/cpa_bookbox_ref.jpg`；养剑壶主参考：`lh/cpa/cpa_gourd_ref.png`，结构辅助：`lh/cpa/cpa_gourd_structure_ref.jpg` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`；第二场依据 `script_chapter2.rpy` 与本任务在线分镜，不以已删除的第2—5章旧表为依据；道具更新见第 3.4 节 |
 | 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
 | 李宝瓶 | 李宝瓶、宝瓶、lbp、a | `lh/lbp/李宝瓶固定脸部身份与当前服装标准.md` | `lh/lbp/lbp_face_close_v1.png`、`lh/lbp/lbp_face_34_v1.png`、`lh/lbp/lbp_exp_sheet_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 崔东山 | 崔东山、cds | `lh/cds/cds_face_ref.md`（唯一主标准：固定脸部身份与当前服装） | 正面身份母版：`lh/cds/cds-v1.png`；三分之四侧母版：`lh/cds/cds_exp_34_v1.png`；同机位表情差分基底：`lh/cds/cds_face_34_cand_v1.png`；全身体型与当前服装母版：`lh/cds/cds_full_base_v11.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 李槐 | 李槐、lihuai、lh、c | `lh/lihuai/lh_face_ref.md` | 脸部与表情：`lh/lihuai/lh_expression_sheet_basic_v1.png`；全身服装与序-03动作：`lh/lihuai/lh_action_c1_03_white_deer_entry_v1.png`；序-05动作：`lh/lihuai/lh_action_c1_05_hero_entry_v1.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md` |
 | 朱敛 | 朱敛、zl、老厨子 | `lh/zl/zl_face_ref.md`；原文考据先读 `lh/zl/zl_text_evidence.md`；语义拓扑读 `lh/zl/zl_face_topology_v1.md`；规则变形网格读 `lh/zl/zl_face_grid_mesh_rules_v1.md` | 脸部母版：`lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png`；478点数据：`lh/zl/zl_face_mesh_v1.json`；规则网格：`lh/zl/zl_face_grid_mesh_v1.json`；网格检查图：`lh/zl/zl_face_grid_mesh_map_v1.png`；全身母版：`lh/zl/zl_full_base_v1.png` | `script逐场分镜表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |
+| 吴懿 | 吴懿、wy | `lh/wy/wy_face_ref.md` | 当前全身三视角母版：`lh/wy/wy_full_master_v1.png`（`参考10·01`；2026-09-20 用户确认 S1 项目画风版，当前使用／仅参考；非透明单人立绘） | `script_chapter2.rpy`；本任务在线分镜第二场相邀，未另存项目；不以已删除的第2—5章旧表为依据 |
 
 ### 3.1 崔东山母版调用顺序
 
@@ -86,7 +87,7 @@
 
 ### 3.2 主菜单角色场景资产
 
-截至 2026-09-19，当前标题采用序章的夜湖、湖畔相聚、书院送别三张纯场景静态图，由最后成功保存或读取的章节与序章阶段决定，读回旧档可回退。阶段切点为游戏开始、`prologue_lakeside_gathering`（c1_03）、`prologue_academy_farewell`（c1_13）；当前第 2—12 章沿用送别场景，正式结局前不启用全员通关画面。旧原创环境主题、候选和测试图已按用户批准清单删除；《哀鸿》逆向成果已按用户要求移出，项目不再引用。下表保留停用历史与否决原因，不代表批准恢复旧概念。
+截至 2026-09-20，用户确认累计解锁，并要求先用于已完成的第一章。当前沿用夜湖、湖畔相聚、书院送别三张纯场景静态图，没有新增或改绘图片。夜湖默认显示；相聚读完（送别标签前）解锁 `lakeside_gathering`，送别读完（跳转第 2 章前）解锁 `academy_farewell`。读旧档、回退、新游戏或重启不撤销已解锁主题；“继续”的存档目标独立判断。第 2—12 章没有新增主题，原型结尾不启用全员通关图。实施与验证见 `menu_unlock_plan.md`。旧原创环境主题、候选和测试图已按用户批准清单删除；《哀鸿》逆向成果已按用户要求移出，项目不再引用。下表保留停用历史与否决原因，不代表批准恢复旧概念。
 
 | 类型 | 资产或文档 | 状态 |
 | --- | --- | --- |
@@ -133,6 +134,34 @@
 
 `lh/peiqian/pq_blink_open_crop_check.png`、`pq_blink_closed_crop_check.png`、`pq_blink_closed_gen_v1.png` 均为停用的旧实验输出，已按用户批准清单删除。当前运行脚本及身份标准未引用这三张图；`lh/peiqian/peiqian_master_v02.png` 母版和身份标准保留，未修改角色身份或采用结论。删除记录见 `../../work/project_cleanup/`。
 
+### 3.4 陈平安统一书箱与养剑壶（2026-09-20）
+
+用户确认后续场次统一采用青绿竹编长方敞口箱与朱红金色卷纹养剑壶；按最新要求撤除陈平安腰间旧小布袋及其专用吊绳，只保留主腰绳和单只壶。人物脸部、年龄、发型与衣物版型保持原标准。具体结构、主辅参考优先级、复用提示词和动态连接验收以 `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` 第 2.6、2.7、4、6、9 节为准。旧开放背架、菜单闭合箱特例和旧腰间布袋停止作为生成依据；不改动其他角色的布袋。
+
+| 资产 | 采用状态与用途 |
+| --- | --- |
+| `lh/cpa/cpa_outfit_variant_06_warm_weather.png`（`参考01·02`） | 当前使用／仅参考；已完成书箱、养剑壶与去布袋修正并原位替换，旧背架与腰袋版本不再保存在项目中；脸部母版 `cpa_face_standard_01.png` 不变 |
+| `lh/cpa/cpa_bookbox_ref.jpg`（`参考01·04`） | 当前使用／仅参考；用户指定的唯一书箱结构源：敞口竹编箱、四角竹节柱、藤绳、侧挂斗笠与备用草鞋；不借用图中人物或 3D 风格 |
+| `lh/cpa/cpa_gourd_ref.png`（`参考01·05`） | 当前使用／仅参考；养剑壶外观主参考：朱红底、金色卷纹；腰侧单只小巧壶，短绳系腰带，旧布袋及其专用吊绳撤除 |
+| `lh/cpa/cpa_gourd_structure_ref.jpg`（`参考01·06`） | 当前使用／仅参考；仅辅助壶形与红绳连接，不能引入银色复杂兽首雕像盖或覆盖主参考 |
+| `images/chapter1/c1_13_academy_gate_farewell_v1.png`、`images/chapter1/c1_14_autumn_road_sendoff_v2.png`、`images/chapter2/c2_01_rest_v1.png` | 当前使用／可调用；已按用户授权统一书箱、养剑壶并撤除陈平安旧布袋，三图原位替换，原引用不变；均为1672×941，视觉检查与源/目标哈希核对通过；AI局部修图非逐像素无损，部分笔触略有变化 |
+
+2026-09-20 用户确认第二场定稿。街景底图与六张完整彩色剧情图已导入 `images/chapter2/`，采用状态统一为当前使用；六镜按原剧情节拍接入 `script_chapter2.rpy`，不改对白、不提前接入第三场核舟。原图均为1672×941，保留原始字节，运行沿项目1920×1080缩放。三张道具源图仍仅供参考，不建立剧情调用别名。
+
+| 图片代号 | 文件与原始 `bg` 定义基名 | 第二场用途 |
+| --- | --- | --- |
+| `背景01·01` | `c2_02_inn_street_v1` | 客栈街景备用底图；已注册，无直接剧情调用 |
+| `CG02·02·01` | `c2_02_cpa_pq_v1` | 三人入街；替代此前已删除的不含 `_v1` 旧图路径 |
+| `CG02·02·02` | `c2_02_observe_v1` | 陈平安观察街市 |
+| `CG02·02·03` | `c2_02_notice_v1` | 客栈门前察觉吴懿走近 |
+| `CG02·02·04` | `c2_02_invite_v1` | 吴懿站定相邀 |
+| `CG02·02·05` | `c2_02_consider_v1` | 陈平安婉拒、询问与吴懿解释 |
+| `CG02·02·06` | `c2_02_accept_v1` | 陈平安应允 |
+
+本次定稿仅覆盖第二场。第三场起的后续剧本尚无独立换景，当前仍延续最后一张图；后续演出制作时须补齐，不代表整章配图已经完成。在线逐场分镜表仍不另存项目。
+
+接入验证：7张导入图与批准源图逐字节一致；图片目录152条登记校验通过。`bg_images.rpy` 的29条定义均有文件，26条原始图片基名一致，3条标题菜单兼容别名保留；全部静态背景调用有定义。Ren'Py lint 无缺图或未定义图片错误，仍有既存的旧式缩放与非ASCII文件名提示。实际运行逐一检查六镜，并在相邀时存档、应允后读回：11项断言通过，7张实机截图已复查；对白与剧情跳转未改。未据此宣称全章节或所有存读档流程完成验收。
+
 ## 4. 已纳入索引、但暂无专属身份标准的角色
 
 规则：以下角色如果收到出图请求，先读通用规则文档，再读本表指定的分镜 / 演出文档；若后续为该角色建立专属身份标准，必须立刻回填到本索引。
@@ -140,7 +169,6 @@
 | 角色 | 触发词 / 变量名 | 当前优先参考 | 当前状态 |
 | --- | --- | --- | --- |
 | 茅小冬 | 茅小冬、k | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |
-| 吴懿 | 吴懿、wy | `script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` | 已纳入索引，待建立专属身份标准 |
 | 董水井 | 董水井、donsujing | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |
 | 高煊 | 高煊、c1 | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |
 | 许弱 | 许弱、xuluo | `角色立绘设计原则.md`、`《剑来》VN演出与构图总手册.md` | 已纳入索引，待补场次级参考与专属身份标准 |

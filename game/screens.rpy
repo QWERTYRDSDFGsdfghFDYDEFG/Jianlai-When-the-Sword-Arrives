@@ -636,7 +636,7 @@ screen main_menu():
     ## 此语句可确保替换掉任何其他菜单屏幕。
     tag menu
 
-    ## 按存档选择序章夜湖、湖畔相聚和书院送别三个静态场景。
+    ## 第一章的已完成场景累计解锁，独立于继续游戏所读取的存档。
     use main_menu_dynamic_background
     use main_menu_navigation
 
@@ -656,14 +656,14 @@ screen main_menu():
         xpos 148
         ypos 318
 
-    if not StoryContinue().get_sensitive():
-        text _("尚未启程，暂无存档"):
+    if story_title_stage() > 0:
+        $ title_phase_caption = story_title_phase_label()
+        text _("已解锁：[title_phase_caption]"):
             style "main_menu_empty"
             xpos 148
             ypos 919
-    else:
-        $ title_phase_caption = story_title_phase_label()
-        text _("序章：[title_phase_caption]"):
+    elif not StoryContinue().get_sensitive():
+        text _("暂无可继续的存档"):
             style "main_menu_empty"
             xpos 148
             ypos 919

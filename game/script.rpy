@@ -234,6 +234,8 @@ label prologue_lakeside_gathering:
 
     pause 1.0
 
+    $ story_unlock_title("lakeside_gathering")
+
 label prologue_academy_farewell:
     scene bg c1_13_academy_gate_farewell_v1
     with trans_time
@@ -303,6 +305,7 @@ label prologue_academy_farewell:
     with trans_chapter_out
     pause 0.35
 
+    $ story_unlock_title("academy_farewell")
     jump chapter2_start
 
     return

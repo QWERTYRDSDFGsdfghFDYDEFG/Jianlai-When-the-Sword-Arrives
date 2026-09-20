@@ -29,4 +29,11 @@ image bg c1_13_academy_gate_farewell_v1 = im.Scale("images/chapter1/c1_13_academ
 image bg c1_14_autumn_road_sendoff_v2 = im.Scale("images/chapter1/c1_14_autumn_road_sendoff_v2.png", 1920, 1080)
 
 image bg c2_01_rest_v1 = im.Scale("images/chapter2/c2_01_rest_v1.png", 1920, 1080)
-image bg c2_02_cpa_pq_v1 = im.Scale("images/chapter2/c2_02_cpa_pq.png", 1920, 1080)
+# Chapter 2, scene 2: approved street/inn sequence and reusable clean background.
+image bg c2_02_inn_street_v1 = im.Scale("images/chapter2/c2_02_inn_street_v1.png", 1920, 1080)
+image bg c2_02_cpa_pq_v1 = im.Scale("images/chapter2/c2_02_cpa_pq_v1.png", 1920, 1080)
+image bg c2_02_observe_v1 = im.Scale("images/chapter2/c2_02_observe_v1.png", 1920, 1080)
+image bg c2_02_notice_v1 = im.Scale("images/chapter2/c2_02_notice_v1.png", 1920, 1080)
+image bg c2_02_invite_v1 = im.Scale("images/chapter2/c2_02_invite_v1.png", 1920, 1080)
+image bg c2_02_consider_v1 = im.Scale("images/chapter2/c2_02_consider_v1.png", 1920, 1080)
+image bg c2_02_accept_v1 = im.Scale("images/chapter2/c2_02_accept_v1.png", 1920, 1080)
