@@ -3,12 +3,12 @@
 ################################################################################
 
 init -1 python:
-    # Only the three approved prologue scenes are available. Unknown milestones
-    # use the latest unlocked artwork that is actually available.
+    # The approved memory theme unlocks after the full prologue. Earlier stages
+    # retain their existing placeholders until replacement artwork is approved.
     story_title_backgrounds = {
         0: gui.main_menu_background,
         1: "gui/title_progress/prologue_gathering.png",
-        2: "gui/title_progress/prologue_farewell.png",
+        2: "gui/title_progress/prologue_memory.png",
     }
 
     def story_title_background():

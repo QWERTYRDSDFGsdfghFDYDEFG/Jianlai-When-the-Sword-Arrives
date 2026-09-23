@@ -2510,36 +2510,51 @@
       "kind": "ui",
       "title": "序章标题：夜湖",
       "path": "gui/title_progress/prologue_night.png",
-      "status": "当前使用",
+      "status": "停用",
       "availability": "仅界面",
       "character_ids": [],
       "target": null,
       "alias": null,
-      "notes": "2026-09-20 第一章累计解锁标题。阶段 0：默认可用的书院夜湖纯场景；已有更高解锁时新游戏不重置标题。独立于剧情背景及继续存档，不代表全员通关标题。"
+      "notes": "2026-09-21 设计停用，保留阶段 0 运行占位及原路径文件：默认可用的书院夜湖纯场景。已有更高累计解锁时新游戏不重置标题。独立于剧情背景及继续存档，不代表全员通关标题。"
     },
     {
       "code": "界面16·02",
       "kind": "ui",
       "title": "序章标题：湖畔相聚",
       "path": "gui/title_progress/prologue_gathering.png",
-      "status": "当前使用",
+      "status": "停用",
       "availability": "仅界面",
       "character_ids": [],
       "target": null,
       "alias": null,
-      "notes": "2026-09-20 第一章累计解锁标题。阶段 1：湖畔相聚完整读完、进入书院送别前解锁；湖畔少量金线与暖光。读旧档、回退、新游戏或重启不撤销。独立于剧情背景及继续存档。"
+      "notes": "2026-09-21 设计停用，保留阶段 1 运行占位及原路径文件：湖畔相聚完整读完、进入书院送别前累计解锁；湖畔少量金线与暖光。读旧档、回退、新游戏或重启不撤销。独立于剧情背景及继续存档。"
     },
     {
       "code": "界面16·03",
       "kind": "ui",
       "title": "序章标题：书院送别",
       "path": "gui/title_progress/prologue_farewell.png",
-      "status": "当前使用",
+      "status": "停用",
       "availability": "仅界面",
       "character_ids": [],
       "target": null,
       "alias": null,
-      "notes": "2026-09-20 第一章累计解锁标题。阶段 2：书院送别完整读完、跳转第 2 章前解锁；秋日书院山门纯场景。读旧档、回退、新游戏或重启不撤销。后续章节没有新增主题，不代表全员通关标题。"
+      "notes": "2026-09-21 退役，不再用于主菜单；保留原路径文件及代号。原阶段 2 秋日书院山门纯场景，由【界面16·04】承接第一章送别完成后的菜单背景。"
+    },
+    {
+      "code": "界面16·04",
+      "kind": "ui",
+      "title": "序章标题：留住小宝瓶的记忆",
+      "path": "gui/title_progress/prologue_memory.png",
+      "status": "当前使用",
+      "availability": "仅界面",
+      "character_ids": [
+        "01",
+        "03"
+      ],
+      "target": null,
+      "alias": null,
+      "notes": "2026-09-22 用户确认的眼神优化定稿，静态正式图。独立主菜单主题背景，非剧情 CG：陈平安坐于右侧，小宝瓶主动拉手，眼神微侧向陈平安，远处无人。第一章送别完整结束后累计解锁；对应 academy_farewell 事件。具体显示由主菜单映射负责，独立于继续存档。"
     },
     {
       "code": "参考10·01",

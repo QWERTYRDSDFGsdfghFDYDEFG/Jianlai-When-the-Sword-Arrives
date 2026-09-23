@@ -596,9 +596,9 @@ style navigation_button_text:
     properties gui.text_properties("navigation_button")
 
 
-screen main_menu_navigation():
+screen main_menu_navigation(light_background=False):
     vbox:
-        style_prefix "main_menu_nav"
+        style_prefix ("main_menu_light_nav" if light_background else "main_menu_nav")
         xpos 132
         ypos 399
         spacing 4
@@ -637,29 +637,30 @@ screen main_menu():
     tag menu
 
     ## 第一章的已完成场景累计解锁，独立于继续游戏所读取的存档。
+    $ title_light_background = story_title_background() == "gui/title_progress/prologue_memory.png"
     use main_menu_dynamic_background
-    use main_menu_navigation
+    use main_menu_navigation(title_light_background)
 
     ## 文本始终独立于图片，所有阶段共用左侧留白。
     text _("剑来"):
-        style "main_menu_title_mark"
+        style ("main_menu_light_title_mark" if title_light_background else "main_menu_title_mark")
         xpos 140
         ypos 130
 
     frame:
-        style "main_menu_title_rule"
+        style ("main_menu_light_title_rule" if title_light_background else "main_menu_title_rule")
         xpos 144
         ypos 297
 
     text _("书简湖"):
-        style "main_menu_title_subtitle"
+        style ("main_menu_light_title_subtitle" if title_light_background else "main_menu_title_subtitle")
         xpos 148
         ypos 318
 
     if story_title_stage() > 0:
         $ title_phase_caption = story_title_phase_label()
         text _("已解锁：[title_phase_caption]"):
-            style "main_menu_empty"
+            style ("main_menu_light_empty" if title_light_background else "main_menu_empty")
             xpos 148
             ypos 919
     elif not StoryContinue().get_sensitive():
@@ -669,7 +670,7 @@ screen main_menu():
             ypos 919
 
     text _("版本 [config.version]"):
-        style "main_menu_version"
+        style ("main_menu_light_version" if title_light_background else "main_menu_version")
 
 style main_menu_frame is empty
 style main_menu_text is gui_text
@@ -746,6 +747,37 @@ style main_menu_nav_button_text:
     textalign 0.0
     kerning 5
     outlines [(1, "#152229aa", 0, 1)]
+
+
+## 定稿回廊图左侧为浅墙；深色文字仅应用于这张图，保留旧占位图配色。
+style main_menu_light_title_mark is main_menu_title_mark:
+    color "#3e382f"
+    outlines []
+
+style main_menu_light_title_subtitle is main_menu_title_subtitle:
+    color "#554d41"
+    outlines []
+
+style main_menu_light_title_rule is main_menu_title_rule:
+    background "#75664b99"
+
+style main_menu_light_empty is main_menu_empty:
+    color "#5c554a"
+    outlines []
+
+style main_menu_light_version is main_menu_version:
+    color "#ded6c6"
+    outlines [(1, "#28251fee", 0, 1)]
+
+style main_menu_light_nav_button is main_menu_nav_button:
+    hover_background Solid("#6b4c2e20")
+
+style main_menu_light_nav_button_text is main_menu_nav_button_text:
+    color "#453e34"
+    hover_color "#763d29"
+    selected_color "#453e34"
+    insensitive_color "#827b70"
+    outlines []
 
 
 ## 游戏菜单屏幕 ######################################################################
