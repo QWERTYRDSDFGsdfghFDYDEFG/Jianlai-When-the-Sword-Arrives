@@ -106,18 +106,36 @@ label chapter2_start:
     cpa "好吧，那我们就叨扰前辈一两天。"
 
     narrator "女子侧身引路，带着陈平安三人沿街往江边走去。"
+    scene bg c2_03_quay_v1
+    with trans_location
+
     narrator "临近码头，街面渐渐开阔，挑担的行人与搬货的脚夫往来其间。"
     narrator "街旁石阶通向水边，御江上船只往来，江风吹动几人的衣角。"
     narrator "女子在码头旁一段开阔的沿江街面上停下脚步。"
 
+    scene bg c2_03_throw_v1
+    with trans_short
+
     narrator "一枚核雕小舟，被女子丢出。"
+    scene bg c2_03_reveal_v1
+    with trans_illusion
+
     narrator "水雾弥漫间，蓦然变出一艘雕栏画栋的袖珍楼船，高三层。"
     narrator "乘坐四五十人不在话下。"
     narrator "好在抛掷这枚核雕法宝之际，女子已经默默挥袖，"
     narrator "将街上行人轻飘飘扯到了街道两旁。"
+    scene bg c2_03_papers_v1
+    with trans_short
+
     narrator "与此同时，她从袖中拈出一叠色彩不一的符纸，松手后，符纸飘落在地。"
+    scene bg c2_03_maids_v1
+    with trans_illusion
+
     narrator "出现了一个个亭亭玉立、姿容秀美的少女，顾盼生辉。"
     narrator "根本认不出她们片刻之前还是一叠符箓纸人。"
+    scene bg c2_03_board_v1
+    with trans_short
+
     narrator "她们手脚伶俐，迅速从楼船上搬出一条登船木板。"
 
     wy "请公子登船。"
@@ -127,7 +145,13 @@ label chapter2_start:
 
     cpa "看什么呢，走了。"
 
+    scene bg c2_03_fly_v1
+    with trans_passage
+
     narrator "在众目睽睽之下，楼船缓缓升空，御风远游，速度极快，转瞬十数里。"
+    scene bg c2_03_river_v1
+    with trans_passage
+
     narrator "站在这艘紫阳府老祖宗的仙家渡船上，脚底下就是那条蜿蜒近千里的御江。"
     narrator "陈平安站在栏杆旁，跟裴钱一起眺望地面上风景如画的山山水水。"
     narrator "陈平安没来由地想起了家乡。"
@@ -135,14 +159,27 @@ label chapter2_start:
     narrator "在这次返乡路上，陈平安还要去一趟那座悬挂秀水高风的嫁衣女鬼楚夫人的府邸。"
     narrator "当年憋在肚子里的一些话，得与她讲一讲。"
 
+    scene bg c2_05_arrival_v1
+    with trans_location
+
     wy "紫阳府到了，我们下船吧。"
+
+    scene bg c2_05_greeting_v1
+    with trans_short
 
     narrator "积香庙小神，拜见洞灵老祖，在此叩谢老祖的大恩大德！"
 
     wy "无事就退回你的积香庙。"
+
+    scene bg c2_05_after_v1
+    with trans_short
+
     wy "出门就是这点不好，很难有清净。"
 
     cpa "理解。"
+
+    scene bg c2_05_lead_v1
+    with trans_short
 
     wy "各位请随我来。"
 
@@ -150,14 +187,30 @@ label chapter2_start:
 
     peiqian "我懒得理你。"
 
+    # 06-01a：河岸双人交谈，承接第五场引路。
+    scene bg c2_06_talk_v1
+    with trans_short
+
     wy "陈公子，上次与你同行的众人当中，比如我父亲最喜欢的红棉袄小姑娘，他们怎么一个都不见了？"
 
     cpa "都在大隋那边求学。"
 
-    wy "可惜那个于禄，卢氏王国太子！"
-    wy "那一身浓郁龙气，简直就是世间最美味的食物。"
-    wy "要不是父亲出阻止，我不知道将来有没有机会饱餐一顿。"
-    wy "说不定吃完了，我就能破开那个该死的金丹境瓶颈。"
+    # 06-01b：吴懿闭口出神；这些念头只有玩家读到。
+    window auto hide
+    scene bg c2_06_thought_v1
+    with trans_short
+    $ set_dialogue_paralanguage("吴懿·心声")
+
+    wy_thought "可惜了，那个于禄……卢氏王国的太子。"
+    wy_thought "那一身浓郁龙气，简直就是世间最美味的食物。"
+    wy_thought "连父亲都还没下手，我又哪里敢妄动。只是不知，将来还有没有机会饱餐一顿。"
+    wy_thought "说不定吃完了，我就能破开那个该死的金丹境瓶颈。"
+
+    $ clear_dialogue_paralanguage()
+    window auto hide
+    scene bg c2_06_talk_v1
+    with trans_short
+
     wy "陈公子一行应该是第一次来紫阳府吧？"
 
     cpa "是的。"
@@ -165,6 +218,10 @@ label chapter2_start:
     wy "正好到紫阳府还有点距离，我向各位介绍介绍。"
 
     cpa "劳烦了。"
+
+    # 06-02起尚未补专用图，继续沿用既有引路画面。
+    scene bg c2_05_lead_v1
+    with trans_short
 
     wy "这紫阳府是黄庭国头等仙家之列。"
     wy "但它不像寻常仙家洞府建造在山巅，而是放在了一条视野开阔的秀美河水之畔。"

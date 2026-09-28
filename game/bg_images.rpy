@@ -31,11 +31,30 @@ image bg c1_13_academy_gate_farewell_v1 = im.Scale("images/chapter1/c1_13_academ
 image bg c1_14_autumn_road_sendoff_v2 = im.Scale("images/chapter1/c1_14_autumn_road_sendoff_v2.png", 1920, 1080)
 
 image bg c2_01_rest_v1 = im.Scale("images/chapter2/c2_01_rest_v1.png", 1920, 1080)
-# Chapter 2, scene 2: approved street/inn sequence and reusable clean background.
-image bg c2_02_inn_street_v1 = im.Scale("images/chapter2/c2_02_inn_street_v1.png", 1920, 1080)
+# Chapter 2, scene 2: shared inn street, stable runtime names.
 image bg c2_02_cpa_pq_v1 = im.Scale("images/chapter2/c2_02_cpa_pq_v1.png", 1920, 1080)
 image bg c2_02_observe_v1 = im.Scale("images/chapter2/c2_02_observe_v1.png", 1920, 1080)
 image bg c2_02_notice_v1 = im.Scale("images/chapter2/c2_02_notice_v1.png", 1920, 1080)
 image bg c2_02_invite_v1 = im.Scale("images/chapter2/c2_02_invite_v1.png", 1920, 1080)
 image bg c2_02_consider_v1 = im.Scale("images/chapter2/c2_02_consider_v1.png", 1920, 1080)
 image bg c2_02_accept_v1 = im.Scale("images/chapter2/c2_02_accept_v1.png", 1920, 1080)
+
+# Chapter 2, scene 3: quay, enchanted ship and flight.
+image bg c2_03_quay_v1 = im.Scale("images/chapter2/c2_03_quay_v1.png", 1920, 1080)
+image bg c2_03_throw_v1 = im.Scale("images/chapter2/c2_03_throw_v1.png", 1920, 1080)
+image bg c2_03_reveal_v1 = im.Scale("images/chapter2/c2_03_reveal_v1.png", 1920, 1080)
+image bg c2_03_papers_v1 = im.Scale("images/chapter2/c2_03_papers_v1.png", 1920, 1080)
+image bg c2_03_maids_v1 = im.Scale("images/chapter2/c2_03_maids_v1.png", 1920, 1080)
+image bg c2_03_board_v1 = im.Scale("images/chapter2/c2_03_board_v1.png", 1920, 1080)
+image bg c2_03_fly_v1 = im.Scale("images/chapter2/c2_03_fly_v1.png", 1920, 1080)
+image bg c2_03_river_v1 = im.Scale("images/chapter2/c2_03_river_v1.png", 1920, 1080)
+
+# Chapter 2, scene 5: arrival, greeting, conversation and departure.
+image bg c2_05_arrival_v1 = im.Scale("images/chapter2/c2_05_arrival_v1.png", 1920, 1080)
+image bg c2_05_greeting_v1 = im.Scale("images/chapter2/c2_05_greeting_v1.png", 1920, 1080)
+image bg c2_05_after_v1 = im.Scale("images/chapter2/c2_05_after_v1.png", 1920, 1080)
+image bg c2_05_lead_v1 = im.Scale("images/chapter2/c2_05_lead_v1.png", 1920, 1080)
+
+# Chapter 2, scene 6: public conversation and Wu Yi's silent thought.
+image bg c2_06_talk_v1 = im.Scale("images/chapter2/c2_06_talk_v1.png", 1920, 1080)
+image bg c2_06_thought_v1 = im.Scale("images/chapter2/c2_06_thought_v1.png", 1920, 1080)

@@ -562,6 +562,8 @@ screen navigation():
 
         textbutton _("读取游戏") action ShowMenu("load")
 
+        textbutton _("画像鉴赏") action ShowMenu("art_gallery")
+
         textbutton _("设置") action ShowMenu("preferences")
 
         if _in_replay:
@@ -612,6 +614,9 @@ screen main_menu_navigation(light_background=False):
         textbutton _("读档"):
             id "story_load"
             action ShowMenu("load")
+        textbutton _("画像鉴赏"):
+            id "story_art_gallery"
+            action ShowMenu("art_gallery")
         textbutton _("设置"):
             id "story_preferences"
             action ShowMenu("preferences")
@@ -726,7 +731,7 @@ style main_menu_empty:
 
 style main_menu_nav_button:
     xsize 330
-    ysize 62
+    ysize 56
     background None
     hover_background Solid("#d6ccad14")
     selected_background None

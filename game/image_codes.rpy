@@ -26,7 +26,20 @@ image bg cg02_02_03 = "bg c2_02_notice_v1"
 image bg cg02_02_04 = "bg c2_02_invite_v1"
 image bg cg02_02_05 = "bg c2_02_consider_v1"
 image bg cg02_02_06 = "bg c2_02_accept_v1"
-image bg bg01_01 = "bg c2_02_inn_street_v1"
+image bg cg02_03_01 = "bg c2_03_quay_v1"
+image bg cg02_03_02 = "bg c2_03_throw_v1"
+image bg cg02_03_03 = "bg c2_03_reveal_v1"
+image bg cg02_03_04 = "bg c2_03_papers_v1"
+image bg cg02_03_05 = "bg c2_03_maids_v1"
+image bg cg02_03_06 = "bg c2_03_board_v1"
+image bg cg02_03_07 = "bg c2_03_fly_v1"
+image bg cg02_03_08 = "bg c2_03_river_v1"
+image bg cg02_05_01 = "bg c2_05_arrival_v1"
+image bg cg02_05_02 = "bg c2_05_greeting_v1"
+image bg cg02_05_03 = "bg c2_05_after_v1"
+image bg cg02_05_04 = "bg c2_05_lead_v1"
+image bg cg02_06_01 = "bg c2_06_talk_v1"
+image bg cg02_06_02 = "bg c2_06_thought_v1"
 image cds o01_p01_e00 = "cds standard"
 
 define IMAGE_CODE_NAMES = {
@@ -55,15 +68,29 @@ define IMAGE_CODE_NAMES = {
     "CG02·02·04": "bg cg02_02_04",
     "CG02·02·05": "bg cg02_02_05",
     "CG02·02·06": "bg cg02_02_06",
-    "背景01·01": "bg bg01_01",
+    "CG02·03·01": "bg cg02_03_01",
+    "CG02·03·02": "bg cg02_03_02",
+    "CG02·03·03": "bg cg02_03_03",
+    "CG02·03·04": "bg cg02_03_04",
+    "CG02·03·05": "bg cg02_03_05",
+    "CG02·03·06": "bg cg02_03_06",
+    "CG02·03·07": "bg cg02_03_07",
+    "CG02·03·08": "bg cg02_03_08",
+    "CG02·05·01": "bg cg02_05_01",
+    "CG02·05·02": "bg cg02_05_02",
+    "CG02·05·03": "bg cg02_05_03",
+    "CG02·05·04": "bg cg02_05_04",
+    "CG02·06·01": "bg cg02_06_01",
+    "CG02·06·02": "bg cg02_06_02",
     "立绘04·01·01·00": "cds o01_p01_e00"
 }
 
 define _IMAGE_CODE_UNAVAILABLE = {
+    "背景01·01": "已删除：黄庭国郡城客栈门前街景",
     "CG01·90·01": "仅参考：陈平安挥剑未归档散图甲",
     "CG01·91·01": "仅参考：陈平安月夜近景未归档散图",
     "CG01·92·01": "仅参考：陈平安挥剑未归档散图乙",
-    "CG02·90·01": "仅参考：双人楼台远眺未归档散图",
+    "CG02·90·01": "已删除：双人楼台远眺未归档散图",
     "参考01·01": "仅参考：陈平安脸部身份标准页",
     "参考01·02": "仅参考：陈平安暖天行路服母版",
     "参考01·03": "仅参考：陈平安多视角身份参考页",

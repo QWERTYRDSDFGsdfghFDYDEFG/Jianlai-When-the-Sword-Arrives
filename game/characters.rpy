@@ -86,3 +86,6 @@ define narrator = Character(None, callback=set_dialogue_theme("narration"))
 # 预留给后续脚本使用：切换角色对象即可进入心声文本框样式。
 define cpa_thought = Character(None, callback=set_dialogue_theme("protagonist_thought"), what_style="say_thought")
 define inner_voice = Character(None, callback=set_dialogue_theme("thought"), what_style="say_thought")
+
+# 心声归属同时保留在回看记录中；画面姓名由心声标签呈现。
+define wy_thought = Character("吴懿·心声", callback=set_dialogue_theme("thought"), what_style="say_thought")
