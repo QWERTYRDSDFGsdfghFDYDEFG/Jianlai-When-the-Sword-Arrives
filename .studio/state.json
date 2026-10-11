@@ -1,0 +1,16 @@
+{
+  "activeChapterId": "ch-1791355240395-1",
+  "activeFragmentId": "frag-1791355240395-2",
+  "openFragmentIds": [
+    "990ff39d-0971-489e-b2ca-ec96afc48baf",
+    "frag-1791355240395-2"
+  ],
+  "cursorBlockIndex": 0,
+  "cursorBlockIndexByFragment": {
+    "990ff39d-0971-489e-b2ca-ec96afc48baf": 0,
+    "frag-1791355240395-2": 0
+  },
+  "expandedChapterIds": [],
+  "expandedChapterFolderIds": [],
+  "storyTreeViewMode": "basic"
+}

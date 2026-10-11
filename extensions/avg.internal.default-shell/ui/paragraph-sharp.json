@@ -1,0 +1,124 @@
+{
+  "version": 2,
+  "name": "段落 · 冷光档案",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "background-mask",
+      "refId": "background-mask",
+      "type": "background-mask",
+      "name": "背景遮罩",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "anchor": "c",
+      "style": {
+        "fill": "#041224",
+        "opacity": 58
+      }
+    },
+    {
+      "id": "paragraph",
+      "refId": "paragraph",
+      "type": "paragraph",
+      "name": "整屏段落",
+      "rect": {
+        "x": 320,
+        "y": 72,
+        "w": 1280,
+        "h": 936
+      },
+      "anchor": "t",
+      "style": {
+        "fontFamily": "'PingFang SC', 'Microsoft YaHei', Arial, sans-serif",
+        "fontSize": 29,
+        "fontWeight": 500,
+        "color": "#eaf7ff",
+        "fill": "rgba(4, 12, 24, 0.90)",
+        "borderColor": "rgba(91, 207, 255, 0.18)",
+        "borderWidth": 1,
+        "radius": 4,
+        "backdropBlur": 8,
+        "letterSpacing": 0.6,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "gap": 24,
+        "lineHeight": 1.68,
+        "inactiveColor": "#9fb9c8",
+        "readBehavior": {
+          "mode": "dim",
+          "followMode": "overflow"
+        },
+        "readStyle": {
+          "color": "#9fb9c8",
+          "opacity": 58,
+          "filter": {
+            "grayscale": 18,
+            "brightness": 84
+          },
+          "transform": {
+            "x": -4,
+            "scale": 100
+          },
+          "transition": {
+            "preset": "settle",
+            "durationMs": 200,
+            "delayMs": 0,
+            "easing": "ease-out"
+          }
+        },
+        "textPadding": {
+          "top": 52,
+          "right": 68,
+          "bottom": 52,
+          "left": 68
+        },
+        "backgroundImage": "",
+        "backgroundImageFit": "cover",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": true,
+          "angle": 180,
+          "startColor": "rgba(7, 26, 45, 0.95)",
+          "endColor": "rgba(2, 8, 18, 0.94)"
+        },
+        "frameDecoration": {
+          "borderTop": "1px solid rgba(91, 207, 255, 0.18)",
+          "borderRight": "1px solid rgba(91, 207, 255, 0.18)",
+          "borderBottom": "1px solid rgba(91, 207, 255, 0.18)",
+          "borderLeft": "3px solid rgba(91, 207, 255, 0.85)",
+          "borderRadius": "4px",
+          "boxShadow": "0 0 30px rgba(67, 181, 255, 0.16), inset 0 0 40px rgba(0, 97, 156, 0.08)"
+        },
+        "textShadows": [
+          {
+            "offsetX": 0,
+            "offsetY": 1,
+            "blur": 2,
+            "color": "rgba(0, 0, 0, 0.85)"
+          },
+          {
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 8,
+            "color": "rgba(81, 194, 255, 0.22)"
+          }
+        ],
+        "previewParagraphs": [
+          "记录编号 07：城区照明在凌晨三点十七分同时熄灭。",
+          "唯一仍在运转的终端，反复显示着同一句尚未解密的留言。",
+          "我按下确认键，冷光里终于浮出了一个名字。"
+        ]
+      }
+    }
+  ]
+}

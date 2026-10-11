@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "name": "标准消息框",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "message-box-mask",
+      "type": "rect",
+      "name": "遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "rgba(3, 8, 13, 0.66)",
+        "radius": 0,
+        "backdropBlur": 16,
+        "opacity": 100,
+        "customCss": "background-image: radial-gradient(ellipse 70% 70% at 50% 42%, rgba(46,90,96,0.18), transparent 68%);"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 300, "delayMs": 0 },
+        "exit": { "preset": "fade", "durationMs": 220, "delayMs": 60 }
+      }
+    },
+    {
+      "id": "message-box-standard",
+      "refId": "message-box",
+      "type": "message-box",
+      "name": "消息框_提示",
+      "rect": { "x": 560, "y": 340, "w": 800, "h": 400 },
+      "anchor": "c",
+      "style": {
+        "fontSize": 24,
+        "color": "#f4f8f7",
+        "fill": "rgba(9, 18, 27, 0.96)",
+        "borderColor": "#7fd4c8",
+        "borderWidth": 1,
+        "radius": 18,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 380, "delayMs": 70 },
+        "exit": { "preset": "sink", "durationMs": 220, "delayMs": 0 }
+      },
+      "props": {
+        "mode": "alert",
+        "title": "提示",
+        "message": "这里显示需要告诉玩家的消息。",
+        "confirmText": "知道了",
+        "cancelText": "取消",
+        "tone": "info",
+        "dismissible": true
+      }
+    }
+  ]
+}

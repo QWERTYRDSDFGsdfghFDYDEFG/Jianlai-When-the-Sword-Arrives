@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "name": "段落 · 暮色手账",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "background-mask",
+      "refId": "background-mask",
+      "type": "background-mask",
+      "name": "背景遮罩",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "anchor": "c",
+      "style": {
+        "fill": "#241618",
+        "opacity": 42
+      }
+    },
+    {
+      "id": "paragraph",
+      "refId": "paragraph",
+      "type": "paragraph",
+      "name": "整屏段落",
+      "rect": {
+        "x": 336,
+        "y": 72,
+        "w": 1248,
+        "h": 936
+      },
+      "anchor": "t",
+      "style": {
+        "fontFamily": "'Kaiti SC', STKaiti, KaiTi, 'Songti SC', serif",
+        "fontSize": 30,
+        "fontWeight": 400,
+        "color": "#fff8ef",
+        "fill": "rgba(68, 43, 39, 0.88)",
+        "borderColor": "rgba(255, 225, 205, 0.22)",
+        "borderWidth": 1,
+        "radius": 32,
+        "backdropBlur": 12,
+        "letterSpacing": 1.2,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "gap": 30,
+        "lineHeight": 1.82,
+        "inactiveColor": "#dcc6b9",
+        "readBehavior": {
+          "mode": "dim",
+          "followMode": "overflow"
+        },
+        "readStyle": {
+          "color": "#dcc6b9",
+          "opacity": 74,
+          "filter": {
+            "blur": 0.3,
+            "grayscale": 4,
+            "brightness": 96
+          },
+          "transform": {
+            "y": -2,
+            "scale": 99
+          },
+          "transition": {
+            "preset": "settle",
+            "durationMs": 260,
+            "delayMs": 0,
+            "easing": "soft"
+          }
+        },
+        "textPadding": {
+          "top": 64,
+          "right": 72,
+          "bottom": 64,
+          "left": 72
+        },
+        "backgroundImage": "",
+        "backgroundImageFit": "cover",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": true,
+          "angle": 150,
+          "startColor": "rgba(92, 57, 50, 0.92)",
+          "endColor": "rgba(49, 33, 39, 0.90)"
+        },
+        "frameDecoration": {
+          "borderTop": "",
+          "borderRight": "",
+          "borderBottom": "",
+          "borderLeft": "",
+          "borderRadius": "",
+          "boxShadow": "0 24px 64px rgba(42, 20, 18, 0.32), inset 0 1px 0 rgba(255, 249, 241, 0.12)"
+        },
+        "textShadows": [
+          {
+            "offsetX": 0,
+            "offsetY": 2,
+            "blur": 7,
+            "color": "rgba(45, 24, 20, 0.55)"
+          }
+        ],
+        "previewParagraphs": [
+          "傍晚的风把窗帘吹得鼓起来，也把厨房里的甜香送到了书桌边。",
+          "她在便签背面画了一朵歪歪扭扭的花，然后认真地写下明天见。",
+          "门铃响起时，那张便签还被晚风轻轻压在杯沿下。"
+        ]
+      }
+    }
+  ]
+}

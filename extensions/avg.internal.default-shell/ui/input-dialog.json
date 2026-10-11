@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "name": "变量输入对话框",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "input-dialog-mask",
+      "type": "rect",
+      "name": "遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "rgba(3, 8, 13, 0.66)",
+        "radius": 0,
+        "backdropBlur": 16,
+        "opacity": 100,
+        "customCss": "background-image: radial-gradient(ellipse 70% 70% at 50% 42%, rgba(46,90,96,0.18), transparent 68%);"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 300, "delayMs": 0 },
+        "exit": { "preset": "fade", "durationMs": 220, "delayMs": 60 }
+      }
+    },
+    {
+      "id": "input-dialog-standard",
+      "refId": "input-dialog",
+      "type": "input-dialog",
+      "name": "输入对话框_玩家姓名",
+      "rect": { "x": 530, "y": 300, "w": 860, "h": 480 },
+      "anchor": "c",
+      "style": {
+        "fontSize": 24,
+        "color": "#f4f8f7",
+        "fill": "rgba(9, 18, 27, 0.96)",
+        "borderColor": "#7fd4c8",
+        "borderWidth": 1,
+        "radius": 18,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 380, "delayMs": 70 },
+        "exit": { "preset": "shrink", "durationMs": 220, "delayMs": 0 }
+      },
+      "props": {
+        "variable": "playerName",
+        "valueType": "string",
+        "title": "请告诉我你的名字",
+        "description": "这个名字会在接下来的故事中使用。",
+        "label": "玩家姓名",
+        "showLabel": true,
+        "placeholder": "输入名字",
+        "defaultValue": "",
+        "confirmText": "确认",
+        "requiredText": "请输入名字后再继续",
+        "required": true,
+        "minLength": 0,
+        "maxLength": 20,
+        "step": 1,
+        "dismissible": false
+      }
+    }
+  ]
+}

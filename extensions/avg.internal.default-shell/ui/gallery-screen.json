@@ -1,0 +1,283 @@
+{
+  "version": 2,
+  "name": "鉴赏界面",
+  "canvas": { "width": 1920, "height": 1080 },
+  "transition": {
+    "enter": { "preset": "fade", "durationMs": 320, "delayMs": 0 },
+    "exit": { "preset": "fade", "durationMs": 240, "delayMs": 0 }
+  },
+  "elements": [
+    {
+      "id": "mask",
+      "type": "rect",
+      "name": "遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "rgba(7, 10, 8, 0.94)",
+        "radius": 0,
+        "backdropBlur": 28,
+        "opacity": 100,
+        "customCss": "background-image: radial-gradient(ellipse 70% 65% at 72% -5%, rgba(171,111,36,0.19), transparent 60%), radial-gradient(ellipse 55% 50% at 0% 100%, rgba(70,88,58,0.2), transparent 68%), repeating-linear-gradient(0deg, rgba(226,221,191,0.018) 0 1px, transparent 1px 5px), linear-gradient(135deg, rgba(21,28,21,0.98), rgba(5,8,6,0.98));"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 420, "delayMs": 0 },
+        "exit": { "preset": "fade", "durationMs": 220, "delayMs": 80 }
+      }
+    },
+    {
+      "id": "grid-overlay",
+      "type": "rect",
+      "name": "装饰_坐标网格",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "transparent",
+        "radius": 0,
+        "opacity": 100,
+        "customCss": "background-image: linear-gradient(rgba(227,166,75,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(227,166,75,0.025) 1px, transparent 1px); background-size: 64px 64px; mask-image: linear-gradient(to bottom, black, transparent 78%);"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 520, "delayMs": 40 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 40 }
+      }
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "name": "文字_档案编号",
+      "rect": { "x": 104, "y": 72, "w": 680, "h": 24 },
+      "anchor": "tl",
+      "style": {
+        "fontSize": 13,
+        "color": "#e3a64b",
+        "letterSpacing": 5,
+        "fontWeight": 700,
+        "fontFamily": "\"JetBrains Mono\", \"SF Mono\", \"Menlo\", monospace",
+        "opacity": 100,
+        "customCss": "text-transform: uppercase; text-shadow: 0 0 14px rgba(227,166,75,0.25);"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 360, "delayMs": 70 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 40 }
+      },
+      "props": { "text": "ARCHIVE 03 / RECOVERED MATERIALS" }
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "name": "文字_鉴赏档案库",
+      "rect": { "x": 100, "y": 102, "w": 820, "h": 72 },
+      "anchor": "tl",
+      "style": {
+        "fontSize": 50,
+        "color": "#e7e7da",
+        "letterSpacing": 2,
+        "fontWeight": 760,
+        "fontFamily": "\"M PLUS Rounded 1c\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "opacity": 100,
+        "customCss": "text-shadow: 0 4px 26px rgba(0,0,0,0.6);"
+      },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 440, "delayMs": 105 },
+        "exit": { "preset": "sink", "durationMs": 200, "delayMs": 20 }
+      },
+      "props": { "text": "鉴赏档案库" }
+    },
+    {
+      "id": "status",
+      "type": "text",
+      "name": "文字_终端状态",
+      "rect": { "x": 1270, "y": 86, "w": 470, "h": 56 },
+      "anchor": "tr",
+      "style": {
+        "fontSize": 11,
+        "color": "rgba(215,218,202,0.52)",
+        "letterSpacing": 3,
+        "textAlign": "right",
+        "fontFamily": "\"JetBrains Mono\", \"SF Mono\", monospace",
+        "opacity": 100,
+        "customCss": "line-height: 1.8;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 380, "delayMs": 170 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 0 }
+      },
+      "props": { "text": "TERMINAL ONLINE  ●\nCLEARANCE / SURVIVOR" }
+    },
+    {
+      "id": "close-btn",
+      "type": "button",
+      "name": "按钮_关闭当前界面",
+      "rect": { "x": 1760, "y": 84, "w": 52, "h": 52 },
+      "anchor": "tr",
+      "style": {
+        "fontSize": 21,
+        "color": "#e3a64b",
+        "fill": "rgba(227,166,75,0.055)",
+        "borderColor": "rgba(227,166,75,0.32)",
+        "borderWidth": 1,
+        "radius": 4,
+        "opacity": 100,
+        "customCss": "box-shadow: inset 0 0 0 3px rgba(7,10,8,0.8), 0 8px 24px rgba(0,0,0,0.4); transition: background .16s, border-color .16s, transform .16s; &:hover { background: rgba(227,166,75,0.14); border-color: rgba(227,166,75,0.75); transform: rotate(90deg); }"
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 190 },
+        "exit": { "preset": "shrink", "durationMs": 160, "delayMs": 0 }
+      },
+      "props": { "text": "×" },
+      "events": { "onClick": { "type": "ui.close" } }
+    },
+    {
+      "id": "gallery-tabs",
+      "type": "tabs",
+      "name": "页签_CG音乐片段",
+      "rect": { "x": 100, "y": 190, "w": 1040, "h": 64 },
+      "anchor": "t",
+      "style": {
+        "fontSize": 17,
+        "color": "#f0eadb",
+        "borderColor": "#e3a64b",
+        "letterSpacing": 3,
+        "radius": 0,
+        "opacity": 100,
+        "customCss": "& [data-visual-ui-tabs-bar] { border-bottom-color: rgba(227,166,75,0.18) !important; }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 180 },
+        "exit": { "preset": "fade", "durationMs": 180, "delayMs": 20 }
+      },
+      "props": {
+        "tabs": ["影像档案", "音频信号", "剧情记录"],
+        "activeIndex": 0,
+        "inactiveColor": "rgba(240,234,219,0.55)",
+        "gap": 6
+      }
+    },
+    {
+      "id": "tab-hint",
+      "type": "text",
+      "name": "文字_页签提示",
+      "rect": { "x": 1260, "y": 211, "w": 550, "h": 28 },
+      "anchor": "tr",
+      "style": {
+        "fontSize": 10,
+        "color": "rgba(209,213,197,0.4)",
+        "letterSpacing": 3,
+        "textAlign": "right",
+        "fontFamily": "\"JetBrains Mono\", monospace",
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 240 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 0 }
+      },
+      "props": { "text": "SELECT ARCHIVE TYPE / 点击页签切换鉴赏模式" }
+    },
+    {
+      "id": "cg-gallery",
+      "type": "cg-gallery",
+      "name": "智能组件_CG鉴赏",
+      "rect": { "x": 100, "y": 286, "w": 1712, "h": 680 },
+      "anchor": "c",
+      "style": { "radius": 6, "opacity": 100 },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 520, "delayMs": 240 },
+        "exit": { "preset": "sink", "durationMs": 240, "delayMs": 0 }
+      },
+      "props": {
+        "sharedSource": "ext:avg.internal.default-shell.unlockedShared",
+        "slotSource": "ext:avg.internal.default-shell.unlockedSlot",
+        "cols": 4,
+        "rows": 2,
+        "gap": 20,
+        "emptyText": "尚未回收任何影像档案",
+        "accentColor": "#e3a64b"
+      },
+      "tab": { "of": "gallery-tabs", "index": 0 }
+    },
+    {
+      "id": "music-gallery",
+      "type": "music-gallery",
+      "name": "智能组件_音乐鉴赏",
+      "rect": { "x": 100, "y": 286, "w": 1712, "h": 680 },
+      "anchor": "c",
+      "style": { "radius": 6, "opacity": 100 },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 520, "delayMs": 240 },
+        "exit": { "preset": "sink", "durationMs": 240, "delayMs": 0 }
+      },
+      "props": {
+        "sharedSource": "ext:avg.internal.default-shell.unlockedMusicShared",
+        "slotSource": "ext:avg.internal.default-shell.unlockedMusicSlot",
+        "emptyText": "尚未截获任何音频信号",
+        "accentColor": "#e3a64b",
+        "showArtist": true,
+        "showDescription": true
+      },
+      "tab": { "of": "gallery-tabs", "index": 1 }
+    },
+    {
+      "id": "fragment-gallery",
+      "type": "fragment-gallery",
+      "name": "智能组件_片段鉴赏",
+      "rect": { "x": 100, "y": 286, "w": 1712, "h": 680 },
+      "anchor": "c",
+      "style": { "radius": 6, "opacity": 100 },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 520, "delayMs": 240 },
+        "exit": { "preset": "sink", "durationMs": 240, "delayMs": 0 }
+      },
+      "props": {
+        "sharedSource": "ext:avg.internal.default-shell.unlockedFragmentsShared",
+        "slotSource": "ext:avg.internal.default-shell.unlockedFragmentsSlot",
+        "cols": 3,
+        "rows": 2,
+        "gap": 20,
+        "emptyText": "尚未解密任何剧情记录",
+        "accentColor": "#e3a64b",
+        "showDescription": true
+      },
+      "tab": { "of": "gallery-tabs", "index": 2 }
+    },
+    {
+      "id": "footer-left",
+      "type": "text",
+      "name": "文字_底部操作提示",
+      "rect": { "x": 102, "y": 1006, "w": 680, "h": 22 },
+      "anchor": "bl",
+      "style": {
+        "fontSize": 10,
+        "color": "rgba(211,215,200,0.38)",
+        "letterSpacing": 2,
+        "fontFamily": "\"JetBrains Mono\", monospace",
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 360 },
+        "exit": { "preset": "fade", "durationMs": 120, "delayMs": 0 }
+      },
+      "props": { "text": "ESC / MIDDLE CLICK  返回上一级" }
+    },
+    {
+      "id": "footer-right",
+      "type": "text",
+      "name": "文字_档案权限",
+      "rect": { "x": 1230, "y": 1006, "w": 580, "h": 22 },
+      "anchor": "br",
+      "style": {
+        "fontSize": 10,
+        "color": "rgba(227,166,75,0.46)",
+        "letterSpacing": 3,
+        "textAlign": "right",
+        "fontFamily": "\"JetBrains Mono\", monospace",
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 390 },
+        "exit": { "preset": "fade", "durationMs": 120, "delayMs": 0 }
+      },
+      "props": { "text": "PROPERTY OF SHELTER NETWORK / LEVEL 03" }
+    }
+  ]
+}

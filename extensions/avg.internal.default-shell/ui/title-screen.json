@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "name": "标题画面",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "vignette",
+      "type": "rect",
+      "name": "矩形_暗角遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "transparent",
+        "radius": 0,
+        "opacity": 100,
+        "customCss": "background: radial-gradient(ellipse 70% 80% at 0% 50%, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 55%), radial-gradient(ellipse 80% 60% at 100% 100%, rgba(0,0,0,0.50) 0%, rgba(0,0,0,0) 60%), linear-gradient(180deg, rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 78%, rgba(0,0,0,0.22) 100%); pointer-events: none;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 600, "delayMs": 0 },
+        "exit": { "preset": "fade", "durationMs": 260, "delayMs": 160 }
+      }
+    },
+    {
+      "id": "top-line",
+      "type": "line",
+      "name": "线条_顶部细线",
+      "rect": { "x": 48, "y": 40, "w": 1824, "h": 12 },
+      "anchor": "t",
+      "style": { "color": "rgba(255,255,255,0.14)", "opacity": 60 },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 500, "delayMs": 60 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 100 }
+      },
+      "props": { "thickness": 1, "lineStyle": "solid" }
+    },
+    {
+      "id": "version-tag",
+      "type": "text",
+      "name": "文字_版本号",
+      "rect": { "x": 1536, "y": 56, "w": 320, "h": 24 },
+      "anchor": "tr",
+      "style": {
+        "fontSize": 10,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 6,
+        "textAlign": "right",
+        "opacity": 100,
+        "customCss": "text-transform: uppercase; font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 140 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 100 }
+      },
+      "props": { "text": "AVG · ENGINE" }
+    },
+    {
+      "id": "studio-tag",
+      "type": "text",
+      "name": "文字_工作室标签",
+      "rect": { "x": 80, "y": 984, "w": 400, "h": 24 },
+      "anchor": "bl",
+      "style": {
+        "fontSize": 10,
+        "color": "#d4a574",
+        "letterSpacing": 7,
+        "opacity": 100,
+        "customCss": "text-transform: uppercase; font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 360, "delayMs": 220 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 80 }
+      },
+      "props": { "text": "— LetsGal Studio" }
+    },
+    {
+      "id": "copyright",
+      "type": "text",
+      "name": "文字_版权",
+      "rect": { "x": 1536, "y": 984, "w": 320, "h": 24 },
+      "anchor": "br",
+      "style": {
+        "fontSize": 10,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 4,
+        "textAlign": "right",
+        "opacity": 70,
+        "customCss": "text-transform: uppercase; font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 360, "delayMs": 260 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 80 }
+      },
+      "props": { "text": "© 2026" }
+    },
+
+    {
+      "id": "menu-num-1",
+      "type": "text",
+      "name": "文字_编号01",
+      "rect": { "x": 96, "y": 424, "w": 32, "h": 32 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 14,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 3,
+        "fontWeight": 600,
+        "opacity": 100,
+        "customCss": "font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 260, "delayMs": 180 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 80 }
+      },
+      "props": { "text": "01" }
+    },
+    {
+      "id": "menu-start",
+      "type": "button",
+      "name": "按钮_开始游戏",
+      "rect": { "x": 144, "y": 400, "w": 520, "h": 80 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 56,
+        "color": "#f5f5f7",
+        "fill": "transparent",
+        "borderWidth": 0,
+        "fontWeight": 600,
+        "letterSpacing": 1,
+        "textAlign": "left",
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif; justify-content: flex-start; text-shadow: 0 2px 24px rgba(0,0,0,0.8); transition: color .18s cubic-bezier(0.22,1,0.36,1), transform .18s cubic-bezier(0.22,1,0.36,1); &:hover { color: #d4a574; transform: translateX(10px); }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 200 },
+        "exit": { "preset": "slide-left", "durationMs": 200, "delayMs": 80 }
+      },
+      "props": { "text": "开始游戏" },
+      "events": { "onClick": { "type": "system.newGame" } }
+    },
+
+    {
+      "id": "menu-num-2",
+      "type": "text",
+      "name": "文字_编号02",
+      "rect": { "x": 96, "y": 520, "w": 32, "h": 32 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 14,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 3,
+        "fontWeight": 600,
+        "opacity": 100,
+        "customCss": "font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 260, "delayMs": 250 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 60 }
+      },
+      "props": { "text": "02" }
+    },
+    {
+      "id": "menu-load",
+      "type": "button",
+      "name": "按钮_读取存档",
+      "rect": { "x": 144, "y": 496, "w": 520, "h": 80 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 56,
+        "color": "#f5f5f7",
+        "fill": "transparent",
+        "borderWidth": 0,
+        "fontWeight": 600,
+        "letterSpacing": 1,
+        "textAlign": "left",
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif; justify-content: flex-start; text-shadow: 0 2px 24px rgba(0,0,0,0.8); transition: color .18s cubic-bezier(0.22,1,0.36,1), transform .18s cubic-bezier(0.22,1,0.36,1); &:hover { color: #d4a574; transform: translateX(10px); }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 270 },
+        "exit": { "preset": "slide-left", "durationMs": 200, "delayMs": 60 }
+      },
+      "props": { "text": "读取存档" },
+      "events": { "onClick": { "type": "system.openSlot", "slot": "load" } }
+    },
+
+    {
+      "id": "menu-num-3",
+      "type": "text",
+      "name": "文字_编号03",
+      "rect": { "x": 96, "y": 616, "w": 32, "h": 32 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 14,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 3,
+        "fontWeight": 600,
+        "opacity": 100,
+        "customCss": "font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 260, "delayMs": 320 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 40 }
+      },
+      "props": { "text": "03" }
+    },
+    {
+      "id": "menu-gallery",
+      "type": "button",
+      "name": "按钮_鉴赏",
+      "rect": { "x": 144, "y": 592, "w": 520, "h": 80 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 56,
+        "color": "#f5f5f7",
+        "fill": "transparent",
+        "borderWidth": 0,
+        "fontWeight": 600,
+        "letterSpacing": 1,
+        "textAlign": "left",
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif; justify-content: flex-start; text-shadow: 0 2px 24px rgba(0,0,0,0.8); transition: color .18s cubic-bezier(0.22,1,0.36,1), transform .18s cubic-bezier(0.22,1,0.36,1); &:hover { color: #d4a574; transform: translateX(10px); }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 340 },
+        "exit": { "preset": "slide-left", "durationMs": 200, "delayMs": 40 }
+      },
+      "props": { "text": "鉴赏" },
+      "events": { "onClick": { "type": "system.openSlot", "slot": "gallery" } }
+    },
+
+    {
+      "id": "menu-num-4",
+      "type": "text",
+      "name": "文字_编号04",
+      "rect": { "x": 96, "y": 712, "w": 32, "h": 32 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 14,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 3,
+        "fontWeight": 600,
+        "opacity": 100,
+        "customCss": "font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 260, "delayMs": 390 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 20 }
+      },
+      "props": { "text": "04" }
+    },
+    {
+      "id": "menu-settings",
+      "type": "button",
+      "name": "按钮_设置",
+      "rect": { "x": 144, "y": 688, "w": 520, "h": 80 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 56,
+        "color": "#f5f5f7",
+        "fill": "transparent",
+        "borderWidth": 0,
+        "fontWeight": 600,
+        "letterSpacing": 1,
+        "textAlign": "left",
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif; justify-content: flex-start; text-shadow: 0 2px 24px rgba(0,0,0,0.8); transition: color .18s cubic-bezier(0.22,1,0.36,1), transform .18s cubic-bezier(0.22,1,0.36,1); &:hover { color: #d4a574; transform: translateX(10px); }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 410 },
+        "exit": { "preset": "slide-left", "durationMs": 200, "delayMs": 20 }
+      },
+      "props": { "text": "设置" },
+      "events": { "onClick": { "type": "system.openSlot", "slot": "settings" } }
+    },
+
+    {
+      "id": "menu-num-5",
+      "type": "text",
+      "name": "文字_编号05",
+      "rect": { "x": 96, "y": 808, "w": 32, "h": 32 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 14,
+        "color": "rgba(245,245,247,0.38)",
+        "letterSpacing": 3,
+        "fontWeight": 600,
+        "opacity": 100,
+        "customCss": "font-family: \"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace;"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 260, "delayMs": 460 },
+        "exit": { "preset": "fade", "durationMs": 140, "delayMs": 0 }
+      },
+      "props": { "text": "05" }
+    },
+    {
+      "id": "menu-exit",
+      "type": "button",
+      "name": "按钮_退出",
+      "rect": { "x": 144, "y": 784, "w": 520, "h": 80 },
+      "anchor": "l",
+      "style": {
+        "fontSize": 56,
+        "color": "#f5f5f7",
+        "fill": "transparent",
+        "borderWidth": 0,
+        "fontWeight": 600,
+        "letterSpacing": 1,
+        "textAlign": "left",
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif; justify-content: flex-start; text-shadow: 0 2px 24px rgba(0,0,0,0.8); transition: color .18s cubic-bezier(0.22,1,0.36,1), transform .18s cubic-bezier(0.22,1,0.36,1); &:hover { color: #d4a574; transform: translateX(10px); }"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 480 },
+        "exit": { "preset": "slide-left", "durationMs": 200, "delayMs": 0 }
+      },
+      "props": { "text": "退出" },
+      "events": { "onClick": { "type": "system.exit" } }
+    }
+  ]
+}

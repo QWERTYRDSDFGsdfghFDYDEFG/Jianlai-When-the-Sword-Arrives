@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "name": "加载界面",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "loading-background",
+      "type": "rect",
+      "name": "加载背景",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "anchor": "tl",
+      "style": {
+        "fill": "rgba(7, 16, 24, 0.96)",
+        "opacity": 100
+      },
+      "props": {},
+      "animation": {
+        "enter": {
+          "preset": "fade",
+          "durationMs": 320,
+          "delayMs": 0
+        },
+        "exit": {
+          "preset": "fade",
+          "durationMs": 200,
+          "delayMs": 20
+        }
+      }
+    },
+    {
+      "id": "loading-title",
+      "type": "text",
+      "name": "加载提示",
+      "rect": {
+        "x": 600,
+        "y": 476,
+        "w": 720,
+        "h": 64
+      },
+      "anchor": "c",
+      "style": {
+        "fontSize": 28,
+        "fontWeight": 500,
+        "color": "#e8f1f0",
+        "textAlign": "center",
+        "opacity": 100
+      },
+      "props": {
+        "text": "正在加载资源…"
+      },
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 320,
+          "delayMs": 40,
+          "distancePx": 8
+        },
+        "exit": {
+          "preset": "fade",
+          "durationMs": 160,
+          "delayMs": 0
+        }
+      }
+    },
+    {
+      "id": "loading-progress",
+      "type": "loading-progress",
+      "name": "加载进度",
+      "rect": {
+        "x": 800,
+        "y": 540,
+        "w": 320,
+        "h": 48
+      },
+      "anchor": "c",
+      "style": {
+        "color": "#e8f1f0",
+        "fontSize": 20,
+        "radius": 2
+      },
+      "props": {
+        "showPercentage": true,
+        "trackHeight": 4,
+        "trackColor": "rgba(127,212,200,0.2)",
+        "fillColor": "#7fd4c8",
+        "previewPercentage": 50
+      },
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 320,
+          "delayMs": 70,
+          "distancePx": 8
+        },
+        "exit": {
+          "preset": "fade",
+          "durationMs": 160,
+          "delayMs": 0
+        }
+      }
+    }
+  ]
+}

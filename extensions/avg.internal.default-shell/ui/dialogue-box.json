@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "name": "对话框",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "dialogue-backdrop",
+      "refId": "dialogue-backdrop",
+      "type": "dialogue-backdrop",
+      "name": "舞台遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": { "fill": "#000000", "opacity": 0 },
+      "props": {}
+    },
+    {
+      "id": "dialogue-frame",
+      "refId": "dialogue-frame",
+      "type": "dialogue-frame",
+      "name": "框体背景",
+      "rect": { "x": 0, "y": 880, "w": 1920, "h": 200 },
+      "anchor": "tl",
+      "style": {
+        "fill": "transparent",
+        "borderColor": "transparent",
+        "borderWidth": 0,
+        "radius": 0,
+        "opacity": 100
+      },
+      "props": {
+        "runtimeOverride": true,
+        "backgroundImage": "",
+        "backgroundImageFit": "stretch",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": true,
+          "angle": 0,
+          "startColor": "rgba(0,0,0,0.75)",
+          "endColor": "rgba(0,0,0,0.3)"
+        },
+        "frameDecoration": {
+          "borderTop": "1px solid rgba(255,255,255,0.12)",
+          "borderRight": "",
+          "borderBottom": "",
+          "borderLeft": "",
+          "borderRadius": "",
+          "boxShadow": ""
+        }
+      }
+    },
+    {
+      "id": "dialogue-text",
+      "refId": "dialogue-text",
+      "type": "dialogue-text",
+      "name": "对白文本",
+      "rect": { "x": 200, "y": 900, "w": 1520, "h": 180 },
+      "anchor": "tl",
+      "style": {
+        "fontFamily": "'Source Han Sans', 'PingFang SC', sans-serif",
+        "fontSize": 30,
+        "fontWeight": 500,
+        "color": "#f3ede2",
+        "letterSpacing": 1.2,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "lineHeight": 1.75,
+        "textShadows": [
+          {
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 1.5,
+            "color": "rgba(0,0,0,0.95)"
+          },
+          {
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 3,
+            "color": "rgba(0,0,0,0.7)"
+          },
+          {
+            "offsetX": 1,
+            "offsetY": 2,
+            "blur": 4,
+            "color": "rgba(0,0,0,0.6)"
+          }
+        ],
+        "previewText": "有些故事，会从一个看似普通的夜晚开始。\n而我们，刚好站在它的入口。"
+      }
+    },
+    {
+      "id": "dialogue-name",
+      "refId": "dialogue-name",
+      "type": "dialogue-name",
+      "name": "角色名",
+      "rect": { "x": 200, "y": 840, "w": 384, "h": 40 },
+      "anchor": "tl",
+      "style": {
+        "fontFamily": "'Source Han Sans', 'PingFang SC', sans-serif",
+        "fontSize": 34,
+        "fontWeight": 600,
+        "color": "#ffd88a",
+        "fill": "transparent",
+        "borderColor": "transparent",
+        "borderWidth": 0,
+        "radius": 0,
+        "letterSpacing": 1.36,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "backgroundImage": "",
+        "backgroundImageFit": "stretch",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": false,
+          "angle": 180,
+          "startColor": "transparent",
+          "endColor": "transparent"
+        },
+        "frameDecoration": {
+          "borderTop": "",
+          "borderRight": "",
+          "borderBottom": "",
+          "borderLeft": "",
+          "borderRadius": "",
+          "boxShadow": ""
+        },
+        "lineHeight": 1.5,
+        "textShadows": [
+          {
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 1.5,
+            "color": "rgba(0,0,0,0.95)"
+          },
+          {
+            "offsetX": 0,
+            "offsetY": 0,
+            "blur": 3,
+            "color": "rgba(0,0,0,0.7)"
+          },
+          {
+            "offsetX": 1,
+            "offsetY": 2,
+            "blur": 4,
+            "color": "rgba(0,0,0,0.6)"
+          }
+        ],
+        "previewName": "小满"
+      }
+    },
+    {
+      "id": "dialogue-wait-cursor",
+      "refId": "dialogue-wait-cursor",
+      "type": "dialogue-wait-cursor",
+      "name": "等待提示",
+      "rect": { "x": 1546.4, "y": 965.6, "w": 28, "h": 28 },
+      "anchor": "tl",
+      "style": { "color": "#ffffff", "opacity": 100 },
+      "props": {
+        "fixedDefaultRect": { "x": 1546.4, "y": 965.6, "w": 28, "h": 28 },
+        "source": "legacy",
+        "imageAsset": "",
+        "shape": "diamond",
+        "accentColor": "#ff3d00",
+        "animation": "rotate",
+        "durationMs": 1000
+      }
+    }
+  ],
+  "dialogueBehavior": {
+    "text_speed": 30
+  }
+}

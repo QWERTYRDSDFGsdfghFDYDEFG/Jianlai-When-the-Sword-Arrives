@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "avg.internal.default-shell",
+  "version": "1.0.0",
+  "origin": "legacy",
+  "sourceId": "fs-v1:d8c3eeb5b4f84da9e83b8b3363fb2dbdf1e6d2739fe3aba7c0554b3f8850ea3a",
+  "syncedAt": "2026-10-07T06:35:30.224Z",
+  "sourceFingerprint": "stat-v1:198d8ea0d91c6f29146cbe250075f563e84f70e8b5e527156d9a539a67ec779a"
+}

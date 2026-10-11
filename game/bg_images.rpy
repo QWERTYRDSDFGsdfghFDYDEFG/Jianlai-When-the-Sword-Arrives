@@ -58,3 +58,11 @@ image bg c2_05_lead_v1 = im.Scale("images/chapter2/c2_05_lead_v1.png", 1920, 108
 # Chapter 2, scene 6: public conversation and Wu Yi's silent thought.
 image bg c2_06_talk_v1 = im.Scale("images/chapter2/c2_06_talk_v1.png", 1920, 1080)
 image bg c2_06_thought_v1 = im.Scale("images/chapter2/c2_06_thought_v1.png", 1920, 1080)
+
+# Chapter 2, scene 7: gate welcome and riverside guest-house stay.
+image bg c2_07_gate_v1 = im.Scale("images/chapter2/c2_07_gate_v1.png", 1920, 1080)
+image bg c2_07_arrival_v1 = im.Scale("images/chapter2/c2_07_arrival_v1.png", 1920, 1080)
+image bg c2_07_house_rules_v1 = im.Scale("images/chapter2/c2_07_house_rules_v1.png", 1920, 1080)
+image bg c2_07_pq_furnishings_v1 = im.Scale("images/chapter2/c2_07_pq_furnishings_v1.png", 1920, 1080)
+image bg c2_07_cpa_set_box_v1 = im.Scale("images/chapter2/c2_07_cpa_set_box_v1.png", 1920, 1080)
+image bg c2_07_window_talk_v1 = im.Scale("images/chapter2/c2_07_window_talk_v1.png", 1920, 1080)

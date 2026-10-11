@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-11",
+  "request": "补齐临河高楼入住、吴懿说明楼层规矩与邀宴、裴钱看陈设、陈平安放箱临窗、朱敛短谈",
+  "status": "当前使用",
+  "user_final_approval": true,
+  "runtime_integrated": true,
+  "tool": "内置 image_gen.imagegen",
+  "target_size": [
+    1920,
+    1080
+  ],
+  "native_output_size": [
+    1672,
+    941
+  ],
+  "preservation": "五张用户定稿原图逐字节导入game/images/chapter2；运行按既有im.Scale显示为1920×1080；源图与旧尝试保留，未重绘或重采样。",
+  "source_script": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy",
+    "lines": [
+      241,
+      263
+    ],
+    "old_chapter2_to5_storyboards": "索引提到的两份旧分镜/演出表已删除，以当前脚本为依据。"
+  },
+  "architecture": {
+    "house": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_color/guest_house_color.png",
+    "room": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_color/guest_room_color.png",
+    "gate": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_gate_v1.png",
+    "box": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_bookbox_ref.jpg",
+    "gourd": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_gourd_ref.png",
+    "zlface": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png"
+  },
+  "character_masters": {
+    "pq": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+    "cpa": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+    "cpaface": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+    "wy": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+    "zl": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+  },
+  "extra_identity_reference": {
+    "zl_face": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+    "pq_height_primary": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_05_lead_v1.png",
+    "pq_height_secondary": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_02_invite_v1.png",
+    "same_scene_continuity": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_gate_v1.png"
+  },
+  "reference_limit": "工具单次最多5张参考；各次实际输入逐条记录于shots.refs。没有把未传入的图片写成实际输入。多角色首次输入建筑和四人的lh母版，后续通过场景基图保持身份，按镜头追加近景和道具母版。",
+  "room_design_assumption": "沿用上轮已上色的临河客房，居住具体楼层是美术设计假定，正文只明确客楼共六层、下四层可走动、上两层止步。",
+  "sequence_checks": [
+    "第1张：四人沿客楼入口走，陈平安背箱；推进入口机位，完整六层全貌仍由此前空景承担。",
+    "第2张：吴懿与三位客人在室内，手势指向楼梯，兼作规矩说明与邀宴承载画面；陈平安仍背箱。裴钱初稿偏高，已参照第五场定稿整体校正。",
+    "第3张：吴懿已离场，裴钱背手看陈设后回头问师父，陈平安背箱回应；纠正首稿陈设柜换位，回到原室内结构。",
+    "第4张：唯一竹箱放稳地面，陈平安卸下肩带，朱敛在旁，裴钱留在陈设区。",
+    "第5张：陈平安与朱敛在窗旁站立短谈，竹箱保持落地，裴钱仍在陈设区；未提前演出第三章饮酒、睡觉、雨夜内容。"
+  ],
+  "file_validation": [
+    {
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_arrival.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3257563,
+      "sha256": "df7af741e25767ca702d2cfd674819066e41c2f7014263ec38f9efa8fb2ccaa2"
+    },
+    {
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_house_rules.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2386541,
+      "sha256": "6d09bb376604588e6560856ffb34077467744ba116ee4fcc9d47671bee24d6d8"
+    },
+    {
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_pq_furnishings.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2388229,
+      "sha256": "90299a4ba8b280d11a7adeab77364f40005526987c1c5811e7df22697e67224b"
+    },
+    {
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_cpa_set_box.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2361667,
+      "sha256": "9fb6fcc7304b4b760a4d69760bd0c85b090b26883f0b7f931524b68dbff01d38"
+    },
+    {
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_window_talk.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2317225,
+      "sha256": "2e1386e70f0e2d43ce5401ae5b43f3d2e528c7d13da3d1e3d755e8ee1eb71a51"
+    }
+  ],
+  "shots": [
+    {
+      "id": "arrival",
+      "title": "临河高楼入住",
+      "prompt": "EDIT image 1, the existing color architecture. Keep the complete exact six-storey rectangular waterside guesthouse on the left and river on the right, grey-tiled main roof, ivory plaster/wood structure, lower gallery, riverbank path and mountains. Images 2 CPA, 3 Pei Qian, 4 WY, 5 ZL are identity/costume masters; preserve the four travellers' established identities and adult/child proportions from these masters. Add exactly these FOUR characters visibly arriving at the guesthouse, no servants or extra people. Continue the prior scene naturally: 3/4 rear-side view of the group in the nearer courtyard, moving diagonally toward the actual gallery entrance at lower-left of the tower. WY leads a few steps nearer that doorway; CPA follows a little to her right still wearing the single bamboo bookbox, PQ follows left of CPA with visible gap from his silhouette, ZL slightly behind PQ. Do not make everyone face the river or a wall: their feet, pelvis and shoulders follow the walkway into the doorway. Open the ground-floor entrance doors if needed to reveal the walkable shaded opening, keep the rest of architecture unchanged. Show all four from head to feet with individual silhouettes and ground shadows; natural walking weight shifts. They must be readable mid-foreground characters, not tiny miniature dots, preserving realistic scale against the doors and handrail. Correct perspective for their different foot positions; preserve PQ's established same-plane relative stature, body/limb/head proportions; no numeric new height standard. All faces may be partial turned-away for this establishing moment. Keep tower six storeys and entire main roof readable; do not turn building into pagoda. Warm restrained daylight. This is one frame of a restrained Chinese visual novel, not character redesign. Target 1920x1080 landscape, single complete full-color illustration, no panels, captions, labels, watermarks or UI. Preserve the supplied architectural design and 2D fine charcoal linework, gently cel-shaded low-saturation matte colors and natural light. Song-inspired lived-in waterside estate, quiet human atmosphere, not an imperial palace, not photorealism, not glossy 3D or idol-fantasy art. The supplied character masters determine exact identities, ages, proportions, hairstyle and clothing. Pei Qian is the same lean small young apprentice as peiqian_master_v02: young un-grown face, natural straight brows and restrained almond eyes, two high practical loosely-coiled hair buns with plain ties and stray bangs; worn black-indigo layered rough cloth, full gathered rolled/bound long sleeves with grey-brown underlayers and forearm wraps, layered irregular long worn hem panels, dark waistband wrapped repeatedly in coarse rope, soft gathered cloth pouch at her own left hip, baggy cropped trousers, visible narrow bare calf gap above shin wraps, old cloth shoes. Do not shrink her to a toddler, mature her into a teen heroine, shorten the sleeve volume, simplify the layering, remove her, hide her behind an adult or substitute another child. CPA is the same slim 20-22-year-old with narrow youthful adult face, black topknot and loose bangs, grey-blue short-sleeved long outer travelling robe over off-white long-sleeved inner shirt, dark pants, wraps and straw sandals. One small vermilion gold-scroll gourd tied closely to the waist, no waist pouch. His only travel box is the green woven open rectangular bamboo bookbox with four raised corner posts, rope-bound frame, side straw hat and spare sandals, never a lidded chest or empty open rack. ZL is the same lean old servant with narrow long face, grey-black small tied topknot, short close moustache/chin beard, subtly hunched steady posture, brown-grey wrapped mid-length tunic, dark inner collar/sash, loose dark trousers and cloth shoes. Preserve his facial bones from the reference; translate only the rendering into the surrounding mild 2D shading. WY is the tall adult woman from the three-view master (one woman only), same elongated oval face, narrow brows/eyes, tiny round red forehead mark, elaborate restrained teal/gold crown with central red jewel, black long hair and bun, delicate earrings/choker, teal outer robe with pale sage lapels, dark red gold-patterned inner layers, narrow dark belt, full long skirt, flat dark shoes. Keep her adult dignity and exact costume, never a plain blue generic woman.",
+      "refs": [
+        "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_color/guest_house_color.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-0b557392-acf8-400e-abb2-679187e2a5d4.png",
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_arrival.png",
+      "status": "当前使用",
+      "sequence": 1,
+      "project_asset": {
+        "code": "CG02·07·02",
+        "path": "images/chapter2/c2_07_arrival_v1.png",
+        "definition": "bg c2_07_arrival_v1",
+        "call": "scene bg c2_07_arrival_v1",
+        "alias": "bg cg02_07_02",
+        "sha256": "df7af741e25767ca702d2cfd674819066e41c2f7014263ec38f9efa8fb2ccaa2",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "id": "house_rules",
+      "title": "吴懿说明楼层规矩与邀宴",
+      "prompt": "Make a strictly LOCAL scale correction in image 1, the interior four-person conversation. Change ONLY Pei Qian, the child between the young man and old man. Keep every other person, exact faces, hands, costumes, positions, bookbox, room, camera, framing, lighting and colors identical. Image 2 is her exact unique face/body/costume master. Image 3 (approved outdoor scene) is ONLY to compare her established relative body size to the standing CPA; disregard its scenery and poses. In image 1 PQ is too tall: her twin buns currently approach CPA's shoulder/neck while their foot depths are similar. Recreate her entire figure slightly smaller in a coherent way, approximately 12-14 percent less total projected height than her current figure while keeping her shoes near the same floor contact row and retaining the same stance and gaze toward WY. This is only an image-local correction, not a new numerical canonical height. Adjust head, shoulders, trunk, arms and legs together, do not squash, only shorten legs or change natural child head/body proportions. Match the original small un-grown apprentice volume in image 3. Keep her recognizable exact face from image 2, high practical coiled double buns with loose bangs, worn black layered rough cloth with voluminous rolled/tied sleeves, grey-brown forearm wraps, several coarse rope loops around waistband, soft gathered cloth pouch on her own left hip, long irregular worn hem layers, loose cropped pants, narrow visible calf gaps, shin wraps and old cloth shoes. Preserve both hands held together in front of her own waist, same attentive three-quarter face tilted up, neither younger baby nor teenage heroine. Her new bun height should fall visibly below adult shoulder level when corrected for their floor positions. Fill vacated area with matching existing room; correct grounding/shadow. Exactly four original people, no missing child, no duplicates. Do not change WY's hand gesture, CPA, ZL, the box or the river window. High fidelity 2D linework with gentle flat shadows, 1920x1080 landscape target, no text.",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-dfea1ee0-ba28-45fc-95b7-66cbca6397da.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_05_lead_v1.png"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-6b764613-6f21-4be4-aeb0-64b26a3a696e.png",
+      "earlier_attempts": [
+        {
+          "id": "house_rules",
+          "title": "吴懿说明楼层规矩与邀宴",
+          "prompt": "EDIT image 1, the previously colored guest-room architecture. Images 2 CPA, 3 Pei Qian, 4 WY, 5 ZL are the exact character masters; each appears ONCE, four people total. Create the continuous scene immediately after arrival: host Wu Yi explains that the lower four floors are free to visit, upper two floors are off limits, then politely invites the travellers to the evening banquet. Depict this by restrained natural hosting conversation, no written words and no banquet food. Keep the SAME recognizable room layout, camera direction and daylight: stair bay at far LEFT, porcelain cabinet and console back-left, bedroom opening center-back, three window bays RIGHT with central river-facing window open, two chairs and small table by window, wooden floor. Do not move, enlarge or redesign the furniture or add a throne. The staircase must remain visibly a stair, not bedroom or shelves.\n\nThe four are naturally gathered in the open floor in the nearer-middle ground, not lined up posing at camera. WY stands left of center, 3/4 face toward the group on right; weight on one leg, one hand open-palmed angled gently back toward the visible staircase to introduce the rules, the other relaxed at her waist; raised hand anatomically connected to sleeve, calm adult narrow eyes and closed/very slightly speaking lips. CPA stands center-right in 3/4 turned toward her, nodding listening, one hand holding a shoulder strap, the green bamboo box STILL on his back. His face and clothing remain the reference, no new costume. Pei Qian stands fully visible in the gap slightly right of CPA, at very nearly the SAME floor depth as him, attentive head angled up toward WY; hands calmly held together near her own waist, NOT touching furniture. Show her full entire body, natural child head/body ratio and worn layered outfit; do not make her a tiny toddler or hide her. ZL stands on the farther right at a small lateral gap, slightly behind CPA, subtly hunched with hands behind his back, looking at WY with a small knowing restrained smile. Stage all feet on the same coherent floor plane, believable scale to chairs and door. Separate all four silhouettes with enough air; face heights kept clearly in the upper 2/3 of frame. People sufficiently large to see facial identities, naturally part of room, not pasted sprites; accurately draw contact shadows. Keep visible stretch of river through right window. No duplicate persons, no servants. This is one frame of a restrained Chinese visual novel, not character redesign. Target 1920x1080 landscape, single complete full-color illustration, no panels, captions, labels, watermarks or UI. Preserve the supplied architectural design and 2D fine charcoal linework, gently cel-shaded low-saturation matte colors and natural light. Song-inspired lived-in waterside estate, quiet human atmosphere, not an imperial palace, not photorealism, not glossy 3D or idol-fantasy art. The supplied character masters determine exact identities, ages, proportions, hairstyle and clothing. Pei Qian is the same lean small young apprentice as peiqian_master_v02: young un-grown face, natural straight brows and restrained almond eyes, two high practical loosely-coiled hair buns with plain ties and stray bangs; worn black-indigo layered rough cloth, full gathered rolled/bound long sleeves with grey-brown underlayers and forearm wraps, layered irregular long worn hem panels, dark waistband wrapped repeatedly in coarse rope, soft gathered cloth pouch at her own left hip, baggy cropped trousers, visible narrow bare calf gap above shin wraps, old cloth shoes. Do not shrink her to a toddler, mature her into a teen heroine, shorten the sleeve volume, simplify the layering, remove her, hide her behind an adult or substitute another child. CPA is the same slim 20-22-year-old with narrow youthful adult face, black topknot and loose bangs, grey-blue short-sleeved long outer travelling robe over off-white long-sleeved inner shirt, dark pants, wraps and straw sandals. One small vermilion gold-scroll gourd tied closely to the waist, no waist pouch. His only travel box is the green woven open rectangular bamboo bookbox with four raised corner posts, rope-bound frame, side straw hat and spare sandals, never a lidded chest or empty open rack. ZL is the same lean old servant with narrow long face, grey-black small tied topknot, short close moustache/chin beard, subtly hunched steady posture, brown-grey wrapped mid-length tunic, dark inner collar/sash, loose dark trousers and cloth shoes. Preserve his facial bones from the reference; translate only the rendering into the surrounding mild 2D shading. WY is the tall adult woman from the three-view master (one woman only), same elongated oval face, narrow brows/eyes, tiny round red forehead mark, elaborate restrained teal/gold crown with central red jewel, black long hair and bun, delicate earrings/choker, teal outer robe with pale sage lapels, dark red gold-patterned inner layers, narrow dark belt, full long skirt, flat dark shoes. Keep her adult dignity and exact costume, never a plain blue generic woman.",
+          "refs": [
+            "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_color/guest_room_color.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+          ],
+          "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-dfea1ee0-ba28-45fc-95b7-66cbca6397da.png",
+          "status": "待修正",
+          "reason": "裴钱与同地面成人相比体量偏高，已局部修正"
+        }
+      ],
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_house_rules.png",
+      "status": "当前使用",
+      "sequence": 2,
+      "project_asset": {
+        "code": "CG02·07·03",
+        "path": "images/chapter2/c2_07_house_rules_v1.png",
+        "definition": "bg c2_07_house_rules_v1",
+        "call": "scene bg c2_07_house_rules_v1",
+        "alias": "bg cg02_07_03",
+        "sha256": "6d09bb376604588e6560856ffb34077467744ba116ee4fcc9d47671bee24d6d8",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "id": "pq_furnishings",
+      "title": "裴钱看陈设",
+      "earlier_attempts": [
+        {
+          "id": "pq_furnishings",
+          "title": "裴钱看陈设",
+          "prompt": "Create an edited story frame based on image 1, the existing four-person guest-room scene. This is the NEXT beat: remove Wu Yi after her departure and repose the other three within the same room. Keep their identity, visual style and relative body size from this corrected frame; PQ must stay at this small child stature, not become taller relative to CPA when moving to the cabinet. Image 2 is Pei Qian's unique face/body/costume identity master. Image 3 is CPA's clothing and travel equipment master, image 4 his exact face master, image 5 ZL's body/costume/face master. Exactly THREE people in this frame: PQ, CPA, ZL. Wu Yi has LEFT and must be absent. No substitute woman or servant.\n\nThis beat is \"Pei Qian admires the furnishings, asks her master for permission to look; he says look, don't touch.\" Medium-wide intimate view, move the camera a little closer toward the LEFT display cabinet area of the SAME room without rearranging its architecture or furniture. Preserve cabinet and console at back-left, stair opening to their left, bedroom doorway behind to their right, and river-window region further RIGHT. Preserve the same celadon pots, scrolls, console with a large vase/branches and bronze incense vessel; no magical glow or excessive treasures.\n\nPQ is the primary action, in the left-of-center foreground beside the display console, near enough to inspect pottery but not crowding it; her body oriented toward the celadon/bronze display, and her face turned in a natural readable three-quarter view back over her right shoulder toward CPA. Entire body head-to-shoes visible. She leans forward only a little from the hips, weight on the front foot, rear foot relaxed, both hands deliberately clasped BEHIND HER OWN BACK, clearly away from all vases and tabletop. Her eyes bright and focused rather than oversized, one brow slightly lifted, mouth slightly open with a small earnest question, chin relaxed, lively but restrained; exactly the same short lower face/child features of image 2, not cute toddler or teenage beauty. Preserve all old cloth shapes from image 2, voluminous rolled/bound outer sleeves, wrapped forearms, repeated rope waistband and pouch on her own left hip, long ragged layered panels, loose knee-cropped pants/bare calf gaps/shin wraps. Do not redesign.\n\nCPA stands one pace to her RIGHT, with their soles at similar perspective depth so their established adult/child stature is clear, quietly looking down toward her, torso at three-quarter angle toward her. The SINGLE green woven open bamboo bookbox is STILL securely on his back, shoulder straps visible, gourd still at waist. Calm gently serious eyes, eyebrows lightly settled, mouth barely speaking, one hand lifts only slightly with relaxed open fingers to accompany \"look, don't touch\", other hand resting on a strap. No scolding pointed finger, no smile-for-camera. ZL stays behind them near the bedroom side, natural smaller perspective at that deeper position, subtly stooped with hands behind his back and a slight restrained smile, watching without joining the central action. Make three bodies separate and anatomically natural, consistent floor grounding. Keep faces readable in upper 2/3, preserve daylight and clear open floor below. This is one frame of a restrained Chinese visual novel, not character redesign. Target 1920x1080 landscape, single complete full-color illustration, no panels, captions, labels, watermarks or UI. Preserve the supplied architectural design and 2D fine charcoal linework, gently cel-shaded low-saturation matte colors and natural light. Song-inspired lived-in waterside estate, quiet human atmosphere, not an imperial palace, not photorealism, not glossy 3D or idol-fantasy art. The supplied character masters determine exact identities, ages, proportions, hairstyle and clothing. Pei Qian is the same lean small young apprentice as peiqian_master_v02: young un-grown face, natural straight brows and restrained almond eyes, two high practical loosely-coiled hair buns with plain ties and stray bangs; worn black-indigo layered rough cloth, full gathered rolled/bound long sleeves with grey-brown underlayers and forearm wraps, layered irregular long worn hem panels, dark waistband wrapped repeatedly in coarse rope, soft gathered cloth pouch at her own left hip, baggy cropped trousers, visible narrow bare calf gap above shin wraps, old cloth shoes. Do not shrink her to a toddler, mature her into a teen heroine, shorten the sleeve volume, simplify the layering, remove her, hide her behind an adult or substitute another child. CPA is the same slim 20-22-year-old with narrow youthful adult face, black topknot and loose bangs, grey-blue short-sleeved long outer travelling robe over off-white long-sleeved inner shirt, dark pants, wraps and straw sandals. One small vermilion gold-scroll gourd tied closely to the waist, no waist pouch. His only travel box is the green woven open rectangular bamboo bookbox with four raised corner posts, rope-bound frame, side straw hat and spare sandals, never a lidded chest or empty open rack. ZL is the same lean old servant with narrow long face, grey-black small tied topknot, short close moustache/chin beard, subtly hunched steady posture, brown-grey wrapped mid-length tunic, dark inner collar/sash, loose dark trousers and cloth shoes. Preserve his facial bones from the reference; translate only the rendering into the surrounding mild 2D shading. WY is the tall adult woman from the three-view master (one woman only), same elongated oval face, narrow brows/eyes, tiny round red forehead mark, elaborate restrained teal/gold crown with central red jewel, black long hair and bun, delicate earrings/choker, teal outer robe with pale sage lapels, dark red gold-patterned inner layers, narrow dark belt, full long skirt, flat dark shoes. Keep her adult dignity and exact costume, never a plain blue generic woman.",
+          "refs": [
+            "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-6b764613-6f21-4be4-aeb0-64b26a3a696e.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+          ],
+          "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-0ac0b921-5f51-40ca-b860-75194d0eb43b.png",
+          "status": "待修正",
+          "reason": "机位变化把陈设柜移到了楼梯另一侧并新增画轴，需恢复固定房间布局"
+        }
+      ],
+      "refs": [
+        "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_color/guest_room_color.png",
+        "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-0ac0b921-5f51-40ca-b860-75194d0eb43b.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+      ],
+      "prompt": "EDIT image 1 as the strict architectural base. Keep its exact original camera and ALL furniture positions unchanged. Image 2 supplies ONLY the three characters' appearance/actions from the next story beat; its room layout is WRONG and must NOT be reused. Image 3 uniquely locks Pei Qian face/clothes, image 4 CPA face, image 5 ZL. Single landscape full-color scene, 1920x1080 target.\n\nIn the ORIGINAL room of image 1 add these three characters watching the original furnishings. Do not transplant the new left-wall furniture, hanging picture or added ornaments from image 2. This point is essential: the sole tall narrow display shelf must stay immediately RIGHT of the staircase's thick right-hand post, on the BACK wall, followed to its RIGHT by the little console with large branch vase and bronze vessel, then the bedroom door. Keep original wide stair bay on far left, same bed doorway center, same river windows and window table/chairs on right, same small low chair left foreground. No new artwork, no new cabinets, no furniture reordering, no camera push or zoom.\n\nStage PQ in front of the original display shelf/console, LEFT of frame center. She stands a little closer to camera than cabinet, 3/4 body toward the displayed ceramics and face turned to her right to ask CPA, both hands clasped clearly behind her own back, touches no objects. Full body visible with shoes planted around the middle-near floor area. Preserve her tiny compared to adults but NOT toddler stature, narrow child's body and head proportions from master 3. Preserve dark worn cloth voluminous gathered/tied sleeves, wrapped forearms, coarse rope waistband, left hip gathered pouch, long overlapping ragged panels, cropped baggy pants and bare calf gaps before shin wraps; no costume redesign. Bright attentive almond eyes, slightly raised brow and slightly speaking mouth, not grinning or big anime eyes.\n\nCPA stands to her right about one pace away in center, same perspective floor depth, much taller, quietly inclines head toward her with a small low open hand reminder while other hand holds his shoulder strap. His green woven open rectangular bamboo travel box REMAINS ON BACK, same one from image 2 and no floor box yet. Same grey blue short outer sleeves/offwhite long under sleeves/dark pants/wraps/straw sandals, one small red gold-scroll gourd and NO pouch. Maintain master 4 adult 20-22 face. ZL stands farther right on the open floor near window, slightly deeper in room, subtly hunched with hands behind back observing them, SAME slim grey-brown old servant from 5, mildly 2D stylized but exact long aged facial bones. All three clearly readable, natural grounded poses; full bodies, no cut feet, do not make people so big that the cabinet must move. Their adult standing heights must suit this real room and door heights in perspective. Four-person original scene is now over: NO Wu Yi, NO other female, NO servants. Retain base daylight, color palette and fine hand-drawn linework, no text or UI.",
+      "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-cff9fa7f-293d-49be-8334-3a0c86818668.png",
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_pq_furnishings.png",
+      "status": "当前使用",
+      "sequence": 3,
+      "project_asset": {
+        "code": "CG02·07·04",
+        "path": "images/chapter2/c2_07_pq_furnishings_v1.png",
+        "definition": "bg c2_07_pq_furnishings_v1",
+        "call": "scene bg c2_07_pq_furnishings_v1",
+        "alias": "bg cg02_07_04",
+        "sha256": "90299a4ba8b280d11a7adeab77364f40005526987c1c5811e7df22697e67224b",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "id": "cpa_set_box",
+      "title": "陈平安放箱临窗",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-cff9fa7f-293d-49be-8334-3a0c86818668.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_bookbox_ref.jpg",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png"
+      ],
+      "prompt": "EDIT image 1, the existing same-room three-character story illustration, to the immediately following single moment: CPA carefully sets his travel box down next to the river window and will then approach the window. Image 2 uniquely locks his unchanged outfit, image 3 his exact face, image 4 ONLY the bamboo bookbox construction, image 5 PQ's exact identity. Disregard the child, UI, red clothes, photography and 3D rendering inside image 4; copy only green woven box/hat/spare sandals details into the established 2D style.\n\nKEEP THE ROOM ARCHITECTURE, CAMERA DIRECTION, furniture, open right river window, mountains, original left stair bay, back-wall narrow shelf/console, middle bedroom doorway and daylight unchanged. No rearranging cabinets or moving table/chairs. Exactly 3 people, no WY, no servants, no duplicate temporal silhouettes.\n\nCPA has moved to the open floor immediately LEFT of the window table, not into the chair or table. Main action: a natural three-quarter sideways stoop at waist/hips, bent knees just a little for weight balance, one foot forward flat and rear foot firmly grounded; gently place the SINGLE bamboo box upright on the floor in front of the left window-side chair and slightly left of the table. Choose the instant its bottom is fully touching the floor, his near hand still stabilizes the top bamboo crossbar, his other hand just releases the loose carrying strap. Head angled down toward box, shoulders follow the action, same 20-22 narrow face. Both shoulder straps have been removed from his shoulders and now lie slack attached to this box; BACK CLEAR AND NO SECOND BOX. Open rectangular green woven bamboo wall basket-box, raised four corner posts, rope lashings, hat and spare straw sandals attached at side per ref 4, medium travelling size proportional to his torso; no lid, no chest, no empty open rack, no wheels. Warm light catches the bamboo texture, clear grounded contact shadow; realistic joint-to-hand-to-box contact. Keep grey-blue short outer sleeves over offwhite long undershirt, long worn outer hem panels, dark pants, forearm and shin wraps, straw sandals, one small red/gold gourd close to his waist, no pouch.\n\nZL remains on open floor just to CPA's left/back, subtly stooped elderly slim man with brown-grey robe and tied grey-black hair, watching the action quietly with hands behind his back; he does not carry/touch the box, does not sit or hold a wine cup. Preserve identity from base. PQ stays in back-left display area, turned toward the shelf and looking at the original celadon ceramics, hands clasped behind her back, feet naturally grounded. She is still a clearly visible small child with full silhouette, the same dark rough layers, gathered rolled sleeves, coarse rope belt/soft pouch, bare calf gap and shin wraps as ref 5. Preserve same relative child scale, don't grow her; perspective naturally reduces her only because now farther back. No touching treasures or dancing. Clear single action focus on setting down box. Natural 2D fine grey-black linework, mild cel shadows, muted matte colors, Song-inspired lived-in guest room. Single full-color frame target1920x1080 horizontal, no caption, UI or watermark.",
+      "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-5eaf63f5-431e-4db8-8324-feb809da035e.png",
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_cpa_set_box.png",
+      "status": "当前使用",
+      "sequence": 4,
+      "project_asset": {
+        "code": "CG02·07·05",
+        "path": "images/chapter2/c2_07_cpa_set_box_v1.png",
+        "definition": "bg c2_07_cpa_set_box_v1",
+        "call": "scene bg c2_07_cpa_set_box_v1",
+        "alias": "bg cg02_07_05",
+        "sha256": "9fb6fcc7304b4b760a4d69760bd0c85b090b26883f0b7f931524b68dbff01d38",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "id": "window_talk",
+      "title": "临窗与朱敛短谈",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-5eaf63f5-431e-4db8-8324-feb809da035e.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png"
+      ],
+      "prompt": "EDIT image 1 as the base for the very next still of this same story. The previous action of putting the box down is complete. CPA now stands beside the river window and talks briefly with ZL about the generous hospitality and leaving in a day or two. Image 2 is CPA's strict face master, image 3 is ZL's strict face master, image 4 ZL's full outfit, image 5 CPA's current clothing. These are ONLY identity references, not their background or poses. ZL's photoreal reference must retain facial bones and age under only mild 2D line/shadow simplification, no photoreal pasted face.\n\nCRITICAL INVARIANTS: Same fixed room, same original camera direction, left stair opening, narrow display cabinet and console right of stair, central bedroom doorway, three windows on right, open central river-facing window, same table/two chairs. Preserve the SINGLE green woven bamboo bookbox at its EXACT existing floor location in the RIGHT foreground, with same scale, orientation, corner posts, woven walls, attached hat and spare sandals. Set the released shoulder straps softly against the box/floor, no shoulder straps on CPA, NO duplicate box on his back. Nothing levitates. The box does not move from the place where it was just set down.\n\nMain action: CPA stands straight naturally after setting box down, taking a small step nearer the window, just LEFT and slightly BEHIND the box, on the clear side of the table without clipping furniture. Three-quarter torso gently turned between the view outside and ZL on his left; his head now turned toward ZL, calm quiet side/three-quarter face matching image2, lips barely open in understated reply, settled brows, restrained neutral expression and real 20-22 adult age. One hand rests loosely by his own waist, other relaxed near his side, no wine, no gestures pointing at box. His grey-blue short-sleeved long robe/offwhite inner sleeves, forearm wraps, dark pants and shin wraps/straw sandals stay exact. One small red-gold patterned gourd on his waist, no pouch, clear back with NO bookbox.\n\nZL is standing to CPA's LEFT one conversational pace away, slightly forward of bedroom doorway on the same open floor as base. Slim elderly servant, natural slight hunch, stable feet and grey-black small bun, narrow long aged face and light short close moustache/chin beard matching image3. Face toward CPA with a barely lifted knowing mouth corner and gently raised eyebrows, clearly speaking a short observation without grinning. One hand half emerges near waist in a small conversational palm gesture, the other arm relaxed behind him. Do not make him a straight-backed young man, fat cook, long-bearded immortal or sinister old villain. Keep brown-grey mid-length tunic, dark sash and loose trousers exactly as image4, naturally mild 2D shading and fine linework.\n\nPQ stays visibly in the BACK-LEFT by the celadon cabinet in almost the same place and child scale as base, practical high twin coiled buns, dark worn layered outfit, rolled/bound voluminous sleeves, rope waistband/soft pouch, calf gaps/wraps/cloth shoes. She calmly looks at the ceramics with both hands behind her back, no touching. No new female, NO Wu Yi, exactly same THREE people. All feet grounded and entire heads within frame. This is a standing short conversation BEFORE the banquet, no sitting, drinking, sleeping or night rain. The room becomes subtly quieter with slightly warmer later-afternoon window light, keep outside river and mountains readable, not dramatic sunset or night. Maintain all structural shadows and correct body ground shadows. Song-inspired quiet human story, fine grey-black hand-drawn lines, soft limited cel-shading, desaturated natural matte palette, no idealized romance poster. Target1920x1080 landscape, one frame, no panel, text, watermark or UI.",
+      "source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-63819641-1a01-4be3-84d9-ae61e86a1bc1.png",
+      "file": "C:/Users/MSI/.codex/visualizations/2026/10/05/01a10b75-438f-7893-a1c3-c7d14654f20c/c2_07_inside_story/c2_07_window_talk.png",
+      "status": "当前使用",
+      "sequence": 5,
+      "project_asset": {
+        "code": "CG02·07·06",
+        "path": "images/chapter2/c2_07_window_talk_v1.png",
+        "definition": "bg c2_07_window_talk_v1",
+        "call": "scene bg c2_07_window_talk_v1",
+        "alias": "bg cg02_07_06",
+        "sha256": "2e1386e70f0e2d43ce5401ae5b43f3d2e528c7d13da3d1e3d755e8ee1eb71a51",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    }
+  ],
+  "generation_review": {
+    "visual": "主代理逐张看图；独立代理复核第1—3张裴钱身份/衣装/相对体量和第3—5张动作/道具/空间连续。",
+    "identity": "角色主要可见结构与母版核对；背向镜头的脸部不宣称通过。不同景深先核足点和姿态，未新设厘米数或固定身高比例。",
+    "limitations": [
+      "均为静态候选，尚待用户确认，不等于正式定稿。",
+      "工具原生输出1672×941；提示词以1920×1080为目标，保存时未强行拉伸。",
+      "没有运行脚本变更，未做Ren'Py实机、对白框遮挡或存读档测试。",
+      "第1张为背侧视角，裴钱正脸不可核验；第3张双手背后，具体手指不可核验。",
+      "第4与第5张竹箱在同一临窗区域，但存在向右前方的轻微生成偏移与轮廓差异，非像素锁定。",
+      "细小陈设与纹样并非逐像素一致，未制作分层PSD或3D资产。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-10-11",
+    "user_confirmation": "可以这几张定稿，并且检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致",
+    "assets": [
+      {
+        "code": "CG02·07·02",
+        "path": "images/chapter2/c2_07_arrival_v1.png",
+        "definition": "bg c2_07_arrival_v1",
+        "call": "scene bg c2_07_arrival_v1",
+        "alias": "bg cg02_07_02",
+        "sha256": "df7af741e25767ca702d2cfd674819066e41c2f7014263ec38f9efa8fb2ccaa2",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "code": "CG02·07·03",
+        "path": "images/chapter2/c2_07_house_rules_v1.png",
+        "definition": "bg c2_07_house_rules_v1",
+        "call": "scene bg c2_07_house_rules_v1",
+        "alias": "bg cg02_07_03",
+        "sha256": "6d09bb376604588e6560856ffb34077467744ba116ee4fcc9d47671bee24d6d8",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "code": "CG02·07·04",
+        "path": "images/chapter2/c2_07_pq_furnishings_v1.png",
+        "definition": "bg c2_07_pq_furnishings_v1",
+        "call": "scene bg c2_07_pq_furnishings_v1",
+        "alias": "bg cg02_07_04",
+        "sha256": "90299a4ba8b280d11a7adeab77364f40005526987c1c5811e7df22697e67224b",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "code": "CG02·07·05",
+        "path": "images/chapter2/c2_07_cpa_set_box_v1.png",
+        "definition": "bg c2_07_cpa_set_box_v1",
+        "call": "scene bg c2_07_cpa_set_box_v1",
+        "alias": "bg cg02_07_05",
+        "sha256": "9fb6fcc7304b4b760a4d69760bd0c85b090b26883f0b7f931524b68dbff01d38",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "code": "CG02·07·06",
+        "path": "images/chapter2/c2_07_window_talk_v1.png",
+        "definition": "bg c2_07_window_talk_v1",
+        "call": "scene bg c2_07_window_talk_v1",
+        "alias": "bg cg02_07_06",
+        "sha256": "2e1386e70f0e2d43ce5401ae5b43f3d2e528c7d13da3d1e3d755e8ee1eb71a51",
+        "source_copy_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "runtime_size": [
+          1920,
+          1080
+        ]
+      }
+    ],
+    "gate_also_integrated": "CG02·07·01 / bg c2_07_gate_v1",
+    "project_record": "work/art/chapter2/c2_07_inside_record.json"
+  },
+  "verification": {
+    "date": "2026-10-11",
+    "image_catalog": {
+      "records": 173,
+      "callable": 46,
+      "generated_files": 3,
+      "check": "passed"
+    },
+    "global_name_audit": {
+      "rpy_files": 29,
+      "original_bg_definitions": 49,
+      "formal_bg_aliases": 45,
+      "scene_show_bg_calls": 51,
+      "missing_files": 0,
+      "undefined_calls": 0,
+      "invalid_aliases": 0,
+      "duplicate_definitions": 0,
+      "story_filename_mismatches": 0,
+      "naming_exceptions": "四个title_前缀主题名与文件基名非逐字一致，映射有效；旧prologue_farewell定义未在别处rpy使用，保留未改。"
+    },
+    "scene7_triplet_match": true,
+    "source_copy_identical": true,
+    "dialogue_and_control_audio_unchanged": true,
+    "lint": {
+      "engine": "RenPy 8.5.3.26051504",
+      "exit_code": 1,
+      "syntax_or_resource_reference_errors": false,
+      "remaining_warnings": [
+        "沿用im.Scale（含本轮五定义）及既有im.Crop弃用提示",
+        "既有非ASCII文件名提示"
+      ],
+      "report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_integration_qa\\lint\\lint.txt"
+    },
+    "runtime": {
+      "suite": "scene7_runtime_qa",
+      "assertions": 61,
+      "passed": 61,
+      "failed": 0,
+      "save_load_positions": 3,
+      "checks": [
+        "六镜顺序",
+        "正式代号映射",
+        "三处保存读取并继续切镜",
+        "跨镜回退及重新推进",
+        "第三章进入black并清除bg",
+        "用户存档与persistent隔离"
+      ],
+      "states_file": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_integration_qa\\runtime\\runtime_states.jsonl",
+      "screenshots_reviewed": 6,
+      "physical_sizes_observed": [
+        [
+          1280,
+          720
+        ],
+        [
+          1867,
+          1050
+        ]
+      ],
+      "visual": "人物脸部、吴懿手势及陈平安放箱手部在对白框上方，五张正文可读。旁白沿用既有左侧窄边距，底部对白框遮住部分腿部和箱底，未改全局UI。",
+      "resolution_limit": "请求1920×1080窗口受工作区限制，实际为1867×1050；虚拟画布1920×1080，另已检查1280×720。未称为完整1080p物理窗口验收。"
+    },
+    "unverified": [
+      "完整十二章回归",
+      "历史版本存档位置迁移",
+      "移动端",
+      "完整物理1920×1080窗口或全屏"
+    ],
+    "known_art_limitations": [
+      "已确认原图为1672×941，不是原生1920×1080",
+      "07-05与07-06箱体存在轻微生成位置/轮廓差异，随成图获用户确认",
+      "背向/遮挡细节不可逐项核验；未制作PSD或动态资产"
+    ]
+  }
+}

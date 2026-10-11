@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "name": "段落 · 书页叙事",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "background-mask",
+      "refId": "background-mask",
+      "type": "background-mask",
+      "name": "背景遮罩",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "anchor": "c",
+      "style": {
+        "fill": "#1a1410",
+        "opacity": 36
+      }
+    },
+    {
+      "id": "paragraph",
+      "refId": "paragraph",
+      "type": "paragraph",
+      "name": "整屏段落",
+      "rect": {
+        "x": 320,
+        "y": 64,
+        "w": 1280,
+        "h": 952
+      },
+      "anchor": "t",
+      "style": {
+        "fontFamily": "'Songti SC', STSong, SimSun, serif",
+        "fontSize": 29,
+        "fontWeight": 400,
+        "color": "#342b24",
+        "fill": "rgba(250, 244, 230, 0.96)",
+        "borderColor": "#d0b98f",
+        "borderWidth": 1,
+        "radius": 8,
+        "backdropBlur": 0,
+        "letterSpacing": 1.4,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "gap": 30,
+        "lineHeight": 1.9,
+        "inactiveColor": "#746659",
+        "readBehavior": {
+          "mode": "dim",
+          "followMode": "overflow"
+        },
+        "readStyle": {
+          "color": "#746659",
+          "opacity": 82,
+          "filter": {
+            "grayscale": 8,
+            "brightness": 94
+          },
+          "transform": {
+            "y": 1,
+            "scale": 99.5
+          },
+          "transition": {
+            "preset": "settle",
+            "durationMs": 260,
+            "delayMs": 0,
+            "easing": "soft"
+          }
+        },
+        "textPadding": {
+          "top": 68,
+          "right": 88,
+          "bottom": 68,
+          "left": 88
+        },
+        "backgroundImage": "",
+        "backgroundImageFit": "cover",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": true,
+          "angle": 165,
+          "startColor": "rgba(255, 251, 240, 0.98)",
+          "endColor": "rgba(237, 224, 200, 0.96)"
+        },
+        "frameDecoration": {
+          "borderTop": "",
+          "borderRight": "",
+          "borderBottom": "",
+          "borderLeft": "",
+          "borderRadius": "",
+          "boxShadow": "0 20px 60px rgba(20, 12, 6, 0.34), inset 0 0 42px rgba(130, 92, 48, 0.10)"
+        },
+        "textShadows": [],
+        "previewParagraphs": [
+          "信纸在窗边压了一夜，边角沾着一点潮湿的月色。",
+          "那些没有寄出的句子，如今读来，竟比当时更接近答案。",
+          "我翻到最后一页，才发现答案一直藏在落款旁。"
+        ]
+      }
+    }
+  ]
+}

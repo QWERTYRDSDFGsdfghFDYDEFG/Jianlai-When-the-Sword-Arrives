@@ -1,0 +1,1284 @@
+{
+  "version": 1,
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "toolbar",
+      "type": "rect",
+      "rect": {
+        "x": 210,
+        "y": 1027,
+        "w": 1500,
+        "h": 48
+      },
+      "anchor": "b",
+      "name": "工具栏底图",
+      "style": {
+        "fontSize": 18,
+        "color": "#e8edf2",
+        "fill": "transparent",
+        "borderColor": "rgba(127, 212, 200, 0.28)",
+        "borderWidth": 0,
+        "radius": 27,
+        "letterSpacing": 1,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "props": {
+        "toolbarBackdrop": true,
+        "toolbarOriginId": "toolbar"
+      }
+    },
+    {
+      "id": "toolbar-part-0",
+      "type": "rect",
+      "name": "顶部强调线",
+      "rect": {
+        "x": 771.2582781456954,
+        "y": 1027,
+        "w": 377.4834437086093,
+        "h": 1.170731707317073
+      },
+      "anchor": "b",
+      "style": {
+        "fill": "rgba(127,212,200,.7)",
+        "opacity": 100
+      },
+      "props": {
+        "__smartTemplateRole": "toolbar-accent",
+        "toolbarOriginId": "toolbar"
+      },
+      "events": {},
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      }
+    },
+    {
+      "id": "toolbar-part-1",
+      "type": "button",
+      "name": "跳过按钮",
+      "rect": {
+        "x": 237.81456953642385,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "skip",
+        "toolbarLabel": "跳过",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-1-0",
+          "type": "rect",
+          "name": "跳过按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "skip",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-1-1",
+          "type": "text",
+          "name": "跳过图标",
+          "rect": {
+            "x": 28.587196467991163,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "»",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-1-2",
+          "type": "text",
+          "name": "跳过文字",
+          "rect": {
+            "x": 62.362030905077255,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "跳过",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-1-3",
+          "type": "rect",
+          "name": "跳过分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-2",
+      "type": "button",
+      "name": "自动按钮",
+      "rect": {
+        "x": 398.30022075055183,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "auto",
+        "toolbarLabel": "自动",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-2-0",
+          "type": "rect",
+          "name": "自动按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "auto",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-2-1",
+          "type": "text",
+          "name": "自动图标",
+          "rect": {
+            "x": 28.587196467991163,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "A",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-2-2",
+          "type": "text",
+          "name": "自动文字",
+          "rect": {
+            "x": 62.362030905077255,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "自动",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-2-3",
+          "type": "rect",
+          "name": "自动分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-3",
+      "type": "button",
+      "name": "存档按钮",
+      "rect": {
+        "x": 558.7858719646799,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "save",
+        "toolbarLabel": "存档",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-3-0",
+          "type": "rect",
+          "name": "存档按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "save",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-3-1",
+          "type": "text",
+          "name": "存档图标",
+          "rect": {
+            "x": 28.587196467991163,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "S",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-3-2",
+          "type": "text",
+          "name": "存档文字",
+          "rect": {
+            "x": 62.362030905077255,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "存档",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-3-3",
+          "type": "rect",
+          "name": "存档分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-4",
+      "type": "button",
+      "name": "读档按钮",
+      "rect": {
+        "x": 719.2715231788079,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "load",
+        "toolbarLabel": "读档",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-4-0",
+          "type": "rect",
+          "name": "读档按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "load",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-4-1",
+          "type": "text",
+          "name": "读档图标",
+          "rect": {
+            "x": 28.587196467991106,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "L",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-4-2",
+          "type": "text",
+          "name": "读档文字",
+          "rect": {
+            "x": 62.3620309050772,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "读档",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-4-3",
+          "type": "rect",
+          "name": "读档分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-5",
+      "type": "button",
+      "name": "快存按钮",
+      "rect": {
+        "x": 879.7571743929359,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "quickSave",
+        "toolbarLabel": "快存",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-5-0",
+          "type": "rect",
+          "name": "快存按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "quickSave",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-5-1",
+          "type": "text",
+          "name": "快存图标",
+          "rect": {
+            "x": 28.58719646799122,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "QS",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-5-2",
+          "type": "text",
+          "name": "快存文字",
+          "rect": {
+            "x": 62.36203090507731,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "快存",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-5-3",
+          "type": "rect",
+          "name": "快存分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-6",
+      "type": "button",
+      "name": "快读按钮",
+      "rect": {
+        "x": 1040.2428256070639,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "quickLoad",
+        "toolbarLabel": "快读",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-6-0",
+          "type": "rect",
+          "name": "快读按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "quickLoad",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-6-1",
+          "type": "text",
+          "name": "快读图标",
+          "rect": {
+            "x": 28.587196467991106,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "QL",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-6-2",
+          "type": "text",
+          "name": "快读文字",
+          "rect": {
+            "x": 62.3620309050772,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "快读",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-6-3",
+          "type": "rect",
+          "name": "快读分隔线",
+          "rect": {
+            "x": 159.4922737306843,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-7",
+      "type": "button",
+      "name": "历史按钮",
+      "rect": {
+        "x": 1200.728476821192,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "history",
+        "toolbarLabel": "历史",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-7-0",
+          "type": "rect",
+          "name": "历史按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "history",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-7-1",
+          "type": "text",
+          "name": "历史图标",
+          "rect": {
+            "x": 28.58719646799122,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "↺",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-7-2",
+          "type": "text",
+          "name": "历史文字",
+          "rect": {
+            "x": 62.36203090507731,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "历史",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-7-3",
+          "type": "rect",
+          "name": "历史分隔线",
+          "rect": {
+            "x": 159.4922737306842,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-8",
+      "type": "button",
+      "name": "设置按钮",
+      "rect": {
+        "x": 1361.2141280353198,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "settings",
+        "toolbarLabel": "设置",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-8-0",
+          "type": "rect",
+          "name": "设置按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "settings",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-8-1",
+          "type": "text",
+          "name": "设置图标",
+          "rect": {
+            "x": 28.58719646799122,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "◇",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-8-2",
+          "type": "text",
+          "name": "设置文字",
+          "rect": {
+            "x": 62.36203090507731,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "设置",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-8-3",
+          "type": "rect",
+          "name": "设置分隔线",
+          "rect": {
+            "x": 159.49227373068442,
+            "y": 8.780487804878048,
+            "w": 0.9933774834437086,
+            "h": 18.73170731707317
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "rgba(170,210,204,.28)",
+            "opacity": 100
+          },
+          "props": {
+            "__smartTemplateRole": "toolbar-separator"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    },
+    {
+      "id": "toolbar-part-9",
+      "type": "button",
+      "name": "隐藏按钮",
+      "rect": {
+        "x": 1521.699779249448,
+        "y": 1032.8536585365853,
+        "w": 160.485651214128,
+        "h": 37.46341463414634
+      },
+      "hidden": false,
+      "props": {
+        "__smartTemplateRole": "toolbar-button",
+        "toolbarAction": "hide",
+        "toolbarLabel": "隐藏",
+        "toolbarOriginId": "toolbar",
+        "toolbarStandalone": true,
+        "accentColor": "#7fd4c8"
+      },
+      "children": [
+        {
+          "id": "toolbar-part-9-0",
+          "type": "rect",
+          "name": "隐藏按钮",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 160.485651214128,
+            "h": 37.46341463414634
+          },
+          "anchor": "c",
+          "style": {
+            "fill": "transparent",
+            "borderColor": "transparent",
+            "borderWidth": 1,
+            "radius": 17,
+            "color": "#e8edf2",
+            "opacity": 100
+          },
+          "props": {
+            "text": "",
+            "__smartTemplateAction": "hide",
+            "__smartTemplateRole": "toolbar-surface"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-9-1",
+          "type": "text",
+          "name": "隐藏图标",
+          "rect": {
+            "x": 28.58719646799122,
+            "y": 10.536585365853657,
+            "w": 27.81456953642384,
+            "h": 16.390243902439025
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 24,
+            "color": "#e8edf2",
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "—",
+            "__smartTemplateRole": "toolbar-icon"
+          },
+          "events": {},
+          "hidden": false
+        },
+        {
+          "id": "toolbar-part-9-2",
+          "type": "text",
+          "name": "隐藏文字",
+          "rect": {
+            "x": 62.36203090507731,
+            "y": 9.951219512195122,
+            "w": 69.5364238410596,
+            "h": 17.560975609756095
+          },
+          "anchor": "c",
+          "style": {
+            "fontSize": 18,
+            "fontWeight": 400,
+            "color": "#e8edf2",
+            "letterSpacing": 2,
+            "textAlign": "center",
+            "opacity": 100
+          },
+          "props": {
+            "text": "隐藏",
+            "__smartTemplateRole": "toolbar-label"
+          },
+          "events": {},
+          "hidden": false
+        }
+      ],
+      "anchor": "b",
+      "animation": {
+        "enter": {
+          "preset": "rise",
+          "durationMs": 420,
+          "delayMs": 30
+        },
+        "exit": {
+          "preset": "sink",
+          "durationMs": 220,
+          "delayMs": 0
+        }
+      },
+      "style": {
+        "opacity": 100
+      }
+    }
+  ],
+  "name": "对话工具栏"
+}

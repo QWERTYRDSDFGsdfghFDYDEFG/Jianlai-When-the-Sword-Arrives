@@ -1,0 +1,953 @@
+{
+  "version": 2,
+  "name": "系统设置",
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "elements": [
+    {
+      "id": "mask",
+      "type": "rect",
+      "name": "遮罩",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 1920,
+        "h": 1080
+      },
+      "anchor": "c",
+      "style": {
+        "fill": "rgba(8, 13, 20, 0.86)",
+        "radius": 0,
+        "backdropBlur": 28,
+        "opacity": 100,
+        "customCss": "background-image: radial-gradient(ellipse 120% 80% at 20% 0%, rgba(40,70,100,0.35), transparent 60%);"
+      },
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 420, "delayMs": 0 },
+        "exit": { "preset": "fade", "durationMs": 260, "delayMs": 100 }
+      }
+    },
+    {
+      "id": "eyebrow",
+      "type": "text",
+      "name": "文字_Settings",
+      "rect": {
+        "x": 120,
+        "y": 96,
+        "w": 500,
+        "h": 24
+      },
+      "anchor": "tl",
+      "style": {
+        "fontSize": 15,
+        "color": "#7fd4c8",
+        "letterSpacing": 5,
+        "fontFamily": "\"JetBrains Mono\", \"SF Mono\", \"Menlo\", \"Monaco\", \"Consolas\", monospace",
+        "opacity": 100,
+        "customCss": "text-transform: uppercase; text-shadow: 0 0 12px rgba(127,212,200,0.4);"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 360, "delayMs": 80 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 60 }
+      },
+      "props": {
+        "text": "Settings"
+      }
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "name": "文字_系统设置",
+      "rect": {
+        "x": 118,
+        "y": 122,
+        "w": 800,
+        "h": 80
+      },
+      "anchor": "tl",
+      "style": {
+        "fontSize": 56,
+        "color": "#e8edf2",
+        "letterSpacing": 2,
+        "fontFamily": "\"M PLUS Rounded 1c\", \"Plus Jakarta Sans\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif",
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 460, "delayMs": 120 },
+        "exit": { "preset": "sink", "durationMs": 220, "delayMs": 40 }
+      },
+      "props": {
+        "text": "系统设置"
+      }
+    },
+    {
+      "id": "title-accent",
+      "type": "rect",
+      "name": "玉青短横线",
+      "rect": {
+        "x": 120,
+        "y": 212,
+        "w": 72,
+        "h": 4
+      },
+      "anchor": "t",
+      "style": {
+        "fill": "#7fd4c8",
+        "radius": 999,
+        "opacity": 100,
+        "customCss": "background-image: linear-gradient(90deg, #7fd4c8, #5eb8d4); box-shadow: 0 0 14px rgba(94,184,212,0.5);"
+      },
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 420, "delayMs": 190 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 20 }
+      }
+    },
+    {
+      "id": "close-btn",
+      "type": "button",
+      "name": "按钮_关闭当前界面",
+      "rect": {
+        "x": 1748,
+        "y": 118,
+        "w": 52,
+        "h": 52
+      },
+      "anchor": "tr",
+      "style": {
+        "fontSize": 22,
+        "color": "#dce8f2",
+        "fill": "rgba(120, 150, 180, 0.06)",
+        "borderColor": "rgba(150, 180, 210, 0.14)",
+        "borderWidth": 1,
+        "radius": 10,
+        "backdropBlur": 10,
+        "opacity": 100,
+        "customCss": "box-shadow: inset 0 1px 0 rgba(200,225,245,0.06), 0 4px 14px rgba(4,10,18,0.4); transition: transform 180ms cubic-bezier(0.22,1,0.36,1), background 180ms, border-color 180ms, box-shadow 180ms; &:hover { background: rgba(127,212,200,0.12); border-color: rgba(127,212,200,0.55); box-shadow: 0 0 22px rgba(94,184,212,0.3); transform: rotate(90deg); }"
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 320, "delayMs": 200 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "props": {
+        "text": "✕"
+      },
+      "events": {
+        "onClick": {
+          "type": "ui.close"
+        }
+      }
+    },
+    {
+      "id": "settings-tabs",
+      "type": "tabs",
+      "name": "页签_设置分组",
+      "rect": {
+        "x": 210,
+        "y": 264,
+        "w": 1500,
+        "h": 40
+      },
+      "anchor": "tl",
+      "style": {
+        "fontSize": 15,
+        "color": "#e8edf2",
+        "radius": 8,
+        "opacity": 100,
+        "fontFamily": "\"Plus Jakarta Sans\", \"Noto Sans SC\", \"PingFang SC\", sans-serif"
+      },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 380, "delayMs": 220 },
+        "exit": { "preset": "sink", "durationMs": 200, "delayMs": 0 }
+      },
+      "props": {
+        "tabs": [
+          "音量",
+          "文本与播放",
+          "显示"
+        ],
+        "activeIndex": 0,
+        "inactiveColor": "rgba(220,232,242,0.55)",
+        "gap": 8
+      }
+    },
+    {
+      "id": "vol-card",
+      "type": "rect",
+      "name": "矩形_音量卡片",
+      "rect": {
+        "x": 210,
+        "y": 314,
+        "w": 1500,
+        "h": 316
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 340, "delayMs": 80 },
+        "exit": { "preset": "sink", "durationMs": 200, "delayMs": 0 }
+      },
+      "style": {
+        "fill": "rgba(120,150,180,0.06)",
+        "radius": 12,
+        "opacity": 100
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-title",
+      "type": "text",
+      "name": "文字_音量",
+      "rect": {
+        "x": 250,
+        "y": 334,
+        "w": 200,
+        "h": 32
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 280, "delayMs": 130 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#e8edf2",
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "props": {
+        "text": "音量"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-master-label",
+      "type": "text",
+      "name": "文字_主音量",
+      "rect": {
+        "x": 250,
+        "y": 382,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 180 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "主音量"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-master-slider",
+      "type": "slider",
+      "name": "滑块_主音量",
+      "rect": {
+        "x": 630,
+        "y": 382,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 200 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "masterVolume",
+        "value": 80,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-bgm-label",
+      "type": "text",
+      "name": "文字_背景音乐",
+      "rect": {
+        "x": 250,
+        "y": 444,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 230 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "背景音乐"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-bgm-slider",
+      "type": "slider",
+      "name": "滑块_背景音乐音量",
+      "rect": {
+        "x": 630,
+        "y": 444,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 250 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "bgmVolume",
+        "value": 80,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-se-label",
+      "type": "text",
+      "name": "文字_音效",
+      "rect": {
+        "x": 250,
+        "y": 506,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 280 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "音效"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-se-slider",
+      "type": "slider",
+      "name": "滑块_音效音量",
+      "rect": {
+        "x": 630,
+        "y": 506,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 300 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "seVolume",
+        "value": 80,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-voice-label",
+      "type": "text",
+      "name": "文字_语音",
+      "rect": {
+        "x": 250,
+        "y": 568,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 330 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "语音"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "vol-voice-slider",
+      "type": "slider",
+      "name": "滑块_语音音量",
+      "rect": {
+        "x": 630,
+        "y": 568,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 350 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "voiceVolume",
+        "value": 80,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 0
+      }
+    },
+    {
+      "id": "text-card",
+      "type": "rect",
+      "name": "矩形_文本与播放卡片",
+      "rect": {
+        "x": 210,
+        "y": 314,
+        "w": 1500,
+        "h": 310
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 340, "delayMs": 80 },
+        "exit": { "preset": "sink", "durationMs": 200, "delayMs": 0 }
+      },
+      "style": {
+        "fill": "rgba(120,150,180,0.06)",
+        "radius": 12,
+        "opacity": 100
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "text-title",
+      "type": "text",
+      "name": "文字_文本与播放",
+      "rect": {
+        "x": 250,
+        "y": 334,
+        "w": 240,
+        "h": 32
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 280, "delayMs": 130 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#e8edf2",
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "props": {
+        "text": "文本与播放"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "speed-label",
+      "type": "text",
+      "name": "文字_文字速度",
+      "rect": {
+        "x": 250,
+        "y": 380,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 180 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "文字速度"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "speed-slider",
+      "type": "slider",
+      "name": "滑块_文字速度",
+      "rect": {
+        "x": 630,
+        "y": 380,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 200 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "textSpeed",
+        "value": 50,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "auto-speed-label",
+      "type": "text",
+      "name": "文字_自动模式速度",
+      "rect": {
+        "x": 250,
+        "y": 442,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 230 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "自动模式速度"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "auto-speed-slider",
+      "type": "slider",
+      "name": "滑块_自动模式速度",
+      "rect": {
+        "x": 630,
+        "y": 442,
+        "w": 1040,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 250 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "opacity": 100
+      },
+      "props": {
+        "bind": "autoModeTextSpeed",
+        "value": 50,
+        "showValue": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "skip-label",
+      "type": "text",
+      "name": "文字_跳过模式",
+      "rect": {
+        "x": 250,
+        "y": 504,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 280 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "跳过模式"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "skip-select",
+      "type": "select",
+      "name": "下拉_跳过模式",
+      "rect": {
+        "x": 630,
+        "y": 502,
+        "w": 320,
+        "h": 48
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 320, "delayMs": 300 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "#e8edf2",
+        "radius": 6,
+        "opacity": 100
+      },
+      "props": {
+        "options": [
+          "仅跳过已读",
+          "跳过全部"
+        ],
+        "value": 0,
+        "bind": "skipMode"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "stopvoice-label",
+      "type": "text",
+      "name": "文字_下句中断语音",
+      "rect": {
+        "x": 250,
+        "y": 562,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 330 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "下句中断语音"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "stopvoice-switch",
+      "type": "switch",
+      "name": "开关_下句中断语音",
+      "rect": {
+        "x": 630,
+        "y": 560,
+        "w": 96,
+        "h": 48
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 280, "delayMs": 350 },
+        "exit": { "preset": "shrink", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "opacity": 100
+      },
+      "props": {
+        "bind": "stopVoiceOnNextDialogue",
+        "value": true
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 1
+      }
+    },
+    {
+      "id": "display-card",
+      "type": "rect",
+      "name": "矩形_显示卡片",
+      "refId": "display-card",
+      "rect": {
+        "x": 210,
+        "y": 314,
+        "w": 1500,
+        "h": 120
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 340, "delayMs": 80 },
+        "exit": { "preset": "sink", "durationMs": 200, "delayMs": 0 }
+      },
+      "style": {
+        "fill": "rgba(120,150,180,0.06)",
+        "radius": 12,
+        "opacity": 100
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 2
+      }
+    },
+    {
+      "id": "display-title",
+      "type": "text",
+      "name": "文字_显示",
+      "refId": "display-title",
+      "rect": {
+        "x": 250,
+        "y": 332,
+        "w": 200,
+        "h": 30
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "fade", "durationMs": 280, "delayMs": 130 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 20,
+        "color": "#e8edf2",
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "props": {
+        "text": "显示"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 2
+      }
+    },
+    {
+      "id": "display-label",
+      "type": "text",
+      "name": "文字_全屏",
+      "refId": "display-label",
+      "rect": {
+        "x": 250,
+        "y": 376,
+        "w": 320,
+        "h": 44
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "slide-left", "durationMs": 300, "delayMs": 180 },
+        "exit": { "preset": "fade", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.82)",
+        "opacity": 100
+      },
+      "props": {
+        "text": "全屏"
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 2
+      }
+    },
+    {
+      "id": "display-switch",
+      "type": "switch",
+      "name": "开关_全屏",
+      "refId": "display-switch",
+      "rect": {
+        "x": 630,
+        "y": 374,
+        "w": 96,
+        "h": 48
+      },
+      "anchor": "t",
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 280, "delayMs": 200 },
+        "exit": { "preset": "shrink", "durationMs": 160, "delayMs": 0 }
+      },
+      "style": {
+        "opacity": 100
+      },
+      "props": {
+        "bind": "fullscreen",
+        "value": false
+      },
+      "tab": {
+        "of": "settings-tabs",
+        "index": 2
+      }
+    },
+    {
+      "id": "reset-btn",
+      "type": "button",
+      "name": "按钮_恢复默认",
+      "refId": "reset-btn",
+      "rect": {
+        "x": 210,
+        "y": 1014,
+        "w": 168,
+        "h": 52
+      },
+      "anchor": "b",
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 300 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.85)",
+        "fill": "rgba(120,150,180,0.06)",
+        "borderColor": "rgba(220,232,242,0.25)",
+        "borderWidth": 1,
+        "radius": 6,
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "props": {
+        "text": "恢复默认"
+      },
+      "events": {
+        "onClick": { "type": "config.reset" }
+      }
+    },
+    {
+      "id": "button-mrvvgpma-1",
+      "type": "button",
+      "name": "按钮_退出游戏",
+      "rect": {
+        "x": 1350,
+        "y": 1014,
+        "w": 168,
+        "h": 52
+      },
+      "anchor": "b",
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.85)",
+        "fill": "rgba(120,150,180,0.06)",
+        "borderColor": "rgba(220,232,242,0.25)",
+        "borderWidth": 1,
+        "radius": 6,
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 300 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "props": {
+        "text": "退出游戏"
+      },
+      "events": {
+        "onClick": { "type": "system.exit" }
+      }
+    },
+    {
+      "id": "button-mrvvhi2h-2",
+      "type": "button",
+      "name": "按钮_返回标题",
+      "rect": {
+        "x": 1542,
+        "y": 1014,
+        "w": 168,
+        "h": 52
+      },
+      "anchor": "b",
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.85)",
+        "fill": "rgba(120,150,180,0.06)",
+        "borderColor": "rgba(220,232,242,0.25)",
+        "borderWidth": 1,
+        "radius": 6,
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 300 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "props": {
+        "text": "返回标题画面"
+      },
+      "events": {
+        "onClick": { "type": "system.openSlot", "slot": "title" }
+      }
+    }
+  ]
+}

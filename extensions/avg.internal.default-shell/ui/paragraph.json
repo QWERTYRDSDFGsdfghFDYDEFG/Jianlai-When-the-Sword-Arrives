@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "name": "段落",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "background-mask",
+      "refId": "background-mask",
+      "type": "background-mask",
+      "name": "背景遮罩",
+      "rect": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+      "anchor": "c",
+      "style": {
+        "fill": "#000000",
+        "opacity": 70
+      }
+    },
+    {
+      "id": "paragraph",
+      "refId": "paragraph",
+      "type": "paragraph",
+      "name": "整屏段落",
+      "rect": { "x": 384, "y": 80, "w": 1152, "h": 1000 },
+      "anchor": "t",
+      "style": {
+        "fontSize": 28,
+        "fontWeight": 400,
+        "color": "#ffffff",
+        "fill": "transparent",
+        "borderColor": "transparent",
+        "borderWidth": 0,
+        "radius": 0,
+        "backdropBlur": 0,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "opacity": 100
+      },
+      "props": {
+        "layoutMode": "native-fluid",
+        "gap": 30,
+        "inactiveColor": "#808080",
+        "textPadding": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "backgroundImage": "",
+        "backgroundImageFit": "cover",
+        "backgroundImagePosition": "center",
+        "backgroundImageRepeat": "no-repeat",
+        "linearGradient": {
+          "enabled": false,
+          "angle": 180,
+          "startColor": "transparent",
+          "endColor": "transparent"
+        },
+        "frameDecoration": {
+          "borderTop": "",
+          "borderRight": "",
+          "borderBottom": "",
+          "borderLeft": "",
+          "borderRadius": "",
+          "boxShadow": ""
+        },
+        "textShadows": [],
+        "previewParagraphs": [
+          "有些故事，会从一个看似普通的夜晚开始。",
+          "而我们，刚好站在它的入口。",
+          "那一刻，远处的钟声正好响起。"
+        ]
+      }
+    }
+  ]
+}

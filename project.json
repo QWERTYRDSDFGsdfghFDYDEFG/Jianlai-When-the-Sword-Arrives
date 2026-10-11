@@ -1,12 +1,58 @@
 {
-  "build_update": false,
-  "packages": [
-    "pc"
+  "id": "8ad47f0a-7f98-4ef4-a47b-ad44a30f73aa",
+  "name": "剑来",
+  "version": "1.0.0",
+  "engineVersion": "1.0.0",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "graphicsRendering": {
+    "mode": "auto",
+    "fixedScale": 1,
+    "autoMaxScale": 2,
+    "antialias": true,
+    "imageSampling": "auto",
+    "frameRate": 60,
+    "effectQuality": "high"
+  },
+  "backgroundColor": "#000",
+  "window": {
+    "lockAspectRatio": false,
+    "allowMaximize": true,
+    "allowFullscreen": true,
+    "launchMode": "windowed"
+  },
+  "cursor": {
+    "mode": "system",
+    "image": "",
+    "imagePixelRatio": 1,
+    "imageSize": {
+      "width": 24,
+      "height": 24
+    },
+    "hotspot": {
+      "x": 0,
+      "y": 0
+    },
+    "fallback": "default",
+    "css": "",
+    "cssImagePixelRatio": 1,
+    "cssImageSize": {
+      "width": 24,
+      "height": 24
+    }
+  },
+  "chapterOrder": [],
+  "chapterFolders": [],
+  "chapterTreeOrder": [
+    {
+      "type": "chapter",
+      "id": "34da8afe-8929-4bfd-936e-ef0e775a987d"
+    }
   ],
-  "add_from": true,
-  "force_recompile": true,
-  "android_build": "Release",
-  "tutorial": false,
-  "renamed_all": true,
-  "renamed_steam": true
+  "extensions": {},
+  "extensionSettings": {},
+  "dataBindings": {},
+  "dynamicVisualAssets": []
 }

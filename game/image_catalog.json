@@ -1196,6 +1196,78 @@
       "notes": "2026-09-27用户确认06-01整段定稿，已接入。吴懿闭口、目光微偏的胸上近景，四页心声共用，日间河岸连续；主画面与回看均标注心声归属。原图1672×941，运行1920×1080。保持S1身份，不替换角色母版。"
     },
     {
+      "code": "CG02·07·01",
+      "kind": "cg",
+      "title": "紫阳府府门迎接（07-01）",
+      "path": "images/chapter2/c2_07_gate_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06", "10"],
+      "target": "bg c2_07_gate_v1",
+      "alias": "bg cg02_07_01",
+      "notes": "2026-10-06用户确认‘现在没有问题，可以定稿’。采用裴钱目录母版直接校正后的完整彩图，1920×1080，逐字节归档；吴懿领前，陈平安、朱敛与裴钱入府，两侧众人行礼。2026-10-11随府内五张定稿接入script_chapter2.rpy，替换府门前黑场。定稿线稿存于仓库work/art/chapter2/c2_07_gate_line_v1.png；PSD未同步，旧PSD不代表定稿。非新角色身份母版。"
+    },
+    {
+      "code": "CG02·07·02",
+      "kind": "cg",
+      "title": "临河高楼入住（07-02）",
+      "path": "images/chapter2/c2_07_arrival_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06", "10"],
+      "target": "bg c2_07_arrival_v1",
+      "alias": "bg cg02_07_02",
+      "notes": "2026-10-11用户确认定稿并接入。吴懿领三位客人沿廊抵达临河高楼，陈平安仍背竹箱。原图1672×941逐字节导入，运行按1920×1080显示；文件基名、原始定义与剧情调用一致。生成与采用记录见work/art/chapter2/c2_07_inside_record.json，不替换角色母版。"
+    },
+    {
+      "code": "CG02·07·03",
+      "kind": "cg",
+      "title": "吴懿说明楼层规矩与邀宴（07-03）",
+      "path": "images/chapter2/c2_07_house_rules_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06", "10"],
+      "target": "bg c2_07_house_rules_v1",
+      "alias": "bg cg02_07_03",
+      "notes": "2026-10-11用户确认定稿并接入。室内四人同场，吴懿示意楼梯并邀宴；陈平安仍背箱，裴钱体量已按前场校正。原图1672×941，运行1920×1080；文件基名、原始定义与剧情调用一致。不是角色新母版。"
+    },
+    {
+      "code": "CG02·07·04",
+      "kind": "cg",
+      "title": "裴钱看陈设（07-04）",
+      "path": "images/chapter2/c2_07_pq_furnishings_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06"],
+      "target": "bg c2_07_pq_furnishings_v1",
+      "alias": "bg cg02_07_04",
+      "notes": "2026-10-11用户确认定稿并接入。吴懿离场，裴钱背手看陈设后回望师父，陈平安背箱回应，朱敛在旁。沿用原客房布局。原图1672×941，运行1920×1080；文件基名、原始定义与剧情调用一致。不是角色新母版。"
+    },
+    {
+      "code": "CG02·07·05",
+      "kind": "cg",
+      "title": "陈平安放下竹箱（07-05）",
+      "path": "images/chapter2/c2_07_cpa_set_box_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06"],
+      "target": "bg c2_07_cpa_set_box_v1",
+      "alias": "bg cg02_07_05",
+      "notes": "2026-10-11用户确认定稿并接入。唯一竹箱落地，肩带卸下，陈平安准备临窗；裴钱在陈设区、朱敛旁观。原图1672×941，运行1920×1080；文件基名、原始定义与剧情调用一致。不是角色新母版。"
+    },
+    {
+      "code": "CG02·07·06",
+      "kind": "cg",
+      "title": "临窗与朱敛短谈（07-06）",
+      "path": "images/chapter2/c2_07_window_talk_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": ["01", "02", "06"],
+      "target": "bg c2_07_window_talk_v1",
+      "alias": "bg cg02_07_06",
+      "notes": "2026-10-11用户确认定稿并接入。陈平安与朱敛在窗旁站立短谈，裴钱留在陈设区，箱已落地；不提前演出宴后雨夜饮酒。箱位相较上一镜有轻微生成偏移，已随成图获用户确认。原图1672×941，运行1920×1080；文件基名、原始定义与剧情调用一致。不是角色新母版。"
+    },
+    {
       "code": "背景01·01",
       "kind": "background",
       "title": "黄庭国郡城客栈门前街景",
