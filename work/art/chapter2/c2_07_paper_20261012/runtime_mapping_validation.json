@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "images": [
+    {
+      "shot": "07-02",
+      "same_basename_definition_call": true,
+      "stable_alias": "cg02_07_02",
+      "sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735"
+    },
+    {
+      "shot": "07-03",
+      "same_basename_definition_call": true,
+      "stable_alias": "cg02_07_03",
+      "sha256": "2ac557a91bef07d7a7d4135839e3435b2aea475e310293df1fd8f1b7c1345a69"
+    },
+    {
+      "shot": "07-04",
+      "same_basename_definition_call": true,
+      "stable_alias": "cg02_07_04",
+      "sha256": "28082af22f7f3e37b331e9a007fc8040481ddae1147d255ac5b3be14e59c1c67"
+    },
+    {
+      "shot": "07-05",
+      "same_basename_definition_call": true,
+      "stable_alias": "cg02_07_05",
+      "sha256": "cdb206534acf60fdd585d95fe5f9cec129db825254378765bb5073b003a687ee"
+    },
+    {
+      "shot": "07-06",
+      "same_basename_definition_call": true,
+      "stable_alias": "cg02_07_06",
+      "sha256": "a54032a14c40c71f8e5dc7e5a973cf7ba4ae49e9a4ebf7ae9462160d1c78cafa"
+    }
+  ],
+  "script_chapter2_sha256": "79ca1ddb61affd884c5a99be72a83912c0953350e2de5496fb61987d6218099e",
+  "note": "本任务没有编辑任何rpy；并行剧情工作保留。"
+}

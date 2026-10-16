@@ -66,3 +66,15 @@ image bg c2_07_house_rules_v1 = im.Scale("images/chapter2/c2_07_house_rules_v1.p
 image bg c2_07_pq_furnishings_v1 = im.Scale("images/chapter2/c2_07_pq_furnishings_v1.png", 1920, 1080)
 image bg c2_07_cpa_set_box_v1 = im.Scale("images/chapter2/c2_07_cpa_set_box_v1.png", 1920, 1080)
 image bg c2_07_window_talk_v1 = im.Scale("images/chapter2/c2_07_window_talk_v1.png", 1920, 1080)
+
+# Chapter 2, scene 8: banquet approach, recognition and shoulder-pat reaction.
+image bg c2_08_banquet_arrival_v2 = im.Scale("images/chapter2/c2_08_banquet_arrival_v2.png", 1920, 1080)
+image bg c2_08_banquet_arrival_v1 = "bg c2_08_banquet_arrival_v2"
+image bg c2_08_recognition_v2 = im.Scale("images/chapter2/c2_08_recognition_v2.png", 1920, 1080)
+image bg c2_08_recognition_v1 = "bg c2_08_recognition_v2"
+image bg c2_08_recognized_v2 = im.Scale("images/chapter2/c2_08_recognized_v2.png", 1920, 1080)
+image bg c2_08_recognized_v1 = "bg c2_08_recognized_v2"
+image bg c2_08_shoulder_pat_v2 = im.Scale("images/chapter2/c2_08_shoulder_pat_v2.png", 1920, 1080)
+image bg c2_08_shoulder_pat_v1 = "bg c2_08_shoulder_pat_v2"
+image bg c2_08_after_pat_v2 = im.Scale("images/chapter2/c2_08_after_pat_v2.png", 1920, 1080)
+image bg c2_08_after_pat_v1 = "bg c2_08_after_pat_v2"

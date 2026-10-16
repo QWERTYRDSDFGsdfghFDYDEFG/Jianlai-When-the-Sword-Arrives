@@ -1,9 +1,11 @@
 {
   "date": "2026-10-11",
   "request": "补齐临河高楼入住、吴懿说明楼层规矩与邀宴、裴钱看陈设、陈平安放箱临窗、朱敛短谈",
-  "status": "当前使用",
+  "status": "停用／历史2026-10-11定稿；2026-10-12由纸本重绘版本原位替换",
+  "superseded_by": "work/art/chapter2/c2_07_paper_20261012/generation_record.json",
   "user_final_approval": true,
-  "runtime_integrated": true,
+  "runtime_integrated": false,
+  "historically_integrated": true,
   "tool": "内置 image_gen.imagegen",
   "target_size": [
     1920,

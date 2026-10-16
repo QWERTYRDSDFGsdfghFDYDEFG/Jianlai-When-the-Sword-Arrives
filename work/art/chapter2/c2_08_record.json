@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-16",
+  "revision": "sdx_v2_complete_replacement",
+  "scope": "孙登先完整彩色母版及第二章08-01至08-03全部五张既有剧情图同步替换；镜头、站位、动作和正文不改。",
+  "authorization": "用户对孙登先新衣装彩色设定页确认“可以就这样，现在把之前全部替换”。本轮按该授权替换全部已有孙登先场景形象，不将批量替换授权表述为用户已逐张反馈五张成图。",
+  "tool": "built-in image_gen.imagegen",
+  "target_size": [
+    1920,
+    1080
+  ],
+  "native_size": [
+    1672,
+    941
+  ],
+  "copy_policy": "选中原图逐字节复制，不重采样；运行沿用im.Scale到1920×1080；生成器原图保留。",
+  "status": "当前使用／母版已确认；五张场景图按用户替换授权生成并接入，等待后续视觉反馈。",
+  "style": "柔和纸本水粉，大色块、虚实边缘、哑光低饱和冷暖；简化背景叶片、瓦片、木纹、地面及衣料碎点；人物脸与手选择性清楚。不是砂纸/颗粒叠加或全图模糊。",
+  "sun_master": {
+    "path": "game/lh/sdx/sdx_master_v2.png",
+    "code": "参考20·01",
+    "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-3e3f5bc7-1496-4c94-b0ed-c13adae2442d.png",
+    "sha256": "F8892FB5553BAE09C00C982EC13F9B725C2636D765F7A1811461D23AEBFFA261",
+    "standard": "game/lh/sdx/sdx_face_ref.md",
+    "approval": "用户确认彩色新衣装设定页并要求全部替换",
+    "availability": "仅参考",
+    "status": "当前使用",
+    "identity": "自然长椭圆脸、平顺颧骨、渐收圆钝下巴、自然偏长鼻梁、微弧渐细眉、松束颈肩长发、整洁短须",
+    "costume": "灰绿斜襟交叠肩布、左肩少量米白短布结、米白卷袖、深棕腰带、开衩长下摆、灰褐宽裤与绑腿"
+  },
+  "assets": [
+    {
+      "code": "CG02·08·01",
+      "path": "game/images/chapter2/c2_08_banquet_arrival_v2.png",
+      "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-099e589e-90d8-4c65-9b73-4c207701f389.png",
+      "sha256": "85BAB840F580E7AD508E15948230E8F44E0B5B3DEDE8CCB06258651B4C52DBFC",
+      "stage": "08-01 入夜赴宴，远景建立",
+      "status": "当前使用",
+      "availability": "可调用",
+      "reference_inputs": [
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_banquet_arrival_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png"
+      ],
+      "prompt": "EDIT the FIRST input image, an existing 16:9 Chinese visual novel story illustration. The SECOND input is the newly APPROVED Sun Dengxian character master, showing one full figure and two face portraits. It is not a composition reference. Replace ONLY Sun Dengxian's outdated clothes, facial-hair treatment and face rendering in the scene with the approved Sun Dengxian appearance from input 2. Sun is the adult man on the RIGHT. Keep the whole scene, camera, crop, perspective, character positions/scales, other three characters' faces/clothes/poses, courtyard, hall, lanterns, guests, lighting and every prop unchanged as closely as possible. Do not add/delete people or redraw the composition. Desired output target 1920x1080 landscape, same 16:9 as first input, single complete scene, no design sheet, no UI/text/labels.\nSUN IDENTITY: match input2 natural long-oval face, soft full cheeks and unobtrusive cheekbones, gradually narrowing rounded chin, natural long nose, slightly arched tapering brows, dark eyes, dark hair loosely tied high-back with neck/shoulder loose locks. Tidy short moustache and small short chin stubble, clean cheeks, no dirty grey cheek shadows or shaggy beard. Preserve the story-specific expression described below. Not a square broad face, high-cheekbone gaunt face, short nose, straight thick eyebrows or another character's face.\nSUN COSTUME: use exactly the NEW approved broad muted sage/olive-grey diagonally overlapping wrapped outer garment with a short draped shoulder layer and a few short ivory cloth-knot ties on his anatomical left shoulder (viewer-right in front view), warm ivory inner cross-collar and rolled sleeves, deep brown layered cloth waist sash, split long skirt panels, grey-brown trousers with restrained calf wraps and dark plain cloth shoes. Replace the OLD straight vertical-lapel sleeveless open vest; do not merely recolor that vest. Preserve existing body and arm pose. Keep any existing straw hat LOW in his LEFT hand, not on his head; his right hand follows the shot action. Do not introduce staff, sword, knife, gourd, shoulder armor, patterned trim, extra tassels or additional equipment. Mild broad worn edges like master, not dense shredded rags or scratchy weave.\nSTYLE: integrate him into the existing soft paper-painted scene, broad calm matte color areas and natural warm lantern/cool blue night lighting. Reference2 provides the new face/costume palette and gentle 2D painting treatment. Keep faces and important gestures readable. Reduce hard black outlines and excessive little fabric folds on edited Sun; no sharpening, speckled sandpaper texture, dense grain, 3D rendering or glossy videogame lighting. Preserve existing other people and background rather than restyling them. Don't make Sun brighter or pasted-in under the night lighting. Avoid granular texture overlays anywhere.\nSHOT 08-01, wide arrival establishing shot: retain the three arriving companions seen from the left/back in the foreground (old Zhu Lian at far left, small twin-bun girl Pei Qian, blue-robed Chen Ping'an left-center with the single red waist gourd). Sun stands several steps away on the right, both feet visible, facing the trio, friendly mild beginning of recognition, mouth relaxed, right arm down and NO TOUCHING. Hat stays in his left hand at his left thigh, as in original scene. Preserve all foreground figures, the visible gap between Chen and Sun, and 4 soft background guests walking into warm hall. Keep shot scale wide; do not pull Sun forward or enlarge him.",
+      "native_size": [
+        1672,
+        941
+      ],
+      "previous_path": "game/images/chapter2/c2_08_banquet_arrival_v1.png"
+    },
+    {
+      "code": "CG02·08·02",
+      "path": "game/images/chapter2/c2_08_recognition_v2.png",
+      "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-b828c2c3-6c83-4be9-93b9-b21683bf154e.png",
+      "sha256": "7905A81FB6CF2A0E0CED72A68362DB0EE38AB8E77881E0BFD3D216EE09C35B7A",
+      "stage": "08-02 未认出，疑惑",
+      "status": "当前使用",
+      "availability": "可调用",
+      "reference_inputs": [
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_recognition_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png"
+      ],
+      "prompt": "EDIT the FIRST input image, an existing 16:9 Chinese visual novel story illustration. The SECOND input is the newly APPROVED Sun Dengxian character master, showing one full figure and two face portraits. It is not a composition reference. Replace ONLY Sun Dengxian's outdated clothes, facial-hair treatment and face rendering in the scene with the approved Sun Dengxian appearance from input 2. Sun is the adult man on the RIGHT. Keep the whole scene, camera, crop, perspective, character positions/scales, other three characters' faces/clothes/poses, courtyard, hall, lanterns, guests, lighting and every prop unchanged as closely as possible. Do not add/delete people or redraw the composition. Desired output target 1920x1080 landscape, same 16:9 as first input, single complete scene, no design sheet, no UI/text/labels.\nSUN IDENTITY: match input2 natural long-oval face, soft full cheeks and unobtrusive cheekbones, gradually narrowing rounded chin, natural long nose, slightly arched tapering brows, dark eyes, dark hair loosely tied high-back with neck/shoulder loose locks. Tidy short moustache and small short chin stubble, clean cheeks, no dirty grey cheek shadows or shaggy beard. Preserve the story-specific expression described below. Not a square broad face, high-cheekbone gaunt face, short nose, straight thick eyebrows or another character's face.\nSUN COSTUME: use exactly the NEW approved broad muted sage/olive-grey diagonally overlapping wrapped outer garment with a short draped shoulder layer and a few short ivory cloth-knot ties on his anatomical left shoulder (viewer-right in front view), warm ivory inner cross-collar and rolled sleeves, deep brown layered cloth waist sash, split long skirt panels, grey-brown trousers with restrained calf wraps and dark plain cloth shoes. Replace the OLD straight vertical-lapel sleeveless open vest; do not merely recolor that vest. Preserve existing body and arm pose. Keep any existing straw hat LOW in his LEFT hand, not on his head; his right hand follows the shot action. Do not introduce staff, sword, knife, gourd, shoulder armor, patterned trim, extra tassels or additional equipment. Mild broad worn edges like master, not dense shredded rags or scratchy weave.\nSTYLE: integrate him into the existing soft paper-painted scene, broad calm matte color areas and natural warm lantern/cool blue night lighting. Reference2 provides the new face/costume palette and gentle 2D painting treatment. Keep faces and important gestures readable. Reduce hard black outlines and excessive little fabric folds on edited Sun; no sharpening, speckled sandpaper texture, dense grain, 3D rendering or glossy videogame lighting. Preserve existing other people and background rather than restyling them. Don't make Sun brighter or pasted-in under the night lighting. Avoid granular texture overlays anywhere.\n\nSHOT 08-02 A, BEFORE recognition: keep EXACT medium group composition of original. Sun at right still does not identify Chen: restrained questioning expression, slightly raised curved eyebrows, mouth barely parted as if '你是？', no big smile yet. Right arm remains DOWN naturally, left hand holds straw hat low partly cropped bottom right. Chen blue-robed profile at center-left, Zhu far left, Pei behind Chen; preserve their faces, expressions and poses. No shoulder touching yet. Preserve original shot framing exactly, not the master sheet framing.",
+      "native_size": [
+        1672,
+        941
+      ],
+      "previous_path": "game/images/chapter2/c2_08_recognition_v1.png"
+    },
+    {
+      "code": "CG02·08·03",
+      "path": "game/images/chapter2/c2_08_recognized_v2.png",
+      "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-fcb0413e-4e94-40aa-9bf7-744715823111.png",
+      "sha256": "EEA5E260B87D8348BC52B018E2CA2A03B29E4CC2FCE3AC785DD491C35C598090",
+      "stage": "08-02 认出，笑意",
+      "status": "当前使用",
+      "availability": "可调用",
+      "reference_inputs": [
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_recognized_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png",
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-b828c2c3-6c83-4be9-93b9-b21683bf154e.png"
+      ],
+      "prompt": "EDIT the FIRST input image, an existing 16:9 Chinese visual novel story illustration. The SECOND input is the newly APPROVED Sun Dengxian character master, showing one full figure and two face portraits. It is not a composition reference. Replace ONLY Sun Dengxian's outdated clothes, facial-hair treatment and face rendering in the scene with the approved Sun Dengxian appearance from input 2. Sun is the adult man on the RIGHT. Keep the whole scene, camera, crop, perspective, character positions/scales, other three characters' faces/clothes/poses, courtyard, hall, lanterns, guests, lighting and every prop unchanged as closely as possible. Do not add/delete people or redraw the composition. Desired output target 1920x1080 landscape, same 16:9 as first input, single complete scene, no design sheet, no UI/text/labels.\nSUN IDENTITY: match input2 natural long-oval face, soft full cheeks and unobtrusive cheekbones, gradually narrowing rounded chin, natural long nose, slightly arched tapering brows, dark eyes, dark hair loosely tied high-back with neck/shoulder loose locks. Tidy short moustache and small short chin stubble, clean cheeks, no dirty grey cheek shadows or shaggy beard. Preserve the story-specific expression described below. Not a square broad face, high-cheekbone gaunt face, short nose, straight thick eyebrows or another character's face.\nSUN COSTUME: use exactly the NEW approved broad muted sage/olive-grey diagonally overlapping wrapped outer garment with a short draped shoulder layer and a few short ivory cloth-knot ties on his anatomical left shoulder (viewer-right in front view), warm ivory inner cross-collar and rolled sleeves, deep brown layered cloth waist sash, split long skirt panels, grey-brown trousers with restrained calf wraps and dark plain cloth shoes. Replace the OLD straight vertical-lapel sleeveless open vest; do not merely recolor that vest. Preserve existing body and arm pose. Keep any existing straw hat LOW in his LEFT hand, not on his head; his right hand follows the shot action. Do not introduce staff, sword, knife, gourd, shoulder armor, patterned trim, extra tassels or additional equipment. Mild broad worn edges like master, not dense shredded rags or scratchy weave.\nSTYLE: integrate him into the existing soft paper-painted scene, broad calm matte color areas and natural warm lantern/cool blue night lighting. Reference2 provides the new face/costume palette and gentle 2D painting treatment. Keep faces and important gestures readable. Reduce hard black outlines and excessive little fabric folds on edited Sun; no sharpening, speckled sandpaper texture, dense grain, 3D rendering or glossy videogame lighting. Preserve existing other people and background rather than restyling them. Don't make Sun brighter or pasted-in under the night lighting. Avoid granular texture overlays anywhere.\n\nTHIRD input is the already updated immediately preceding shot. Match Sun's exact robe construction, knots, colors, face identity and shot position to input3 for visual continuity. First input defines this moment's expression. SHOT 08-02 B, RECOGNIZED: Sun at right now suddenly recognizes Chen and gives the warm delighted open smile in the FIRST input, friendly softened eyes, saying '好嘛，原来是你来着！'. Keep RIGHT ARM DOWN at side, no contact/shoulder pat yet, hat LOW in left hand. Preserve exactly the first input's Zhu/Pei/Chen poses and expressions, camera framing, background. Only Sun's appearance and clothing updates; his emotion follows first input. New robe must exactly match preceding shot's overlapping diagonals and three ivory knot ends.",
+      "native_size": [
+        1672,
+        941
+      ],
+      "previous_path": "game/images/chapter2/c2_08_recognized_v1.png"
+    },
+    {
+      "code": "CG02·08·04",
+      "path": "game/images/chapter2/c2_08_shoulder_pat_v2.png",
+      "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-eb632370-d10c-4d92-93f0-e85440d13b63.png",
+      "sha256": "EE9392D43F97C81B3B958A75852A98737FA1CD9F632772263523A2B3189BE309",
+      "stage": "08-03 拍肩，仅T122",
+      "status": "当前使用",
+      "availability": "可调用",
+      "reference_inputs": [
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_shoulder_pat_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png",
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-fcb0413e-4e94-40aa-9bf7-744715823111.png"
+      ],
+      "prompt": "EDIT the FIRST input image, an existing 16:9 Chinese visual novel story illustration. The SECOND input is the newly APPROVED Sun Dengxian character master, showing one full figure and two face portraits. It is not a composition reference. Replace ONLY Sun Dengxian's outdated clothes, facial-hair treatment and face rendering in the scene with the approved Sun Dengxian appearance from input 2. Sun is the adult man on the RIGHT. Keep the whole scene, camera, crop, perspective, character positions/scales, other three characters' faces/clothes/poses, courtyard, hall, lanterns, guests, lighting and every prop unchanged as closely as possible. Do not add/delete people or redraw the composition. Desired output target 1920x1080 landscape, same 16:9 as first input, single complete scene, no design sheet, no UI/text/labels.\nSUN IDENTITY: match input2 natural long-oval face, soft full cheeks and unobtrusive cheekbones, gradually narrowing rounded chin, natural long nose, slightly arched tapering brows, dark eyes, dark hair loosely tied high-back with neck/shoulder loose locks. Tidy short moustache and small short chin stubble, clean cheeks, no dirty grey cheek shadows or shaggy beard. Preserve the story-specific expression described below. Not a square broad face, high-cheekbone gaunt face, short nose, straight thick eyebrows or another character's face.\nSUN COSTUME: use exactly the NEW approved broad muted sage/olive-grey diagonally overlapping wrapped outer garment with a short draped shoulder layer and a few short ivory cloth-knot ties on his anatomical left shoulder (viewer-right in front view), warm ivory inner cross-collar and rolled sleeves, deep brown layered cloth waist sash, split long skirt panels, grey-brown trousers with restrained calf wraps and dark plain cloth shoes. Replace the OLD straight vertical-lapel sleeveless open vest; do not merely recolor that vest. Preserve existing body and arm pose. Keep any existing straw hat LOW in his LEFT hand, not on his head; his right hand follows the shot action. Do not introduce staff, sword, knife, gourd, shoulder armor, patterned trim, extra tassels or additional equipment. Mild broad worn edges like master, not dense shredded rags or scratchy weave.\nSTYLE: integrate him into the existing soft paper-painted scene, broad calm matte color areas and natural warm lantern/cool blue night lighting. Reference2 provides the new face/costume palette and gentle 2D painting treatment. Keep faces and important gestures readable. Reduce hard black outlines and excessive little fabric folds on edited Sun; no sharpening, speckled sandpaper texture, dense grain, 3D rendering or glossy videogame lighting. Preserve existing other people and background rather than restyling them. Don't make Sun brighter or pasted-in under the night lighting. Avoid granular texture overlays anywhere.\n\nTHIRD input is the updated preceding shot: match Sun's new robe construction, shoulder knots, muted palette and face identity to it. FIRST input is the edit target and defines all poses and reactions. SHOT 08-03 A, the SINGLE SHOULDER-PAT instant: Sun's RIGHT arm reaches left across the gap and his right hand gently rests/pats Chen's upper shoulder EXACTLY as first input, five natural fingers, no gripping or injury. His left hand still holds hat low at bottom right. Sun warm smiling slightly tilted toward Chen. Chen remains happy and untroubled. Pei's eyes are wide and mouth parted in surprise exactly as first input. Zhu smiles quietly. Preserve original arm/hand contact placement, proportions, camera and entire background. Dress the extended right arm in matching warm ivory rolled sleeve beneath new sage wrap layer, preserving clear anatomy. This image must match preceding image3 except for the original first image's shoulder-pat pose and expressions.",
+      "native_size": [
+        1672,
+        941
+      ],
+      "previous_path": "game/images/chapter2/c2_08_shoulder_pat_v1.png"
+    },
+    {
+      "code": "CG02·08·05",
+      "path": "game/images/chapter2/c2_08_after_pat_v2.png",
+      "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-109f671c-810b-43f2-bdab-7379fde24d00.png",
+      "sha256": "19C80523179A0632AB7AB326381F5A27D2C78A95B48EC5B10B3B465DF0C9C863",
+      "stage": "08-03 收手，T123–T127",
+      "status": "当前使用",
+      "availability": "可调用",
+      "reference_inputs": [
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_after_pat_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png",
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-eb632370-d10c-4d92-93f0-e85440d13b63.png"
+      ],
+      "prompt": "EDIT the FIRST input image, an existing 16:9 Chinese visual novel story illustration. The SECOND input is the newly APPROVED Sun Dengxian character master, showing one full figure and two face portraits. It is not a composition reference. Replace ONLY Sun Dengxian's outdated clothes, facial-hair treatment and face rendering in the scene with the approved Sun Dengxian appearance from input 2. Sun is the adult man on the RIGHT. Keep the whole scene, camera, crop, perspective, character positions/scales, other three characters' faces/clothes/poses, courtyard, hall, lanterns, guests, lighting and every prop unchanged as closely as possible. Do not add/delete people or redraw the composition. Desired output target 1920x1080 landscape, same 16:9 as first input, single complete scene, no design sheet, no UI/text/labels.\nSUN IDENTITY: match input2 natural long-oval face, soft full cheeks and unobtrusive cheekbones, gradually narrowing rounded chin, natural long nose, slightly arched tapering brows, dark eyes, dark hair loosely tied high-back with neck/shoulder loose locks. Tidy short moustache and small short chin stubble, clean cheeks, no dirty grey cheek shadows or shaggy beard. Preserve the story-specific expression described below. Not a square broad face, high-cheekbone gaunt face, short nose, straight thick eyebrows or another character's face.\nSUN COSTUME: use exactly the NEW approved broad muted sage/olive-grey diagonally overlapping wrapped outer garment with a short draped shoulder layer and a few short ivory cloth-knot ties on his anatomical left shoulder (viewer-right in front view), warm ivory inner cross-collar and rolled sleeves, deep brown layered cloth waist sash, split long skirt panels, grey-brown trousers with restrained calf wraps and dark plain cloth shoes. Replace the OLD straight vertical-lapel sleeveless open vest; do not merely recolor that vest. Preserve existing body and arm pose. Keep any existing straw hat LOW in his LEFT hand, not on his head; his right hand follows the shot action. Do not introduce staff, sword, knife, gourd, shoulder armor, patterned trim, extra tassels or additional equipment. Mild broad worn edges like master, not dense shredded rags or scratchy weave.\nSTYLE: integrate him into the existing soft paper-painted scene, broad calm matte color areas and natural warm lantern/cool blue night lighting. Reference2 provides the new face/costume palette and gentle 2D painting treatment. Keep faces and important gestures readable. Reduce hard black outlines and excessive little fabric folds on edited Sun; no sharpening, speckled sandpaper texture, dense grain, 3D rendering or glossy videogame lighting. Preserve existing other people and background rather than restyling them. Don't make Sun brighter or pasted-in under the night lighting. Avoid granular texture overlays anywhere.\n\nTHIRD input is the updated preceding shoulder-pat shot, for exact new costume, face identity, palette continuity only. FIRST input is the edit target and determines THIS action. SHOT 08-03 B AFTER PAT: Sun has completely withdrawn his RIGHT hand from Chen's shoulder. His right elbow bends by his own waist with open upward-facing palm toward his offscreen companions, exactly first input. Turn his head and smiling gaze toward the RIGHT/outside of frame, warmly introducing Chen to companions who remain offscreen. Do NOT add foreground listeners. Left hand keeps straw hat low. Preserve Pei's slightly wide surprised eyes and closed mouth, Zhu's quiet knowing smile, Chen's relaxed smile exactly first image. Preserve spacing, framing and background. Sun's right hand must be fully separate from Chen's shoulder, no residual hand, no repeated pat. Costume must match input3 including anatomical-left shoulder knots and diagonally overlapping wrap, with soft broad matte shaded folds.",
+      "native_size": [
+        1672,
+        941
+      ],
+      "previous_path": "game/images/chapter2/c2_08_after_pat_v1.png"
+    }
+  ],
+  "continuity": [
+    "同一夜廊、陈左孙右、不越轴、右后方堂口暖光与左侧冷色庭院连续。",
+    "陈平安无箱无背带，无旧腰袋，保留单只朱红金纹养剑壶。",
+    "孙左手持斗笠、右手拍肩；相认先疑惑后笑，未到拍肩时不接触。",
+    "拍肩图只承载一页；下一页收手继续交谈，裴/朱内心仍由原旁白承载。",
+    "银刀、狐魅属于语言回忆，吴懿与崔东山不出现在本次画面。",
+    "08-04起明确恢复黑场；后续宴席、气府、雨夜不误标成美术完成。"
+  ],
+  "retired_assets": [
+    {
+      "path": "game/lh/sdx/sdx_master_v1.png",
+      "code": "参考20·02",
+      "sha256": "5E5B5B06BFC2BC47243FB7EAEE85A5F5A888996CFC62DE40361DFAAE23EE4F84",
+      "status": "停用",
+      "availability": "仅参考"
+    },
+    {
+      "path": "game/images/chapter2/c2_08_banquet_arrival_v1.png",
+      "code": "参考20·03",
+      "sha256": "8B58A146EACC8ECF23C7E423EB1E48FCADE3DE5E5191AA8B316273EC75E62C6A",
+      "status": "停用",
+      "availability": "仅参考"
+    },
+    {
+      "path": "game/images/chapter2/c2_08_recognition_v1.png",
+      "code": "参考20·04",
+      "sha256": "C73AFB1FE7668DC808DE85BACE54167A05091B160DD79A4CC6CC6227B71BFE7B",
+      "status": "停用",
+      "availability": "仅参考"
+    },
+    {
+      "path": "game/images/chapter2/c2_08_recognized_v1.png",
+      "code": "参考20·05",
+      "sha256": "F2092586CDA51348BE53D1EE96B10110A47230BEBF23775347F6EC2E18A2C87D",
+      "status": "停用",
+      "availability": "仅参考"
+    },
+    {
+      "path": "game/images/chapter2/c2_08_shoulder_pat_v1.png",
+      "code": "参考20·06",
+      "sha256": "7BA9C981ED40B129957DC534908DADF537A822873A25C08E8829F7A5039B13B0",
+      "status": "停用",
+      "availability": "仅参考"
+    },
+    {
+      "path": "game/images/chapter2/c2_08_after_pat_v1.png",
+      "code": "参考20·07",
+      "sha256": "A7334F012CD70BFA6DAFF6E112CFD0A4124874CCB4BF6D4BAF895EF4E4C1C24A",
+      "status": "停用",
+      "availability": "仅参考"
+    }
+  ],
+  "integration": {
+    "active_codes": "参考20·01 与 CG02·08·01..05 保持稳定，均映射v2。",
+    "script": "仅五处scene版本名v1改为v2；正文226条、两处无字停留、音频及控制流不改。",
+    "compatibility": "旧v1图片定义名兼容指向v2；旧v1文件只作历史参考，完整保留不删。",
+    "catalog": "185条登记，51条可调用；173条无关原登记不改。"
+  },
+  "verification": {
+    "static": "五图源/目标SHA256一致；226条正文不变、五处scene版本名变更、音频与控制流不变；六张旧图字节保留、173条无关资产登记不变。",
+    "catalog": "185条登记、51条可调用；生成产物同步检查通过。",
+    "lint": "本轮RenPy8.5.3隔离lint退出0，沿用im.Scale及非ASCII文件名提示。",
+    "runtime": "本轮v2独立验证：主场景66/66与稳定回看12/12，合计78/78；五镜切换、三处存读档、跨镜回退/再推进、回看显示及返回剧情、08-04退黑均通过。",
+    "visual": "主线程逐张目检五张编辑输出和本轮实机五镜、大窗口、08-04黑场、稳定回看及返回截图；新衣装与整洁短须统一，先疑惑后笑，不提前触肩；拍肩接触点、裴反应与收手手势均可见于对白框上方；回看保持裴钱/朱敛内心归属。既有旁白左边距偏窄，未改全局UI。",
+    "limits": [
+      "静态合成图，无PSD分层、连续动作动画或透明独立立绘。",
+      "只验证看得到的脸、手和衣装结构；遮挡手指/背面不宣称全视角核验。",
+      "场景间保留轻微生成笔触差异，不宣称像素锁定。",
+      "既有旁白UI左边距很窄、下半身被对白框覆盖，本轮不改全局UI。"
+    ],
+    "not_verified": [
+      "完整十二章回归",
+      "旧版本存档迁移",
+      "移动端",
+      "物理1920×1080全屏"
+    ],
+    "sizes_observed": [
+      [
+        1280,
+        720
+      ],
+      [
+        1867,
+        1050
+      ]
+    ],
+    "details": "C:/Users/MSI/.codex/visualizations/2026/10/12/01a1300d-d7a7-75a1-a5d0-d405431d07d9/scene8_sdx_v2_20261016/verification.json",
+    "preserved_runtime_files": 111,
+    "new_runtime_files": 0,
+    "script_sha256": "5B73E1B1B92FBDDD53611EAFE2C37A4A67A7C9110E8A95FDEBE71EC7C9AC9B26"
+  },
+  "revision_history": [
+    {
+      "revision": "v1_previous_clothing",
+      "current_status": "停用；以下为替换前原始记录，原status及78/78只代表当时状态与验收，不作为v2当前证据。",
+      "record": {
+        "date": "2026-10-16",
+        "scope": "第二章08-01、08-02、08-03完成五张静态图并接入，保留现有226条正文、角色归属和章节控制",
+        "authorization": "用户确认孙登先线稿“可以就这样”，随后明确要求三单元做完，并避免硬边、密纹理与锐化游戏过场观感。",
+        "tool": "built-in image_gen.imagegen",
+        "target_size": [
+          1920,
+          1080
+        ],
+        "native_size": [
+          1672,
+          941
+        ],
+        "copy_policy": "选中原图逐字节复制，不重采样；运行沿用im.Scale到1920×1080；生成器原图保留。",
+        "status": "当前使用／已按任务授权制作并接入；五张场景图待用户后续视觉反馈，不声称用户已逐张定稿。",
+        "style": "柔和纸本水粉，大色块、虚实边缘、哑光低饱和冷暖；简化背景叶片、瓦片、木纹、地面及衣料碎点；人物脸与手选择性清楚。不是砂纸/颗粒叠加或全图模糊。",
+        "sun_master": {
+          "path": "game/lh/sdx/sdx_master_v1.png",
+          "code": "参考20·01",
+          "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-96dcf886-efde-4652-9550-2e29f328627d.png",
+          "sha256": "5E5B5B06BFC2BC47243FB7EAEE85A5F5A888996CFC62DE40361DFAAE23EE4F84",
+          "standard": "game/lh/sdx/sdx_face_ref.md",
+          "approval": "用户确认当前线稿形象",
+          "availability": "仅参考"
+        },
+        "assets": [
+          {
+            "code": "CG02·08·01",
+            "path": "game/images/chapter2/c2_08_banquet_arrival_v1.png",
+            "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-a44a3fc2-49f1-42f3-bd4b-da87d0b0f780.png",
+            "sha256": "8B58A146EACC8ECF23C7E423EB1E48FCADE3DE5E5191AA8B316273EC75E62C6A",
+            "stage": "08-01 入夜赴宴，远景建立",
+            "status": "当前使用",
+            "availability": "可调用",
+            "reference_inputs": [
+              "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-6899f1a7-77e7-4503-8a19-4474e7151f2d.png"
+            ],
+            "prompt": "Edit this existing night-corridor illustration, preserving the EXACT composition, perspective, positions, number of people, relative scale, same faces and hairstyles, costumes and their cuts, gourd, hat, gestures, architecture positions and lighting direction. The subject matter is approved for this edit; only change the painted surface handling.\nMake it noticeably softer and simpler, like masterful matte gouache on smooth paper. Remove at least 75% of small busy marks: clothing must become broad clean muted color masses with just a FEW softly brushed structural folds, no patchwork flecks or worn-speckle surface fill; keep the cut and slightly irregular hem outlines. Merge foliage into a few large quiet silhouette masses, do NOT paint separate little leaves. Ground as several broad warm/cool planes with almost no joints, grit or scratch texture. Timber as large smooth dark warm masses with no wood grain. Roofs as simple soft blue shapes with no rows of sharp individual tiles. Blend most silhouette edges subtly into adjacent colors while retaining selective readable edges around important faces and hands. Make shadow transitions hand-brushed and soft, no cutout outlines or sharpened rim. Preserve recognizability of all four named characters and the clear route to the hall. Colors remain muted night blues and warm restrained ochre, no increased saturation, no overbright glow. NO blur filter, NO plastic airbrush, NO global paper grain, NO sandpaper, NO mottled texture layer, NO hard comic outlines, NO 3D/game render. Full finished image, landscape target 1920x1080, no captions, no framing or UI."
+          },
+          {
+            "code": "CG02·08·02",
+            "path": "game/images/chapter2/c2_08_recognition_v1.png",
+            "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-40b3f2db-41b0-42ed-a06f-ae5d2c4871d2.png",
+            "sha256": "C73AFB1FE7668DC808DE85BACE54167A05091B160DD79A4CC6CC6227B71BFE7B",
+            "stage": "08-02 未认出，疑惑",
+            "status": "当前使用",
+            "availability": "可调用",
+            "reference_inputs": [
+              "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-a44a3fc2-49f1-42f3-bd4b-da87d0b0f780.png",
+              "game/lh/cpa/cpa_face_standard_01.png",
+              "game/lh/sdx/sdx_master_v1.png",
+              "game/lh/peiqian/peiqian_master_v02.png",
+              "game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png"
+            ],
+            "prompt": "Create the NEXT story frame 08-02 in the SAME night corridor as input1: a medium ensemble shot focused on Chen Ping'an and Sun Dengxian beginning to recognize each other. Target 1920x1080 landscape, one unified painted illustration, no panels, no writing or UI. This is a camera move closer, not a new location or redesigned characters.\nReference1 is the established actual night scene: preserve all four people, their current costume COLORS and CUT, relative sizes, warm lantern illumination from upper-right, quiet cool garden on left, timber corridor on right, warm open hall receding at far right. Reference2 locks Chen's face, reference3 locks Sun's exact approved face/hairstyle/robe structure, reference4 locks Pei Qian identity and clothing, reference5 locks Zhu Lian face. ALL references are identity and environment guides, not permission to copy photo texture or sharp outlines. Zhu's outfit comes from scene reference1.\nShot: camera at adult chest/eye level on the same side of the conversation axis, slightly to the garden side, at comfortable medium distance. Chen remains LEFT of Sun, facing right in readable three-quarter profile; Sun remains RIGHT, facing left in readable three-quarter view. Their distance has closed to one arm's length but they DO NOT TOUCH. Include them from mid-thigh upward with faces occupying a useful portion of the image. Chen near 40% horizontal, Sun near 73%, both heads near 22-30% vertical, shoulder line near 40%. Zhu Lian stands further back at far left with his head within upper40%; Pei Qian stands to Chen's left/back in left quarter, her face around mid-height, both companions must be readable above the future dialogue area. Do not put Pei behind opaque foreground clothing. Keep an unobstructed conversational gap between the men. Bottom24% is mostly lower garment/floor and nonessential shapes; all faces and storytelling hands above it. Natural adult/child scale and ground-plane perspective, no toddler shrinkage.\nTHE SPECIFIC DRAMATIC STATE: Chen has just called out 'We met before' and Sun is asking 'You are...?'. Chen is warmly attentive and respectfully pleased: relaxed eyebrows, gentle eyes focused on Sun, small closed mouth smile, shoulders easy; his right hand can rest low near his waist, not salute or touch. Sun is genuinely trying to place this older-looking young man: brows slightly lifted toward the center with a mild questioning asymmetry, eyes attentive/open, mouth barely parted, head inclines very slightly, no big grin yet. Sun's RIGHT hand rests loosely low near his waist, with no reaching toward Chen. Sun's LEFT hand continues to hold his straw hat low at his OUTER side; it may be cropped at the bottom, but no new hat or changed grip. Sun's softly full cheeks, long oval face, natural longer nose, light short moustache/chin stubble and shoulder-length loosely half-tied hair must match approved reference3, NO Alang face, NO square chin, NO hollow cheekbones. Chen is clean-shaven,20-22, distinct from Sun.\nPei observes the encounter quietly with normal alert eyes, no shock yet, wearing exactly her dark layered worn short travel tunic, rope waist, tied gathered sleeves, twin buns. Zhu watches quietly with a restrained neutral half-smile, leaning slightly forward from his natural older posture, same older face and short pointed grey beard. No cane, no sword, no extra people in foreground. At most two indistinct background guest shapes near distant doorway. NO Wu Yi and no Cui Dongshan. Chen has NO bookbox, NO shoulder straps, NO pouch; keep his one small red gold-motif gourd on waist. Do not create a flashback or fox.\nSTYLE: Match the soft SIMPLIFIED quality of scene1 but even quieter in close view. Smooth matte opaque watercolor/gouache, broad muted paint planes, gently painted light, selective lost-and-found edges. Very few broad clothing folds, no repeated wood grain, individual roof tiles, little leaf marks, dense hair strands, embroidery or fabric flecks. Background softer and lower contrast than people. Faces retain identity through proportions, NOT pore detail or hard contour lines. No sharpening, grain, scratch, sandpaper, gritty texture, strong rimlights, 3D render or game cutscene finish. Warm muted linen/grey-olive Sun, slate-blue Chen, charcoal Pei, brown-grey Zhu, subdued night blue garden. No heavy ink outline and no uniform blur filter."
+          },
+          {
+            "code": "CG02·08·03",
+            "path": "game/images/chapter2/c2_08_recognized_v1.png",
+            "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-cc6a955b-31ed-4329-8322-3647def9b62f.png",
+            "sha256": "F2092586CDA51348BE53D1EE96B10110A47230BEBF23775347F6EC2E18A2C87D",
+            "stage": "08-02 认出，笑意",
+            "status": "当前使用",
+            "availability": "可调用",
+            "reference_inputs": [
+              "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-40b3f2db-41b0-42ed-a06f-ae5d2c4871d2.png"
+            ],
+            "prompt": "Make a minimal expression-only edit to this exact existing painted night-corridor image for story state 08-02b, after Sun Dengxian recognizes an old friend. Preserve camera, framing, bodies, positions, scale, ALL FOUR identities, clothes, hands and arms, straw hat, single red gourd, lanterns, doorway, background guests, colors, texture level and soft matte painted style EXACTLY as closely as possible. Do not restage or redraw costumes. NO reaching, NO shoulder contact yet.\nOnly alter Sun Dengxian on the RIGHT: relax his previously puzzled eyebrows into their natural gentle tapered curves; eyes warmly brighten and lower eyelids lift slightly; both corners of his mouth lift evenly into a cheerful broad open smile with a simple visible upper tooth plane, cheeks rise naturally without widening his jaw. It should read 'Ah, it's you!' in warm spontaneous delight. Maintain his approved elongated oval face, naturally full cheeks, longer nose, light moustache and stubble, adult age, hair and individual identity. Do not sharpen cheekbones or turn him into Alang.\nChen at CENTER-LEFT becomes subtly happier, only a slightly warmer small smile and softened eyes toward Sun, no big toothy grin. Pei Qian and Zhu Lian remain quiet observers with precisely the existing faces and neutral attentive expressions: Pei NOT surprised yet. Keep Sun's right hand down and left hand holding hat exactly as shown. Output one full scene, 1920x1080 landscape target, no text/UI, NO sharpened surfaces, NO additional texture, no grey or ink effects."
+          },
+          {
+            "code": "CG02·08·04",
+            "path": "game/images/chapter2/c2_08_shoulder_pat_v1.png",
+            "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-6a5a8da1-ef16-497b-93ea-f830b38467c0.png",
+            "sha256": "7BA9C981ED40B129957DC534908DADF537A822873A25C08E8829F7A5039B13B0",
+            "stage": "08-03 拍肩，仅T122",
+            "status": "当前使用",
+            "availability": "可调用",
+            "reference_inputs": [
+              "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-cc6a955b-31ed-4329-8322-3647def9b62f.png"
+            ],
+            "prompt": "Edit this exact night-corridor illustration into story state 08-03a: Sun Dengxian warmly PATS Chen Ping'an's shoulder, with Pei Qian startled and Zhu Lian quietly amused. Preserve the SAME camera, framing, environment, lighting, four identities, clothing, relative scale, positions and gentle matte gouache handling. One single natural physical action; no comic effects, no text.\nCRITICAL CONTACT: Sun, the mature moustached man on the RIGHT, lifts and extends HIS OWN RIGHT arm (his arm on the left side of his body as viewed in this image) across the small gap. His right PALM makes a broad friendly contact ON TOP of Chen's nearer shoulder, at the shoulder cap over the slate-blue cloth, safely away from Chen's neck and face. The fingers drape naturally over the rounded shoulder cloth, with an anatomically connected wrist, forearm, bent elbow and upper arm all visibly traceable back to Sun's right shoulder. Draw ONE right hand with five natural fingers, no extra limbs, no gripping throat, no hand floating in air. Lean Sun's upper torso forward just slightly as needed for comfortable arm reach; right sleeve follows elbow naturally. Sun's LEFT hand still holds the same straw hat LOW at his outer/right edge, unchanged. Hat must not swap hands.\nChen remains facing Sun, relaxed and genuinely glad: warm small smile, soft eyes, shoulders relaxed, slight natural yielding to the friendly pat but no recoil, fear or pain. Keep his own two hands low and separate, exactly one gourd and no luggage.\nPei Qian, the twin-bun child to Chen's left, opens her eyes distinctly wider than the previous image, brows lift, mouth parts just a little in silent astonishment, gaze directed at the contacting hand/shoulder, not at viewer. Do not turn her into a toddler or comical chibi. Keep her exact face, hairstyle, costume and scale. Zhu Lian at far left lifts one corner of his mouth into a subtle knowing smile, narrowed amused eyes watching the encounter; no sneer, no speaking, no anger. Keep his thin older face, grey beard, bun and brown clothes. NO Cui Dongshan in this picture.\nKeep all four faces plus the contacting hand clearly ABOVE the bottom25% future dialogue area. Everything else unchanged. Match soft broad painted masses and quiet night background; no added sharp outlines, tiny textures, pores, grain, fabric flecks or strong rimlight. No 3D, no sharpened game-render look. Output full landscape target1920x1080."
+          },
+          {
+            "code": "CG02·08·05",
+            "path": "game/images/chapter2/c2_08_after_pat_v1.png",
+            "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-a0da8296-8156-49e5-8d11-4d59eee3147b.png",
+            "sha256": "A7334F012CD70BFA6DAFF6E112CFD0A4124874CCB4BF6D4BAF895EF4E4C1C24A",
+            "stage": "08-03 收手，T123–T127",
+            "status": "当前使用",
+            "availability": "可调用",
+            "reference_inputs": [
+              "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-6a5a8da1-ef16-497b-93ea-f830b38467c0.png"
+            ],
+            "prompt": "Make a minimal continuity edit of this exact night-corridor painting into 08-03b: the shoulder pat is FINISHED, the characters settle into an easy conversation. Preserve camera/framing and every character identity, face proportions, costume, scale, lower body positions, single red gourd, straw hat, corridor and background, warm/cool light and soft matte painted style.\nRemove Sun Dengxian's right hand from Chen's shoulder entirely. Chen's shoulder cloth and neckline must be intact and unobstructed, clearly separated from Sun by open space. Sun's RIGHT upper arm returns close to his torso, elbow relaxed, right hand around HIS OWN waist level with a small open palm angled toward Chen, indicating this friend to off-screen companions. His palm and all fingers are anatomically natural and connected to the correct arm, with no reaching contact and no floating hand remaining on Chen. It is a small relaxed presentational gesture, not a grand theatrical point. Sun's LEFT hand continues to hold the same hat low at his outside hip as before, same grip and same side. Sun's head turns just a little toward companions off-screen to the RIGHT, eyes aimed rightward rather than at the viewer, with easy proud friendly smile; his body remains partly facing Chen and is not moved to another place. Keep his same soft elongated oval face and light moustache/stubble; no new facial structure.\nChen stays pleased and comfortable, same gentle smile, hands down. Pei still has widened attentive eyes, but closes her lips slightly into restrained surprise; she looks at Sun/Chen, is not speaking or scolding. Zhu Lian still wears the subtle knowing smile, not a loud laugh; his inner thought is not depicted as a speech bubble. There are exactly the same four foreground people, no Cui Dongshan, no new speakers. Their visible reaction is only silent.\nCRITICAL STYLE: no increase in detail; keep broad smooth muted gouache masses, lost and found soft edges, simplified cloth folds, subtle skin shading and quiet blurred-by-paint distant architecture. No photographic blur filter, no 3D render, no sharpening, no dense leaf/wood/clothing texture. All faces and the low presentational hand remain clearly ABOVE bottom24% future dialogue area. Full single landscape target1920x1080, no UI/no lettering."
+          }
+        ],
+        "establishing_first_pass": {
+          "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-6899f1a7-77e7-4503-8a19-4474e7151f2d.png",
+          "not_imported": true,
+          "reason": "首轮衣料、叶片和地面表面细节仍偏多，选中版本再做一次大色块简化。",
+          "reference_inputs": [
+            "game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+            "game/lh/peiqian/peiqian_master_v02.png",
+            "game/lh/zl/zl_full_base_v1.png",
+            "game/lh/sdx/sdx_master_v1.png",
+            "game/lh/cpa/cpa_face_standard_01.png"
+          ],
+          "prompt": "Create one finished painted visual-novel story frame 08-01, landscape target 1920x1080. NOT a character sheet and NOT a collage. Setting: first part of the night, Chinese Song-era inspired river mansion, walking along a covered wooden corridor toward an open warmly lit banquet hall. Quiet cool slate-blue garden on the left, covered corridor and sparse warm lanterns on the right, simple wooden posts leading toward the OPEN hall entrance in upper-right background. Ground is dry. No rain, no fighting, no magical light. Keep a believable continuous walkable path into the open hall.\nSTYLE IS THE HIGHEST VISUAL PRIORITY: soft opaque watercolor and gouache on smooth paper, flat broad painted color masses, lost-and-found edge handling, colored outlines dissolved into paint, simple believable form rather than game-render modeling. Main faces/silhouettes selectively legible, distant roof and garden very quiet. Paper is a subtle smooth material feeling, NOT an overlay of paper fibers. Remove 90% of tiny surface details: no enumerated roof tiles, no woodgrain, no repeated woven cloth texture, no fine embroidery, no cracks or chipped paint. Low local contrast, softened shadow boundaries, sparse broad folds, matte skin, no sharp specular rimlights. NO 3D render, NO cinematic game cutscene, NO photorealism, NO sharpened edges, NO ambient-occlusion microdetail, NO sandy/gritty aged texture, NO grain, NO black comic outlines, NO densely hatched hair. This should read like a carefully composed painted book illustration.\nREFERENCES: input1 Chen Ping'an outfit, input2 Pei Qian identity/clothes, input3 Zhu Lian body/clothes/face, input4 Sun Dengxian approved original face/figure, input5 Chen's face. These references lock identity and clothing CUT ONLY; their sharp linework, dense textures, realism, plain background, diagrams, multiple views are not the output style. Absolutely REMOVE Chen's bookbox, backpack, shoulder straps, spare shoes and attached hat: he left his luggage in his room. Keep a SINGLE small red gourd with simplified gold curved motifs at Chen's waist; no pouch on Chen.\nCOMPOSITION: camera eye-height slightly behind the arriving trio from their left-rear, wide establishing shot with clear diagonal depth, not a top-down miniature. Chen Ping'an is left-center foreground in back-three-quarter view, just slowing and turning his head toward Sun Dengxian across a few steps of visible path. Chen: same 20-22-year-old slim young man, high simple bun, slate-blue short-sleeved outer robe over off-white rolled inner sleeves, dark trousers, calf wraps and straw sandals. Pei Qian follows slightly left and behind him, the same small wiry girl with twin buns, dark charcoal layered travel tunic with irregular worn lower hem, visible small segment of shin above wraps, dark cloth shoes, little cloth pouch at her OWN waist. She must not become a toddler; her scale is that of a small school-age apprentice, not baby proportions. Zhu Lian follows to the far left, a lean older slightly stooped man with swept-back grey-black hair tied in small bun, short narrow moustache and pointed grey beard, wrinkled face, plain brown-grey practical robe and dark waist sash. Do not give him a cane. The trio are ONLY three people, no duplicates.\nSun Dengxian is right midground facing the incoming trio in three-quarter view, a few steps away on the same level: same approved mature friendly elongated oval face with softly full cheeks, natural longer nose, tapered mildly curved brows, light short moustache and chin stubble, dark loosely half-tied hair to shoulders, lean capable body. Match the entire face proportions of reference4. Original simple sleeveless long outer robe over rolled-sleeve inner tunic, sash, loose trousers and leg wraps. Use desaturated warm grey-olive outer robe, linen ivory inner garment, dark slate trousers, dark brown sash; no rich ornaments. He carries his broad plain straw hat LOW at the thigh in his left hand, right arm relaxed. He is neither pointing nor touching Chen yet. Warm quiet recognition beginning in his face. Do not resemble Alang or create a new square/high-cheekbone face.\nBeyond Sun toward the hall, 3-4 small indistinct banquet guests move toward the open doorway; one is a dignified woman seen from behind in subdued pale blue-grey long clothing, modest hair ornament, not a foreground portrait and NOT Wu Yi. Do not put Wu Yi in this shot. Preserve empty breathing space between trio and Sun so the encounter reads immediately. Hall interior is only warm broad light and a few soft silhouettes, no packed tables detailed. Main heads and any readable gestures stay within the upper 70% of frame. Bottom 24% is quiet floor / lower legs with no key narrative action, for a future VN dialogue box; do not draw UI, text, speech balloons, labels, banners or watermarks."
+        },
+        "continuity": [
+          "同一夜廊、陈左孙右、不越轴、右后方堂口暖光与左侧冷色庭院连续。",
+          "陈平安无箱无背带，无旧腰袋，保留单只朱红金纹养剑壶。",
+          "孙左手持斗笠、右手拍肩；相认先疑惑后笑，未到拍肩时不接触。",
+          "拍肩图只承载一页；下一页收手继续交谈，裴/朱内心仍由原旁白承载。",
+          "银刀、狐魅属于语言回忆，吴懿与崔东山不出现在本次画面。",
+          "08-04起明确恢复黑场；后续宴席、气府、雨夜不误标成美术完成。"
+        ],
+        "verification": {
+          "static": "五图源/目标SHA256一致；226条正文、音频、Python状态与label/jump未变；既有173条资产登记保留。",
+          "catalog": "179条登记、51条可调用，3产物同步检查通过。",
+          "lint": "RenPy8.5.3隔离lint退出0；沿用im.Scale/Crop弃用与既有非ASCII文件名提示。",
+          "runtime": "主用例66/66断言通过，历史稳定态补验12/12通过，合计78/78；覆盖五镜切换、三处存读档、跨镜回退、历史菜单显示/返回与08-04退黑。",
+          "visual": "主线程逐张核验五张成图、五镜实机截图、大窗口、08-04边界、稳定历史菜单及返回剧情。脸部、拍肩接触点、裴反应、收手手势均在对白框上方；历史文字与内心归属清楚。原07_history.png截在淡入期间，不作为稳定态证据；由history/screenshots/09_history_stable.png和11_history_returned.png替代。",
+          "sizes_observed": [
+            [
+              1280,
+              720
+            ],
+            [
+              1867,
+              1050
+            ]
+          ],
+          "details": "C:/Users/MSI/.codex/visualizations/2026/10/12/01a1300d-d7a7-75a1-a5d0-d405431d07d9/scene8_20261016/verification.json",
+          "preserved_runtime_files": 111,
+          "not_verified": [
+            "完整十二章回归",
+            "旧版本存档迁移",
+            "移动端",
+            "物理1920×1080全屏"
+          ],
+          "limits": [
+            "静态合成图，无PSD分层、连续动作动画或透明独立立绘。",
+            "只验证看得到的脸、手和衣装结构；遮挡手指/背面不宣称全视角核验。",
+            "场景间保留轻微生成笔触差异，不宣称像素锁定。",
+            "既有旁白UI左边距很窄、下半身被对白框覆盖，本轮不改全局UI。"
+          ]
+        }
+      }
+    }
+  ],
+  "modified_files": [
+    "game/images/chapter2/c2_08_banquet_arrival_v2.png",
+    "game/images/chapter2/c2_08_recognition_v2.png",
+    "game/images/chapter2/c2_08_recognized_v2.png",
+    "game/images/chapter2/c2_08_shoulder_pat_v2.png",
+    "game/images/chapter2/c2_08_after_pat_v2.png",
+    "game/lh/sdx/sdx_master_v2.png",
+    "game/script_chapter2.rpy",
+    "game/bg_images.rpy",
+    "game/image_catalog.json",
+    "game/image_codes.rpy",
+    "game/Codex/image_code_catalog.md",
+    "game/Codex/image_code_gallery.html",
+    "game/Codex/character_image_index.md",
+    "game/lh/sdx/sdx_face_ref.md",
+    "game/Codex/chapter2_storyboard.md",
+    "README.md",
+    "work/art/chapter2/c2_08_record.json"
+  ]
+}

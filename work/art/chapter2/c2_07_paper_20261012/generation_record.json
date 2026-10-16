@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-12",
+  "method": "内置 image_gen；未调用 API/CLI；未重采样原图",
+  "status": "当前使用／2026-10-12用户确认定稿，已原位替换游戏旧图",
+  "scope": "第二章第七场07-02至07-06五张PNG原位替换；07-01、角色母版、运行定义与稳定别名保持不变。本任务不编辑剧情或角色源码。",
+  "requested_canvas": [
+    1920,
+    1080
+  ],
+  "source_script": "game/script_chapter2.rpy",
+  "adaptation": "竖版双分屏海报改为完整横版叙事CG。保留层叠檐口、青灰暖金、细腻纸纤维、矿物颜料、薄层浅浮雕；不沿用巨月夜景、现代灯带、寺塔、标题与水印。白昼入住至入暮短谈，非宴后雨夜。",
+  "character_standards": [
+    "game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+    "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+    "game/lh/wy/wy_face_ref.md",
+    "game/lh/zl/zl_face_ref.md"
+  ],
+  "identity_reference_policy": "实际传入参考以每次args.referenced_image_paths为准；查阅标准与查看母版不等同于每次实际输入。新图不反向替换母版。裴钱无已确认厘米数或成人比值，按原镜同伴/足点/景深校验。",
+  "assets": [
+    {
+      "shot": "07-02",
+      "title": "临河高楼入住",
+      "source_runtime": "game/images/chapter2/c2_07_arrival_v1.png",
+      "output": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_arrival_paper.png",
+      "native_source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-82bc3c36-e016-453a-aa1a-51dd31e5891b.png",
+      "phases": [
+        {
+          "phase": "建筑与光色重绘",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-d7e24566-1580-402c-a420-461f58275600.png",
+          "args": {
+            "referenced_image_paths": [
+              "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_arrival_v1.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/3465FF57FFEF3BEA787723352D398B5B.jpg",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer, identity-preserve. Produce ONE complete 1920×1080 16:9 horizontal visual-novel story CG, 07-02 临河高楼入住. Image1 is the edit target and narrative/character blocking reference. Images2–3 are ART DIRECTION references: borrow their intricate timber eaves, atmospheric layers, blue-grey versus muted warm-ochre tones, and the LOWER PANEL'S exquisite matte handmade paper-pulp thin relief, mineral pigment, irregular dry-brush and fibres. Image4 is Pei Qian's authoritative identity/clothes reference. Image5 is Chen Ping'an's authoritative costume and one bamboo box reference.\nSubstantially redraw the architecture and rendering of image1 in this new material style, not merely a filter. The same four people walk towards a grand yet lived-in SIX-STOREY RIVERSIDE GUEST HOUSE in a Song-inspired immortal estate. Keep Wu Yi leading on left in teal/pale green/red, Chen with one green bamboo woven rectangular open-top travel box center, small Pei Qian behind and clearly visible in dark travel clothes, slender older Zhu Lian at right in grey-brown. Preserve exact relative child size, travel direction, poses and identities from image1. Pei Qian is a sturdy small apprentice, same twin loose buns, rolled voluminous sleeves, ragged layered tunic, cloth sash and thick rope belt, soft pouch, short trousers with bare shins before leg wraps; do not shrink, mature, omit or hide her. Chen retains grey-blue worn robe, straw sandals and single small red-gold gourd attached to belt.\nThe guest building has six clearly readable inhabitable levels, layered graceful grey tile eaves, elegant structural bracket sets, dark weathered wooden pillars, warm ivory plaster, carved restrained balcony rails and a proper accessible ground-floor covered entrance. Redesign the previous flat block into a refined layered riverside timber mansion. No pagoda spire, temple altars, gold palace roofs, imperial dragon motifs, modern LED strings. A continuous stone path and river parapet, quiet broad river to right, dark green trees and hazy layered blue hills; preserve living human scale.\nTime is late afternoon BEFORE the evening banquet, warm low natural side-light and cool river haze, no moon or deep night. Architectural depth and tree masses have delicate layered pulp relief and muted mineral pigment texture, paper fibres dissolve selectively into pale sky, mist and outer edges, not an even decorative frame. Central people and the circulation path remain sharp, fully coloured and coherent with fine 2D linework; skin and clothes not made of clay, no photoreal celebrity faces. Use thin relief microshadows not chunky 3D diorama. Elegant, quiet, tactile, sophisticated, low saturation. Full continuous scene fills canvas, limited airy ivory mist only in natural distance/edges, not 60% blank poster. NO split screen, no upper photo/lower art panels, no typography, title, English, logos, watermarks, border, extra people, giant moon, missing child, duplicate boxes, saturated tourist illuminations. Keep lower foreground calm enough for game dialogue overlay without drawing UI."
+          }
+        },
+        {
+          "phase": "背景纸本材质强化",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-82bc3c36-e016-453a-aa1a-51dd31e5891b.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-d7e24566-1580-402c-a420-461f58275600.png",
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer. Material-only edit. Create ONE 1920×1080 16:9 full-frame visual-novel story CG. Image1 is the exact content/action/camera to preserve; image2 is our new SERIES MATERIAL STANDARD with handmade paper fibres and very thin raised pulp planes; image3 is the user's original art-paper/mineral-pigment material reference, ONLY its lower panel material. Make image1 match image2's sophisticated tactile matte painting, not its people or composition. Preserve all people, their exact faces/identity/relative height/poses/clothing/gaze, exact room or building geometry, placements of box and props, and original time of day.\nRender architecture and landscape as coloured hand-made rag-paper shallow relief: selective small fibre edges, thin raised planes with tiny soft lateral shadows, mineral pigment dry-brush, some ivory paper showing through on highlight edges. More relief than smooth ordinary illustration, but refined, light, matte and clean. Keep large areas softly painted and quiet; texture varies in density, not uniform all-over noisy scratches. Do NOT damage or rot wood, do NOT make walls dirty, cracked or ruined. Wood loses polished shine, plaster gains delicate ivory paper fibres, blue-grey hills and water have restrained layered paper colour planes. Not thick clay models or 3D diorama, not photography. Characters remain beautifully legible fine 2D painted linework with clear fabric folds and faces, never paper dolls or distorted by texture. No altered poses or proportions, no missing child, no extra person, no new props, no duplicate boxes. Full continuous scene to edges: no diptych, no poster layout, no lettering, logo/watermark, white border, torn decorative frame or large empty white field. NO moon, temple spire, modern lights or change to night if source is day.\nExterior scene07-02: preserve all FOUR walkers, Wu Yi leading at left, Chen carries exactly one green box, Pei Qian clearly visible smaller behind, Zhu at right. Preserve their size and footpoints. Preserve layered inhabitable riverside timber guesthouse, not a temple, late afternoon river/hills and inviting low-key warm lamps. Keep continuous stone path. Upper building can remain cropped as in image1, no need to squeeze six floors into frame."
+          }
+        }
+      ]
+    },
+    {
+      "shot": "07-03",
+      "title": "规矩与邀宴",
+      "source_runtime": "game/images/chapter2/c2_07_house_rules_v1.png",
+      "output": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_house_rules_paper.png",
+      "native_source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+      "phases": [
+        {
+          "phase": "建筑与光色重绘",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-17a2435c-dae0-47b8-96da-866011e860c3.png",
+          "args": {
+            "referenced_image_paths": [
+              "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_house_rules_v1.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg",
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-d7e24566-1580-402c-a420-461f58275600.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer and identity-preserve. Create ONE 1920×1080 16:9 horizontal full-frame visual-novel CG, scene07-03 吴懿说明楼层规矩与邀宴. Image1 is EDIT TARGET: strictly preserve this exact camera, all FOUR characters' identities, positions, relative sizes, facial structures, gesture and same architecture floor plan. Image2 is handmade ivory paper/mineral pigment/thin pulp-relief MATERIAL reference ONLY, not its poster layout, lettering, temple or night-time. Image3 is the newly redrawn exterior and coherent warm/cool colour and architectural refinement reference. Image4 locks little Pei Qian's face, double buns, childish sturdy small body and worn dark travel clothes; image5 locks Chen Ping'an's clothes, bamboo box and red-gold gourd. Do not let texture cover facial details or change a person's identity.\nRefine the room to match image3's wealthy but restrained Song-style riverside guest pavilion. Preserve a wooden stair in rear-left, display cabinet and narrow antique console along rear-left wall, central open inner sleeping alcove with pale curtains, large river-facing open lattice windows on RIGHT, wooden table and two chairs beneath right window. Keep those locations invariant for following shots. Add only architectural refinement in existing wooden surfaces: warm dark walnut posts, restrained carved bracket ends, finely joined beams, muted celadon ceramic vessels and scholarly objects in the existing cabinet. Warm ivory plaster and dark worn wooden floor have readable organic texture. No throne hall, no temple altar, no imperial motifs.\nWu Yi at left is adult elegant teal/pale-green/dark-red woman, open hand indicates rear-left stair, explaining lower four storeys are accessible, upper two forbidden and inviting to evening feast. Chen center listens, STILL WEARING the single green rectangular woven bamboo open-top box, one red-gold gourd attached to waist. Pei Qian stands to his right, distinctly smaller, same image1 height and head/body scale, visible full silhouette, NOT a teenager or toddler. Zhu Lian at right near window, thin old retainer in brown with small grey-black bun and short beard. Retain all fine 2D character linework and muted cel shading from target.\nTime BEFORE evening banquet: late-afternoon warm natural side-light enters right window, pale blue-grey river and layered hills outside, dusk has not fallen yet. One subdued hanging lantern may contribute minimal warmth but natural light dominates. Rendering: sophisticated tactile hand-painted mineral pigments on ivory rag paper with selective delicate low pulp relief in plaster, timber and distant foliage. Subtle dry-brush translucency and airy fibres in highlights; thin relief microshadows, matte and light. Center faces/hands/clothes crisp and readable, no clay people, no photo-real skin, no thick 3D model, no strong grime or peeling ruined wall. Single continuous lived-in environment, full bleed; no poster text, labels, watermark, logo, border, diptych, 60% white blank, giant moon, full night, rain, modern electric strings, new people or duplicate box. Quiet uncluttered lower foreground suitable for dialogue overlay."
+          }
+        },
+        {
+          "phase": "背景纸本材质强化",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-17a2435c-dae0-47b8-96da-866011e860c3.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/3465FF57FFEF3BEA787723352D398B5B.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Edit image1 ONLY the artistic MATERIAL and rendering, no geometry/content/identity changes. Return single full 1920×1080 horizontal game illustration. Images2 and3 LOWER art panels are crucial material references: their distinctly tactile hand-made ivory paper, very thin irregular raised pulp planes, broken mineral pigment, dry-brush fibre edges and soft fine relief shadows. The previous image1 was too close to smooth ordinary illustration. Make its background convincingly a hand-crafted PIGMENT-ON-PAPER shallow relief artwork, with visible handmade fibre texture, not a smooth digital wood interior.\nPreserve all four people exact faces/age/height/pose/outfits/positions, especially little Pei Qian; preserve exactly one box on Chen's back. Preserve the room's exact camera/perspective/layout, staircase, shelving, inner doorway, river windows, vase, books, chairs and light direction. Foreground four people should remain carefully drawn sharp painted illustrations in same identity, not thick paper puppets or 3D dolls.\nSpecifically change background material: render the timber posts and crossbeams as subtle 0.3–0.7mm raised layered paper-pulp planes coloured with matte walnut mineral pigment. At selected structural edges show fine irregular fibre lips with tiny soft lateral shadows and occasional dry-brush white paper exposure; no harsh white outline around every object. The ivory plaster has hand-pressed paper fibres and sparse broad spatula marks, delicate tactile unevenness, CLEAN not stained/ruined/cracked. Floor loses all polished varnish shine; become matte dry-brushed warm pigment on fibrous paper while maintaining uninterrupted floorboards, walking plane and contact shadows. Distant blue-grey river/hills merge painted pigment into soft rag-paper granulation. Keep some regions quiet and smooth to avoid full-surface noisy grit. Thin relief should be visible at normal viewing size and carefully integrated, NOT a thick miniature model. Palette refined warm ivory, muted ochre and walnut, celadon/blue-grey; fine relief side lighting, low saturation, still late afternoon natural window light.\nFull continuous story environment to edges; no split image, no poster typography, no captions, watermarks, layout, white border, artificial deckled frame or giant white empty area. Do not alter architecture, add/subtract props, remove anyone, age child, change room or shot. Not photorealistic, no plastic gloss, no thick clay, no distressed peeling ruin."
+          }
+        }
+      ]
+    },
+    {
+      "shot": "07-04",
+      "title": "裴钱看陈设",
+      "source_runtime": "game/images/chapter2/c2_07_pq_furnishings_v1.png",
+      "output": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_pq_furnishings_paper.png",
+      "native_source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-da50d998-f824-4c8d-8874-ca08df74c019.png",
+      "phases": [
+        {
+          "phase": "建筑与光色重绘",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-4e3b532a-35c0-4d48-bd63-4ad60be9c35a.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-17a2435c-dae0-47b8-96da-866011e860c3.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_pq_furnishings_v1.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Produce ONE 1920×1080 16:9 horizontal full-frame visual novel CG, not a collage. Image1 is the NEW ROOM MASTER: preserve EXACT camera, refined dark walnut posts/brackets, warm ivory rag-paper plaster, floorboards, left rear stairs, left rear display CABINET with celadon vases/scrolls, narrow console, middle sleeping alcove and curtains, right river lattice windows, window table/books/vase and chairs, single hanging lantern, mountain/river view and warm natural side lighting. Image2 is the OLD ACTION/blocking target: transfer its three people and poses into image1's upgraded room. Image3 is Pei Qian authoritative child identity/clothes. Image4 is Chen Ping'an identity/costume/props reference, not automatic instruction to wear the box. Image5 is the paper-pulp/mineral-pigment material inspiration only, not the divided poster, layout or night scene.\nUse a coherent sophisticated Song-inspired 2D hand-painted world with delicate matte mineral pigments and selective thin paper-pulp relief microshadows in timber/plaster/landscape, subtle rag-paper fibres and dry-brush light; visible but restrained tactile character. Faces, fingers and clothes remain clear fine 2D linework/light cel shadows, no clay or photo-real people. Atmosphere quiet and lived-in, richer architectural craft without gold palace grandeur or temple props. Full continuous scene fills canvas, no large white void, no decorative border, no writing or watermark, no moon/rain, no extra people, no duplicate box, no new costumes. Maintain same camera and room plan of image1, NOT the simpler room of image2. Pei Qian MUST visibly remain present, same age, same relative body scale as source with perspective accounted for: sturdy small child, double loose buns, dark worn layered travel clothes, rolled bound sleeves, coarse cloth sash/thick rope, soft pouch, ragged hem, bare shins before leg wraps. Do not shrink her to toddler or lengthen her into teen. Chen a slim young adult in grey-blue worn robe/white inner sleeves, topknot, straw sandals and one attached small red-gold waist gourd. Zhu Lian lean grey-brown older retainer with narrow aged face, small grey-black bun, short beard and slight stoop. Only these three; Wu Yi has LEFT.\nScene07-04 裴钱看陈设. Preserve the precise relative positions, CHILD height, poses, facial structure and gaze of image2: Pei Qian left-center by display area, BOTH HANDS held behind her back, turning her head up towards her master with restrained lively curiosity; she does NOT touch or hold any treasure. Chen center-right looks down and gently tells her she may look, one hand relaxed in a small speaking gesture, the OTHER holding shoulder strap. The SINGLE green open-top woven rectangular bamboo travel box is STILL STRAPPED TO HIS BACK, correctly attached with straw hat and spare sandals on box side. Zhu Lian watches from right window area. Body/feet grounded. Keep the natural warm late-afternoon light of image1, before banquet. No reappearance of Wu Yi. Keep all primary faces comfortably above lower dialogue area."
+          }
+        },
+        {
+          "phase": "背景纸本材质强化",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-da50d998-f824-4c8d-8874-ca08df74c019.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-4e3b532a-35c0-4d48-bd63-4ad60be9c35a.png",
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer. Material-only edit. Create ONE 1920×1080 16:9 full-frame visual-novel story CG. Image1 is the exact content/action/camera to preserve; image2 is our new SERIES MATERIAL STANDARD with handmade paper fibres and very thin raised pulp planes; image3 is the user's original art-paper/mineral-pigment material reference, ONLY its lower panel material. Make image1 match image2's sophisticated tactile matte painting, not its people or composition. Preserve all people, their exact faces/identity/relative height/poses/clothing/gaze, exact room or building geometry, placements of box and props, and original time of day.\nRender architecture and landscape as coloured hand-made rag-paper shallow relief: selective small fibre edges, thin raised planes with tiny soft lateral shadows, mineral pigment dry-brush, some ivory paper showing through on highlight edges. More relief than smooth ordinary illustration, but refined, light, matte and clean. Keep large areas softly painted and quiet; texture varies in density, not uniform all-over noisy scratches. Do NOT damage or rot wood, do NOT make walls dirty, cracked or ruined. Wood loses polished shine, plaster gains delicate ivory paper fibres, blue-grey hills and water have restrained layered paper colour planes. Not thick clay models or 3D diorama, not photography. Characters remain beautifully legible fine 2D painted linework with clear fabric folds and faces, never paper dolls or distorted by texture. No altered poses or proportions, no missing child, no extra person, no new props, no duplicate boxes. Full continuous scene to edges: no diptych, no poster layout, no lettering, logo/watermark, white border, torn decorative frame or large empty white field. NO moon, temple spire, modern lights or change to night if source is day.\nScene07-04: exactly THREE people, NO Wu Yi. Small Pei Qian left-center looking up toward master with both hands behind back, Chen center-right STILL WEARING green box and quietly answering, Zhu right watches. Preserve ALL gestures, ages, gaze, bamboo box and room geometry in image1. Day/late afternoon natural lighting unchanged. Pei Qian must remain image1 scale/face/twin buns/old dark clothes."
+          }
+        }
+      ]
+    },
+    {
+      "shot": "07-05",
+      "title": "陈平安放箱",
+      "source_runtime": "game/images/chapter2/c2_07_cpa_set_box_v1.png",
+      "output": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_cpa_set_box_paper.png",
+      "native_source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-230f96aa-3c5f-4d63-99bb-b3c207674f31.png",
+      "phases": [
+        {
+          "phase": "建筑与光色重绘",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-5e4e112b-64c5-472d-bf3f-0902d16c174f.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-17a2435c-dae0-47b8-96da-866011e860c3.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_cpa_set_box_v1.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Produce ONE 1920×1080 16:9 horizontal full-frame visual novel CG, not a collage. Image1 is the NEW ROOM MASTER: preserve EXACT camera, refined dark walnut posts/brackets, warm ivory rag-paper plaster, floorboards, left rear stairs, left rear display CABINET with celadon vases/scrolls, narrow console, middle sleeping alcove and curtains, right river lattice windows, window table/books/vase and chairs, single hanging lantern, mountain/river view and warm natural side lighting. Image2 is the OLD ACTION/blocking target: transfer its three people and poses into image1's upgraded room. Image3 is Pei Qian authoritative child identity/clothes. Image4 is Chen Ping'an identity/costume/props reference, not automatic instruction to wear the box. Image5 is the paper-pulp/mineral-pigment material inspiration only, not the divided poster, layout or night scene.\nUse a coherent sophisticated Song-inspired 2D hand-painted world with delicate matte mineral pigments and selective thin paper-pulp relief microshadows in timber/plaster/landscape, subtle rag-paper fibres and dry-brush light; visible but restrained tactile character. Faces, fingers and clothes remain clear fine 2D linework/light cel shadows, no clay or photo-real people. Atmosphere quiet and lived-in, richer architectural craft without gold palace grandeur or temple props. Full continuous scene fills canvas, no large white void, no decorative border, no writing or watermark, no moon/rain, no extra people, no duplicate box, no new costumes. Maintain same camera and room plan of image1, NOT the simpler room of image2. Pei Qian MUST visibly remain present, same age, same relative body scale as source with perspective accounted for: sturdy small child, double loose buns, dark worn layered travel clothes, rolled bound sleeves, coarse cloth sash/thick rope, soft pouch, ragged hem, bare shins before leg wraps. Do not shrink her to toddler or lengthen her into teen. Chen a slim young adult in grey-blue worn robe/white inner sleeves, topknot, straw sandals and one attached small red-gold waist gourd. Zhu Lian lean grey-brown older retainer with narrow aged face, small grey-black bun, short beard and slight stoop. Only these three; Wu Yi has LEFT.\nScene07-05 陈平安放箱临窗. Use image2 precise action/relative positions: Chen at right foreground window bends with both hands guiding the SINGLE green rectangular open-top woven bamboo travel box gently DOWN onto floor beside the window. The box has visible woven solid sides, four corner bamboo posts, rope bindings, straw hat/spare sandals hung on SIDE. Bottom is fully supported by floor; shoulders now completely FREE OF STRAPS and NO SECOND BOX on his back. Loose shoulder straps hang with the box. Hands connect plausibly to edge/rope, fingers separated. Small red-gold gourd stays at waist. Zhu Lian in center observing gently, Pei Qian visible at left rear display cabinet, back/three-quarter view, both hands behind back, inspecting celadon vessels without touching. Retain her same child scale from image2 with perspective. Preserve image1's cabinet arrangement and table under window. Set down box at SAME exact lower-right floor location planned for next shot. Natural late-afternoon illumination before banquet, no rain/night/banquet dishes. This is one physical action frozen quietly, not an action montage."
+          }
+        },
+        {
+          "phase": "背景纸本材质强化",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-230f96aa-3c5f-4d63-99bb-b3c207674f31.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-5e4e112b-64c5-472d-bf3f-0902d16c174f.png",
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer. Material-only edit. Create ONE 1920×1080 16:9 full-frame visual-novel story CG. Image1 is the exact content/action/camera to preserve; image2 is our new SERIES MATERIAL STANDARD with handmade paper fibres and very thin raised pulp planes; image3 is the user's original art-paper/mineral-pigment material reference, ONLY its lower panel material. Make image1 match image2's sophisticated tactile matte painting, not its people or composition. Preserve all people, their exact faces/identity/relative height/poses/clothing/gaze, exact room or building geometry, placements of box and props, and original time of day.\nRender architecture and landscape as coloured hand-made rag-paper shallow relief: selective small fibre edges, thin raised planes with tiny soft lateral shadows, mineral pigment dry-brush, some ivory paper showing through on highlight edges. More relief than smooth ordinary illustration, but refined, light, matte and clean. Keep large areas softly painted and quiet; texture varies in density, not uniform all-over noisy scratches. Do NOT damage or rot wood, do NOT make walls dirty, cracked or ruined. Wood loses polished shine, plaster gains delicate ivory paper fibres, blue-grey hills and water have restrained layered paper colour planes. Not thick clay models or 3D diorama, not photography. Characters remain beautifully legible fine 2D painted linework with clear fabric folds and faces, never paper dolls or distorted by texture. No altered poses or proportions, no missing child, no extra person, no new props, no duplicate boxes. Full continuous scene to edges: no diptych, no poster layout, no lettering, logo/watermark, white border, torn decorative frame or large empty white field. NO moon, temple spire, modern lights or change to night if source is day.\nScene07-05: exactly THREE people. Chen bends to put the one green rectangular woven open-top box down in lower-right, box bottom touches floor, shoulders have NO STRAPS/NO BOX. Zhu center observes. Pei Qian clearly visible at left-back display cabinet with hands behind, same scale and position as image1. Preserve hands/box/floor contact, box location/angle/size/side straw hat/spare sandals. Day/late afternoon lighting unchanged. Do not change floor plan or shelving."
+          }
+        }
+      ]
+    },
+    {
+      "shot": "07-06",
+      "title": "临窗短谈",
+      "source_runtime": "game/images/chapter2/c2_07_window_talk_v1.png",
+      "output": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_window_talk_paper.png",
+      "native_source": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-2db313c4-fe72-45e4-ab93-d9f3ca3a834e.png",
+      "phases": [
+        {
+          "phase": "建筑与光色重绘",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-79b4e621-11a2-43c5-95e9-fe5d49e49111.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-5e4e112b-64c5-472d-bf3f-0902d16c174f.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_window_talk_v1.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+              "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: precise-object-edit / identity-preserve. ONE 1920×1080 16:9 full-frame story CG: 07-06 临窗与朱敛短谈, immediately following image1. Image1 is the EDIT TARGET and absolute room/props/material/camera reference. Image2 is ONLY reference for Chen/Zhu standing conversation poses; do not copy its simpler room or reposition the box. Images3–5 lock Pei Qian, Chen Ping'an, Zhu Lian identities/costumes. Chen reference wearing a box is a COSTUME reference only; he must NOT wear it here.\nKeep image1 room architecture and every furnishing exactly where they are: left stair, left rear shelving and console/vases/scrolls, central curtained sleeping alcove, right river window, window table/books/vase/two chairs, hanging lantern. Keep Pei Qian in EXACT same left rear display-cabinet spot and same pixel scale, same visible hands behind back, twin buns and head/body/clothes proportions. She remains looking at the ceramics, not touching. Keep the ONE GREEN BAMBOO BOX at EXACT same lower-right floor location, angle, size and four corner-post construction as image1, side hung straw hat and spare sandals, loose shoulder straps on box; do not resize, shift, rotate, multiply or return it to Chen's back.\nChange ONLY: Chen has finished putting down the box and now stands upright at the window, arms relaxed, looking toward Zhu Lian; no shoulder straps on him. Zhu Lian remains center next to him, quietly speaking with one small open-hand gesture and subtle knowing expression. Same character identities and worn grey-blue / grey-brown clothing; a small single red-gold gourd remains attached to Chen waist. Hands natural, grounded feet, appropriate adult/slender slightly stooped older body. The two men STAND, no sitting, no drinking props, no banquet, no rain; Wu Yi has departed, only THREE PEOPLE.\nTime shifts gently from warm late afternoon to beginning dusk: slightly cooler and dimmer blue-grey river/hills outside, pale remaining sunset in clouds, one interior warm lantern gains a restrained glow. Keep room readable and the warm wooden reflected light; not deep night, no moon or stars. Same distinctive fine 2D illustration and thin tactile paper-pulp/mineral-pigment painting of image1; elegant muted ivory paper fibres in plaster, delicate dry brush on wood and landscape, no photographic faces, no clay people, no thick 3D model or distressed peeling ruin. Full continuous environment, preserve source camera, no split screen, no border, no poster typography, no watermark, no extra people, do not remove/shrink/change Pei Qian. Calm lower foreground for later dialogue overlay, no UI drawn."
+          }
+        },
+        {
+          "phase": "背景纸本材质强化",
+          "output": "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-2db313c4-fe72-45e4-ab93-d9f3ca3a834e.png",
+          "args": {
+            "referenced_image_paths": [
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-79b4e621-11a2-43c5-95e9-fe5d49e49111.png",
+              "C:/Users/MSI/.codex/generated_images/01a10b75-438f-7893-a1c3-c7d14654f20c/exec-61cc4a69-0347-40e3-94c6-4faf389c56cf.png",
+              "C:/Users/MSI/Desktop/Galgame图片素材/菜单/68378105F5DDD73974DFD22DE51A3132.jpg"
+            ],
+            "transparent_background": false,
+            "prompt": "Use case: style-transfer. Material-only edit. Create ONE 1920×1080 16:9 full-frame visual-novel story CG. Image1 is the exact content/action/camera to preserve; image2 is our new SERIES MATERIAL STANDARD with handmade paper fibres and very thin raised pulp planes; image3 is the user's original art-paper/mineral-pigment material reference, ONLY its lower panel material. Make image1 match image2's sophisticated tactile matte painting, not its people or composition. Preserve all people, their exact faces/identity/relative height/poses/clothing/gaze, exact room or building geometry, placements of box and props, and original time of day.\nRender architecture and landscape as coloured hand-made rag-paper shallow relief: selective small fibre edges, thin raised planes with tiny soft lateral shadows, mineral pigment dry-brush, some ivory paper showing through on highlight edges. More relief than smooth ordinary illustration, but refined, light, matte and clean. Keep large areas softly painted and quiet; texture varies in density, not uniform all-over noisy scratches. Do NOT damage or rot wood, do NOT make walls dirty, cracked or ruined. Wood loses polished shine, plaster gains delicate ivory paper fibres, blue-grey hills and water have restrained layered paper colour planes. Not thick clay models or 3D diorama, not photography. Characters remain beautifully legible fine 2D painted linework with clear fabric folds and faces, never paper dolls or distorted by texture. No altered poses or proportions, no missing child, no extra person, no new props, no duplicate boxes. Full continuous scene to edges: no diptych, no poster layout, no lettering, logo/watermark, white border, torn decorative frame or large empty white field. NO moon, temple spire, modern lights or change to night if source is day.\nScene07-06: exactly THREE people. Chen stands at right window, Zhu center quietly speaks with a small open-hand gesture. Pei Qian clearly visible left-back by display shelves hands behind; preserve her size. The one green woven box stays on lower-right FLOOR with same location/angle/size as image1, NO box or shoulder straps on Chen. Preserve beginning-DUSK blue-grey exterior and warm interior single lantern; no deep night/rain/drinking. Do not add any furniture or change floor plan."
+          }
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "visual": "四、四、三、三、三人；裴钱出现及体量、衣装，吴懿离场顺序，唯一箱背负→落地和人物站谈已逐图检查。纸感强化后未见人物消失、明显残影或多肢。",
+    "limits": [
+      "背景压纹部分偏密，材质区别弱于实木和粉墙；该画面效果已获用户定稿确认。",
+      "小陈设、纹样与五官并非逐像素锁定；背面脸部与遮挡手指无法完整核验。",
+      "外观上层被镜头裁切，不能从此一图数全六层；楼共六层仍为脚本约束。",
+      "原生尺寸由文件验证记录确认；提示词1920×1080不表示工具输出已达到该像素数。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-10-12",
+    "user_approval": "可以定稿。替换游戏旧图",
+    "user_final_approval": true,
+    "runtime_integrated": true,
+    "mode": "原位替换5张PNG，保留原文件基名、bg定义、scene调用及CG稳定代号，不重采样",
+    "files": [
+      {
+        "shot": "07-02",
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_arrival_paper.png",
+        "runtime_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_arrival_v1.png",
+        "previous_archive": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\before\\c2_07_arrival_v1.png",
+        "previous_sha256": "df7af741e25767ca702d2cfd674819066e41c2f7014263ec38f9efa8fb2ccaa2",
+        "adopted_sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735"
+      },
+      {
+        "shot": "07-03",
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_house_rules_paper.png",
+        "runtime_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_house_rules_v1.png",
+        "previous_archive": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\before\\c2_07_house_rules_v1.png",
+        "previous_sha256": "6d09bb376604588e6560856ffb34077467744ba116ee4fcc9d47671bee24d6d8",
+        "adopted_sha256": "2ac557a91bef07d7a7d4135839e3435b2aea475e310293df1fd8f1b7c1345a69"
+      },
+      {
+        "shot": "07-04",
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_pq_furnishings_paper.png",
+        "runtime_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_pq_furnishings_v1.png",
+        "previous_archive": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\before\\c2_07_pq_furnishings_v1.png",
+        "previous_sha256": "90299a4ba8b280d11a7adeab77364f40005526987c1c5811e7df22697e67224b",
+        "adopted_sha256": "28082af22f7f3e37b331e9a007fc8040481ddae1147d255ac5b3be14e59c1c67"
+      },
+      {
+        "shot": "07-05",
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_cpa_set_box_paper.png",
+        "runtime_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_cpa_set_box_v1.png",
+        "previous_archive": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\before\\c2_07_cpa_set_box_v1.png",
+        "previous_sha256": "9fb6fcc7304b4b760a4d69760bd0c85b090b26883f0b7f931524b68dbff01d38",
+        "adopted_sha256": "cdb206534acf60fdd585d95fe5f9cec129db825254378765bb5073b003a687ee"
+      },
+      {
+        "shot": "07-06",
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_07_paper_20261012/c2_07_window_talk_paper.png",
+        "runtime_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_window_talk_v1.png",
+        "previous_archive": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\before\\c2_07_window_talk_v1.png",
+        "previous_sha256": "2e1386e70f0e2d43ce5401ae5b43f3d2e528c7d13da3d1e3d755e8ee1eb71a51",
+        "adopted_sha256": "a54032a14c40c71f8e5dc7e5a973cf7ba4ae49e9a4ebf7ae9462160d1c78cafa"
+      }
+    ],
+    "verification_status": "通过／68项运行断言、lint、映射和文件校验均通过",
+    "qa_directory": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa",
+    "external_worktree_changes": "本轮进行期间外部修改了characters.rpy与script_chapter2.rpy；本任务未编辑这两文件，按当前演出验收并保留外部改动。",
+    "verification": {
+      "mapping_report": "runtime_mapping_validation.json",
+      "runtime_report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\runtime_verification.json",
+      "preservation_report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\05\\01a10b75-438f-7893-a1c3-c7d14654f20c\\c2_07_paper_replacement_qa\\preservation_check.json",
+      "runtime_assertions_passed": 68,
+      "runtime_assertions_failed": 0,
+      "save_load_positions": 3,
+      "screenshots_reviewed": 7,
+      "lint_exit_code": 0,
+      "source_sha256": {
+        "game/characters.rpy": "6a37f06f4e42994a39ef46cc536fb945285a17776aa50884fb8c33b0f2b51afe",
+        "game/script_chapter2.rpy": "79ca1ddb61affd884c5a99be72a83912c0953350e2de5496fb61987d6218099e"
+      },
+      "runtime_source_hashes_stable": true,
+      "user_save_files_unchanged": 47,
+      "native_png_dimensions": [
+        1672,
+        941
+      ],
+      "virtual_game_canvas": [
+        1920,
+        1080
+      ],
+      "physical_test_sizes": [
+        [
+          1280,
+          720
+        ],
+        [
+          1867,
+          1050
+        ]
+      ],
+      "existing_warnings": [
+        "Obsolete im.Scale/im.Crop in bg_images.rpy and dialogue_ui.rpy",
+        "20 non-ASCII filenames"
+      ],
+      "ui_limit": "Narrator left margin remains narrow. Dialogue overlays lower legs and part of the box in window-talk, but key faces and gestures remain visible.",
+      "not_tested": [
+        "Full12-chapter regression",
+        "Old-version save migration",
+        "Mobile",
+        "Full physical1920x1080 fullscreen"
+      ]
+    }
+  }
+}

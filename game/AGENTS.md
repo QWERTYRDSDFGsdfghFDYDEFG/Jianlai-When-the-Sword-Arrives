@@ -109,7 +109,8 @@
 - 序章 / `script.rpy` 相关，优先看：
   - `script逐场分镜表.md`
   - `script_RenPy演出脚本执行表.md`
-- Chapter 2 到 Chapter 5 相关，优先看：
+- Chapter 2 当前完整章节相关，先看 `Codex/chapter2_storyboard.md`，按其中的实际执行顺序、素材状态及分镜表入口定位；原文快照与旧建议不代表当前已实现演出。
+- Chapter 3 到 Chapter 5 及旧版分镜历史参考：
   - `script_chapter2~5逐场分镜表.md`
   - `script_chapter2~5_RenPy演出脚本执行表.md`
 - 角色身份标准负责锁定“这个人是谁”；分镜表和演出表负责锁定“这场戏怎么站、怎么演、怎么构图”。

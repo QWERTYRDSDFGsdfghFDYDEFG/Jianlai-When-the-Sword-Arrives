@@ -40,7 +40,8 @@
 - 角色图工作流：`Codex/character_image_index.md`
 - 陈平安出图：`陈平安出图总手册.md`
 - 序章逐场执行：`script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`
-- Chapter 2-5 逐场执行：`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md`
+- 第二章当前逐场执行与补图：[完整第二章分镜入口](Codex/chapter2_storyboard.md)
+- Chapter 3-5 及旧版分镜参考：`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md`
 - 剧情瘦身记录：`Codex/story_compression_record.md`
 
 ---
@@ -82,7 +83,7 @@ script.rpy
   -> script_chapter12.rpy
 ```
 
-2026-10-11已按用户批准，将紫阳府赴宴、夜谈、翌晨离府及吴懿传讯合入第二章；第三章从离府后的溪边歇脚开始。当前实施范围与验收以[章节调整记录](Codex/story_compression_record.md)最新一节为准。
+2026-10-11已将紫阳府赴宴、夜谈、翌晨离府及吴懿传讯合入第二章；2026-10-12已按用户审阅的并排阅读版完成第二章11场改编，精简重复描述、明确心声与回忆归属，缺图部分保留必要短旁白。第三章仍从离府后的溪边歇脚开始。当前实施范围与验收以[章节调整记录](Codex/story_compression_record.md)最新一节为准。
 
 下表是尚未实施的长期章节设想，不代表当前游戏章号，也不代表本轮授权重排其他章节：
 

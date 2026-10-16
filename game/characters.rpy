@@ -76,6 +76,7 @@ define qyxt = Character("青衣小童")
 define shhz = Character("年轻马贼")
 define hy = Character("狐妖")
 define zyfs = Character("紫阳府修士")
+define jixiang_shen = Character("积香庙小神")
 define zndd = Character("中年道人")
 
 
@@ -83,9 +84,13 @@ define zndd = Character("中年道人")
 
 define narrator = Character(None, callback=set_dialogue_theme("narration"))
 
-# 预留给后续脚本使用：切换角色对象即可进入心声文本框样式。
-define cpa_thought = Character(None, callback=set_dialogue_theme("protagonist_thought"), what_style="say_thought")
+# 心声主题不显示姓名框；具名保留回看中的陈平安归属。
+define cpa_thought = Character("陈平安·心声", callback=set_dialogue_theme("protagonist_thought"), what_style="say_thought")
 define inner_voice = Character(None, callback=set_dialogue_theme("thought"), what_style="say_thought")
 
 # 心声归属同时保留在回看记录中；画面姓名由心声标签呈现。
 define wy_thought = Character("吴懿·心声", callback=set_dialogue_theme("thought"), what_style="say_thought")
+
+# 第二章的忆述与气府心语，避免在当前画面和回看中误读为现场对白。
+define cds_memory = Character("崔东山·回忆")
+define jssr_thought = Character("金色儒衫小人儿·气府", callback=set_dialogue_theme("thought"), what_style="say_thought")
