@@ -1,0 +1,766 @@
+{
+  "scene": "08-04 催席同行",
+  "date": "2026-10-18",
+  "status": "当前使用／用户已定稿，已接入08-04；静态与实机验收通过",
+  "authorization": "用户确认“可以定稿；检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致”，按已批准的固定左右独立立绘、修士画外与T132空廊方案接入。",
+  "method": "内置image_gen；所有图像修改由imagegen完成。只读像素检查和逐字节副本，不用程序重绘、抠图或重采样。",
+  "approved_sketch": "C:/Users/MSI/.codex/visualizations/2026/10/12/01a1300d-d7a7-75a1-a5d0-d405431d07d9/c2_08_04_layered/review.png",
+  "prompts": [
+    {
+      "key": "color_review",
+      "transparent": false,
+      "refs": [
+        "C:/Users/MSI/.codex/visualizations/2026/10/12/01a1300d-d7a7-75a1-a5d0-d405431d07d9/c2_08_04_layered/review.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_08_after_pat_v2.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png"
+      ],
+      "prompt": "Use case: sketch-to-render / identity-preserve. 给图1这张用户已确认的08-04传统Galgame左右立绘线稿上色，目标1920×1080横版，保留整个16:9构图。图1是唯一构图编辑目标：两人位置、大小、头顶留白、肩部间距、近正面朝向、闭口平和倾听、人物身份和主要衣型、左侧庭院栏杆、右侧柱廊、右后方敞开的宴堂入口全部保持。不要裁切、推近、改机位，不让两人靠拢，不新增人物、道具或文字。\n图2只参考前场同一夜廊的冷暖色和柔和纸本画法，不复制它的人物人数、站姿或侧面构图。图3只锁陈平安衣装固有色，图4锁孙登先脸部、成熟感和衣装固有色，图5锁陈平安脸部五官。陈平安：20–22岁、黑色束髻横簪、母版瘦长收束脸，灰蓝短袖外袍、灰白内衫、深灰护腕、朴素灰褐主腰绳；不能画成华服或披风。本场无背箱、无背带；壶在画面裁切外不强补。孙登先：保持已确认长椭圆脸、圆钝渐收下巴、自然饱满脸颊、偏长鼻梁、微弧眉、整洁稀疏短须、深棕黑松束颈肩长发，不能变成同龄精致少年；灰绿斜向叠裹外衣与肩布、米白卷袖内衫与肩部短布结、深棕布腰带；保持图1衣型与母版配色。不要加密织纹、碎破边或浓胡茬。\n夜色关系：左侧庭院暗蓝灰与灰青绿的大色块，树冠仅概括外形；右侧木柱和屋墙沉稳灰褐，三盏檐灯与远处敞开宴堂柔和暖琥珀色。冷色环境包裹人物，柔暖灯光轻轻照亮面部和衣襟，两人受光同属于一个空间；脸部肤色温润但不泛黄，灰蓝与灰绿仍一眼分清。宴堂有光但没有刺目灯泡、放射光束或过曝白洞，远景安静且比人物低对比。\n画法最重要：柔和的纸本水粉/薄涂绘画质感，大面积干净色块、少量宽阔笔触，轮廓线融进邻近颜色，边缘有虚有实，眼鼻嘴和衣层关键边缘清楚，其余衣褶、发束、树冠柔和。不能做整体失焦模糊；不能像3D游戏过场、锐化动画截图或油亮塑料。不刻每根发丝，不堆瓦片、木纹、衣褶、布料纤维、密叶、花纹、描边颗粒、纸面噪点、砂纸做旧、肌肤毛孔。纸本感由色块与边缘产生，不由噪点产生。保留克制、沉静、有人情味的二维国漫人物；两人均闭口，没有露齿笑。无字、无UI、无水印。"
+    },
+    {
+      "key": "color_review_soft",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-8b0e3586-5a4e-452c-b9da-d3687b068615.png"
+      ],
+      "transparent": false,
+      "prompt": "只对这张已上色画面做一次纹理减法和笔触柔化，所有人物身份、脸部五官、年龄、闭口表情、发型、服装裁剪、人物位置大小、头顶留白、肩部间隔、背景柱廊透视与门的位置、灰蓝和灰绿衣色、夜晚蓝灰庭院与琥珀灯光全部不变，禁止重构画面。\n必须去掉现在两人衣服上的碎多边形、龟裂纹、密织纹和斑驳肌理，把每块布料处理成干净统一的大色面：每个衣片仅2到3片宽阔阴影和柔和明暗过渡，保留必要的大褶皱，不出现重复小纹路。内衫也是干净米灰白大面，不增加纸纹或新颗粒。孙登先披布边缘保留原版型，但去掉牙齿般密集的锯齿破边，处理为少量起伏的整洁布边。胡须保持少量整洁短须，不加密。\n背景树叶现在过密，请将其合并为4到6大块深浅蓝灰/灰绿的树冠色面，融掉逐片小叶轮廓，保留树冠整体与几根主枝。远处屋檐只保留概括轮廓，不描瓦片或小窗格。木柱和栏杆去掉颗粒、木纹和碎斑，用平顺宽笔触画出体积。地面光仅几条宽阔柔和色带，不堆碎反光。灯笼暖光柔和，不强化辉光。\n头发减少内部细丝反光，整理成少量大片发束与柔和暗部；外轮廓、眼鼻嘴与衣层关键接缝仍清楚。线条融入周围色彩，背景边缘柔和且低对比，人物清楚，不要整体失焦模糊。成品是干净、柔和的纸本水粉薄涂：纸本感只靠大色面、宽笔触与虚实边缘，完全不靠噪点、砂纸、锐化颗粒、油画裂纹、布料纤维或全图覆盖纹理。保持原图尺寸比例，1920×1080横版目标，无文字、无UI、无人新增。"
+    },
+    {
+      "key": "bg",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-dd0f5c3f-af00-41c8-9220-e62ff39da461.png",
+        "C:/Users/MSI/.codex/visualizations/2026/10/12/01a1300d-d7a7-75a1-a5d0-d405431d07d9/c2_08_04_layered/bg.png"
+      ],
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit / background-extraction. 从图1最终柔和色稿中删除前景陈平安和孙登先两个人，补全他们遮挡的背景，交付同一机位的无人夜廊背景。图1是编辑目标、色彩和画法的唯一依据，图2白底线稿只帮助看清人物身后的空间结构；不把图2白底或轮廓线带进成品。\n保持完整16:9横版画布（目标1920×1080）、图1原透视、取景、每根原有木柱与栏杆的坐标、左侧庭院与大块树冠、右侧木廊、右后方敞开的宴堂门、暖灯光与蓝灰夜色；只补回被人挡住的部分，不推近、不裁切、不要换成正对称中央门厅。无任何人物、身体、脸、影子或携行物，无人形残影，无对白框、文字或UI。\n保持图1干净大色块，衣服被删除区域只能出现自然延续的木廊地面、栏杆和夜色庭院；树冠用几大块低对比灰青绿和蓝灰，背景安静，不增加密集小叶、瓦片、窗格、砖纹。木柱栏杆是柔和灰褐宽色面，地面暖光用宽阔柔和色带，灯笼光柔暖不刺眼，无碎反光、锐化颗粒、砂纸纹理或假旧斑。保持原色稿的平涂薄绘与虚实边缘。"
+    },
+    {
+      "key": "cpa_listen",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-dd0f5c3f-af00-41c8-9220-e62ff39da461.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: background-extraction / identity-preserve. 图1是最终色稿编辑目标；图2仅核对陈平安的脸部身份，不复制它的拼版或白色底。只留下图1左侧的陈平安整个人物，去掉孙登先和全部场景，人物外部生成真正alpha0透明背景。完整16:9横画布，目标1920×1080。严禁将人物移到中央或重新放大，保持陈平安在图1原坐标、原大小、原裁切：左侧头部中心约x27%，完整发髻顶约y13%，下方腰带仍到画布底。不要改表情或姿态，仍闭口平和倾听，保持同一脸型五官、发髻横簪、灰蓝短袖袍、米灰白内衫、灰褐腰绳、护腕、现有简洁大褶和全部色块。\n保留人物本身的暖灯光和柔和阴影、受光边缘，但不要将灯笼、柱子、栏杆、树叶或任何背景光斑带入PNG。人物皮肤、衣服与实心发束内部必须不透明alpha255，不能有透明洞；轮廓外真实透明，边缘只做1至2像素自然抗锯齿，不画白色光圈、灰白残边、透明矩形贴片、黑底、白底或棋盘格。清理孤立发丝碎屑，只保留连接头部的必要大束头发。\n画法继承图1大色面与干净柔和纸本薄涂，不补碎纹、衣料织纹、颗粒、皮肤毛孔或密发丝。不要新增手、箱子、背带、葫芦、文字或其他物件。只输出左侧陈平安一个透明单人层，保留全画布原位置。"
+    },
+    {
+      "key": "sdx_listen",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-dd0f5c3f-af00-41c8-9220-e62ff39da461.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/sdx/sdx_master_v2.png"
+      ],
+      "transparent": true,
+      "prompt": "Use case: background-extraction / identity-preserve. 图1是最终色稿编辑目标；图2仅核对孙登先同一成熟成年身份与既定衣装，不能把母版大笑带入，也不复制拼版。只留下图1右侧孙登先完整可见的人物部分，删除陈平安及全部背景，轮廓外真正alpha0透明。保留完整16:9横画布、目标1920×1080。严禁将人物移到中央、重新构图或放大，保持图1人物的原坐标、原大小、原裁切：右侧头部中心约x75%，完整发髻顶约y18%，下方腰带到画布底。\n原封保留同一脸部五官、成熟感、长椭圆脸、整洁短须、深棕黑松束长发、闭口温和平静倾听，灰绿叠襟肩布、米白卷袖与左肩短布结、深棕腰带，原有大色块、轮廓、暖灯受光与阴影。不新增或加密褶皱、碎破边、花纹、细发丝或胡茬，不改变衣型。手和斗笠在画框以下，不强补。\n人物内部皮肤、衣服和实心发束不透明alpha255；人物轮廓以外全部alpha0，不保留灯笼、柱子、树林或光斑。仔细清理耳后、发髻上方、肩缘的浅色杂边与孤立碎屑，边缘仅自然1至2像素抗锯齿，不加白光圈、羽化白边、灰色阴影块、白底、黑底、棋盘格或文字。保留图1干净柔和纸本薄涂，无锐化、砂纸或细密纹理。只输出右侧孙登先一个透明单人层，保留全画布原位置。"
+    },
+    {
+      "key": "cpa_centered",
+      "path": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-3e625728-3c6a-4f4b-a40a-9172895a65f4.png",
+      "prompt": "只调整这张透明陈平安立绘在画布上的位置与留边，不改人物内容。输出仍是完整16:9横版、目标1920×1080真实透明PNG，将人物整体平移到画布正中x50%，人物左右肩袖最宽不超过画布宽52%，完整发髻顶部在画布高度10%，腰带维持底边裁切。完整发髻、左右袖子外缘不得切掉；左右大块透明留空至少各20%。现有脸型五官、闭口神态、衣装剪裁、灰蓝米白颜色、暖光、全部衣褶和发型保持。整个人作为一个整体移动缩放，不改变身材比例，不重画面孔、不加部件。人物是暖灯照明下的干净大色块柔和二维绘画，清理透明边缘白屑/杂点但保留必要发束，内部皮肤衣服实心发束不透明，外部alpha0，不出现底色或棋盘格。不要任何场景、人物或道具。"
+    },
+    {
+      "key": "sdx_centered",
+      "path": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-2c1396bb-e6a6-48a5-a5e2-d352d28078fb.png",
+      "prompt": "只修正这张孙登先透明立绘的画布摆放：现在人物过于靠右、袖口被右边界切断。请将整个人平移到横版画布正中x50%，补全被画布右边切掉的那一小段袖子外轮廓，只补到与另一侧同样的自然下垂臂袖，不新增手势。完整16:9横版画布目标1920×1080，完整发髻顶在画布高度10%，腰带维持底边裁切，肩袖最宽不超过画布宽52%，人物左右各留至少20%完全透明区域。不得切掉发髻或任何一侧肩袖。除了位置、必要整体等比缩放和补完整袖缘以外，保持同一脸部、闭口平和神态、成熟年龄、整洁短须、发型、灰绿叠襟肩布、米白卷袖与短布结、深棕腰带、暖光色彩与原有简洁衣褶。不要重新设计人物或衣装。干净柔和二维绘画大色块，无碎纹或颗粒，轮廓外真实alpha0透明、人物内部不透明；清掉孤立白屑与碎边，不加白光圈、背景色、棋盘格、字或场景。"
+    },
+    {
+      "key": "cpa_talk",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-c72a7f26-1fce-40ae-a9ea-4ac16007095e.png"
+      ],
+      "transparent": true,
+      "prompt": "只编辑这张透明陈平安立绘的嘴唇，做平静说话表情差分。嘴唇由闭合改为自然微张，开口极小，是在说“赴宴要紧。大侠姓孙？我叫陈平安，孙大侠直呼名字便好。”保持平和可靠，嘴角微温和但不笑开，不露明显牙齿，不改变眼睛和眉毛。除嘴部小区域以外，保留原图全部像素位置、人物大小、完整画布、裁切、五官间距、肤色、暖光、发型、发簪、衣装线条色块和阴影。绝对不要重新构图、移动、缩放、加亮或整体重画人物，不能增加碎纹。真实alpha透明背景、人体实心不透明和干净边缘保持，无底色、无文字、无棋盘格，16:9横版原画布，目标1920×1080。"
+    },
+    {
+      "key": "sdx_talk",
+      "refs": [
+        "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-ede73b8b-225e-4a57-86db-7645cad2a436.png"
+      ],
+      "transparent": true,
+      "prompt": "只编辑这张透明孙登先立绘嘴部与极小范围的脸颊下眼睑，制作一句“行，就喊你陈平安。”的亲近回答表情。双侧嘴角自然抬起，嘴唇稍分开、只露一点牙齿，不张嘴大笑，不单侧坏笑；成熟比例与整洁短须原样保留。只允许这几处表情轻微变化，除此以外保持原图完整画布、人物坐标大小、原裁切、头部方向、鼻形、五官间距、肤色暖光、发型、服装大色块和全部阴影线条一致。绝不整体重画、移动、缩放或改色。不加新皱纹、密胡茬、织纹、颗粒或碎发。保留真实alpha透明背景与实心人物内部，不加底色、棋盘格或文字。16:9横版原画布，目标1920×1080。"
+    }
+  ],
+  "selected_assets": "imported_assets（正式路径、源图和SHA256见本记录对应字段）",
+  "palette": {
+    "cpa": "低饱和灰蓝短袖外袍、灰白内衫、灰褐主绳带",
+    "sdx": "灰绿叠襟肩布、米白卷袖及短布结、深棕腰带",
+    "background": "左庭院暗蓝灰和灰青绿，右木廊灰褐，檐灯与右后堂内柔暖琥珀光",
+    "rendering": "大色块、柔和薄涂、线条融色；去掉首版衣服碎多边形纹和密树叶"
+  },
+  "layout": {
+    "review": "获批线稿同框构图：陈左孙右，头顶留白与肩部间隔；闭口听催。review.png为独立生成的静态色稿，不是实际图层叠放或游戏截图。",
+    "portraits": "im.Scale到1920×1080，c2_08_slot：画布中心x=0.25/0.75，底部对齐，zoom=0.88；倾听shade=-0.04，非说话者shade=-0.10，说话者shade=0。"
+  },
+  "beats": [
+    {
+      "id": "T128",
+      "speaker": "zyfs",
+      "cpa": "listen",
+      "sdx": "listen",
+      "mode": "两人闭口听画外催促"
+    },
+    {
+      "id": "T129",
+      "speaker": "cpa",
+      "cpa": "talk",
+      "sdx": "listen",
+      "dim": "sdx"
+    },
+    {
+      "id": "T130",
+      "speaker": "sdx",
+      "cpa": "listen",
+      "sdx": "talk",
+      "dim": "cpa"
+    },
+    {
+      "id": "T131",
+      "speaker": "zyfs",
+      "cpa": "listen",
+      "sdx": "listen",
+      "mode": "恢复闭口"
+    },
+    {
+      "id": "T132",
+      "speaker": "zyfs",
+      "cpa": null,
+      "sdx": null,
+      "mode": "空廊，画外催萧鸾"
+    }
+  ],
+  "intermediates": [
+    {
+      "source": "exec-8b0e3586-5a4e-452c-b9da-d3687b068615.png",
+      "status": "待修正／首版衣物碎纹密，已由柔化色稿替代，保留在生成器目录"
+    },
+    {
+      "source": "exec-3e625728-3c6a-4f4b-a40a-9172895a65f4.png",
+      "status": "停用／拆图未保持整图坐标，改作居中单人素材"
+    },
+    {
+      "source": "exec-2c1396bb-e6a6-48a5-a5e2-d352d28078fb.png",
+      "status": "待修正／偏右导致袖缘截断，已居中补全"
+    }
+  ],
+  "validation": {
+    "static_review": "主代理和独立复核确认同框构图、身份、衣色、前场夜色连续；未发现影响上色评审的明显密碎纹理或锐化。",
+    "files": "六张1672×941原图副本哈希一致，四张人物RGBA、角点alpha0、肩袖左右未碰边；完整数值见asset_check.json。",
+    "expressions": "两表情可见轮廓范围差约1–3px，内部有局部重绘，不能声称逐像素一致。",
+    "not_verified": [
+      "Full twelve-chapter regression",
+      "Migration of pre-change save files",
+      "Physical 1920x1080 fullscreen",
+      "Mobile devices",
+      "Continuous mouth or walking animation; these are static expressions"
+    ],
+    "independent_asset_review": "两人交谈/倾听版本衣色、肤色和受光基本一致，无严重跳位；头顶发簪肩袖完整；空廊无人形残留。局部发丝衣线有轻微重绘。",
+    "known_edge_issue": "原图发梢、发簪及部分肩袖外沿有零散低alpha红黄残边，未作像素清理。当前夜廊背景下，1280×720和1867×1050实机未见明显彩色碎边、白色光晕或透明层方框；不能声称原图边缘完全无残留，换底需再检查。",
+    "static_check_result": "第8场11资源的基名/定义/路径/调用/代号核对全部通过；五新图原始字节一致；226条正文与2处pause、音频及控制流不变；191登记/57可调用/3产物校验通过。",
+    "runtime_result": "隔离lint退出0，实机65/65断言通过；T128-T132表情、压暗及空镜正常，T133退黑无残留；三处存读档、回退、回看返回通过。两窗口12截图完成独立目检，主线程另目检五状态、大窗与退黑。114份原存档、缓存及rpyc哈希不变。"
+  },
+  "runtime_changes": "bg_images.rpy注册独立背景与四张立绘；c2_08_slot固定左右居中锚点、zoom0.88与轻压暗；script_chapter2.rpy按T128–T132切换表情、亮暗及显隐，T133退黑。正文、音频、pause和控制流不变。",
+  "documentation_changed": [
+    "README.md",
+    "game/Codex/chapter2_storyboard.md",
+    "game/Codex/character_image_index.md",
+    "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+    "game/lh/sdx/sdx_face_ref.md",
+    "game/image_catalog.json及三份生成产物"
+  ],
+  "approved_composition": "work/art/chapter2/c2_08_04_approved.png",
+  "imported_assets": [
+    {
+      "source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\bg.png",
+      "path": "images/chapter2/c2_08_corridor_v1.png",
+      "sha256": "a11fc1111696ab528c31dacd11893e393fbcf1686e91b59761c7592c6ee817b8",
+      "copied_identically": true
+    },
+    {
+      "source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_listen.png",
+      "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+      "sha256": "911b2ca44d8020f404bccb4b335883f3fa8a342df67a14302fe2fa995ff606e2",
+      "copied_identically": true
+    },
+    {
+      "source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_talk.png",
+      "path": "images/chapter2/c2_08_cpa_talk_v1.png",
+      "sha256": "ad892d7fc39ddfcbd3cda95daad7d8154a0f460b24fb4ef89978d122fc33b355",
+      "copied_identically": true
+    },
+    {
+      "source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_listen.png",
+      "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+      "sha256": "d3adc3a2ce6fe952a2fefe4e5f5c55342176f94cb09f3bac952d17debb365936",
+      "copied_identically": true
+    },
+    {
+      "source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_talk.png",
+      "path": "images/chapter2/c2_08_sdx_talk_v1.png",
+      "sha256": "69f628a43942b5d348bce1ce63a8aa24bc3a1210057f1c817ce06cd0f60c4bdd",
+      "copied_identically": true
+    }
+  ],
+  "static_verification": {
+    "date": "2026-10-18",
+    "read_only_project_audit": true,
+    "checks": {
+      "all_226_dialogue_and_narration_lines_unchanged": true,
+      "two_unlettered_pauses_unchanged": true,
+      "audio_statements_unchanged": true,
+      "control_flow_and_python_statements_unchanged": true,
+      "before_08_04_verbatim_unchanged": true,
+      "08_05_and_later_verbatim_unchanged": true,
+      "old_image_definitions_unchanged": true,
+      "existing_catalog_entries_unchanged": true,
+      "existing_character_ids_unchanged": true,
+      "existing_expression_ids_unchanged": true,
+      "full_catalog_validation": true,
+      "all_three_generated_outputs_synced": true
+    },
+    "dialogue_lines": 226,
+    "unlettered_pauses": 2,
+    "current_scene8_resources": 11,
+    "catalog_records": 191,
+    "callable_records": 57,
+    "mappings": [
+      {
+        "code": "CG02·08·01",
+        "path": "images/chapter2/c2_08_banquet_arrival_v2.png",
+        "image_definition": "bg c2_08_banquet_arrival_v2",
+        "stable_alias": "bg cg02_08_01",
+        "call_lines": [
+          292
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "85bab840f580e7ad508e15948230e8f44e0b5b3dede8ccb06258651b4c52dbfc"
+      },
+      {
+        "code": "CG02·08·02",
+        "path": "images/chapter2/c2_08_recognition_v2.png",
+        "image_definition": "bg c2_08_recognition_v2",
+        "stable_alias": "bg cg02_08_02",
+        "call_lines": [
+          301
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "7905a81fb6cf2a0e0ced72a68362db0ee38ab8e77881e0bfd3d216ee09c35b7a"
+      },
+      {
+        "code": "CG02·08·03",
+        "path": "images/chapter2/c2_08_recognized_v2.png",
+        "image_definition": "bg c2_08_recognized_v2",
+        "stable_alias": "bg cg02_08_03",
+        "call_lines": [
+          317
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "eea5e260b87d8348bc52b018e2ca2a03b29e4cc2fce3ac785dd491c35c598090"
+      },
+      {
+        "code": "CG02·08·04",
+        "path": "images/chapter2/c2_08_shoulder_pat_v2.png",
+        "image_definition": "bg c2_08_shoulder_pat_v2",
+        "stable_alias": "bg cg02_08_04",
+        "call_lines": [
+          333
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "ee9392d43f97c81b3b958a75852a98737fa1cd9f632772263523a2b3189be309"
+      },
+      {
+        "code": "CG02·08·05",
+        "path": "images/chapter2/c2_08_after_pat_v2.png",
+        "image_definition": "bg c2_08_after_pat_v2",
+        "stable_alias": "bg cg02_08_05",
+        "call_lines": [
+          339
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "19c80523179a0632ab7ab326381f5a27d2c78a95b48ec5b10b3b465df0c9c863"
+      },
+      {
+        "code": "CG02·08·06",
+        "path": "images/chapter2/c2_08_wugong_memory_v1.png",
+        "image_definition": "bg c2_08_wugong_memory_v1",
+        "stable_alias": "bg cg02_08_06",
+        "call_lines": [
+          310
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "7c127e4868b0ccbc017f2f5e83ffeaf8c0717c732d19d8bd4cfb5d01d6891568"
+      },
+      {
+        "code": "背景02·01",
+        "path": "images/chapter2/c2_08_corridor_v1.png",
+        "image_definition": "bg c2_08_corridor_v1",
+        "stable_alias": "bg bg02_01",
+        "call_lines": [
+          351
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "a11fc1111696ab528c31dacd11893e393fbcf1686e91b59761c7592c6ee817b8",
+        "approved_source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\bg.png",
+        "source_sha256": "a11fc1111696ab528c31dacd11893e393fbcf1686e91b59761c7592c6ee817b8",
+        "source_identical": true
+      },
+      {
+        "code": "立绘01·01·02·01",
+        "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+        "image_definition": "cpa c2_08_cpa_listen_v1",
+        "stable_alias": "cpa o01_p02_e01",
+        "call_lines": [
+          352,
+          362,
+          366
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "911b2ca44d8020f404bccb4b335883f3fa8a342df67a14302fe2fa995ff606e2",
+        "approved_source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_listen.png",
+        "source_sha256": "911b2ca44d8020f404bccb4b335883f3fa8a342df67a14302fe2fa995ff606e2",
+        "source_identical": true
+      },
+      {
+        "code": "立绘01·01·02·09",
+        "path": "images/chapter2/c2_08_cpa_talk_v1.png",
+        "image_definition": "cpa c2_08_cpa_talk_v1",
+        "stable_alias": "cpa o01_p02_e09",
+        "call_lines": [
+          358
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "ad892d7fc39ddfcbd3cda95daad7d8154a0f460b24fb4ef89978d122fc33b355",
+        "approved_source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_talk.png",
+        "source_sha256": "ad892d7fc39ddfcbd3cda95daad7d8154a0f460b24fb4ef89978d122fc33b355",
+        "source_identical": true
+      },
+      {
+        "code": "立绘20·01·01·02",
+        "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+        "image_definition": "sdx c2_08_sdx_listen_v1",
+        "stable_alias": "sdx o01_p01_e02",
+        "call_lines": [
+          353,
+          359,
+          367
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "d3adc3a2ce6fe952a2fefe4e5f5c55342176f94cb09f3bac952d17debb365936",
+        "approved_source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_listen.png",
+        "source_sha256": "d3adc3a2ce6fe952a2fefe4e5f5c55342176f94cb09f3bac952d17debb365936",
+        "source_identical": true
+      },
+      {
+        "code": "立绘20·01·01·09",
+        "path": "images/chapter2/c2_08_sdx_talk_v1.png",
+        "image_definition": "sdx c2_08_sdx_talk_v1",
+        "stable_alias": "sdx o01_p01_e09",
+        "call_lines": [
+          363
+        ],
+        "three_way_match": true,
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "69f628a43942b5d348bce1ce63a8aa24bc3a1210057f1c817ce06cd0f60c4bdd",
+        "approved_source": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_talk.png",
+        "source_sha256": "69f628a43942b5d348bce1ce63a8aa24bc3a1210057f1c817ce06cd0f60c4bdd",
+        "source_identical": true
+      }
+    ],
+    "beat_states": [
+      {
+        "line": 356,
+        "text": "zyfs \"小孙，你们可以边走边聊。\"",
+        "state": {
+          "bg": {
+            "image": "c2_08_corridor_v1"
+          },
+          "cpa": {
+            "image": "c2_08_cpa_listen_v1",
+            "centre": 0.25,
+            "shade": -0.04
+          },
+          "sdx": {
+            "image": "c2_08_sdx_listen_v1",
+            "centre": 0.75,
+            "shade": -0.04
+          }
+        }
+      },
+      {
+        "line": 360,
+        "text": "cpa \"赴宴要紧。大侠姓孙？我叫陈平安，孙大侠直呼名字便好。\"",
+        "state": {
+          "bg": {
+            "image": "c2_08_corridor_v1"
+          },
+          "cpa": {
+            "image": "c2_08_cpa_talk_v1",
+            "centre": 0.25,
+            "shade": 0.0
+          },
+          "sdx": {
+            "image": "c2_08_sdx_listen_v1",
+            "centre": 0.75,
+            "shade": -0.1
+          }
+        }
+      },
+      {
+        "line": 364,
+        "text": "sdx \"行，就喊你陈平安。\"",
+        "state": {
+          "bg": {
+            "image": "c2_08_corridor_v1"
+          },
+          "cpa": {
+            "image": "c2_08_cpa_listen_v1",
+            "centre": 0.25,
+            "shade": -0.1
+          },
+          "sdx": {
+            "image": "c2_08_sdx_talk_v1",
+            "centre": 0.75,
+            "shade": 0.0
+          }
+        }
+      },
+      {
+        "line": 368,
+        "text": "zyfs \"你们怎么回事？难道要我们老祖和府主等你们落座才开席？\"",
+        "state": {
+          "bg": {
+            "image": "c2_08_corridor_v1"
+          },
+          "cpa": {
+            "image": "c2_08_cpa_listen_v1",
+            "centre": 0.25,
+            "shade": -0.04
+          },
+          "sdx": {
+            "image": "c2_08_sdx_listen_v1",
+            "centre": 0.75,
+            "shade": -0.04
+          }
+        }
+      },
+      {
+        "line": 374,
+        "text": "zyfs \"萧鸾夫人，你真是好大的架子！赶紧跟上，真是婆婆妈妈！\"",
+        "state": {
+          "bg": {
+            "image": "c2_08_corridor_v1"
+          }
+        }
+      },
+      {
+        "line": 380,
+        "text": "narrator \"到了堂口，吴懿亲自迎了上来。\"",
+        "state": {
+          "black": {
+            "image": "black"
+          }
+        }
+      }
+    ],
+    "source_sha256": {
+      "game\\script_chapter2.rpy": "47da0c5f3d52ab79acacdba047d7d99a8ead5d52579d2c0a25d2f17dc273e605",
+      "game\\bg_images.rpy": "3404a4f1ac0e2f16be5a265b2f8f82fa946b31318011577a96ef4746b20ca833",
+      "game\\image_catalog.json": "60c2ec8c4adeabf6eb77e56c3e84aae0d7631b337b0fe5bb2f2cf5d2750139dc",
+      "game\\image_codes.rpy": "9cadef8a956b1ed6158f123000314cb97fb5d433571e9e132118015ae0f5f21f"
+    },
+    "issues": [],
+    "passed": true,
+    "not_verified_by_this_audit": [
+      "RenPy syntax/runtime (main agent handles)",
+      "real composited alpha edges and dialogue overlap",
+      "save/load and rollback",
+      "exact visual brightness perception"
+    ]
+  },
+  "source_asset_checks": {
+    "assets": [
+      {
+        "key": "review",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-dd0f5c3f-af00-41c8-9220-e62ff39da461.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\review.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "c31ca54ff925152c646d3e4c0a7fe63f0ee9446965c86600e18e43a2230f31c1",
+        "copy_identical": true
+      },
+      {
+        "key": "bg",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-2a933e07-da4c-4dfa-8e4b-e95d64d8404d.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\bg.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "a11fc1111696ab528c31dacd11893e393fbcf1686e91b59761c7592c6ee817b8",
+        "copy_identical": true
+      },
+      {
+        "key": "cpa_listen",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-c72a7f26-1fce-40ae-a9ea-4ac16007095e.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_listen.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "911b2ca44d8020f404bccb4b335883f3fa8a342df67a14302fe2fa995ff606e2",
+        "copy_identical": true,
+        "alpha128_bbox": [
+          401,
+          62,
+          1270,
+          941
+        ],
+        "transparent_fraction": 0.733914597623418,
+        "nearly_opaque_fraction": 0.25117837584977804,
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_alpha": 253,
+        "lateral_clearance": true
+      },
+      {
+        "key": "cpa_talk",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-f7c24f97-0ae5-48de-88eb-8fb33ce0e35d.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\cpa_talk.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "ad892d7fc39ddfcbd3cda95daad7d8154a0f460b24fb4ef89978d122fc33b355",
+        "copy_identical": true,
+        "alpha128_bbox": [
+          401,
+          60,
+          1272,
+          941
+        ],
+        "transparent_fraction": 0.7323516924375474,
+        "nearly_opaque_fraction": 0.25381669200534906,
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_alpha": 253,
+        "lateral_clearance": true
+      },
+      {
+        "key": "sdx_listen",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-ede73b8b-225e-4a57-86db-7645cad2a436.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_listen.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "d3adc3a2ce6fe952a2fefe4e5f5c55342176f94cb09f3bac952d17debb365936",
+        "copy_identical": true,
+        "alpha128_bbox": [
+          364,
+          80,
+          1287,
+          941
+        ],
+        "transparent_fraction": 0.7189611733420112,
+        "nearly_opaque_fraction": 0.2631057767111238,
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_alpha": 253,
+        "lateral_clearance": true
+      },
+      {
+        "key": "sdx_talk",
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\exec-cfc84153-2deb-4efe-b606-0c8d1bd652f9.png",
+        "copy": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_04_color\\sdx_talk.png",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGBA",
+        "sha256": "69f628a43942b5d348bce1ce63a8aa24bc3a1210057f1c817ce06cd0f60c4bdd",
+        "copy_identical": true,
+        "alpha128_bbox": [
+          363,
+          79,
+          1290,
+          941
+        ],
+        "transparent_fraction": 0.7181018615033381,
+        "nearly_opaque_fraction": 0.26597862398242733,
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_alpha": 254,
+        "lateral_clearance": true
+      }
+    ],
+    "expression_pairs": [
+      {
+        "role": "cpa",
+        "same_dimensions": true,
+        "opaque_overlap_mean_RGB_difference_255": 5.468655878665845,
+        "alpha128_iou": 0.9875612412870073
+      },
+      {
+        "role": "sdx",
+        "same_dimensions": true,
+        "opaque_overlap_mean_RGB_difference_255": 4.165593823001768,
+        "alpha128_iou": 0.9862271968281098
+      }
+    ],
+    "note": "只读像素统计，不做裁切、重采样、蒙版或合成。IoU和平均RGB差异只辅助定位，不代表逐像素一致。"
+  },
+  "runtime_verification": {
+    "date": "2026-10-18",
+    "sdk": "RenPy 8.5.3.26051504",
+    "scope": "08-04 T128-T132 layered corridor; T127 prior CG and T133 black boundary",
+    "commands": [
+      "run_qa.ps1 lint",
+      "run_qa.ps1 runtime",
+      "preserve_runtime.py before",
+      "preserve_runtime.py after"
+    ],
+    "lint": {
+      "result": "No syntax or missing-resource errors; im.Scale/Crop deprecation and non-ASCII filename warnings remain.",
+      "exit_code": 0
+    },
+    "runtime": {
+      "failed": 0,
+      "save_load_points": [
+        "T129 Chen speaks",
+        "T130 Sun speaks",
+        "T132 empty corridor"
+      ],
+      "elapsed_seconds": 28.557,
+      "assertions": 65,
+      "exit_code": 0,
+      "passed": 65,
+      "screenshot_count": 12,
+      "checkpoints": 15
+    },
+    "physical_sizes_observed": [
+      "1280x720",
+      "1867x1050"
+    ],
+    "source_hashes_unchanged_during_checks": true,
+    "original_runtime_preservation": {
+      "protected_files": 114,
+      "unchanged": 114,
+      "changed_or_missing": [],
+      "new_files": [],
+      "passed": true
+    },
+    "visual_review": [
+      "All twelve runtime screenshots inspected.",
+      "T128 and T131 show both listening; T129 Chen speaks and Sun dims; T130 Sun speaks and Chen dims.",
+      "Stable left/right placements, complete hair buns, central gap, no face overlap or dialogue occlusion.",
+      "No obvious colored fringe or rectangular alpha artifact in these two real window sizes; this does not certify all raw alpha edges clean.",
+      "T132 removes both portrait tags and leaves corridor; T133 shows black without either portrait or corridor.",
+      "Three save loads restore corresponding portraits, expressions and empty corridor; history screen is stable and speaker attribution readable.",
+      "Rollback from T133 restores T132 empty corridor, then T131 listening and T130 Sun speaking.",
+      "Existing narrator left margin at T133 remains narrow; unchanged by this task."
+    ],
+    "not_verified": [
+      "Full twelve-chapter regression",
+      "Migration of pre-change save files",
+      "Physical 1920x1080 fullscreen",
+      "Mobile devices",
+      "Continuous mouth or walking animation; these are static expressions"
+    ],
+    "screenshot_directory": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\scene8_04_20261018\\runtime\\screenshots",
+    "source_hashes": {
+      "game/characters.rpy": "6a37f06f4e42994a39ef46cc536fb945285a17776aa50884fb8c33b0f2b51afe",
+      "game/script_chapter2.rpy": "47da0c5f3d52ab79acacdba047d7d99a8ead5d52579d2c0a25d2f17dc273e605",
+      "game/bg_images.rpy": "3404a4f1ac0e2f16be5a265b2f8f82fa946b31318011577a96ef4746b20ca833",
+      "game/image_catalog.json": "60c2ec8c4adeabf6eb77e56c3e84aae0d7631b337b0fe5bb2f2cf5d2750139dc",
+      "game/image_codes.rpy": "9cadef8a956b1ed6158f123000314cb97fb5d433571e9e132118015ae0f5f21f"
+    },
+    "image_sha256": {
+      "c2_08_corridor_v1": "A11FC1111696AB528C31DACD11893E393FBCF1686E91B59761C7592C6EE817B8",
+      "c2_08_cpa_listen_v1": "911B2CA44D8020F404BCCB4B335883F3FA8A342DF67A14302FE2FA995FF606E2",
+      "c2_08_cpa_talk_v1": "AD892D7FC39DDFCBD3CDA95DAAD7D8154A0F460B24FB4EF89978D122FC33B355",
+      "c2_08_sdx_listen_v1": "D3ADC3A2CE6FE952A2FEFE4E5F5C55342176F94CB09F3BAC952D17DEBB365936",
+      "c2_08_sdx_talk_v1": "69F628A43942B5D348BCE1CE63A8AA24BC3A1210057F1C817CE06CD0F60C4BDD"
+    }
+  },
+  "verification_sources": {
+    "runtime": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\scene8_04_20261018\\verification.json",
+    "static": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\scene8_04_20261018\\static_verification.json",
+    "preservation": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\scene8_04_20261018\\preservation_verification.json"
+  }
+}

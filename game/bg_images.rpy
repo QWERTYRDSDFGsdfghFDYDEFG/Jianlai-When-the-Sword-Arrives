@@ -72,9 +72,48 @@ image bg c2_08_banquet_arrival_v2 = im.Scale("images/chapter2/c2_08_banquet_arri
 image bg c2_08_banquet_arrival_v1 = "bg c2_08_banquet_arrival_v2"
 image bg c2_08_recognition_v2 = im.Scale("images/chapter2/c2_08_recognition_v2.png", 1920, 1080)
 image bg c2_08_recognition_v1 = "bg c2_08_recognition_v2"
+image bg c2_08_wugong_memory_v1 = im.Scale("images/chapter2/c2_08_wugong_memory_v1.png", 1920, 1080)
 image bg c2_08_recognized_v2 = im.Scale("images/chapter2/c2_08_recognized_v2.png", 1920, 1080)
 image bg c2_08_recognized_v1 = "bg c2_08_recognized_v2"
 image bg c2_08_shoulder_pat_v2 = im.Scale("images/chapter2/c2_08_shoulder_pat_v2.png", 1920, 1080)
 image bg c2_08_shoulder_pat_v1 = "bg c2_08_shoulder_pat_v2"
 image bg c2_08_after_pat_v2 = im.Scale("images/chapter2/c2_08_after_pat_v2.png", 1920, 1080)
 image bg c2_08_after_pat_v1 = "bg c2_08_after_pat_v2"
+
+# 08-04: one shared corridor and two independent portrait tags.
+image bg c2_08_corridor_v1 = im.Scale("images/chapter2/c2_08_corridor_v1.png", 1920, 1080)
+image cpa c2_08_cpa_listen_v1 = im.Scale("images/chapter2/c2_08_cpa_listen_v1.png", 1920, 1080)
+image cpa c2_08_cpa_talk_v1 = im.Scale("images/chapter2/c2_08_cpa_talk_v1.png", 1920, 1080)
+image sdx c2_08_sdx_listen_v1 = im.Scale("images/chapter2/c2_08_sdx_listen_v1.png", 1920, 1080)
+image sdx c2_08_sdx_talk_v1 = im.Scale("images/chapter2/c2_08_sdx_talk_v1.png", 1920, 1080)
+
+# 08-05: approved greeting and linked-arm story frames.
+image bg c2_08_greet_v1 = im.Scale("images/chapter2/c2_08_greet_v1.png", 1920, 1080)
+image bg c2_08_link_v1 = im.Scale("images/chapter2/c2_08_link_v1.png", 1920, 1080)
+
+# These portraits include transparent margins; anchor their canvas centres.
+transform c2_08_slot(centre, shade=0.0):
+    xpos centre
+    xanchor 0.5
+    ypos 1.0
+    yanchor 1.0
+    zoom 0.88
+    matrixcolor BrightnessMatrix(shade)
+
+# 08-05: independent hall and paired speaking/listening portraits.
+image bg c2_08_hall_v1 = im.Scale("images/chapter2/c2_08_hall_v1.png", 1920, 1080)
+image peiqian c2_08_pq_talk_v1 = im.Scale("images/chapter2/c2_08_pq_talk_v1.png", 1920, 1080)
+image peiqian c2_08_pq_listen_v1 = im.Scale("images/chapter2/c2_08_pq_listen_v1.png", 1920, 1080)
+image zl c2_08_zl_talk_v1 = im.Scale("images/chapter2/c2_08_zl_talk_v1.png", 1920, 1080)
+image zl c2_08_zl_listen_v1 = im.Scale("images/chapter2/c2_08_zl_listen_v1.png", 1920, 1080)
+
+# Full-canvas portraits use the approved hall footpoints and a top-left origin.
+transform c2_08_reaction(scale=1.0, dx=0, dy=0, shade=0.0):
+    xpos 0
+    ypos 0
+    xanchor 0
+    yanchor 0
+    zoom scale
+    xoffset dx
+    yoffset dy
+    matrixcolor BrightnessMatrix(shade)

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Original angular panel geometry; no imported game UI artwork. -->
+  <path fill="#050505" d="M520 828 L1648 730 L1720 1008 L1570 1055 L560 1067 L520 1020 L478 988 L501 952 L439 904 L509 911 Z"/>
+  <path fill="#fff" d="M540 848 L1629 752 L1694 993 L1564 1034 L574 1047 L542 1006 L499 979 L525 947 L484 922 L526 931 Z"/>
+  <path fill="#080808" d="M555 862 L1615 770 L1674 981 L1557 1015 L584 1029 L555 994 L523 976 L550 944 L533 945 Z"/>
+  <!-- Name strip overlaps the upper frame and points back to the portrait. -->
+  <path fill="#050505" d="M531 765 L884 715 L922 800 L564 854 L572 826 L482 832 Z"/>
+  <path fill="#fff" d="M546 780 L873 733 L897 787 L578 835 L589 810 L520 818 Z"/>
+  <!-- Static continuation mark, deliberately separate from the clickable menu. -->
+  <path fill="#fff" d="M1570 971 L1648 948 L1605 1004 Z"/>
+</svg>

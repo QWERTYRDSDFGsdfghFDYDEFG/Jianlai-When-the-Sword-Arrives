@@ -107,6 +107,27 @@ init -5 python:
         ),
     }
 
+    # 独立对白头像：原图保持完整；显示裁切、适配与剧情选择分别管理。
+    DIALOGUE_PORTRAIT_CONFIG = {
+        "c2_08_pq_surprise": {
+            "speaker": "裴钱",
+            "path": "gui/dialogue/c2_08_pq_surprise_v1.png",
+            "crop": (404, 0, 904, 941),
+            "fit": "contain",
+        },
+        "c2_08_zl_tease": {
+            "speaker": "朱敛",
+            "path": "gui/dialogue/c2_08_zl_tease_v1.png",
+            "crop": (302, 12, 1111, 929),
+            "fit": "contain",
+        },
+    }
+
+    DIALOGUE_PORTRAIT_LAYOUT = {
+        "regular": {"content_size": (202, 210), "text_width": 1460},
+        "small": {"content_size": (170, 178), "text_width": 1520},
+    }
+
     def set_dialogue_theme(theme):
         def _dialogue_theme_callback(event, interact=True, **kwargs):
             if event == "begin":
@@ -153,7 +174,7 @@ init -5 python:
         return "speaker"
 
 
-    def get_dialogue_ui(who):
+    def get_dialogue_ui(who, portrait=None):
         theme = resolve_dialogue_theme(who)
         ui = dict(DIALOGUE_THEME_CONFIG.get(theme, DIALOGUE_THEME_CONFIG["speaker"]))
 
@@ -166,6 +187,7 @@ init -5 python:
             and bool(pair_right)
             and theme != "narration"
             and not renpy.variant("small")
+            and portrait is None
         )
 
         ui["avatar"] = DIALOGUE_AVATAR_IMAGES.get(who)
@@ -174,6 +196,33 @@ init -5 python:
         ui["show_name"] = bool(who) and theme not in ("thought", "protagonist_thought")
         ui["seal_text"] = who[:1] if who else ""
         ui["paralanguage"] = renpy.store.dialogue_paralanguage
+        ui["portrait"] = portrait
+        ui["avatar_frame_style"] = "say_avatar_frame"
+        ui["avatar_yalign"] = 1.0
+        ui["text_width"] = 1260
+
+        if portrait is not None:
+            spec = DIALOGUE_PORTRAIT_CONFIG.get(portrait)
+            if spec is None:
+                raise ValueError("Unknown dialogue portrait: {!r}".format(portrait))
+            if spec["speaker"] != who:
+                raise ValueError("Dialogue portrait {!r} does not belong to {!r}".format(portrait, who))
+
+            layout = DIALOGUE_PORTRAIT_LAYOUT["small" if renpy.variant("small") else "regular"]
+            # 先裁显示区域，再等比适配；不把横版透明留白或人物比例压进头像槽。
+            ui["avatar"] = Transform(
+                Transform(spec["path"], crop=spec["crop"]),
+                xysize=layout["content_size"],
+                fit=spec["fit"],
+            )
+            ui["show_avatar"] = True
+            ui["show_pair"] = False
+            ui["show_name"] = True
+            ui["window_style"] = "say_window_portrait"
+            ui["avatar_frame_style"] = "say_portrait_frame"
+            ui["avatar_background"] = "#00000000"
+            ui["avatar_yalign"] = 0.5
+            ui["text_width"] = layout["text_width"]
 
         if show_pair:
             ui["pair_left"] = get_dialogue_pair_slot(pair_left, who, ui)

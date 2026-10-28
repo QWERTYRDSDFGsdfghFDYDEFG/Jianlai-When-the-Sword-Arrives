@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-17",
+  "revision": "c2_08_wugong_memory_v1_integration",
+  "status": "当前使用／用户已确认成图并授权接入，已完成接入与局部运行验收",
+  "authorization": "用户确认浅设色成图“可以就这样”，随后明确要求“开始替换，并且检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致”。",
+  "scope": "08-02廊下相认内，以蜈蚣岭回忆图替换T113–T114期间原询认背景的显示；T115前沿原有切镜回到夜廊。原五张场景图保留。",
+  "plan": [
+    "1. 核对批准源图与现有询认、认出切镜，保存修改前文件快照。",
+    "2. 原图逐字节复制到章节素材目录，注册唯一名称，仅在两句回忆对白前插入切镜。",
+    "3. 同步稳定图片代号目录、分镜表、图片索引及项目入口。",
+    "4. 核对第8场六图的定义、路径、脚本调用；执行图片目录校验、RenPy lint及隔离运行验收。"
+  ],
+  "asset": {
+    "code": "CG02·08·06",
+    "path": "game/images/chapter2/c2_08_wugong_memory_v1.png",
+    "source": "C:/Users/MSI/.codex/generated_images/01a1300d-d7a7-75a1-a5d0-d405431d07d9/exec-41a97539-cc8e-460c-8418-aa8ef7a03d32.png",
+    "sha256": "7c127e4868b0ccbc017f2f5e83ffeaf8c0717c732d19d8bd4cfb5d01d6891568",
+    "native_size": [
+      1672,
+      941
+    ],
+    "render_size": [
+      1920,
+      1080
+    ],
+    "copy_policy": "原图逐字节复制；沿用im.Scale运行到1920×1080，未重采样源图。",
+    "definition": "bg c2_08_wugong_memory_v1",
+    "script_call": "scene bg c2_08_wugong_memory_v1",
+    "stable_alias": "bg cg02_08_06",
+    "style": "浅设色纸本画；四人共享破庙前空间，暖米白、浅灰赭环境；衣物以大色块和薄阴影概括，线色融入衣色，背景留白。无冷暖对立分屏、胶片框、密纹或锐化颗粒。",
+    "identity_scope": "本次批准仅为回忆分镜成图；不另立陈平安、孙登先或两童的人物母版，未独立核定历史衣装。"
+  },
+  "integration": {
+    "inquiry": "T111–T112沿用bg c2_08_recognition_v2",
+    "memory": [
+      {
+        "id": "T113",
+        "speaker": "cpa",
+        "text": "破庙那次，我带着两个小家伙，一个青衣，一个粉裙。",
+        "scene": "bg c2_08_wugong_memory_v1",
+        "line": 313
+      },
+      {
+        "id": "T114",
+        "speaker": "cpa",
+        "text": "除妖之后，大侠还提醒我，不是所有山上人，都肯容人带着成精的妖物。",
+        "scene": "bg c2_08_wugong_memory_v1",
+        "line": 314
+      }
+    ],
+    "return": {
+      "id": "T115",
+      "speaker": "sdx",
+      "text": "好嘛，原来是你来着！",
+      "scene": "bg c2_08_recognized_v2",
+      "line": 320
+    },
+    "later_narration": "T119–T121继续显示bg c2_08_recognized_v2，不重复插入回忆图。",
+    "preserved": "226条正文、说话人、两处无字停留、音频、label/jump及原五张场景图不变。",
+    "script_diff": "仅新增一条说明注释、window auto hide、scene、with trans_short及空行；移除这五行后与任务开始前脚本完全一致（换行格式归一化）。"
+  },
+  "modified_files": [
+    "game/images/chapter2/c2_08_wugong_memory_v1.png",
+    "game/bg_images.rpy",
+    "game/script_chapter2.rpy",
+    "game/image_catalog.json",
+    "game/image_codes.rpy",
+    "game/Codex/image_code_catalog.md",
+    "game/Codex/image_code_gallery.html",
+    "game/Codex/chapter2_storyboard.md",
+    "game/Codex/character_image_index.md",
+    "README.md",
+    "work/art/chapter2/c2_08_memory_record.json"
+  ],
+  "catalog_verification": {
+    "command": "tools/build_image_catalog.py --check",
+    "result": "通过：186条登记、52条剧情可调用、3个生成产物同步"
+  },
+  "static_verification": {
+    "date": "2026-10-17",
+    "scene8_image_mapping": [
+      {
+        "code": "CG02·08·01",
+        "definition": "bg c2_08_banquet_arrival_v2",
+        "path": "images/chapter2/c2_08_banquet_arrival_v2.png",
+        "script_call": "scene bg c2_08_banquet_arrival_v2",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      },
+      {
+        "code": "CG02·08·02",
+        "definition": "bg c2_08_recognition_v2",
+        "path": "images/chapter2/c2_08_recognition_v2.png",
+        "script_call": "scene bg c2_08_recognition_v2",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      },
+      {
+        "code": "CG02·08·03",
+        "definition": "bg c2_08_recognized_v2",
+        "path": "images/chapter2/c2_08_recognized_v2.png",
+        "script_call": "scene bg c2_08_recognized_v2",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      },
+      {
+        "code": "CG02·08·04",
+        "definition": "bg c2_08_shoulder_pat_v2",
+        "path": "images/chapter2/c2_08_shoulder_pat_v2.png",
+        "script_call": "scene bg c2_08_shoulder_pat_v2",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      },
+      {
+        "code": "CG02·08·05",
+        "definition": "bg c2_08_after_pat_v2",
+        "path": "images/chapter2/c2_08_after_pat_v2.png",
+        "script_call": "scene bg c2_08_after_pat_v2",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      },
+      {
+        "code": "CG02·08·06",
+        "definition": "bg c2_08_wugong_memory_v1",
+        "path": "images/chapter2/c2_08_wugong_memory_v1.png",
+        "script_call": "scene bg c2_08_wugong_memory_v1",
+        "file_exists": true,
+        "catalog_and_alias_match": true,
+        "passed": true
+      }
+    ],
+    "mapping_passed": "6/6",
+    "only_script_change": "The five-line memory transition block; removing it restores the complete pre-task script exactly after newline normalization.",
+    "dialogue_entries": 226,
+    "dialogue_speakers_audio_labels_jumps_silent_pauses": "unchanged",
+    "memory_text_entries": [
+      {
+        "id": "T113",
+        "speaker": "cpa",
+        "text": "破庙那次，我带着两个小家伙，一个青衣，一个粉裙。",
+        "scene": "bg c2_08_wugong_memory_v1",
+        "line": 313
+      },
+      {
+        "id": "T114",
+        "speaker": "cpa",
+        "text": "除妖之后，大侠还提醒我，不是所有山上人，都肯容人带着成精的妖物。",
+        "scene": "bg c2_08_wugong_memory_v1",
+        "line": 314
+      }
+    ],
+    "return_entry": {
+      "id": "T115",
+      "speaker": "sdx",
+      "text": "好嘛，原来是你来着！",
+      "scene": "bg c2_08_recognized_v2",
+      "line": 320
+    },
+    "historical_narration_T119_T121": "remains bg c2_08_recognized_v2",
+    "source_png_byte_identical": true,
+    "sha256": "7c127e4868b0ccbc017f2f5e83ffeaf8c0717c732d19d8bd4cfb5d01d6891568",
+    "native_size": [
+      1672,
+      941
+    ],
+    "render_size": [
+      1920,
+      1080
+    ],
+    "runtime_qa_source_hashes_still_match": true,
+    "all_checks_passed": true
+  },
+  "runtime_verification": {
+    "date": "2026-10-17",
+    "sdk": "RenPy 8.5.3.26051504",
+    "scope": "08-02 T113-T114 memory insert; recognition -> memory -> recognized -> three narrations -> shoulder pat",
+    "commands": [
+      "run_qa.ps1 lint",
+      "run_qa.ps1 runtime",
+      "preserve_runtime.py before",
+      "preserve_runtime.py after"
+    ],
+    "lint": {
+      "result": "No new syntax or missing-image errors; existing im.Scale/Crop deprecations and non-ASCII filenames remain.",
+      "exit_code": 0
+    },
+    "runtime": {
+      "screenshot_count": 11,
+      "failed": 0,
+      "checkpoints": 13,
+      "assertions": 49,
+      "elapsed_seconds": 25.668,
+      "passed": 49,
+      "exit_code": 0
+    },
+    "physical_sizes_observed": [
+      "1280x720",
+      "1867x1050"
+    ],
+    "source_hashes_unchanged_during_checks": true,
+    "original_runtime_preservation": {
+      "protected_files": 114,
+      "unchanged": 114,
+      "changed_or_missing": [],
+      "new_files": [],
+      "passed": true
+    },
+    "visual_review": [
+      "All eleven runtime screenshots inspected.",
+      "T113 and T114 show the confirmed pale-color memory image, with Chen Pingan as speaker.",
+      "All four heads and Sun Dengxian knife/hand are above the dialogue panel; lower bodies covered as expected.",
+      "History is stable and shows both memory lines under Chen Pingan; return and both save loads preserve memory background.",
+      "T115 returns to night corridor; all three historical narration paragraphs remain in corridor; shoulder pat switches correctly.",
+      "Existing narrator text remains close to left edge; not changed by this task."
+    ],
+    "not_verified": [
+      "Full twelve-chapter regression",
+      "Migration of pre-change save files",
+      "Physical 1920x1080 fullscreen",
+      "Mobile devices"
+    ],
+    "screenshot_directory": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\flashback_20261017\\runtime\\screenshots",
+    "source": {
+      "game/characters.rpy": "6a37f06f4e42994a39ef46cc536fb945285a17776aa50884fb8c33b0f2b51afe",
+      "game/script_chapter2.rpy": "90106a9db44483dec20615ddb148205f508073879ef8962299ff4ce3728edf42",
+      "game/bg_images.rpy": "83b1f284730f52b8a746caae29ff6dbdf5acd3b5cda75aecccb877bdc837590b",
+      "game/image_catalog.json": "fdaed57d86fae64459d97ca95201a332b934e7dd46ed148f61b9de314a54c45c",
+      "game/image_codes.rpy": "1148b061e1948d76923e7265375036c11bead44a791f194bc8399732a79dca85"
+    }
+  },
+  "evidence": {
+    "before_snapshot_directory": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_memory_integration\\before",
+    "static_report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\c2_08_memory_integration\\static_verification.json",
+    "runtime_report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\flashback_20261017\\verification.json",
+    "screenshot_memory_720": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\flashback_20261017\\runtime\\screenshots\\03_memory_second_720.png",
+    "screenshot_memory_large": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\flashback_20261017\\runtime\\screenshots\\04_memory_second_large.png",
+    "screenshot_return": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\12\\01a1300d-d7a7-75a1-a5d0-d405431d07d9\\flashback_20261017\\runtime\\screenshots\\07_return_recognized_720.png"
+  },
+  "unverified_and_known_limits": [
+    "未执行旧版本存档迁移测试和全章节回归。",
+    "未测试物理1920×1080全屏与移动端；实际验证窗口为1280×720及1867×1050。",
+    "RenPy lint仅有既有im.Scale/Crop弃用提示及非ASCII文件名提示。",
+    "现有旁白左边距偏窄，本轮未改。",
+    "历史衣装未独立核定；成图为用户批准的演出资产，不作为原著考据或新人物母版。"
+  ],
+  "preservation": "已有脏文件与其他任务的陈平安15视角记录保留。未删除、提交、推送或发布素材；隔离QA未改动原114份存档、缓存与rpyc。"
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-27",
+  "scope": "Photoshop design finalization and read-only runtime image reference audit; no RenPy integration",
+  "decision": {
+    "approved_layouts": [
+      "A2",
+      "B2"
+    ],
+    "game_default": null,
+    "integrated": false
+  },
+  "psd": {
+    "file": "c2_08_05_dialogue_final.psd",
+    "sha256": "fd3c7602053a4735669123a14fe2815b57c93a8e46819aec41deaff417ba59d4",
+    "size": [
+      1920,
+      1080
+    ],
+    "saved_and_bound_to_file": true,
+    "layer_comps": 6,
+    "comp_capture": "visibility only; A2 and B2 each contain T135/T136/T137"
+  },
+  "images": {
+    "c2_08_05_a2_t135.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "4538eeba241988b099531b5e6ddb8543a94d0f02b0f9f6f8100a53fca7e95f4e"
+    },
+    "c2_08_05_a2_t136.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "53ad1fbb67e36041fc725c215b5cf8f020bffe962c7763522aa56cfe0a05f25a"
+    },
+    "c2_08_05_a2_t137.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "437c42c2d617b7de3b9ec8c2df5504a4e2cf1a42c62af5f525f091c456fd3aa7"
+    },
+    "c2_08_05_b2_t135.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "f9fab0e9d14b8364f34dcef123978ca1a4d5ae2c1903213ade84bfc92d2e8852"
+    },
+    "c2_08_05_b2_t136.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "b50848fa004778a60d058b04d2fee6c9e140dfd36669d79c44cb284af013a254"
+    },
+    "c2_08_05_b2_t137.png": {
+      "size": [
+        1920,
+        1080
+      ],
+      "sha256": "fbc3351e4e3accd928275aad69d45e1686864b98d0b135c8dc74535a5797971e"
+    }
+  },
+  "approved_preview_comparison": [
+    {
+      "approved_preview": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_comparison\\a2_senren_portrait.png",
+      "final_preview": "c2_08_05_a2_t135.png",
+      "pixel_identical": false,
+      "max_channel_difference_0_255": 2,
+      "mean_channel_difference": [
+        0.03449893904320988,
+        0.03221113040123457,
+        0.03396894290123457
+      ]
+    },
+    {
+      "approved_preview": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_comparison\\a2_senren_portrait_long.png",
+      "final_preview": "c2_08_05_a2_t136.png",
+      "pixel_identical": false,
+      "max_channel_difference_0_255": 2,
+      "mean_channel_difference": [
+        0.033515625,
+        0.03127170138888889,
+        0.03297453703703704
+      ]
+    },
+    {
+      "approved_preview": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_comparison\\b2_atri_portrait.png",
+      "final_preview": "c2_08_05_b2_t135.png",
+      "pixel_identical": false,
+      "max_channel_difference_0_255": 2,
+      "mean_channel_difference": [
+        0.041454957561728394,
+        0.03183207947530864,
+        0.03289110725308642
+      ]
+    },
+    {
+      "approved_preview": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_comparison\\b2_atri_portrait_long.png",
+      "final_preview": "c2_08_05_b2_t136.png",
+      "pixel_identical": false,
+      "max_channel_difference_0_255": 2,
+      "mean_channel_difference": [
+        0.03744068287037037,
+        0.029156057098765432,
+        0.030271026234567903
+      ]
+    }
+  ],
+  "visual_review": {
+    "result": "pass",
+    "details": "T135/T136 accepted layout retained; T137 reviewed in A2/B2: correct speaker, full text, readable controls, feathered transitions. Re-export pixels differ by at most 2/255; no visible layout change. Exact pixel equality is not claimed."
+  },
+  "protected_runtime_sha256": {
+    "game/bg_images.rpy": "147748cc4654521794271069339c6f92896fa09cb11e37cb02357a70972fb406",
+    "game/image_codes.rpy": "6f26975e226c20f2910a366e614a60a5dbebe79e47bf5d696e69c85b4ae076cd",
+    "game/image_catalog.json": "78fe099ef1f0165adc5ae271d8cc928d07bcf265999cc8f978f3e6ca31258f9a",
+    "game/script_chapter2.rpy": "2773914b5137e11ff5b8f8efb07f59c56390ce20cfbebecc7a6364a529ce8651",
+    "game/screens.rpy": "21dc64341234fb57634a8912c8bf797552c6a61e9a388667aa935fc41b12cc8c",
+    "game/dialogue_ui.rpy": "3264c8cecd031d74a141fcccf17d774b75169def510988214ef66d568eec5dc2"
+  },
+  "protected_runtime_unchanged": true,
+  "bg_images_consistency_check": {
+    "status": "passed_static",
+    "definitions": 72,
+    "direct_file_definitions": 67,
+    "existing_direct_paths": 67,
+    "compatibility_aliases": 5,
+    "main_story_static_calls": 65,
+    "unresolved_calls": 0,
+    "missing_files": 0,
+    "duplicates": 0,
+    "case_mismatches": 0,
+    "literal_name_differences": "Four title_ prefixed definitions map to existing title_progress filenames; five old v1 names alias current v2 definitions; stable image codes intentionally differ from filenames. All resolve.",
+    "catalog_check": {
+      "command": "tools/build_image_catalog.py --check",
+      "exit_code": 0,
+      "registrations": 201,
+      "callable_codes": 64,
+      "outputs_synced": 3
+    }
+  },
+  "not_tested": [
+    "RenPy integration, actual UI button behavior, save/load and rollback with the new designs",
+    "Full gameplay and physical mobile devices"
+  ],
+  "known_limitations": [
+    "The exported PNG controls are visual mockups; the designs are not installed as the game UI.",
+    "A2/B2 both retained; no game default selected."
+  ]
+}

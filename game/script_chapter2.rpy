@@ -305,6 +305,11 @@ label chapter2_start:
 
     sdx "你是？"
 
+    # 08-02｜蜈蚣岭回忆：只承载两句旧事，随后回到夜廊认出故人。
+    window auto hide
+    scene bg c2_08_wugong_memory_v1
+    with trans_short
+
     cpa "破庙那次，我带着两个小家伙，一个青衣，一个粉裙。"
     cpa "除妖之后，大侠还提醒我，不是所有山上人，都肯容人带着成精的妖物。"
 
@@ -341,28 +346,67 @@ label chapter2_start:
     sdx "当年不过三四境武道修为，就敢带着两个小妖行走江湖。"
     sdx "不过比起那帮官宦子弟的绣花枕头，这位少侠，江湖经验可就要老到多了……"
 
-    # 08-04起专用图仍待补，离开本次已完成的廊下相认画面。
+    # 08-04｜固定左右立绘；修士留在画外，换表情时沿用同一角色标签。
     window auto hide
-    scene black
+    scene bg c2_08_corridor_v1
+    show cpa c2_08_cpa_listen_v1 at c2_08_slot(0.25, -0.04)
+    show sdx c2_08_sdx_listen_v1 at c2_08_slot(0.75, -0.04)
     with trans_short
 
     zyfs "小孙，你们可以边走边聊。"
 
+    show cpa c2_08_cpa_talk_v1 at c2_08_slot(0.25)
+    show sdx c2_08_sdx_listen_v1 at c2_08_slot(0.75, -0.10)
     cpa "赴宴要紧。大侠姓孙？我叫陈平安，孙大侠直呼名字便好。"
 
+    show cpa c2_08_cpa_listen_v1 at c2_08_slot(0.25, -0.10)
+    show sdx c2_08_sdx_talk_v1 at c2_08_slot(0.75)
     sdx "行，就喊你陈平安。"
 
+    show cpa c2_08_cpa_listen_v1 at c2_08_slot(0.25, -0.04)
+    show sdx c2_08_sdx_listen_v1 at c2_08_slot(0.75, -0.04)
     zyfs "你们怎么回事？难道要我们老祖和府主等你们落座才开席？"
+
+    window auto hide
+    hide cpa
+    hide sdx
+    with trans_short
     zyfs "萧鸾夫人，你真是好大的架子！赶紧跟上，真是婆婆妈妈！"
 
+    # 08-05：堂口空间介绍暂留黑场，迎客CG对白后直接进入裴朱头像对白。
+    window auto hide
+    scene black
+    with trans_short
     narrator "到了堂口，吴懿亲自迎了上来。"
+
+    window auto hide
+    scene bg c2_08_greet_v1
+    with trans_short
     wy "陈公子不到雪茫堂，我们可不敢擅自开席上菜。"
 
-    # 现稿“他”的指代未定；保留原词，不据此新增挽臂人物或动作图。
-    peiqian "他竟然挽着师父。"
 
-    zl "你没见少爷都僵硬了吗？只不过碍于形势，不好直接推开罢了。"
-    zl "少爷，少爷，你还真是无福消受美人恩。"
+
+
+
+
+
+    # 08-05裴朱：堂口只留背景，人物仅以底部当前说话人的独立头像出现。
+    window auto hide
+    scene bg c2_08_hall_v1
+
+
+    with trans_short
+    peiqian "她竟然挽着师父。" (show_portrait="c2_08_pq_surprise")
+
+
+
+    zl "你没见少爷都僵硬了吗？只不过碍于形势，不好直接推开罢了。" (show_portrait="c2_08_zl_tease")
+    zl "少爷，少爷，你还真是无福消受美人恩。" (show_portrait="c2_08_zl_tease")
+
+    # 宾客群像尚未定稿，T138前清掉堂口背景，恢复普通旁白。
+    window auto hide
+    scene black
+    with trans_short
 
     narrator "包括府主黄楮在内，众人越看越疑：莫非是老祖的相好？"
     narrator "可老祖建府以来从无道侣，一心大道，也从未看重儿女情长。"

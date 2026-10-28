@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## 初始化
 ################################################################################
 
@@ -113,8 +113,8 @@ screen dialogue_pair_slot(slot, ui):
             text slot["name"] style "say_pair_name" color slot["name_color"]
 
 
-screen say(who, what):
-    $ ui = get_dialogue_ui(who)
+screen say(who, what, portrait=None):
+    $ ui = get_dialogue_ui(who, portrait)
 
     window:
         id "window"
@@ -167,14 +167,14 @@ screen say(who, what):
 
                 if ui["show_avatar"]:
                     frame:
-                        style "say_avatar_frame"
+                        style ui["avatar_frame_style"]
                         if ui["avatar"]:
                             background ui["avatar_background"]
                         else:
                             background ui["seal_background"]
 
                         if ui["avatar"]:
-                            add ui["avatar"] xalign 0.5 yalign 1.0
+                            add ui["avatar"] id "dialogue_avatar" xalign 0.5 yalign ui["avatar_yalign"]
                         else:
                             text ui["seal_text"] style "say_avatar_seal" color ui["seal_color"]
 
@@ -207,7 +207,7 @@ screen say(who, what):
                         id "what"
                         style ui["what_style"]
                         color ui["what_color"]
-                        xmaximum 1260
+                        xmaximum ui["text_width"]
                         xoffset (16 if not ui["show_avatar"] and not ui["show_pair"] else 0)
 
                 if ui["show_pair"]:
@@ -229,6 +229,7 @@ style namebox is default
 style namebox_label is say_label
 style say_nameplate is default
 style say_avatar_frame is default
+style say_portrait_frame is default
 style say_avatar_seal is default
 style say_pair_portrait is vbox
 style say_pair_portrait_frame is default
@@ -236,6 +237,7 @@ style say_pair_nameplate is default
 style say_pair_name is default
 style say_para_tag is default
 style say_window_speaker is default
+style say_window_portrait is say_window_speaker
 style say_window_protagonist is say_window_speaker
 style say_window_narration is say_window_speaker
 style say_window_thought is say_window_speaker
@@ -311,6 +313,12 @@ style say_avatar_frame:
     top_padding 8
     bottom_padding 8
 
+style say_portrait_frame:
+    xsize 220
+    ysize 210
+    yalign 0.5
+    padding (0, 0, 0, 0)
+
 style say_avatar_seal:
     font gui.name_text_font
     size 54
@@ -360,6 +368,11 @@ style say_window_speaker:
     right_padding 58
     top_padding 20
     bottom_padding 46
+
+# 只由显式 show_portrait 台词使用，保持其他对白的原有版式。
+style say_window_portrait:
+    ysize 270
+    top_padding 14
 
 style say_window_protagonist:
     ysize 286
@@ -2007,6 +2020,17 @@ screen quick_menu():
 style window:
     variant "small"
     background "gui/phone/textbox.png"
+
+style say_portrait_frame:
+    variant "small"
+    xsize 184
+    ysize 178
+
+style say_window_portrait:
+    variant "small"
+    left_padding 32
+    right_padding 32
+    bottom_padding 64
 
 style radio_button:
     variant "small"

@@ -52,6 +52,19 @@ image bg cg02_08_02 = "bg c2_08_recognition_v2"
 image bg cg02_08_03 = "bg c2_08_recognized_v2"
 image bg cg02_08_04 = "bg c2_08_shoulder_pat_v2"
 image bg cg02_08_05 = "bg c2_08_after_pat_v2"
+image bg cg02_08_06 = "bg c2_08_wugong_memory_v1"
+image bg cg02_08_07 = "bg c2_08_greet_v1"
+image bg cg02_08_08 = "bg c2_08_link_v1"
+image bg bg02_01 = "bg c2_08_corridor_v1"
+image cpa o01_p02_e01 = "cpa c2_08_cpa_listen_v1"
+image cpa o01_p02_e09 = "cpa c2_08_cpa_talk_v1"
+image sdx o01_p01_e02 = "sdx c2_08_sdx_listen_v1"
+image sdx o01_p01_e09 = "sdx c2_08_sdx_talk_v1"
+image bg bg03_01 = "bg c2_08_hall_v1"
+image peiqian o01_p01_e01 = "peiqian c2_08_pq_listen_v1"
+image peiqian o01_p01_e09 = "peiqian c2_08_pq_talk_v1"
+image zl o01_p01_e02 = "zl c2_08_zl_listen_v1"
+image zl o01_p01_e09 = "zl c2_08_zl_talk_v1"
 
 define IMAGE_CODE_NAMES = {
     "CG01·01·01": "bg cg01_01_01",
@@ -104,7 +117,20 @@ define IMAGE_CODE_NAMES = {
     "CG02·08·02": "bg cg02_08_02",
     "CG02·08·03": "bg cg02_08_03",
     "CG02·08·04": "bg cg02_08_04",
-    "CG02·08·05": "bg cg02_08_05"
+    "CG02·08·05": "bg cg02_08_05",
+    "CG02·08·06": "bg cg02_08_06",
+    "CG02·08·07": "bg cg02_08_07",
+    "CG02·08·08": "bg cg02_08_08",
+    "背景02·01": "bg bg02_01",
+    "立绘01·01·02·01": "cpa o01_p02_e01",
+    "立绘01·01·02·09": "cpa o01_p02_e09",
+    "立绘20·01·01·02": "sdx o01_p01_e02",
+    "立绘20·01·01·09": "sdx o01_p01_e09",
+    "背景03·01": "bg bg03_01",
+    "立绘02·01·01·01": "peiqian o01_p01_e01",
+    "立绘02·01·01·09": "peiqian o01_p01_e09",
+    "立绘06·01·01·02": "zl o01_p01_e02",
+    "立绘06·01·01·09": "zl o01_p01_e09"
 }
 
 define _IMAGE_CODE_UNAVAILABLE = {
@@ -119,6 +145,7 @@ define _IMAGE_CODE_UNAVAILABLE = {
     "参考01·04": "仅参考：陈平安书箱用户结构参考",
     "参考01·05": "仅参考：陈平安养剑壶主外观参考",
     "参考01·06": "仅参考：陈平安养剑壶结构辅助参考",
+    "参考01·07": "仅参考：陈平安15视角与玉簪结构参考",
     "参考02·01": "仅参考：裴钱身份与深色行路服母版",
     "参考03·01": "仅参考：李宝瓶正面近景参考",
     "参考03·02": "仅参考：李宝瓶三分之四近景参考",
@@ -241,7 +268,9 @@ define _IMAGE_CODE_UNAVAILABLE = {
     "参考20·04": "仅参考：廊下相认：孙登先询认（08-02a）（旧服装历史图）",
     "参考20·05": "仅参考：廊下相认：认出故人（08-02b）（旧服装历史图）",
     "参考20·06": "仅参考：廊下重逢：拍肩瞬间（08-03a）（旧服装历史图）",
-    "参考20·07": "仅参考：廊下重逢：收手与旁观（08-03b）（旧服装历史图）"
+    "参考20·07": "仅参考：廊下重逢：收手与旁观（08-03b）（旧服装历史图）",
+    "界面17·01": "仅界面：08-05对白头像：裴钱·诧异开口",
+    "界面17·02": "仅界面：08-05对白头像：朱敛·促狭说话"
 }
 
 init python:
