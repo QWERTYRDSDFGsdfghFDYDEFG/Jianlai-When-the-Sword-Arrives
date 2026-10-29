@@ -114,104 +114,71 @@ screen dialogue_pair_slot(slot, ui):
 
 
 screen say(who, what, portrait=None):
-    $ ui = get_dialogue_ui(who, portrait)
+    $ ui = get_dialogue_ui(who, portrait, what)
 
     window:
         id "window"
-        style ui["window_style"]
-        background ui["window_background"]
+        # 显式声明画布与内边距；当前角色的what_style仍保留心声归属。
+        background None
+        padding (0, 0, 0, 0)
+        xpos 0
+        ypos 0
+        xanchor 0
+        yanchor 0
+        xfill False
+        yfill False
+        xysize (1920, 1080)
 
-        frame:
-            background ui["accent_color"]
-            xpos 0
-            ypos 0
-            xsize 10
-            ysize 400
-            padding (0, 0, 0, 0)
+        fixed:
+            xysize (1920, 1080)
 
-        frame:
-            background ui["accent_glow"]
-            xpos 0
-            ypos 0
-            xsize 1920
-            ysize 5
-            padding (0, 0, 0, 0)
+            add ui["backdrop"]:
+                id "dialogue_backdrop"
+                at Transform(yzoom=ui["backdrop_scale"], yanchor=1.0, ypos=1080)
 
-        if ui["theme"] == "narration":
-            vbox:
-                xfill True
-                yalign 0.5
-                spacing 12
+            if ui["show_avatar"]:
+                add ui["avatar"] id "dialogue_avatar"
 
-                if ui["paralanguage"]:
-                    frame:
-                        style "say_para_tag"
-                        xalign 0.0
-                        background ui["para_background"]
+            if ui["show_name"]:
+                text ui["name"]:
+                    id "who"
+                    font gui.name_text_font
+                    size ui["name_size"]
+                    bold ui["name_bold"]
+                    italic False
+                    color ui["name_color"]
+                    outlines [(2, "#201b17cc", 0, 1)]
+                    xpos ui["name_x"]
+                    ypos ui["name_y"]
 
-                        text ui["paralanguage"] style "say_para_text" color ui["para_color"]
+            if ui["paralanguage"]:
+                text ui["paralanguage"]:
+                    font gui.text_font
+                    size (28 if renpy.variant("small") else 22)
+                    color "#e1d4c1"
+                    outlines [(1, "#201b17cc", 0, 1)]
+                    xalign 0.89
+                    ypos ui["name_y"] + 4
 
-                text what:
-                    id "what"
-                    style ui["what_style"]
-                    color ui["what_color"]
-                    xmaximum 1560
-        else:
-            hbox:
-                xfill True
-                yfill True
-                spacing 24
+            text what:
+                id "what"
+                font gui.text_font
+                size ui["body_size"]
+                bold False
+                italic False
+                color ui["what_color"]
+                outlines [(2, "#201b17cc", 0, 1)]
+                line_spacing ui["line_spacing"]
+                layout "greedy"
+                adjust_spacing False
+                xpos ui["body_x"]
+                ypos ui["body_y"]
+                xsize ui["text_width"]
 
-                if ui["show_pair"]:
-                    use dialogue_pair_slot(ui["pair_left"], ui)
-
-                if ui["show_avatar"]:
-                    frame:
-                        style ui["avatar_frame_style"]
-                        if ui["avatar"]:
-                            background ui["avatar_background"]
-                        else:
-                            background ui["seal_background"]
-
-                        if ui["avatar"]:
-                            add ui["avatar"] id "dialogue_avatar" xalign 0.5 yalign ui["avatar_yalign"]
-                        else:
-                            text ui["seal_text"] style "say_avatar_seal" color ui["seal_color"]
-
-                vbox:
-                    if ui["show_pair"]:
-                        xsize 1420
-                    else:
-                        xfill True
-                    yalign 0.5
-                    spacing 10
-
-                    if ui["show_name"]:
-                        frame:
-                            id "namebox"
-                            style "say_nameplate"
-                            xalign 0.0
-                            background ui["name_background"]
-
-                            text who id "who" style "say_label" color ui["name_color"]
-
-                    if ui["paralanguage"]:
-                        frame:
-                            style "say_para_tag"
-                            xalign 0.0
-                            background ui["para_background"]
-
-                            text ui["paralanguage"] style "say_para_text" color ui["para_color"]
-
-                    text what:
-                        id "what"
-                        style ui["what_style"]
-                        color ui["what_color"]
-                        xmaximum ui["text_width"]
-                        xoffset (16 if not ui["show_avatar"] and not ui["show_pair"] else 0)
-
-                if ui["show_pair"]:
-                    use dialogue_pair_slot(ui["pair_right"], ui)
+            add "gui/dialogue/soft_continue.svg":
+                id "dialogue_continue"
+                xpos 1805
+                ypos 960
 
 
 ## 通过 Character 对象使名称框可用于样式化。
@@ -369,7 +336,7 @@ style say_window_speaker:
     top_padding 20
     bottom_padding 46
 
-# 只由显式 show_portrait 台词使用，保持其他对白的原有版式。
+# 旧头像窗样式保留兼容；A2/B2实际排版在say中显式声明。
 style say_window_portrait:
     ysize 270
     top_padding 14
@@ -485,26 +452,55 @@ style choice_button_mark:
 ##
 ## 快捷菜单显示于游戏内，以便于访问游戏外的菜单。
 
+screen soft_dialogue_quick_menu():
+    hbox:
+        id "dialogue_controls"
+        style_prefix "soft_quick"
+        xpos (480 if renpy.variant("touch") else 1028)
+        ypos (990 if renpy.variant("touch") else 1004)
+        spacing 0
+
+        textbutton _("回退") id "dialogue_quick_rollback" action Rollback()
+        textbutton _("快进") id "dialogue_quick_skip" action Skip() alternate Skip(fast=True, confirm=True)
+        textbutton _("自动") id "dialogue_quick_auto" action Preference("auto-forward", "toggle")
+        textbutton _("快存") id "dialogue_quick_save" action StoryQuickSave()
+        textbutton _("快读") id "dialogue_quick_load" action StoryQuickLoad()
+        textbutton _("菜单") id "dialogue_quick_menu" action ShowMenu()
+
+
 screen quick_menu():
-
-    ## 确保该菜单出现在其他屏幕之上，
     zorder 100
-
     if quick_menu:
+        use soft_dialogue_quick_menu
 
-        frame:
-            style "quick_menu_frame"
 
-            hbox:
-                style_prefix "quick"
-                style "quick_menu_buttons"
+style soft_quick_button is default:
+    xsize 124
+    ysize 60
+    padding (6, 0, 6, 0)
+    background None
+    hover_background "#ede0c51a"
+    selected_background "#ede0c512"
 
-                textbutton _("回退") action Rollback()
-                textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
-                textbutton _("自动") action Preference("auto-forward", "toggle")
-                textbutton _("快存") action StoryQuickSave()
-                textbutton _("快读") action StoryQuickLoad()
-                textbutton _("菜单") action ShowMenu()
+style soft_quick_button_text is default:
+    font gui.interface_text_font
+    size 24
+    xalign 0.5
+    yalign 0.5
+    color "#e9dfcc"
+    hover_color "#fff4dc"
+    selected_color "#f3c982"
+    insensitive_color "#a79f93"
+    outlines [(2, "#201b17cc", 0, 1)]
+
+style soft_quick_button:
+    variant "touch"
+    xsize 160
+    ysize 78
+
+style soft_quick_button_text:
+    variant "touch"
+    size 32
 
 
 ## 此代码确保只要用户没有主动隐藏界面，就会在游戏中显示 quick_menu 屏幕。
@@ -1163,8 +1159,17 @@ screen preferences():
                         action ShowMenu("accessibility_settings")
                         tooltip _("调整文字大小、行距、高对比度、单声道和自述语音。")
 
-                ## 可在此处添加 radio_pref 或 check_pref 类型的额外 vbox，以添加
-                ## 额外的创建者定义的偏好设置。
+                vbox:
+                    style_prefix "radio"
+                    label _("对白布局")
+                    textbutton _("A2 · 齐排"):
+                        id "dialogue_layout_a2"
+                        action Function(set_dialogue_layout, "a2")
+                        selected get_dialogue_layout() == "a2"
+                    textbutton _("B2 · 缩进"):
+                        id "dialogue_layout_b2"
+                        action Function(set_dialogue_layout, "b2")
+                        selected get_dialogue_layout() == "b2"
 
             null height (4 * gui.pref_spacing)
 
@@ -1998,23 +2003,12 @@ style pref_vbox:
     variant "medium"
     xsize 675
 
-## 由于可能没有鼠标，我们将快捷菜单替换为一个使用更少、更大按钮的版本，这样更容
-## 易触摸。
+## 触控沿用相同六项操作，并放大按钮与点击区域。
 screen quick_menu():
     variant "touch"
-
     zorder 100
-
     if quick_menu:
-
-        hbox:
-            style "quick_menu"
-            style_prefix "quick"
-
-            textbutton _("回退") action Rollback()
-            textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("自动") action Preference("auto-forward", "toggle")
-            textbutton _("菜单") action ShowMenu()
+        use soft_dialogue_quick_menu
 
 
 style window:

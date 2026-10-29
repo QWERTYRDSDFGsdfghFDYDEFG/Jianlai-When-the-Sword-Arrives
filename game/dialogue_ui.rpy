@@ -1,3 +1,4 @@
+default persistent.dialogue_layout = "a2"
 default dialogue_ui_theme = None
 default dialogue_paralanguage = None
 default dialogue_pair_left = None
@@ -83,7 +84,7 @@ init -5 python:
         },
     }
 
-    # 只显示画风和裁切已经适配对话框的头像；没有合格素材时保持纯文字布局。
+    # 旧自动头像素材保留兼容参考；A2/B2普通对白不再显示这些头像。
     DIALOGUE_AVATAR_IMAGES = {
         "李宝瓶": im.Scale(
             im.Crop("images/chapter1/c1_01_lbp_return_v2.png", 920, 100, 420, 420),
@@ -148,7 +149,7 @@ init -5 python:
         renpy.store.dialogue_paralanguage = None
 
 
-    # 在明确标记的连续对话中启用双人头像槽。未调用时保持原有单人布局。
+    # 保留旧剧情和存档中的双人标记；A2/B2不据此显示对话区头像。
     def set_dialogue_pair(left=None, right=None):
         renpy.store.dialogue_pair_left = left
         renpy.store.dialogue_pair_right = right
@@ -174,64 +175,123 @@ init -5 python:
         return "speaker"
 
 
-    def get_dialogue_ui(who, portrait=None):
+    # A2/B2共用场景色板；由当前背景推导，回退/读档无需保存额外场景状态。
+    DIALOGUE_SOFT_COLORS = {
+        "a2": {"neutral": "#31312e", "cool": "#263639", "warm": "#3f352e"},
+        "b2": {"neutral": "#2a3031", "cool": "#24373d", "warm": "#313735"},
+    }
+    DIALOGUE_SOFT_BACKDROPS = {
+        layout: {
+            palette: AlphaMask(
+                Solid(color, xysize=(1920, 1080)),
+                "gui/dialogue/soft_{}_mask.png".format(layout),
+            )
+            for palette, color in colors.items()
+        }
+        for layout, colors in DIALOGUE_SOFT_COLORS.items()
+    }
+    DIALOGUE_SOFT_PORTRAITS = {
+        "c2_08_pq_surprise": "gui/dialogue/soft_pq_portrait.png",
+        "c2_08_zl_tease": "gui/dialogue/soft_zl_portrait.png",
+    }
+
+    def get_dialogue_layout():
+        value = persistent.dialogue_layout
+        return value if value in ("a2", "b2") else "a2"
+
+    def set_dialogue_layout(value):
+        if value not in ("a2", "b2"):
+            raise ValueError("Unknown dialogue layout: {!r}".format(value))
+        persistent.dialogue_layout = value
+        renpy.save_persistent()
+        renpy.restart_interaction()
+
+    def get_dialogue_palette():
+        if not renpy.showing("bg"):
+            return "neutral"
+        name = "_".join(renpy.get_attributes("bg") or ())
+        # 稳定代号与旧资源名遵循同一场次规则；蜈蚣岭日景不沿用夜廊色。
+        if name in ("c2_08_wugong_memory_v1", "cg02_08_06"):
+            return "neutral"
+        if name.startswith(("c1_", "cg01_")):
+            parts = name.split("_")
+            if len(parts) > 1 and parts[1].isdigit() and 1 <= int(parts[1]) <= 12:
+                return "cool"
+        if name.startswith(("c2_05_", "c2_06_", "cg02_05_", "cg02_06_")):
+            return "cool"
+        if name in ("c2_03_fly_v1", "c2_03_river_v1", "cg02_03_07", "cg02_03_08"):
+            return "cool"
+        if name.startswith(("c2_08_", "cg02_08_")):
+            return "warm"
+        if name.startswith(("c2_07_", "cg02_07_")) and name not in ("c2_07_gate_v1", "cg02_07_01"):
+            return "warm"
+        return "neutral"
+
+    def get_dialogue_ui(who, portrait=None, what=""):
+        layout = get_dialogue_layout()
+        palette = get_dialogue_palette()
         theme = resolve_dialogue_theme(who)
-        ui = dict(DIALOGUE_THEME_CONFIG.get(theme, DIALOGUE_THEME_CONFIG["speaker"]))
-
-        ui["theme"] = theme
-        pair_left = renpy.store.dialogue_pair_left
-        pair_right = renpy.store.dialogue_pair_right
-        show_pair = (
-            bool(who)
-            and bool(pair_left)
-            and bool(pair_right)
-            and theme != "narration"
-            and not renpy.variant("small")
-            and portrait is None
-        )
-
-        ui["avatar"] = DIALOGUE_AVATAR_IMAGES.get(who)
-        ui["show_pair"] = show_pair
-        ui["show_avatar"] = bool(ui["avatar"]) and theme != "narration" and not show_pair and not renpy.variant("small")
-        ui["show_name"] = bool(who) and theme not in ("thought", "protagonist_thought")
-        ui["seal_text"] = who[:1] if who else ""
-        ui["paralanguage"] = renpy.store.dialogue_paralanguage
-        ui["portrait"] = portrait
-        ui["avatar_frame_style"] = "say_avatar_frame"
-        ui["avatar_yalign"] = 1.0
-        ui["text_width"] = 1260
-
+        small = renpy.variant("small")
+        is_a2 = layout == "a2"
+        # 仅这两种显式头像标记允许出现头像；旧自动/双人槽保留存档字段，停止显示。
+        avatar = None
         if portrait is not None:
             spec = DIALOGUE_PORTRAIT_CONFIG.get(portrait)
-            if spec is None:
+            if spec is None or portrait not in DIALOGUE_SOFT_PORTRAITS:
                 raise ValueError("Unknown dialogue portrait: {!r}".format(portrait))
             if spec["speaker"] != who:
                 raise ValueError("Dialogue portrait {!r} does not belong to {!r}".format(portrait, who))
+            avatar = DIALOGUE_SOFT_PORTRAITS[portrait]
 
-            layout = DIALOGUE_PORTRAIT_LAYOUT["small" if renpy.variant("small") else "regular"]
-            # 先裁显示区域，再等比适配；不把横版透明留白或人物比例压进头像槽。
-            ui["avatar"] = Transform(
-                Transform(spec["path"], crop=spec["crop"]),
-                xysize=layout["content_size"],
-                fit=spec["fit"],
-            )
-            ui["show_avatar"] = True
-            ui["show_pair"] = False
-            ui["show_name"] = True
-            ui["window_style"] = "say_window_portrait"
-            ui["avatar_frame_style"] = "say_portrait_frame"
-            ui["avatar_background"] = "#00000000"
-            ui["avatar_yalign"] = 0.5
-            ui["text_width"] = layout["text_width"]
-
-        if show_pair:
-            ui["pair_left"] = get_dialogue_pair_slot(pair_left, who, ui)
-            ui["pair_right"] = get_dialogue_pair_slot(pair_right, who, ui)
-
-        return ui
+        name = who
+        tag = renpy.store.dialogue_paralanguage
+        if theme in ("thought", "protagonist_thought"):
+            if not name:
+                name = tag or "心声"
+            # 具名心声优先显示完整归属，避免再画一份相同的副语言标签。
+            if tag and (tag in name or name in tag):
+                tag = None
+        left = 520 if avatar else (96 if small else 220)
+        indent = 0 if is_a2 else 46
+        name_size = (48 if is_a2 else 45) if small else (34 if is_a2 else 32)
+        name_y = (738 if is_a2 else 722) if small else (800 if is_a2 else 780)
+        body_y = 805 if small else (855 if is_a2 else 850)
+        # 辅助字体由引擎放大；额外上移阅读区，给姓名和多行正文留足空间。
+        font_scale = max(1.0, preferences.font_size)
+        body_lift = int((font_scale - 1.0) * 180)
+        name_lift = body_lift + int((font_scale - 1.0) * name_size * 1.3)
+        return {
+            "layout": layout,
+            "palette": palette,
+            "theme": theme,
+            "backdrop": DIALOGUE_SOFT_BACKDROPS[layout][palette],
+            "backdrop_scale": (1.30 if small else 1.0) + (font_scale - 1.0) * 0.6,
+            "avatar": avatar,
+            "show_avatar": avatar is not None,
+            "show_pair": False,
+            "show_name": bool(name),
+            "name": name,
+            "portrait": portrait,
+            "paralanguage": tag,
+            "name_x": left,
+            "name_y": name_y - name_lift,
+            "name_size": name_size,
+            "name_bold": is_a2,
+            "body_x": left + indent,
+            "body_y": body_y - body_lift,
+            "body_size": (45 if is_a2 else 43) if small else (38 if is_a2 else 36),
+            "text_width": (1800 if small else 1720) - left - indent,
+            "line_spacing": 8 if small else 6,
+            "what_color": "#f2eadf",
+            "name_color": "#f4ecdf",
+        }
 
 
     def get_dialogue_pair_slot(name, who, ui):
+        # 旧工具仍可解析槽位；当前say不调用此兼容路径。
+        legacy_ui = dict(DIALOGUE_THEME_CONFIG.get(ui.get("theme"), DIALOGUE_THEME_CONFIG["speaker"]))
+        legacy_ui.update(ui)
+        ui = legacy_ui
         is_active = bool(who) and name in who
 
         return {

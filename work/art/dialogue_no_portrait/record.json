@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-28",
+  "status": "当前使用／A2、B2均已接入游戏；默认A2，设置可切换B2",
+  "user_request": "前面的对话框也这样做但不需要头像，目前只有08-05需要头像",
+  "user_choice": "A2、B2 都做无头像版本，继续保留两套",
+  "game_default": "a2",
+  "integrated_into_game": true,
+  "presentation_rule": {
+    "ordinary_dialogue": "前段普通对白取消对话区头像，保留姓名、正文及底部阅读操作。",
+    "current_portrait_exception": "仅08-05 T135–T137使用裴钱、朱敛专用头像；此前定稿母版保持。",
+    "cg_characters": "场景CG内人物属于场景，不随对话区头像取消而移除。",
+    "thought": "保留心声归属，吴懿样张显示“吴懿·心声”。",
+    "blending": "借鉴A2/B2布局；色彩与明暗贴合场景，边缘柔化渐隐，文字区保持可读。",
+    "runtime_followup": "已在共用say界面关闭普通自动头像及旧双人槽显示，保留旧存档字段；仅08-05三句显式标记使用专用头像。"
+  },
+  "master_psd": "work/art/dialogue_no_portrait/dialogue_no_portrait_variants.psd",
+  "source_psd": "work/art/chapter2/c2_08_05_dialogue_final/c2_08_05_dialogue_final.psd",
+  "shared_editing": {
+    "app": "Photoshop",
+    "user_control": "UI：窗口→图层复合，切换A2/B2与三种场景；文字、底色和背景均分层可编辑。",
+    "codex_control": "Photoshop API直接编辑同一已保存PSD。",
+    "layer_comps": 6,
+    "comp_capture": "仅记录显隐，手动改色与位置不会被切换图层复合覆盖。"
+  },
+  "layout": {
+    "A2": {
+      "label": "无头像／姓名正文齐排",
+      "name_position": [
+        220,
+        837
+      ],
+      "body_position": [
+        220,
+        866
+      ],
+      "body_box": [
+        1500,
+        118
+      ],
+      "name_size": 34,
+      "body_size": 38
+    },
+    "B2": {
+      "label": "无头像／轻量姓名与正文缩进",
+      "name_position": [
+        220,
+        815
+      ],
+      "body_position": [
+        266,
+        862
+      ],
+      "body_box": [
+        1454,
+        118
+      ],
+      "name_size": 32,
+      "body_size": 36
+    },
+    "buttons": [
+      "回退",
+      "快进",
+      "自动",
+      "快存",
+      "快读",
+      "菜单"
+    ],
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  "samples": [
+    {
+      "id": "s01",
+      "scene": "第一章书院告别",
+      "source_image": "game/images/chapter1/c1_13_academy_gate_farewell_v1.png",
+      "script": "game/script.rpy",
+      "line": 252,
+      "speaker": "陈平安",
+      "text": "没问题。你们都去学堂上课吧，不用送了，已经耽搁了不少时间，估计夫子们以后不太愿意再看到我了。",
+      "gradient_rgb": {
+        "A2": [
+          49,
+          49,
+          46
+        ],
+        "B2": [
+          42,
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "id": "s02",
+      "scene": "第二章08-03夜廊交谈",
+      "source_image": "game/images/chapter2/c2_08_after_pat_v2.png",
+      "script": "game/script_chapter2.rpy",
+      "line": 347,
+      "speaker": "孙登先",
+      "text": "不过比起那帮官宦子弟的绣花枕头，这位少侠，江湖经验可就要老到多了……",
+      "gradient_rgb": {
+        "A2": [
+          63,
+          53,
+          46
+        ],
+        "B2": [
+          49,
+          55,
+          53
+        ]
+      }
+    },
+    {
+      "id": "s03",
+      "scene": "第二章06-01b河岸心声",
+      "source_image": "game/images/chapter2/c2_06_thought_v1.png",
+      "script": "game/script_chapter2.rpy",
+      "line": 203,
+      "speaker": "吴懿·心声",
+      "text": "连父亲都还没下手，我又哪里敢妄动。只是不知，将来还有没有机会饱餐一顿。",
+      "gradient_rgb": {
+        "A2": [
+          38,
+          54,
+          57
+        ],
+        "B2": [
+          36,
+          55,
+          61
+        ]
+      }
+    }
+  ],
+  "previews": [
+    {
+      "path": "work/art/dialogue_no_portrait/a2_no_portrait_s01.png",
+      "speaker": "陈平安",
+      "body": "没问题。你们都去学堂上课吧，不用送了，已经耽搁了不少时间，估计夫子们以后不太愿意再看到我了。",
+      "sha256": "127ac8f95cc2eb1baf05058d86d07062fed738dcf94ed1844e8ff972a6a55f70"
+    },
+    {
+      "path": "work/art/dialogue_no_portrait/a2_no_portrait_s02.png",
+      "speaker": "孙登先",
+      "body": "不过比起那帮官宦子弟的绣花枕头，这位少侠，江湖经验可就要老到多了……",
+      "sha256": "51dd7b148f4dcd39379f4b9ed2c2ddbd96ac1843ccd2e4d0aa549dc7ac0c0814"
+    },
+    {
+      "path": "work/art/dialogue_no_portrait/a2_no_portrait_s03.png",
+      "speaker": "吴懿·心声",
+      "body": "连父亲都还没下手，我又哪里敢妄动。只是不知，将来还有没有机会饱餐一顿。",
+      "sha256": "d8ffae1f3fa5fb9398a42d0336d7b577535ed952eb3b5a4fedacd26a4d001f3a"
+    },
+    {
+      "path": "work/art/dialogue_no_portrait/b2_no_portrait_s01.png",
+      "speaker": "陈平安",
+      "body": "没问题。你们都去学堂上课吧，不用送了，已经耽搁了不少时间，估计夫子们以后不太愿意再看到我了。",
+      "sha256": "398cd401c8925faedee7b6c6034aafdd6583d8c78e39ea79683c3e93658079a1"
+    },
+    {
+      "path": "work/art/dialogue_no_portrait/b2_no_portrait_s02.png",
+      "speaker": "孙登先",
+      "body": "不过比起那帮官宦子弟的绣花枕头，这位少侠，江湖经验可就要老到多了……",
+      "sha256": "c0aeea6cb30a7869ef71abd1f5b84221acca6f3505b2526d10de68264a687865"
+    },
+    {
+      "path": "work/art/dialogue_no_portrait/b2_no_portrait_s03.png",
+      "speaker": "吴懿·心声",
+      "body": "连父亲都还没下手，我又哪里敢妄动。只是不知，将来还有没有机会饱餐一顿。",
+      "sha256": "c4acfbc306f332d8cb889d4b2a01211c6ce5676777df773addd48938eaa3337a"
+    }
+  ],
+  "validation": {
+    "photoshop": "六个图层复合逐项切换后回读，确认姓名、正文、六按钮和无可见头像；PSD保存并绑定到交付路径。",
+    "independent_visual_review": "六张PNG逐张目检通过：无额外头像，CG人物保持，姓名和正文准确，长句两行完整，心声归属清楚，按钮不重叠，边缘无明显硬切。",
+    "image_dimensions": [
+      1920,
+      1080
+    ],
+    "unique_exports": 6,
+    "protected_sources": "六份运行脚本和08-05头像定稿PSD与source_snapshot.json一致。",
+    "not_tested": [
+      "RenPy接入与实际按钮点击、剧情推进、存读档、回退",
+      "其他分辨率及移动设备",
+      "用户手动修改本轮PSD的操作流程"
+    ],
+    "known_limits": [
+      "两套可编辑候选样张已获用户确认可用；未选游戏默认，尚未接入。",
+      "当前游戏仍含前段自动头像及双人头像，需正式接入时处理。"
+    ]
+  },
+  "master_sha256": "9ee14b05e3abe9cffa607fe5f2524bff8f15b67232168e2b63345d53d1b7c3ba",
+  "protected_source_sha256": {
+    "game/screens.rpy": "21dc64341234fb57634a8912c8bf797552c6a61e9a388667aa935fc41b12cc8c",
+    "game/dialogue_ui.rpy": "3264c8cecd031d74a141fcccf17d774b75169def510988214ef66d568eec5dc2",
+    "game/characters.rpy": "6a37f06f4e42994a39ef46cc536fb945285a17776aa50884fb8c33b0f2b51afe",
+    "game/script.rpy": "fe7bdf60abec3b0e729d00578c18176900fc6d69baf109656ba256e69eaa54c1",
+    "game/script_chapter2.rpy": "2773914b5137e11ff5b8f8efb07f59c56390ce20cfbebecc7a6364a529ce8651",
+    "game/bg_images.rpy": "147748cc4654521794271069339c6f92896fa09cb11e37cb02357a70972fb406",
+    "work/art/chapter2/c2_08_05_dialogue_final/c2_08_05_dialogue_final.psd": "fd3c7602053a4735669123a14fe2815b57c93a8e46819aec41deaff417ba59d4"
+  },
+  "visual_acceptance": {
+    "date": "2026-10-28",
+    "user_feedback": "可以",
+    "accepted_variants": [
+      "A2无头像版",
+      "B2无头像版"
+    ],
+    "decision": "两套均确认可用并继续保留；普通对白无头像，目前仅08-05 T135–T137保留专用头像。",
+    "game_default": null,
+    "scope": "视觉样张确认；未选游戏默认，未接入游戏。"
+  },
+  "prototype_history_note": "layout、samples、previews、validation、protected_source_sha256与visual_acceptance是接入前Photoshop样张阶段的历史快照。运行接入现状与验证以game_integration为准；历史未验证项不表示当前仍未完成。",
+  "game_integration": {
+    "date": "2026-10-28",
+    "status": "当前使用",
+    "authorization": [
+      "接入游戏。序章到现在做完成都这样",
+      "默认 A2，设置中可切换 B2"
+    ],
+    "default": "a2",
+    "setting": "设置 → 对白布局 → A2 · 齐排 / B2 · 缩进",
+    "scope": "共用say与底部阅读操作接入两套布局；本轮实际主线验收从序章label start连续推进到第二章08-05 T138。后续章节继承共用界面，但本轮未逐章回归。",
+    "portrait_boundary": "普通对白、旁白、心声及旧双人标记不显示对话区头像；仅script_chapter2.rpy T135–T137使用裴钱/朱敛专用头像。场景CG内人物保持，08-05不叠加裴朱场景立绘。",
+    "color_and_edges": "从已确认PSD直接导出透明渐隐底板与柔边头像。运行时以当前背景推导中性、冷色或暖色低饱和底色；黑场与蜈蚣岭日景回退中性。色板不保存到剧情状态，读档和回退自动匹配当前背景。",
+    "layout_adaptation": "采用现有Noto字体，保留姓名/心声归属；桌面与small/touch分别适配字号、间距、按钮区域。辅助字号放大时上移阅读区并扩展渐隐底板。",
+    "controls": [
+      "回退",
+      "快进",
+      "自动",
+      "快存",
+      "快读",
+      "菜单"
+    ],
+    "persistence": "布局选择写入persistent，存读档与回退不撤销；空值或异常值回退A2。旧双人字段与兼容helper保留。",
+    "editable_sources": {
+      "portrait": "work/art/chapter2/c2_08_05_dialogue_final/c2_08_05_dialogue_final.psd",
+      "no_portrait": "work/art/dialogue_no_portrait/dialogue_no_portrait_variants.psd",
+      "shared_control": "用户通过Photoshop UI、Codex通过Photoshop API控制同一分层PSD；两份PSD各保留6个图层复合。本次运行素材通过Photoshop API从已确认图层导出，母版与六张无头像样张哈希不变。"
+    },
+    "runtime_files": [
+      "game/dialogue_ui.rpy",
+      "game/image_codes.rpy",
+      "game/screens.rpy"
+    ],
+    "assets": [
+      {
+        "path": "game/gui/dialogue/soft_a2_mask.png",
+        "code": "界面17·03",
+        "status": "当前使用",
+        "bytes": 245846,
+        "sha256": "bf7ef51e12520ab5a123bf8982d2be61a10a24bff9e5b06a5fd22273c2096001"
+      },
+      {
+        "path": "game/gui/dialogue/soft_b2_mask.png",
+        "code": "界面17·04",
+        "status": "当前使用",
+        "bytes": 272233,
+        "sha256": "18a1976a5f62ba6aaa9a91db5cc89db1f183310dc1a044fd1ec13c5b77dda1b4"
+      },
+      {
+        "path": "game/gui/dialogue/soft_pq_portrait.png",
+        "code": "界面17·05",
+        "status": "当前使用",
+        "bytes": 164466,
+        "sha256": "3e24f540fa4a93e2f97f3b28b57d705d859d3bb9564d28325e1864409c6a2ef7"
+      },
+      {
+        "path": "game/gui/dialogue/soft_zl_portrait.png",
+        "code": "界面17·06",
+        "status": "当前使用",
+        "bytes": 161036,
+        "sha256": "87d25347b78a79dd8feacfdc72ee232429293f654364a350ae32ca27446baf14"
+      },
+      {
+        "path": "game/gui/dialogue/soft_continue.svg",
+        "code": null,
+        "status": "当前使用",
+        "bytes": 135,
+        "sha256": "8ec8d57b30a359109181215c1d9756e340ca21ee21cbc334117975cd94fcbc5a"
+      }
+    ],
+    "supporting_files": [
+      "game/image_catalog.json",
+      "game/Codex/image_code_catalog.md",
+      "game/Codex/image_code_gallery.html",
+      "README.md",
+      "game/Codex/c2_08_05_paper_ui_plan.md",
+      "game/Codex/chapter2_storyboard.md",
+      "game/Codex/character_image_index.md",
+      "game/Codex/renpy_image_integration_checklist.md",
+      "work/art/chapter2/c2_08_05_record.json",
+      "work/art/dialogue_no_portrait/record.json"
+    ],
+    "catalog": {
+      "entries": 205,
+      "callable_aliases": 64,
+      "check": "tools/build_image_catalog.py --check",
+      "note": "四个PNG登记为仅界面；SVG继续标记不参与场景图片代号。原17·01/02作为头像身份源保留。"
+    },
+    "validation": {
+      "report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_integration_20261028_qa\\verification.json",
+      "runs": {
+        "lint_v2": {
+          "exit_code": 0,
+          "variant": null,
+          "runtime": false,
+          "output": "lint_v2_output.txt",
+          "passed": true
+        },
+        "regular_v5": {
+          "exit_code": 0,
+          "variant": null,
+          "runtime": true,
+          "output": "regular_v5_output.txt",
+          "passed": true,
+          "assertions": {
+            "total": 90,
+            "passed": 90,
+            "xfailed": 0,
+            "failed": 0
+          },
+          "screenshots": [
+            "regular_v5/screenshots/01_start_narration_a2_720.png",
+            "regular_v5/screenshots/02_chapter1_pair_marker_a2_720.png",
+            "regular_v5/screenshots/03_settings_b2.png",
+            "regular_v5/screenshots/04_chapter1_pair_marker_b2_720.png",
+            "regular_v5/screenshots/05_chapter1_pair_marker_b2_540.png",
+            "regular_v5/screenshots/06_chapter1_second_pair_b2.png",
+            "regular_v5/screenshots/07_academy_long_b2.png",
+            "regular_v5/screenshots/08_academy_long_a2.png",
+            "regular_v5/screenshots/08a_academy_long_a2_size150.png",
+            "regular_v5/screenshots/09_wuyi_thought_a2.png",
+            "regular_v5/screenshots/10_wuyi_thought_b2.png",
+            "regular_v5/screenshots/11_corridor_long_b2.png",
+            "regular_v5/screenshots/12_T135_pq_b2_720.png",
+            "regular_v5/screenshots/13_T135_pq_a2_720.png",
+            "regular_v5/screenshots/14_T135_pq_a2_540.png",
+            "regular_v5/screenshots/15_T136_zl_a2_720.png",
+            "regular_v5/screenshots/16_T136_zl_b2_720.png",
+            "regular_v5/screenshots/16a_T136_zl_b2_size150.png",
+            "regular_v5/screenshots/17_T136_zl_b2_540.png",
+            "regular_v5/screenshots/18_T138_narration_b2.png",
+            "regular_v5/screenshots/19_old_save_T134.png",
+            "regular_v5/screenshots/20_old_save_T135.png",
+            "regular_v5/screenshots/21_old_save_T136.png"
+          ],
+          "states_file": "regular_v5\\states.jsonl"
+        },
+        "small_v2": {
+          "exit_code": 0,
+          "variant": "small touch",
+          "runtime": true,
+          "output": "small_v2_output.txt",
+          "passed": true,
+          "assertions": {
+            "total": 90,
+            "passed": 90,
+            "xfailed": 0,
+            "failed": 0
+          },
+          "screenshots": [
+            "small_v2/screenshots/01_start_narration_a2_720.png",
+            "small_v2/screenshots/02_chapter1_pair_marker_a2_720.png",
+            "small_v2/screenshots/03_settings_b2.png",
+            "small_v2/screenshots/04_chapter1_pair_marker_b2_720.png",
+            "small_v2/screenshots/05_chapter1_pair_marker_b2_540.png",
+            "small_v2/screenshots/06_chapter1_second_pair_b2.png",
+            "small_v2/screenshots/07_academy_long_b2.png",
+            "small_v2/screenshots/08_academy_long_a2.png",
+            "small_v2/screenshots/08a_academy_long_a2_size150.png",
+            "small_v2/screenshots/09_wuyi_thought_a2.png",
+            "small_v2/screenshots/10_wuyi_thought_b2.png",
+            "small_v2/screenshots/11_corridor_long_b2.png",
+            "small_v2/screenshots/12_T135_pq_b2_720.png",
+            "small_v2/screenshots/13_T135_pq_a2_720.png",
+            "small_v2/screenshots/14_T135_pq_a2_540.png",
+            "small_v2/screenshots/15_T136_zl_a2_720.png",
+            "small_v2/screenshots/16_T136_zl_b2_720.png",
+            "small_v2/screenshots/16a_T136_zl_b2_size150.png",
+            "small_v2/screenshots/17_T136_zl_b2_540.png",
+            "small_v2/screenshots/18_T138_narration_b2.png",
+            "small_v2/screenshots/19_old_save_T134.png",
+            "small_v2/screenshots/20_old_save_T135.png",
+            "small_v2/screenshots/21_old_save_T136.png"
+          ],
+          "states_file": "small_v2\\states.jsonl"
+        }
+      },
+      "preservation": {
+        "protected_files": 116,
+        "unchanged": 116,
+        "changed_or_missing": [],
+        "new_files": [],
+        "passed": true
+      },
+      "source_changes": {
+        "changed_rpy": [
+          "game/dialogue_ui.rpy",
+          "game/image_codes.rpy",
+          "game/screens.rpy"
+        ],
+        "story_character_background_audio_rpy_unchanged": true,
+        "source_psds_and_six_no_portrait_previews_unchanged": true
+      },
+      "visual_review": "实际游戏截图检查姓名、心声、两套无头像长句、三句专用头像、T138清头像、设置入口、柔边、继续三角、1280×720及960×540与small/touch；包含1.5倍辅助字号。",
+      "old_saves": "三份已知历史QA存档复制到隔离环境，核验哈希后通过引擎跨设备确认恢复迎客/裴钱/朱敛；拒绝登记长期信任，原始旧档保持。",
+      "warnings": "lint退出0；沿用原工程im.Scale/im.Crop弃用提示及中文音频文件名提示。",
+      "limitations": [
+        "No production project execution or production saves opened",
+        "Historical compatibility covers three copies of known QA saves only",
+        "Preference file read-back checked; no application-restart persistence check",
+        "Forced small/touch is desktop simulation, not mobile hardware",
+        "No physical fullscreen or all remaining chapters regression"
+      ]
+    }
+  }
+}

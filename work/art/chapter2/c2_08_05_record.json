@@ -1,7 +1,7 @@
 {
   "scene": "08-05 吴懿相迎与众人揣测",
   "date": "2026-10-25",
-  "status": "当前运行：雪茫堂背景＋普通说话者头像；A2／B2视觉布局均已定稿保留、待接入，暂不选游戏默认。",
+  "status": "当前运行：雪茫堂背景＋A2/B2底部当前说话者头像；默认A2，设置可切换B2。仅T135–T137使用头像，其他对白使用无头像版。",
   "authorization": "用户确认吴懿挽着陈平安、他改她，并批准一张堂口背景及吴懿迎客、陈吴挽臂组合、裴钱旁观、朱敛促狭说话、低对比宾客群像五份人物素材。按已展示制作顺序先交线稿。",
   "method": "陈吴两张定稿及堂口背景保持。T135–T137只使用堂口背景与当前发言者专用头像，不再叠加裴钱、朱敛场景立绘；详见portrait_only_revision。此前有场景人物的验收保留为历史。",
   "chen_wu_color_revision": {
@@ -8809,5 +8809,14 @@
         "全流程和真实移动设备"
       ]
     }
+  },
+  "soft_dialogue_integration_revision": {
+    "date": "2026-10-28",
+    "status": "当前使用",
+    "authorization": "用户批准从序章至目前完成内容接入；默认A2、设置可切换B2。",
+    "authority": "work/art/dialogue_no_portrait/record.json#game_integration",
+    "scope": "T134迎客CG无头像；T135–T137雪茫堂背景及当前裴钱/朱敛头像；T138恢复无头像旁白。两种布局与柔化衔接均保留。",
+    "historical_note": "portrait_layout_finalization_revision及更早各修订保持当时状态；其中未选默认、未接入仅描述历史阶段。",
+    "validation": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\27\\01a17d61-6f6b-75c0-ae58-db137f7c63c5\\dialogue_integration_20261028_qa\\verification.json"
   }
 }

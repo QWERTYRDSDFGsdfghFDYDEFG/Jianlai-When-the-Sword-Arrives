@@ -77,6 +77,10 @@ define shhz = Character("年轻马贼")
 define hy = Character("狐妖")
 define zyfs = Character("紫阳府修士")
 define jixiang_shen = Character("积香庙小神")
+define xiaoluan = Character("萧鸾")
+define companion_elder = Character("同行老者")
+define ziyang_steward = Character("紫阳府管事")
+define ziyang_crowd = Character("众人")
 define zndd = Character("中年道人")
 
 
@@ -93,4 +97,8 @@ define wy_thought = Character("吴懿·心声", callback=set_dialogue_theme("tho
 
 # 第二章的忆述与气府心语，避免在当前画面和回看中误读为现场对白。
 define cds_memory = Character("崔东山·回忆")
+define cpa_memory = Character("陈平安·回忆", callback=set_dialogue_theme("protagonist"))
+define zl_memory = Character("朱敛·回忆")
+# 传音有明确听者，与只供玩家读到的吴懿心声区分；名称同时进入回看。
+define wy_telepathy = Character("吴懿·传音")
 define jssr_thought = Character("金色儒衫小人儿·气府", callback=set_dialogue_theme("thought"), what_style="say_thought")
