@@ -1,0 +1,21 @@
+Use case: sketch-to-render, identity-preserving COLORIZATION of the first image. Produce one finished 2D narrative illustration from this exact approved line drawing. Do not redesign or recompose it.
+
+INPUT ROLES
+1. EDIT TARGET: the final corrected line drawing. It controls every pose, object, position, silhouette, railing height, camera and framing.
+2. Face mother reference: the same Chen Ping'an, a calm 20–22-year-old with a slender tapered face and natural narrow eyes. Use identity and natural skin/hair colors only, not its old plain round-headed hairpin.
+3. Outfit mother reference: use intrinsic garment colors and construction only. Do not import its backpack, shoulder straps, hat, extra sandals or standing pose.
+4. Gourd reference: only the small gourd's muted vermilion body and gold scroll decoration. Do not import the photographed hand or glossy 3D material.
+5. Existing approved chapter artwork: use its restrained 2D line-and-color rendering and coherent warm lantern / cool night color language only. Do not copy its people, interior, camera, furniture or bright indoor illumination.
+
+SCENE AND LIGHT
+Deep night immediately AFTER rain has stopped, alone on a fourth-floor riverside timber gallery. Quiet, reflective, intimate. Color the existing sky and distant layered mountains in subdued dark blue-gray, with atmospheric separation; the river is a muted cool slate blue with restrained broken reflections. It must clearly be night, not dusk, dawn, a bright white sky or daylight. Retain the existing river, bridge and far-building outlines; let them recede softly into night, with only sparse dim window light. Add no moon, stars, storm, active rain or new objects.
+The existing hanging lanterns give localized soft amber light onto nearby beams, the man and wet floor. Preserve readable facial features, the gaze into his hand and the small water film. Warm light should touch skin, cloth and the rail naturally without turning the whole image orange. Keep cool ambient shadows from outside. Wet dark-brown timber and rail tops have a few soft reflections, not chrome shine. His palm holds a little real rainwater: maintain the existing water shape, a tiny pale reflected glint and delicate fingertip droplet, never a glowing orb or magical effect.
+
+LOCKED INTRINSIC COLORS
+His outer short-sleeved robe is muted GRAY-BLUE, inner long-sleeved garment OFF-WHITE / PALE GRAY, trousers and forearm/calf wraps CHARCOAL GRAY. Hair is black; the target's slender curled jade hairpin is muted green. Straw sandals are natural faded straw brown. Main waist rope, knot, ALL long hanging cords and tassels remain GRAY-BROWN HEMP: preserve their length and form, do not turn them red. Only the single small gourd and its SHORT waist-to-neck attachment cord are red; the gourd has restrained gold scroll motifs. No extra bag, gourd or ornaments. Let local lighting affect values while keeping each material's identity legible.
+
+PRESERVE STRUCTURE
+Same wide full-body crop, same figure placement, exact head angle and expression, shoulder/elbow/wrist shapes, raised cupped palm and already-visible water, lowered other hand, two grounded feet, garment silhouette, waist attachments and curled hairpin. Preserve the CORRECTED rail height at the lower abdomen, its post bases, continuous upper rail and connected crossbars. Keep all wall/roof/column/lantern, river/bridge/mountain positions. No changes to perspective, no lowered railing, no extra finger, no new gesture, no zoom or crop. Natural light and color are the changes.
+
+RENDERING
+Fine controlled deep-gray contours, broad matte low-saturation color shapes and a few coherent soft shadows, subtle paper softness rather than conspicuous grain. Keep costume folds simple and background detail subordinate. No dense cloth pattern, noisy woodgrain, heavy embossed-paper relief, photorealism, glossy 3D, neon cyan or epic fantasy effects. Match the restrained project illustration style. No text, watermark, panels or UI. Landscape 16:9, project target1920x1080; preserve the source composition and proportions without stretching.

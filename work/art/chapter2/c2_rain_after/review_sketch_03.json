@@ -1,0 +1,135 @@
+{
+  "reviewer": "/root/rain_sketch_fresh_audit",
+  "verdict": "rework",
+  "checks": [
+    {
+      "id": "identity",
+      "result": "pass",
+      "observation": "独立评审实际查看新旧两图：脸型、低头角度、发髻、玉簪和刘海保留，未见本次编辑新增的身份漂移。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    },
+    {
+      "id": "anatomy",
+      "result": "pass",
+      "observation": "肩肘腕连接保留，掌部略收拢；脚点与重心稳定，无新增肢体或明显手指结构错误。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    },
+    {
+      "id": "continuity",
+      "result": "pass",
+      "observation": "人物位置与比例、服装、主腰绳、单只养剑壶及无箱状态保留；廊道、灯位、远景和留白保持，仍为黑白线稿。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    },
+    {
+      "id": "water_readable",
+      "result": "pass",
+      "observation": "掌心有贴合掌面的浅水形状和水纹，能够读为雨水而非悬浮球；掌上一颗小滴尚不构成法术表现。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    },
+    {
+      "id": "rail_height",
+      "result": "fail",
+      "observation": "人物旁扶手有所升高，前景升得更多，但按脚点投影，同深度栏顶仍在胯部／大腿最上段，未达到本轮要求的腰腹高度。主腰绳约在原图y360–400，旁边对应栏顶约y450–475；这只是相对图像观察，不是精确三维测量。栏柱横档连接已同步，未见明显断接或悬空。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "P1",
+      "severity": "hard",
+      "state": "resolved",
+      "problem": "上轮掌中雨水不够清楚，低头摊掌易读为查看空手。",
+      "required_change": "本轮浅水形状与水纹已贴合掌面，掌水可辨；保留当前水量与手势，无需因本项继续改动。",
+      "preserve": "本轮掌中雨水、人物身份、头部角度与手臂结构。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "severity": "hard",
+      "state": "open",
+      "problem": "扶手虽抬高，但人物同纵深处仍偏低，未到要求的腰腹高度。",
+      "required_change": "若用户授权继续，仅进一步抬高人物同纵深的栏杆上沿至腰腹，并同步相邻栏柱、横档与接点；不要仅抬前景栏杆。",
+      "preserve": "当前构图、人物尺寸与脚点、身份衣装、已经修清楚的掌水、单壶与主腰绳、环境布局。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-857e99fd-6a4c-4bd9-a4ff-5dbfa45926d8.png",
+          "sha256": "53476f83537cdfeaaf45c3edcebd021def2f697a2de7298a70a7544e39e6d64d",
+          "role": "本轮实际编辑输出；仅线稿，等待独立复核，未重采样"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+          "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+          "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+        }
+      ]
+    }
+  ],
+  "inspection_scope": "独立实际查看新图与编辑底图；结论为本轮两项局部修改及保留项复核。深夜光色、精确建筑楼层和游戏实机遮挡均未验证。",
+  "review_date": "2026-10-30"
+}

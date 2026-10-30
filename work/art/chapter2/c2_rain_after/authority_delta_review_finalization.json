@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "reviewer": "/root/rain_revision_record",
+  "method": "实际读取当前标准及git diff；从当前文件字节中仅移除新增头部角度练习章节，重算摘要与制作记录原标准摘要比较。只在内存中比较，未修改标准。",
+  "production_record_standard": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+    "sha256": "c0c83caa7233f4ffac3e474558ef61a386b0fe7e6c9b25933b0aeb7f667fda49",
+    "role": "陈平安身份与器物标准"
+  },
+  "current_standard": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+    "sha256": "a28ab4fd35e2288d2867a93a8069e775eded5a0dbe5c73fe675047da30a2ed3f",
+    "role": "当前标准：仅追加头部角度练习呈现方式，现有身份与器物标准保持"
+  },
+  "added_section_title": "头部角度练习的呈现方式（2026-10-30）",
+  "added_section_text": "### 头部角度练习的呈现方式（2026-10-30）\r\n\r\n用户本次指定参照 [toonup2 帖子](https://x.com/toonup2/status/2115820404321464554)，明确不要15视角拆解图。对应任务采用9×9、共81个头部的白底线稿排列，横向左右转头、纵向由上仰到下俯；只借参考的排列和五官透视研究方式，人物仍以`cpa_face_standard_01.png`锁定瘦长男青年脸、窄眼、直眉及20–22岁年龄感。参考中省略头发的画法只用于本次脸部结构练习，不意味着陈平安改为光头，也不撤销已有发型和玉簪设定。此次输出尚待用户审阅，不取代身份母版。\r\n\r\n可复用检查：微侧转与45°转向必须有足够区别；仅写“转22.5°”或笼统要求改眼睛，可能仍得到近似的三分之二侧脸。有效修订是从同排正面出发，只略移鼻尖和面部中线，保留更多远侧眼、脸颊与耳部，同时维持原俯仰。图中文字角度只能视为绘画参考值，未经三维校准。完整图、提示词、两次局部修订与验收范围见[图片索引第3.34节](../../Codex/character_image_index.md#334-陈平安15视角结构拆解2026-10-17)。\r\n\r\n",
+  "reconstructed_previous_sha256": "c0c83caa7233f4ffac3e474558ef61a386b0fe7e6c9b25933b0aeb7f667fda49",
+  "exact_prior_bytes_reconstructed": true,
+  "observations": [
+    "新增段落仅适用于9×9共81个头部角度白底线稿练习。",
+    "新增段落明确仍以cpa_face_standard_01.png锁定瘦长男青年、窄眼直眉及20–22岁年龄感。",
+    "练习中省略头发不意味着人物改光头，也不撤销已有发型和玉簪。",
+    "该练习输出尚待审阅，不取代身份母版；其角度值未经三维校准。",
+    "除该新增章节外，当前标准剩余字节与制作时引用版本完全一致。"
+  ],
+  "effect_on_this_asset": "不改变雨停廊下彩图的脸部身份、衣装、玉簪、固有色或剧情时刻；无须因此重画已确认彩图。",
+  "mechanical_check_boundary": "旧制作记录因绑定旧标准哈希而真实失效；本增量语义复核不刷新旧哈希，也不把旧流程检查伪装为继续有效。"
+}

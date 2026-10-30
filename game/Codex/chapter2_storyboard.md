@@ -1,14 +1,14 @@
 # 第二章当前分镜入口
 
-更新：2026-10-29。用户已确认整章修改稿并批准接入；本页记录当前脚本的段落顺序、信息归属、已有画面和待补项，不另存完整正文。
+更新：2026-10-30。正文仍为2026-10-29用户确认稿；本次仅将雨停廊下定稿图接入摊掌低看及檐外河山两句。本页记录当前脚本的段落顺序、信息归属、已有画面和待补项，不另存完整正文。
 
 正文唯一权威是 [script_chapter2.rpy](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy)。实施范围及本轮验收见 [定稿接入记录](story_compression_record.md)，图片稳定代号见 [image_catalog.json](../image_catalog.json)。下列行号按本次接入脚本定位；正文再次调整后须复核，场头文字可用于检索。
 
-## 2026-10-29 当前执行与制作边界
+## 2026-10-30 当前执行与制作边界
 
 - 当前487条对白／旁白／心声，按19个场头注释分段；保留2处显式自动存档、2处可点击无字停留、3句裴朱专用头像对白。19段是当前脚本的时间和空间定位，不等于已经完成19套分镜或19组美术。
-- 当前引用36张背景／CG与4张独立立绘，共40个不同场景资源；另有两张专用头像。既有素材、稳定代号和A2／B2界面保留，挽臂CG及停用的裴朱场景人物层不重新启用。
-- 当前280条文字处于黑场，包含转场与待补图段落。此数不代表需要280张图片；收针后的溪边、宴前廊下、席间、雨夜、气府、灯下与离府仍需按下表补齐或复用稳定画面。
+- 当前引用37张背景／CG与4张独立立绘，共41个不同场景资源；另有两张专用头像。既有素材、稳定代号和A2／B2界面保留，挽臂CG及停用的裴朱场景人物层不重新启用。
+- 当前278条正文处于黑场（此前280条，雨停看掌两句已有图），包含转场与待补图段落。此数不代表需要278张图片；收针后的溪边、宴前廊下、席间、雨夜、气府、灯下与离府仍需按下表补齐或复用稳定画面。
 - 原T001–T226、V编号、11场／56单元及旧行号仅存在于下方历史折叠区，不作为当前正文编号。新稿不沿用旧T号逐项补图，不按旧“宴后双人夜谈”“现场善恶问答”制作。
 - [第二章全章分镜工作簿](F:/图片素材/第二章全章分镜.xlsx)及10月12日并排阅读版仍是历史快照，本轮未回写。当前制作以本页和脚本为准；正式补图前再细化当前段落分镜。
 
@@ -29,12 +29,12 @@
 | 入夜·紫气宫长廊 | [L622](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:622) | 赴宴、询认、蜈蚣岭插镜、相认、拍肩、收手及陈孙独立立绘 | 旧事插镜由当下陈平安讲述；“小孙，边走边聊”归同行老者，之后催席才归紫阳府管事，二者均可在画外发声。 |
 | 夜·雪茫堂 | [L758](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:758) | 黑场、迎客CG、堂口背景及裴朱专用头像；入席后切黑 | 挽臂由旁白承接，停用CG不复用。宾客席面、萧鸾三坛罚酒与再敬一坛、陈平安以坛回敬、孙登先杯饮均待正式分镜；堂口图不能冒充落座席面。 |
 | 夜·返回客楼 | [L994](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:994) | 黑场文字 | 需散席返楼、雨中行路及独处读书的时间和空间承接；同行者各自回房后，廊下只有陈平安。当前雨声等仍由文字交代，未新增音频。 |
-| 深夜·四楼廊下 | [L1031](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1031) | 黑场文字、陈心声与崔东山回忆 | 需雨停后的廊下稳态及栏杆行走关键状态；手中雨水触发联想，崔东山并非现场出场。伞、车轮等意象不必逐项新增CG。 |
-| 返乡路上的旧日问答 | [L1124](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1124) | 黑场，具名陈朱回忆对白 | 这是过去路上的问答；不能把朱敛摆在当前夜廊。可在待补沉思底图上用明确回忆归属承接，不强制新增杀人情境或整场闪回。 |
-| 当下·四楼廊下 | [L1146](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1146) | 黑场，陈平安心声与气府内心语分开 | 需陈在外部廊下、气府小人在体内的可辨状态；宁姑娘未在现场。小人急而不能明说的缘由、骂后笑及金光仍有所得均保留。 |
-| 深夜·房内 | [L1232](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1232) | 黑场文字 | 需灯下读书稳态；陈重新翻开之前合上的书，油灯承接“不敢多想的一个人”。不提前画出顾璨已犯的事或替悬念定答案。 |
-| 翌晨·辞别紫阳府 | [L1269](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1269) | 黑场文字 | 需清晨离府或返乡路结果图；保持三人、陈的竹箱、裴的行山杖连续。 |
-| 同日·紫阳府 | [L1280](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1280) | 黑场文字，随后跳第三章 | 吴懿在客人离开后传讯；信息只给玩家。传讯媒介未定，不擅画具体法器或父亲接讯CG。 |
+| 深夜·四楼廊下 | [L1031](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1031) | CG02·14·01覆盖[L1044](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1044)摊掌低看及其后河山句；其余仍黑场 | 用户仅批准看掌段接入，跃上栏杆前[L1049](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1049)退黑；栏杆行走与后续思索画面仍待补。雨已停，只留积水；崔东山并非现场出场。 |
+| 返乡路上的旧日问答 | [L1130](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1130) | 黑场，具名陈朱回忆对白 | 这是过去路上的问答；不能把朱敛摆在当前夜廊。可在待补沉思底图上用明确回忆归属承接，不强制新增杀人情境或整场闪回。 |
+| 当下·四楼廊下 | [L1152](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1152) | 黑场，陈平安心声与气府内心语分开 | 需陈在外部廊下、气府小人在体内的可辨状态；宁姑娘未在现场。小人急而不能明说的缘由、骂后笑及金光仍有所得均保留。 |
+| 深夜·房内 | [L1238](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1238) | 黑场文字 | 需灯下读书稳态；陈重新翻开之前合上的书，油灯承接“不敢多想的一个人”。不提前画出顾璨已犯的事或替悬念定答案。 |
+| 翌晨·辞别紫阳府 | [L1275](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1275) | 黑场文字 | 需清晨离府或返乡路结果图；保持三人、陈的竹箱、裴的行山杖连续。 |
+| 同日·紫阳府 | [L1286](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1286) | 黑场文字，随后跳第三章 | 吴懿在客人离开后传讯；信息只给玩家。传讯媒介未定，不擅画具体法器或父亲接讯CG。 |
 
 ## 无字停留、头像与声音归属
 
@@ -45,6 +45,8 @@
 - `companion_elder`、`ziyang_steward`、`xiaoluan`、`ziyang_crowd`与积香庙小神分别承担各自发言，现阶段无新增配角头像、立绘或配音资产。
 
 ## 本轮核验入口
+
+2026-10-30雨停图定稿、三处同名核对、仅两句接入范围与运行验证见[本图定稿接入记录](../../work/art/chapter2/c2_rain_after/finalization.json)。487条正文与顺序保持，仅新增显示与退黑两组演出语句；此次验证不扩展为全章验收。
 
 当前文本对应、标签与跳转、图片引用及运行检查统一登记在[定稿接入记录](story_compression_record.md)的2026-10-29节。本页的段落表是脚本与素材状态登记，不替代游戏实机验收。487条文本映射及验证证据位于[本轮工作区](C:/Users/MSI/.codex/visualizations/2026/10/28/01a1827f-f8fa-7d52-ab18-1d96443336d9/chapter2_finalization_20261029/)。
 

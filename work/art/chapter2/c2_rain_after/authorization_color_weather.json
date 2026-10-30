@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "user_quote": "只有雨水没有雨",
+  "applies_from": "首轮上色后用户补充；复核当前图，并在有需要时作为下一轮局部编辑约束。",
+  "active_requirement": "雨已停；只保留掌心积水、栏面水珠与湿地反光。去除空中雨丝和悬空水滴。",
+  "explicit_detail_change": "允许取消之前线稿中掌上方的小空中水滴；保留贴掌水膜、人物手势和已修正栏杆高度。",
+  "preserve": "人物身份、衣装、姿态、整体构图、建筑河山布局和雨停深夜光色方向。",
+  "budget_change": false,
+  "previous_prompt_and_plan_policy": "首轮提示词和color_plan.json作为历史实际输入保留，不改写内容或重算哈希掩盖变化。",
+  "runtime_scope": "仍只到color候选，不授权游戏接入。"
+}

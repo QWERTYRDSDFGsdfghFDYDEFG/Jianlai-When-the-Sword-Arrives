@@ -1,0 +1,13 @@
+{
+  "attempt": "sketch-02",
+  "output": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+    "role": "sketch-02工具原始线稿输出"
+  },
+  "width": 1672,
+  "height": 941,
+  "state": "待独立复核",
+  "actual_generations": 1,
+  "preflight_failures": 1
+}

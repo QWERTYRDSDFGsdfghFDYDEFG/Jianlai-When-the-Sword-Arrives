@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-29",
+  "script": {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "e814bd1a127de1a84dd0a15ab2628e395bd1a42f81d6fd04c11095e0a81d1a65",
+      "role": "当前正文"
+    },
+    "lines_994_1045": "    # 【夜·返回客楼】\n    window auto hide\n    scene black\n    with trans_location\n    narrator \"酒宴将尽，吴懿先起身离席。\"\n\n    narrator \"陈平安带着裴钱、朱敛出了雪茫堂，沿来路返回客楼。\"\n\n    narrator \"身后的说笑声渐渐远了。\"\n\n    narrator \"裴钱提着行山杖，一路哼着从师父那里学来的家乡俗语。\"\n\n    peiqian \"燕子低飞蛇过道，蚂蚁搬家山戴帽……\"\n\n    zl \"裴女侠，行行好，放过老奴的耳朵吧。\"\n\n    narrator \"裴钱正要回嘴，朱敛忽然伸出手，掌心向上。\"\n\n    zl \"下雨了。\"\n\n    narrator \"细雨落在石路上。\"\n\n    narrator \"三人加快脚步，赶回高楼。\"\n\n    narrator \"朱敛在二楼停下，裴钱回了三楼的住处。\"\n\n    narrator \"陈平安独自上到四楼，在廊下走了一阵拳桩。\"\n\n    narrator \"待酒气散去，他才回房点灯读书。\"\n\n    narrator \"从山崖书院借来的几本典籍，还没有读完。今晚翻开的，是一本佛经。\"\n\n    narrator \"灯下，书页慢慢翻过。\"\n\n    narrator \"过了些时候，檐外的雨声停了。\"\n\n\n    # 【深夜·四楼廊下】\n    window auto hide\n    scene black\n    with trans_location\n    narrator \"陈平安合上书，走出房门。\"\n\n    narrator \"栏杆上还留着雨珠。\"\n\n    narrator \"他扶着栏杆走了几步，掌心的雨珠散开，又聚拢，微微沁凉。\"\n\n    narrator \"他摊开手，低头看了一会儿。\"\n\n    narrator \"檐外是铁券河，河外是夜色里的青山。\"\n\n    narrator \"陈平安跃上栏杆，慢慢走向另一头。\""
+  },
+  "storyboard": {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "560458d0ec5f663b72f37c3ec49deaa903242f8f26126be31b260a778d5faf0c",
+      "role": "当前分镜"
+    },
+    "current_section": "# 第二章当前分镜入口\n\n更新：2026-10-29。用户已确认整章修改稿并批准接入；本页记录当前脚本的段落顺序、信息归属、已有画面和待补项，不另存完整正文。\n\n正文唯一权威是 [script_chapter2.rpy](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy)。实施范围及本轮验收见 [定稿接入记录](story_compression_record.md)，图片稳定代号见 [image_catalog.json](../image_catalog.json)。下列行号按本次接入脚本定位；正文再次调整后须复核，场头文字可用于检索。\n\n## 2026-10-29 当前执行与制作边界\n\n- 当前487条对白／旁白／心声，按19个场头注释分段；保留2处显式自动存档、2处可点击无字停留、3句裴朱专用头像对白。19段是当前脚本的时间和空间定位，不等于已经完成19套分镜或19组美术。\n- 当前引用36张背景／CG与4张独立立绘，共40个不同场景资源；另有两张专用头像。既有素材、稳定代号和A2／B2界面保留，挽臂CG及停用的裴朱场景人物层不重新启用。\n- 当前280条文字处于黑场，包含转场与待补图段落。此数不代表需要280张图片；收针后的溪边、宴前廊下、席间、雨夜、气府、灯下与离府仍需按下表补齐或复用稳定画面。\n- 原T001–T226、V编号、11场／56单元及旧行号仅存在于下方历史折叠区，不作为当前正文编号。新稿不沿用旧T号逐项补图，不按旧“宴后双人夜谈”“现场善恶问答”制作。\n- [第二章全章分镜工作簿](F:/图片素材/第二章全章分镜.xlsx)及10月12日并排阅读版仍是历史快照，本轮未回写。当前制作以本页和脚本为准；正式补图前再细化当前段落分镜。\n\n## 当前段落定位与画面边界\n\n| 当前段落（按脚本顺序） | 脚本入口 | 已有呈现 | 具体待补／归属边界 |\n|---|---|---|---|\n| 返乡途中·溪边 | [L9](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:9) | 溪边挑疱CG，收针后切黑 | 收针后稳定休息图待补；不让持针进行态承载后续长谈。访友与宁姑娘计划是陈平安心声。 |\n| 黄庭国·御江畔郡城 | [L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | 入城、观察、远处来人三图 | 剑修冲突是旧事与假设，未发生当场战斗；长段街面旧事的稳态仍需复核，不能把文字改动算作已补差分。 |\n| 郡城·客栈门前 | [L178](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:178) | 邀请、思量、应允三图 | 陈平安因旧交情面答应短住；不能补成拒绝会导致吴懿受罚。 |\n| 郡城江畔·登船 | [L229](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:229) | 开阔街面、抛舟、化船、符纸、少女、搭板、升空 | 先移开行人再变船；裴钱想买宝贝由旁白交代。既有静态关键画面不等于连续变形或登船动画。 |\n| 楼船·御江上空 | [L282](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:282) | 船上俯江CG | 故乡与楚夫人是联想和未来计划，不切成已经到达的场景。 |\n| 紫阳府外·铁券河畔 | [L319](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:319) | 下船、拜谢、退场后交谈、引路四图 | 收舟、少女化符、符纸入河的因果已补文字，尚无专用动作差分；不把旧下船图记为已展示收舟结果。 |\n| 沿河入府 | [L373](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:373) | 吴陈交谈、吴懿闭口近景、沿河引路 | 于禄龙气仅为吴懿心声，陈平安未获知；后续恢复现场对白。 |\n| 紫阳府·府门 | [L420](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:420) | 府门迎接CG | 欢呼由众人发出；吴懿邀并肩是传音，陈平安的答话为现场对白。未实现完整人群跪起或前后换位动画。 |\n| 暮色·客楼 | [L455](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:455) | 客楼、规矩、陈设、放箱、临窗五图，出廊后切黑 | 放箱的无字停留后接站稳画面；裴钱留在楼内看陈设，不进入陈朱廊下长谈。 |\n| 宴前·四楼廊下 | [L509](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:509) | 黑场文字 | 需四楼临河廊下的暮色双人稳定画面；陈用养剑葫、朱用酒壶。不可复用室内含裴钱的图冒充廊下，不再制作旧稿的宴后雨夜双人长谈。 |\n| 入夜·紫气宫长廊 | [L622](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:622) | 赴宴、询认、蜈蚣岭插镜、相认、拍肩、收手及陈孙独立立绘 | 旧事插镜由当下陈平安讲述；“小孙，边走边聊”归同行老者，之后催席才归紫阳府管事，二者均可在画外发声。 |\n| 夜·雪茫堂 | [L758](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:758) | 黑场、迎客CG、堂口背景及裴朱专用头像；入席后切黑 | 挽臂由旁白承接，停用CG不复用。宾客席面、萧鸾三坛罚酒与再敬一坛、陈平安以坛回敬、孙登先杯饮均待正式分镜；堂口图不能冒充落座席面。 |\n| 夜·返回客楼 | [L994](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:994) | 黑场文字 | 需散席返楼、雨中行路及独处读书的时间和空间承接；同行者各自回房后，廊下只有陈平安。当前雨声等仍由文字交代，未新增音频。 |\n| 深夜·四楼廊下 | [L1031](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1031) | 黑场文字、陈心声与崔东山回忆 | 需雨停后的廊下稳态及栏杆行走关键状态；手中雨水触发联想，崔东山并非现场出场。伞、车轮等意象不必逐项新增CG。 |\n| 返乡路上的旧日问答 | [L1124](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1124) | 黑场，具名陈朱回忆对白 | 这是过去路上的问答；不能把朱敛摆在当前夜廊。可在待补沉思底图上用明确回忆归属承接，不强制新增杀人情境或整场闪回。 |\n| 当下·四楼廊下 | [L1146](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1146) | 黑场，陈平安心声与气府内心语分开 | 需陈在外部廊下、气府小人在体内的可辨状态；宁姑娘未在现场。小人急而不能明说的缘由、骂后笑及金光仍有所得均保留。 |\n| 深夜·房内 | [L1232](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1232) | 黑场文字 | 需灯下读书稳态；陈重新翻开之前合上的书，油灯承接“不敢多想的一个人”。不提前画出顾璨已犯的事或替悬念定答案。 |\n| 翌晨·辞别紫阳府 | [L1269](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1269) | 黑场文字 | 需清晨离府或返乡路结果图；保持三人、陈的竹箱、裴的行山杖连续。 |\n| 同日·紫阳府 | [L1280](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1280) | 黑场文字，随后跳第三章 | 吴懿在客人离开后传讯；信息只给玩家。传讯媒介未定，不擅画具体法器或父亲接讯CG。 |\n\n## 无字停留、头像与声音归属\n\n- [L172](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:172)为客栈前远处来人的无参数`pause`；[L488](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:488)为放箱图的无参数`pause`。均由玩家控制继续，不宣称为连续动作动画；原挽臂无字停留仍取消。\n- [L787](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:787)、[L789](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:789)、[L793](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:793)保留裴钱一次、朱敛两次专用头像；本轮未改变A2默认、B2可选的界面规则，也不把头像扩展给新配角。\n- `wy_telepathy`是吴懿向陈平安传音；`wy_thought`是只向玩家呈现的吴懿心声。两者不可混用。\n- `cpa_memory`、`zl_memory`、`cds_memory`保留回忆归属；`jssr_thought`只属于气府内部。心声／回忆结束后恢复普通对白标签，不让角色听见不属于现场的内容。\n- `companion_elder`、`ziyang_steward`、`xiaoluan`、`ziyang_crowd`与积香庙小神分别承担各自发言，现阶段无新增配角头像、立绘或配音资产。\n\n## 本轮核验入口\n\n当前文本对应、标签与跳转、图片引用及运行检查统一登记在[定稿接入记录](story_compression_record.md)的2026-10-29节。本页的段落表是脚本与素材状态登记，不替代游戏实机验收。487条文本映射及验证证据位于[本轮工作区](C:/Users/MSI/.codex/visualizations/2026/10/28/01a1827f-f8fa-7d52-ab18-1d96443336d9/chapter2_finalization_20261029/)。"
+  },
+  "identity_index": {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\character_image_index.md",
+      "sha256": "7011505a20b8c444c0910e86f9800983ad8d04275b575221a51d1b1c26c5262c",
+      "role": "冻结角色索引依据，后续登记不作为变更输入"
+    },
+    "cpa_row": [
+      "| 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | 脸部：`lh/cpa/cpa_face_standard_01.png`；通用服装：`lh/cpa/cpa_outfit_variant_06_warm_weather.png`；书箱：`lh/cpa/cpa_bookbox_ref.jpg`；养剑壶主参考：`lh/cpa/cpa_gourd_ref.png`，结构辅助：`lh/cpa/cpa_gourd_structure_ref.jpg` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`；第二场依据 `script_chapter2.rpy` 与本任务在线分镜，不以已删除的第2—5章旧表为依据；道具更新见第 3.4 节 |"
+    ],
+    "authority": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md"
+  },
+  "reference_catalog": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部母版：瘦长收束青年脸、自然窄眼、20–22岁、沉静自持；不沿用其中旧圆头玉簪"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "衣装与体量：短袖外袍、灰白内衫、护腕、主腰绳、长裤绑腿草鞋；本场去书箱和全部肩背带"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "只取已确认玉簪器形与穿髻遮挡：纤细、非等大镂空卷首；五色头发是结构编码，不取真实发色"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+      "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+      "role": "仅取养剑壶双腹轮廓及卷纹；一只、短绳系腰，不取图中手或3D材质"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_arrival_v1.png",
+      "sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735",
+      "role": "仅取临河多层客楼木构、挑檐和上层木栏；不取地面机位、暮色和其他人物"
+    }
+  ],
+  "prior_test": "此前skill-forward-test只作方法演练；本任务根据实际用户请求重新核对，不继承演练授权或通过结论。"
+}

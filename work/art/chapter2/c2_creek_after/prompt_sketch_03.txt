@@ -1,0 +1,30 @@
+Use case: precise-object-edit / identity-preserve.
+Edit IMAGE 1, this exact creek storyboard candidate, into the corrected SIMPLE LINE DRAWING. Target 1920 x 1080 landscape, 16:9, one image. Retain the SAME three people, their identities, positions, sizes, head angles, gaze relationships, pose, seating rocks, lowered feet, sandals, bamboo box and camera. Do not redesign or recompose. Make the following five structural corrections and one small expression adjustment only.
+
+REFERENCES:
+Image 1 = the edit target. Keep its action and composition.
+Image 2 = Chen's approved slender JADE HAIRPIN shape and anatomical right/left direction. Only the pin matters; its hair colors and text are annotations.
+Image 3 = Chen's current OUTFIT master, especially the dark wraps around BOTH wrists and forearms. Do not restore shoes, backpack or shoulder straps.
+Image 4 = Pei's current master, especially rough wrapped sleeves, irregular layered tunic and a SINGLE pouch on HER ANATOMICAL LEFT HIP (viewer-right in a frontal view).
+Image 5 = Zhu's plain full-body clothing master, especially NO shoulder harness or decorative cords, and a simple flat DARK CLOTH WAIST SASH. The target already contains his face; preserve that older face and restrained expression.
+
+CORRECTION 1 — HAIRPIN:
+On Chen's head near the upper middle of image1, REMOVE the old round-ball/donut end of the horizontal hair stick. Replace only the pin with the slender asymmetric OPEN SCROLL/J-hook jade head seen in image2, with small unequal curled openings, slender straight shaft and tapered other end. Scroll head on Chen's OWN RIGHT (screen-left visible end in this target's head orientation), shaft crossing the bun naturally with correct occlusion. Not a round knob, not three fat circles. Render in graphite only, no green color. Keep bun, hairline, face and head angle unchanged.
+
+CORRECTION 2 — CHEN'S WRIST WRAPS:
+Image1 incorrectly exposes both bare forearms. Restore the MASTER'S dark cloth wrapped bracers at BOTH wrists/lower forearms, running along the lower forearms to just above the hands; restore the long inner sleeves over the upper forearms rather than leaving the sleeves bunched at the elbows. Specifically the hand resting on the knee at screen-center-left and the planted support hand to his screen-right both need their wrist wraps. Preserve each hand, fingers, supporting contact and sleeve pose. The hands remain bare; no gloves. Use clear wrap boundary and just 2–3 diagonal bands, NO dense crisscross decoration. These wrist wraps are unrelated to his rolled trousers and bare lower legs, which stay exactly as they are.
+
+CORRECTION 3 — PEI'S POUCH SIDE:
+REMOVE the pouch currently sticking out on the OUTSIDE LEFT edge of Pei's body in image1 (screen-left of her at about x330 in a1672-wide target). That is her wrong, anatomical RIGHT hip. Reconstruct the dark rough cloth silhouette there. Her SINGLE cloth pouch belongs on HER OWN LEFT HIP, which is the inner/right edge of her seated torso toward Chen. It may be partly hidden naturally by her left forearm/thigh or tunic; indicate a small soft gathered pouch contour and cord connection on that correct side. Do not mirror Pei, change her pose, add a second pouch, or move the sandal from her hands. Keep the hands and sandal clear.
+
+CORRECTION 4 — ZHU'S PLAIN CLOTHES:
+Remove the thick braided shoulder cords/harness/extra straps visible at Zhu's shoulders in image1. Replace his rope-like waist tie with the simple flat cloth sash and modest cloth knot from image5. Preserve plain cross-collar knee-length robe, loose trousers, cloth shoes, slightly stooped seated body, both hands on knees and the same older narrow face. No backpack, ornament, bandolier, weapon, new bottle, white beard or young face.
+
+CORRECTION 5 — SIMPLIFY THE DRAWING:
+This must be a CLEAN WORKING LINE SKETCH, not a detailed grayscale painting. Keep the exact large silhouettes and spatial forms but REMOVE at least 80% of tiny foliage marks, grass scratches, repeated pebble texture, rock scratches, woven grid texture, water ripples and microfolds. Suggest trees as a few pale grouped outlines, mountains with 2–3 faint contour planes, creek as a few broad flow lines. Simplify the bamboo box to its open rim, corners, walls and a few spaced woven indications; keep its straw hat/spare sandals recognizable. Light gray contact shadows only. REDUCE the broad gray rendering on clothes and hair, leaving them near white/light gray with economical contour and structure lines. Keep enough pale value difference to distinguish garments, but no dense hatching, textured gray fill, graphite smudges or new solid black masses. Background much lighter than figures.
+
+SMALL EXPRESSION ADJUSTMENT:
+Pei's eyes and open mouth became sweeter and rounder than her master. Keeping the same head tilt, child short lower face and gaze at Chen, gently narrow her eyes to the natural almond shape in image4 and reduce the open mouth to a small conversational smile. Do not change head size or make her look serious or blank.
+
+PRESERVE:
+Exactly 3 characters. Pei still holds one straw sandal with both hands, another beside her; needle absent and feet lowered. Chen BOTH bare feet still in water, own pair of shoes on bank; bookbox stays on dry bank and one gourd stays at his waist on short cord, no pouch or shoulder straps. Zhu's two shoes and seated support remain grounded. All eye lines and facial identities stay the same, no new smiling caricature, no chibi. No colors, UI, text, labels, arrows or watermark. No editing claims of pixel-perfect preservation; maintain the designed shot and correct only the listed issues.

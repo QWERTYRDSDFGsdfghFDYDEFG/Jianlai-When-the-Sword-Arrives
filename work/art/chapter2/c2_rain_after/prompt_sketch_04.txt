@@ -1,0 +1,9 @@
+Precise local architectural edit of the supplied image. Keep this exact composition and monochrome sketch; change ONLY the height of the wooden gallery guardrail.
+
+The railing directly beside the man's raised forearm is still too low. Make a substantial, clearly visible correction: raise the TOP OF THE HANDRAIL BESIDE THE MAN by about 90–100 pixels in this 1672x941 image. At the rail's left endpoint immediately right of his body (around x=690), move its upper edge from approximately y=460 to y=365–380. It should align with his waist belt / lower abdomen, not the hip or upper thigh. Do not merely raise the cap of a post; the actual horizontal handrail must be at this new height.
+
+Extend the vertical posts UPWARD from their existing fixed floor contacts. Rebuild the attached upper rails, vertical infill and middle/lower members coherently. Adjust the neighboring foreground and receding spans to one continuous, credible perspective, so the height is consistent along the gallery. Keep the exact floor footprint and corridor width. The handrail must remain below the raised palm, without hiding the hand, face, gourd or feet. This is a taller railing, not a translated railing floating above the floor, not a thicker beam, and not a shorter man.
+
+Everything else is locked: same camera, crop and full-body framing; character position, body proportions, face, hair, curled hairpin, both hands, already-visible water in his palm, clothes, single waist gourd, ropes, legs and feet; wall, columns, ceiling, lanterns, river, bridge and mountains. Preserve these visually as closely as possible. Do not add objects or redesign architecture outside the railing. The railing's local occlusion of the existing view may change naturally.
+
+Output one full-frame corrected line drawing. No color, new shading, text, labels, arrows, alternate views, zoom or crop. Preserve the input aspect ratio and the project's landscape 1920x1080 intent without stretching anything.

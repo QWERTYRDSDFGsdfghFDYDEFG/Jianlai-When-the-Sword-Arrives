@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "user_quote": "再修一轮，只继续校正栏杆高度",
+  "authorized_extra_reworks": 1,
+  "stage": "sketch",
+  "scope": "只继续校正栏杆高度；保持本轮已经通过的掌中雨水、人物、构图及黑白线稿。",
+  "previous_authorization": "可以，先修清楚掌中的雨水和栏杆高度，保留现在的构图，修完再检查一遍，暂时不上色。",
+  "trigger": "上一轮P2仍未解决且默认累计3次生成额度已耗尽；本次用户明确授权再修一轮。",
+  "independent_review_required": true,
+  "not_authorized": [
+    "上色",
+    "游戏接入",
+    "进一步自动增加返工次数"
+  ]
+}

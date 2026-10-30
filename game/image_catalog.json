@@ -1324,6 +1324,20 @@
       "notes": "2026-10-12用户确认纸本浅浮雕重绘定稿，原位替换2026-10-11旧图。陈与朱在窗旁站立短谈，裴钱仍在后方；箱延续落地，窗外渐入暮。不是宴后雨夜坐饮。原生1672×941逐字节导入，运行1920×1080；文件基名、图片定义、剧情调用与稳定代号保持一致。完整提示词、原图及采用记录见work/art/chapter2/c2_07_paper_20261012/generation_record.json；不替换角色母版。"
     },
     {
+      "code": "CG02·14·01",
+      "kind": "cg",
+      "title": "雨停后廊下看掌中雨水",
+      "path": "images/chapter2/c2_14_rain_after_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01"
+      ],
+      "target": "bg c2_14_rain_after_v1",
+      "alias": "bg cg02_14_01",
+      "notes": "2026-10-30用户确认定稿并明确仅接入廊下看掌中雨水段。原生1672×941逐字节保存，运行1920×1080；文件基名、原始定义与脚本调用均为c2_14_rain_after_v1。从摊掌低看显示至河外青山句，跃上栏杆前退黑。雨已停，只留掌水、贴栏水珠和湿地反光。完整制作与采用验证见work/art/chapter2/c2_rain_after/finalization.json，不替换人物母版。"
+    },
+    {
       "code": "背景01·01",
       "kind": "background",
       "title": "黄庭国郡城客栈门前街景",

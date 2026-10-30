@@ -1,0 +1,1709 @@
+{
+  "created_utc": "2026-10-30T13:26:16.063Z",
+  "audit_stage": "before_final_asset_preservation_and_registration",
+  "scope": "Read-only static audit of image definitions, concrete image paths and scene/show calls in every game/**/*.rpy. Writes only this audit evidence.",
+  "git_head": "a41cf28bd5e450fab409a6f4a901c031cc911f34",
+  "pending_asset": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-307c6bd7-4f99-431f-8e4f-35d8e4656c59.png",
+    "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+    "role": "第二轮上色局部编辑实际输出：去空中滴，等待独立复核",
+    "actual_sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+    "hash_matches_record": true,
+    "width": 1672,
+    "height": 941,
+    "source_record": "work/art/chapter2/c2_rain_after/output_color_02.json",
+    "in_runtime_registry": false,
+    "static_scene_call": "game/script_chapter2.rpy:1033 scene black",
+    "status": "User-confirmed final image is still in generation directory, not yet copied to game or registered. This absence is pending integration, not a broken reference."
+  },
+  "counts": {
+    "rpy_files": 30,
+    "explicit_definitions": 137,
+    "bg_images_definitions": 72,
+    "bg_images_file_backed": 67,
+    "bg_images_compatibility_aliases": 5,
+    "bg_images_original_basename_equal": 63,
+    "bg_images_title_prefix_mappings": 4,
+    "generated_stable_aliases": 64,
+    "unique_explicit_source_paths": 68,
+    "static_scene_show_calls": 81,
+    "static_unique_image_names": 62,
+    "static_builtin_black_calls": 11,
+    "expression_scene_show_calls": 4,
+    "expression_literal_image_codes": 2,
+    "expression_solid_displayables": 2,
+    "catalog_assets": 205,
+    "catalog_callable_assets": 64,
+    "catalog_paths": 194,
+    "duplicate_definitions": 0,
+    "unresolved_aliases_or_cycles": 0,
+    "undefined_static_calls": 0,
+    "missing_explicit_paths": 0,
+    "explicit_path_case_mismatches": 0,
+    "catalog_mapping_issues": 0,
+    "catalog_missing_paths": 0,
+    "catalog_path_case_mismatches": 0
+  },
+  "findings": {
+    "duplicate_definitions": [],
+    "graph_issues": [],
+    "static_call_issues": [],
+    "path_issues": [],
+    "catalog_mapping_issues": [],
+    "catalog_path_issues": [],
+    "unexplained_original_naming": []
+  },
+  "legal_mappings": {
+    "compatibility_aliases": [
+      {
+        "file": "game/bg_images.rpy",
+        "line": 72,
+        "name": "bg c2_08_banquet_arrival_v1",
+        "expression": "\"bg c2_08_banquet_arrival_v2\"",
+        "target": "bg c2_08_banquet_arrival_v2",
+        "category": "compatibility_alias"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 74,
+        "name": "bg c2_08_recognition_v1",
+        "expression": "\"bg c2_08_recognition_v2\"",
+        "target": "bg c2_08_recognition_v2",
+        "category": "compatibility_alias"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 77,
+        "name": "bg c2_08_recognized_v1",
+        "expression": "\"bg c2_08_recognized_v2\"",
+        "target": "bg c2_08_recognized_v2",
+        "category": "compatibility_alias"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 79,
+        "name": "bg c2_08_shoulder_pat_v1",
+        "expression": "\"bg c2_08_shoulder_pat_v2\"",
+        "target": "bg c2_08_shoulder_pat_v2",
+        "category": "compatibility_alias"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 81,
+        "name": "bg c2_08_after_pat_v1",
+        "expression": "\"bg c2_08_after_pat_v2\"",
+        "target": "bg c2_08_after_pat_v2",
+        "category": "compatibility_alias"
+      }
+    ],
+    "title_prefix_mappings": [
+      {
+        "file": "game/bg_images.rpy",
+        "line": 5,
+        "name": "bg title_prologue_night",
+        "expression": "Transform(\"gui/title_progress/prologue_night.png\", xysize=(1920, 1080))",
+        "path": "gui/title_progress/prologue_night.png",
+        "category": "title_prefix_mapping"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 6,
+        "name": "bg title_prologue_gathering",
+        "expression": "Transform(\"gui/title_progress/prologue_gathering.png\", xysize=(1920, 1080))",
+        "path": "gui/title_progress/prologue_gathering.png",
+        "category": "title_prefix_mapping"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 7,
+        "name": "bg title_prologue_farewell",
+        "expression": "Transform(\"gui/title_progress/prologue_farewell.png\", xysize=(1920, 1080))",
+        "path": "gui/title_progress/prologue_farewell.png",
+        "category": "title_prefix_mapping"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "line": 8,
+        "name": "bg title_prologue_memory",
+        "expression": "Transform(\"gui/title_progress/prologue_memory.png\", xysize=(1920, 1080))",
+        "path": "gui/title_progress/prologue_memory.png",
+        "category": "title_prefix_mapping"
+      }
+    ],
+    "generated_alias_note": "All image_codes.rpy aliases are compared to callable records in image_catalog.json and resolved through original definitions; differing alias/basename is intentional."
+  },
+  "paths": [
+    {
+      "path": "gui/title_progress/prologue_night.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "gui/title_progress/prologue_night.png"
+    },
+    {
+      "path": "gui/title_progress/prologue_gathering.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "gui/title_progress/prologue_gathering.png"
+    },
+    {
+      "path": "gui/title_progress/prologue_farewell.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "gui/title_progress/prologue_farewell.png"
+    },
+    {
+      "path": "gui/title_progress/prologue_memory.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "gui/title_progress/prologue_memory.png"
+    },
+    {
+      "path": "images/chapter1/c1_01_lbp_return_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_01_lbp_return_v2.png"
+    },
+    {
+      "path": "images/chapter1/c1_01_cds_open_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_01_cds_open_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_02_midnight_lake_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_02_midnight_lake_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_03_lh_entry_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_03_lh_entry_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_04_stage_far_zl_lock_test_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_04_stage_far_zl_lock_test_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_05_lh_stop_view_high34_castfix_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_05_lh_stop_view_high34_castfix_v2.png"
+    },
+    {
+      "path": "images/chapter1/c1_05_lh_gunkai_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_05_lh_gunkai_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_05_zl_stagger_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_05_zl_stagger_v2.png"
+    },
+    {
+      "path": "images/chapter1/c1_06_duet_lake_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_06_duet_lake_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_07_pq_run_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_07_pq_run_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_08_pq_pose_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_08_pq_pose_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_09_platform_duet_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_09_platform_duet_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_10_cpa_arrival_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_10_cpa_arrival_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_11_cpa_sword_01_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_11_cpa_sword_01_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_12_cpa_sword_02_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_12_cpa_sword_02_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_12_cpa_sword_03_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_12_cpa_sword_03_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_13_academy_gate_farewell_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_13_academy_gate_farewell_v1.png"
+    },
+    {
+      "path": "images/chapter1/c1_14_autumn_road_sendoff_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter1/c1_14_autumn_road_sendoff_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_01_rest_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_01_rest_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_cpa_pq_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_cpa_pq_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_observe_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_observe_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_notice_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_notice_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_invite_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_invite_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_consider_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_consider_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_02_accept_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_02_accept_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_quay_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_quay_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_throw_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_throw_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_reveal_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_reveal_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_papers_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_papers_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_maids_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_maids_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_board_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_board_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_fly_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_fly_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_03_river_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_03_river_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_05_arrival_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_05_arrival_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_05_greeting_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_05_greeting_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_05_after_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_05_after_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_05_lead_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_05_lead_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_06_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_06_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_06_thought_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_06_thought_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_gate_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_gate_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_arrival_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_arrival_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_house_rules_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_house_rules_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_pq_furnishings_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_pq_furnishings_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_cpa_set_box_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_cpa_set_box_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_07_window_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_07_window_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_banquet_arrival_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_banquet_arrival_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_recognition_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_recognition_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_wugong_memory_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_wugong_memory_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_recognized_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_recognized_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_shoulder_pat_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_shoulder_pat_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_after_pat_v2.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_after_pat_v2.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_corridor_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_corridor_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_cpa_listen_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_cpa_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_cpa_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_sdx_listen_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_sdx_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_sdx_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_greet_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_greet_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_link_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_link_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_hall_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_hall_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_pq_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_pq_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_pq_listen_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_pq_listen_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_zl_talk_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_zl_talk_v1.png"
+    },
+    {
+      "path": "images/chapter2/c2_08_zl_listen_v1.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "images/chapter2/c2_08_zl_listen_v1.png"
+    },
+    {
+      "path": "lh/cds/cds_full_base_v11.png",
+      "exists": true,
+      "exact_case": true,
+      "actual_path": "lh/cds/cds_full_base_v11.png"
+    }
+  ],
+  "static_calls": [
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 88,
+      "kind": "scene",
+      "name": "bg c1_02_midnight_lake_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_02_midnight_lake_v1.png",
+        "chain": [
+          "bg c1_02_midnight_lake_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 96,
+      "kind": "show",
+      "name": "cds standard",
+      "resolution": {
+        "kind": "path",
+        "path": "lh/cds/cds_full_base_v11.png",
+        "chain": [
+          "cds standard"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 99,
+      "kind": "show",
+      "name": "cds o01_p01_e00",
+      "resolution": {
+        "kind": "path",
+        "path": "lh/cds/cds_full_base_v11.png",
+        "chain": [
+          "cds o01_p01_e00",
+          "cds standard"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 102,
+      "kind": "scene",
+      "name": "bg c1_02_midnight_lake_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_02_midnight_lake_v1.png",
+        "chain": [
+          "bg c1_02_midnight_lake_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 103,
+      "kind": "show",
+      "name": "cds o01_p01_e00",
+      "resolution": {
+        "kind": "path",
+        "path": "lh/cds/cds_full_base_v11.png",
+        "chain": [
+          "cds o01_p01_e00",
+          "cds standard"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 109,
+      "kind": "scene",
+      "name": "bg cg01_01_02",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_01_cds_open_v1.png",
+        "chain": [
+          "bg cg01_01_02",
+          "bg c1_01_cds_open_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 4,
+      "kind": "scene",
+      "name": "bg c1_01_lbp_return_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_01_lbp_return_v2.png",
+        "chain": [
+          "bg c1_01_lbp_return_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 20,
+      "kind": "scene",
+      "name": "bg c1_01_cds_open_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_01_cds_open_v1.png",
+        "chain": [
+          "bg c1_01_cds_open_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 31,
+      "kind": "scene",
+      "name": "bg c1_02_midnight_lake_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_02_midnight_lake_v1.png",
+        "chain": [
+          "bg c1_02_midnight_lake_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 54,
+      "kind": "scene",
+      "name": "bg c1_03_lh_entry_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_03_lh_entry_v1.png",
+        "chain": [
+          "bg c1_03_lh_entry_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 65,
+      "kind": "scene",
+      "name": "bg c1_04_stage_far_zl_lock_test_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_04_stage_far_zl_lock_test_v1.png",
+        "chain": [
+          "bg c1_04_stage_far_zl_lock_test_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 70,
+      "kind": "scene",
+      "name": "bg c1_05_lh_stop_view_high34_castfix_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_05_lh_stop_view_high34_castfix_v2.png",
+        "chain": [
+          "bg c1_05_lh_stop_view_high34_castfix_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 86,
+      "kind": "scene",
+      "name": "bg c1_05_lh_gunkai_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_05_lh_gunkai_v1.png",
+        "chain": [
+          "bg c1_05_lh_gunkai_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 92,
+      "kind": "scene",
+      "name": "bg c1_05_zl_stagger_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_05_zl_stagger_v2.png",
+        "chain": [
+          "bg c1_05_zl_stagger_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 107,
+      "kind": "scene",
+      "name": "bg c1_06_duet_lake_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_06_duet_lake_v1.png",
+        "chain": [
+          "bg c1_06_duet_lake_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 114,
+      "kind": "scene",
+      "name": "bg c1_07_pq_run_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_07_pq_run_v1.png",
+        "chain": [
+          "bg c1_07_pq_run_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 127,
+      "kind": "scene",
+      "name": "bg c1_08_pq_pose_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_08_pq_pose_v1.png",
+        "chain": [
+          "bg c1_08_pq_pose_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 134,
+      "kind": "scene",
+      "name": "bg c1_09_platform_duet_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_09_platform_duet_v1.png",
+        "chain": [
+          "bg c1_09_platform_duet_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 200,
+      "kind": "scene",
+      "name": "bg c1_10_cpa_arrival_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_10_cpa_arrival_v1.png",
+        "chain": [
+          "bg c1_10_cpa_arrival_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 213,
+      "kind": "scene",
+      "name": "bg c1_11_cpa_sword_01_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_11_cpa_sword_01_v1.png",
+        "chain": [
+          "bg c1_11_cpa_sword_01_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 221,
+      "kind": "scene",
+      "name": "bg c1_12_cpa_sword_02_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_12_cpa_sword_02_v1.png",
+        "chain": [
+          "bg c1_12_cpa_sword_02_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 228,
+      "kind": "scene",
+      "name": "bg c1_12_cpa_sword_03_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_12_cpa_sword_03_v1.png",
+        "chain": [
+          "bg c1_12_cpa_sword_03_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 240,
+      "kind": "scene",
+      "name": "bg c1_13_academy_gate_farewell_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_13_academy_gate_farewell_v1.png",
+        "chain": [
+          "bg c1_13_academy_gate_farewell_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 266,
+      "kind": "scene",
+      "name": "bg c1_14_autumn_road_sendoff_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_14_autumn_road_sendoff_v2.png",
+        "chain": [
+          "bg c1_14_autumn_road_sendoff_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script.rpy",
+      "line": 304,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 11,
+      "kind": "scene",
+      "name": "bg c2_01_rest_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_01_rest_v1.png",
+        "chain": [
+          "bg c2_01_rest_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 67,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 116,
+      "kind": "scene",
+      "name": "bg c2_02_cpa_pq_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_cpa_pq_v1.png",
+        "chain": [
+          "bg c2_02_cpa_pq_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 147,
+      "kind": "scene",
+      "name": "bg c2_02_observe_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_observe_v1.png",
+        "chain": [
+          "bg c2_02_observe_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 168,
+      "kind": "scene",
+      "name": "bg c2_02_notice_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_notice_v1.png",
+        "chain": [
+          "bg c2_02_notice_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 180,
+      "kind": "scene",
+      "name": "bg c2_02_invite_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_invite_v1.png",
+        "chain": [
+          "bg c2_02_invite_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 205,
+      "kind": "scene",
+      "name": "bg c2_02_consider_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_consider_v1.png",
+        "chain": [
+          "bg c2_02_consider_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 220,
+      "kind": "scene",
+      "name": "bg c2_02_accept_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_02_accept_v1.png",
+        "chain": [
+          "bg c2_02_accept_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 231,
+      "kind": "scene",
+      "name": "bg c2_03_quay_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_quay_v1.png",
+        "chain": [
+          "bg c2_03_quay_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 236,
+      "kind": "scene",
+      "name": "bg c2_03_throw_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_throw_v1.png",
+        "chain": [
+          "bg c2_03_throw_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 241,
+      "kind": "scene",
+      "name": "bg c2_03_reveal_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_reveal_v1.png",
+        "chain": [
+          "bg c2_03_reveal_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 248,
+      "kind": "scene",
+      "name": "bg c2_03_papers_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_papers_v1.png",
+        "chain": [
+          "bg c2_03_papers_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 253,
+      "kind": "scene",
+      "name": "bg c2_03_maids_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_maids_v1.png",
+        "chain": [
+          "bg c2_03_maids_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 258,
+      "kind": "scene",
+      "name": "bg c2_03_board_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_board_v1.png",
+        "chain": [
+          "bg c2_03_board_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 275,
+      "kind": "scene",
+      "name": "bg c2_03_fly_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_fly_v1.png",
+        "chain": [
+          "bg c2_03_fly_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 284,
+      "kind": "scene",
+      "name": "bg c2_03_river_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_03_river_v1.png",
+        "chain": [
+          "bg c2_03_river_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 321,
+      "kind": "scene",
+      "name": "bg c2_05_arrival_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_05_arrival_v1.png",
+        "chain": [
+          "bg c2_05_arrival_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 336,
+      "kind": "scene",
+      "name": "bg c2_05_greeting_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_05_greeting_v1.png",
+        "chain": [
+          "bg c2_05_greeting_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 345,
+      "kind": "scene",
+      "name": "bg c2_05_after_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_05_after_v1.png",
+        "chain": [
+          "bg c2_05_after_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 358,
+      "kind": "scene",
+      "name": "bg c2_05_lead_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_05_lead_v1.png",
+        "chain": [
+          "bg c2_05_lead_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 375,
+      "kind": "scene",
+      "name": "bg c2_06_talk_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_06_talk_v1.png",
+        "chain": [
+          "bg c2_06_talk_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 388,
+      "kind": "scene",
+      "name": "bg c2_06_thought_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_06_thought_v1.png",
+        "chain": [
+          "bg c2_06_thought_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 409,
+      "kind": "scene",
+      "name": "bg c2_06_talk_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_06_talk_v1.png",
+        "chain": [
+          "bg c2_06_talk_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 422,
+      "kind": "scene",
+      "name": "bg c2_07_gate_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_gate_v1.png",
+        "chain": [
+          "bg c2_07_gate_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 457,
+      "kind": "scene",
+      "name": "bg c2_07_arrival_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_arrival_v1.png",
+        "chain": [
+          "bg c2_07_arrival_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 464,
+      "kind": "scene",
+      "name": "bg c2_07_house_rules_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_house_rules_v1.png",
+        "chain": [
+          "bg c2_07_house_rules_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 473,
+      "kind": "scene",
+      "name": "bg c2_07_pq_furnishings_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_pq_furnishings_v1.png",
+        "chain": [
+          "bg c2_07_pq_furnishings_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 484,
+      "kind": "scene",
+      "name": "bg c2_07_cpa_set_box_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_cpa_set_box_v1.png",
+        "chain": [
+          "bg c2_07_cpa_set_box_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 490,
+      "kind": "scene",
+      "name": "bg c2_07_window_talk_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_07_window_talk_v1.png",
+        "chain": [
+          "bg c2_07_window_talk_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 504,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 511,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 625,
+      "kind": "scene",
+      "name": "bg c2_08_banquet_arrival_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_banquet_arrival_v2.png",
+        "chain": [
+          "bg c2_08_banquet_arrival_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 644,
+      "kind": "scene",
+      "name": "bg c2_08_recognition_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_recognition_v2.png",
+        "chain": [
+          "bg c2_08_recognition_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 660,
+      "kind": "scene",
+      "name": "bg c2_08_wugong_memory_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_wugong_memory_v1.png",
+        "chain": [
+          "bg c2_08_wugong_memory_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 667,
+      "kind": "scene",
+      "name": "bg c2_08_recognized_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_recognized_v2.png",
+        "chain": [
+          "bg c2_08_recognized_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 692,
+      "kind": "scene",
+      "name": "bg c2_08_shoulder_pat_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_shoulder_pat_v2.png",
+        "chain": [
+          "bg c2_08_shoulder_pat_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 697,
+      "kind": "scene",
+      "name": "bg c2_08_after_pat_v2",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_after_pat_v2.png",
+        "chain": [
+          "bg c2_08_after_pat_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 714,
+      "kind": "scene",
+      "name": "bg c2_08_corridor_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_corridor_v1.png",
+        "chain": [
+          "bg c2_08_corridor_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 716,
+      "kind": "show",
+      "name": "cpa c2_08_cpa_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+        "chain": [
+          "cpa c2_08_cpa_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 717,
+      "kind": "show",
+      "name": "sdx c2_08_sdx_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+        "chain": [
+          "sdx c2_08_sdx_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 723,
+      "kind": "show",
+      "name": "cpa c2_08_cpa_talk_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_cpa_talk_v1.png",
+        "chain": [
+          "cpa c2_08_cpa_talk_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 724,
+      "kind": "show",
+      "name": "sdx c2_08_sdx_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+        "chain": [
+          "sdx c2_08_sdx_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 729,
+      "kind": "show",
+      "name": "cpa c2_08_cpa_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+        "chain": [
+          "cpa c2_08_cpa_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 730,
+      "kind": "show",
+      "name": "sdx c2_08_sdx_talk_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_sdx_talk_v1.png",
+        "chain": [
+          "sdx c2_08_sdx_talk_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 733,
+      "kind": "show",
+      "name": "cpa c2_08_cpa_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+        "chain": [
+          "cpa c2_08_cpa_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 734,
+      "kind": "show",
+      "name": "sdx c2_08_sdx_listen_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+        "chain": [
+          "sdx c2_08_sdx_listen_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 760,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 771,
+      "kind": "scene",
+      "name": "bg c2_08_greet_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_greet_v1.png",
+        "chain": [
+          "bg c2_08_greet_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 779,
+      "kind": "scene",
+      "name": "bg c2_08_hall_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_08_hall_v1.png",
+        "chain": [
+          "bg c2_08_hall_v1"
+        ]
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 797,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 996,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 1033,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 1234,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 1271,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter2.rpy",
+      "line": 1282,
+      "kind": "scene",
+      "name": "black",
+      "resolution": {
+        "kind": "built_in",
+        "name": "black",
+        "provider": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy:324"
+      }
+    },
+    {
+      "file": "game/script_chapter3.rpy",
+      "line": 5,
+      "kind": "scene",
+      "name": "bg c2_01_rest_v1",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter2/c2_01_rest_v1.png",
+        "chain": [
+          "bg c2_01_rest_v1"
+        ]
+      }
+    }
+  ],
+  "expression_calls": [
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 91,
+      "kind": "scene",
+      "text": "image_code(\"CG01·01·01\")",
+      "category": "literal_image_code",
+      "code": "CG01·01·01",
+      "resolution": {
+        "kind": "path",
+        "path": "images/chapter1/c1_01_lbp_return_v2.png",
+        "chain": [
+          "bg cg01_01_01",
+          "bg c1_01_lbp_return_v2"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 92,
+      "kind": "show",
+      "text": "image_code(\"立绘04·01·01·00\") at image_codes_qa_pose_left",
+      "category": "literal_image_code",
+      "code": "立绘04·01·01·00",
+      "resolution": {
+        "kind": "path",
+        "path": "lh/cds/cds_full_base_v11.png",
+        "chain": [
+          "cds o01_p01_e00",
+          "cds standard"
+        ]
+      }
+    },
+    {
+      "file": "game/image_codes_test.rpy",
+      "line": 93,
+      "kind": "show",
+      "text": "Solid(\"#9f8f70\", xysize=(80, 180)) as image_codes_qa_partner at image_codes_qa_marker",
+      "category": "Solid_displayable",
+      "resolution": {
+        "kind": "expression_not_image_reference"
+      }
+    },
+    {
+      "file": "game/ui_debug.rpy",
+      "line": 45,
+      "kind": "scene",
+      "text": "Solid(\"#25211c\")",
+      "category": "Solid_displayable",
+      "resolution": {
+        "kind": "expression_not_image_reference"
+      }
+    }
+  ],
+  "excluded_non_image_statements": [
+    {
+      "file": "game/main_menu_progress.rpy",
+      "line": 119,
+      "kind": "scene",
+      "text": "= int(match.group(1))"
+    },
+    {
+      "file": "game/ui_debug.rpy",
+      "line": 46,
+      "kind": "show",
+      "text": "screen ui_debug_guides"
+    }
+  ],
+  "input_sha256": {
+    "game/art_gallery.rpy": "193a5e1b46646a1b7a53d6ee2ec864cccee7fb863a5cc5515220aed132f75e8f",
+    "game/audio_index.rpy": "09f76884aedb444e8c47997266edcba5cba7cc35468996a0f6f24e9bdde1c99c",
+    "game/bg_images.rpy": "147748cc4654521794271069339c6f92896fa09cb11e37cb02357a70972fb406",
+    "game/build_demo.rpy": "13d3c493d1ae61e6d2e0e8679d796a686e31b4b491b0fb8cfd32fca23f27a484",
+    "game/characters.rpy": "e110440c387e69d0ad0ef856ee1e7aed52c24c39b4d79a86d67daad9b3c51a38",
+    "game/dialogue_comic.rpy": "c27fedcebb1673c09199e09a7bbccb025e3afc63f01a8822cbdcaeeaec6e5e99",
+    "game/dialogue_ui.rpy": "6f52d74e54b57b7d017c7f9c4e6caeb5e46f64440a090ee14ac329723bdce25f",
+    "game/gui.rpy": "f2a4cd5a274e877696fa71b1c64a8014e482f57fcf142a8545745278d4ae0a6f",
+    "game/image_codes.rpy": "a8a6550ac383803f62c65ba8bbdf94d5cf334cdfa6f1f76fe5b2d240354a606f",
+    "game/image_codes_test.rpy": "ff498251cde858b92e68bd0ffa60b8895a04b771f4d52c0f67936674179099b7",
+    "game/main_menu_dynamic.rpy": "e6ba29ec7a40b8f908222b474372f90a19e9c14868a9459acfbf00b695b87d30",
+    "game/main_menu_progress.rpy": "0bf4e4d8d629164113972bc1b77815850e203be10b1b194c76b94a95b4a4ff59",
+    "game/mood_system.rpy": "3d0aa31da5f30890cdde42941f0a66968e9935e832500bbb6a1e22002289d6e4",
+    "game/options.rpy": "a70cc42f55a1bb3c476f967da931617bedeafb41c9180e73f4b15c814adb8758",
+    "game/portrait_stage_test.rpy": "da3787dc6d0aa9ff0f8ad7bf607da4d06c8d7b225ff84f16222472aaba2d6e6c",
+    "game/screens.rpy": "5f8891f3841e13261320512104272d969b2b0324ef5366c90b7862dc41f2c8a2",
+    "game/script.rpy": "fe7bdf60abec3b0e729d00578c18176900fc6d69baf109656ba256e69eaa54c1",
+    "game/script_chapter10.rpy": "8536fd4e00b303e075c0bb990d5a674796fc5c68611d1b39719dac138f68e169",
+    "game/script_chapter11.rpy": "9bbac2239ec719231c2e434006c9b9531fd3bb76e46923a914b4f853cbf4eb13",
+    "game/script_chapter12.rpy": "67c3026c04a10276f1a013047fe938241e558b6d800771546b7713c0b43489ee",
+    "game/script_chapter2.rpy": "e814bd1a127de1a84dd0a15ab2628e395bd1a42f81d6fd04c11095e0a81d1a65",
+    "game/script_chapter3.rpy": "07f43059c827350335f1d73016b6b1a0b6c2673f33ffc3ff9e0d983875ddbdd8",
+    "game/script_chapter4.rpy": "27b02059d6ecab2e00c2ae334215f2480c4d86cf207b00dab48403d36f5b4fab",
+    "game/script_chapter5.rpy": "751ab7520bf660d8c0f0bcf0dd064ff71f7499a9b4dd1f3595cadf10397596b2",
+    "game/script_chapter6.rpy": "b75823d0bfd5d170ba5d9829c12a63e24bda250a4ded2b965eb4e94bca98edef",
+    "game/script_chapter7.rpy": "fea07e78fa64e4bf008fe25eaeb3ef4397b4d0cd15f38cbe76722ca896846ffe",
+    "game/script_chapter8.rpy": "94fb9e60229e8071d2771b9262332db952e4df34f0ebfb7dcffd4d127852d0e3",
+    "game/script_chapter9.rpy": "52a86e9fb699e2537f7462d3ddafcb81aab268bb7344f3278bcb2d1ea94337ca",
+    "game/transitions.rpy": "aeb65b23e3aadfed49ad6fbca22db7f54437e705ca701f8611ad55a51d7739ec",
+    "game/ui_debug.rpy": "31d30d096582dd5be94fdc1c729cfbbb2d9740c8d9d7bc3a35dba5252a6b2f18",
+    "game/image_catalog.json": "efdeafc8f0465647a6b500966acc5cb5973e89841d5263af7615709f380d823d",
+    "tools/build_image_catalog.py": "39da5a941cf49ed5ac86a572de09443d6e59aad301ad976c19fa90e9d22f1734"
+  },
+  "renpy_builtin_black": {
+    "source": "F:/Tools/renpy-8.5.3-sdk/renpy/common/00definitions.rpy",
+    "line": 324,
+    "sha256": "ed3d47b77fecbad6bf4e5a78f8601ec0a3f5cf72398b94ac11c102cae793a4cc"
+  },
+  "unverified": [
+    "No Ren'Py lint or actual game launch, visual framing, save/load, or case-sensitive operating-system execution was performed by this audit.",
+    "Dynamic displayables outside literal image_code()/Solid scene/show expressions and screen add expressions are outside this three-way definition/path/call audit."
+  ],
+  "catalog_official_check": {
+    "command": "C:/Users/MSI/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -X utf8 -B tools/build_image_catalog.py --check",
+    "exit_code": 0,
+    "output": "图片代号校验通过：205 条登记，64 条剧情可调用，3 个产物同步。",
+    "checked_utc": "2026-10-30T13:26:47.939Z",
+    "mutation": false
+  },
+  "validation_notes": [
+    "Checked all 30 .rpy files, including test and debug scripts. Python docstring example scene/show lines and scene variable assignment are excluded; show screen is not an image call.",
+    "black resolves to the SDK-defined Solid image at 00definitions.rpy:324; this is not a missing project image.",
+    "All 67 file-backed bg_images.rpy definitions and the additional cds standard source exist with exact directory and filename case.",
+    "No repository source or generated mapping files were changed; official catalog validation ran with --check and -B."
+  ],
+  "hash_stability_check": {
+    "checked_utc": "2026-10-30T13:26:47.946Z",
+    "changed_inputs": []
+  }
+}

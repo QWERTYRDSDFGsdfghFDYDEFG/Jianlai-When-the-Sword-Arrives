@@ -1,0 +1,13 @@
+{
+  "attempt": "sketch-03",
+  "output": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+    "role": "sketch-03原生局部修订输出"
+  },
+  "width": 1672,
+  "height": 941,
+  "state": "待独立复核",
+  "actual_generations": 2,
+  "preflight_failures": 1
+}

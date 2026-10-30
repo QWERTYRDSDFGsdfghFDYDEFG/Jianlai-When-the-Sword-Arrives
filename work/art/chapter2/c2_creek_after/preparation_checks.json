@@ -1,0 +1,210 @@
+[
+  {
+    "step": "before_brief",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "brief",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "after_brief",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "before_references",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "after_references",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "before_composition",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "after_composition",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "before_space",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  },
+  {
+    "step": "after_space",
+    "exit_code": 0,
+    "result": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "sketch",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "stderr": ""
+  }
+]

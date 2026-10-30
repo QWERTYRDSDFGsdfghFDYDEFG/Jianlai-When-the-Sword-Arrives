@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "scope": "第二章雨停廊下图仅覆盖看掌与山河两句；跃栏句前退黑。",
+  "status": "passed",
+  "engine": "Ren'Py 8.5.3.26051504 / Windows 11",
+  "qa_directory": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa",
+  "production_game_launched": false,
+  "production_saves_loaded": false,
+  "source_snapshot": {
+    "files": 274,
+    "matching_production_and_fixture": true,
+    "mismatches": [],
+    "manifest": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\source_manifest.json",
+    "relevant_sha256": {
+      "bg_images.rpy": "022e3557a6d381bbbf8ef49aa0799df31820a0b15aa5cdfabf8f7162573fbcba",
+      "script_chapter2.rpy": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+      "image_catalog.json": "9359c8c96ff405b30a69be310c42216707fc7cb7def5884af821be0bd540fbfe",
+      "image_codes.rpy": "9870e116ea37cb41b0ae65ef8f937efdc57f4512858707d9c9b2cd29d015c8bc",
+      "images/chapter2/c2_14_rain_after_v1.png": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+      "dialogue_ui.rpy": "6f52d74e54b57b7d017c7f9c4e6caeb5e46f64440a090ee14ac329723bdce25f",
+      "screens.rpy": "5f8891f3841e13261320512104272d969b2b0324ef5366c90b7862dc41f2c8a2"
+    }
+  },
+  "lint": {
+    "exit_code": 0,
+    "report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\lint_final_output.txt",
+    "errors": [],
+    "warnings": [
+      "项目仍沿用 im.Scale/im.Crop，RenPy提示弃用；本次新图沿用既有im.Scale注册方式。",
+      "已有中文音频文件名的非ASCII分发提示。"
+    ]
+  },
+  "runtime": {
+    "exit_code": 0,
+    "suite": "rain_integration",
+    "testcases_passed": 1,
+    "assertions_passed": 38,
+    "assertions_failed": 0,
+    "report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final_output.txt",
+    "states": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\states.jsonl",
+    "verified": [
+      "从主菜单进入真实 chapter2_start，推进到本镜；未用重写的场景测试替代正式剧情。",
+      "他扶着栏杆走了几步……时仅显示black。",
+      "他摊开手，低头看了一会儿。显示bg c2_14_rain_after_v1，无额外头像或人物层。",
+      "檐外是铁券河，河外是夜色里的青山。保持同图。",
+      "陈平安跃上栏杆，慢慢走向另一头。开始前已退黑。",
+      "点击回退从跃栏黑场恢复到山河句和对应图。",
+      "看掌句保存新档，推进后读回；文字、背景、章节与旁白归属正确。",
+      "打开回看，包含看掌旁白；返回后仍停在看掌图。",
+      "通过设置界面切换B2、再切回A2；两种布局文字均在有效区域内。",
+      "窗口尺寸实际1867×1050与1280×720均完成画面与文字检查。"
+    ],
+    "requested_large_window": [
+      1920,
+      1080
+    ],
+    "actual_physical_windows": [
+      [
+        1867,
+        1050
+      ],
+      [
+        1280,
+        720
+      ]
+    ],
+    "large_screenshot_dimensions": [
+      1866,
+      1049
+    ],
+    "window_note": "桌面可用区域限制大窗口实际尺寸；截图为可绘制区1866×1049，不将此写为物理1920×1080通过。"
+  },
+  "visual_review": {
+    "status": "passed",
+    "finding": "A2/B2文字与柔边底部叠层清晰；头脸、摊开掌心及另一只手均无遮挡。河流和青山可读。入图前与跃栏句为黑场，稳定回看页文字正常。",
+    "reviewed_evidence": [
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\01_before_black.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\02_palm_a2.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\04_leap_black.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\08_palm_b2.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\10_mountains_b2_720p.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_v2\\screenshots\\11_mountains_a2_720p.png",
+      "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\07_history.png"
+    ],
+    "screenshots_final": [
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\01_before_black.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "24a48c2aa0e21a97fe1185c5102246e556f2ce5dbd107edf385bc25bdb0814ec"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\02_palm_a2.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "59d193a0fa4ea09fcac46e39ba518652b2feec603b17a35795ad69d44c6f33de"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\03_mountains_a2.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "abdc7363c5504ede0a3505ca4346866df5658d87b409eb0c137df5c2ae029564"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\04_leap_black.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "cd80fde606d915ce02eb12dca6ab789378903b0d2b429d9efe3ca900aebabd92"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\05_rollback_mountains.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "6d07cf5bb2d7b831db1ce317ae7818753144c55fbae074d9cfd8660cd8c1bfd7"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\06_palm_loaded.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "b3492a12c1debb603cb4e62032f5508f2ca8692cc9ae84cd1255f928a613a23b"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\07_history.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "af760a15b27d1a4361ce8e81de055a432d108216a3e2782e4e758f477e2ab9ef"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\08_palm_b2.png",
+        "width": 1866,
+        "height": 1049,
+        "sha256": "f6a296d84d34529587afe2e2e3ba5a5f853ff682599e815133423534d0fd968d"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\09_palm_b2_720p.png",
+        "width": 1280,
+        "height": 720,
+        "sha256": "f56be8cb37054929106b0bddfee20ad08d228c4dc4644ceff1d8f44b23ef3231"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\10_mountains_b2_720p.png",
+        "width": 1280,
+        "height": 720,
+        "sha256": "186c2dfbb61314e358c4cc36e3944b14ca7e85e888040c1945862eda81a96516"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\11_mountains_a2_720p.png",
+        "width": 1280,
+        "height": 720,
+        "sha256": "acf28842ceadaadb42826ea827ad234a4a4b55b1d1bf97a4051ad62d7b1ccde7"
+      }
+    ]
+  },
+  "preservation": {
+    "protected_files": 116,
+    "unchanged": 116,
+    "changed_or_missing": [],
+    "new_files": [],
+    "passed": true
+  },
+  "attempt_history": [
+    {
+      "attempt": "SDK python --version and lint_v1_exe",
+      "result": "restricted_process_start_failed",
+      "detail": "WinError 623（无效的系统DLL重定位）；经自动审批的同一隔离测试可启动，未切换正式工程运行。"
+    },
+    {
+      "attempt": "lint_v2",
+      "result": "source_syntax_error_fixed",
+      "detail": "新增image曾插在c2_08_reaction的matrixcolor之前，导致L122缩进报错；主任务已移回原transform，最终lint通过。",
+      "report": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\lint_v2_output.txt"
+    },
+    {
+      "attempt": "runtime_v1",
+      "result": "fixture_timing_fixed",
+      "detail": "固定0.5秒等待抢在转场完成前断言；改为等待真实say与history状态就绪，正式源码未为此修改。"
+    },
+    {
+      "attempt": "runtime_v2",
+      "result": "38_assertions_passed",
+      "detail": "回看截图处于菜单淡入中；最终测试仅增加截图前等待，重跑38/38通过并取得稳定回看截图。"
+    }
+  ],
+  "not_verified": [
+    "修改前旧存档恢复及旧档位置兼容",
+    "完整十二章回归与本次范围外菜单、选项、音频主观听测",
+    "物理1920×1080全屏、其他比例、移动端small/touch"
+  ],
+  "known_risks": [
+    "本轮只验证该新增静态镜头，不将局部通过等同整章美术或整部Demo完成。"
+  ]
+}

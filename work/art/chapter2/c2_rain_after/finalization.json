@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "scene_id": "c2_rain_after",
+  "date": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "record_purpose": "用户定稿采用、项目原图保存与本次有限游戏接入的独立记录；不修改历史制作记录。",
+  "status": "finalized_and_integrated",
+  "authorization": {
+    "adoption_user_quote": "可以定稿检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致",
+    "integration_user_quote": "同时接入，仅覆盖廊下看掌中雨水这一段",
+    "scope": "定稿保存、三者一致性检查、仅廊下摊掌看雨水两句接入；不扩展至跃栏行走或后续回忆。"
+  },
+  "adoption": {
+    "status": "confirmed",
+    "user_confirmed": true,
+    "source_generated_image": {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-307c6bd7-4f99-431f-8e4f-35d8e4656c59.png",
+      "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+      "role": "用户确认的第2轮上色原图"
+    },
+    "project_asset": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+      "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+      "role": "原字节保存的项目定稿文件"
+    },
+    "raw_bytes_identical": true,
+    "actual_size": [
+      1672,
+      941
+    ],
+    "target_size": [
+      1920,
+      1080
+    ],
+    "format": "PNG RGB",
+    "preservation": "原字节复制保留1672×941 PNG RGB；运行通过im.Scale显示为1920×1080，未重采样素材文件。",
+    "style_and_color": "既有身份母版与暖季服装保持；灰蓝外袍、灰白内衫、深灰裤绑带、灰棕主腰绳与单只朱红金纹壶短红绳，冷夜与局部暖灯。",
+    "weather_rule": "雨已停：只有掌心积水、栏面附着水珠和湿地／河面反光，没有空中雨丝或悬空水滴。",
+    "runtime_display_size": [
+      1920,
+      1080
+    ],
+    "runtime_display_method": "im.Scale；图像文件保持原字节",
+    "asset_status": "当前使用"
+  },
+  "production_checkpoint": {
+    "record": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\record_r02.json",
+      "sha256": "8a7d6239cf5bc12349d9f91b379f8124766a2c8a17e72211844dc5aa9372f090",
+      "role": "冻结的制作历史checkpoint；原阶段观察与通过结论仅对应当时来源版本"
+    },
+    "freeze_policy": "record_r02.json保持原字节，作为当时制作checkpoint；本次正式接入会改变剧本、分镜和标准，旧来源校验失效是已记录的历史边界。预览、交付及运行证据记录在本定稿附录，不回填旧审核。",
+    "last_completed_scope_status": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\final_status_color02.json",
+      "sha256": "e550fb65b7f4fe4a83f4016d34c222d09f045bbbe4bfa9c629a985bd0157a1f1",
+      "role": "上色阶段当时有效的完成检查，不能替代当前源码检查"
+    },
+    "current_actual_check": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\production_checkpoint_check_at_finalization.json",
+      "sha256": "f5614f12deefe749c75b42c89afff1fa45e7b4b4e589b21575d11c1ca2a069c0",
+      "role": "定稿时重新执行的真实旧制作记录检查结果"
+    },
+    "current_check_valid_record": false,
+    "current_check_errors": [
+      "sources[3] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "references.attempts[0].inputs[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "references.attempts[0].review.checks[0].evidence[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "references.attempts[0].review.checks[1].evidence[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md"
+    ],
+    "limitation": "权威标准新增其他任务段落造成旧哈希不匹配；旧记录保留为历史，当前权威增量另行复核。"
+  },
+  "authority_delta_review": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\authority_delta_review_finalization.json",
+    "sha256": "f371fb985ce9ae3917a23e5a377a2a72f2cadae123851e100f9cfb1856c0808c",
+    "role": "已核实仅新增另一任务头部角度练习，未改本图身份标准"
+  },
+  "reference_audit_before": {
+    "evidence": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\reference_audit_before.json",
+      "sha256": "1fbe5284a18eefff51e47a2a82d3349d0df91943cfb72345951b783a77e837cc",
+      "role": "接入前定义名、路径、脚本调用名一致性审计"
+    },
+    "audit_stage": "before_final_asset_preservation_and_registration",
+    "counts": {
+      "rpy_files": 30,
+      "explicit_definitions": 137,
+      "bg_images_definitions": 72,
+      "bg_images_file_backed": 67,
+      "bg_images_compatibility_aliases": 5,
+      "bg_images_original_basename_equal": 63,
+      "bg_images_title_prefix_mappings": 4,
+      "generated_stable_aliases": 64,
+      "unique_explicit_source_paths": 68,
+      "static_scene_show_calls": 81,
+      "static_unique_image_names": 62,
+      "static_builtin_black_calls": 11,
+      "expression_scene_show_calls": 4,
+      "expression_literal_image_codes": 2,
+      "expression_solid_displayables": 2,
+      "catalog_assets": 205,
+      "catalog_callable_assets": 64,
+      "catalog_paths": 194,
+      "duplicate_definitions": 0,
+      "unresolved_aliases_or_cycles": 0,
+      "undefined_static_calls": 0,
+      "missing_explicit_paths": 0,
+      "explicit_path_case_mismatches": 0,
+      "catalog_mapping_issues": 0,
+      "catalog_missing_paths": 0,
+      "catalog_path_case_mismatches": 0
+    },
+    "findings": {
+      "duplicate_definitions": [],
+      "graph_issues": [],
+      "static_call_issues": [],
+      "path_issues": [],
+      "catalog_mapping_issues": [],
+      "catalog_path_issues": [],
+      "unexplained_original_naming": []
+    },
+    "scope_limit": "只读静态审计已存在调用链，未包含本次随后新增的运行注册和游戏实机。",
+    "this_asset_at_audit": {
+      "status": "not_registered",
+      "definition": null,
+      "script_call": null,
+      "previous_scene": "game/script_chapter2.rpy:1033 scene black"
+    }
+  },
+  "integration": {
+    "status": "passed",
+    "authorization": "同时接入，仅覆盖廊下看掌中雨水这一段",
+    "canonical_basename": "c2_14_rain_after_v1",
+    "planned_definition_name": "bg c2_14_rain_after_v1",
+    "planned_path": "images/chapter2/c2_14_rain_after_v1.png",
+    "planned_script_call": "scene bg c2_14_rain_after_v1",
+    "stable_code": "CG02·14·01",
+    "stable_alias": "bg cg02_14_01",
+    "display_before_text": "他摊开手，低头看了一会儿。",
+    "continue_on_text": "檐外是铁券河，河外是夜色里的青山。",
+    "restore_black_before_text": "陈平安跃上栏杆，慢慢走向另一头。",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\reference_audit_after.json",
+        "sha256": "d032cb16fed049b8f05e7c8aba7cb6bba3650a6179371a6b5f80a5e7baa36218",
+        "role": "最终三处一致性及正文不变静态审计"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\runtime_verification.json",
+        "sha256": "7fd4b1c9b7cfe324f2d1ad310b9dd60e43d8091b2401b8f6b91451336ffc52f0",
+        "role": "本轮隔离RenPy运行验收，lint0及38/38断言通过"
+      }
+    ],
+    "verified": true,
+    "verification_pending": [],
+    "definition": {
+      "file": "F:\\project\\JianlaiWhentheSwordArrives\\game\\bg_images.rpy",
+      "line": 122,
+      "name": "bg c2_14_rain_after_v1",
+      "path": "images/chapter2/c2_14_rain_after_v1.png"
+    },
+    "script_call": {
+      "file": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "line": 1042,
+      "name": "bg c2_14_rain_after_v1"
+    },
+    "visible_dialogue_lines": [
+      1044,
+      1046
+    ],
+    "black_restored_line": 1049,
+    "rail_walk_dialogue_line": 1051,
+    "stable_alias_line": 49,
+    "execution_boundary": "使用与生产相关文件哈希匹配的隔离工程运行真实chapter2_start；未启动正式工程或读取正式存档。"
+  },
+  "known_limits": [
+    "修改前旧存档恢复及旧档位置兼容",
+    "完整十二章回归与本次范围外菜单、选项、音频主观听测",
+    "物理1920×1080全屏、其他比例、移动端small/touch",
+    "建筑只通过相对视觉尺度，未作精确三维或楼层测量。",
+    "素材原生1672×941，运行im.Scale显示1920×1080；物理1080p全屏未测。"
+  ],
+  "reference_audit_after": {
+    "evidence": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\reference_audit_after.json",
+      "sha256": "d032cb16fed049b8f05e7c8aba7cb6bba3650a6179371a6b5f80a5e7baa36218",
+      "role": "最终定义、路径、调用、稳定别名及目录一致性检查"
+    },
+    "status": "pass",
+    "audited_inputs_verified_now": 33,
+    "naming_chain": {
+      "basename": "c2_14_rain_after_v1",
+      "definition": "bg c2_14_rain_after_v1",
+      "path": "images/chapter2/c2_14_rain_after_v1.png",
+      "script_call": "scene bg c2_14_rain_after_v1",
+      "stable_code": "CG02·14·01",
+      "alias": "bg cg02_14_01"
+    },
+    "dialogue_sequence_unchanged": true,
+    "dialogue_count": 487,
+    "catalog_counts": {
+      "assets": 206,
+      "callable": 65,
+      "synchronized_products": 3
+    },
+    "findings": {
+      "duplicate_definitions": [],
+      "graph_issues": [],
+      "static_call_issues": [],
+      "path_issues": [],
+      "catalog_mapping_issues": [],
+      "catalog_path_issues": [],
+      "unexplained_original_naming": [],
+      "new_definition_followed_by_invalid_indent": []
+    }
+  },
+  "authority_delta_review_current": {
+    "current_standard": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "最终角色标准：保留其他任务头部练习并追加本图定稿确认"
+    },
+    "historical_delta_review": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\authority_delta_review_finalization.json",
+      "sha256": "f371fb985ce9ae3917a23e5a377a2a72f2cadae123851e100f9cfb1856c0808c",
+      "role": "已核实仅新增另一任务头部角度练习，未改本图身份标准"
+    },
+    "method": "移除新追加雨停廊下定稿章节并仅恢复原末尾换行后，字节摘要精确匹配前次增量复核的当前标准。",
+    "previous_reviewed_standard_sha256": "a28ab4fd35e2288d2867a93a8069e775eded5a0dbe5c73fe675047da30a2ed3f",
+    "prior_content_exactly_preserved": true,
+    "new_addendum_scope": "本图已确认脸部身份、固有色、无箱、雨停只留积水规则与两句接入范围；不替换原母版。",
+    "historical_checkpoint_policy": "旧制作记录仍冻结，旧标准差异证明和旧失败检查均保留；当前最终文件哈希由本记录绑定，不伪装旧check重新通过。"
+  },
+  "final_file_manifest": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\README.md",
+      "sha256": "61a2a1303f35f759d03881ea19b7d8d875130a3598cadb21277a255fdbc66a03",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\bg_images.rpy",
+      "sha256": "022e3557a6d381bbbf8ef49aa0799df31820a0b15aa5cdfabf8f7162573fbcba",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_catalog.json",
+      "sha256": "9359c8c96ff405b30a69be310c42216707fc7cb7def5884af821be0bd540fbfe",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_codes.rpy",
+      "sha256": "9870e116ea37cb41b0ae65ef8f937efdc57f4512858707d9c9b2cd29d015c8bc",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\image_code_catalog.md",
+      "sha256": "90f27f94382415aa1d23e48a88146e122e12f18d99c4559e4e766b5ee36a8e36",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\image_code_gallery.html",
+      "sha256": "61faacb3445ff24a730d4b7764f5bc1cf0132ad778a5e69ae81f9901a93f8d0a",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "072fbab97b6617959d629c24439c173b2590a5427742d3c3d52e3d1da69da513",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\character_image_index.md",
+      "sha256": "94d619ff726211262e98c681bd554dae1c0186877eec69c8c717934b29fd2d6e",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+      "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\tools\\build_image_catalog.py",
+      "sha256": "39da5a941cf49ed5ac86a572de09443d6e59aad301ad976c19fa90e9d22f1734",
+      "role": "本次定稿、注册、脚本、索引或文档最终文件"
+    }
+  ],
+  "completion_appendix": {
+    "preview": {
+      "status": "passed",
+      "mode": "实际RenPy界面叠放与A2/B2布局预览",
+      "visual_review_by": "/root",
+      "directly_viewed_final_screenshots": [
+        "02_palm_a2.png",
+        "09_palm_b2_720p.png",
+        "04_leap_black.png",
+        "07_history.png"
+      ],
+      "observation": "主代理亲自查看最终截图：头脸、摊掌及另一只手无遮挡，A2/B2正文清楚，跃栏前退黑及回看正常。",
+      "screenshots": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\01_before_black.png",
+          "sha256": "24a48c2aa0e21a97fe1185c5102246e556f2ce5dbd107edf385bc25bdb0814ec",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\02_palm_a2.png",
+          "sha256": "59d193a0fa4ea09fcac46e39ba518652b2feec603b17a35795ad69d44c6f33de",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\03_mountains_a2.png",
+          "sha256": "abdc7363c5504ede0a3505ca4346866df5658d87b409eb0c137df5c2ae029564",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\04_leap_black.png",
+          "sha256": "cd80fde606d915ce02eb12dca6ab789378903b0d2b429d9efe3ca900aebabd92",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\05_rollback_mountains.png",
+          "sha256": "6d07cf5bb2d7b831db1ce317ae7818753144c55fbae074d9cfd8660cd8c1bfd7",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\06_palm_loaded.png",
+          "sha256": "b3492a12c1debb603cb4e62032f5508f2ca8692cc9ae84cd1255f928a613a23b",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\07_history.png",
+          "sha256": "af760a15b27d1a4361ce8e81de055a432d108216a3e2782e4e758f477e2ab9ef",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\08_palm_b2.png",
+          "sha256": "f6a296d84d34529587afe2e2e3ba5a5f853ff682599e815133423534d0fd968d",
+          "role": "本轮最终实机截图；尺寸1866×1049"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\09_palm_b2_720p.png",
+          "sha256": "f56be8cb37054929106b0bddfee20ad08d228c4dc4644ceff1d8f44b23ef3231",
+          "role": "本轮最终实机截图；尺寸1280×720"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\10_mountains_b2_720p.png",
+          "sha256": "186c2dfbb61314e358c4cc36e3944b14ca7e85e888040c1945862eda81a96516",
+          "role": "本轮最终实机截图；尺寸1280×720"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\screenshots\\11_mountains_a2_720p.png",
+          "sha256": "acf28842ceadaadb42826ea827ad234a4a4b55b1d1bf97a4051ad62d7b1ccde7",
+          "role": "本轮最终实机截图；尺寸1280×720"
+        }
+      ]
+    },
+    "runtime": {
+      "status": "passed",
+      "engine": "Ren'Py 8.5.3.26051504 / Windows 11",
+      "lint_exit_code": 0,
+      "assertions_passed": 38,
+      "assertions_failed": 0,
+      "actual_physical_windows": [
+        [
+          1867,
+          1050
+        ],
+        [
+          1280,
+          720
+        ]
+      ],
+      "large_drawable_screenshot_size": [
+        1866,
+        1049
+      ],
+      "source_snapshot_files": 274,
+      "source_matches_production": true,
+      "protected_files_unchanged": 116,
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\lint_final_output.txt",
+          "sha256": "2f70000ca66e203eb22f541bf2bbab7c71601c8ed218eda0a04d2a04eeb24556",
+          "role": "本轮实际运行或源快照证据"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final_output.txt",
+          "sha256": "c366263f49951e7e3532fe47b32a38176691935b15ac80ed83eccb90ab126848",
+          "role": "本轮实际运行或源快照证据"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\runtime_final\\states.jsonl",
+          "sha256": "536378162ae1eac2d393c15bdf3b65f656bc7f4dd4d1fef1bbb2adaf9a134317",
+          "role": "本轮实际运行或源快照证据"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\29\\01a18798-6632-7473-b69b-fdd9380a7751\\rain_integration_qa\\source_manifest.json",
+          "sha256": "7fadc03fee9308deea390394aa5c52af937dbb52df85a02aaee69b0c9152ec90",
+          "role": "本轮实际运行或源快照证据"
+        }
+      ],
+      "verification_record": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\runtime_verification.json",
+        "sha256": "7fd4b1c9b7cfe324f2d1ad310b9dd60e43d8091b2401b8f6b91451336ffc52f0",
+        "role": "完整实机验证范围、尝试历史与未测项"
+      }
+    },
+    "delivery": {
+      "status": "passed",
+      "user_adoption_confirmed": true,
+      "raw_copy_verified": true,
+      "canonical_definition_path_call_consistent": true,
+      "project_asset": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+        "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+        "role": "最终当前使用资产"
+      },
+      "scope": "仅看掌与檐外河山两句；不是全章美术或完整Demo完成。"
+    },
+    "final_parent_checks": {
+      "reported_by": "/root",
+      "git_diff_check_exit_code": 0,
+      "git_diff_check_note": "仅已有LF/CRLF提示",
+      "catalog_check_exit_code": 0,
+      "catalog_assets": 206,
+      "catalog_callable": 65,
+      "catalog_generated_products_synced": 3,
+      "runtime_code_diff": "背景定义仅新增3行，第二章仅新增6行演出；既有transform保持。"
+    }
+  },
+  "known_warnings": [
+    "项目仍沿用 im.Scale/im.Crop，RenPy提示弃用；本次新图沿用既有im.Scale注册方式。",
+    "已有中文音频文件名的非ASCII分发提示。"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "attempt": "sketch-01",
+  "tool": "image_gen.imagegen",
+  "outcome": "rejected_before_generation",
+  "error": "referenced_image_paths must contain at most 5 paths",
+  "requested_reference_count": 9,
+  "image_output": null,
+  "next_proposal": "改为5张输入：旧溪边、陈暖季全身、裴母版、朱老脸、新玉簪；其余母版已实际查看并用于独立核查。"
+}

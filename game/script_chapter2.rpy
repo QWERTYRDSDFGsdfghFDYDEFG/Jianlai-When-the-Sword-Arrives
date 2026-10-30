@@ -1038,10 +1038,16 @@ label chapter2_start:
 
     narrator "他扶着栏杆走了几步，掌心的雨珠散开，又聚拢，微微沁凉。"
 
+    window auto hide
+    scene bg c2_14_rain_after_v1
+    with trans_short
     narrator "他摊开手，低头看了一会儿。"
 
     narrator "檐外是铁券河，河外是夜色里的青山。"
 
+    window auto hide
+    scene black
+    with trans_short
     narrator "陈平安跃上栏杆，慢慢走向另一头。"
 
     narrator "他想起青鸾国酒楼里听过的一桩旧事。"

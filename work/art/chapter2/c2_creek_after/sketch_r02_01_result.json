@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen.imagegen",
+  "output": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+    "role": "本轮玉簪局部修订实际原图"
+  },
+  "width": 1672,
+  "height": 941,
+  "format": "PNG RGB",
+  "display_treatment": "保留工具原生尺寸，无重采样。仅线稿候选，不接入。",
+  "review_state": "pending independent visual review"
+}

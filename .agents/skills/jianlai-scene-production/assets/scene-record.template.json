@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "task": {
+    "scene_id": "",
+    "request": "",
+    "project_root": "",
+    "scope": "candidate",
+    "stop_after_stage": "delivery",
+    "authorization": "",
+    "target_size": [1920, 1080]
+  },
+  "sources": [],
+  "constraints": {"locked": [], "allowed_changes": [], "uncertainties": []},
+  "retry_policy": {"max_reworks": 2, "extensions": []},
+  "stages": {
+    "brief": {"status": "pending", "required_checks": ["source_scope", "narrative_focus"], "attempts": []},
+    "references": {"status": "pending", "required_checks": ["identity_basis", "reference_roles"], "attempts": []},
+    "composition": {"status": "pending", "required_checks": ["story_relation", "framing"], "attempts": []},
+    "space": {"status": "pending", "required_checks": ["layout", "grounding"], "attempts": []},
+    "sketch": {"status": "pending", "required_checks": ["identity", "anatomy", "continuity"], "attempts": []},
+    "color": {"status": "pending", "required_checks": ["structure_preserved", "palette_light"], "attempts": []},
+    "preview": {"status": "pending", "required_checks": ["actual_composite", "dialogue_safe_area"], "attempts": []},
+    "delivery": {"status": "pending", "required_checks": ["provenance", "adoption_scope"], "attempts": []}
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [],
+    "integration": {"status": "not_requested", "authorization": "", "evidence": []}
+  }
+}

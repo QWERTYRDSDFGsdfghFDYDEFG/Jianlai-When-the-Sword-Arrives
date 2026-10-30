@@ -15,6 +15,7 @@
 
 已经具备：
 
+- 2026-10-30雨停廊下彩图已定稿并局部接入第二章：仅覆盖陈平安摊掌低看与檐外河山两句，跃上栏杆前退回黑场。文件、原始图片定义与脚本调用统一为 `c2_14_rain_after_v1`，代号CG02·14·01；正文保持。采用范围及本轮引用与运行验证见 [定稿接入记录](work/art/chapter2/c2_rain_after/finalization.json)。
 - 基础 Ren'Py 工程结构
 - 主菜单、设置、存档、读档等默认流程
 - 多章节主线脚本
@@ -39,6 +40,7 @@
 - Codex 辅助开发文档入口
 - 第二章当前分镜、实际文字顺序及素材缺项：[完整第二章分镜入口](game/Codex/chapter2_storyboard.md)，与当前脚本同步；并排阅读版保留改编前原文供对照。
 - 图片代号与看图速查：[写作规则](game/Codex/image_code_guide.md)、[代号总表](game/Codex/image_code_catalog.md)、[本地看图页](game/Codex/image_code_gallery.html)。剧本按固定编号引用图片，现有文件与旧调用保持兼容。
+- 自动场景制作：[项目专用 Skill](.agents/skills/jianlai-scene-production/SKILL.md)。从剧情、母版和构图开始，经过空间、线稿、上色与使用预览，保存单图制作记录并执行阶段检查和有限返工；记录工具只核对流程与文件证据，视觉质量另做独立复核。
 
 仍在建设：
 

@@ -1,0 +1,26 @@
+{
+  "valid_record": false,
+  "scope_complete": false,
+  "production_complete": false,
+  "next_stage": null,
+  "next_action": "resolve_record_errors",
+  "can_continue": false,
+  "attempts_used_in_previous_records": {
+    "brief": 1,
+    "references": 1,
+    "composition": 1,
+    "space": 1,
+    "sketch": 2,
+    "color": 0,
+    "preview": 0,
+    "delivery": 0
+  },
+  "errors": [
+    "sources[3] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+    "references.attempts[0].inputs[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+    "references.attempts[0].review.checks[0].evidence[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+    "references.attempts[0].review.checks[1].evidence[1] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md"
+  ],
+  "blockers": [],
+  "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+}

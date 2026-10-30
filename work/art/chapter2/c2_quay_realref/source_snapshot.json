@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-30",
+  "authorization": {
+    "proposal": "第二章变船之前的临江街面；第一轮一张无人环境线稿，沿街铺面→开阔街地→下水石阶→江面与远山。",
+    "user": "开始尝试",
+    "scope": "实景参考方法试验，停止于sketch，未授权采用或替换接入"
+  },
+  "script": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+    "sha256": "e814bd1a127de1a84dd0a15ab2628e395bd1a42f81d6fd04c11095e0a81d1a65",
+    "role": "2026-10-29整章确认稿"
+  },
+  "script_excerpt": [
+    {
+      "line": 229,
+      "text": "    # 【郡城江畔·登船】"
+    },
+    {
+      "line": 230,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 231,
+      "text": "    scene bg c2_03_quay_v1"
+    },
+    {
+      "line": 232,
+      "text": "    with trans_location"
+    },
+    {
+      "line": 233,
+      "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+    },
+    {
+      "line": 234,
+      "text": ""
+    },
+    {
+      "line": 235,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 236,
+      "text": "    scene bg c2_03_throw_v1"
+    },
+    {
+      "line": 237,
+      "text": "    with trans_short"
+    },
+    {
+      "line": 238,
+      "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街道两旁，随即抛出一枚核雕小舟。\""
+    },
+    {
+      "line": 239,
+      "text": ""
+    },
+    {
+      "line": 240,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 241,
+      "text": "    scene bg c2_03_reveal_v1"
+    },
+    {
+      "line": 242,
+      "text": "    with trans_illusion"
+    },
+    {
+      "line": 243,
+      "text": "    narrator \"水雾在街面上弥漫开来。\""
+    },
+    {
+      "line": 244,
+      "text": ""
+    },
+    {
+      "line": 245,
+      "text": "    narrator \"雾气散去，一艘三层楼船已低悬在众人面前。\""
+    }
+  ],
+  "storyboard": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+    "sha256": "560458d0ec5f663b72f37c3ec49deaa903242f8f26126be31b260a778d5faf0c",
+    "role": "当前分镜"
+  },
+  "storyboard_excerpt": "# 第二章当前分镜入口\n\n更新：2026-10-29。用户已确认整章修改稿并批准接入；本页记录当前脚本的段落顺序、信息归属、已有画面和待补项，不另存完整正文。\n\n正文唯一权威是 [script_chapter2.rpy](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy)。实施范围及本轮验收见 [定稿接入记录](story_compression_record.md)，图片稳定代号见 [image_catalog.json](../image_catalog.json)。下列行号按本次接入脚本定位；正文再次调整后须复核，场头文字可用于检索。\n\n## 2026-10-29 当前执行与制作边界\n\n- 当前487条对白／旁白／心声，按19个场头注释分段；保留2处显式自动存档、2处可点击无字停留、3句裴朱专用头像对白。19段是当前脚本的时间和空间定位，不等于已经完成19套分镜或19组美术。\n- 当前引用36张背景／CG与4张独立立绘，共40个不同场景资源；另有两张专用头像。既有素材、稳定代号和A2／B2界面保留，挽臂CG及停用的裴朱场景人物层不重新启用。\n- 当前280条文字处于黑场，包含转场与待补图段落。此数不代表需要280张图片；收针后的溪边、宴前廊下、席间、雨夜、气府、灯下与离府仍需按下表补齐或复用稳定画面。\n- 原T001–T226、V编号、11场／56单元及旧行号仅存在于下方历史折叠区，不作为当前正文编号。新稿不沿用旧T号逐项补图，不按旧“宴后双人夜谈”“现场善恶问答”制作。\n- [第二章全章分镜工作簿](F:/图片素材/第二章全章分镜.xlsx)及10月12日并排阅读版仍是历史快照，本轮未回写。当前制作以本页和脚本为准；正式补图前再细化当前段落分镜。\n\n## 当前段落定位与画面边界\n\n| 当前段落（按脚本顺序） | 脚本入口 | 已有呈现 | 具体待补／归属边界 |\n|---|---|---|---|\n| 返乡途中·溪边 | [L9](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:9) | 溪边挑疱CG，收针后切黑 | 收针后稳定休息图待补；不让持针进行态承载后续长谈。访友与宁姑娘计划是陈平安心声。 |\n| 黄庭国·御江畔郡城 | [L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | 入城、观察、远处来人三图 | 剑修冲突是旧事与假设，未发生当场战斗；长段街面旧事的稳态仍需复核，不能把文字改动算作已补差分。 |\n| 郡城·客栈门前 | [L178](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:178) | 邀请、思量、应允三图 | 陈平安因旧交情面答应短住；不能补成拒绝会导致吴懿受罚。 |\n| 郡城江畔·登船 | [L229](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:229) | 开阔街面、抛舟、化船、符纸、少女、搭板、升空 | 先移开行人再变船；裴钱想买宝贝由旁白交代。既有静态关键画面不等于连续变形或登船动画。 |\n| 楼船·御江上空 | [L282](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:282) | 船上俯江CG | 故乡与楚夫人是联想和未来计划，不切成已经到达的场景。 |\n| 紫阳府外·铁券河畔 | [L319](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:319) | 下船、拜谢、退场后交谈、引路四图 | 收舟、少女化符、符纸入河的因果已补文字，尚无专用动作差分；不把旧下船图记为已展示收舟结果。 |\n| 沿河入府 | [L373](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:373) | 吴陈交谈、吴懿闭口近景、沿河引路 | 于禄龙气仅为吴懿心声，陈平安未获知；后续恢复现场对白。 |\n| 紫阳府·府门 | [L420](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:420) | 府门迎接CG | 欢呼由众人发出；吴懿邀并肩是传音，陈平安的答话为现场对白。未实现完整人群跪起或前后换位动画。 |\n| 暮色·客楼 | [L455](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:455) | 客楼、规矩、陈设、放箱、临窗五图，出廊后切黑 | 放箱的无字停留后接站稳画面；裴钱留在楼内看陈设，不进入陈朱廊下长谈。 |\n| 宴前·四楼廊下 | [L509](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:509) | 黑场文字 | 需四楼临河廊下的暮色双人稳定画面；陈用养剑葫、朱用酒壶。不可复用室内含裴钱的图冒充廊下，不再制作旧稿的宴后雨夜双人长谈。 |\n| 入夜·紫气宫长廊 | [L622](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:622) | 赴宴、询认、蜈蚣岭插镜、相认、拍肩、收手及陈孙独立立绘 | 旧事插镜由当下陈平安讲述；“小孙，边走边聊”归同行老者，之后催席才归紫阳府管事，二者均可在画外发声。 |\n| 夜·雪茫堂 | [L758](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:758) | 黑场、迎客CG、堂口背景及裴朱专用头像；入席后切黑 | 挽臂由旁白承接，停用CG不复用。宾客席面、萧鸾三坛罚酒与再敬一坛、陈平安以坛回敬、孙登先杯饮均待正式分镜；堂口图不能冒充落座席面。 |\n| 夜·返回客楼 | [L994](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:994) | 黑场文字 | 需散席返楼、雨中行路及独处读书的时间和空间承接；同行者各自回房后，廊下只有陈平安。当前雨声等仍由文字交代，未新增音频。 |\n| 深夜·四楼廊下 | [L1031](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1031) | 黑场文字、陈心声与崔东山回忆 | 需雨停后的廊下稳态及栏杆行走关键状态；手中雨水触发联想，崔东山并非现场出场。伞、车轮等意象不必逐项新增CG。 |\n| 返乡路上的旧日问答 | [L1124](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1124) | 黑场，具名陈朱回忆对白 | 这是过去路上的问答；不能把朱敛摆在当前夜廊。可在待补沉思底图上用明确回忆归属承接，不强制新增杀人情境或整场闪回。 |\n| 当下·四楼廊下 | [L1146](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1146) | 黑场，陈平安心声与气府内心语分开 | 需陈在外部廊下、气府小人在体内的可辨状态；宁姑娘未在现场。小人急而不能明说的缘由、骂后笑及金光仍有所得均保留。 |\n| 深夜·房内 | [L1232](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1232) | 黑场文字 | 需灯下读书稳态；陈重新翻开之前合上的书，油灯承接“不敢多想的一个人”。不提前画出顾璨已犯的事或替悬念定答案。 |\n| 翌晨·辞别紫阳府 | [L1269](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1269) | 黑场文字 | 需清晨离府或返乡路结果图；保持三人、陈的竹箱、裴的行山杖连续。 |\n| 同日·紫阳府 | [L1280](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1280) | 黑场文字，随后跳第三章 | 吴懿在客人离开后传讯；信息只给玩家。传讯媒介未定，不擅画具体法器或父亲接讯CG。 |\n\n## 无字停留、头像与声音归属\n\n- [L172](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:172)为客栈前远处来人的无参数`pause`；[L488](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:488)为放箱图的无参数`pause`。均由玩家控制继续，不宣称为连续动作动画；原挽臂无字停留仍取消。\n- [L787](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:787)、[L789](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:789)、[L793](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:793)保留裴钱一次、朱敛两次专用头像；本轮未改变A2默认、B2可选的界面规则，也不把头像扩展给新配角。\n- `wy_telepathy`是吴懿向陈平安传音；`wy_thought`是只向玩家呈现的吴懿心声。两者不可混用。\n- `cpa_memory`、`zl_memory`、`cds_memory`保留回忆归属；`jssr_thought`只属于气府内部。心声／回忆结束后恢复普通对白标签，不让角色听见不属于现场的内容。\n- `companion_elder`、`ziyang_steward`、`xiaoluan`、`ziyang_crowd`与积香庙小神分别承担各自发言，现阶段无新增配角头像、立绘或配音资产。\n\n## 本轮核验入口\n\n当前文本对应、标签与跳转、图片引用及运行检查统一登记在[定稿接入记录](story_compression_record.md)的2026-10-29节。本页的段落表是脚本与素材状态登记，不替代游戏实机验收。487条文本映射及验证证据位于[本轮工作区](C:/Users/MSI/.codex/visualizations/2026/10/28/01a1827f-f8fa-7d52-ab18-1d96443336d9/chapter2_finalization_20261029/)。\n\n",
+  "index_origin": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\character_image_index.md",
+    "sha256": "c2168776046355efe73fee5509e024d7547fe07c286fbfbeeb403aef1fdbfa91",
+    "role": "仅作来源追溯，后续索引变更不使快照失效"
+  },
+  "index_excerpt": [
+    {
+      "line": 219,
+      "text": "完整提示词与逐张源／目标 SHA256 记录保留在本任务项目外的 `scene2_street_final_prompts.json`、`scene2_street_replacement_manifest.json`，在线分镜表未另存项目。"
+    },
+    {
+      "line": 220,
+      "text": ""
+    },
+    {
+      "line": 221,
+      "text": "最终接入验收：五张新增衍生图与各自源图 SHA256 全部一致；六镜文件基名、`bg_images.rpy` 定义与 `script_chapter2.rpy` 调用逐项一致；已删除两图无残余 `.rpy` 引用。图片代号 153 条登记、26 条可调用映射及生成产物同步通过。Ren'Py lint 没有缺图、语法或跳转错误，仍有既存 `im.Scale`／`im.Crop` 及非 ASCII 文件名提示。实际运行六镜切换及相邀处存档、应允后读回，11／11 项断言通过；七张实机截图已人工复查，均为本轮新素材，脸部与主要手势可见，远处吴懿未被对话框遮住。对话框遮住腿部会弱化行走动作；既有旁白左边距偏小，本轮未修改 UI。验证使用隔离的测试存档目录；未据此宣称全章节、所有存读档入口或其他分辨率已验收。"
+    },
+    {
+      "line": 222,
+      "text": ""
+    },
+    {
+      "line": 223,
+      "text": "### 3.7 第三场核舟登船八镜（2026-09-24）"
+    },
+    {
+      "line": 224,
+      "text": ""
+    },
+    {
+      "line": 225,
+      "text": "用户先要求“现在开始第三场”，随后于 2026-09-24 明确“可以定稿”，确认以下八张第三场剧情图。状态为**当前使用／可调用，用户已定稿**；保持当前像素、文件名、剧情调用及原文，不更换任何角色身份母版。八镜沿用已确认的“变船前／搭板后”草图和第二场定稿画风，在线分镜表未另存项目。"
+    },
+    {
+      "line": 226,
+      "text": ""
+    },
+    {
+      "line": 227,
+      "text": "| 代号／运行文件（`images/chapter2/`） | 剧情时刻 | 生成原图 |"
+    },
+    {
+      "line": 228,
+      "text": "| --- | --- | --- |"
+    },
+    {
+      "line": 229,
+      "text": "| `CG02·03·01`／`c2_03_quay_v1.png` | 来到沿江街面，中央留出变船空地 | `exec-e1d243d3-85af-427c-83c0-223f7a205c4d.png` |"
+    },
+    {
+      "line": 230,
+      "text": "| `CG02·03·02`／`c2_03_throw_v1.png` | 吴懿丢出核舟，行人已让开 | `exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png` |"
+    },
+    {
+      "line": 231,
+      "text": "| `CG02·03·03`／`c2_03_reveal_v1.png` | 水雾显出三层楼船，无少女或木板 | `exec-124d365e-e26a-4b18-8578-ba98c5abd38a.png` |"
+    },
+    {
+      "line": 232,
+      "text": "| `CG02·03·04`／`c2_03_papers_v1.png` | 吴懿松开彩色符纸，无少女或木板 | `exec-64f8462a-9b07-423a-af5e-a3ccac81aab4.png` |"
+    },
+    {
+      "line": 233,
+      "text": "| `CG02·03·05`／`c2_03_maids_v1.png` | 三名少女在街面现身，尚未搭板 | `exec-3ac0962e-a1f9-42da-b564-eb061ea227f4.png` |"
+    },
+    {
+      "line": 234,
+      "text": "| `CG02·03·06`／`c2_03_board_v1.png` | 单板连最低舷口与岸地，少女让路 | `exec-dc8bd7ac-8128-48e2-b72e-88f965790aca.png` |"
+    },
+    {
+      "line": 235,
+      "text": "| `CG02·03·07`／`c2_03_fly_v1.png` | 四名主角已登船，木板收回，众人仰望 | `exec-809675d7-94d6-4524-8b6e-a97ef9829e27.png` |"
+    }
+  ],
+  "catalog_entry": [
+    {
+      "code": "CG02·03·01",
+      "kind": "cg",
+      "title": "码头沿江街面：停步",
+      "path": "images/chapter2/c2_03_quay_v1.png",
+      "status": "当前使用",
+      "availability": "可调用",
+      "character_ids": [
+        "01",
+        "02",
+        "06",
+        "10"
+      ],
+      "target": "bg c2_03_quay_v1",
+      "alias": "bg cg02_03_01",
+      "notes": "2026-09-24第三场独立换景。承接客栈相邀后的沿街引路，四人抵达码头旁开阔沿江街面，作为变船前空间交代。 保留剧情原文，运行按1920×1080显示；文件基名、原始定义与剧情调用一致。"
+    }
+  ]
+}

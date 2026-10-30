@@ -1,0 +1,21 @@
+{
+  "asset": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-493c8106-ac04-40fc-b772-21edf243ac21.png",
+    "sha256": "450192088caa726bdf7132d265548ddeb64e97a3bdcd70b73f5c00f8ab56eb41",
+    "role": "第4次实际编辑输出：只校正栏杆，保持线稿，等待独立复核"
+  },
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "recorded_date": "2026-10-30",
+  "date_basis": "客户端Asia/Hong_Kong日期；生成工具未提供精确完成时刻",
+  "file_bytes": 1997288,
+  "tool": "image_gen.imagegen",
+  "target_size": [
+    1920,
+    1080
+  ],
+  "display_treatment": "保留生成工具原生尺寸；未裁切、重采样或接入游戏",
+  "review_status": "pending"
+}

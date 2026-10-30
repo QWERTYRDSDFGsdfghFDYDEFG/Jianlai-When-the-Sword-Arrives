@@ -1,0 +1,14 @@
+{
+  "edit_target": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+    "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+    "role": "完整溪边原线稿"
+  },
+  "tool_reference": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+    "role": "已确认玉簪器形与转向绘画参考"
+  },
+  "roles": "只将原图与15角度玉簪图提供编辑器。81头仅用于前次面部角度检视，不提供给编辑器；脸不重画。身份母版仍按sources。",
+  "conflict_resolution": "旧服装图普通圆头簪不得覆盖新版卷首；15图五色为发区编码，不采用颜色；角度未经校准。"
+}

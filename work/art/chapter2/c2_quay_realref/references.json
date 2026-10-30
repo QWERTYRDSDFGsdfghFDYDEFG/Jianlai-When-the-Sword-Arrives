@@ -1,0 +1,58 @@
+{
+  "actual_image_inputs": [
+    {
+      "asset": {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\30\\01a18cda-6396-7632-bf9e-0f100e9734b8\\c2_quay_realref\\reference_phoenix.jpg",
+        "sha256": "51d9e2cb210387e6ac6f5e80584abb7872e87260ccab6644ff0aab17a520e6a9",
+        "role": "主参：右岸屋前平台-石阶-低台-水线连接"
+      },
+      "title": "Tuojiang in fenghuang.jpg",
+      "author": "张韡武",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuojiang_in_fenghuang.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Tuojiang_in_fenghuang.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "observed": "隔河略高视角，右岸连续屋前平台、两处石阶、低处临水台清楚；有站立者可比较尺度。",
+      "changes": "把右岸的连接关系转用于左侧近岸构图；适度拓宽平台为街面，简化为宋韵民居，移除人物/现代设施。镜头外结构属推定。"
+    },
+    {
+      "asset": {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\30\\01a18cda-6396-7632-bf9e-0f100e9734b8\\c2_quay_realref\\reference_zhenyuan.jpg",
+        "sha256": "2e82db5f74cc5c111355122f1f7ff68cb1b5921bd824e0395b275cf9d1c3223a",
+        "role": "辅参：山脚建筑错落与山体尺度"
+      },
+      "title": "Guizhou Zhenyuan Ancient Town1.jpg",
+      "author": "杰·影",
+      "source": "https://commons.wikimedia.org/wiki/File:Guizhou_Zhenyuan_Ancient_Town1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Guizhou_Zhenyuan_Ancient_Town1.jpg",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "observed": "山体逼近水岸，房屋开间、高度与屋顶各异；前景柳条。没有街面，不作通路参考。",
+      "changes": "只借助建筑体量自然变化和单一山体轮廓，不复制现代窗/空调/招牌/山上大字。"
+    }
+  ],
+  "not_generation_inputs": [
+    {
+      "asset": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_quay_v1.png",
+        "sha256": "c6ec9bf0638bca9d4e1b590ea7b5b837cc81beb02ae75a06ebbf70c8a4694bd8",
+        "role": "旧图仅用于目视前后关系比较"
+      },
+      "reason": "避免旧图的广场尺度重新压过实景结构。"
+    },
+    {
+      "tool": "Google Earth via cua_repl",
+      "location": "镇远古镇 贵州",
+      "url": "https://earth.google.com/web/search/镇远古城+贵州/@27.045502,108.417244,532.10631879a,1289.72929059d,35y,-0h,0t,0r/",
+      "observation": "实际查看山脚建筑随地势排列、河湾沿岸街区，地形以谷地和近岸山坡组成。地图仅勘察观察，未保存或喂给图像模型。"
+    }
+  ],
+  "identity_basis": "无人环境；不加载角色母版，未改角色身份标准。",
+  "adaptation_notice": "本试验为两张实拍参考的AI辅助古风线稿改编，非直接描摹、非镇远或凤凰的写实复原。依据主参CC BY-SA 3.0保留署名、修改说明和相同许可。",
+  "output_license": "CC BY-SA 3.0",
+  "access_notes": [
+    "agent-reach Exa 当前连接失败，改用 web 搜索/文件页核验。",
+    "本机 Python 应用别名不可执行，改用已配置 bundled Python；未安装依赖。",
+    "引用中的《剑来》VN演出与构图总手册.md在当前仓库未找到；按现行AGENTS与asset_pipeline_sop执行。"
+  ]
+}

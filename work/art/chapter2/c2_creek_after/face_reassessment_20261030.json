@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-30",
+  "user_feedback": "脸还是有问题看看之前做的15视角还有陈平安9×9、共81个头部的角度线稿，能不能解决这种问题",
+  "scope": "只读看图与方案诊断；不新增图像生成尝试、不替换任何图片。",
+  "asset_status": "待修正／脸部待修正，玉簪本轮改善结论保留",
+  "prior_record": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\record_r02.json",
+    "sha256": "512287254552ca5d42dba850f72a5d1a22f51394b74803ef866687ce0f33d32d",
+    "role": "上轮玉簪局部修订历史，不改写原审核"
+  },
+  "images": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+      "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+      "role": "当前待核线稿"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "身份母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "发型和转向结构参考"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\17\\01a14a12-5216-7b91-bfb5-10f147b4e459\\cpa_head_angles.png",
+      "sha256": "c23ff70a8f35f3d142a6c92580e9ff5bfad240e48a7f04aaaf0af47d9457f0c0",
+      "role": "81头角度练习，仅结构参考"
+    }
+  ],
+  "method": "/root及新独立代理/root/face_structure_review实际打开四张图；完整画面及内存局部放大比对。无修改或落盘的局部图。",
+  "findings": [
+    {
+      "id": "FACE_EYES",
+      "observation": "场景近侧眼较母版更细、更紧，眉眼关系更锐，低看的表现削弱了母版原有眼形和较平稳的直眉。",
+      "change": "依据母版恢复眼形、虹膜开合与眉眼间距，再通过上眼睑及瞳孔方向表达轻俯低看。"
+    },
+    {
+      "id": "FACE_VOLUME",
+      "observation": "下半脸颊侧转面和下颌角较弱，鼻口下巴附近显紧，耳前到下巴的长斜线加重薄片感；不能仅断言下巴绝对太长。",
+      "change": "恢复颊侧和下颌的转折、下巴底部体积，仍保留母版瘦长青年脸。"
+    },
+    {
+      "id": "FACE_REVIEW_SCOPE",
+      "observation": "上轮identity通过主要证明修簪未新增脸部漂移，不能据此认证原始场景脸已充分符合母版。",
+      "change": "下一次应重新检验与母版的一致性，不能继续将当前脸列为不可修改项。"
+    }
+  ],
+  "uncertainties": [
+    "未找到足够证据认定两眼明显错位、头颈断开、必须大幅低头或精确年龄变为某数值。",
+    "发量相对小脸较强，但头发遮蔽颅体；应先搭颅体再判断，不直接整体缩头或缩颈。",
+    "15图和81图未作三维角度校准；81每格细节有限、尚待用户审阅，不替代身份母版。"
+  ],
+  "reference_assignment": {
+    "identity": "cpa_face_standard_01.png第2及4–6格锁眉眼、颊颌体量和20–22岁青年身份；对比需考虑转向差异。",
+    "head_structure": "81头自上而下第5–6行、自左而右第3列附近，检查轻俯与左半侧的中线/眼线/耳颌共同变化。",
+    "hair_and_pin": "15视角第08格提供大转向，向第13格取少量俯视关系；恢复发区、髻与簪随头旋转，不照搬更深俯视。"
+  },
+  "proposed_workflow": [
+    "先制作当前姿态的放大头部线稿：颅体、耳根、下颌和中线/眼线作为整体。",
+    "用身份母版重校眉眼及下半脸体积；原轻俯向左的头向和看裴钱的关系保持。",
+    "用15视角检查发区/发髻/玉簪与颅体的统一。",
+    "独立对照母版及相邻角度复核，再放回完整场景并检查原尺寸可读性。"
+  ],
+  "not_executed": [
+    "新头部线稿或场景修图",
+    "上色与接入",
+    "精确三维校准或游戏实机"
+  ]
+}

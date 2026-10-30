@@ -1,0 +1,27 @@
+{
+  "asset": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-307c6bd7-4f99-431f-8e4f-35d8e4656c59.png",
+    "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+    "role": "第二轮上色局部编辑实际输出：去空中滴，等待独立复核"
+  },
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "recorded_date": "2026-10-30",
+  "date_basis": "客户端Asia/Hong_Kong日期；工具未提供精确完成时刻",
+  "file_bytes": 2219456,
+  "tool": "image_gen.imagegen",
+  "target_size": [
+    1920,
+    1080
+  ],
+  "display_treatment": "保留生成工具原生输出；未裁切、重采样或接入游戏",
+  "review_status": "pending",
+  "generation_counts": {
+    "sketch": 4,
+    "color": 2,
+    "total_image_calls": 6,
+    "color_reworks": 1
+  }
+}

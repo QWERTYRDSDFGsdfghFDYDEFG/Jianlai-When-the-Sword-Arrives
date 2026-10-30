@@ -1,0 +1,17 @@
+{
+  "asset": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cda-6396-7632-bf9e-0f100e9734b8\\exec-50f80433-0c65-42f1-877e-9c66550dbc00.png",
+    "sha256": "e5fb63efaf7ea702eb5fffcf38cb7bb87e3146ce93d42c539deb26591b82a723",
+    "role": "线稿第二版原生图"
+  },
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "mode": "RGB",
+  "target": [
+    1920,
+    1080
+  ],
+  "display_treatment": "保留工具原生1672×941文件，未拉伸、重采样或裁切；仅供本轮预览。",
+  "verification": "Pillow解码及PNG结构检查成功；机械检查不代表视觉通过。"
+}

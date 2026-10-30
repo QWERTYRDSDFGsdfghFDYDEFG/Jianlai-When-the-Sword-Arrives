@@ -1,0 +1,87 @@
+{
+  "reason": "收尾时整份script_chapter2.rpy发生并行修改，旧记录的直接整文件哈希失效；保留旧记录，不修改旧指纹。",
+  "old_script_sha256": "e814bd1a127de1a84dd0a15ab2628e395bd1a42f81d6fd04c11095e0a81d1a65",
+  "current_script_sha256_at_check": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+  "current_script_path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+  "scene_excerpt_unchanged": true,
+  "current_excerpt": [
+    {
+      "line": 229,
+      "text": "    # 【郡城江畔·登船】"
+    },
+    {
+      "line": 230,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 231,
+      "text": "    scene bg c2_03_quay_v1"
+    },
+    {
+      "line": 232,
+      "text": "    with trans_location"
+    },
+    {
+      "line": 233,
+      "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+    },
+    {
+      "line": 234,
+      "text": ""
+    },
+    {
+      "line": 235,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 236,
+      "text": "    scene bg c2_03_throw_v1"
+    },
+    {
+      "line": 237,
+      "text": "    with trans_short"
+    },
+    {
+      "line": 238,
+      "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街道两旁，随即抛出一枚核雕小舟。\""
+    },
+    {
+      "line": 239,
+      "text": ""
+    },
+    {
+      "line": 240,
+      "text": "    window auto hide"
+    },
+    {
+      "line": 241,
+      "text": "    scene bg c2_03_reveal_v1"
+    },
+    {
+      "line": 242,
+      "text": "    with trans_illusion"
+    },
+    {
+      "line": 243,
+      "text": "    narrator \"水雾在街面上弥漫开来。\""
+    },
+    {
+      "line": 244,
+      "text": ""
+    },
+    {
+      "line": 245,
+      "text": "    narrator \"雾气散去，一艘三层楼船已低悬在众人面前。\""
+    }
+  ],
+  "observed_diff": "diff --git a/game/script_chapter2.rpy b/game/script_chapter2.rpy\nindex fc29ba7..d2e9f96 100644\n--- a/game/script_chapter2.rpy\n+++ b/game/script_chapter2.rpy\n@@ -1038,10 +1038,16 @@ label chapter2_start:\n \n     narrator \"他扶着栏杆走了几步，掌心的雨珠散开，又聚拢，微微沁凉。\"\n \n+    window auto hide\n+    scene bg c2_14_rain_after_v1\n+    with trans_short\n     narrator \"他摊开手，低头看了一会儿。\"\n \n     narrator \"檐外是铁券河，河外是夜色里的青山。\"\n \n+    window auto hide\n+    scene black\n+    with trans_short\n     narrator \"陈平安跃上栏杆，慢慢走向另一头。\"\n \n     narrator \"他想起青鸾国酒楼里听过的一桩旧事。\"\n",
+  "impact": "差异为1038行附近深夜四楼廊下的雨停后图片和黑场切换，与本次229–245行变船前街面无关。剧情时刻、人物范围、空间设计、照片参考及已复核第二版图均可复用。",
+  "new_source_policy": "新记录使用冻结的本场摘录及本次比对结论；续做时仍需对照最新权威脚本，不把其他场景的例行更新误作本场改稿。",
+  "stage_revalidation": {
+    "brief": "逐行对照确认本场字句和指令不变，仍为变船前无人环境试验。",
+    "references": "两张原始照片与许可分工、旧图比较依据均未改变。",
+    "composition": "近岸左屋右江、街阶中景和底部留白的目标不受其他场切换影响。",
+    "space": "屋门至街、阶、台、水线的设计不受影响，保留既有剖面与平面方案。",
+    "sketch": "同一第二版图继续交独立复核者确认既有视觉结论对未变本场仍适用，无新增生成或重画。"
+  }
+}

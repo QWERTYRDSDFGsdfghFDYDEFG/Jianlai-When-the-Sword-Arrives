@@ -1,0 +1,75 @@
+{
+  "scene": "第二章：临江街面·变船前",
+  "result": "完成一张实景参考无人线稿；初稿后一次局部修订，独立复核通过。",
+  "selected": {
+    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cda-6396-7632-bf9e-0f100e9734b8\\exec-50f80433-0c65-42f1-877e-9c66550dbc00.png",
+    "sha256": "e5fb63efaf7ea702eb5fffcf38cb7bb87e3146ce93d42c539deb26591b82a723",
+    "role": "实景参考线稿第二版：简化纹理并推远阶台"
+  },
+  "status": "候选，未经用户确认采用",
+  "original_size": [
+    1672,
+    941
+  ],
+  "target_size": [
+    1920,
+    1080
+  ],
+  "scope_complete": true,
+  "stopped_after": "sketch",
+  "active_record": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\record_v2.json",
+    "sha256": "9e29805d6fbe20275aba436bd21b8996df8ad030ffe0ebd230a4571ca4bbc842",
+    "role": "当前有效制作记录，链接历史生成过程"
+  },
+  "not_performed": [
+    "上色",
+    "实际对白框叠放",
+    "游戏接入与实机切镜/存读档验收"
+  ],
+  "material_limitations": [
+    "房屋仍较实拍整齐，本轮验证空间路径，未声称完全消除AI观感。",
+    "第二版低台末端略低于修订提示词72%目标线，但仍在底部24%预留区以上；实际对白遮挡待后续验证。",
+    "参考改编而非实地精确复原；原生尺寸不是目标1920×1080。"
+  ],
+  "evidence": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\review_sketch_02.json",
+      "sha256": "a6968f3c54457565311cf92b214d7aaaceecaa59a1806f37d1c145a0a9668cdf",
+      "role": "独立实际看图报告"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\review_sketch_revalidation_v2.json",
+      "sha256": "25893f941d625f87a252b50cf3655ec4f7c0ebf5ba97b4cfd76270c2b832e4f4",
+      "role": "并行脚本修改影响的独立复核"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\native_metadata_sketch_02.json",
+      "sha256": "9b13866e9b06147aff1b8f6150331fed5937b5bdce1a4af29dcdb9301f75667f",
+      "role": "尺寸与文件验证"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\credits.json",
+      "sha256": "29e5368a624eb91475c6962a2d80c7e9480966de7187d8f0511770288ef0e9a8",
+      "role": "参考署名许可与改编说明"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\check_v2_after_sketch.json",
+      "sha256": "42a19a081f416e5dc169cc31d8914ae27a3daae884127295b93e5007fd7cb213",
+      "role": "阶段记录机械检查"
+    }
+  ],
+  "prompts": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\prompt_sketch_01.json",
+      "sha256": "c725c799480f747db349f1ede594c790009c95d97b0b0c3424fd1894d72e5878",
+      "role": "首次内置工具调用原文"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_quay_realref\\prompt_sketch_02.json",
+      "sha256": "0d6e95c87c24ec3872818a5d238dbff0819f763cc6e25ce504eee7157bf777bc",
+      "role": "局部修订内置工具调用原文"
+    }
+  ],
+  "changed_files": "只新增work/art/chapter2/c2_quay_realref中的本轮记录；图像留生成器预览目录，真实参考副本留当前会话visualizations目录；未改游戏文件与用户已有脏文件。"
+}

@@ -46,6 +46,7 @@ image bg cg02_07_03 = "bg c2_07_house_rules_v1"
 image bg cg02_07_04 = "bg c2_07_pq_furnishings_v1"
 image bg cg02_07_05 = "bg c2_07_cpa_set_box_v1"
 image bg cg02_07_06 = "bg c2_07_window_talk_v1"
+image bg cg02_14_01 = "bg c2_14_rain_after_v1"
 image cds o01_p01_e00 = "cds standard"
 image bg cg02_08_01 = "bg c2_08_banquet_arrival_v2"
 image bg cg02_08_02 = "bg c2_08_recognition_v2"
@@ -112,6 +113,7 @@ define IMAGE_CODE_NAMES = {
     "CG02·07·04": "bg cg02_07_04",
     "CG02·07·05": "bg cg02_07_05",
     "CG02·07·06": "bg cg02_07_06",
+    "CG02·14·01": "bg cg02_14_01",
     "立绘04·01·01·00": "cds o01_p01_e00",
     "CG02·08·01": "bg cg02_08_01",
     "CG02·08·02": "bg cg02_08_02",

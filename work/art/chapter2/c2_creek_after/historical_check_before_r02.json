@@ -1,0 +1,24 @@
+{
+  "valid_record": false,
+  "scope_complete": false,
+  "production_complete": false,
+  "next_stage": null,
+  "next_action": "resolve_record_errors",
+  "can_continue": false,
+  "attempts_used_in_previous_records": {
+    "brief": 0,
+    "references": 0,
+    "composition": 0,
+    "space": 0,
+    "sketch": 0,
+    "color": 0,
+    "preview": 0,
+    "delivery": 0
+  },
+  "errors": [
+    "sources[0] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+    "sources[2] fingerprint changed: F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md"
+  ],
+  "blockers": [],
+  "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+}

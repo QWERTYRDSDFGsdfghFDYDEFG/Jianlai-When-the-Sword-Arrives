@@ -1,0 +1,239 @@
+{
+  "reviewer": "/root/quay_sketch_review",
+  "verdict": "rework",
+  "checks": [
+    {
+      "id": "identity",
+      "result": "not_applicable",
+      "observation": "实际查看整图未发现人物；本次批准范围是变船前的独立无人环境层，不承担陈平安等角色身份核验。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/brief.json",
+          "sha256": "7673214395bfef40216ed016b96f6337a6a88d20e345e52fec5653265d010033",
+          "role": "无人环境层、停止在线稿和未接入的任务范围"
+        }
+      ]
+    },
+    {
+      "id": "anatomy",
+      "result": "not_applicable",
+      "observation": "整图无人或人体局部，不适用肢体、重心、手脚侧别检查；台阶、建筑落地另在spatial_logic检查。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/brief.json",
+          "sha256": "7673214395bfef40216ed016b96f6337a6a88d20e345e52fec5653265d010033",
+          "role": "无人环境层、停止在线稿和未接入的任务范围"
+        }
+      ]
+    },
+    {
+      "id": "continuity",
+      "result": "pass",
+      "observation": "旧CG与本稿都以左侧临街屋面、右侧江水、远山构成阅读方向，均能表达抵达临江开阔处。本稿将旧CG的大广场收为沿江街，河道更窄、对岸山更近，属于任务允许的重构；不等于已与后续抛舟、化船图精确衔接。没有将本试验判断扩大为运行镜头连续性验收。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v1.png",
+          "sha256": "c6ec9bf0638bca9d4e1b590ea7b5b837cc81beb02ae75a06ebbf70c8a4694bd8",
+          "role": "实际查看的旧CG；只比较阅读方向与场景范围"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/brief.json",
+          "sha256": "7673214395bfef40216ed016b96f6337a6a88d20e345e52fec5653265d010033",
+          "role": "无人环境层、停止在线稿和未接入的任务范围"
+        }
+      ]
+    },
+    {
+      "id": "spatial_logic",
+      "result": "pass",
+      "observation": "左侧可见门口以短门槛或少量台阶落到连续干街；街面可从左前通向画面中部远处，主路在下水阶左侧保持通行。中右阶口约位于画宽42%—51%、画高63%—66%，下行阶级接到约画高83%—90%的实体低台；低台外侧有竖向石砌立面，水线贴其下缘。阶侧墙和近岸挡墙有体量，未见必须穿墙、悬台或用临水窄沿代替主路的问题。台阶底部位置偏低属于留白问题，不把它误报为结构断路。单幅透视无法验证真实工程尺寸。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/visualizations/2026/10/30/01a18cda-6396-7632-bf9e-0f100e9734b8/c2_quay_realref/reference_phoenix.jpg",
+          "sha256": "51d9e2cb210387e6ac6f5e80584abb7872e87260ccab6644ff0aab17a520e6a9",
+          "role": "实际查看的原始主参；岸壁、石阶、低台和水线关系"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/space.json",
+          "sha256": "e4477a82ce40ebb1e48b77591052328192ead2132f9568acd3580f1be2056e37",
+          "role": "屋门至临水低台的通路及剖面设计"
+        }
+      ]
+    },
+    {
+      "id": "reference_trace",
+      "result": "pass",
+      "observation": "与凤凰主参对照，本稿保留了高处街/屋前层、斜向下水阶、较低临水台及连续水线的三层关系，并把右岸结构转为左侧近岸，确实有可辨认的参考结构而非只换古建外观。与镇远辅参对照，房屋有开间、楼层和屋脊高度差，山体紧贴对岸建筑之后；没有照搬空调、山体大字或现代外墙。近岸房屋比实拍更整齐，但不足以否定本轮结构参照成立。此结论不声称凤凰或镇远的实测复原。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/visualizations/2026/10/30/01a18cda-6396-7632-bf9e-0f100e9734b8/c2_quay_realref/reference_phoenix.jpg",
+          "sha256": "51d9e2cb210387e6ac6f5e80584abb7872e87260ccab6644ff0aab17a520e6a9",
+          "role": "实际查看的原始主参；岸壁、石阶、低台和水线关系"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/visualizations/2026/10/30/01a18cda-6396-7632-bf9e-0f100e9734b8/c2_quay_realref/reference_zhenyuan.jpg",
+          "sha256": "2e82db5f74cc5c111355122f1f7ff68cb1b5921bd824e0395b275cf9d1c3223a",
+          "role": "实际查看的原始辅参；建筑体量错落及近山尺度"
+        }
+      ]
+    },
+    {
+      "id": "line_economy",
+      "result": "fail",
+      "observation": "本稿保持单色白底，但右上山坡与中部远山铺满细碎树冠线，右下江面有大量连续反光短线，左下几乎逐块描出石板及磨损纹。远景与近景的细节密度仍接近，环境呈精细填色线稿效果，没有落实远山轮廓化、水面少量水平线及大部分面留白。问题最集中在画宽55%—100%/画高0%—59%的山体、画宽51%—100%/画高60%—100%的江面及底部街面。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/composition.json",
+          "sha256": "095f76f0092db84d1445902381a7e109ab650ea39d83e70df7d50ae1fef77179",
+          "role": "已定构图、线条密度与底部约24%留白"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/prompt_sketch_01.json",
+          "sha256": "c725c799480f747db349f1ede594c790009c95d97b0b0c3424fd1894d72e5878",
+          "role": "本次准确提示词；简洁线稿及关键阶口不得进入底部区的要求"
+        }
+      ]
+    },
+    {
+      "id": "dialogue_reserve",
+      "result": "fail",
+      "observation": "底部约24%（原生图约y715以下）包含石阶最后数级、阶底与低台的接合、低台外缘及水线；这些正是本轮要保留可读性的空间连接。阶顶已在中部，但关键阶底仍在下方预留区，且底部石板和水纹线较密。这里只判断是否符合已定构图；未叠加真实对白框，不能据此声称游戏中已经被遮挡。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/composition.json",
+          "sha256": "095f76f0092db84d1445902381a7e109ab650ea39d83e70df7d50ae1fef77179",
+          "role": "已定构图、线条密度与底部约24%留白"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/prompt_sketch_01.json",
+          "sha256": "c725c799480f747db349f1ede594c790009c95d97b0b0c3424fd1894d72e5878",
+          "role": "本次准确提示词；简洁线稿及关键阶口不得进入底部区的要求"
+        }
+      ]
+    },
+    {
+      "id": "period_scope",
+      "result": "pass",
+      "observation": "整图未见人物、船、核舟、魔法光效、招牌文字、车辆、电线、空调或现代高楼；可见石砌岸墙、木门窗与灰瓦式屋面。图像无色彩渲染、无拼贴边框，符合本次无人、未变船、未上色范围。此为视觉范围检查，不是建筑年代考证。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/brief.json",
+          "sha256": "7673214395bfef40216ed016b96f6337a6a88d20e345e52fec5653265d010033",
+          "role": "无人环境层、停止在线稿和未接入的任务范围"
+        }
+      ]
+    },
+    {
+      "id": "delivery_boundary",
+      "result": "pass",
+      "observation": "本次只交付独立线稿复核报告，不改游戏资源或制作记录。查看的原生图片为1672×941，不能写成已达1920×1080；尺寸差异留待后续明确的交付处理。本次未验证上色、真实对白布局、游戏实机或与后续CG的完整接入连续性，这些不属于当前授权的停止点。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/brief.json",
+          "sha256": "7673214395bfef40216ed016b96f6337a6a88d20e345e52fec5653265d010033",
+          "role": "无人环境层、停止在线稿和未接入的任务范围"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "soft",
+      "state": "open",
+      "problem": "线稿细节密度明显高于已定标准：右侧山林由密集树冠线铺满，水面倒影和底部石板纹理持续填充大面积画面，结构线缺乏明确主次。",
+      "required_change": "退回sketch，仅减少线条：远山保留山形及极少植被团块外轮廓；江面保留水线和少量水平线；近岸石板只选少数接缝交代透视；删去密集树叶、碎石纹、木纹和重复瓦列。重新看整图确认岸阶连接仍比纹理清晰。",
+      "preserve": "保留左屋右江的方向、当前可信的门槛—街面—阶口—石阶—低台—水线连接、房屋体量差异、山体位置、无人无船无魔法范围及单色白底。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/composition.json",
+          "sha256": "095f76f0092db84d1445902381a7e109ab650ea39d83e70df7d50ae1fef77179",
+          "role": "已定构图、线条密度与底部约24%留白"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/prompt_sketch_01.json",
+          "sha256": "c725c799480f747db349f1ede594c790009c95d97b0b0c3424fd1894d72e5878",
+          "role": "本次准确提示词；简洁线稿及关键阶口不得进入底部区的要求"
+        }
+      ],
+      "return_to": "sketch"
+    },
+    {
+      "id": "F2",
+      "severity": "soft",
+      "state": "open",
+      "problem": "关键的阶底—低台—水线接合位于画面底部约17%内，落入已定底部约24%的对白预留区；与提示词中关键阶口连接不能压在底部的要求不一致。未进行对白实机测试。",
+      "required_change": "在sketch中把整套下水阶与低台适度推远或上移，使阶底和低台外缘主要落在底部预留区以上；同步重验侧墙、台阶与岸线的透视及连接，不能只挪动低台而拉断台阶。底部自然延续为简化路面与水面，不添加空白框。若必须改变已定机位或主要岸线，先回到composition并重验space。",
+      "preserve": "保留当前街面可通行的宽度、左侧店屋与右侧江面的关系，以及阶顶—石阶—低台—水线完整连通的实体逻辑；不扩大为旧图式巨型广场。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cda-6396-7632-bf9e-0f100e9734b8/exec-5a15794b-6f7b-4b0d-8bd9-5d742e405c72.png",
+          "sha256": "307b24238a0b4321c1060362f4b3d71c017c35c56cdb91961d01b6379c432c3c",
+          "role": "实际查看的待验整幅线稿；原生1672×941"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/composition.json",
+          "sha256": "095f76f0092db84d1445902381a7e109ab650ea39d83e70df7d50ae1fef77179",
+          "role": "已定构图、线条密度与底部约24%留白"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_quay_realref/prompt_sketch_01.json",
+          "sha256": "c725c799480f747db349f1ede594c790009c95d97b0b0c3424fd1894d72e5878",
+          "role": "本次准确提示词；简洁线稿及关键阶口不得进入底部区的要求"
+        }
+      ],
+      "return_to": "sketch"
+    }
+  ]
+}
+

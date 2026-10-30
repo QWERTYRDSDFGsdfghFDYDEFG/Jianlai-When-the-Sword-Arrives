@@ -1,0 +1,154 @@
+{
+  "reviewer": "/root/creek_visual_review",
+  "verdict": "rework",
+  "checks": [
+    {
+      "id": "identity",
+      "result": "fail",
+      "observation": "三人脸型、年龄与体量仍可辨且基本保持；陈两腕绑带已恢复、朱肩部辫绳已删。裴软袋仍在自身右腰；朱腰部仍有叠绕绳纹与交叠结，尚不能按母版的平整宽布带通过。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+          "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+          "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+          "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+          "role": "实际查看的陈平安暖天衣装，护腕与长内袖"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+          "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+          "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+          "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+          "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+        }
+      ]
+    },
+    {
+      "id": "anatomy",
+      "result": "pass",
+      "observation": "两版对照下，三人坐姿、陈双脚水线和撑石手、裴持鞋双手与一干一湿脚点、朱屈腿与座石关系保持，未见新增严重肢体错误。被遮挡的朱另一鞋底、水下脚趾仍不作逐细节通过声明。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+          "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+          "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+        }
+      ]
+    },
+    {
+      "id": "continuity",
+      "result": "fail",
+      "observation": "收针、持鞋闲谈、鞋数量、同岸三角与箱位保持；环境已经显著减线，裴开口收小，但衣物/水纹/箱编织仍有细节，现可作为结构稿查看。陈玉簪仍是旧圆头杆、裴袋侧别与朱腰带仍未解决，因此本轮不能通过；未验证真实对白框或游戏运行。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+          "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+          "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+          "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+          "role": "实际查看的新玉簪镂空卷首与侧别参考"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+          "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+          "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+          "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+          "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/composition.json",
+          "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+          "role": "简洁线稿、淡环境、低细节前景的本场约束"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F_CPA_JADE_OLD",
+      "severity": "hard",
+      "state": "open",
+      "problem": "陈平安发髻画面左端仍为小圆钮，整根仍是旧圆头直杆；与上轮相比未改为镂空卷首。",
+      "required_change": "仅将簪首替换为参考中的纤细、不等大镂空卷曲形，保持自身右侧和穿髻轴，允许转头透视与发髻遮挡。",
+      "preserve": "陈脸、发型、头向、已恢复护腕与全部构图。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+          "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+          "role": "实际查看的新玉簪镂空卷首与侧别参考"
+        }
+      ]
+    },
+    {
+      "id": "F_PQ_POUCH_SIDE",
+      "severity": "hard",
+      "state": "open",
+      "problem": "裴钱画面左侧外腰仍可见同一软袋，即自身右腰；靠陈的自身左腰仍未见该袋。",
+      "required_change": "去除画面左侧旧袋与专属挂绳，将唯一软袋移至靠陈的自身左腰/画面右侧，可自然部分遮挡，不保留双袋。",
+      "preserve": "粗绳主腰带、衣片、双手持鞋、儿童体量、脸与双脚。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+          "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+          "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+        }
+      ]
+    },
+    {
+      "id": "F_ZL_CLOTHING_CONTINUITY",
+      "severity": "hard",
+      "state": "open",
+      "problem": "肩部辫绳已删；但朱腰部中央仍有叠绕、交叉的细绳纹与复杂结，轮廓仍偏粗绳束腰，未清晰呈现母版平整宽布腰带。本图尺寸不足以给每根细线定材质，但现有可见结构不支持将此项判为完全修复。",
+      "required_change": "只把腰部改成一条明确的平整深色布腰带，以少量平行褶和简单布结表明布料；消除交叉编绳、绳穗与多重绳结。",
+      "preserve": "已经移除肩带的朴素外衣、朱脸、位置、双手和坐姿。",
+      "evidence": [
+        {
+          "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+          "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+          "role": "实际完整查看的sketch-03修订原图"
+        },
+        {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+          "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+          "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30",
+  "actual_image_inputs": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-14d344dd-9e03-4408-9f1d-6d1daa54dbe0.png",
+      "sha256": "2be84de02f32b6daf26228cdc734923c57676fc09a4f16f8d6526e3b2f8bc0dd",
+      "role": "待局部修正的第二轮线稿；仅锁构图及保留部分，不代替身份母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "实际图像输入2：陈平安唯一脸部母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "实际图像输入3：暖季衣装母版；仍按剧情去箱与背带"
+    }
+  ],
+  "source_revalidation": "旧记录全部来源指纹核对仍有效；当前剧本、分镜和陈平安标准未发生实质变化。",
+  "roles": [
+    "图1为实际编辑底图，锁现有构图和未授权变动的环境、姿势、玉簪及单壶。",
+    "图2锁脸与青年年龄，不沿用其中旧圆头玉簪。",
+    "图3锁衣型、腰绳、绑腿和草鞋；图中的背箱不进入本场。"
+  ],
+  "supporting_authority": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "c0c83caa7233f4ffac3e474558ef61a386b0fe7e6c9b25933b0aeb7f667fda49",
+      "role": "长期身份、衣装及器物规则，未变更"
+    }
+  ],
+  "image_inspection": "协调者/root于本轮及紧邻复核实际查看目标图、脸部母版和服装母版；记录整理者实际查看编辑底图，核对母版路径、哈希和分工。",
+  "preserved_props": "卷首玉簪、主腰绳、单只养剑壶及短挂绳延续底图；不修改长期标准。"
+}

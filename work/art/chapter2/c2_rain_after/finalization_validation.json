@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-30",
+  "status": "passed",
+  "finalization": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\finalization.json",
+    "sha256": "5fe323d3fae55489c1f6399bec91c95311e778a0b67fad40610602f9da3e030a",
+    "role": "完成的定稿与接入记录"
+  },
+  "manifest_fingerprint_occurrences_checked": 41,
+  "unique_fingerprint_files_checked": 35,
+  "audit_input_hashes_checked": 33,
+  "runtime_relevant_source_hashes_checked": 7,
+  "new_document_links_checked": [
+    {
+      "from": "README.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\finalization.json",
+      "valid": true
+    },
+    {
+      "from": "game/Codex/chapter2_storyboard.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\finalization.json",
+      "valid": true
+    },
+    {
+      "from": "game/Codex/character_image_index.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+      "valid": true
+    },
+    {
+      "from": "game/Codex/character_image_index.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\finalization.json",
+      "valid": true
+    },
+    {
+      "from": "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\finalization.json",
+      "valid": true
+    },
+    {
+      "from": "game/Codex/image_code_catalog.md",
+      "target": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+      "valid": true
+    }
+  ],
+  "old_production_record_unchanged": true,
+  "all_checks_passed": true,
+  "errors": []
+}

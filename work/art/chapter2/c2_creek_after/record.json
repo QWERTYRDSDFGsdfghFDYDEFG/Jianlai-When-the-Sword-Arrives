@@ -1,0 +1,1408 @@
+{
+  "schema_version": 1,
+  "task": {
+    "scene_id": "c2_creek_after",
+    "request": "那先按剧情顺序补前面没完成的图，从溪边收针后三人歇脚闲谈这张开始，用场景制作 Skill，先做到线稿。",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "那先按剧情顺序补前面没完成的图，从溪边收针后三人歇脚闲谈这张开始，用场景制作 Skill，先做到线稿。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "e814bd1a127de1a84dd0a15ab2628e395bd1a42f81d6fd04c11095e0a81d1a65",
+      "role": "当前确认正文"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "560458d0ec5f663b72f37c3ec49deaa903242f8f26126be31b260a778d5faf0c",
+      "role": "当前分镜"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "c0c83caa7233f4ffac3e474558ef61a386b0fe7e6c9b25933b0aeb7f667fda49",
+      "role": "陈身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "裴身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "朱身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+      "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "role": "前镜连续性"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "陈脸"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "陈衣装"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "陈玉簪"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "裴身份衣装"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+      "role": "朱脸"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+      "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+      "role": "朱衣装"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+      "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+      "role": "箱"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+      "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+      "role": "壶"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_05_lead_v1.png",
+      "sha256": "6a3da57b6cc412a36658987355c91321500891d79eb5237b6f2371d8c919bbc2",
+      "role": "体量人工核对"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\source_snapshot.json",
+      "sha256": "dfcb98816d5adfc478f962c5540abfcfbfc59c702577931c406e852b0d837972",
+      "role": "冻结依据摘录"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief.json",
+      "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+      "role": "本图任务单"
+    }
+  ],
+  "constraints": {
+    "locked": [
+      "针已收好",
+      "裴钱摆弄草鞋",
+      "陈看裴钱",
+      "三人仍在溪边歇脚",
+      "当场人物仅三人",
+      "陈双脚继续浸水，裤脚卷起，无袜/完整小腿绑带突然恢复",
+      "陈竹箱卸在岸上，无肩背带，腰侧单壶",
+      "裴钱已裸足，处理后的脚放干石，不突出伤口",
+      "裴持一只草鞋，另一只在身边干石；陈自己一双鞋仍在陈右侧岸边，箱侧备用鞋另属箱挂物",
+      "三人身份年龄衣装",
+      "仅线稿"
+    ],
+    "allowed_changes": [
+      "沿原溪边的裴左前、陈中前、朱右后高石、箱最右",
+      "裴双手轻持草鞋于膝上，头抬起微偏陈，轻微笑意",
+      "陈放松坐稳，两手分落膝与身侧石面，头朝裴",
+      "朱坐高一阶石面，肩背略收，手搭膝，闭口促狭笑",
+      "相邻机位稍后退与线条简化"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": [
+      {
+        "stage": "sketch",
+        "extra_reworks": 2,
+        "authorization": "2026-10-30 用户在追加最多两轮局部修正的问题中回答：允许追加两轮局部修正（推荐）。仅处理玉簪、裴钱腰袋侧别、朱敛腰带，构图动作保持，只到线稿。"
+      }
+    ]
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "current-script-and-image-inspection",
+          "prompt": "按当前确认剧情与已实际查看参考形成brief，只制作本图到线稿。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\source_snapshot.json",
+              "sha256": "dfcb98816d5adfc478f962c5540abfcfbfc59c702577931c406e852b0d837972",
+              "role": "当前依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief.json",
+              "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+              "role": "brief成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "已核对当前稿L69–109：针已收好而未重新出发，三人现场/回忆归属清晰。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief.json",
+                    "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+                    "role": "brief成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "持鞋抬脸闲谈替代挑疱进行态，目光三角表达师徒松快；鞋脚/箱的前后状态保留。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief.json",
+                    "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+                    "role": "brief成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "current-script-and-image-inspection",
+          "prompt": "按当前确认剧情与已实际查看参考形成references，只制作本图到线稿。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief.json",
+              "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+              "role": "brief成果"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references.json",
+              "sha256": "9694ac8c5a38cbe882629d635d7d2b96f387b779a313ac00fc69a838939e55bc",
+              "role": "references成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "已实际查看三人母版与邻镜；裴仍为儿童、朱老奴脸，禁止旧场景覆盖身份。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references.json",
+                    "sha256": "9694ac8c5a38cbe882629d635d7d2b96f387b779a313ac00fc69a838939e55bc",
+                    "role": "references成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴身份衣装"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱衣装"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "角色/服装/器物/场景分工明确；草鞋、玉簪及旧朱母版章节冲突按当前脚本与已确认资料解决。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references.json",
+                    "sha256": "9694ac8c5a38cbe882629d635d7d2b96f387b779a313ac00fc69a838939e55bc",
+                    "role": "references成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴身份衣装"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱衣装"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "current-script-and-image-inspection",
+          "prompt": "按当前确认剧情与已实际查看参考形成composition，只制作本图到线稿。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references.json",
+              "sha256": "9694ac8c5a38cbe882629d635d7d2b96f387b779a313ac00fc69a838939e55bc",
+              "role": "references成果"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition.json",
+              "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+              "role": "composition成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "陈看裴、裴回应、朱在侧后接话，三人同岸休息，无回忆人物入场。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition.json",
+                    "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+                    "role": "composition成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "沿旧机位稍后退，脸与手鞋留在上部；底部低细节水石，真实UI仍待后续。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition.json",
+                    "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+                    "role": "composition成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "current-script-and-image-inspection",
+          "prompt": "按当前确认剧情与已实际查看参考形成space，只制作本图到线稿。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition.json",
+              "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+              "role": "composition成果"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+              "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+              "role": "space成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "水/干石/后方山路/箱位连续，同岸可达；三角关系不需复杂3D占位。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+                    "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+                    "role": "space成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "座石与双脚/鞋有明确接触，朱后方高石解释头高差；裴按母版儿童比例，不靠缩小避遮挡。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+                    "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+                    "role": "space成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "已查看前镜"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "verification",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: identity-preserve / illustration-story.\nCreate ONE SIMPLE GRAYSCALE LINE-ART storyboard drawing, target 1920 x 1080 landscape (16:9), for a Chinese narrative visual novel. This is the next quiet moment AFTER the needle has been put away, using image 1 as the existing scene to adapt. Only a sketch, no finished coloring or dense rendering.\n\nINPUT ROLES, in order:\n1 Existing creek scene: preserve this geographical setting and the same broad relative arrangement: Pei Qian left-front, Chen Ping'an center-front by water, Zhu Lian right-back on a slightly higher rock, the bamboo bookbox far right on dry bank. This is the PREVIOUS action, NOT the new pose. Remove the needle and Pei's foot-held-up-for-treatment posture. Do not copy its excessive tiny textures or Zhu's ornate extra straps.\n2 Chen's face identity master: the same narrow tapering face, natural narrow eyes, mature young adult 20–22, same hairline and tied bun, calm dependable temperament. Do not beautify or make adolescent.\n3 Chen's warm-weather clothing structure: same short-sleeved outer robe, long inner sleeves, wrist wraps, rope belt and trousers; bookbox is OFF HIS BACK in this scene. Pants rolled up and bare lower legs continue image 1. NO shoulder straps, NO old waist pouch.\n4 Pei's exact child identity and clothing: small short lower face, alert almond eyes, practical twin buns, small lean sturdy child build, wrapped sleeves, rough layered short tunic, rope waist and soft pouch on HER OWN LEFT waist. Preserve her cloth volumes and worn irregular layers. Her master has cloth shoes but THIS SCRIPT explicitly has STRAW SANDALS, and she has taken them off; bare feet as in image 1, no newly added socks or full leg wraps.\n5 Zhu's old-face master: same 55–65 old servant face, narrow eyes, cheek/jaw structure, tied black-gray hair and short thin moustache/goatee. Use the facial structure and a FEW age creases, NOT photographic pores or dense wrinkles.\n6 Zhu's body/clothing master: plain knee-length cross-collar robe, cloth sash, loose trousers, cloth shoes, lean slightly stooped shoulders. No added weapons, fan, drinking vessel, ornate backpack or excessive cords. Do not turn him into a young handsome man or frail white-bearded sage.\n7 Chen's UPDATED jade hairpin: slender shaft, asymmetrical open scroll head on HIS OWN RIGHT side, natural foreshortening through bun. Replaces the old plain round knob visible in refs 1–3. The multicolor hair regions are DIAGRAM LABELS, not actual hair colors or shapes to copy. Black hair rendered with sparse light graphite groups.\n8 Bamboo bookbox construction only: rectangular OPEN-TOP woven walls, four corner posts, rope joints, side-hung straw hat and spare sandals. Do not add the screenshot person, red dress, phone UI, labels, or 3D rendering.\n9 Single gourd construction only: one small gourd hanging by a SHORT cord from Chen's belt, simple indication of curled ornament. No extra bag, second gourd, giant bottle, or long dangling gourd cord.\n\nNEW NARRATIVE MOMENT:\nThe three travelers have stopped at the same quiet mountain creek on their way home. Pei has PUT THE NEEDLE COMPLETELY AWAY. She now holds one straw sandal gently across her lap with both hands and has lifted her face slightly toward Chen to chat; a small knowing smile, not exaggerated acting. The other sandal rests separately on a dry rock beside her. Her formerly raised treatment leg is now lowered, treated foot resting naturally on a dry stone; the other foot can remain at the shallow water edge. No wound, blood, treatment gesture or needle at all.\nChen is still comfortably seated on the same bank with BOTH bare feet in shallow flowing water; knees anatomically separate, rolled trousers, relaxed torso turned slightly toward Pei. One hand rests on a knee, the other supports lightly on the rock beside his hip. His head turns toward Pei with a restrained gentle smile, not looking at the viewer. His own pair of removed sandals remains on the dry rock near his right-front side, distinct from Pei's pair and the spare shoes on the box. Keep the bookbox on the far-right bank, not on anybody's back. One gourd visibly connects to his waist.\nZhu sits naturally on the higher rock behind/right, shoes grounded on the lower dry ledge, shoulders slightly forward, hands resting loosely on his knees. He looks toward Pei with a faint wry closed-mouth smile, ready to join the banter. Stable body support, not a floating squat. Exactly THREE people.\n\nCOMPOSITION:\nGently pull the camera back from ref 1 and simplify the shot, retaining the left stream / right dry bank axis and recognizable distant mountain silhouettes. Relaxed triangular grouping, natural varied seated heights and depth. Preserve Pei's established child proportions relative to the two adults, accounting for the higher stone under Zhu; do not shrink her into a toddler to create space. Faces and Pei's hands/sandal are legible above the lower dialogue area. Keep the feet and the seating contacts visible within the frame, with breathing room around heads and foreground low-detail water/rocks. No furniture, corridor, rain, palace, extra characters, speech balloons or text.\n\nDRAWING STYLE:\nRestrained fine charcoal-gray LINE ART on near-white paper, simple clear silhouettes, only a few light gray shadow planes to show body weight and contact. No color. Use very few internal fold lines; hair in simple grouped outlines, not solid black masses. Distant mountains, trees, stream and rocks are lightly suggested and much quieter than the people. NO dense hatching, repetitive rock texture, tiny leaf patterns, woven noise, graphite smudges, heavy gray wash, black vignette, photographic finish, manga chibi faces, or glossy 3D look. This is a clean readable working sketch for composition and identity review, not a finished grayscale painting.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+              "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+              "role": "通过空间方案"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "实际工具输入参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "实际工具输入参考 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "实际工具输入参考 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "实际工具输入参考 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "实际工具输入参考 5"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+              "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+              "role": "实际工具输入参考 6"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "实际工具输入参考 7"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+              "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+              "role": "实际工具输入参考 8"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+              "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+              "role": "实际工具输入参考 9"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\tool_error_01.json",
+              "sha256": "6897715c1190455f7fba479054a9010df3a918516c6b3adc3e861d06ed552faf",
+              "role": "工具输入校验失败，无图"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/creek_visual_review",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "unverified",
+                "observation": "工具在生成前拒绝本次请求，image_output 为 null；没有实际线稿可供查看，人物身份未验证。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/tool_error_01.json",
+                    "sha256": "6897715c1190455f7fba479054a9010df3a918516c6b3adc3e861d06ed552faf",
+                    "role": "本次实际工具失败证据：9张参考超过最多5张输入限制，未生成图像"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "unverified",
+                "observation": "工具在生成前拒绝请求，无图像输出，未执行肢体、手脚、接触或重心的视觉检查。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/tool_error_01.json",
+                    "sha256": "6897715c1190455f7fba479054a9010df3a918516c6b3adc3e861d06ed552faf",
+                    "role": "本次实际工具失败证据：无图像输出"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "unverified",
+                "observation": "没有实际线稿，不能与前镜、母版、玉簪及尺度参考进行视觉比对；连续性未验证。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/tool_error_01.json",
+                    "sha256": "6897715c1190455f7fba479054a9010df3a918516c6b3adc3e861d06ed552faf",
+                    "role": "本次实际工具失败证据：image_output 为 null"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "F_TOOL_INPUT_LIMIT",
+                "severity": "hard",
+                "state": "open",
+                "problem": "sketch-01 请求传入9张参考，工具明确报错 referenced_image_paths must contain at most 5 paths，并在生成前拒绝请求。该错误足以要求修订工具输入后重试，不能视作视觉通过或视觉失败。",
+                "required_change": "仅将实际参考输入缩至5张：旧溪边镜头、陈平安暖季全身、裴钱母版、朱敛老年脸、新玉簪。保留其余参考作为独立复核依据；下一次调用登记为新尝试并绑定本问题，获得真实线稿后重新执行 identity、anatomy、continuity 全项视觉复核。",
+                "preserve": "保留既有剧情时刻、三人身份、衣装、场景约束、机位、姿态关系、玉簪与跨镜尺度要求；本次只修工具输入数量，不更改场景决定，也不推进上色或接入。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/tool_error_01.json",
+                    "sha256": "6897715c1190455f7fba479054a9010df3a918516c6b3adc3e861d06ed552faf",
+                    "role": "实际工具错误文本和请求参考数量，支持有限修订后重试"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "sketch-02",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: identity-preserve / illustration-story.\nCreate ONE SIMPLE GRAYSCALE LINE-ART storyboard drawing, target 1920 x 1080 landscape (16:9). Adapt the existing scene to the next quiet moment AFTER the needle has been put away. Only a sketch, no finished coloring or dense rendering.\n\nINPUT ROLES, exactly five images in order:\n1. EXISTING CREEK SCENE, the edit/continuity target. Same mountain creek, stream left, dry stone bank right; Pei left-front, Chen center-front with bare feet in water, Zhu right-back seated higher, bamboo box far right. This shows the PREVIOUS ACTION. Remove Pei's needle and foot-held-up-for-treatment pose. Do not copy its dense texture or Zhu's extra decorative cords/shoulder gear.\n2. CHEN PING'AN current warm-weather full-body identity/clothing master. Same narrow tapering 20–22 adult face, quiet narrow eyes, black hair and tied bun, gray-blue short-sleeved outer robe, off-white inner sleeves, rope belt and dark trousers. In THIS scene box and straps are removed from his back, trousers rolled and feet bare; no socks/full lower-leg wraps newly restored. ONE small gourd with short waist cord, no waist pouch. Match its box and gourd design: rectangular open woven bamboo box with corner posts and side-hung hat/spare sandals; the gourd has subtle curled ornament. Do not copy standing pose.\n3. PEI QIAN exact child face/body/clothing master. Same short lower face, alert almond eyes, practical twin buns, small lean sturdy CHILD, wrapped sleeves, rough layered short tunic, coarse rope belt, soft pouch on HER OWN LEFT hip. Preserve sleeve volume and irregular layered hems. Her cloth shoes are superseded by the CURRENT SCENE'S STRAW SANDALS and bare feet. No mature teenage proportions, no socks or restored full leg wraps.\n4. ZHU LIAN exact OLD SERVANT face master. Same 55–65 narrow old face, facial proportions, clear watchful eyes, black-gray bun, thin short moustache and chin beard. Only a FEW age creases, no photographic skin texture. Outfit must be his plain gray-brown knee-length CROSS-COLLAR robe with dark inner collar, simple dark cloth sash, loose trousers, cloth shoes and lean slightly stooped shoulders. Do NOT copy the old creek image's extra shoulder harness, ornamental ropes or backpack. No fan, weapon or drinking vessel. Do not make him young, frail, white-bearded or heavily muscular.\n5. CHEN'S UPDATED JADE HAIRPIN only. Slender shaft, asymmetrical open scroll head on HIS OWN RIGHT, naturally foreshortened through bun, replaces the old round knob in refs1/2. The colored hair regions are diagram labels: do NOT copy their colors. Keep black hair represented by sparse light graphite groups. No graphic text or guide lines.\n\nThe scene and supplied face/body masters are binding. Supporting wardrobe/prop details have also been specified above; do not invent decorations.\nNEW NARRATIVE MOMENT:\nThe three travelers have stopped at the same quiet mountain creek on their way home. Pei has PUT THE NEEDLE COMPLETELY AWAY. She now holds one straw sandal gently across her lap with both hands and has lifted her face slightly toward Chen to chat; a small knowing smile, not exaggerated acting. The other sandal rests separately on a dry rock beside her. Her formerly raised treatment leg is now lowered, treated foot resting naturally on a dry stone; the other foot can remain at the shallow water edge. No wound, blood, treatment gesture or needle at all.\nChen is still comfortably seated on the same bank with BOTH bare feet in shallow flowing water; knees anatomically separate, rolled trousers, relaxed torso turned slightly toward Pei. One hand rests on a knee, the other supports lightly on the rock beside his hip. His head turns toward Pei with a restrained gentle smile, not looking at the viewer. His own pair of removed sandals remains on the dry rock near his right-front side, distinct from Pei's pair and the spare shoes on the box. Keep the bookbox on the far-right bank, not on anybody's back. One gourd visibly connects to his waist.\nZhu sits naturally on the higher rock behind/right, shoes grounded on the lower dry ledge, shoulders slightly forward, hands resting loosely on his knees. He looks toward Pei with a faint wry closed-mouth smile, ready to join the banter. Stable body support, not a floating squat. Exactly THREE people.\n\nCOMPOSITION:\nGently pull the camera back from ref 1 and simplify the shot, retaining the left stream / right dry bank axis and recognizable distant mountain silhouettes. Relaxed triangular grouping, natural varied seated heights and depth. Preserve Pei's established child proportions relative to the two adults, accounting for the higher stone under Zhu; do not shrink her into a toddler to create space. Faces and Pei's hands/sandal are legible above the lower dialogue area. Keep the feet and the seating contacts visible within the frame, with breathing room around heads and foreground low-detail water/rocks. No furniture, corridor, rain, palace, extra characters, speech balloons or text.\n\nDRAWING STYLE:\nRestrained fine charcoal-gray LINE ART on near-white paper, simple clear silhouettes, only a few light gray shadow planes to show body weight and contact. No color. Use very few internal fold lines; hair in simple grouped outlines, not solid black masses. Distant mountains, trees, stream and rocks are lightly suggested and much quieter than the people. NO dense hatching, repetitive rock texture, tiny leaf patterns, woven noise, graphite smudges, heavy gray wash, black vignette, photographic finish, manga chibi faces, or glossy 3D look. This is a clean readable working sketch for composition and identity review, not a finished grayscale painting.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+              "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+              "role": "通过空间方案"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "实际工具输入参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "实际工具输入参考 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "实际工具输入参考 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "实际工具输入参考 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "实际工具输入参考 5"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+              "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+              "role": "sketch-02工具原始线稿输出"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/creek_visual_review",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "fail",
+                "observation": "已实际对照三人身份及全身母版。陈的瘦长收束青年脸、束髻与裴的儿童短下庭/双髻、朱的老年窄眼短须仍能辨认，未出现额外人物或明显年龄段替换。衣装未完整保持：陈双前臂裸露、护腕消失；朱肩部仍有旧场景辫绳并使用粗绳腰结；裴腰袋转到自身右腰。裴抬脸开口表情较母版更圆眼、更甜，作为软项建议收小开口和圆眼，不据此单独断言已换人。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "实际查看的陈平安脸部身份母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "实际查看的陈平安暖天衣装，护腕与长内袖"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "实际查看的朱敛老奴脸母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "整图可见三人的手臂均能追溯至肩与袖口，陈一手落膝一手接触身侧石面，裴两手分持一只草鞋，无可见多手/断腕。陈双膝与小腿分别通向两处水线；裴双脚已放低，一脚在水边另一脚接干石，未保持抬脚挑疱动作。三人臀腿有座石支持；朱右后高石上的屈腿、前收肩背与前脚鞋底接石可解释，另一鞋受前景石/箱遮挡，不声称检清被遮挡鞋底。儿童肩宽与腿长未明显缩成幼儿，朱头位较高能由后方高石解释；05-03仅辅助尺度比较，未硬套像素比例。水下脚趾和小尺寸手指细部不能精确逐指核验，当前未见严重结构错误。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "实际查看的上一镜，用于空间与裸足状态连续性"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_05_lead_v1.png",
+                    "sha256": "6a3da57b6cc412a36658987355c91321500891d79eb5237b6f2371d8c919bbc2",
+                    "role": "实际查看的三人尺度辅助参考，考虑姿态和景深而不作像素等高"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "fail",
+                "observation": "人数为三、针不可见、裴已持一只鞋抬脸回应陈、陈看裴而朱在旁看向二人，符合收针后未离溪的稳定闲谈。左前溪水/右侧干岸与箱位保留，陈仍双脚入水；裴手中一只和旁石一只、陈身边一双、箱挂备用一双可分别辨认。单壶靠腰短绳、箱有开口/四角柱/侧笠，未见肩背书箱。但陈发髻仍画成旧圆头横簪，未执行已确认的新卷首；裴腰袋侧别与朱肩带/腰带也偏离本场参考分工。满画面细树叶、岩纹、编织线及水波，人物和背景有连续灰铺色，超出本阶段要求的简洁结构线稿；底部实际对白覆盖尚未执行，本轮不作UI通过结论。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "实际查看的上一镜，用于空间与裸足状态连续性"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "实际查看的新玉簪镂空卷首与侧别参考"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/brief.json",
+                    "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+                    "role": "本场收针后闲谈、脚鞋与停止在线稿的任务边界"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/composition.json",
+                    "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+                    "role": "简洁线稿、淡环境、低细节前景的本场约束"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "F_CPA_JADE_OLD",
+                "severity": "hard",
+                "state": "open",
+                "problem": "画面中央陈平安发髻左侧仍是圆形小钮簪首，保留了旧参考的圆头横杆；新母版要求非等大镂空卷首。",
+                "required_change": "回到references核对后仅修sketch的玉簪：换成纤细镂空不等大卷曲簪首，固定在陈自身右侧，并随头部朝左转向产生合理透视缩短与发髻遮挡，不能继续使用圆头杆或粗三圆泡。",
+                "preserve": "陈脸、年龄、发髻轮廓、朝裴视线和全图构图。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "实际查看的新玉簪镂空卷首与侧别参考"
+                  }
+                ]
+              },
+              {
+                "id": "F_CPA_WRIST_WRAPS",
+                "severity": "hard",
+                "state": "open",
+                "problem": "陈的膝上手臂与撑石手臂都从卷袖直接露出长段裸前臂，母版及前镜明确存在的深色护腕绑带消失；本场只允许脱鞋卷裤，未授权脱去护腕。",
+                "required_change": "恢复两侧前臂至腕部的母版护腕绑带，并恢复相应长内袖与外袍短袖层次；保留两只手原本落膝和撑石的位置，手掌仍裸露可辨。",
+                "preserve": "双裸足入水、裤脚卷起、双膝分开、无书箱肩带、单壶与主腰绳。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "实际查看的陈平安暖天衣装，护腕与长内袖"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "实际查看的上一镜，用于空间与裸足状态连续性"
+                  }
+                ]
+              },
+              {
+                "id": "F_PQ_POUCH_SIDE",
+                "severity": "hard",
+                "state": "open",
+                "problem": "裴钱软布袋挂在画面左侧外腰，即她自身右腰；母版与当前任务要求自身左腰。",
+                "required_change": "只把唯一软布袋移到裴自身左腰，即本机位靠陈/画面右的腰侧；可由手臂/衣片自然遮住一部分，原画面左侧袋及其专用悬绳移除，不新增第二袋。",
+                "preserve": "儿童体量、双髻、粗绳腰带、层叠磨损衣片、两手持一只草鞋、两脚原本接触状态。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  }
+                ]
+              },
+              {
+                "id": "F_ZL_CLOTHING_CONTINUITY",
+                "severity": "hard",
+                "state": "open",
+                "problem": "朱敛两肩仍有旧溪边图的辫绳/背负装饰，腰部使用粗绳盘结；这与已明确选择的全身母版无肩部背带、深色布腰带不一致。",
+                "required_change": "按朱全身母版删去肩部背负辫绳及其垂件，腰结改为简单深色布腰带。保持交领中长衣、长裤、布鞋与原坐姿，不借旧场景重添装饰。",
+                "preserve": "朱老奴面皮、短须束发、轻微前收肩背、后方高石位置、双手搭膝和闭口促狭关系。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "实际查看的上一镜，用于空间与裸足状态连续性"
+                  }
+                ]
+              },
+              {
+                "id": "F_SKETCH_SIMPLICITY",
+                "severity": "hard",
+                "state": "open",
+                "problem": "整图仍是细节密集的浅灰画：远近树叶、岩石裂纹、地草、水波、箱编织几乎处处细描，人物衣物和头发大面积连续灰填充；未落实composition中只用少量主线和大灰面检查结构的线稿要求。",
+                "required_change": "在同一画面上显著删减碎岩纹、叶片、草丛、水波、细编织及密衣褶，远山/树/水只留淡轮廓与极少结构线；人物用干净深灰轮廓，头发分组线而非成片深灰，阴影仅留少量接触灰面。不要改构图或将环境全部抹空，不进入上色。",
+                "preserve": "三人脸部识别点、必要年龄纹、动作轮廓、手鞋关系、箱四柱与开口、三人所有接地和水线。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/composition.json",
+                    "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+                    "role": "简洁线稿、淡环境、低细节前景的本场约束"
+                  }
+                ]
+              },
+              {
+                "id": "F_PQ_EXPRESSION_SOFT",
+                "severity": "soft",
+                "state": "open",
+                "problem": "裴钱抬脸后的眼睛和开口明显比母版更圆、更甜，虽然可解释为说话状态且仍是儿童，距任务要求的克制小笑偏远。",
+                "required_change": "随上述必修项将眼型收回母版杏眼，并减小张口幅度为轻松接话的小笑；保留向陈抬脸与机灵神态，不改成木然闭眼或严肃脸。",
+                "preserve": "裴脸型短下庭、儿童体量、双髻与同一机位。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/brief.json",
+                    "sha256": "39eb0d42ee4634a94cb189e1039b5a1ec2c94e9cfd8371763ad681e71204426a",
+                    "role": "本场收针后闲谈、脚鞋与停止在线稿的任务边界"
+                  }
+                ]
+              }
+            ]
+          },
+          "rework": {
+            "from_attempt": "sketch-01",
+            "finding_ids": [
+              "F_TOOL_INPUT_LIMIT"
+            ],
+            "change": "输入参考缩至5张。其他已看母版用于人工复核，未虚报为工具实际输入。",
+            "preserve": "当前剧情时刻、三人身份衣装、旧溪岸空间、线稿范围"
+          }
+        },
+        {
+          "id": "sketch-03",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: precise-object-edit / identity-preserve.\nEdit IMAGE 1, this exact creek storyboard candidate, into the corrected SIMPLE LINE DRAWING. Target 1920 x 1080 landscape, 16:9, one image. Retain the SAME three people, their identities, positions, sizes, head angles, gaze relationships, pose, seating rocks, lowered feet, sandals, bamboo box and camera. Do not redesign or recompose. Make the following five structural corrections and one small expression adjustment only.\n\nREFERENCES:\nImage 1 = the edit target. Keep its action and composition.\nImage 2 = Chen's approved slender JADE HAIRPIN shape and anatomical right/left direction. Only the pin matters; its hair colors and text are annotations.\nImage 3 = Chen's current OUTFIT master, especially the dark wraps around BOTH wrists and forearms. Do not restore shoes, backpack or shoulder straps.\nImage 4 = Pei's current master, especially rough wrapped sleeves, irregular layered tunic and a SINGLE pouch on HER ANATOMICAL LEFT HIP (viewer-right in a frontal view).\nImage 5 = Zhu's plain full-body clothing master, especially NO shoulder harness or decorative cords, and a simple flat DARK CLOTH WAIST SASH. The target already contains his face; preserve that older face and restrained expression.\n\nCORRECTION 1 — HAIRPIN:\nOn Chen's head near the upper middle of image1, REMOVE the old round-ball/donut end of the horizontal hair stick. Replace only the pin with the slender asymmetric OPEN SCROLL/J-hook jade head seen in image2, with small unequal curled openings, slender straight shaft and tapered other end. Scroll head on Chen's OWN RIGHT (screen-left visible end in this target's head orientation), shaft crossing the bun naturally with correct occlusion. Not a round knob, not three fat circles. Render in graphite only, no green color. Keep bun, hairline, face and head angle unchanged.\n\nCORRECTION 2 — CHEN'S WRIST WRAPS:\nImage1 incorrectly exposes both bare forearms. Restore the MASTER'S dark cloth wrapped bracers at BOTH wrists/lower forearms, running along the lower forearms to just above the hands; restore the long inner sleeves over the upper forearms rather than leaving the sleeves bunched at the elbows. Specifically the hand resting on the knee at screen-center-left and the planted support hand to his screen-right both need their wrist wraps. Preserve each hand, fingers, supporting contact and sleeve pose. The hands remain bare; no gloves. Use clear wrap boundary and just 2–3 diagonal bands, NO dense crisscross decoration. These wrist wraps are unrelated to his rolled trousers and bare lower legs, which stay exactly as they are.\n\nCORRECTION 3 — PEI'S POUCH SIDE:\nREMOVE the pouch currently sticking out on the OUTSIDE LEFT edge of Pei's body in image1 (screen-left of her at about x330 in a1672-wide target). That is her wrong, anatomical RIGHT hip. Reconstruct the dark rough cloth silhouette there. Her SINGLE cloth pouch belongs on HER OWN LEFT HIP, which is the inner/right edge of her seated torso toward Chen. It may be partly hidden naturally by her left forearm/thigh or tunic; indicate a small soft gathered pouch contour and cord connection on that correct side. Do not mirror Pei, change her pose, add a second pouch, or move the sandal from her hands. Keep the hands and sandal clear.\n\nCORRECTION 4 — ZHU'S PLAIN CLOTHES:\nRemove the thick braided shoulder cords/harness/extra straps visible at Zhu's shoulders in image1. Replace his rope-like waist tie with the simple flat cloth sash and modest cloth knot from image5. Preserve plain cross-collar knee-length robe, loose trousers, cloth shoes, slightly stooped seated body, both hands on knees and the same older narrow face. No backpack, ornament, bandolier, weapon, new bottle, white beard or young face.\n\nCORRECTION 5 — SIMPLIFY THE DRAWING:\nThis must be a CLEAN WORKING LINE SKETCH, not a detailed grayscale painting. Keep the exact large silhouettes and spatial forms but REMOVE at least 80% of tiny foliage marks, grass scratches, repeated pebble texture, rock scratches, woven grid texture, water ripples and microfolds. Suggest trees as a few pale grouped outlines, mountains with 2–3 faint contour planes, creek as a few broad flow lines. Simplify the bamboo box to its open rim, corners, walls and a few spaced woven indications; keep its straw hat/spare sandals recognizable. Light gray contact shadows only. REDUCE the broad gray rendering on clothes and hair, leaving them near white/light gray with economical contour and structure lines. Keep enough pale value difference to distinguish garments, but no dense hatching, textured gray fill, graphite smudges or new solid black masses. Background much lighter than figures.\n\nSMALL EXPRESSION ADJUSTMENT:\nPei's eyes and open mouth became sweeter and rounder than her master. Keeping the same head tilt, child short lower face and gaze at Chen, gently narrow her eyes to the natural almond shape in image4 and reduce the open mouth to a small conversational smile. Do not change head size or make her look serious or blank.\n\nPRESERVE:\nExactly 3 characters. Pei still holds one straw sandal with both hands, another beside her; needle absent and feet lowered. Chen BOTH bare feet still in water, own pair of shoes on bank; bookbox stays on dry bank and one gourd stays at his waist on short cord, no pouch or shoulder straps. Zhu's two shoes and seated support remain grounded. All eye lines and facial identities stay the same, no new smiling caricature, no chibi. No colors, UI, text, labels, arrows or watermark. No editing claims of pixel-perfect preservation; maintain the designed shot and correct only the listed issues.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+              "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+              "role": "通过空间方案"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+              "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+              "role": "实际工具输入参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "实际工具输入参考 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "实际工具输入参考 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "实际工具输入参考 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+              "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+              "role": "实际工具输入参考 5"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+              "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+              "role": "sketch-03原生局部修订输出"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/creek_visual_review",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "fail",
+                "observation": "三人脸型、年龄与体量仍可辨且基本保持；陈两腕绑带已恢复、朱肩部辫绳已删。裴软袋仍在自身右腰；朱腰部仍有叠绕绳纹与交叠结，尚不能按母版的平整宽布带通过。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "实际查看的陈平安暖天衣装，护腕与长内袖"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "两版对照下，三人坐姿、陈双脚水线和撑石手、裴持鞋双手与一干一湿脚点、朱屈腿与座石关系保持，未见新增严重肢体错误。被遮挡的朱另一鞋底、水下脚趾仍不作逐细节通过声明。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "fail",
+                "observation": "收针、持鞋闲谈、鞋数量、同岸三角与箱位保持；环境已经显著减线，裴开口收小，但衣物/水纹/箱编织仍有细节，现可作为结构稿查看。陈玉簪仍是旧圆头杆、裴袋侧别与朱腰带仍未解决，因此本轮不能通过；未验证真实对白框或游戏运行。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-06b4eee0-8fd0-49cb-95ac-4cbd032562f7.png",
+                    "sha256": "901ce0243a778150270a642ba365ec3a88077024b054a2800739d135e603d102",
+                    "role": "实际打开并完整目视的sketch-02线稿，所有观察均针对该原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "实际查看的新玉簪镂空卷首与侧别参考"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_creek_after/composition.json",
+                    "sha256": "b2af452a04be5f2e4ffdad2e0694cae18994e2c9b6bdeb1d4c1052412847b705",
+                    "role": "简洁线稿、淡环境、低细节前景的本场约束"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "F_CPA_JADE_OLD",
+                "severity": "hard",
+                "state": "open",
+                "problem": "陈平安发髻画面左端仍为小圆钮，整根仍是旧圆头直杆；与上轮相比未改为镂空卷首。",
+                "required_change": "仅将簪首替换为参考中的纤细、不等大镂空卷曲形，保持自身右侧和穿髻轴，允许转头透视与发髻遮挡。",
+                "preserve": "陈脸、发型、头向、已恢复护腕与全部构图。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "实际查看的新玉簪镂空卷首与侧别参考"
+                  }
+                ]
+              },
+              {
+                "id": "F_PQ_POUCH_SIDE",
+                "severity": "hard",
+                "state": "open",
+                "problem": "裴钱画面左侧外腰仍可见同一软袋，即自身右腰；靠陈的自身左腰仍未见该袋。",
+                "required_change": "去除画面左侧旧袋与专属挂绳，将唯一软袋移至靠陈的自身左腰/画面右侧，可自然部分遮挡，不保留双袋。",
+                "preserve": "粗绳主腰带、衣片、双手持鞋、儿童体量、脸与双脚。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "实际查看的裴钱身份衣装母版，软布袋位于自身左腰"
+                  }
+                ]
+              },
+              {
+                "id": "F_ZL_CLOTHING_CONTINUITY",
+                "severity": "hard",
+                "state": "open",
+                "problem": "肩部辫绳已删；但朱腰部中央仍有叠绕、交叉的细绳纹与复杂结，轮廓仍偏粗绳束腰，未清晰呈现母版平整宽布腰带。本图尺寸不足以给每根细线定材质，但现有可见结构不支持将此项判为完全修复。",
+                "required_change": "只把腰部改成一条明确的平整深色布腰带，以少量平行褶和简单布结表明布料；消除交叉编绳、绳穗与多重绳结。",
+                "preserve": "已经移除肩带的朴素外衣、朱脸、位置、双手和坐姿。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+                    "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+                    "role": "实际完整查看的sketch-03修订原图"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "实际查看的朱敛全身衣装母版，无肩部背负辫绳，深色布腰带"
+                  }
+                ]
+              }
+            ]
+          },
+          "rework": {
+            "from_attempt": "sketch-02",
+            "finding_ids": [
+              "F_CPA_JADE_OLD",
+              "F_CPA_WRIST_WRAPS",
+              "F_PQ_POUCH_SIDE",
+              "F_ZL_CLOTHING_CONTINUITY",
+              "F_SKETCH_SIMPLICITY",
+              "F_PQ_EXPRESSION_SOFT"
+            ],
+            "change": "修正新玉簪、双护腕、裴自身左腰袋、朱朴素布腰带/无肩绳，减少背景和衣纹密度，收敛裴表情。",
+            "preserve": "三人身份、机位、位置、已收针持鞋、坐姿/裸足/水线/箱位置及停止在线稿范围"
+          }
+        },
+        {
+          "id": "sketch-04",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: precise-object-edit. Make exactly THREE SMALL LOCAL CORRECTIONS to image1, the existing grayscale creek sketch. Do not redraw the scene or change faces, poses, eyes, hands, limbs, scale, sandals, water, box, lines or composition. This is still a grayscale working sketch, target1920x1080 landscape.\n\nImage1 = EDIT TARGET.\nImage2 = Chen's jade hairpin reference; use the ornament shown enlarged at its TOP RIGHT, ignore all colored hair, labels and faces.\nImage3 = Pei's character reference for her single gathered cloth pouch.\nImage4 = Zhu's clothing reference for the flat cloth sash.\n\n1. Chen's hairpin at the TOP of the CENTRAL man's head: the round RING/BUTTON at the LEFT tip near (762,198) in the1672x941 target is WRONG. ERASE that entire circular/donut end. Draw the recognizably ASYMMETRICAL BRANCHING SCROLL crest from image2 top-right: a long curved hook meeting a smaller unequal curled hook, with distinct projecting curved tips and open negative spaces, NOT one circle or three round beads. Attach it to the existing slender shaft through the same bun. It may extend slightly farther LEFT than the old ring so its hooked silhouette is readable, but do not change hair or face. This is the visible end on HIS anatomical RIGHT. Gray graphite, no color.\n\n2. Pei's POUCH: ERASE the entire bag and its dedicated hanging string currently on the OUTER LEFT edge of the little girl, near (330,605). Reconstruct her tunic outline there. Redraw ONE soft gathered pouch on her OPPOSITE hip, on the INNER RIGHT edge of her body toward Chen, near (556,602), just below/behind her LEFT forearm and the right end of the sandal she is holding. A partial natural occlusion is fine, but it must connect to HER LEFT WAIST. This change MUST visibly move the bag from screen-left to screen-right. Keep her main rope belt and BOTH HANDS holding the sandal exactly as they are. No second bag anywhere on her.\n\n3. Zhu's WAIST: on the upper-right seated old man, replace the narrow braided/looped waist cord visible directly below his crossed collar and behind his two hands with the simple FLAT DARK CLOTH SASH of image4. One smooth band of cloth with a modest flat cloth knot, no rope strands or woven loops. Keep the knees, hanging robe panel, hands, collar and face unchanged.\n\nThese three incorrect details in image1 must NOT be preserved. Everything else in image1 stays. No additional style pass, coloring, new decorations, labels, arrows or text.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space.json",
+              "sha256": "7923373a8fd6aff42b4a425a9be8395cbed5ebc5b882f06f5527e8c26e68fc60",
+              "role": "通过空间方案"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-9c38309f-5261-4556-ad58-4ad440ba0254.png",
+              "sha256": "28ab770416a6850495bc6e5087d5cc425cd52e4dc841a8f5168bf7b17516f9a5",
+              "role": "实际工具输入参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "实际工具输入参考 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "实际工具输入参考 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+              "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+              "role": "实际工具输入参考 4"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+              "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+              "role": "sketch-04原生局部修订输出"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/creek_visual_review",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "独立复核者已实际整图及母版复查：三人脸/年龄/体量保持；陈双腕绑带保留，玉簪已改为自身右侧镂空卷首；裴唯一软袋移至靠陈的自身左腰，旧右侧袋已除；朱肩绳删除，腰部现为宽布带、布结和扁平垂带。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+                    "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+                    "role": "独立复核实际查看的sketch-04原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈脸部身份"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈衣装和护腕"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "新玉簪"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴身份/衣装/左腰袋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱老脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱衣装布带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "前镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_05_lead_v1.png",
+                    "sha256": "6a3da57b6cc412a36658987355c91321500891d79eb5237b6f2371d8c919bbc2",
+                    "role": "同伴体量"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "持鞋双手、陈落膝/撑石双手、双脚水线、裴干石足点与朱高石坐姿均保持，未见新增多肢、穿插或悬空。被遮挡部位与水下脚趾不据此作逐指精确认证。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+                    "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+                    "role": "独立复核实际查看的sketch-04原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈脸部身份"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈衣装和护腕"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "新玉簪"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴身份/衣装/左腰袋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱老脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱衣装布带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "前镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_05_lead_v1.png",
+                    "sha256": "6a3da57b6cc412a36658987355c91321500891d79eb5237b6f2371d8c919bbc2",
+                    "role": "同伴体量"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "仍是三人同岸收针后闲谈；鞋数量、箱开口四柱/侧笠、单壶与相对位置保持。遗留硬问题均已解决；玉簪角度仅二维目视，衣物编织仍较细但不妨碍结构核查。实际对白框和实机未验证。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+                    "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+                    "role": "独立复核实际查看的sketch-04原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈脸部身份"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈衣装和护腕"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "新玉簪"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴身份/衣装/左腰袋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱老脸"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱衣装布带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "前镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_05_lead_v1.png",
+                    "sha256": "6a3da57b6cc412a36658987355c91321500891d79eb5237b6f2371d8c919bbc2",
+                    "role": "同伴体量"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "recorded_by": "/root",
+            "basis": "按独立代理对sketch-04的实际看图消息原意登记；不冒充用户确认或实机验收。",
+            "limitations": [
+              "玉簪角度未作精确三维认证",
+              "衣物与编织仍偏细，后续上色须控制密度",
+              "实际对白框遮挡、游戏实机未验证"
+            ]
+          },
+          "rework": {
+            "from_attempt": "sketch-03",
+            "finding_ids": [
+              "F_CPA_JADE_OLD",
+              "F_PQ_POUCH_SIDE",
+              "F_ZL_CLOTHING_CONTINUITY"
+            ],
+            "change": "按用户额外两轮授权，定点修新玉簪卷首、裴腰袋移至自身左侧、朱腰带改平布带。",
+            "preserve": "三人脸部/姿态/构图、已恢复护腕、简化背景、持鞋/裸足/水线/箱位置及仅线稿范围"
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "structure_preserved",
+        "palette_light"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "actual_composite",
+        "dialogue_safe_area"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "provenance",
+        "adoption_scope"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [
+      {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+        "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+        "role": "独立复核实际查看的sketch-04原图"
+      }
+    ],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f3a3ea43-57b3-41fa-9602-1694b47e9a81.png",
+          "sha256": "13fcb4d8da17dff42ee83b84fd92b18fd073216d9cfbe06516f249527d54cb7b",
+          "role": "独立复核实际查看的sketch-04原图"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "目标1920×1080横版；保留工具原生1672×941，未重采样，仅线稿候选，未接入。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "delivery_notes": {
+    "asset_status": "候选",
+    "user_confirmed": false,
+    "stop": "sketch",
+    "actual_image_generations": 3,
+    "preflight_rejections": 1,
+    "total_stage_attempts": 4,
+    "additional_reworks_authorized": 2,
+    "additional_reworks_used": 1,
+    "selected_attempt": "sketch-04",
+    "known_limits": [
+      "玉簪角度未作精确三维认证",
+      "衣物与编织仍偏细，后续上色须控制密度",
+      "实际对白框遮挡、游戏实机未验证"
+    ],
+    "not_executed": [
+      "上色",
+      "真实对白框预览",
+      "游戏接入与实机存读档"
+    ],
+    "project_effect": "新增本图制作记录并更新图片索引；未改剧情、角色母版、图片注册或运行素材。"
+  }
+}

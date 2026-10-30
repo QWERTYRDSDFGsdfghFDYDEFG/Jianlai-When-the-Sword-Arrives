@@ -1,0 +1,182 @@
+[
+  {
+    "stage": "brief",
+    "before": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "brief",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "after": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    }
+  },
+  {
+    "stage": "references",
+    "before": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "after": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    }
+  },
+  {
+    "stage": "composition",
+    "before": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "after": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    }
+  },
+  {
+    "stage": "space",
+    "before": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    },
+    "after": {
+      "valid_record": true,
+      "scope_complete": false,
+      "production_complete": false,
+      "next_stage": "sketch",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "attempts_used_in_previous_records": {
+        "brief": 0,
+        "references": 0,
+        "composition": 0,
+        "space": 0,
+        "sketch": 0,
+        "color": 0,
+        "preview": 0,
+        "delivery": 0
+      },
+      "errors": [],
+      "blockers": [],
+      "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+    }
+  }
+]

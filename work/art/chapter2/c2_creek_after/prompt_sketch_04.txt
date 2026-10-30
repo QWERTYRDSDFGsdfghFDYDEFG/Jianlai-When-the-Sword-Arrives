@@ -1,0 +1,14 @@
+Use case: precise-object-edit. Make exactly THREE SMALL LOCAL CORRECTIONS to image1, the existing grayscale creek sketch. Do not redraw the scene or change faces, poses, eyes, hands, limbs, scale, sandals, water, box, lines or composition. This is still a grayscale working sketch, target1920x1080 landscape.
+
+Image1 = EDIT TARGET.
+Image2 = Chen's jade hairpin reference; use the ornament shown enlarged at its TOP RIGHT, ignore all colored hair, labels and faces.
+Image3 = Pei's character reference for her single gathered cloth pouch.
+Image4 = Zhu's clothing reference for the flat cloth sash.
+
+1. Chen's hairpin at the TOP of the CENTRAL man's head: the round RING/BUTTON at the LEFT tip near (762,198) in the1672x941 target is WRONG. ERASE that entire circular/donut end. Draw the recognizably ASYMMETRICAL BRANCHING SCROLL crest from image2 top-right: a long curved hook meeting a smaller unequal curled hook, with distinct projecting curved tips and open negative spaces, NOT one circle or three round beads. Attach it to the existing slender shaft through the same bun. It may extend slightly farther LEFT than the old ring so its hooked silhouette is readable, but do not change hair or face. This is the visible end on HIS anatomical RIGHT. Gray graphite, no color.
+
+2. Pei's POUCH: ERASE the entire bag and its dedicated hanging string currently on the OUTER LEFT edge of the little girl, near (330,605). Reconstruct her tunic outline there. Redraw ONE soft gathered pouch on her OPPOSITE hip, on the INNER RIGHT edge of her body toward Chen, near (556,602), just below/behind her LEFT forearm and the right end of the sandal she is holding. A partial natural occlusion is fine, but it must connect to HER LEFT WAIST. This change MUST visibly move the bag from screen-left to screen-right. Keep her main rope belt and BOTH HANDS holding the sandal exactly as they are. No second bag anywhere on her.
+
+3. Zhu's WAIST: on the upper-right seated old man, replace the narrow braided/looped waist cord visible directly below his crossed collar and behind his two hands with the simple FLAT DARK CLOTH SASH of image4. One smooth band of cloth with a modest flat cloth knot, no rope strands or woven loops. Keep the knees, hanging robe panel, hands, collar and face unchanged.
+
+These three incorrect details in image1 must NOT be preserved. Everything else in image1 stays. No additional style pass, coloring, new decorations, labels, arrows or text.

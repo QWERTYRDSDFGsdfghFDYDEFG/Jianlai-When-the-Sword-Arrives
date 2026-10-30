@@ -1,0 +1,114 @@
+{
+  "reviewer": "/root/rain_sketch_review",
+  "verdict": "rework",
+  "checks": [
+    {
+      "id": "identity",
+      "result": "unverified",
+      "observation": "独立复核实际打开原图及五张母版：瘦长青年脸、高髻、衣装及卷首簪延续；腰至两侧袍摆没有可辨养剑壶及短绳，不能核验携带与连接，不据不可见断言缺失。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-b76565a7-41b3-4cb1-8663-7a2416814872.png",
+          "sha256": "35b930e161b7014b736d99d857b97ea8e4a5579f8cf347b9412ddab4621c8373",
+          "role": "sketch-01原生输出，未重采样"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+          "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+          "role": "唯一脸部母版：瘦长收束青年脸、自然窄眼、20–22岁、沉静自持；不沿用其中旧圆头玉簪"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+          "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+          "role": "衣装与体量：短袖外袍、灰白内衫、护腕、主腰绳、长裤绑腿草鞋；本场去书箱和全部肩背带"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+          "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+          "role": "只取已确认玉簪器形与穿髻遮挡：纤细、非等大镂空卷首；五色头发是结构编码，不取真实发色"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+          "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+          "role": "仅取养剑壶双腹轮廓及卷纹；一只、短绳系腰，不取图中手或3D材质"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_arrival_v1.png",
+          "sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735",
+          "role": "仅取临河多层客楼木构、挑檐和上层木栏；不取地面机位、暮色和其他人物"
+        }
+      ]
+    },
+    {
+      "id": "anatomy",
+      "result": "pass",
+      "observation": "摊掌在胸腹前、手指微曲，另一手低垂，双臂接袖成立；双脚在同一廊地，未踩栏悬空，无明确第三手或额外手指。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-b76565a7-41b3-4cb1-8663-7a2416814872.png",
+          "sha256": "35b930e161b7014b736d99d857b97ea8e4a5579f8cf347b9412ddab4621c8373",
+          "role": "sketch-01原生输出，未重采样"
+        }
+      ]
+    },
+    {
+      "id": "continuity",
+      "result": "fail",
+      "observation": "独处、雨后、摊掌时刻和廊内外层级成立；木纹、楼群、水纹和衣裤灰面过密，底部亦繁杂，未满足本次简洁线稿目标。四楼为剧情指定，图像只能核对上层外廊读法。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-b76565a7-41b3-4cb1-8663-7a2416814872.png",
+          "sha256": "35b930e161b7014b736d99d857b97ea8e4a5579f8cf347b9412ddab4621c8373",
+          "role": "sketch-01原生输出，未重采样"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_rain_after\\references.json",
+          "sha256": "1cee17d25148818618f5b542f25699d7e42997e246dc2c262424890d8e6329b0",
+          "role": "线稿简化目标"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "soft",
+      "state": "open",
+      "problem": "梁柱、地板、木栏、水面和远岸细节及人物灰面过密。",
+      "required_change": "压减碎纹和灰填色，远景收为少量淡轮廓，底部留白。",
+      "preserve": "人物身份、摊掌动作、站姿、门廊关系和河山大位置。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-b76565a7-41b3-4cb1-8663-7a2416814872.png",
+          "sha256": "35b930e161b7014b736d99d857b97ea8e4a5579f8cf347b9412ddab4621c8373",
+          "role": "sketch-01原生输出，未重采样"
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "hard",
+      "state": "open",
+      "problem": "必要道具核验未完成：可见腰侧没有可辨单壶及短挂绳；不等同已证实未携带。",
+      "required_change": "在既定自身左腰以少量线条露出小巧壶形及短系绳的可验证部分。",
+      "preserve": "原衣型、主腰绳、无箱无背带状态和两手动作。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18798-6632-7473-b69b-fdd9380a7751\\exec-b76565a7-41b3-4cb1-8663-7a2416814872.png",
+          "sha256": "35b930e161b7014b736d99d857b97ea8e4a5579f8cf347b9412ddab4621c8373",
+          "role": "sketch-01原生输出，未重采样"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+          "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+          "role": "衣装与体量：短袖外袍、灰白内衫、护腕、主腰绳、长裤绑腿草鞋；本场去书箱和全部肩背带"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+          "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+          "role": "仅取养剑壶双腹轮廓及卷纹；一只、短绳系腰，不取图中手或3D材质"
+        }
+      ]
+    }
+  ]
+}

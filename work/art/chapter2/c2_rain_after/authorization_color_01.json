@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Hong_Kong",
+  "user_quote": "现在上色",
+  "authorized_phase": "color",
+  "stop_after_stage": "color",
+  "scope": "彩图候选",
+  "continuation_basis": "用户明确要求在已完成线稿上继续上色；沿用已通过的上游阶段和第4次线稿，不重跑规划或增加线稿次数。",
+  "lifted_limit": "解除此前只做到黑白线稿、暂不上色的阶段限制；只允许进入上色。",
+  "preserved": [
+    "第4次线稿构图、姿态、身份、衣装、掌中雨水与栏杆高度",
+    "雨停后深夜、四楼廊下、只有陈平安的剧情时刻"
+  ],
+  "allowed_change": "按身份母版落实固有色，以雨停深夜夜色、局部灯光和湿润反光建立光色。",
+  "not_authorized": [
+    "游戏接入",
+    "改变线稿结构",
+    "替换角色身份母版",
+    "自动越过color进入preview或delivery"
+  ],
+  "color_retry_policy": {
+    "initial_attempts": 1,
+    "default_reworks": 2,
+    "extensions": []
+  },
+  "previous_authorization": "再修一轮，只继续校正栏杆高度",
+  "independent_review_required": true
+}

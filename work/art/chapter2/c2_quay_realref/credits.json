@@ -1,0 +1,27 @@
+{
+  "purpose": "本轮实景参考转线稿试验的署名与修改说明",
+  "sources": [
+    {
+      "title": "Tuojiang in fenghuang.jpg",
+      "author": "张韡武",
+      "source": "https://commons.wikimedia.org/wiki/File:Tuojiang_in_fenghuang.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "adaptation": "把右岸的连接关系转用于左侧近岸构图；适度拓宽平台为街面，简化为宋韵民居，移除人物/现代设施。镜头外结构属推定。"
+    },
+    {
+      "title": "Guizhou Zhenyuan Ancient Town1.jpg",
+      "author": "杰·影",
+      "source": "https://commons.wikimedia.org/wiki/File:Guizhou_Zhenyuan_Ancient_Town1.jpg",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "adaptation": "只借助建筑体量自然变化和单一山体轮廓，不复制现代窗/空调/招牌/山上大字。"
+    }
+  ],
+  "output_license": "CC BY-SA 3.0",
+  "output_license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "modifications": "以两张照片作图像参考，AI辅助重组机位与左右岸方向，拓宽临江街面，移除现代设施和人物，改为虚构古镇无人单色线稿；不是实地精确复原。",
+  "tool": "内置 image_gen.imagegen",
+  "adoption": "候选，用户尚未确认采用，未接入游戏",
+  "scope_limit": "只交付线稿试验；上色、对白框合成与实机未进行。"
+}

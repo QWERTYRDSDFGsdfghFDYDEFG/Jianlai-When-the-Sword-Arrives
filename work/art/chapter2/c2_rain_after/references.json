@@ -1,0 +1,38 @@
+{
+  "actual_images_viewed_by": "/root",
+  "references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部母版：瘦长收束青年脸、自然窄眼、20–22岁、沉静自持；不沿用其中旧圆头玉簪"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "衣装与体量：短袖外袍、灰白内衫、护腕、主腰绳、长裤绑腿草鞋；本场去书箱和全部肩背带"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "只取已确认玉簪器形与穿髻遮挡：纤细、非等大镂空卷首；五色头发是结构编码，不取真实发色"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+      "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+      "role": "仅取养剑壶双腹轮廓及卷纹；一只、短绳系腰，不取图中手或3D材质"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_arrival_v1.png",
+      "sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735",
+      "role": "仅取临河多层客楼木构、挑檐和上层木栏；不取地面机位、暮色和其他人物"
+    }
+  ],
+  "observations": [
+    "脸部母版为长脸窄下颌、自然眉眼、黑发高髻；正常青年比例。",
+    "衣装母版实际带箱，本镜需按剧本去掉箱、斗笠、备用鞋及背带，保留原衣装。",
+    "玉簪卷首采用后续确认的15视角参考，允许远侧遮挡，不能套用五色发区。",
+    "客楼外观确认多层临河木构；没有四层近景精确母图，不称复刻原建筑平面。"
+  ],
+  "reuse": "复用身份与建筑语汇，新设计四楼外廊机位；不把雪茫堂地面庭院夜廊当四楼。",
+  "style": "只用少量干净深灰轮廓、主要衣褶与淡灰结构线；不做完整明暗渲染，不堆纸纹、木纹和瓦片。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "剑来场景制作"
+  short_description: "从剧情和母版到线稿、彩图与使用预览，保存单图记录并检查返工"
+  default_prompt: "使用 $jianlai-scene-production，按当前确认剧情制作指定场景，逐阶段检查并保存可续做的制作记录。"
