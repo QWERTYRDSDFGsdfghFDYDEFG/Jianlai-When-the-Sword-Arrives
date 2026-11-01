@@ -1,0 +1,16 @@
+{
+  "story_relation": "看向画面左下裴钱。近眼保留母版舒展的眼裂、平直眉形与轻俯瞳向；下半脸有体积，但不靠变宽或尖削来强调。",
+  "framing": "原幅1672×941不动；头部取(x700,y132,w260,h260)，不得把裁图边界当改画范围。保留颅体位置、发髻、簪首、肩领、石岸和山线，回填后需回看原尺寸。",
+  "inspected_sources": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+      "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+      "role": "本阶段核看依据"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+      "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+      "role": "本阶段核看依据"
+    }
+  ]
+}

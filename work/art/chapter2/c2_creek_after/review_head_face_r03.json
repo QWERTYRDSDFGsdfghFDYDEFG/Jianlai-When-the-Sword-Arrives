@@ -1,0 +1,111 @@
+{
+  "local_reference_verdict": "通过，可用于第二步脸部回填。",
+  "reviewed_method": "独立代理实际打开生成局部、原裁图、唯一身份母版、81与15角度摘取；缩至260像素再检脸。",
+  "stage_verdict_explanation": "本轮交付目标是全幅线稿，需执行已授权的第二步并核看全景，故总体 sketch 尚未通过。",
+  "whole_scene_stage_review": {
+    "reviewer": "/root/face_structure_review",
+    "verdict": "rework",
+    "checks": [
+      {
+        "id": "identity",
+        "result": "pass",
+        "observation": "近眼可辨虹膜、瞳孔及下睑，平直眉和闭口较原图更贴近母版；颊侧、颏底与耳前至下巴的转折增加。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "放大头部研究，用作第二步的参考，待独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+            "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+            "role": "imagegen 输入 1"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+            "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+            "role": "imagegen 输入 2"
+          }
+        ]
+      },
+      {
+        "id": "anatomy",
+        "result": "pass",
+        "observation": "缩至260像素核看，左转、轻俯与远眼收短成立；审核范围为头部，不涉及完整身体。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "放大头部研究，用作第二步的参考，待独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+            "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+            "role": "imagegen 输入 3"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+            "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+            "role": "imagegen 输入 4"
+          }
+        ]
+      },
+      {
+        "id": "continuity",
+        "result": "unverified",
+        "observation": "方裁相较原头部有发髻和眼线抬高、耳根与肩线位移，不能整块直贴。回填只参考五官，用原图眼线、耳根、颏点定位，锁定发髻、颈肩及山线。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "放大头部研究，用作第二步的参考，待独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+            "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+            "role": "imagegen 输入 1"
+          }
+        ]
+      },
+      {
+        "id": "face_in_scene",
+        "result": "unverified",
+        "observation": "目前只有局部头稿。近眼偏向左、向下较浅；需在完整场景原尺寸确认是否看向左下方的裴钱。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "放大头部研究，用作第二步的参考，待独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+            "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+            "role": "imagegen 输入 1"
+          }
+        ]
+      }
+    ],
+    "findings": [
+      {
+        "id": "RETURN_TO_SCENE",
+        "severity": "hard",
+        "state": "open",
+        "problem": "仅有局部研究，肩、髻与眼线相对裁框有位移，尚无法在全景证明原尺度下的视线、接缝和场景连续性。",
+        "required_change": "按原图眼线、耳根和颏点配准，仅把修正的脸放回原全幅，复核视线是否落在裴钱所在方向。",
+        "preserve": "通过局部核查的近眼和颊颌体积、原画轻俯半侧、发髻玉簪、原服装肩颈、其余人物及环境。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "放大头部研究，用作第二步的参考，待独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+            "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+            "role": "imagegen 输入 1"
+          }
+        ]
+      }
+    ]
+  }
+}

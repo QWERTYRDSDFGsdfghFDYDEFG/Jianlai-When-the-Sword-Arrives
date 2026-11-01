@@ -1,0 +1,24 @@
+{
+  "exit_code": 0,
+  "result": {
+    "valid_record": true,
+    "scope_complete": false,
+    "production_complete": false,
+    "next_stage": "sketch",
+    "next_action": "finish_attempt_and_review",
+    "can_continue": true,
+    "attempts_used_in_previous_records": {
+      "brief": 2,
+      "references": 2,
+      "composition": 2,
+      "space": 2,
+      "sketch": 5,
+      "color": 0,
+      "preview": 0,
+      "delivery": 0
+    },
+    "errors": [],
+    "blockers": [],
+    "boundary": "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+  }
+}

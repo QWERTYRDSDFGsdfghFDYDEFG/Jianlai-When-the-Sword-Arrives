@@ -1,0 +1,188 @@
+{
+  "stage": "第二章 L1051–1272，四段18镜线稿，停用",
+  "adoption": "停用",
+  "decision": "2026-11-01 用户否决10月31日晚该四段的全部方案及画稿。范围包括18镜、四张分镜板、第03镜原版和走马灯三格。以下保留原制作与写入核验记录。",
+  "date": "2026-10-31",
+  "method": "四段线稿由内置 imagegen 绘制。首板第03镜按走马灯方案局部修订，前三格新画原画、局部范围和绘制词见首板记录。",
+  "storyboard": "../../../../game/Codex/chapter2_storyboard.md",
+  "check": "目前的九格板按第03镜三个格内核对新旧像素，其余三张仍与各自生成原件字节相同。四段共18镜、21格。",
+  "first_board_note": "第一次绘制请求未返回图像。改用廊内平视机位交代脚、横梁与廊板关系后完成首张原件。",
+  "boards": [
+    {
+      "shots": "01–06",
+      "file": "01_rail_01_06.png",
+      "adoption": "停用",
+      "marks": [
+        "01",
+        "02",
+        "03a",
+        "03b",
+        "03c",
+        "04a",
+        "04b",
+        "05",
+        "06"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a18798-6632-7473-b69b-fdd9380a7751/exec-9b38d157-b93e-4746-ac11-085c2ba18b12.png",
+      "observations": "03a 左侧裴钱坐在石上拨草鞋带，陈平安从自己的位置看见水里双脚。03b 左下为收拳的手，右侧白衣崔东山回望。03c 视线回到空廊的椭圆灯、湿木与铁券河。04a/04b 是到栏端和折返。03c 夜色比相邻远景深，读作转头切回；三格为静态关键帧。",
+      "prompt": "Draw an original finished THREE-FRAME FIRST-PERSON MEMORY SEQUENCE for a Chinese period visual novel, as an upright page 4:5, with exactly THREE wide panoramic horizontal pictures STACKED top/middle/bottom. Each picture fills the entire width and one third of the page, like three CinemaScope film stills at a 2.42 to 1 ratio. Use a simple thin level straight gutter between them. No margins, no letters, no numbers, no captions, no calligraphy. This is new insert art only; do NOT draw the existing nine-cell board. An inker's assured fine black contour on white paper; a few airy short hatches on rock, timber, and hair. Absolutely achromatic, no wash of colour. Intimate episodic memories of a living adult traveller, quietly seen through his own eyes. An actor's naturally low peripheral view of his body rather than a cartoon videogame HUD. Different worlds, different times. The viewer IS Chen Ping'an; NEVER show his face, back, shoulders or a second version of him. Draw coherent anatomy, foreground size and perspective. Use the supplied conversation artwork as visual guidance for Pei Qian, Cui Dongshan and the oval inn lantern.\n\nTOP picture, the blink of a fond, ordinary memory: seated on a LOW ROCK at a shallow mountain brook in broad daylight, looking down and slightly to your own LEFT. In bottom centre/right your two trouser hems rolled above your shins, BOTH your bare feet visible through the cool, CLEAR flowing water, toes underwater, slight refraction and tiny wavering caustics, smooth pebbles underneath. In the LEFT THIRD, a little Chinese girl from the previous creek picture sits BESIDE you on rock, double round buns tied with cord, shabby dark short cross-collar jacket and dark trousers, her head DOWN and gaze intent on her own distinct, BASKETWOVEN STRAW SANDAL across her knees. Both of HER little hands thread/adjust its existing loose strap. Focus on the straw braid and hands, and your feet; she is NOT fitting your foot. The water glints in a broken narrow column just right of centre, recalling a night lantern reflection in the previous shot; the sunshine is now unmistakable. A few delicate curved water lines at the extreme edge for the transition. Bare rock banks. No lantern, no railing, no other people for the close crop. Quiet and candid.\n\nMIDDLE picture, the longest held memory, standing with both feet on a broad flat sunlit summit in Huangting Kingdom: FIRST PERSON eye level looking over immense quiet overlapping Chinese mountain ridges and a few wind-bent grasses, summits stretching into white distance. At the LOW LEFT corner one of YOUR OWN linen-wrapped forearms and a naturally closing relaxed fist just comes back to YOUR side after a boxing exercise; cropped naturally by the page, fingers below, correct knuckles, never a punch aimed at anyone. Keep foreground limb restrained. OFF TO YOUR RIGHT on the same broad flat ground within speaking distance is CUI DONGSHAN, slim scholarly young man, narrow face, almost straight brows, long dark high ponytail falling loose down his back, pale plain crossed collar broad-sleeved floor-length robes with a plain sash. Three-quarter profile, soft observant eyes, looking thoughtfully down over the valley as he speaks to you; he is not pointing, not fighting or reaching out. Close enough to recognise, shown at middle distance, chest or waist up. It's a human encounter, not a landscape postcard. The mountains and his white sleeve are rendered as actual tangible surroundings occupying your entire field of view. No lantern, no river waves or magical effects painted OVER the memory, no ghost/translucent people, no temple and no sword.\n\nBOTTOM picture, emotional match cut as YOU turn your head toward that voice and find yourself alone at night: entirely FIRST PERSON at a Chinese inn's open timber verandah after the rain has stopped. A single small OVAL hanging ribbed paper lantern with a short narrow tassel beside the dark upright timber post at left third. The bending curve of its side quietly echoes the silhouette of Cui's pale sleeve on the previous frame. Close wet wooden handrail crosses the bottom on a gentle diagonal; broad real river beyond and familiar low dark wooded hills, three or four ordinary short horizontal broken glints on water. Wisps of a paper-thin doubled waterline are just contracting flush with the lamp reflection, in that tiny area only. The still air and EMPTY SPACE where someone had just been are essential; no person visible in this frame. Economical black hatching in wood and hills conveys evening while most paper remains white. No airborne rain, flash, portal, running figures, magical ribbons in the sky or funeral imagery. Draw three distinct lived-in moments connected by water/glance, no inset circles, additional panels or ornamental page decoration. Finely ink these as final line-art keys.",
+      "dimensions": [
+        1942,
+        809
+      ],
+      "bytes": 3966167,
+      "sha256": "3622244993011779c885fe3a999992acd264e3a400750b3b46ea6f9f489c0149",
+      "initial_generation": {
+        "source": "C:/Users/MSI/.codex/generated_images/01a18798-6632-7473-b69b-fdd9380a7751/exec-af96fdbf-9737-4af4-89f3-b24989c82cdc.png",
+        "prompt": "Draw a 3 by 3 sheet of polished hand-inked cinematic storyboards for a quiet Chinese historical fantasy. All nine vignettes in reading order, wide landscape format, clear black and white line art for later colouring. Slim panel gutters. Give them just these corner IDs, in exactly this order: 01, 02, 03a / 03b, 03c, 04a / 04b, 05, 06. No additional words. Main idea is an optical match between a lantern's reflection and a long translucent current of water, like a river of time. In the four consecutive landscape frames 02, 03a, 03b, 03c, mechanically LOCK the composition of the young man's shoulder, the wooden post at the left third and the low distant mountain silhouette; only the linework of the reflection changes. The brightest most memorable drawing should be the water arc in the center of the story, and the gentle return to normality after it.\n\nSetting: dry evening after a shower, traditionally built covered Chinese riverside walkway; wooden posts, wooden guard rail with a flat top beam, hanging lantern on left, river and mountains on right. Horizontal eye-level shots only, floor planks and soles seen from the interior side in the performance shots. The scholar-athlete Chen Ping'an is practising a calm sure-footed balancing walk on the level wooden beam of the gallery set, a familiar martial arts exercise. Figure in profile: lean adult with a high topknot and transverse hairpin, straight brows, light crossed collar, simple travelling robes with bound cuffs and a gourd at the belt, puttees and straw sandals. No luggage. Keep same character throughout.\n\nROW ONE. 01: Side view of quiet measured step toward the right, side-on on the wooden rail, sole next to a join in the beam, gallery deck in foreground. 02: cut over his shoulder to column-shadow and an ordinary broken reflection of the hanging lantern ON THE RIVER. Just a few low straight ripples. 03a: exactly the same shoulder, shadow, water and ridge. ONE END of this little reflection gently curls UP, connected to the water; delicately doubled edge like a leaf-thin plane of flowing water.\nROW TWO. 03b: same view as 02. The little curl opens into a LONG sweeping translucent bank above the real river, one elegant incomplete crest stretching sideways across the middle of the landscape. Short narrow contour-strokes stream along its edge. White interior with mountain silhouette fully visible THROUGH it. Its lower tip joins the original lantern glint. It is a river shaped from a light reflection. Stay away from круг shapes, tunnels, scenery emerging inside it. 03c: same composition again; this has subsided back until only a very small curved remnant, just one line at the same reflection. 04a: horizontal side view, at the last timber post he faces RIGHT and pauses; small residual curl still visible beside the column reflection behind. Show both feet aligned on beam and planks lower in near foreground.\nROW THREE. 04b: identical horizontal camera and post placement as 04a. He has made a simple turnaround and now looks and steps LEFT. Water absolutely ordinary with only little short horizontal water glints, same location and direction as 02. 05: separate symbolic inner room with a plain rectangular stone doorway. A diminutive ADULT Confucian scholar with high topknot, wide sleeves, low sash, lifts his head, one little spark on his chest and two flecks. Nobody else in the room. 06: return to gallery, full figure progressing screen LEFT on the horizontal beam, same gallery post and lantern and river with only plain ordinary ripples. Vary shot distances as indicated. Clear difference between right and left. Respect the night corridor, face and robe character references seen earlier. Finished confident graphite-and-ink contour, economical fine hatching on wet wood and shaded timber eaves, clean drawing paper, no washes, no on-screen rain.",
+        "observations": "02的灯影只随水破碎。03a从同一处牵出细线，03b贴边流纹展开，远山可透见，03c缩短。04a剩一道细痕，04b人物改向左，江面只余碎光。04a栏端缺少醒目标记，03b单看近似挑起的细浪。第一、三段墨色轻重及廊灯轮廓有差别。",
+        "bytes": 3393643,
+        "sha256": "34be48bf5bcc1d84a8d6e00d673ade4a54c0aa5f01bec768e7b1a4d788ddbecc"
+      },
+      "source_role": "03a、03b、03c 三格绘制原画。九格板使用同一文件句柄写入这三个格内的图像。",
+      "in_place_check": {
+        "date": "2026-10-31",
+        "tool": "内置 image_gen.imagegen 绘制三格，System.Drawing 在内存分格，FileMode.Open 同句柄写入原九格板",
+        "transparent_background": false,
+        "explicit_image_paths": [],
+        "art_source_sha256": "f1907a99f60875f2f50b24d057bec1c448bd679d44bd880e2fd61374244e6c4d",
+        "art_source_dimensions": [
+          1122,
+          1402
+        ],
+        "art_source_crop_xywh": [
+          [
+            0,
+            0,
+            1122,
+            461
+          ],
+          [
+            0,
+            486,
+            1122,
+            460
+          ],
+          [
+            22,
+            957,
+            1076,
+            443
+          ]
+        ],
+        "destination_xyxy_half_open": [
+          [
+            1300,
+            2,
+            1940,
+            265
+          ],
+          [
+            2,
+            273,
+            644,
+            536
+          ],
+          [
+            652,
+            273,
+            1291,
+            536
+          ]
+        ],
+        "protected_label_xyxy_half_open": [
+          [
+            1298,
+            0,
+            1347,
+            30
+          ],
+          [
+            0,
+            271,
+            50,
+            302
+          ],
+          [
+            650,
+            271,
+            699,
+            302
+          ]
+        ],
+        "board_file_id_before": "1125899906843983",
+        "board_file_id_after": "1125899906843983",
+        "before_sha256": "34be48bf5bcc1d84a8d6e00d673ade4a54c0aa5f01bec768e7b1a4d788ddbecc",
+        "after_sha256": "3622244993011779c885fe3a999992acd264e3a400750b3b46ea6f9f489c0149",
+        "changed_pixels_03a_03b_03c": [
+          166976,
+          167422,
+          166675
+        ],
+        "changed_pixels_elsewhere_including_labels": 0,
+        "other_boards_verified_unchanged": true,
+        "stage": "线稿待审，未上色或接入实机。"
+      }
+    },
+    {
+      "shots": "07",
+      "file": "02_old_question_07.png",
+      "adoption": "停用",
+      "marks": [
+        "07"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a191b4-280d-7771-b9e4-d5ae5be3ae37/exec-ebf90df4-6544-4b53-932b-688f5a26a919.png",
+      "observations": "天光山路只有陈、朱二人。陈平安背竹箱侧头听，朱敛微弓着背边走边答。衣褶带轻铅灰，养剑壶的壶颈与纹饰简化。",
+      "prompt": "为《剑来》叙事游戏第二章原创绘制镜07，一张单镜头、全幅横向16:9（目标1920×1080）的出版级动画分镜线稿。干净白纸，极细而富变化的黑色针管笔轮廓、细铅笔般的干净内部线，黑白，少数必要处疏排线，绝大部分留白，不铺灰、不涂任何颜色、不做厚黑影或电影灰底。统一细黑画框有窄白边，左上角框内仅一个很小的简洁编号“07”。没有其他文字、台词、签名、气泡。\n画一段踏实安静的旧事：自然天光下，山崖书院外的山野小径，亚热带低矮乔木、远处的山梁、石块和坡草将土路引向画面深处。平视双人中景，略见到大腿，不招贴不摆拍，两个旅人并肩前行，朝画面右前方，两人位置稍错开。左边年轻的陈平安侧头朝右边稍矮的朱敛看，嘴闭，细眉眼认真听着，不抢话。右边朱敛稍佝偻，手臂随步自然，头微微回转，嘴略开，平常地回答晚辈提出的道德问题。两人轮廓清楚，不遮住彼此面孔，人物大小一致、体型年龄有别，步向一致；胸肩和发梢留有光。镜头留得住眼神与凡常身体动作。中国古代人物写实比例，日系克制动画线条，不夸张，不Q版。\n陈平安的身份：一名20–22岁的瘦削结实年轻男子，窄长清秀脸，节制的平直眉睫，清澈狭长双眼，笔直鼻梁，小下颏，脸颊两侧各有几绺微乱发，头顶高束小圆髻，水平简朴玉簪；浅交领内衣，磨旧的短袖外衫，袖口挽到前臂、前臂布缠，简单绳腰带。背着朴素开口长方体竹编书箱（绝不是剑匣：四角竖竹/横竹，编织箱身，两根绳带上肩，侧边绑笠和一双备用草鞋），腰侧一枚仅巴掌大的收腰葫芦形小壶，短绳系带。人物不要佩剑或背剑。\n朱敛：约60岁的旧仆，身材干瘦，细长面孔，眉骨高，高颧骨，额头皱纹和眼下褶纹，略钩鼻薄嘴唇，一撇短髭和短短一撮尖山羊胡，盐花鬓发朴素挽小髻，朴素交领劳动布衣、窄布带束腰、布缠腕；貌不惊人，有分寸，眼神平和，不作仙翁、不穿披风长袍、不拄杖。画面中只有这两人，完全现实的山路，没有其他人影、没有剑光、河流、雨或神怪、没有受害者。白纸黑线表达自然天光，远山与远树只用几线即可；人物面部、衣着、竹箱与听答关系最清晰。",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 3348909,
+      "sha256": "a065b8d150176a8802f514d8b854c19b1f492d1e407c3f3c89caabc484165558"
+    },
+    {
+      "shots": "08–15",
+      "file": "03_corridor_08_15.png",
+      "adoption": "停用",
+      "marks": [
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a191b5-e833-7970-9e02-70b8f3771846/exec-e0efe65b-83d3-4e7a-9c4e-32e1aa399d58.png",
+      "observations": "08、10的脚在栏顶，13已在廊板，14脚尖将至门槛。气府小人探身、收脚、仰躺。13拳掌有遮挡，15心口有微暖亮点。",
+      "prompt": "Illustration-story. Deliver the original BLACK AND WHITE LINE DRAWING, a legible film storyboard sheet for a Chinese period visual novel. Eight narrative shots exactly, 1920x1080 landscape composition, four equal panels across and two rows (4x2), shared outer margin and neat fine rules. Reading across. Label each once in the upper left in this EXACT order: first row 08 09 10 11 ; second row 12 13 14 15. The small 2-digit identifiers are the only writing. Each panel one single moment only. Confident fine nib black contour drawing on bright plain white paper, occasional restrained pencil hatching, airy, precise contact edges, realistic Chinese facial anatomy, Song-period timber and linen, no coloring, paint, gray wash, black fills over large areas, or lettering other than numerals. Reference images from the conversation establish the wooden veranda and the identity of Chen with slender 20–22 year-old face, black hair tied in high bun held by horizontal pin, loose temple locks, plain crossed linen tunic, belted worn short sleeved open overrobe, wrapped forearms and calves, rope sandals, a small gourd at his left hip. No backpack, no hat or weapon.\nTwo separate, never simultaneous settings. A. Historical late-night, rain stopped, high river-facing timber veranda, wooden lantern & deep posts on the inboard left, calm river and faint mountains visible outboard right, a timber balustrade an adult's waist high and low wood plank floor one metre below its flat top rail. No rain streak, glowing river, magic ring, stars or celestial effects. B. Austere inner stone chamber, uncluttered doorway and inside sill framed by thick jamb, huge space relative to the little slender Confucian scholar who is a mature small man with adult proportions and neat high knot, broad long sleeves belted crossing robe; NOT a child, NOT Chen. Simple straight dark scholar's topknot and plain slightly older face visibly distinct from Chen.\n08 side wide full figure Chen walks LEFT; BOTH SANDAL SOLES physically ON TOP of the TOP beam of the tall railing itself (feet way above floor, visualize a tightrope walker walking atop a railing, no other railing higher than his feet). Timber uprights descend beneath his feet all the way to the planks. Hushed ordinary river beyond his back.\n09 in isolated inner chamber, little anxious scholar leans head and chest sideways OUT through clearly readable open doorway, shoes remain planted on inside floor behind threshold, one hand against jamb.\n10 same camera side as 08, full figure Chen stops on top of same railing with both soles visibly planted one behind the other ON THE UPPERMOST timber rail. Hands relaxed, gaze LEFT, he hears nothing. Make silhouette, rail contact, open air and lowered deck readable.\n11 short cut to same stone doorway as 09: the same anxious little scholar standing still, feet collected just inside, shoulders arrested, hands still uncertain. Show full figure.\n12 closer half-profile portrait of Chen facing LEFT, thinks about his beloved privately and barely smiles, just one softly raised mouth corner, empty veranda and distant river behind. He is alone.\n13 wider full body from side: Chen has now gotten down. His shoes are BOTH ON THE WIDE LOWER PLANK FLOOR with the rail BESIDE HIS WAIST. Walking two small steps leftward, he gently touches his own loose closed fist to the open palm of his opposite hand at solar-plexus height to cheer himself. Make the contacting palm and curled knuckles readable and anatomically plausible, no clapping or combat pose.\n14 side medium-wide full-height Chen walks toward an ordinary wooden guestroom door, feet visible and one sandal toe pauses just short of the threshold. His hands have dropped naturally. Plain everyday hanging lantern, no effects.\n15 high three-quarter wide horizontal floor view inside the same austere stone chamber; little scholar lying completely FLAT on his BACK on bare floor, very faint smile looking down at the point of his own chest, only ONE tiny pinprick glint on chest. No other characters.\nUse optical scale changes to cut between worlds, no thought-bubbles. Eight separate cinematic compositions with different shot sizes. Leave open white paper between strokes. Do not add an introduction, title, diagram, header, captions, subtitles or letterforms. Draw exactly these eight shots.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2979341,
+      "sha256": "21ee1e6bcfa8b8a5c1366d3ca703f11a4bac826fdc08a7fda51424c0fe3b3eae"
+    },
+    {
+      "shots": "16–18",
+      "file": "04_lamp_16_18.png",
+      "adoption": "停用",
+      "marks": [
+        "16",
+        "17",
+        "18"
+      ],
+      "source": "C:/Users/MSI/.codex/generated_images/01a191b4-659b-74d3-a2e2-892549a81361/exec-48871aa8-d243-42e6-897f-73666ecf0a5e.png",
+      "observations": "三镜同一盏碗灯，经书始终在灯左。18下巴确实贴在手背上，手肘撑桌，躯干比伏案的设想高。窗墙有灰调，灯芯略暖。",
+      "prompt": "Create one new, original landscape 1920 by 1080 black ink LINE-ART film storyboard sheet for a Chinese historical visual novel, precisely THREE frames. Composition of the sheet: two wide short panels stacked vertically on the LEFT taking 44 percent of the sheet width, and one large tall sustained frame on the RIGHT filling the other 56 percent. Equal fine black rectangular borders, thin white gutters, no overlapping panels. The only typography on the entire drawing is the tiny legible panel numbers \"16\", \"17\", \"18\" at top left inside each respective panel, small on clean white ground. 16 top left, 17 bottom left, 18 right. No captions, no labels, no words, no legible characters on book. Crisp assured contour drawing in varied very fine black ink on white drawing paper, plain TWO-DIMENSIONAL animation production clean-up line art, economical contours, interiors open white. No color, no tonal rendering, no gray fill, no dense shading or black night backdrop. Carefully composed human drama, believable natural anatomy and scale, adult proportions. Camera stays on ONE side of the axis. The same small lamp is always on the RIGHT of the open book, at the same solid wooden guestroom desk. The lamp is an ancient plain open shallow ceramic bowl of oil with exactly one bare short woven wick lying across a pointed lip and one SMALL upright flame, never a candle or lantern. Midnight in a quiet old timber guest room with simple lattice window and plaster wall.\n16 (top left): tight oblique shot along the edge of the desk. On the left a young man's slim right hand emerging from a plain cloth wristwrap gently lifts the flexible cover of one thread-bound Buddhist book to reopen it. Book's bottom block lies on the desk and one distinct turning sheet arches up. Show a hint of the crossed robe collar or arm entering left. The small plain wick-bowl on the right is close to the book. Tiny flame in focus, visibly a physical wick in a spouted bowl. Quiet, static.\n17 (bottom left): close low camera looking across the layered edge of the SAME open flat book in foreground lower left toward the SAME simple oil bowl on the right. Depth from page planes and table edge, three or four sparse dust motes catching wick-light ONLY very near the flame, a faint sliver of dark empty lattice window beyond. No hand. No dream, supernatural effect, other house, other person or illustrated flashback.\n18 (dominant single right image): quiet medium profile from desk height. Young Chen Ping'an sits to the LEFT facing RIGHT, shoulders bowed over the desk. Chin is CLEARLY physically resting on the BACK OF HIS OWN HAND: a slim forearm extends along tabletop, palm faces down, the natural dorsal knuckles/hand support the chin directly, fingers stretched sideways on the wood; chin visibly contacts the dorsal side with a natural weight shift, with no gap, thumb not on chin, no propped-up clenched fist. His other hand is separate, loose and resting quietly on the wood, not touching the pages. His lowered, open eyes follow a sightline down toward the actual wick-flame of the same bowl seen to the RIGHT, past the same OPEN Buddhist book that sits still in the gap between him and lamp, lower than his head. The room and desk have breathing room, few lines of window lattice and wood framing quietly hold the shot. Reader can clearly tell the character, his hand and the little light apart. A 20-22-year-old lean Chinese man, calm serious long-oval youthful face, natural narrow almond eyes, firm gently straight brows, clean-shaven, tapered but not pointy jaw, dark hair lightly outlined tied in a neat small topknot with one horizontal plain wooden hairpin, one or two natural loose cheek wisps; plain traveler's crossed light inner collar under simple loose short-sleeved outer robe with fabric wrapped forearms. No luggage, sword, hat, shoulder strap, jewelry, facial hair, costume ornament. No other people, no supernatural imagery, no rain, no streaks, no candles or electric lights. Architectural and costume continuity with a restrained late classical Chinese jianghu guesthouse; fresh original composition.",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2440425,
+      "sha256": "c90a3ea6ff80d766cbe94c48f267383cfca49088290c0c93ba61ee488768f20e"
+    }
+  ]
+}

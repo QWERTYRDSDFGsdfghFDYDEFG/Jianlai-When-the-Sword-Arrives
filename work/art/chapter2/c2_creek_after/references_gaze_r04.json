@@ -1,0 +1,29 @@
+{
+  "observation": [
+    "重新打开唯一身份母版与 r03 全图：保留母版自然窄杏眼、平直眉及青年脸骨相，r03已修正颊颌，勿再次重构。",
+    "生成器实际输入只含 r03 完整原图和据其派生的落点示意。蓝圈标的是裴钱双眼所在脸区，虚线只是指向目标，不能作为原虹膜的角度量测。母版只用于核看身份。",
+    "参考图2取全图(331,228,570,250)，放大2倍，有蓝色目标标示，只用于定位。"
+  ],
+  "evidence": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "陈身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部身份母版；核眼形"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+      "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+      "role": "用于编辑的第五幅整景"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_gaze_r04\\gaze_target_guide.png",
+      "sha256": "c4ba63583c1107becaef686a94edf6d774f87a20897eb83cfba637d7b023f887",
+      "role": "同图派生的观察目标参考"
+    }
+  ]
+}

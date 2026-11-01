@@ -1,0 +1,19 @@
+{
+  "observation": [
+    "裴在左下的低石上抬脸，陈在她右上方。两人之间的负空间清楚；将陈视线的向下分量放进双眼虹膜和睑线，完整画面须读出他看的是她的脸。",
+    "沿用原1672×941横幅与人物比例。焦点为陈双眼及紧邻睑线；不改变头的俯仰、脸型、表情其余部分、裴钱的头或两人的距离。",
+    "新旧完整画面用同一显示尺寸比对，并再核看缩小后的读感；不把示意线当作输出。"
+  ],
+  "evidence": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+      "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+      "role": "用于编辑的第五幅整景"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_gaze_r04\\gaze_target_guide.png",
+      "sha256": "c4ba63583c1107becaef686a94edf6d774f87a20897eb83cfba637d7b023f887",
+      "role": "同图派生的观察目标参考"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "operation": "scene_face_return",
+  "tool": "image_gen.imagegen",
+  "transparent_background": false,
+  "tool_input_order": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+      "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+      "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+      "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+      "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+    }
+  ],
+  "output": {
+    "asset": {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+      "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+      "role": "第二步完整溪边修脸稿，待独立全图核验"
+    },
+    "width": 1672,
+    "height": 941,
+    "format": "PNG RGB"
+  },
+  "exact_prompt_file": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\prompt_scene_r03.txt",
+    "sha256": "4ccf8fa355b8af92ab12a1a59caef8262b4b02594cd5521ad312812ca856c2ab",
+    "role": "实际完整提示词"
+  },
+  "state_at_return": "待独立全图复核"
+}

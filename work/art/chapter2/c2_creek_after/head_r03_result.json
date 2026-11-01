@@ -1,0 +1,45 @@
+{
+  "operation": "head_study",
+  "tool": "image_gen.imagegen",
+  "tool_input_order": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+      "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+      "role": "imagegen 输入 1"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "imagegen 输入 2"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+      "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+      "role": "imagegen 输入 3"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+      "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+      "role": "imagegen 输入 4"
+    }
+  ],
+  "target": {
+    "asset": {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+      "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+      "role": "放大头部研究，用作第二步的参考，待独立复核"
+    },
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG RGB"
+  },
+  "prompt_file": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\prompt_head_r03.txt",
+    "sha256": "05a7bea1921f28484e245d40c07172a5b9372bc07269b1dc774efd3bda679424",
+    "role": "实际输入提示词"
+  },
+  "checks_before_review": {
+    "source_crops_pixel_check": "三张摘取分别与完整来源相应矩形的RGB逐像素一致，尺寸260×260、125×260、310×519。"
+  },
+  "state_at_return": "待独立复核"
+}

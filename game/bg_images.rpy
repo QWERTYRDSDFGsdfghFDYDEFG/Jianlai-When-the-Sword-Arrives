@@ -41,6 +41,7 @@ image bg c2_02_accept_v1 = im.Scale("images/chapter2/c2_02_accept_v1.png", 1920,
 
 # Chapter 2, scene 3: quay, enchanted ship and flight.
 image bg c2_03_quay_v1 = im.Scale("images/chapter2/c2_03_quay_v1.png", 1920, 1080)
+image bg c2_03_quay_v2 = im.Scale("images/chapter2/c2_03_quay_v2.png", 1920, 1080)
 image bg c2_03_throw_v1 = im.Scale("images/chapter2/c2_03_throw_v1.png", 1920, 1080)
 image bg c2_03_reveal_v1 = im.Scale("images/chapter2/c2_03_reveal_v1.png", 1920, 1080)
 image bg c2_03_papers_v1 = im.Scale("images/chapter2/c2_03_papers_v1.png", 1920, 1080)

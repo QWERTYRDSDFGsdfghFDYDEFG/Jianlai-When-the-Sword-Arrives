@@ -19,7 +19,7 @@
 | 返乡途中·溪边 | [L9](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:9) | 溪边挑疱CG，收针后切黑 | 收针后稳定休息图待补；不让持针进行态承载后续长谈。访友与宁姑娘计划是陈平安心声。 |
 | 黄庭国·御江畔郡城 | [L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | 入城、观察、远处来人三图 | 剑修冲突是旧事与假设，未发生当场战斗；长段街面旧事的稳态仍需复核，不能把文字改动算作已补差分。 |
 | 郡城·客栈门前 | [L178](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:178) | 邀请、思量、应允三图 | 陈平安因旧交情面答应短住；不能补成拒绝会导致吴懿受罚。 |
-| 郡城江畔·登船 | [L229](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:229) | 开阔街面、抛舟、化船、符纸、少女、搭板、升空 | 先移开行人再变船；裴钱想买宝贝由旁白交代。既有静态关键画面不等于连续变形或登船动画。 |
+| 郡城江畔·登船 | [L229](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:229) | 首镜为华光楼码头朝西无人空镜，随后抛舟、化船、落符、搭板、升空 | 2026-11-01 确认首镜用左江右铺的新图，下一镜沿用左铺右江的四人抛舟图。先移开行人再变船，裴钱想买宝贝由旁白交代。 |
 | 楼船·御江上空 | [L282](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:282) | 船上俯江CG | 故乡与楚夫人是联想和未来计划，不切成已经到达的场景。 |
 | 紫阳府外·铁券河畔 | [L319](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:319) | 下船、拜谢、退场后交谈、引路四图 | 收舟、少女化符、符纸入河的因果已补文字，尚无专用动作差分；不把旧下船图记为已展示收舟结果。 |
 | 沿河入府 | [L373](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:373) | 吴陈交谈、吴懿闭口近景、沿河引路 | 于禄龙气仅为吴懿心声，陈平安未获知；后续恢复现场对白。 |
@@ -35,6 +35,69 @@
 | 深夜·房内 | [L1238](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1238) | 黑场文字 | 需灯下读书稳态；陈重新翻开之前合上的书，油灯承接“不敢多想的一个人”。不提前画出顾璨已犯的事或替悬念定答案。 |
 | 翌晨·辞别紫阳府 | [L1275](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1275) | 黑场文字 | 需清晨离府或返乡路结果图；保持三人、陈的竹箱、裴的行山杖连续。 |
 | 同日·紫阳府 | [L1286](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1286) | 黑场文字，随后跳第三章 | 吴懿在客人离开后传讯；信息只给玩家。传讯媒介未定，不擅画具体法器或父亲接讯CG。 |
+
+### 雨停看掌之后的四段连续分镜
+
+**画面分界（2026-11-01）。** 以陈平安独自默念的“且慢行。”（[剧本 L1066](../script_chapter2.rpy#L1066)）为界。第二章此后的场景图片与此前的场景图完全不同，须独立设计。具体采用怎样的画面形式仍待确定。
+
+**本段暂无采用方案。** 2026-11-01，用户放弃本轮“陈平安回望四镜”。酒楼、飞鹰堡、山巅和夜廊折返的四镜方案、提示词及全部线稿一并停用。
+
+停用稿存档 · [青鸾国酒楼听旧事](../../work/art/chapter2/c2_chen_memory_pov/01_qingluan_winehouse.png) · [飞鹰堡听陆抬说话](../../work/art/chapter2/c2_chen_memory_pov/02_feiying_lutai.png) · [黄庭国山巅低头](../../work/art/chapter2/c2_chen_memory_pov/03_huangting_summit.png) · [夜廊折返](../../work/art/chapter2/c2_chen_memory_pov/04_tiequan_return.png)
+
+2026-11-01，用户停用10月31日晚制作的整套方案。从跃上栏杆到回房停翻书页（L1051–1272），旧18镜、四张线稿板和第03镜走马灯改稿一并归档。
+
+<details>
+<summary>2026-10-31 停用稿 · 镜头、线稿与制作记录</summary>
+
+本版从 L1051 跃上栏杆起，到 L1272 书页停住为止，四段共18镜、81句。表中引号为原句或原句节选；行号指向现行剧本。每镜自所列首句起，保持到末句读完，镜内的姿态和光线变化随已有正文页推进。
+
+**前镜伏笔（不计入18镜）。** 宴前 L515–523，陈、朱凭栏望铁券河。陈转述崔东山说要让“那条光阴长河，流得慢上一些”时，水面仍是寻常灯影。选靠近栏端的一根廊柱作位置标记，让观众认得灯影在柱影旁随水拖长的形状。深夜 L1044、1046 用已定稿的掌水图交代雨珠、夜河与青山；下一镜才把重心从掌心移到脚下。[宴前对白](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:515) · [雨停看掌定稿](../images/chapter2/c2_14_rain_after_v1.png)
+
+这段光阴长河以陈平安亲历的往事呈现。铁券河的灯影引出溪水，溪边只看一眼，到了黄庭国山巅，留足崔东山说完旧话。陈平安在记忆里侧首，眼前重新见到今夜的廊灯。
+
+**四段线稿（2026-10-31，停用）**　[01–06 栏上慢行与折返](../../work/art/chapter2/c2_slow_walk_boards/01_rail_01_06.png) · [07 山路旧问](../../work/art/chapter2/c2_slow_walk_boards/02_old_question_07.png) · [08–15 夜廊与气府](../../work/art/chapter2/c2_slow_walk_boards/03_corridor_08_15.png) · [16–18 灯下重读](../../work/art/chapter2/c2_slow_walk_boards/04_lamp_16_18.png)
+
+第03镜在原线稿板内改成三格第一人称走马灯，依次为溪边、山巅、回望廊灯。第04镜在 L1089 同一句旁白内交代到栏端与转身后两格。旧稿共21格、18镜，均已停用，未接入游戏。[线稿核对及绘制提示词](../../work/art/chapter2/c2_slow_walk_boards/line_art_record.json)
+
+#### 1　栏上慢行与折返（28句）
+
+| 镜号 | 对应剧情 | 画面与切点 |
+|---|---|---|
+| 01 · 踏上栏顶 | [L1051–1063](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1051)　“陈平安跃上栏杆，慢慢走向另一头。”至“又总是措手不及。” | 廊内斜侧全身。取跃上之后脚已踏实的一步，栏顶在草鞋下，廊板在更低处，两者都露在对白框上方。左边几盏廊灯，右边夜河，栏上只有积水。青鸾国僧儒的旧事和陆抬说的“留不住”都在这一镜里读完；前方那截空栏始终留给他慢慢走。 |
+| 02 · 人先想到“慢” | [L1066–1070](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1066)　陈平安心声“且慢行。”／“慢。” | 从行步全身切到肩后。近处留一角湿木和他的侧脸，越过他能看见远处柱影旁那道暖光。“慢。”单独占原有的一页，读完仍是普通的铁券河。 |
+| 03 · 从溪边、山巅回望廊灯 | [L1073–1087](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1073)　“宴前同朱敛说过的那番话，也重新浮上心头。”至崔东山回忆“肯低头看一眼。” | **03a（L1073–1080）**　接02柱边的碎灯影，切到白日溪面的反光。陈平安从自己的眼睛看见水里的赤脚，左边裴钱正低头拨弄膝上的草鞋。**03b（L1083–1087）**　切到黄庭国山巅。自己缠腕的拳在左下，白衣崔东山在右，听他说完两句旧话。**03c（L1087句末接L1089起首）**　陈平安循声侧首，眼前已经是来路的廊灯、湿木栏与寻常夜河。 |
+| 04 · 栏端折返 | [L1089–1116](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1089)　“夜廊寂静，陈平安走到栏杆尽头，转身往回走。”至“是不是也能少一些？” | **L1089 同一句内完成折返。** 接03c的主观视线，04a从廊内侧面看陈平安朝右停步。04b脚尖已转向左，沿栏走回。两格沿用原线稿，04a灯下水面仍有细弯痕。L1092“世道若是在变好”起留在现实夜廊，直到“那些被碾碎的花草”。 |
+| 05 · 气府里有人在等 | [L1119–1123](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1119)　“气府之内，金色儒衫小人抬起头。”至“它静静等着。” | 切入体内。暗处的小人抬头，自身的金光向内聚，几粒散开，它守在原处。给气府留一个可辨的门口，供后面急劝时认回。心口的一点亮光随小人留在门内。 |
+| 06 · 从花草想到一个人 | [L1125–1127](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1125)　“廊下的陈平安仍在往前走。”至“在路上问过朱敛的一个难题。” | 回到04的返程方向。先看见他仍独自在栏上走，让“离开山崖书院后”这句在现实夜廊说完。下一页陈平安开口问，才切去当年。 |
+
+#### 2　返乡路上的旧问（10句）
+
+| 镜号 | 对应剧情 | 画面与切点 |
+|---|---|---|
+| 07 · 十个人，和眼前这个人 | [L1131–1149](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1131)　陈平安旧问“若是杀一个没有做错事的好人，就能救十个人，杀不杀？”至“才知道自己的本心和选择。” | 山路自然天光，同行双人中景。陈平安侧头发问，朱敛在L1133轻轻摇头。问到一千、一万人，两个人在画面里的大小都不变。L1143“我担心自己就是那个被杀的人”留在朱敛平常的脸上，陈平安也在镜内听着；L1145朱敛转眼问“少爷，你呢？”，同镜留足他答“我也给不了答案”和末句。 |
+
+#### 3　回到当下夜廊（28句）
+
+| 镜号 | 对应剧情 | 画面与切点 |
+|---|---|---|
+| 08 · 旧问结束 | [L1153](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1153)　“夜色中的高楼上，陈平安仍是独自一人。” | 山路双人切回四楼单人全身，认回同一根廊柱、同一侧夜河。栏顶上只剩他的脚步。 |
+| 09 · 门内急劝 | [L1155–1174](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1155)　“小人已经急得走到门边。”至气府心声“这可是你将来跻身上五境的大道契机！” | 切回05的气府，这次小人已到门边。让它的身体越过暗部、朝门外探出，脚仍在门内。五句急劝始终落在它身上；念到那个“慢”字时，看清它焦急的神色。 |
+| 10 · 他听不见 | [L1177–1183](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1177)　“这些心语，陈平安一句也没有听见。”至“陈平安终于停下脚步。” | 切廊侧全身。他照原来的步子走，眼睛仍望向前方。旁白交代小人只能等；到“终于停下脚步”，陈平安的两脚在栏顶站定。 |
+| 11 · 里面也停住 | [L1185](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1185)　“金色儒衫小人也站住了。” | 短切气府门内。接上一镜停步的姿势，小人也收住脚，脸上还带着急色。 |
+| 12 · 想起宁姑娘 | [L1187–1198](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1187)　“廊下，陈平安忽然笑了一下。”至“可万一，她其实愿意呢？” | 回到陈平安侧脸。他先笑，后读到牵手的心声。身后空廊与夜河留在画面里，这一点笑意只给他自己。 |
+| 13 · 下栏，给自己鼓气 | [L1201–1214](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1201)　“他跳下栏杆，朝房门走去。”至“这怎么行。” | 镜头放宽。用落地的一步交代高度变化，栏杆回到身侧。L1203走出两步，以拳轻击另一手掌；“又不是没抱过”以后双手松开，沿廊板向房门走。 |
+| 14 · 门前又慢下来 | [L1217–1224](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1217)　“到了门口，他的脚步又慢了下来。”／“还是慢些。”／“与她，慢些也好。” | 门边侧身中景，让跨向门槛的下一步缓下来。这次“慢些”全留在鞋尖与门槛之间，灯光仍是日常的暖色。 |
+| 15 · 余下的一点金光 | [L1227–1235](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1227)　“气府里的小人仰面倒了下去。”至“小人怔了一会儿，也笑了起来。” | 切气府。小人仰倒、骂出心声；L1233才把目光引向它心口仍凝着的一点金光。停在它低眼看光、回过味来的一笑。 |
+
+#### 4　回房，灯下重读（15句）
+
+| 镜号 | 对应剧情 | 画面与切点 |
+|---|---|---|
+| 16 · 同一盏灯，同一本书 | [L1242–1246](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1242)　“灯还亮着。”至“有些人的心，就像一面照妖镜。” | 由小人心口的一点金，切到桌上一小簇暖灯芯。第一眼仍能看到桌沿和合起的佛经，认出是先前离开的那间客房。L1244陈平安回到桌前重展书页，手指落在页边。 |
+| 17 · 灯前想到家 | [L1248–1254](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1248)　“他看着灯火，却想起泥瓶巷的祖宅。”至“若有客人来，便也能看见。” | 从书边切到他的视线落处。近处一盏油灯，暖光照出桌面一点尘埃，房里更远处隐进暗里。祖宅窗台的草盆由旁白带出，画面守着这盏客灯。 |
+| 18 · 书页停住 | [L1256–1272](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:1256)　“下巴搁在手背上，望着那点光亮。”至“他许久没有再翻页。” | 桌侧近中景，把手背、侧脸、摊开的书放在同一画面。L1262念及那一个人，眼睛仍朝着灯；L1265“天底下的道理，没有亲疏之别”作为心声。L1270灯芯轻响，手和书都不动，L1272整页留住同一画面，在这一次未完成的翻页上收束。 |
+
+</details>
 
 ## 无字停留、头像与声音归属
 

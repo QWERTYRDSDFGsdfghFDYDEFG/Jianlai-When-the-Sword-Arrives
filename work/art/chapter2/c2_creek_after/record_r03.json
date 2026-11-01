@@ -1,0 +1,1004 @@
+{
+  "schema_version": 1,
+  "task": {
+    "scene_id": "c2_creek_after",
+    "request": "开始修改",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "2026-10-31 用户在“先制作放大头部线稿、独立核脸，再放回原场景”的具体方案后回复“开始修改”。只为这张线稿执行一次头部制作和通过复核后一次原景回填；每步一次。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+      "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+      "role": "本次剧情与身份依据冻结快照"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\face_reassessment_20261030.json",
+      "sha256": "adf126bcf0d4495eece7b3e3f96ad1009bd09034f09e0d3930305f6102853e17",
+      "role": "用户反馈、双重辨认与修订步骤"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+      "role": "当前剧情"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "072fbab97b6617959d629c24439c173b2590a5427742d3c3d52e3d1da69da513",
+      "role": "当前分镜"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "当前身份标准"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+      "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+      "role": "保留历史玉簪、走位和支撑点的全图"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部身份母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "原15图"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\17\\01a14a12-5216-7b91-bfb5-10f147b4e459\\cpa_head_angles.png",
+      "sha256": "c23ff70a8f35f3d142a6c92580e9ff5bfad240e48a7f04aaaf0af47d9457f0c0",
+      "role": "原81头练习"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+      "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+      "role": "生成器参考原图摘取"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+      "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+      "role": "生成器参考原图摘取"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+      "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+      "role": "生成器参考原图摘取"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief_face_r03.json",
+      "sha256": "616b184f3a53affeb35f91552ff7586cc22366bf92c571e623b22d24cae6052b",
+      "role": "本轮任务单"
+    }
+  ],
+  "constraints": {
+    "locked": [
+      "收针后的溪边，裴钱低头摆弄草鞋，陈平安看她一眼；线稿可承接后续闲谈，到三人动身为止。",
+      "陈膝上手与撑石手、双足水线、裴手持草鞋、朱坐石及石岸上竹箱均在局部动作区之外；完整原图是回填时核查支撑接触的直接依据。",
+      "保持20–22岁身份、轻俯向左的头向、发髻和卷首簪、既有灰度线稿"
+    ],
+    "allowed_changes": [
+      "保留师父轻俯朝左听孩子说话的神态，允许重画过窄眉眼及颊颌体积。头部特写只作为原景线稿的中间成果。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": [
+      {
+        "stage": "sketch",
+        "extra_reworks": 2,
+        "authorization": "2026-10-31 用户在“先制作放大头部线稿、独立核脸，再放回原场景”的具体方案后回复“开始修改”。只为这张线稿执行一次头部制作和通过复核后一次原景回填；每步一次。 两个步骤均以 imagegen 操作，依实际工具调用各占一次。该授权仅登记于本条，未使用的配额不能挪作其他返工。"
+      }
+    ]
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/record_runtime",
+          "tool": "本地脚本、分镜、记录与图像目视核对",
+          "prompt": "从本次已授权的局部修订重新核对brief阶段的约束与证据。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+              "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+              "role": "本次剧情与身份依据冻结快照"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+              "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+              "role": "核对依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief_face_r03.json",
+              "sha256": "616b184f3a53affeb35f91552ff7586cc22366bf92c571e623b22d24cae6052b",
+              "role": "本轮brief阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/record_runtime",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "收针后的溪边，裴钱低头摆弄草鞋，陈平安看她一眼；线稿可承接后续闲谈，到三人动身为止。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief_face_r03.json",
+                    "sha256": "616b184f3a53affeb35f91552ff7586cc22366bf92c571e623b22d24cae6052b",
+                    "role": "本轮brief阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+                    "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+                    "role": "核对依据"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "保留师父轻俯朝左听孩子说话的神态，允许重画过窄眉眼及颊颌体积。头部特写只作为原景线稿的中间成果。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief_face_r03.json",
+                    "sha256": "616b184f3a53affeb35f91552ff7586cc22366bf92c571e623b22d24cae6052b",
+                    "role": "本轮brief阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+                    "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "7bb59e8dd15038b89459d77a31e1cf15456a192fb8d58692cba88c8f0e47811d",
+                    "role": "核对依据"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/record_runtime",
+          "tool": "本地脚本、分镜、记录与图像目视核对",
+          "prompt": "从本次已授权的局部修订重新核对references阶段的约束与证据。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\brief_face_r03.json",
+              "sha256": "616b184f3a53affeb35f91552ff7586cc22366bf92c571e623b22d24cae6052b",
+              "role": "本轮brief阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+              "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+              "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+              "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+              "role": "核对依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references_face_r03.json",
+              "sha256": "3e79370c6ee3cbd19eb4a7bb155c2032ffa87ee784dca3e53aeee164522b25b4",
+              "role": "本轮references阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/record_runtime",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "母版第2格锁定20–22岁偏瘦长青年；第4–6格提供听人时的眼形与表情。原画近眼细紧、下颌转折不足，仍需修正。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references_face_r03.json",
+                    "sha256": "3e79370c6ee3cbd19eb4a7bb155c2032ffa87ee784dca3e53aeee164522b25b4",
+                    "role": "本轮references阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+                    "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+                    "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+                    "role": "核对依据"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "当前操作输入依次为未缩放的260×260原场头部框、身份母版、81头第5–6行第3列摘取及15图08/13摘取。81图只看轻俯与半侧的耳颌关系；15图只取髻、簪及发区结构，着色标注不用进画面。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references_face_r03.json",
+                    "sha256": "3e79370c6ee3cbd19eb4a7bb155c2032ffa87ee784dca3e53aeee164522b25b4",
+                    "role": "本轮references阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+                    "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+                    "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+                    "role": "核对依据"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/record_runtime",
+          "tool": "本地脚本、分镜、记录与图像目视核对",
+          "prompt": "从本次已授权的局部修订重新核对composition阶段的约束与证据。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\references_face_r03.json",
+              "sha256": "3e79370c6ee3cbd19eb4a7bb155c2032ffa87ee784dca3e53aeee164522b25b4",
+              "role": "本轮references阶段成果"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+              "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+              "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+              "role": "核对依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition_face_r03.json",
+              "sha256": "cb499db141221a13de5432674aeaac1b67a1f07b6282daca23f45bdaec157462",
+              "role": "本轮composition阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/record_runtime",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "看向画面左下裴钱。近眼保留母版舒展的眼裂、平直眉形与轻俯瞳向；下半脸有体积，但不靠变宽或尖削来强调。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition_face_r03.json",
+                    "sha256": "cb499db141221a13de5432674aeaac1b67a1f07b6282daca23f45bdaec157462",
+                    "role": "本轮composition阶段成果"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "原幅1672×941不动；头部取(x700,y132,w260,h260)，不得把裁图边界当改画范围。保留颅体位置、发髻、簪首、肩领、石岸和山线，回填后需回看原尺寸。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition_face_r03.json",
+                    "sha256": "cb499db141221a13de5432674aeaac1b67a1f07b6282daca23f45bdaec157462",
+                    "role": "本轮composition阶段成果"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/record_runtime",
+          "tool": "本地脚本、分镜、记录与图像目视核对",
+          "prompt": "从本次已授权的局部修订重新核对space阶段的约束与证据。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\composition_face_r03.json",
+              "sha256": "cb499db141221a13de5432674aeaac1b67a1f07b6282daca23f45bdaec157462",
+              "role": "本轮composition阶段成果"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+              "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+              "role": "核对依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+              "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+              "role": "核对依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space_face_r03.json",
+              "sha256": "eb38ed5712472c23aca45037df190e72b0196a918df1451c4f7c6c1fbcb46689",
+              "role": "本轮space阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/record_runtime",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "原图中陈中前、裴左前、朱右后，竹箱落在最右岸；裴抬头与陈向左下看的视线相接。头部需沿同一轻俯半侧保持眼线、鼻、耳根、颌角与颈领衔接。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space_face_r03.json",
+                    "sha256": "eb38ed5712472c23aca45037df190e72b0196a918df1451c4f7c6c1fbcb46689",
+                    "role": "本轮space阶段成果"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "陈膝上手与撑石手、双足水线、裴手持草鞋、朱坐石及石岸上竹箱均在局部动作区之外；完整原图是回填时核查支撑接触的直接依据。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space_face_r03.json",
+                    "sha256": "eb38ed5712472c23aca45037df190e72b0196a918df1451c4f7c6c1fbcb46689",
+                    "role": "本轮space阶段成果"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "核对依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "核对依据"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "face_in_scene"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Redraw the face in image 1, a square close-up cropped from a grayscale Chinese visual novel scene. Deliver ONE enlarged, finished grayscale line drawing of this exact crop. At the creek Chen Ping'an looks down toward a child at screen left, quietly listening with a relaxed closed mouth.\nImage 2 is his identity model sheet. Use the top middle portrait for his facial design and the listening portraits for his manner. He is a lean man of 20–22. The current face in image 1 has eyes squeezed to slits and a blade-thin lower face. Rebuild the face itself. Draw the near eye with the model's long almond outline, a discernible iris beneath a softly lowered upper lid, and a little breathing room beneath a straighter, relaxed eyebrow. Keep the far eye foreshortened. Aim the irises toward the child, not at the viewer. Model the subtle cheek plane, a small turn at the jaw angle below the ear, and a chin with the model's slender rounded base. Leave room for the upper lip and chin below the nose. Natural soft attention, no arched glare or pointed smirk.\nImage 3 contains the two relevant views clipped from the 81-head sheet. Reconstruct the mild downward pitch and leftward three-quarter turn between these two views, keeping eye line, nose, mouth, ear and jaw on one head. Image 4 contains views 08 and 13 of the hair/turn guide. Use 08 plus only a little of 13's downward pitch. The colored zones and construction lines are reference annotations.\nMatch image 1's exact square framing, size and location of skull, bun and short partially occluded scroll hairpin, fringe silhouette, neck at the collar, shoulders, and mountain-line background at the edges. Keep the same light gray wash, charcoal accents, and delicate ink line weight. Draw the revised facial features clearly enough to survive reduction back to the scene. Full crop edge to edge, no labels, no grids, no inset.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space_face_r03.json",
+              "sha256": "eb38ed5712472c23aca45037df190e72b0196a918df1451c4f7c6c1fbcb46689",
+              "role": "本轮space阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+              "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+              "role": "imagegen 输入 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "imagegen 输入 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+              "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+              "role": "imagegen 输入 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+              "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+              "role": "imagegen 输入 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\prompt_head_r03.txt",
+              "sha256": "05a7bea1921f28484e245d40c07172a5b9372bc07269b1dc774efd3bda679424",
+              "role": "完整实际提示词文件"
+            }
+          ],
+          "tool_image_inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+              "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+              "role": "imagegen 输入 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "imagegen 输入 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+              "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+              "role": "imagegen 输入 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+              "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+              "role": "imagegen 输入 4"
+            }
+          ],
+          "operation": "第一步，放大头部局部修订稿；独审通过局部身份后才进入第二步全景回填。",
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+              "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+              "role": "放大头部研究，用作第二步的参考，待独立复核"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\head_r03_result.json",
+              "sha256": "afb8f77cded2243b8fb3da616b044bdd2394a0afb5adb98e07fda0f18758c4a0",
+              "role": "输出规格、指纹及工具清单"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/face_structure_review",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "近眼可辨虹膜、瞳孔及下睑，平直眉和闭口较原图更贴近母版；颊侧、颏底与耳前至下巴的转折增加。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "放大头部研究，用作第二步的参考，待独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "imagegen 输入 1"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "imagegen 输入 2"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "缩至260像素核看，左转、轻俯与远眼收短成立；审核范围为头部，不涉及完整身体。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "放大头部研究，用作第二步的参考，待独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+                    "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+                    "role": "imagegen 输入 3"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+                    "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+                    "role": "imagegen 输入 4"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "unverified",
+                "observation": "方裁相较原头部有发髻和眼线抬高、耳根与肩线位移，不能整块直贴。回填只参考五官，用原图眼线、耳根、颏点定位，锁定发髻、颈肩及山线。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "放大头部研究，用作第二步的参考，待独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "imagegen 输入 1"
+                  }
+                ]
+              },
+              {
+                "id": "face_in_scene",
+                "result": "unverified",
+                "observation": "目前只有局部头稿。近眼偏向左、向下较浅；需在完整场景原尺寸确认是否看向左下方的裴钱。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "放大头部研究，用作第二步的参考，待独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "imagegen 输入 1"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "RETURN_TO_SCENE",
+                "severity": "hard",
+                "state": "open",
+                "problem": "仅有局部研究，肩、髻与眼线相对裁框有位移，尚无法在全景证明原尺度下的视线、接缝和场景连续性。",
+                "required_change": "按原图眼线、耳根和颏点配准，仅把修正的脸放回原全幅，复核视线是否落在裴钱所在方向。",
+                "preserve": "通过局部核查的近眼和颊颌体积、原画轻俯半侧、发髻玉簪、原服装肩颈、其余人物及环境。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "放大头部研究，用作第二步的参考，待独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+                    "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+                    "role": "imagegen 输入 1"
+                  }
+                ]
+              }
+            ]
+          },
+          "review_file": {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\review_head_face_r03.json",
+            "sha256": "0f8ebbb6b1491279a78d1386f825c60bd26add3fab26deca32ac40357ca6c861",
+            "role": "局部结论与整景待核范围"
+          }
+        },
+        {
+          "id": "sketch-02",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Edit image 1, the full wide creek scene. Image 2 is the reviewed close-up drawing of the center man's revised face. Deliver ONE complete full-frame grayscale scene with that facial drawing fitted to Chen Ping'an at the original scale.\nTransfer the actual facial design of image 2 onto the center seated man in image 1: the straighter relaxed brows, the long almond-shaped near eye with a visible dark iris and delicate lower lid, the gently modeled cheek, the small jaw-angle turn below the ear, and the slim chin with some width at its base. Give his closed mouth the calm, attentive expression of the close-up. In the full scene the girl sits below him to the left; set his irises naturally toward her upturned face. Maintain the mild downward head pitch and foreshorten the far eye. These face lines must remain readable at the original scene size. Match the fine pale-gray linework and local shading of the surrounding drawing.\nPrecise local registration matters: the close-up has shifted framing and is a face-design guide, not a square sticker. Fit the new face to the original ear attachment, eye line, jaw/neck junction and head size of the seated man, around x765–870,y250–340 in the 1672×941 scene. Keep the original bun and its foreshortened jade hairpin, outside hair silhouette, neck into collar, shoulders and scene framing. One clean contour at each ear and jaw edge. Preserve the child's and elder's faces and poses, the three people's hands, bare feet/water contact, sandals, waist accessories, book basket and surrounding creek landscape. Edge-to-edge landscape composition of image 1, no inset or text.",
+          "transparent_background": false,
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\space_face_r03.json",
+              "sha256": "eb38ed5712472c23aca45037df190e72b0196a918df1451c4f7c6c1fbcb46689",
+              "role": "本轮space阶段成果"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+              "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+              "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+              "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+              "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\prompt_scene_r03.txt",
+              "sha256": "4ccf8fa355b8af92ab12a1a59caef8262b4b02594cd5521ad312812ca856c2ab",
+              "role": "实际提示词文件"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\review_head_face_r03.json",
+              "sha256": "0f8ebbb6b1491279a78d1386f825c60bd26add3fab26deca32ac40357ca6c861",
+              "role": "局部结论与整景待核范围"
+            }
+          ],
+          "tool_image_inputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+              "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+              "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+              "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+              "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+            }
+          ],
+          "operation": "第二步：依据通过的局部头稿在完整溪边原线稿内回填，只重画脸部；输出全图后独立复核。",
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+              "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+              "role": "第二步完整溪边修脸稿，待独立全图核验"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\scene_face_r03_result.json",
+              "sha256": "b383e082465b3c01bd4e46e15efe532d2aa7f18d78db6113344c50fb9b0f64da",
+              "role": "全景原图参数与指纹"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/face_structure_review",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "可交用户审阅。较原稿平直的眉、收住的嘴角及略宽的颏底更贴近母版青年脸；原尺寸近眼仍细，虹膜和眼睑不及局部研究可辨。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+                    "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+                    "role": "本轮待用户审阅的完整溪边修脸线稿"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "imagegen 输入 2"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "远眼随半侧缩短，耳根至下颌转折和颈部承接成立，未见双轮廓。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+                    "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+                    "role": "本轮待用户审阅的完整溪边修脸线稿"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "三人的相对位置、陈头肩动作、书箱与水岸连续；脸与周围未见明显贴片边界。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+                    "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+                    "role": "本轮待用户审阅的完整溪边修脸线稿"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+                  }
+                ]
+              },
+              {
+                "id": "face_in_scene",
+                "result": "pass",
+                "observation": "原尺寸能读出转向裴钱、安静倾听，视线偏左、向下浅；本镜只要求“看了她一眼”的人物关系，无法确定两人瞳孔精确对视。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+                    "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+                    "role": "本轮待用户审阅的完整溪边修脸线稿"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+                    "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+                    "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "FULLSIZE_EYE",
+                "severity": "soft",
+                "state": "accepted",
+                "problem": "在完整横幅的原尺寸，近眼较细、虹膜和眼睑的可读性低于放大头稿。向下视线较浅，精确对眼未核实。",
+                "required_change": "作为本次独审的保留项呈交用户判断；不再追加自动出图。",
+                "preserve": "原镜转向裴钱倾听的关系、年轻瘦长脸、耳颌与颈部衔接。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+                    "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+                    "role": "本轮待用户审阅的完整溪边修脸线稿"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+                    "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+                    "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+                  }
+                ]
+              }
+            ]
+          },
+          "rework": {
+            "from_attempt": "sketch-01",
+            "finding_ids": [
+              "RETURN_TO_SCENE"
+            ],
+            "change": "重画陈平安脸部五官与颊颌，按原图眼线、耳根、颏点对准，并把视线导向左下的裴钱。",
+            "preserve": "原图发髻及玉簪、两鬓、肩领、身体、裴钱、朱敛、道具、水岸及完整横幅。"
+          },
+          "qa_comparison": {
+            "asset_spec": {
+              "asset": {
+                "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\face_compare_r03.png",
+                "sha256": "4f29e5ae410cc7c833cf77a2ef8cbb0b6e22d7f253d8f10d39f173b5bcb116d4",
+                "role": "两幅完整场景同一矩形、相同倍率的修前与修后对照"
+              },
+              "width": 784,
+              "height": 384,
+              "format": "PNG RGBA"
+            },
+            "crop_xywh": [
+              729,
+              217,
+              170,
+              150
+            ],
+            "panel_size": [
+              374,
+              330
+            ],
+            "order": [
+              "修前完整原图",
+              "修后完整原图"
+            ],
+            "pixel_check": {
+              "exclusion_rect_xywh": [
+                700,
+                132,
+                260,
+                260
+              ],
+              "measure": "两图同位置像素RGB各通道绝对差值的最大值，按原头裁框以外区域统计。",
+              "outside_pct_at_least_8": 13.9,
+              "outside_pct_at_least_20": 2.4,
+              "meaning": "生成式回填在脸外也有细线或灰阶微差；构图和关系连续性另靠全图目视复核。"
+            }
+          },
+          "review_file": {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\review_scene_face_r03.json",
+            "sha256": "ad447543afefaea5e010678207afbdb40fba018ed2c3432ee6c8c1c6e2cffa5c",
+            "role": "独立核看全幅的结论及保留项"
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "structure_preserved",
+        "palette_light"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "actual_composite",
+        "dialogue_safe_area"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "provenance",
+        "adoption_scope"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [
+      {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+        "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+        "role": "本轮待用户审阅的完整溪边修脸线稿"
+      }
+    ],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+          "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+          "role": "本轮待用户审阅的完整溪边修脸线稿"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "保留原生1672×941原图；游戏目标1920×1080，当前为线稿候选，未接入。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "previous_record": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\record_r02.json",
+    "sha256": "512287254552ca5d42dba850f72a5d1a22f51394b74803ef866687ce0f33d32d",
+    "role": "冻结的玉簪修订记录，保留完整累计尝试链"
+  },
+  "revision_reason": "用户认定原图脸部仍有问题。上游将原脸锁定的条件失效；本轮重验场景和身份后，按放大修脸、回到原场景的流程处理。",
+  "sketch_handoff": {
+    "label": "候选／线稿独立复核通过（原尺寸近眼与视线保留项），待用户审阅",
+    "historical_base": "第四幅玉簪修订图为待修正的历史输入；过去的修簪复核结论保留。",
+    "artifact_roles": {
+      "head_study": {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+        "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+        "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+      },
+      "scene_candidate": {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+        "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+        "role": "本轮待用户审阅的完整溪边修脸线稿"
+      },
+      "comparison": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\face_compare_r03.png",
+        "sha256": "4f29e5ae410cc7c833cf77a2ef8cbb0b6e22d7f253d8f10d39f173b5bcb116d4",
+        "role": "两幅完整场景同一矩形、相同倍率的修前与修后对照"
+      }
+    },
+    "operations_this_authorization": {
+      "head_study": 1,
+      "return_to_scene": 1,
+      "total_imagegen_calls": 2,
+      "remaining": 0
+    },
+    "adoption": "尚未获用户采用确认，停止于 sketch。"
+  }
+}

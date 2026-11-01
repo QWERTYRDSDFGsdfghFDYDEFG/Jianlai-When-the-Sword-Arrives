@@ -1,0 +1,19 @@
+{
+  "observation": [
+    "图中裴面部确实低于陈双眼且在左侧，远眼受当前半侧头势缩短。两只眼的可读走向要一致，眼睑包住眼球，目标为她抬起的脸。",
+    "三人坐石、陈裸足入水及撑石手、裴持草鞋、朱在右后高处、箱底贴右岸均在允许修改区以外；已核原整幅，须复核回填后支撑关系。",
+    "既有空间布局保持。此为二维图像目标核对，无法测定眼球三维方向。"
+  ],
+  "evidence": [
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+      "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+      "role": "用于编辑的第五幅整景"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_gaze_r04\\gaze_target_guide.png",
+      "sha256": "c4ba63583c1107becaef686a94edf6d774f87a20897eb83cfba637d7b023f887",
+      "role": "同图派生的观察目标参考"
+    }
+  ]
+}

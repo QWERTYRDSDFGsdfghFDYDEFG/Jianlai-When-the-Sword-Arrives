@@ -228,7 +228,7 @@ label chapter2_start:
 
     # 【郡城江畔·登船】
     window auto hide
-    scene bg c2_03_quay_v1
+    scene bg c2_03_quay_v2
     with trans_location
     narrator "临近码头，沿江街面渐渐开阔。"
 

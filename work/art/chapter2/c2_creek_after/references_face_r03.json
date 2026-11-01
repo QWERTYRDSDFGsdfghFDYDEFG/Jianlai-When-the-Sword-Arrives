@@ -1,0 +1,82 @@
+{
+  "identity_basis": "母版第2格锁定20–22岁偏瘦长青年；第4–6格提供听人时的眼形与表情。原画近眼细紧、下颌转折不足，仍需修正。",
+  "reference_roles": "当前操作输入依次为未缩放的260×260原场头部框、身份母版、81头第5–6行第3列摘取及15图08/13摘取。81图只看轻俯与半侧的耳颌关系；15图只取髻、簪及发区结构，着色标注不用进画面。",
+  "inspected_sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "本阶段核看依据"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+      "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+      "role": "本阶段核看依据"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+      "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+      "role": "本阶段核看依据"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+      "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+      "role": "本阶段核看依据"
+    }
+  ],
+  "crops": [
+    {
+      "source": {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+        "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+        "role": "未缩放原图"
+      },
+      "xywh": [
+        700,
+        132,
+        260,
+        260
+      ],
+      "crop": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\scene_head.png",
+        "sha256": "77733cc4552301947447ba8b966e59816525a508fa05654053b747719f628daa",
+        "role": "直接裁切所得"
+      }
+    },
+    {
+      "source": {
+        "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\10\\17\\01a14a12-5216-7b91-bfb5-10f147b4e459\\cpa_head_angles.png",
+        "sha256": "c23ff70a8f35f3d142a6c92580e9ff5bfad240e48a7f04aaaf0af47d9457f0c0",
+        "role": "未缩放原图"
+      },
+      "xywh": [
+        300,
+        580,
+        125,
+        260
+      ],
+      "crop": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\angles_r5_r6_c3.png",
+        "sha256": "160b1b7ba33c208110a0498cb799bca8920ef397db97700cbbef398b5140215b",
+        "role": "直接裁切所得"
+      }
+    },
+    {
+      "source": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+        "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+        "role": "未缩放原图"
+      },
+      "xywh": [
+        700,
+        361,
+        310,
+        519
+      ],
+      "crop": {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\inputs_face_r03\\jade_08_13.png",
+        "sha256": "3c1287140f8fd6f8acdda5587e51f9de78101a29b820cead6df609fed0d05878",
+        "role": "直接裁切所得"
+      }
+    }
+  ]
+}

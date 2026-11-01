@@ -996,19 +996,14 @@
     {
       "code": "CG02·03·01",
       "kind": "cg",
-      "title": "码头沿江街面：停步",
-      "path": "images/chapter2/c2_03_quay_v1.png",
+      "title": "码头沿江街面（无人远景）",
+      "path": "images/chapter2/c2_03_quay_v2.png",
       "status": "当前使用",
       "availability": "可调用",
-      "character_ids": [
-        "01",
-        "02",
-        "06",
-        "10"
-      ],
-      "target": "bg c2_03_quay_v1",
+      "character_ids": [],
+      "target": "bg c2_03_quay_v2",
       "alias": "bg cg02_03_01",
-      "notes": "2026-09-24第三场独立换景。承接客栈相邀后的沿街引路，四人抵达码头旁开阔沿江街面，作为变船前空间交代。 保留剧情原文，运行按1920×1080显示；文件基名、原始定义与剧情调用一致。"
+      "notes": "2026-11-01 定稿。华光楼码头朝西的无人空镜，左江右铺，柳树下石阶连接两层街面。铺前干街留出抛舟空地。"
     },
     {
       "code": "CG02·03·02",

@@ -1,0 +1,123 @@
+{
+  "independent_review": {
+    "reviewer": "/root/face_structure_review",
+    "verdict": "pass",
+    "checks": [
+      {
+        "id": "identity",
+        "result": "pass",
+        "observation": "可交用户审阅。较原稿平直的眉、收住的嘴角及略宽的颏底更贴近母版青年脸；原尺寸近眼仍细，虹膜和眼睑不及局部研究可辨。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+            "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+            "role": "本轮待用户审阅的完整溪边修脸线稿"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+            "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+            "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+            "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+            "role": "imagegen 输入 2"
+          }
+        ]
+      },
+      {
+        "id": "anatomy",
+        "result": "pass",
+        "observation": "远眼随半侧缩短，耳根至下颌转折和颈部承接成立，未见双轮廓。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+            "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+            "role": "本轮待用户审阅的完整溪边修脸线稿"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+            "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+            "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+          }
+        ]
+      },
+      {
+        "id": "continuity",
+        "result": "pass",
+        "observation": "三人的相对位置、陈头肩动作、书箱与水岸连续；脸与周围未见明显贴片边界。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+            "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+            "role": "本轮待用户审阅的完整溪边修脸线稿"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+            "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+            "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+          }
+        ]
+      },
+      {
+        "id": "face_in_scene",
+        "result": "pass",
+        "observation": "原尺寸能读出转向裴钱、安静倾听，视线偏左、向下浅；本镜只要求“看了她一眼”的人物关系，无法确定两人瞳孔精确对视。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+            "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+            "role": "本轮待用户审阅的完整溪边修脸线稿"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2fde93e3-2bf7-4e3a-ba08-ad73b6c39789.png",
+            "sha256": "cd15c833a9a164b76e4071d9abdcd343af34ab9dffa893178d8bb580d26227c4",
+            "role": "imagegen 图1：完整第四幅溪边原线稿，锁定构图、原位置与大小"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+          }
+        ]
+      }
+    ],
+    "findings": [
+      {
+        "id": "FULLSIZE_EYE",
+        "severity": "soft",
+        "state": "accepted",
+        "problem": "在完整横幅的原尺寸，近眼较细、虹膜和眼睑的可读性低于放大头稿。向下视线较浅，精确对眼未核实。",
+        "required_change": "作为本次独审的保留项呈交用户判断；不再追加自动出图。",
+        "preserve": "原镜转向裴钱倾听的关系、年轻瘦长脸、耳颌与颈部衔接。",
+        "evidence": [
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-f2b5bc74-8616-43ad-9381-e606ad7c2bd2.png",
+            "sha256": "71105c842f1649855d0819d1fcff37f4ef4e16b77f0569a3e6878de976356dae",
+            "role": "本轮待用户审阅的完整溪边修脸线稿"
+          },
+          {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-2ee02ef0-f555-48e2-af2b-e58370b69945.png",
+            "sha256": "c191209ffe303463735508c654c263e9ce7c4b3fe60bfac646f2748f003bc482",
+            "role": "imagegen 图2：独审通过的局部研究，参考眼形及颊颌体积"
+          }
+        ]
+      }
+    ]
+  },
+  "supplementary_qa": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\face_compare_r03.png",
+    "sha256": "4f29e5ae410cc7c833cf77a2ef8cbb0b6e22d7f253d8f10d39f173b5bcb116d4",
+    "role": "两幅完整场景同一矩形、相同倍率的修前与修后对照"
+  },
+  "scope": "视觉复核仅覆盖本次线稿，采用由用户决定。",
+  "not_verified": [
+    "精确对眼及三维角度",
+    "对白框与实机表现"
+  ]
+}

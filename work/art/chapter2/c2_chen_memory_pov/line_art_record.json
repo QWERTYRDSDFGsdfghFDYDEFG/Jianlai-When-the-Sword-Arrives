@@ -1,0 +1,98 @@
+{
+  "title": "且慢行 · 陈平安回望四镜",
+  "date": "2026-11-01",
+  "stage": "停用",
+  "decision": "2026-11-01 用户放弃这版回望四镜、全部绘制提示词及四张线稿。",
+  "method": "内置 imagegen，每镜独立绘制一次，transparent_background=false，无显式参考图路径，四张均未接入游戏。",
+  "export": "原生均为1672×941，去纸色并用双三次插值调至1920×1080。纵向中心取940.5源像素以对齐16:9。已回读校验文件及全部像素的灰度通道。",
+  "shots": [
+    {
+      "prompt": "Draw one original finished widescreen cinematic BLACK INK LINE DRAWING, a keyframe for a Chinese historical visual novel, landscape 16:9, target 1920x1080. Single drawing, no divided panels, typography, border, title, speech balloons, shop signs, pictograms or watermark. Realistic restrained storytelling in fine tapered black ink on bright white ground, sparse directional hatching, line weight strongest in foreground, distant architecture delicate. Clean calm joinery. No colored highlights, no sepia.\n\nThe moment a living young Chinese traveller, Chen Ping'an, remembers from his own life: being seated in a plain wine-house in Qingluan country listening to someone tell him an old story. Eyes of the listener. Normal seated eye height, looking a little DOWN and across a much-used rectangular Chinese wood table at the person on the far side. Chen is the unseen viewer; never depict the back of the protagonist or his face. In the left-middle background, the old-story teller is an unassuming adult in worn light cross-collar plain cloth; frame crops him at the cheek or chin so identity is incidental. He is seated and caught mid-sentence: the natural hand on his forearm lifts gently above the table, fingers slightly uncurl, palm half-sideways, not pointing dramatically. His hand with crisp clear anatomy and the tactile bowl are the two points the viewer will remember. Spare, honest, ordinary moment. This is a remembered conversation, not a literal scene from the story being told; no monk, no umbrella, no scholar hiding from rain, no religious figures, no fighting.\n\nA broad empty area of worn wood separates listener and teller. In the centre-right FOREGROUND, near enough to see inside, a single rough, inexpensive, slightly irregular shallow glazed stoneware drinking bowl half filled with still clear liquid. The open casement window is at the RIGHT, its timber lattice has a distinctive crosspiece. In the bowl liquid draw the physically believable miniature, slightly wavy INVERTED partial geometry of that same window and a slim broken white sliver of reflected light, no fish, writing or picture painted on the bowl. Use an elevated-enough viewer angle to see the liquid; bowl rim thin ellipse. Window light and blank outside give depth; a hint of roof eave through open casement. Old timber frame and a bench recede softly in background. No tea set and no clutter.\n\nThe transition into that full-width immersive memory: at ONLY the very bottom edge, occupying less than 8% of the frame, one out-of-focus-looking narrow dark strip of wet wooden gallery railing from the present night partly overlaps the camera-near table edge, and a little broken horizontal glimmer in a water bead on that wood visually rhymes with the glimmer on the bowl. Let the wet timber grain merge almost imperceptibly into the dry table grain. Treat it like a film match dissolve, not a barrier standing between two people; no tall rail post in the wine-house, no ghostly floating heads, no magical river ribbon, no thick decorative wave and no night sky within the room. Beyond this narrow lip the remembered wine-house is tangible and in daylight. Print-quality clear contours, expressive but understated.",
+      "script": [
+        1053,
+        1057
+      ],
+      "visual_check": "坐在桌前看说话人抬手，碗内可见窗格，近画底的湿木较虚。",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file": "01_qingluan_winehouse.png",
+      "adoption": "停用",
+      "source": "C:/Users/MSI/.codex/generated_images/01a18798-6632-7473-b69b-fdd9380a7751/exec-ce35ac6e-c29c-4f54-9360-96137c180fc2.png",
+      "source_sha256": "6823899076bbe59108963a5749f9ad1d970499500e84a01e5263a26c610862be",
+      "file_sha256": "0109f1bbfc98367443c4ac9a7b0298210621326450c544984c5c895d3f985491",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 2935837
+    },
+    {
+      "prompt": "为《剑来》第二章陈平安“且慢行”的私人回忆绘制一张独立横幅线稿：“飞鹰堡，陆抬说完‘留不住’”。目标画布1920×1080，16:9，满幅，单一瞬间。整张画是陈平安当年的眼睛所见，平视的自然35mm镜头。陈平安站在侧旁，仅是眼位，他的身影、后脑、手臂、镜中倒影都不入画。飞鹰堡木构檐廊上，陈与陆肩并肩向山野远望。画面左边约三分之一是真实的邻人近景：年轻文士陆抬站在一臂之隔稍前处，清秀中性的窄侧脸、清爽轻束的乌发、简素交领宽袖长衣、瘦直身量。目光已从谈话回到远方；侧脸约四分之三背转后的纯侧轮廓，鼻与唇朝画面右方，眼睛清楚看着远山，没有看镜头，嘴唇自然合上。一只前臂安稳搁在木栏上，宽松袖边恰好触到上栏木面。动作随意，像一句话刚在两人之间落下。不要属性道具，不用莲花冠、法冠、额间印记或浮夸衣纹。画面中只出现陆抬这一位近景人物。\n留出右边大半幅给两人共同看到的实际山景：近处一截堡内普通灰瓦檐脊和山村树梢，中景山坳土路和溪沟，更远有舒缓起伏的中式群山。左上角几根自然朴素的木椽交代遮阴，斜侧的旧木栏下沿引出视线；这一处是有充足自然天光的堡中旧檐廊，不是夜河，不是酒楼。干净白纸上有呼吸的细墨轮廓，宋代审美、半写实中国人物、清朗的中国古装视觉小说电影分镜；脸与木头用少量细密排线，近处实、远山线条渐浅，远处留白。笔线务必黑白，淡墨的深浅只以线的密度传达，无大片灰填、无上色、无照片感、无金光、无梦境雾效、无额外人物、无玄幻法术。不要加对白、任何文字、数字、画框、水印，画面安静自然。",
+      "script": [
+        1059,
+        1066
+      ],
+      "visual_check": "陆抬侧脸朝远山，宽袖与近处木栏相接。陆抬暂无已确认项目母版，本张形象待审。",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file": "02_feiying_lutai.png",
+      "adoption": "停用",
+      "source": "C:/Users/MSI/.codex/generated_images/01a19692-f2a4-7de2-9fc9-d3abfd9adc74/exec-c1fc203e-170e-4281-b505-1995b0043a3c.png",
+      "source_sha256": "0f167f2021b4568a0d74e3c1782c6a1850a35ebefc38b670e67392ae2ce6e604",
+      "file_sha256": "67952a2180e09726ef2dcb49dc46155f7cfcf226c1f3402a5eae381676dc791b",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 2947892
+    },
+    {
+      "prompt": "Single finished hand-inked production storyboard frame for the Chinese period visual novel Jian Lai, widescreen 16:9, 1920x1080 intended, full bleed, no writing. On a mountain summit in Huangting Kingdom, after quiet boxing practice, Chen Ping'an finally lowers his gaze at the words \"look down for a moment.\" The camera is literally the young adult traveller's own eyes, pitched down to a very ordinary little cluster of grass on the rocky ground next to his feet. It is what he sees, not a view of him. Place the clearest and most sensitive linework just below centre: individually rooted fine wild grass blades and a few very small seed stems, bent over toward screen LEFT by a mountain gust, overlapping at different angles, ordinary tiny plants growing from cracks between low strata of weathered granite. Strong sense of close observation and scale, narrow pale blades with tapering ends, modest grass, not tall flowers or a spectacular bush. Some finer upright blades show the different weight of the wind. Low, stable rocky plateau all across the foreground, sparse quiet ground elsewhere. Middle-distance upper right: purely incidental glimpse of his standing companion, the BOTTOM portion of Cui Dongshan's old plain wide layered white scholar's robe, from mid-shin down only, the bottom folds of the hem lifted gently toward screen LEFT by THAT SAME gust, a glimpse of a simple fabric shoe grounded on the stone. The edge of the robe occupies at most one sixth of the composition, off-centre, visibly belongs to the standing companion just outside our gaze. NO torso, no face, no body of the observer, no visible hands or fists and no boxing pose. Very distant overlapping ridgelines of the Huangting mountains barely visible as just a thin pale register at the top edge beyond the summit. Draw a true close-observation landscape, not a portrait or a wide vista. Ancient modest Chinese historical setting, actual daytime memory fully in focus. Focus and line hierarchy (strong rooted grass silhouette, measured rock details, lighter cloth, pale distant mountain contours) should naturally draw the eye DOWN. High quality clean black and white line art, fine expressive ink on white drawing paper, economical directional crosshatching contained to shadows, negative space, close confident contours, delicate distance. Organic cinematic perspective and correct relative scale. Quiet mature Chinese animated narrative, not a concept painting. Entire image achromatic. No calligraphy or lettering, no frame rules, no book border, no signature, no watermark, no panel labels, no dialogue. No supernatural swirls, magical ribbon, water, lake, rain, blades/swords, tombs, buildings, extra figures or visual effects.",
+      "script": [
+        1083,
+        1087
+      ],
+      "visual_check": "石缝弯草居中，右上有白袍下摆与布履。视点较低，接近贴地观察。",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file": "03_huangting_summit.png",
+      "adoption": "停用",
+      "source": "C:/Users/MSI/.codex/generated_images/01a19694-4fca-73e1-90a0-4e22b6766e2d/exec-0310c504-bd49-485b-8e50-3c13cdbab0dc.png",
+      "source_sha256": "54ab29eeb2e1e923b7517b7d7d34651ef65ce7362b40701773197389cb21b923",
+      "file_sha256": "706f0405f14de31e5b43e19d3b71707b9b26a33c97c1c96681264b79cfe6e318",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 3365143
+    },
+    {
+      "prompt": "One original full-bleed 16:9 horizontal narrative line drawing for the last shot of four in a historical Chinese visual novel (Jian Lai). Target 1920x1080. One unified single image only. Beautiful clean monochrome fine-pen animation line art on white paper. Economical, human, quiet. Delicate real ink strokes, sparing crosshatching, open whites, softer distant contour, no words or numbers, no margins, no watermarks or speech balloons.\nThe setting is the high covered timber river gallery, fourth floor of Ziyang residence in the now-quiet night just after rain. Use the reference observations: broad wet wood beams, plain large square vertical gallery columns on inner walkway, square-framed hanging paper lanterns with small tassels beneath the wooden eaves. Long balustrade with a flat sturdy wide dark timber handrail supported at intervals by uprights and a lower horizontal bar. Tieshan mountain ridge beyond the tranquil Tiequan river, modest silhouettes of tile roofs, and just a few broken little lamp reflections on water. No rain in the air, no waves rising, no apparition, no supernatural or magic ring. A single last curved thin water ripple like a bent blade of grass lies flat on the actual river, joining broken light near the reflection of one column; no actual grass on the terrace. Night conveyed with lanterns, sparse broken river highlights and soft distant hills, white-dominant paper, not a black sky.\nThe subject is Chen Ping'an alone, a lean but strong 20–22-year-old Han Chinese young man; clean oval angular jaw, calm straight natural eyebrows, slender dark eyes, untidy short wisps at temples; high coiled black topknot with one narrow horizontal jade hairpin. Worn open short-sleeved outer robe, plain crossed tunic underneath, cloth forearm wraps, knotted rope sash, one single small gourd, short loose trousers, crisscross calf wraps and unmistakable woven rope sandals; no backpack, sword, or hat. BOTH sandals have their soles directly in contact with the SAME BROAD FLAT TOP RAIL OF THE BALUSTRADE. He has been strolling casually along its length and is beginning one unhurried turn to retrace his steps; steady, balanced, introspective. Physically plausible natural stance: hips midway through a modest quarter turn, weight planted in rear foot, the nearer sandalled foot turns obliquely into the open length of handrail to the left as his gaze turns left first, the other foot still points a little toward his former direction, trailing robe hems still swing faintly toward the right. Comfortable knees, natural alignment, body weight above the rail, no leap, balancing theatrics or dramatic action. Let arms hang easily. The flat top beam must visibly continue underneath each sole, the lower guard beam and several railing uprights must be separately visible, and the actual wooden walking floor clearly BELOW his feet. The distinction between the rail and the walking floor is essential.\nCinematic side view from inside the gallery, at standing eye level and slightly looking out across the water, with space and grounded architecture. Whole figure, head to sandals, about 58 percent of the image height and positioned just right of centre, with open evocative negative space on the LEFT along his returning path; use slight three-quarter side view so the top surface of the rail reads. The handrail extends nearly horizontally across frame with gentle perspective. Do not obscure his full body by columns. Keep river, hill and fixed columns stable; nothing else competes for attention. He looks back to the empty rail where moments ago he walked alone.",
+      "script": [
+        1089,
+        1089
+      ],
+      "visual_check": "双脚有栏顶支撑，衣摆向右，头向左，前脚尚较朝向观者；河上残纹较明显，夜廊调子偏亮。",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file": "04_tiequan_return.png",
+      "adoption": "停用",
+      "source": "C:/Users/MSI/.codex/generated_images/01a19695-150d-7091-ae92-77068fad8d02/exec-184d2c6c-7315-4a1a-bbe7-23aab4a7dcb9.png",
+      "source_sha256": "5a6b2c3964e9c32abd610295e735e493ca0ac9d68a64ac412b46b81cdb23871b",
+      "file_sha256": "e32888cb17c904a49fbeeb0b4d5312707c91b0a598df768e3e0a836af103ff1d",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 2802493
+    }
+  ]
+}

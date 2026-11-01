@@ -1,0 +1,12 @@
+{
+  "request": "开始修改",
+  "authorization": "2026-10-31 用户在“先制作放大头部线稿、独立核脸，再放回原场景”的具体方案后回复“开始修改”。只为这张线稿执行一次头部制作和通过复核后一次原景回填；每步一次。",
+  "source_scope": "收针后的溪边，裴钱低头摆弄草鞋，陈平安看她一眼；线稿可承接后续闲谈，到三人动身为止。",
+  "narrative_focus": "保留师父轻俯朝左听孩子说话的神态，允许重画过窄眉眼及颊颌体积。头部特写只作为原景线稿的中间成果。",
+  "boundary": "只做到溪边收针后的脸部线稿，不上色、不接入。",
+  "basis": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_after\\basis_face_r03.json",
+    "sha256": "af35921c98050ffcbe4262e34c897d4f6e838b1e1f794c658bc9ce30a131d866",
+    "role": "本次剧情与身份依据冻结快照"
+  }
+}
