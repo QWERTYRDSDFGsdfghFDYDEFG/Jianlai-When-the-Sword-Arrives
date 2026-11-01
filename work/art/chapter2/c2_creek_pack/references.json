@@ -1,0 +1,80 @@
+{
+  "stage": "references",
+  "scene": "c2_creek_pack",
+  "observations": {
+    "identity_basis": "逐图观察。陈是束髻窄眼青年，灰蓝薄外袍、交领浅衫、护腕。裴是双髻儿童，深靛短打、布条护腕及自身左腰小袋。朱的真容隐在老奴面皮后，束起灰发、眉间纹、短须、瘦长灰褐衣与布鞋。",
+    "reference_roles": "溪边正式图锁左溪右岸和前镜光感。候选只补歇脚后靴鞋状态。郡城图核实竹箱上背、有笠和备用鞋，裴钱本镜履式按溪边草鞋的剧本文字。道具图只借敞口方形、四根立柱及红金葫芦，不借截图人物。"
+  },
+  "references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "陈平安唯一脸部母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "陈平安暖季衣装／背箱肩带"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "裴钱儿童身份与正装短打母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+      "role": "朱敛老奴面皮脸部母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+      "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+      "role": "朱敛朴素长衫、长裤布鞋母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "陈平安当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "裴钱当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "朱敛当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+      "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "role": "游戏正式前镜，河岸地理、日光与饰物"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+      "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+      "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+      "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+      "role": "下一镜 L116，携行箱形、人数、体量"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+      "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+      "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+      "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+      "role": "腰间朱红养剑葫与金纹"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+      "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+      "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+    }
+  ]
+}

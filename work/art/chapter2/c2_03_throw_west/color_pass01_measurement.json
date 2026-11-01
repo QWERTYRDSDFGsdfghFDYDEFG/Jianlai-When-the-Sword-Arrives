@@ -1,0 +1,56 @@
+{
+  "task": "既定角色、让路行人与核舟在西向上层干街内存合成，主角不镜像；原地写回首轮色稿。",
+  "source_path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+  "original_sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+  "file_sha256_at_readback": "efacda08e6a44db3e3682ad33176cdd7edcd4967ccd0167692944f867820a087",
+  "file_bytes": 2056649,
+  "raw_RGBA_sha256": "95816676f490257ce632ad1e31ae199ec6785f0781f74b8cae0d4506a75ff51f",
+  "raw_RGB_sha256": "5ca3ffa73c881315ae9212721569140ccef5dad3b9cc8abbf1d070c594f977b0",
+  "size": [
+    1672,
+    941
+  ],
+  "format": "PNG RGB",
+  "ntfs_owner_before_after_hex": "30000000279f4",
+  "bytes_written": 2034723,
+  "event": {
+    "origin": "原件保存后实际打开得到的完整 PNG，随当前聊天留存。",
+    "thread": "01a196a0-17d4-75a1-b51a-9ffcd610fa9d",
+    "timestamp_utc": "2026-11-01T14:12:00.607Z",
+    "line": 2211,
+    "call_id": "call_07267bdd89544cc380d3da9821460a10",
+    "verified_byte_count": 2056649
+  },
+  "observer": "/root/throw_blocking",
+  "color_review_by": "/root/throw_identity",
+  "color_finding": "核雕小舟的下缘靠近较深横向石板缝，小尺寸下容易被看成压在地面。只微移核舟及相应浅痕迹。",
+  "a2_first_pass": {
+    "method": "实际读入本轮彩图、soft_a2_mask、当前原字库与两种剧情文本在内存叠加。结果仅对应 pass01。",
+    "samples": [
+      {
+        "text": "随即抛出一枚核雕小舟。",
+        "text_length_px": 418,
+        "box": [
+          218,
+          859,
+          640,
+          899
+        ],
+        "rgb_sha256": "66ea4b94a61350b63b477a50453b1dc451949deae18d934e880af8f602872253",
+        "review_jpeg_sha256": "e4cdc5c48ebe97a2b9ec685b52bf3ca364a6962365ac2be574d29998579ecd6a"
+      },
+      {
+        "text": "吴懿一挥袖，将行人轻轻移到街道两旁，随即抛出一枚核雕小舟。",
+        "text_length_px": 1102,
+        "box": [
+          218,
+          858,
+          1324,
+          899
+        ],
+        "rgb_sha256": "cbf05cad0894c04e6bbffeff2a8f5c222179d859acad7ff166d007644bf4245c",
+        "review_jpeg_sha256": "61f0a7ec9cd403565fef74d7494705fc458199db72249d8b49a2279bd72c2ad5"
+      }
+    ]
+  }
+}

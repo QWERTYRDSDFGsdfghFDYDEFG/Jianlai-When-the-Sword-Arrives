@@ -1,0 +1,15 @@
+{
+  "viewed_references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_07_arrival_v1.png",
+      "sha256": "409678afc21caf45fcd654919e9d0df70d223143183e6b1d9c9a18adf9c7d735",
+      "role": "已实际打开，仅参照临河木构高楼、宋式檐梁材料"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_14_rain_after_v1.png",
+      "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620",
+      "role": "已实际打开，仅参照木柱梁、栏顶尺寸与河岸，镜位独立新构图"
+    }
+  ],
+  "rules": "用户最新镜01含雨。旧雨停看掌画面和停用线稿均不作为构图模板；本镜无人，身份标准不适用。生成不附带角色图或旧画面。"
+}

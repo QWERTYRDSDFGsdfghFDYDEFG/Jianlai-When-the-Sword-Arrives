@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "task": {
     "scene_id": "",
     "request": "",
@@ -10,17 +10,19 @@
     "target_size": [1920, 1080]
   },
   "sources": [],
+  "identity": {"characters": [], "absence_reason": ""},
+  "staging": {"camera": "", "anchors": "", "action_target": "", "action_space": "", "route": "", "continuity": "", "evidence": [], "characters": []},
   "constraints": {"locked": [], "allowed_changes": [], "uncertainties": []},
   "retry_policy": {"max_reworks": 2, "extensions": []},
   "stages": {
     "brief": {"status": "pending", "required_checks": ["source_scope", "narrative_focus"], "attempts": []},
     "references": {"status": "pending", "required_checks": ["identity_basis", "reference_roles"], "attempts": []},
-    "composition": {"status": "pending", "required_checks": ["story_relation", "framing"], "attempts": []},
-    "space": {"status": "pending", "required_checks": ["layout", "grounding"], "attempts": []},
-    "sketch": {"status": "pending", "required_checks": ["identity", "anatomy", "continuity"], "attempts": []},
-    "color": {"status": "pending", "required_checks": ["structure_preserved", "palette_light"], "attempts": []},
-    "preview": {"status": "pending", "required_checks": ["actual_composite", "dialogue_safe_area"], "attempts": []},
-    "delivery": {"status": "pending", "required_checks": ["provenance", "adoption_scope"], "attempts": []}
+    "composition": {"status": "pending", "required_checks": ["story_relation", "framing", "staging"], "attempts": []},
+    "space": {"status": "pending", "required_checks": ["layout", "grounding", "staging"], "attempts": []},
+    "sketch": {"status": "pending", "required_checks": ["identity", "anatomy", "continuity", "staging"], "attempts": []},
+    "color": {"status": "pending", "required_checks": ["identity", "structure_preserved", "palette_light", "staging"], "attempts": []},
+    "preview": {"status": "pending", "required_checks": ["identity", "actual_composite", "dialogue_safe_area", "staging"], "attempts": []},
+    "delivery": {"status": "pending", "required_checks": ["identity", "provenance", "adoption_scope", "staging"], "attempts": []}
   },
   "adoption": {
     "status": "candidate",

@@ -1,0 +1,41 @@
+[
+  {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\character_image_index.md",
+      "sha256": "8dac60c320e564cf98bcaf3d46c3e0bbe4d3b2bd348d8b4040ac14673524dd14",
+      "role": "当次读取的索引版本"
+    },
+    "excerpt": {
+      "71": "| 陈平安 | 陈平安、陈平、cpa | `lh/cpa/CPA_FACE_IDENTITY_STANDARD.md` | 脸部：`lh/cpa/cpa_face_standard_01.png`；通用服装：`lh/cpa/cpa_outfit_variant_06_warm_weather.png`；书箱：`lh/cpa/cpa_bookbox_ref.jpg`；养剑壶主参考：`lh/cpa/cpa_gourd_ref.png`，结构辅助：`lh/cpa/cpa_gourd_structure_ref.jpg` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`；第二场依据 `script_chapter2.rpy` 与本任务在线分镜，不以已删除的第2—5章旧表为依据；道具更新见第 3.4 节 |",
+      "72": "| 裴钱 | 裴钱、peiqian、pq | `lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md` | `lh/peiqian/peiqian_master_v02.png` | `script逐场分镜表.md`、`script_RenPy演出脚本执行表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |",
+      "76": "| 朱敛 | 朱敛、zl、老厨子 | `lh/zl/zl_face_ref.md`；原文考据先读 `lh/zl/zl_text_evidence.md`；语义拓扑读 `lh/zl/zl_face_topology_v1.md`；规则变形网格读 `lh/zl/zl_face_grid_mesh_rules_v1.md` | 脸部母版：`lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png`；478点数据：`lh/zl/zl_face_mesh_v1.json`；规则网格：`lh/zl/zl_face_grid_mesh_v1.json`；网格检查图：`lh/zl/zl_face_grid_mesh_map_v1.png`；全身母版：`lh/zl/zl_full_base_v1.png` | `script逐场分镜表.md`、`script_chapter2~5逐场分镜表.md`、`script_chapter2~5_RenPy演出脚本执行表.md` |",
+      "939": "2026-11-01，已按校准线稿为陈平安的脸、耳、颈取前镜肤色上色，核对师徒同框与前后镜相接后写回[收针后彩图原件](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png)。当前 **候选／局部上色已回填，待用户审阅**。原生 1672×941，写后复读确认改动 5,113 像素，脸、耳、颈蒙版外差异为零。原画幅下能读出陈低眼听裴钱说话。放大时近眼虹膜略整，前镜的鼻尖和唇下明暗稍强。最终 SHA256 为 24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59，未接入游戏。[本轮写入与复核](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)",
+      "949": "用户授权按当前剧情顺序补前序缺图，本张只做到线稿。对应 `script_chapter2.rpy` L69–109，裴钱收好针、摆弄草鞋后进入闲谈，L111才收拾行装离开。沿用旧溪边的裴左前、陈中前、朱右后与右侧落地竹箱；陈仍裸足浸水，裴持草鞋、处理后的脚放低，朱以老奴面皮坐在后侧。当前剧情的草鞋与裸足状态优先于通用母版鞋履，不替换角色身份或衣装标准。"
+    }
+  },
+  {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "6258d4d7ea90b38dde8b3c9dceba9c4f6de66ef8cbc83292b1c40b898c416591",
+      "role": "当次读取的索引版本"
+    },
+    "excerpt": {
+      "9": "- 当前487条对白／旁白／心声，按19个场头注释分段；保留2处显式自动存档、2处可点击无字停留、3句裴朱专用头像对白。19段是当前脚本的时间和空间定位，不等于已经完成19套分镜或19组美术。",
+      "19": "| 返乡途中·溪边 | [L9](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:9) | 溪边挑疱CG，收针后切黑 | 收针后稳定休息图待补；不让持针进行态承载后续长谈。访友与宁姑娘计划是陈平安心声。 |",
+      "20": "| 黄庭国·御江畔郡城 | [L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | 入城、观察、远处来人三图 | 剑修冲突是旧事与假设，未发生当场战斗；长段街面旧事的稳态仍需复核，不能把文字改动算作已补差分。 |"
+    }
+  },
+  {
+    "origin": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_catalog.json",
+      "sha256": "18f0f8a882de606d11fd4f0f66b80c2b506e56635febb48f4202789e3e20befc",
+      "role": "当次读取的索引版本"
+    },
+    "excerpt": {
+      "884": "      \"path\": \"images/chapter2/c2_01_rest_v1.png\",",
+      "892": "      \"target\": \"bg c2_01_rest_v1\",",
+      "900": "      \"path\": \"images/chapter2/c2_02_cpa_pq_v1.png\",",
+      "908": "      \"target\": \"bg c2_02_cpa_pq_v1\","
+    }
+  }
+]

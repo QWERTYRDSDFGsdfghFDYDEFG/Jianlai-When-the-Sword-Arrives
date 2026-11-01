@@ -1,0 +1,63 @@
+{
+  "task": "提取原抛舟镜中已批准的人物轮廓与核舟，非镜像移植到西向上层街，核对人物轮廓、足点及离手间隙。",
+  "native": [
+    1672,
+    941
+  ],
+  "view_crop_in_environment": [
+    782,
+    285,
+    890,
+    501
+  ],
+  "display_out": [
+    1672,
+    941
+  ],
+  "coordinates": "各角色为首镜环境像素的脚点，核舟为中心。推近参数用于本镜取景设计。",
+  "placement": {
+    "zhu_lian": [
+      1219,
+      610
+    ],
+    "chen_pingan": [
+      1293,
+      664
+    ],
+    "pei_qian": [
+      1334,
+      609
+    ],
+    "wu_yi": [
+      1361,
+      736
+    ],
+    "pit_boat": [
+      1498,
+      541
+    ],
+    "passer_shop": [
+      1365,
+      463
+    ],
+    "passer_quay": [
+      1119,
+      467
+    ]
+  },
+  "front_stage": "三名见证者在后，吴懿右手朝画右，核舟离手在干街上方。四人不镜像。",
+  "structure_evidence": {
+    "origin": "当前聊天的内存结构输出，未另存预览图",
+    "thread": "01a196a0-17d4-75a1-b51a-9ffcd610fa9d",
+    "recorded_event_timestamp_utc": "2026-11-01T13:56:52.355Z",
+    "line": 2113,
+    "call_id": "call_59a1c6f8c74e4d1f8e7ddf68762be41c",
+    "format": "image/jpeg",
+    "bytes": 273820,
+    "sha256": "b4eee06a4f9d4e56ef29368c6b72db87096748a23887da9c4057d95de1d9e7c7",
+    "sha_verified_by": "/root/throw_blocking"
+  },
+  "reviewer": "/root/throw_sources",
+  "review": "已实际打开事件原图并核对散列。四主角与两名已退至边缘的路人可辨，朱、陈脚点及吴裙摆在挡墙右侧，核舟在右手前的干街区域。裴钱双髻、上身和近腿可辨，下摆与脚有部分遮挡。",
+  "followup": "在彩稿检查核舟和地面横缝的对比。"
+}

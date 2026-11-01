@@ -1,0 +1,133 @@
+{
+  "request": "允许局部生成并回填原图",
+  "authorization_context": "用户对call_1103b72551af4d378762d82555505830作上述明确答复，允许生成局部素材并仅回填陈平安、吴懿、朱敛头脸区域。",
+  "target": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "before_sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+    "native": [
+      1672,
+      941
+    ],
+    "file_id": "30000000279f4",
+    "binding": "仅作写入前条件，原件将原位修改，不作持续不变的来源文件。"
+  },
+  "script_snapshot": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+    "sha256": "238c6fce00a24850b4b23f2a0eeb8267eb92f35ac32425605775c06c44cd93aa",
+    "excerpt": [
+      {
+        "line": 114,
+        "text": "    narrator \"吴懿领着三人往江边去。\""
+      },
+      {
+        "line": 115,
+        "text": "    scene bg c2_03_quay_v2"
+      },
+      {
+        "line": 116,
+        "text": "    with trans_location"
+      },
+      {
+        "line": 117,
+        "text": ""
+      },
+      {
+        "line": 118,
+        "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+      },
+      {
+        "line": 119,
+        "text": "    # 03-02｜让路前置，避免楼船出现后才补述行人去向。"
+      },
+      {
+        "line": 120,
+        "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街边。\""
+      },
+      {
+        "line": 121,
+        "text": ""
+      },
+      {
+        "line": 122,
+        "text": "    scene bg c2_03_throw_v1"
+      },
+      {
+        "line": 123,
+        "text": "    with trans_short"
+      },
+      {
+        "line": 124,
+        "text": ""
+      },
+      {
+        "line": 125,
+        "text": "    narrator \"随即抛出一枚核雕小舟。\""
+      },
+      {
+        "line": 126,
+        "text": "    scene bg c2_03_reveal_v1"
+      },
+      {
+        "line": 127,
+        "text": "    with trans_illusion"
+      },
+      {
+        "line": 128,
+        "text": ""
+      },
+      {
+        "line": 129,
+        "text": "    narrator \"水雾散开，三层楼船低悬在街面上。\""
+      }
+    ]
+  },
+  "brief": {
+    "time": "吴懿清开行人后，以右手抛出核雕小舟；小舟刚离手，楼船尚未展开。",
+    "cast": "朱敛、陈平安、裴钱在后侧观看，吴懿为施术者。",
+    "scope": "只修陈、吴、朱头脸局部。裴钱为后脑背影，脸部身份不宣称通过；整体构图和正文不改。"
+  },
+  "references": {
+    "cpa": "固定脸母版第3格向右侧面锁额鼻唇颏与窄下颌，15视角仅辅助头部朝向。",
+    "wy": "S1最右侧90度锁成年人侧脸和首饰轮廓，避免少女化及尖锥下巴。",
+    "zl": "固定老脸多角度页锁骨相年龄，既有应允镜仅辅助向右略俯角度和二维表达，不直接镜像母版。",
+    "pq": "母版绑定身份和儿童轮廓，本镜后脑朝镜头，双髻不可代替脸部验收。",
+    "view_event": "/root/faces_v2_record 本轮实际用 view_image 查看原整图及四份脸部母版。"
+  },
+  "composition": {
+    "relationship": "三名见证者在吴懿后侧，全员观看朝右前方的抛舟动作。",
+    "framing": "固定1672×941、左江右铺和柳下阶口。只动三处头脸，以原脸外沿、耳颈连接和发际为局部边界。",
+    "guide_regions": {
+      "cpa": [
+        945,
+        294,
+        79,
+        89
+      ],
+      "wy": [
+        1070,
+        422,
+        85,
+        91
+      ],
+      "zl": [
+        837,
+        298,
+        59,
+        67
+      ]
+    },
+    "guides_not_masks": "区域是核查与裁取用的包围框，实际回填需细化蒙版；不得把矩形背景一并覆盖。"
+  },
+  "space": {
+    "layout": "整体仍为高处铺前街与左侧低路的挡墙高差，石阶完整贯通。局部修脸不改地形与人物站位。",
+    "grounding": "原图四人足点位于干街，吴裙摆和朱、陈鞋底接地，裴脚部部分被遮；局部回填应逐像素证明脚点、身体、手势、舟和环境未变。",
+    "light": "头脸应服从既有柔和自然光与低饱和灰暖皮肤，避免独立高光导致贴图感。"
+  },
+  "verification_needed": [
+    "原图三处头脸之外差分为零",
+    "三张可见脸在实际大小和原像素局部均对母版独立复核",
+    "裴钱背影视图及儿童轮廓保持",
+    "检查A2旁白后头脸及抛舟动作可读"
+  ],
+  "history_boundary": "旧v1所有通过均仅历史；本轮重新建立资料和规划，sketch及后续仍待实际编辑和独立复核。"
+}

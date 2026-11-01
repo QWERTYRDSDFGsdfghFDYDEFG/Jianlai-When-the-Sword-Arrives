@@ -1,0 +1,25 @@
+{
+  "adoption": "候选／待用户审阅",
+  "selected": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+  },
+  "bytes": 3458352,
+  "actual_spec": {
+    "width": 1672,
+    "height": 941,
+    "format": "PNG",
+    "mode": "RGB"
+  },
+  "display": "保留原始像素，桌面静态叠放单帧1920×1080。",
+  "source": "color-02生成原件与工作区选图逐字节相同",
+  "index_reference": {
+    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\character_image_index.md",
+    "sha256_at_registration": "e071e9fd5ea89d43924ce4b34cd3f59b65e6e5c3ae6662b28997dc92004e43bd",
+    "heading": "### 3.42 溪边歇脚后，三人重新收拾行装（2026-11-01）",
+    "entry": "**候选／待用户审阅。** 裴钱坐在岸石上系紧草鞋，陈平安收紧竹箱肩带，朱敛在右后山径回头等候。三人沿用本索引第 3 节登记的身份与暖季行装，溪岸光色衔接挑疱前镜。本镜对应用户指名的旁白“歇过脚，三人重新收拾行装，沿山路继续往前。”这句在开工版本位于第 111 行，制作期间工作区剧本已变更。彩图未接入游戏。[收拾行装彩图](../../work/art/chapter2/c2_creek_pack/c2_01_pack.png) · [当时的剧本摘录](../../work/art/chapter2/c2_creek_pack/script_baseline.txt) · [单图制作记录](../../work/art/chapter2/c2_creek_pack/record.json)"
+  },
+  "script_scope": "只交付开工时第111行所指启程画面。期间当前脚本发生变化。该图片没有接入游戏。",
+  "verification": "已打开彩稿与实际桌面A2和B2的静态覆盖。未测试实机与小屏。"
+}

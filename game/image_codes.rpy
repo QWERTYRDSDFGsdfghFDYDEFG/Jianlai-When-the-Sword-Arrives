@@ -20,13 +20,14 @@ image bg cg01_12_02 = "bg c1_12_cpa_sword_03_v1"
 image bg cg01_13_01 = "bg c1_13_academy_gate_farewell_v1"
 image bg cg01_14_01 = "bg c1_14_autumn_road_sendoff_v2"
 image bg cg02_01_01 = "bg c2_01_rest_v1"
+image bg cg02_01_02 = "bg c2_01_pack_v1"
 image bg cg02_02_01 = "bg c2_02_cpa_pq_v1"
 image bg cg02_02_02 = "bg c2_02_observe_v1"
 image bg cg02_02_03 = "bg c2_02_notice_v1"
 image bg cg02_02_04 = "bg c2_02_invite_v1"
 image bg cg02_02_05 = "bg c2_02_consider_v1"
 image bg cg02_02_06 = "bg c2_02_accept_v1"
-image bg cg02_03_01 = "bg c2_03_quay_v1"
+image bg cg02_03_01 = "bg c2_03_quay_v2"
 image bg cg02_03_02 = "bg c2_03_throw_v1"
 image bg cg02_03_03 = "bg c2_03_reveal_v1"
 image bg cg02_03_04 = "bg c2_03_papers_v1"
@@ -87,6 +88,7 @@ define IMAGE_CODE_NAMES = {
     "CG01·13·01": "bg cg01_13_01",
     "CG01·14·01": "bg cg01_14_01",
     "CG02·01·01": "bg cg02_01_01",
+    "CG02·01·02": "bg cg02_01_02",
     "CG02·02·01": "bg cg02_02_01",
     "CG02·02·02": "bg cg02_02_02",
     "CG02·02·03": "bg cg02_02_03",
@@ -264,6 +266,7 @@ define _IMAGE_CODE_UNAVAILABLE = {
     "参考10·01": "仅参考：吴懿全身三视角母版（S1定稿）",
     "参考10·02": "仅参考：吴懿动画造型来源：无伤侧转近景",
     "参考10·03": "仅参考：吴懿动画造型来源：正面与冠饰辅助",
+    "参考10·04": "仅参考：旧版码头四人停步图",
     "参考20·01": "仅参考：孙登先当前彩图身份与服装母版",
     "参考20·02": "仅参考：孙登先旧线稿母版（停用历史）",
     "参考20·03": "仅参考：入夜赴宴：三人走向雪茫堂（08-01）（旧服装历史图）",

@@ -1,0 +1,1587 @@
+{
+  "schema_version": 1,
+  "task": {
+    "scene_id": "c2_creek_pack",
+    "request": "就做三人重新收拾行装，用剑来场景制作项目专用 Skill",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "integrate",
+    "stop_after_stage": "delivery",
+    "authorization": "本聊天用户指定“就做三人重新收拾行装，用剑来场景制作项目专用 Skill”，随后授权依项目技能制作本镜。范围为第二章第111行一幅独立画面，交用户审阅。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\script_baseline.txt",
+      "sha256": "dde30bd64bf036f8c53c5f463ec3d270dbe62d230680f44cd376b5e5bc3e284e",
+      "role": "制作开始时确认并实际使用的剧本摘录。旧版第二章末句 L111，今版已删除。"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+      "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "role": "游戏正式前镜，河岸地理、日光与饰物"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+      "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+      "role": "下一镜 L116，携行箱形、人数、体量"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+      "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+      "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "陈平安唯一脸部母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "陈平安暖季衣装／背箱肩带"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "裴钱儿童身份与正装短打母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+      "role": "朱敛老奴面皮脸部母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+      "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+      "role": "朱敛朴素长衫、长裤布鞋母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+      "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+      "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+      "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+      "role": "腰间朱红养剑葫与金纹"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "陈平安当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "裴钱当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "朱敛当前身份标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+      "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+      "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\brief.json",
+      "sha256": "5ff07a1ab65c17f69bd4d770798a41d7d1dc1d2419f19861b811b10ac2aa5294",
+      "role": "brief 阶段定案与依据"
+    }
+  ],
+  "constraints": {
+    "locked": [
+      "第111行收拾行装的一瞬。三人都在溪岸，保持前镜的晴日、衣装、身份与行装。",
+      "陈已着草鞋、裴系最后一根鞋绳，竹箱随陈、养剑葫系陈腰、朱敛在路上等候。",
+      "前镜的成图、脚本及游戏接入均在本次制作范围外。",
+      "目标横幅1920×1080，下四分之一留给正文。"
+    ],
+    "allowed_changes": [
+      "从坐姿闲谈切换至准备动身。可调整景别、脚下石面、人物间距、姿态与朝向。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/packing_refs",
+          "tool": "现行脚本与索引核对、view_image 原图目检、文字调度和空间检查",
+          "prompt": "依本镜任务，第111行收拾行装，核对 source_scope, narrative_focus",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\script_baseline.txt",
+              "sha256": "dde30bd64bf036f8c53c5f463ec3d270dbe62d230680f44cd376b5e5bc3e284e",
+              "role": "制作开始时确认并实际使用的剧本摘录。旧版第二章末句 L111，今版已删除。"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+              "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+              "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\brief.json",
+              "sha256": "5ff07a1ab65c17f69bd4d770798a41d7d1dc1d2419f19861b811b10ac2aa5294",
+              "role": "brief 阶段定案与依据"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_refs",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "L111 单幅。L109陈笑而不答，L111三人收拾行装，L114换场，L116才出现御江郡城。前序挑疱和收针闲谈各有自己的画面。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\brief.json",
+                    "sha256": "5ff07a1ab65c17f69bd4d770798a41d7d1dc1d2419f19861b811b10ac2aa5294",
+                    "role": "brief 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\script_baseline.txt",
+                    "sha256": "dde30bd64bf036f8c53c5f463ec3d270dbe62d230680f44cd376b5e5bc3e284e",
+                    "role": "制作开始时确认并实际使用的剧本摘录。旧版第二章末句 L111，今版已删除。"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+                    "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+                    "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "取将动未动的一刻。系妥草鞋、收肩带、回首等候属于导演补全。三人普通旅途中的默契为焦点。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\brief.json",
+                    "sha256": "5ff07a1ab65c17f69bd4d770798a41d7d1dc1d2419f19861b811b10ac2aa5294",
+                    "role": "brief 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\script_baseline.txt",
+                    "sha256": "dde30bd64bf036f8c53c5f463ec3d270dbe62d230680f44cd376b5e5bc3e284e",
+                    "role": "制作开始时确认并实际使用的剧本摘录。旧版第二章末句 L111，今版已删除。"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+                    "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+                    "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/packing_refs",
+          "tool": "现行脚本与索引核对、view_image 原图目检、文字调度和空间检查",
+          "prompt": "依本镜任务，第111行收拾行装，核对 identity_basis, reference_roles",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\brief.json",
+              "sha256": "5ff07a1ab65c17f69bd4d770798a41d7d1dc1d2419f19861b811b10ac2aa5294",
+              "role": "brief 阶段定案与依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "陈平安唯一脸部母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "陈平安暖季衣装／背箱肩带"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "裴钱儿童身份与正装短打母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "朱敛老奴面皮脸部母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+              "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+              "role": "朱敛朴素长衫、长裤布鞋母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安当前身份标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+              "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+              "role": "裴钱当前身份标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+              "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+              "role": "朱敛当前身份标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "游戏正式前镜，河岸地理、日光与饰物"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+              "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+              "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+              "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+              "role": "下一镜 L116，携行箱形、人数、体量"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+              "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+              "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+              "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+              "role": "腰间朱红养剑葫与金纹"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+              "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+              "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\references.json",
+              "sha256": "8ee3a7f911c8d5daf2716036e02f4182b639888485368718774b37835ff8e74d",
+              "role": "references 阶段定案与依据"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_refs",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "逐图观察。陈是束髻窄眼青年，灰蓝薄外袍、交领浅衫、护腕。裴是双髻儿童，深靛短打、布条护腕及自身左腰小袋。朱的真容隐在老奴面皮后，束起灰发、眉间纹、短须、瘦长灰褐衣与布鞋。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\references.json",
+                    "sha256": "8ee3a7f911c8d5daf2716036e02f4182b639888485368718774b37835ff8e74d",
+                    "role": "references 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈平安唯一脸部母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈平安暖季衣装／背箱肩带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴钱儿童身份与正装短打母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱敛老奴面皮脸部母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱敛朴素长衫、长裤布鞋母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+                    "role": "裴钱当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+                    "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+                    "role": "朱敛当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+                    "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+                    "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+                    "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+                    "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+                    "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+                    "role": "腰间朱红养剑葫与金纹"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+                    "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+                    "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "溪边正式图锁左溪右岸和前镜光感。候选只补歇脚后靴鞋状态。郡城图核实竹箱上背、有笠和备用鞋，裴钱本镜履式按溪边草鞋的剧本文字。道具图只借敞口方形、四根立柱及红金葫芦，不借截图人物。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\references.json",
+                    "sha256": "8ee3a7f911c8d5daf2716036e02f4182b639888485368718774b37835ff8e74d",
+                    "role": "references 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "陈平安唯一脸部母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈平安暖季衣装／背箱肩带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "裴钱儿童身份与正装短打母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "朱敛老奴面皮脸部母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+                    "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+                    "role": "朱敛朴素长衫、长裤布鞋母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\PEIQIAN_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+                    "role": "裴钱当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_face_ref.md",
+                    "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+                    "role": "朱敛当前身份标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+                    "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+                    "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+                    "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+                    "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+                    "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+                    "role": "腰间朱红养剑葫与金纹"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+                    "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+                    "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/packing_refs",
+          "tool": "现行脚本与索引核对、view_image 原图目检、文字调度和空间检查",
+          "prompt": "依本镜任务，第111行收拾行装，核对 story_relation, framing",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\references.json",
+              "sha256": "8ee3a7f911c8d5daf2716036e02f4182b639888485368718774b37835ff8e74d",
+              "role": "references 阶段定案与依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "游戏正式前镜，河岸地理、日光与饰物"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+              "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+              "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+              "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+              "role": "下一镜 L116，携行箱形、人数、体量"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\composition.json",
+              "sha256": "b143d1dc1947c453342feb93124fb82d7209d5cea1aacd24347d77cd53c713d8",
+              "role": "composition 阶段定案与依据"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_refs",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "左中裴前倾系草鞋，脚搁较高的干石；中央陈已站稳，一肩负箱，手拢另一条肩带；右后朱在已通向山径的位置驻足回首。三者依次收妥，形成动作上的接力。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\composition.json",
+                    "sha256": "b143d1dc1947c453342feb93124fb82d7209d5cea1aacd24347d77cd53c713d8",
+                    "role": "composition 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+                    "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+                    "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "宽幅中远景、从溪侧看岸，左水右路，河谷层峦保留薄雾。让裴手与鞋、陈手、肩带、朱的脸落在画面上部约68%内，底部四分之一只留低对比石、水和草。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\composition.json",
+                    "sha256": "b143d1dc1947c453342feb93124fb82d7209d5cea1aacd24347d77cd53c713d8",
+                    "role": "composition 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+                    "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+                    "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/packing_refs",
+          "tool": "现行脚本与索引核对、view_image 原图目检、文字调度和空间检查",
+          "prompt": "依本镜任务，第111行收拾行装，核对 layout, grounding",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\composition.json",
+              "sha256": "b143d1dc1947c453342feb93124fb82d7209d5cea1aacd24347d77cd53c713d8",
+              "role": "composition 阶段定案与依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "游戏正式前镜，河岸地理、日光与饰物"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "陈平安暖季衣装／背箱肩带"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+              "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+              "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+              "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+              "role": "下一镜 L116，携行箱形、人数、体量"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\space.json",
+              "sha256": "5aa003f4b969e00626dfff3cde9a90b42d5a7ca2ff9b73b42da8acd91621a84d",
+              "role": "space 阶段定案与依据"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_refs",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "平面关系由左前溪水，经干石与陈所在的岸脊，通往右后方的林间山径。朱位于靠山一侧而非隔河。侧视关系为水平水面、稍高系鞋石、渐升的岸脊及山径，以同一方向的暖灰侧顶天光照三人。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\space.json",
+                    "sha256": "5aa003f4b969e00626dfff3cde9a90b42d5a7ca2ff9b73b42da8acd91621a84d",
+                    "role": "space 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈平安暖季衣装／背箱肩带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+                    "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+                    "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "裴一脚踏高石、另一腿承重或坐稳，系鞋的两手落到同一只鞋。陈的双足承重于干岸，背负的竹箱贴背，一侧肩带受力，另一边手可及。朱双足沿路停稳，转头朝向同伴，路口与箱侧饰物不得互相遮堵。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\space.json",
+                    "sha256": "5aa003f4b969e00626dfff3cde9a90b42d5a7ca2ff9b73b42da8acd91621a84d",
+                    "role": "space 阶段定案与依据"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "陈平安暖季衣装／背箱肩带"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+                    "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+                    "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+                    "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+                    "role": "下一镜 L116，携行箱形、人数、体量"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "以第一张溪边前镜为时空连续性参考，改绘成同一段戏几分钟后的一幅全新独立横幅分镜线稿。后四份参考依次为陈平安暖季衣装/竹箱/养剑葫，陈平安脸部，裴钱身份与衣装，朱敛脸与年纪。所有参考图均只借用指定内容。输出单幅无彩色干净手绘线稿，电影式16:9横构图，目标1920×1080，适合沉静的中国古代叙事游戏。不是分格、设定表或拼贴。无字幕、文字、边框、界面和标注。用有轻重、自然流走的铅墨轮廓与少量结构排线，稀疏近景水痕、岸石和草，淡笔远山，衣料受力，清楚可上色；禁止大块明暗素描和密密刻满全图的线。\n\n时刻只有一个：「歇过脚，三人重新收拾行装，沿山路继续往前。」取他们启程前最后整理的瞬间。原镜是坐谈，现在两成人已站起、女孩系好最后一道草鞋系带。真实可行走的山路在右后方沿山腰上去，浅溪仍在左前景，主视线从左中裴钱，经陈平安的手和竹箱，向右后候行的朱敛。整体从溪面往岸拍，镜头稍退，眼平略俯。底部四分之一主要是近岸疏石、水纹和小草，人物的脸、系绳双手、鞋面和箱肩带须在底部面板以上，系鞋动作落在画高55–65%。把三人真实放在地面与石台上，不要刻意齐排。不要放路牌、第四人、房屋、桥、剑、商旅和大件新行李。\n\n中间略偏右：20–22岁陈平安，清瘦、窄长青年脸、平直眉窄杏眼，发髻青簪，身穿前镜同款短袖罩层与交领内衫、腕缠布、暗绑腿，双脚已经穿回麻草鞋，身形与上一镜一致。在干岸上站直稍前倾，一肩已承住贴背的青竹编长方敞口箱，手正在胸前把另一根宽绳肩带收妥，肩、手、带、箱四者的力度有因果，侧转能见四角竹柱与箱壁，斗笠及一对备用草鞋系在竹箱外，腰间仅一只小型双腹装饰养剑葫。披衣、箱体、绳带体积轮廓互不混淆，不看观众，低眼关照裴钱。\n左中景：瘦小的女童裴钱，自然双髻、刘海，暗色旧上衣、绑腕、束腰和绑腿，对应参考的同一个孩子。她坐在略高的平岸石边，把一只已穿在自己脚上的草鞋抬到相邻较高平石，俯身双手捏住一根细麻绳最后相结，拇食指和绳头清楚；另一只着草鞋的脚撑在低一级的岸石，两脚属于同一个身体并有支撑，石不能穿入小腿。无赤脚、无针。她与男主人公自然共享空间，不坐进河里。\n右后：朱敛是灰发小髻、偏长精瘦脸、眼皮略垂，细髭小山羊须的老奴面貌，粗褐旧衣厚度延续溪边前镜；双脚踏稳干道，身体已经朝道路，略带驼背，肩首自然侧转回来看这两人，神情平常、耐心，双臂自然。让干燥的山路从他脚下继续。只有三人，皆不摆拍，无扬手招呼。空中无粒子特效。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\space.json",
+              "sha256": "5aa003f4b969e00626dfff3cde9a90b42d5a7ca2ff9b73b42da8acd91621a84d",
+              "role": "space 阶段定案与依据"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\sketch_01_input.json",
+              "sha256": "e3a7cf52e0d74c83d27e2b024c825a9a8d1d06383b84fd5546426f3d1bb012f1",
+              "role": "实际提交的线稿参数"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "工具实际图像参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "工具实际图像参考 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "工具实际图像参考 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "工具实际图像参考 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "工具实际图像参考 5"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+              "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+              "role": "第一轮线稿原件"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_artreview",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "陈的窄眼束髻与青簪、裴的双髻与儿童体量、朱的窄颊短须可辨。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "工具实际图像参考 1"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "工具实际图像参考 2"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "工具实际图像参考 3"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "工具实际图像参考 4"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "工具实际图像参考 5"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "裴两手收同一鞋结，高低两脚着石。陈手握肩带，箱体贴背，斗笠与备用草鞋挂箱。朱踩实干岸并回首。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "工具实际图像参考 1"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "工具实际图像参考 2"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "工具实际图像参考 3"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "工具实际图像参考 4"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "工具实际图像参考 5"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "三人已经穿好鞋，保持溪在左、山径在右的方位与三人行动的前后关系。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "工具实际图像参考 1"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "工具实际图像参考 2"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "工具实际图像参考 3"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "工具实际图像参考 4"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "工具实际图像参考 5"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "S1",
+                "severity": "soft",
+                "state": "accepted",
+                "problem": "手高约71%、鞋面约76%，比构图计划偏低。观者暂能看清鞋绳，桌面面板实际覆盖仍需确认。",
+                "required_change": "上色时明确区分鞋与岩石；在A2／B2桌面对白布局检查动作是否可读。",
+                "preserve": "保留线稿里两手拉紧同一鞋带的接触、系鞋身体重心及坐石高度。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  }
+                ]
+              }
+            ]
+          },
+          "output_metadata": {
+            "width": 1672,
+            "height": 941,
+            "mode": "RGB",
+            "format": "PNG",
+            "pixel_check": "Pillow 解码成功"
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "passed",
+      "required_checks": [
+        "structure_preserved",
+        "palette_light"
+      ],
+      "attempts": [
+        {
+          "id": "color-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "把图1的本镜线稿作为原画，在这张构图上精心着色成可直接用于视觉小说的一幅安静的横幅剧情CG，目标1920×1080，16:9。保持图1具体机位、三人的姿态、落脚点、系绳手指、肩带连接、表情和画面边缘不变。图2是同一地点几分钟前的正式镜头，做光照、色温、石岸、水流与衣料的严格连续性参考。图3为陈平安暖季衣装与书箱、葫芦配色；图4为裴钱身份与衣物原色；图5为朱敛老奴的面容与肤色。输出整幅无文字、无边框、无水印、无界面、无并排图和色卡。\n\n画面读作：溪边歇够了，三个人收拾行装准备沿山路动身。让小姑娘低头系紧自己草鞋那一根可辨识的麻绳，两手分工，一双穿着的鞋同属她自己，手指与鞋绳务必有明暗和形态的分别。陈平安穿好草鞋站在岸上，从胸前收紧背箱肩带，衣料受到绳带压迫的微小皱折和接触阴影画实；让安静下望的眉眼在画幅中可辨。箱为青绿旧竹编、敞口、四角竹柱，侧面系斗笠和一对备用草鞋。朱敛在右后干岸山径回首等候，保留微驼体态、灰白鬓发、偏垂眼皮、薄须和粗褐旧衣。溪流左、山径右，两者都有去处。\n\n前镜的溪水透出浅青灰，暖灰碎石浸水的一侧较深，石间有真实细小水纹。右岸树影中带灰橄榄绿，远山淡灰蓝、薄雾有空气纵深，远景减少线条密度；复现图2漫射日光与自然水面反光、柔和半影；不要落日、亮金辉光、暗角或过饱和青绿色。人衣料是低饱和织麻、旧棉布：陈灰蓝罩衫、灰白内衫、深灰绑腕与绑腿，暖灰棕绳带，腰间唯一小型朱红金色卷纹养剑葫；裴钱暗靛粗布行路短衣、灰褐内层和细腰绳；朱敛质朴灰褐长衣。人物像同一摄影光线下的手绘人物，肤色有冷暖，手背、颊、耳、鼻翼有克制的血色和真实骨相，儿童眉眼与成年人有区别。避免塑料高光、厚黑描边、稀薄的水彩滤镜、苍白灰皮和全画棕黄色罩染。与实景相融，以精致的半写实东方叙事原画完成此一动作，构图四角至边缘均有自然环境，不加字幕或黑边。",
+          "inputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+              "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+              "role": "第一轮线稿原件"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\color_01_input.json",
+              "sha256": "767940210f4adce5d12b2e5d93f6e05210afa80ca0bbe3739a1f3cdda5337541",
+              "role": "实际提交的上色参数"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+              "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+              "role": "上色实际参考图 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "上色实际参考图 2"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "上色实际参考图 3"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "上色实际参考图 4"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "上色实际参考图 5"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+              "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+              "role": "第一轮上色完整原图"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_artreview",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "structure_preserved",
+                "result": "pass",
+                "observation": "三人结构、贴背箱及挂件、手与脚的动作保留了线稿关系。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+                    "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+                    "role": "第一轮上色完整原图"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  }
+                ]
+              },
+              {
+                "id": "palette_light",
+                "result": "fail",
+                "observation": "灰白天空、灰绿溪水和深树冠是同地点晴日薄霭的前镜特征。第一轮上色出现蓝天、较蓝溪水和偏黄绿的斑光，接前镜会读成突然放晴。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+                    "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+                    "role": "第一轮上色完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "C1",
+                "severity": "hard",
+                "state": "open",
+                "problem": "灰白天空、灰绿溪水和深树冠是同地点晴日薄霭的前镜特征。第一轮上色出现蓝天、较蓝溪水和偏黄绿的斑光，接前镜会读成突然放晴。",
+                "required_change": "只修环境色温、饱和与雾感，缩小黄绿斑光与天水蓝色，与前镜的灰色日光和空气透视接近。",
+                "preserve": "保留姿势、手脚接触、服装固有色、竹箱及侧挂物和线稿。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+                    "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+                    "role": "第一轮上色完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  }
+                ]
+              }
+            ]
+          },
+          "output_metadata": {
+            "width": 1672,
+            "height": 941,
+            "mode": "RGB",
+            "format": "PNG",
+            "pixel_check": "Pillow 完整解码成功。登记时工作树的脚本被外部修改，完整记录等待源版本确认。"
+          }
+        },
+        {
+          "id": "color-02",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "只做一次电影调色与空气透视返修。图1是要修的原画，图2是同一溪边几分钟前已经定稿的前镜，图3是已通过的图1结构稿。保持图1人物、构图、五官、手指、草鞋与鞋绳、竹箱与全部挂件、道路、树枝石块位置，逐线吻合，尤其不能重新安排三人，也不要改脸型或换衣。输出单幅横版剧情CG，16:9，目标1920×1080。无文字或界面。\n\n唯一要解决的问题：图1的天空和水发蓝、树叶和石上的黄绿高光太艳，像突然转了大晴天。请把图1色调和照度精确匹配图2：左上原来的晴蓝和晴天白云改成暖灰白均匀薄云与水汽，接近#e6e3db的散射日光；远山峰顶和中景背坡在灰米色薄雾中逐层退远，仍然能看出峰与峰之间的差别，不要添加新的山、底部云海或背景物。左下溪流调成明度分明的低饱和灰绿色，水纹简洁，明水取灰白、水深取淡灰青，绝不保留鲜亮的蓝。岸石和右上树冠降低斑斓的金黄高光密度与明暗反差，草叶色贴近图2的灰橄榄绿、灰褐，不加金色光点。画面整体干净自然，仍有深度与细节，树下有柔和的凉意，不要在人物上作整图褪色滤镜。中央青年的灰蓝衣、腰侧朱红金纹养剑葫、旧青绿竹编箱的既有固有色锁定。裴钱暖实的指尖、略暗的麻绳、鞋面与浅色石块继续清楚分离。右后老者保留原来可辨的面貌和灰褐旧袍。把这张画做成图2的同一刻日光下可以直接接着放的完稿，保留图1在重心、人物疏密与接触处的精细绘画。",
+          "inputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+              "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+              "role": "第一轮线稿原件"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+              "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+              "role": "第一轮上色完整原图"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\color_02_input.json",
+              "sha256": "e054174eef912badd124f88c3b3a0436a76620efed9c6ff7ffaf4af203c9afa4",
+              "role": "颜色返修实际完整参数"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-fc99b2f6-71b0-4af0-98f8-ee2b5ba9c770.png",
+              "sha256": "de2244cefdaf2dcde39546a97aa16acb8d5e3c35ff6da0430cdaa8469c20cccd",
+              "role": "实际输入参考 1"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+              "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+              "role": "实际输入参考 2"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+              "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+              "role": "实际输入参考 3"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "第二轮环境光色修订完整原图"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_artreview",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "structure_preserved",
+                "result": "pass",
+                "observation": "陈的肩带与箱体接触、裴的指尖与绳结、朱的颈肩方向均保留，三人动作可辨。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "第二轮环境光色修订完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-f3cfa22e-84ed-4117-8181-c9ce81f9198d.png",
+                    "sha256": "f498bcf829009b7b767906d7bbadb426fe53cb97c072a6fa53e8fb3b95df1e11",
+                    "role": "第一轮线稿原件"
+                  }
+                ]
+              },
+              {
+                "id": "palette_light",
+                "result": "pass",
+                "observation": "左上暖灰薄雾、灰绿溪流及林冠石面高光接回前镜。肤色及袍、葫芦、竹箱原色可辨。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "第二轮环境光色修订完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "C1",
+                "severity": "hard",
+                "state": "resolved",
+                "problem": "上一版环境过蓝、叶隙光偏黄。",
+                "required_change": "确认山、溪、树冠回归前镜薄雾色调。",
+                "preserve": "行装和手的关系、服饰固有色与同一日光。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "第二轮环境光色修订完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  }
+                ]
+              },
+              {
+                "id": "C2",
+                "severity": "soft",
+                "state": "accepted",
+                "problem": "右前裸石稍亮。",
+                "required_change": "复查与同一岸面光源的关系，取景差异可接受。",
+                "preserve": "右前石面受光方向、溪岸明暗关系。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "第二轮环境光色修订完整原图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+                    "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+                    "role": "游戏正式前镜，河岸地理、日光与饰物"
+                  }
+                ]
+              }
+            ]
+          },
+          "rework": {
+            "from_attempt": "color-01",
+            "finding_ids": [
+              "C1"
+            ],
+            "change": "只调整天空、溪水与远近树岸光色及雾。",
+            "preserve": "保持线稿人物衣装、姿势手脚与所有道具。"
+          },
+          "output_metadata": {
+            "width": 1672,
+            "height": 941,
+            "mode": "RGB",
+            "format": "PNG",
+            "pixel_check": "Pillow 完整解码成功"
+          }
+        }
+      ]
+    },
+    "preview": {
+      "status": "passed",
+      "required_checks": [
+        "actual_composite",
+        "dialogue_safe_area"
+      ],
+      "attempts": [
+        {
+          "id": "preview-01",
+          "kind": "verification",
+          "producer": "/root/dialoguecheck",
+          "tool": "A2／B2 当前游戏界面素材静态叠放",
+          "prompt": "在第二轮上色图上按桌面 A2 和 B2 实际对白资产与正文位置静态叠放 L111，核看脸、系鞋绳手、鞋面、背带与正文可读性。预期产物 dialogue_check.png。",
+          "inputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "第二轮环境光色修订完整原图"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\dialogue_check.png",
+              "sha256": "69d7a9ecb26a9cc229f22bea155de891d70d715793a177dab36fab8e0b9111a5",
+              "role": "静态桌面 A2 和 B2 实际素材与原旁白覆盖对照，两幅含标签"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "actual_composite",
+                "result": "not_applicable",
+                "observation": "交付是一张扁平CG，无独立透明人物层。两种桌面版对白底图及旁白均按实际素材叠放在彩稿。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\dialogue_check.png",
+                    "sha256": "69d7a9ecb26a9cc229f22bea155de891d70d715793a177dab36fab8e0b9111a5",
+                    "role": "静态桌面 A2 和 B2 实际素材与原旁白覆盖对照，两幅含标签"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  }
+                ]
+              },
+              {
+                "id": "dialogue_safe_area",
+                "result": "pass",
+                "observation": "裴钱两手、绳结及高处鞋面在文字上方。两种底色稍压暗，指形与绳纹仍可辨；文字经过另一条放低的小腿。陈的肩带、箱沿、朱的脸与上坡路都能看到。验证只覆盖桌面默认字号静态合成。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\dialogue_check.png",
+                    "sha256": "69d7a9ecb26a9cc229f22bea155de891d70d715793a177dab36fab8e0b9111a5",
+                    "role": "静态桌面 A2 和 B2 实际素材与原旁白覆盖对照，两幅含标签"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          },
+          "output_metadata": {
+            "width": 1920,
+            "height": 2264,
+            "format": "PNG",
+            "mode": "RGB"
+          }
+        }
+      ]
+    },
+    "delivery": {
+      "status": "passed",
+      "required_checks": [
+        "provenance",
+        "adoption_scope"
+      ],
+      "attempts": [
+        {
+          "id": "delivery-01",
+          "kind": "verification",
+          "producer": "/root/packing_refs",
+          "tool": "Python Pillow 完整解码、字节比较与 SHA256 校验、逐行核对角色索引登记",
+          "prompt": "将第二轮上色的工作区同字节原件交付为单镜；核对源图、尺寸、采用与集成边界。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\dialogue_check.png",
+              "sha256": "69d7a9ecb26a9cc229f22bea155de891d70d715793a177dab36fab8e0b9111a5",
+              "role": "静态桌面 A2 和 B2 实际素材与原旁白覆盖对照，两幅含标签"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a19756-8f9b-7421-8295-4ac492f85063\\exec-bc5a4dbb-e25a-4175-b7a2-72977d713571.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "第二轮环境光色修订完整原图"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\delivery.json",
+              "sha256": "2f257a9776716a637cf0fbc1b37bc9a1e7bae3148653ccd5e59653ba2cd491e8",
+              "role": "结果来源、规格及3.42登记摘录"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/packing_refs",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "provenance",
+                "result": "pass",
+                "observation": "所交付PNG逐字节等同color-02生成器原图。解码1672×941 RGB；本图与上下布局对照各有完整指纹。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\delivery.json",
+                    "sha256": "2f257a9776716a637cf0fbc1b37bc9a1e7bae3148653ccd5e59653ba2cd491e8",
+                    "role": "结果来源、规格及3.42登记摘录"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\dialogue_check.png",
+                    "sha256": "69d7a9ecb26a9cc229f22bea155de891d70d715793a177dab36fab8e0b9111a5",
+                    "role": "静态桌面 A2 和 B2 实际素材与原旁白覆盖对照，两幅含标签"
+                  }
+                ]
+              },
+              {
+                "id": "adoption_scope",
+                "result": "pass",
+                "observation": "图像索引3.42已将本镜登记为候选／待用户审阅；依据开工时确认的场景独立交付，没有游戏接入或实机验收。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\delivery.json",
+                    "sha256": "2f257a9776716a637cf0fbc1b37bc9a1e7bae3148653ccd5e59653ba2cd491e8",
+                    "role": "结果来源、规格及3.42登记摘录"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+                    "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+                    "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    }
+  },
+  "adoption": {
+    "status": "confirmed",
+    "authorization": "2026-11-01 本聊天用户在审阅「三人重新收拾行装」后明确选定第二次上色（color-02）为定稿。所选为本记录 selected 指向的 c2_01_pack.png。",
+    "selected": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+        "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+        "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+      }
+    ],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\c2_01_pack.png",
+          "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+          "role": "与生成器第二轮原图逐字节核对的本镜工作区交付图"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "保留1672×941原生像素，正式工程尚未调用；静态桌面验证画布1920×1080。"
+      }
+    ],
+    "integration": {
+      "status": "passed",
+      "authorization": "2026-11-01 用户在本聊天明确批准接回原旁白“歇过脚，三人重新收拾行装，沿山路继续往前。”并在该句显示已定稿的第二次上色图。",
+      "evidence": [
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\runtime2.out.txt",
+          "sha256": "a6a9b3a19c83af1e9b315d65828831859ab9e7481968979b1392a5a43c64f3e7",
+          "role": "实机验收报告：版本、最终通过、11项断言"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\states.jsonl",
+          "sha256": "41c6c16fe040fd583d0cfe7d878b0d5d91df04ce578ccdbcb80ce243e464320e",
+          "role": "引擎记录的实际背景、完整旁白、实际窗口与历史"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\project\\game\\qa_pack.rpy",
+          "sha256": "6d1237ef167a7d9d664cbc49ece36f3e9435a6622c979f95a19c992b0c34ee7c",
+          "role": "隔离实机验收定义及所覆盖操作"
+        },
+        {
+          "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\lint.out.txt",
+          "sha256": "7bdc3b512c762fde6fc913437499c4d5dc8043f334f199ea23633f9164e3ef5c",
+          "role": "隔离 lint 输出"
+        }
+      ],
+      "runtime_image": "bg c2_01_pack_v1",
+      "static_verification": {
+        "reviewer": "/root 与 /root/packing_refs",
+        "result": "passed",
+        "matches": [
+          {
+            "file": "game/bg_images.rpy",
+            "line": 34,
+            "text": "image bg c2_01_pack_v1 = im.Scale(\"images/chapter2/c2_01_pack_v1.png\", 1920, 1080)"
+          },
+          {
+            "file": "game/script_chapter2.rpy",
+            "line": 48,
+            "text": "scene bg c2_01_pack_v1"
+          },
+          {
+            "file": "game/script_chapter2.rpy",
+            "line": 50,
+            "text": "narrator \"歇过脚，三人重新收拾行装，沿山路继续往前。\""
+          },
+          {
+            "file": "game/script_chapter2.rpy",
+            "line": 52,
+            "text": "scene bg c2_02_cpa_pq_v1"
+          }
+        ],
+        "scope": "L48 调用后到原旁白 L50，再于 L52 切入郡城；正式名、定义与调用一致。美术索引3.42与当前分镜已登记。",
+        "runtime_png": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_pack_v1.png",
+          "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+          "bytes": 3458352,
+          "width": 1672,
+          "height": 941,
+          "mode": "RGB",
+          "format": "PNG",
+          "bytes_equal_color_02_and_work_asset": true
+        },
+        "runtime_validation": "已完成，见同对象的 runtime_verification。",
+        "catalog": {
+          "code": "CG02·01·02",
+          "alias": "bg cg02_01_02",
+          "target": "bg c2_01_pack_v1",
+          "path": "images/chapter2/c2_01_pack_v1.png",
+          "local_chain": "全链逐项核对通过。索引程序生成的三份内容与官方渲染一致。",
+          "global_check": "全项目 --check 因与此镜无关的8个历史立绘缺文件阻断，报告首项为 c2_08_cpa_listen_v1.png。"
+        }
+      },
+      "runtime_verification": {
+        "platform": "Windows，隔离工程",
+        "engine": "Ren'Py 8.5.3.26051504",
+        "result": "passed",
+        "assertions": "11/11",
+        "scope": "切入收拾行装、完整旁白、下镜转郡城、存读档、回退及回看。",
+        "lint": "隔离工程 lint 退出0。",
+        "formal_tested_copy_hashes": [
+          {
+            "formal": {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "86e5fec79fa63362bed616ef8a8ca678460db403e5c1929561b76a5ba8126c9a",
+              "role": "正式工程验收时版本"
+            },
+            "tested_copy": {
+              "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\project\\game\\script_chapter2.rpy",
+              "sha256": "86e5fec79fa63362bed616ef8a8ca678460db403e5c1929561b76a5ba8126c9a",
+              "role": "隔离副本验收时版本"
+            }
+          },
+          {
+            "formal": {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\bg_images.rpy",
+              "sha256": "2870a38227d8f3cc2ed80082ff03e22f9fb547fb033f735584ef2200acf2c627",
+              "role": "正式工程验收时版本"
+            },
+            "tested_copy": {
+              "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\project\\game\\bg_images.rpy",
+              "sha256": "2870a38227d8f3cc2ed80082ff03e22f9fb547fb033f735584ef2200acf2c627",
+              "role": "隔离副本验收时版本"
+            }
+          },
+          {
+            "formal": {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_pack_v1.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "正式工程验收时版本"
+            },
+            "tested_copy": {
+              "path": "C:\\Users\\MSI\\.codex\\visualizations\\2026\\11\\01\\01a19756-8f9b-7421-8295-4ac492f85063\\pack_qa\\project\\game\\images\\chapter2\\c2_01_pack_v1.png",
+              "sha256": "dbf0ce9d741c71fc88c84590fb89b07520125204b575ec8a7163211e28839a13",
+              "role": "隔离副本验收时版本"
+            }
+          }
+        ],
+        "actual_checkpoint": "states.jsonl 中图像、旁白及显示尺寸均来自实际引擎。",
+        "history": "制作阶段的候选交付及当时尚未接入的快照保留。"
+      }
+    }
+  },
+  "visual_input_audit": {
+    "viewer": "/root/packing_refs",
+    "tool": "view_image",
+    "opened": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+        "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+        "role": "游戏正式前镜，河岸地理、日光与饰物"
+      },
+      {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+        "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+        "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+        "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+        "role": "下一镜 L116，携行箱形、人数、体量"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+        "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+        "role": "陈平安唯一脸部母版"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+        "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+        "role": "陈平安暖季衣装／背箱肩带"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\peiqian\\peiqian_master_v02.png",
+        "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+        "role": "裴钱儿童身份与正装短打母版"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+        "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+        "role": "朱敛老奴面皮脸部母版"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\zl\\zl_full_base_v1.png",
+        "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+        "role": "朱敛朴素长衫、长裤布鞋母版"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+        "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+        "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_gourd_ref.png",
+        "sha256": "25decf5704d179de23dcbe21862671f8e6bc4d62a8f3f8668daa34ccc4ba9110",
+        "role": "腰间朱红养剑葫与金纹"
+      }
+    ]
+  },
+  "source_change_notice": {
+    "at": "color-01 生成后独立复核前",
+    "original_runtime_script": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+    "original_sha256": "073b8fe9f80c3f7d9a61b3e3a9ddf4ac7755f8345bd18fe2434fe606fb9817c8",
+    "reproduced_baseline": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\script_baseline.txt",
+      "sha256": "dde30bd64bf036f8c53c5f463ec3d270dbe62d230680f44cd376b5e5bc3e284e",
+      "role": "制作开始时确认并实际使用的剧本摘录。旧版第二章末句 L111，今版已删除。"
+    },
+    "observed_runtime_sha256": "60b79abb94d497372007dda4a81a8b136191499ca0e95ff00a0079588aa68e9d",
+    "observed_change": "当前工程原先第111行整句已消失，现第48行即切入郡城。拟图为用户指定的故事时刻，未接入游戏。",
+    "original_fingerprint": {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "073b8fe9f80c3f7d9a61b3e3a9ddf4ac7755f8345bd18fe2434fe606fb9817c8",
+      "role": "现行剧本第二章 L9–118，交付句 L111"
+    },
+    "verified_git_blob": "de1d36bc3693dd050b029527e03278d7256fc952",
+    "verified_worktree_format": "CRLF；git cat-file 原文还原后完整 SHA256 与制作前一致。任务目录仅保留本镜所需行及原行号。",
+    "authorization": "用户点名的收拾行装镜头独立制作。按本聊天导演确认继续，只按任务开始时已核对的剧本文字作美术依据；不将已删除台词视为现行游戏台词。"
+  }
+}

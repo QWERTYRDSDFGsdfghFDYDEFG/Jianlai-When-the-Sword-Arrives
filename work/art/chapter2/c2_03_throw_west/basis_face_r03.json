@@ -1,0 +1,22 @@
+{
+  "authorization": "用户已明确允许局部生成并回填原图，当前为剩余的最后一轮自动修订。",
+  "scope": "只修陈平安鼻唇连接、唇线及朱敛眉眼/薄唇口髭的缩小后可读性；吴懿已通过并保持像素，裴钱为后脑背影。",
+  "target": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "before_sha256": "1cd11f4b9152d7333909ca35c1cb064657935e46b2ce636a23f643632b38bf4e",
+    "file_id": "30000000279f4",
+    "native": [
+      1672,
+      941
+    ]
+  },
+  "findings": [
+    "ID_CPA",
+    "ID_ZL"
+  ],
+  "approach": "同位局部生成更清晰、简化的关键线条，避免缩小后线条并色；仅两脸蒙版写回原文件，其他像素核验为零差异。",
+  "staging": "原站位、构图、地理、身体、动作、吴懿右手及核舟保持；同一staging方案未改。",
+  "incomplete_gates": "整体space仍被后镜地理对应和未来船展开净空阻断，本轮无权限扩大去改景；局部修复不能因此称完整Skill通过。",
+  "previous_actual_visual": "前轮已由两名独立代理查看同一当前1cd11f4b…原图及原像素局部，判吴pass、陈朱unverified、裴not_visible。",
+  "sequence": "前轮已发生的局部操作与本轮剩余修订继续保留真实次数；不刷新旧哈希，不覆盖旧结论。"
+}

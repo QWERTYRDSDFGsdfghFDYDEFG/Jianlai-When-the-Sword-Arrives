@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-01",
+  "chapter": {
+    "source": "game/script_chapter2.rpy",
+    "full_sha256_at_review": "073b8fe9f80c3f7d9a61b3e3a9ddf4ac7755f8345bd18fe2434fe606fb9817c8",
+    "lines": [
+      {
+        "n": 229,
+        "text": "    # 【郡城江畔·登船】"
+      },
+      {
+        "n": 230,
+        "text": "    window auto hide"
+      },
+      {
+        "n": 231,
+        "text": "    scene bg c2_03_quay_v2"
+      },
+      {
+        "n": 232,
+        "text": "    with trans_location"
+      },
+      {
+        "n": 233,
+        "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+      },
+      {
+        "n": 234,
+        "text": ""
+      },
+      {
+        "n": 235,
+        "text": "    window auto hide"
+      },
+      {
+        "n": 236,
+        "text": "    scene bg c2_03_throw_v1"
+      },
+      {
+        "n": 237,
+        "text": "    with trans_short"
+      },
+      {
+        "n": 238,
+        "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街道两旁，随即抛出一枚核雕小舟。\""
+      },
+      {
+        "n": 239,
+        "text": ""
+      },
+      {
+        "n": 240,
+        "text": "    window auto hide"
+      },
+      {
+        "n": 241,
+        "text": "    scene bg c2_03_reveal_v1"
+      },
+      {
+        "n": 242,
+        "text": "    with trans_illusion"
+      },
+      {
+        "n": 243,
+        "text": "    narrator \"水雾在街面上弥漫开来。\""
+      },
+      {
+        "n": 244,
+        "text": ""
+      },
+      {
+        "n": 245,
+        "text": "    narrator \"雾气散去，一艘三层楼船已低悬在众人面前。\""
+      },
+      {
+        "n": 246,
+        "text": ""
+      }
+    ]
+  },
+  "storyboard": {
+    "source": "game/Codex/chapter2_storyboard.md",
+    "full_sha256_at_review": "6258d4d7ea90b38dde8b3c9dceba9c4f6de66ef8cbc83292b1c40b898c416591",
+    "lines": [
+      {
+        "n": 22,
+        "text": "| 郡城江畔·登船 | [L229](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:229) | 首镜为华光楼码头朝西无人空镜，随后抛舟、化船、落符、搭板、升空 | 2026-11-01 确认首镜用左江右铺的新图，下一镜沿用左铺右江的四人抛舟图。先移开行人再变船，裴钱想买宝贝由旁白交代。 |"
+      },
+      {
+        "n": 182,
+        "text": "| 03-01 | 来到开阔处 | T057<br>[L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | CG02·03·01 | 已接入 | 无必需补图；不得将人物改记为站在水面或水中码头。 |"
+      },
+      {
+        "n": 183,
+        "text": "| 03-02 | 先让路，再抛出核舟 | T058–T059<br>[L116–121](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:116) | CG02·03·01 → CG02·03·02 | 已接入 | 让路动作由保留旁白交代，当前无必需补图。若要把让路改为无字，需要独立清场结果或挥袖差分；不能宣称已有移人动画。 |"
+      },
+      {
+        "n": 184,
+        "text": "| 03-03 | 楼船显形，低悬街面 | T060<br>[L125](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:125) | CG02·03·03 | 已接入 | 当前低悬状态已可见，无必需补图；无需重列完整船展开动画。 |"
+      }
+    ]
+  },
+  "index": {
+    "source": "game/Codex/character_image_index.md",
+    "full_sha256_at_review": "8dac60c320e564cf98bcaf3d46c3e0bbe4d3b2bd348d8b4040ac14673524dd14",
+    "lines": [
+      {
+        "n": 225,
+        "text": "2026-11-01 更新：首镜 `CG02·03·01` 采用[华光楼码头朝西无人定稿](../images/chapter2/c2_03_quay_v2.png)，状态为**当前使用／可调用**。源图为 `exec-c293ee84-5587-43d1-b847-97ce3b0db9f9.png`，正式文件与源图 SHA-256 均为 `bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943`。旧四人首镜 `c2_03_quay_v1.png` 已停用并保留。下一镜按用户决定继续使用 `c2_03_throw_v1.png`。"
+      },
+      {
+        "n": 232,
+        "text": "| `CG02·03·02`／`c2_03_throw_v1.png` | 吴懿丢出核舟，行人已让开 | `exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png` |"
+      },
+      {
+        "n": 233,
+        "text": "| `CG02·03·03`／`c2_03_reveal_v1.png` | 水雾显出三层楼船，无少女或木板 | `exec-124d365e-e26a-4b18-8578-ba98c5abd38a.png` |"
+      },
+      {
+        "n": 246,
+        "text": "人物仍按陈平安、裴钱、朱敛、吴懿现有标准：青绿敞口竹编书箱、侧挂斗笠和草鞋、单只朱红金纹养剑壶、无陈平安旧腰袋；裴钱保持儿童双髻和短衣长裤；朱敛无拐杖；吴懿沿用 S1 衣装。符纸少女仅为本场无名人物，不新增说话人或母版身份。"
+      }
+    ]
+  },
+  "catalog": {
+    "source": "game/image_catalog.json",
+    "full_sha256_at_review": "18f0f8a882de606d11fd4f0f66b80c2b506e56635febb48f4202789e3e20befc",
+    "assets": [
+      {
+        "code": "CG02·03·01",
+        "kind": "cg",
+        "title": "码头沿江街面（无人远景）",
+        "path": "images/chapter2/c2_03_quay_v2.png",
+        "status": "当前使用",
+        "availability": "可调用",
+        "character_ids": [],
+        "target": "bg c2_03_quay_v2",
+        "alias": "bg cg02_03_01",
+        "notes": "2026-11-01 定稿。华光楼码头朝西的无人空镜，左江右铺，柳树下石阶连接两层街面。铺前干街留出抛舟空地。"
+      },
+      {
+        "code": "CG02·03·02",
+        "kind": "cg",
+        "title": "核雕小舟：丢出",
+        "path": "images/chapter2/c2_03_throw_v1.png",
+        "status": "当前使用",
+        "availability": "可调用",
+        "character_ids": [
+          "01",
+          "02",
+          "06",
+          "10"
+        ],
+        "target": "bg c2_03_throw_v1",
+        "alias": "bg cg02_03_02",
+        "notes": "2026-09-24第三场独立换景。吴懿丢出核雕小舟，陈平安、裴钱、朱敛在旁；楼船尚未展开。 保留剧情原文，运行按1920×1080显示；文件基名、原始定义与剧情调用一致。"
+      },
+      {
+        "code": "CG02·03·03",
+        "kind": "cg",
+        "title": "水雾散开：三层楼船",
+        "path": "images/chapter2/c2_03_reveal_v1.png",
+        "status": "当前使用",
+        "availability": "可调用",
+        "character_ids": [
+          "01",
+          "02",
+          "06",
+          "10"
+        ],
+        "target": "bg c2_03_reveal_v1",
+        "alias": "bg cg02_03_03",
+        "notes": "2026-09-24第三场独立换景。核雕化作三层楼船，承接水雾、四五十人容量和挥袖让行人退至街道两旁的原文。 保留剧情原文，运行按1920×1080显示；文件基名、原始定义与剧情调用一致。"
+      }
+    ]
+  },
+  "say_layout": {
+    "source": "game/dialogue_ui.rpy",
+    "full_sha256_at_review": "6f52d74e54b57b7d017c7f9c4e6caeb5e46f64440a090ee14ac329723bdce25f",
+    "lines": [
+      {
+        "n": 253,
+        "text": "                tag = None"
+      },
+      {
+        "n": 254,
+        "text": "        left = 520 if avatar else (96 if small else 220)"
+      },
+      {
+        "n": 255,
+        "text": "        indent = 0 if is_a2 else 46"
+      },
+      {
+        "n": 256,
+        "text": "        name_size = (48 if is_a2 else 45) if small else (34 if is_a2 else 32)"
+      },
+      {
+        "n": 257,
+        "text": "        name_y = (738 if is_a2 else 722) if small else (800 if is_a2 else 780)"
+      },
+      {
+        "n": 258,
+        "text": "        body_y = 805 if small else (855 if is_a2 else 850)"
+      },
+      {
+        "n": 259,
+        "text": "        # 辅助字体由引擎放大；额外上移阅读区，给姓名和多行正文留足空间。"
+      },
+      {
+        "n": 260,
+        "text": "        font_scale = max(1.0, preferences.font_size)"
+      },
+      {
+        "n": 261,
+        "text": "        body_lift = int((font_scale - 1.0) * 180)"
+      }
+    ]
+  },
+  "original_target_before_work": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+    "size": [
+      1672,
+      941
+    ],
+    "equals_game_throw": true
+  }
+}

@@ -1,0 +1,1091 @@
+{
+  "schema_version": 1,
+  "task": {
+    "scene_id": "c2_03_throw_west",
+    "request": "现在需要修改下一镜，剑来场景制作项目专用 Skill",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "delivery",
+    "authorization": "用户在当前聊天点名项目场景制作 Skill 并要求“现在需要修改下一镜”。前镜已获准接入，第二镜仅获准修改。",
+    "target_size": [
+      1920,
+      1080
+    ],
+    "target_native_size": [
+      1672,
+      941
+    ],
+    "edit_original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png"
+  },
+  "sources": [
+    {
+      "path": "basis.json",
+      "sha256": "ec7645fbe6836ff4a8cd2f835deddc0bf7bab71ebd0dde513eb7b274c1087a48",
+      "role": "已确认剧情、现用索引、旧图原件与相邻镜头的冻结依据"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+      "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+      "role": "新环境和日光的唯一画面母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+      "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+      "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+      "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+      "role": "后镜当前运行画面，核对显形节点和机位差异"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "吴懿身份身形与S1衣装"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "陈平安夏季行装和相对体量"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "裴钱儿童身份与双髻短衣"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+      "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+      "role": "朱敛老奴面皮与身形"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "角色既有身份标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "角色既有身份标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "角色既有身份标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "角色既有身份标准"
+    },
+    {
+      "path": "C:/Users/MSI/.codex/visualizations/2026/09/20/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/scene3_street_rebuild_prompts.json",
+      "sha256": "a935e73b7a4fb1abfd35b4ef0df6a7f4148d0a54d4c83147ee43af9bbabbb9a9",
+      "role": "2026-09-24 第三场原作提示词与镜头历史"
+    },
+    {
+      "path": "C:/Users/MSI/.codex/visualizations/2026/09/20/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/scene3_asset_manifest.json",
+      "sha256": "3ad370b2394fe70bb2f6f61d332f4853c1f4f8dd713220c1eab6b53ac39ba50c",
+      "role": "2026-09-24 第三场正式图历史清单"
+    }
+  ],
+  "constraints": {
+    "locked": [
+      "从定稿的华光楼码头朝西机位承接，保留左江、右侧店铺、柳下石阶和上下干街。",
+      "保留旧抛舟图四人面貌、年龄、衣装、陈平安行具侧别、吴懿出手方向及刚离手的核舟。人物不镜像。",
+      "吴懿先挥袖清场，此时核舟仍为核雕小舟，水雾与三层楼船属于下一镜。",
+      "行动在右岸上层干街。吴懿在三名来客之前，脚底有实体承重。",
+      "只改原有制作原件，不动正在运行的 c2_03_throw_v1.png。图像中间态仅在内存检查。"
+    ],
+    "allowed_changes": [
+      "从首镜向铺前的干街适量推近以形成动作景别，保留左右朝向。",
+      "提取、等比缩放和平移以前已定稿的四人及核舟，并统一局部光色、边缘、落脚阴影。",
+      "清场后的少量行人可留在街边，空地、袖口至核舟的轮廓须可辨。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/throw_blocking",
+          "tool": "只读检查当前脚本、参考图、制作记录与布局约束",
+          "prompt": "定位第二章第三场第二镜已经确认的剧情时刻。",
+          "inputs": [
+            {
+              "path": "basis.json",
+              "sha256": "ec7645fbe6836ff4a8cd2f835deddc0bf7bab71ebd0dde513eb7b274c1087a48",
+              "role": "已确认剧情、现用索引、旧图原件与相邻镜头的冻结依据"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "后镜当前运行画面，核对显形节点和机位差异"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "brief.json",
+              "sha256": "11ab345ca41daa02bb303b26ca830010d00df7f2df9a715f21c389726283bdb2",
+              "role": "brief 阶段的正式文字成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_blocking",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "确认稿 L236–238 明确写挥袖让人、抛出核雕小舟。前后镜的场景名及下一段水雾已核。",
+                "evidence": [
+                  {
+                    "path": "brief.json",
+                    "sha256": "11ab345ca41daa02bb303b26ca830010d00df7f2df9a715f21c389726283bdb2",
+                    "role": "brief 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "basis.json",
+                    "sha256": "ec7645fbe6836ff4a8cd2f835deddc0bf7bab71ebd0dde513eb7b274c1087a48",
+                    "role": "已确认剧情、现用索引、旧图原件与相邻镜头的冻结依据"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "此刻四人驻足，焦点是袖口之外的小舟。现场人的旧姿态可以复用；后镜才出现楼船。",
+                "evidence": [
+                  {
+                    "path": "brief.json",
+                    "sha256": "11ab345ca41daa02bb303b26ca830010d00df7f2df9a715f21c389726283bdb2",
+                    "role": "brief 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "新环境和日光的唯一画面母版"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/throw_blocking",
+          "tool": "只读检查当前脚本、参考图、制作记录与布局约束",
+          "prompt": "区分地理、姿态、身份与衣装的依据。",
+          "inputs": [
+            {
+              "path": "brief.json",
+              "sha256": "11ab345ca41daa02bb303b26ca830010d00df7f2df9a715f21c389726283bdb2",
+              "role": "brief 阶段的正式文字成果"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "后镜当前运行画面，核对显形节点和机位差异"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿身份身形与S1衣装"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "陈平安夏季行装和相对体量"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "裴钱儿童身份与双髻短衣"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_full_base_v1.png",
+              "sha256": "7f75b6902262ede10e9db05574ede9d3fa603fa76f508584de7673b29d1558e5",
+              "role": "朱敛老奴面皮与身形"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "角色既有身份标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "角色既有身份标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+              "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+              "role": "角色既有身份标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+              "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+              "role": "角色既有身份标准"
+            },
+            {
+              "path": "C:/Users/MSI/.codex/visualizations/2026/09/20/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/scene3_street_rebuild_prompts.json",
+              "sha256": "a935e73b7a4fb1abfd35b4ef0df6a7f4148d0a54d4c83147ee43af9bbabbb9a9",
+              "role": "2026-09-24 第三场原作提示词与镜头历史"
+            },
+            {
+              "path": "C:/Users/MSI/.codex/visualizations/2026/09/20/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/scene3_asset_manifest.json",
+              "sha256": "3ad370b2394fe70bb2f6f61d332f4853c1f4f8dd713220c1eab6b53ac39ba50c",
+              "role": "2026-09-24 第三场正式图历史清单"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "references.json",
+              "sha256": "2e47b62b825af6349a38391900cdfc46bc189eb3d0a849089101de97cc7bd348",
+              "role": "references 阶段的正式文字成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_blocking",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "四人母版已实际查看，旧图里的朱敛、陈平安、裴钱、吴懿和四个身份的体量、主要服色与发式相符。",
+                "evidence": [
+                  {
+                    "path": "references.json",
+                    "sha256": "2e47b62b825af6349a38391900cdfc46bc189eb3d0a849089101de97cc7bd348",
+                    "role": "references 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "brief.json",
+                    "sha256": "11ab345ca41daa02bb303b26ca830010d00df7f2df9a715f21c389726283bdb2",
+                    "role": "brief 阶段的正式文字成果"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "锁定首镜为环境、旧抛舟镜为角色与动作像素、旧显形镜为后续边界。",
+                "evidence": [
+                  {
+                    "path": "references.json",
+                    "sha256": "2e47b62b825af6349a38391900cdfc46bc189eb3d0a849089101de97cc7bd348",
+                    "role": "references 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "新环境和日光的唯一画面母版"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/throw_blocking",
+          "tool": "只读检查当前脚本、参考图、制作记录与布局约束",
+          "prompt": "在华光楼朝西机位重排人物与核舟，使抛舟动作及见证关系可读。",
+          "inputs": [
+            {
+              "path": "references.json",
+              "sha256": "2e47b62b825af6349a38391900cdfc46bc189eb3d0a849089101de97cc7bd348",
+              "role": "references 阶段的正式文字成果"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            },
+            {
+              "path": "basis.json",
+              "sha256": "ec7645fbe6836ff4a8cd2f835deddc0bf7bab71ebd0dde513eb7b274c1087a48",
+              "role": "已确认剧情、现用索引、旧图原件与相邻镜头的冻结依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "composition.json",
+              "sha256": "7698a549f87cdcdd9d81d2a45ea553788513399cecb96fb9d3cfd4072d523b69",
+              "role": "composition 阶段的正式文字成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_blocking",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "原件中吴懿在三人前方，头身和手臂共同指向已离手核舟。移植时沿用人物侧别和注视关系。",
+                "evidence": [
+                  {
+                    "path": "composition.json",
+                    "sha256": "7698a549f87cdcdd9d81d2a45ea553788513399cecb96fb9d3cfd4072d523b69",
+                    "role": "composition 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "references.json",
+                    "sha256": "2e47b62b825af6349a38391900cdfc46bc189eb3d0a849089101de97cc7bd348",
+                    "role": "references 阶段的正式文字成果"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "留出袖口到核舟之间的间距。A2 普通字号正文的 1920×1080 画布起点 y855，折算原图约 y745；小屏及大字号另行核查。",
+                "evidence": [
+                  {
+                    "path": "composition.json",
+                    "sha256": "7698a549f87cdcdd9d81d2a45ea553788513399cecb96fb9d3cfd4072d523b69",
+                    "role": "composition 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "新环境和日光的唯一画面母版"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/throw_blocking",
+          "tool": "只读检查当前脚本、参考图、制作记录与布局约束",
+          "prompt": "先确认新旧街面的实际高差、人物足点与核舟投影的有效区域。",
+          "inputs": [
+            {
+              "path": "composition.json",
+              "sha256": "7698a549f87cdcdd9d81d2a45ea553788513399cecb96fb9d3cfd4072d523b69",
+              "role": "composition 阶段的正式文字成果"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            },
+            {
+              "path": "basis.json",
+              "sha256": "ec7645fbe6836ff4a8cd2f835deddc0bf7bab71ebd0dde513eb7b274c1087a48",
+              "role": "已确认剧情、现用索引、旧图原件与相邻镜头的冻结依据"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "space.json",
+              "sha256": "415064310a5a2f81c512e77dfcd48230e3e6a88b8115807c495006abf097f517",
+              "role": "space 阶段的正式文字成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_blocking",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "实看新底图，阶口位于柳树下，挡墙沿画面右下方延伸，低路在其左侧；四人必须能站在同一上层街。",
+                "evidence": [
+                  {
+                    "path": "space.json",
+                    "sha256": "415064310a5a2f81c512e77dfcd48230e3e6a88b8115807c495006abf097f517",
+                    "role": "space 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "composition.json",
+                    "sha256": "7698a549f87cdcdd9d81d2a45ea553788513399cecb96fb9d3cfd4072d523b69",
+                    "role": "composition 阶段的正式文字成果"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "门槛和阶面能提供尺度。以旧图真实鞋底等比落地，检查朝向、间距和阴影；本阶段只审核可执行的摆放边界，成图足点另在 sketch/color 实际复核。",
+                "evidence": [
+                  {
+                    "path": "space.json",
+                    "sha256": "415064310a5a2f81c512e77dfcd48230e3e6a88b8115807c495006abf097f517",
+                    "role": "space 阶段的正式文字成果"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "新环境和日光的唯一画面母版"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "verification",
+          "producer": "/root",
+          "tool": "既有定稿人物轮廓、非镜像等比变换、内存结构叠合及独立目检",
+          "prompt": "固定已确认的四人身份与抛舟手势，在朝西上层干街安排四人、两名让路行人及离手核舟；检查轮廓、足点与台阶关系。",
+          "inputs": [
+            {
+              "path": "space.json",
+              "sha256": "415064310a5a2f81c512e77dfcd48230e3e6a88b8115807c495006abf097f517",
+              "role": "space 阶段的正式文字成果"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "后镜当前运行画面，核对显形节点和机位差异"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_sources",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "四名主角可分；裴钱的双髻与孩童上身仍可见，两名路人退到两侧。",
+                "evidence": [
+                  {
+                    "path": "sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+                    "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+                    "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "复用原图吴懿动作，未镜像。右手与小舟分离；朱、陈脚和吴裙摆位于可支撑的街面。裴钱下肢有局部合理遮挡。",
+                "evidence": [
+                  {
+                    "path": "sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+                    "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+                    "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "取景在已确认西向码头上推近，旧镜的岸向未带入。核舟投影位于上层干街，彩稿另核地面缝线对比。",
+                "evidence": [
+                  {
+                    "path": "sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+                    "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+                    "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "passed",
+      "required_checks": [
+        "structure_preserved",
+        "palette_light"
+      ],
+      "attempts": [
+        {
+          "id": "color-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "像素蒙版提取、等比缩放、分层合成与单句柄原位PNG写回",
+          "prompt": "保留四位人物与抛舟动态原像素，以西向码头为环境。调整站位、边缘和接触影，确保核舟离手悬在上层干街。",
+          "inputs": [
+            {
+              "path": "sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "color_pass01_measurement.json",
+              "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+              "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_identity",
+            "verdict": "rework",
+            "checks": [
+              {
+                "id": "structure_preserved",
+                "result": "pass",
+                "observation": "已批准的人数、站位、朝向和见证关系保持，脚点位于上层石街。",
+                "evidence": [
+                  {
+                    "path": "color_pass01_measurement.json",
+                    "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+                    "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+                  }
+                ]
+              },
+              {
+                "id": "palette_light",
+                "result": "fail",
+                "observation": "核舟下缘靠近深色石缝，小尺寸下减弱离地感。",
+                "evidence": [
+                  {
+                    "path": "color_pass01_measurement.json",
+                    "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+                    "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "F1",
+                "severity": "soft",
+                "state": "open",
+                "problem": "核舟下缘与街面深色横缝靠近。",
+                "required_change": "把核舟及相应浅痕微移至较淡的铺石面，复核缩小后留出的空气。",
+                "preserve": "四位主角、两位让路行人、背景、站位及手势，其余区域像素不动。",
+                "evidence": [
+                  {
+                    "path": "color_pass01_measurement.json",
+                    "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+                    "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "color-02",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "内存局部蒙版合成，既有PNG文件句柄写回与解码差分",
+          "prompt": "只微移核舟及相应浅笔迹，使缩小后舟底与深色石板接缝之间留有浅石面。",
+          "inputs": [
+            {
+              "path": "sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "已审结构、精确落位、内存视觉证据定位与SHA"
+            },
+            {
+              "path": "color_pass01_measurement.json",
+              "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+              "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "新环境和日光的唯一画面母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+              "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+              "role": "原抛舟图内实际角色和道具像素，锁右手、行具与核舟"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+              "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+              "role": "原位写回并通过独立复核的西向抛舟彩图"
+            },
+            {
+              "path": "color_final_measurement.json",
+              "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+              "role": "最终写入、逐像素差分和独立色彩复核"
+            }
+          ],
+          "rework": {
+            "from_attempt": "color-01",
+            "finding_ids": [
+              "F1"
+            ],
+            "change": "舟心向左9.40、向上16.90像素，调整同一区域短笔迹。",
+            "preserve": "四位主角、两位行人、其余背景和手势。"
+          },
+          "review": {
+            "reviewer": "/root/throw_identity",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "structure_preserved",
+                "result": "pass",
+                "observation": "1337个变化像素限于舟和短笔迹；四人、路人、背景和抛舟手势均保持。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  },
+                  {
+                    "path": "color_final_measurement.json",
+                    "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+                    "role": "最终写入、逐像素差分和独立色彩复核"
+                  }
+                ]
+              },
+              {
+                "id": "palette_light",
+                "result": "pass",
+                "observation": "缩小整图、局部均可读出飞行，舟底与深石缝分离，F1通过复核。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  },
+                  {
+                    "path": "color_final_measurement.json",
+                    "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+                    "role": "最终写入、逐像素差分和独立色彩复核"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "preview": {
+      "status": "passed",
+      "required_checks": [
+        "actual_composite",
+        "dialogue_safe_area"
+      ],
+      "attempts": [
+        {
+          "id": "preview-01",
+          "kind": "verification",
+          "producer": "/root/throw_blocking",
+          "tool": "Pillow 读取正式源图和实际 A2 alpha、真实字体、剧本正文、继续标记，在内存叠合复核",
+          "prompt": "按默认 A2 分别叠当前抛舟短句和冻结合句，两种都目检主体和动作的可读性。",
+          "inputs": [
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+              "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+              "role": "原位写回并通过独立复核的西向抛舟彩图"
+            },
+            {
+              "path": "color_final_measurement.json",
+              "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+              "role": "最终写入、逐像素差分和独立色彩复核"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "preview_a2.json",
+              "sha256": "4f85db785b526469cfebb52eb557cec9de58ebc3c10eb7f5888dd93a344ae019",
+              "role": "实际A2内存叠合的布置、图像指纹与双人实际观察"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_identity",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "actual_composite",
+                "result": "pass",
+                "observation": "实际将完整彩图与 A2 原遮罩、字体和短句叠合；扁平成图没有待合的立绘层，显示效果和作者侧的离线预览一致。",
+                "evidence": [
+                  {
+                    "path": "preview_a2.json",
+                    "sha256": "4f85db785b526469cfebb52eb557cec9de58ebc3c10eb7f5888dd93a344ae019",
+                    "role": "实际A2内存叠合的布置、图像指纹与双人实际观察"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  }
+                ]
+              },
+              {
+                "id": "dialogue_safe_area",
+                "result": "pass",
+                "observation": "短句左下单行，头部、手、核舟未被文字或柔罩掩盖；裙摆和脚部压暗但仍可辨，两端阶口清楚。",
+                "evidence": [
+                  {
+                    "path": "preview_a2.json",
+                    "sha256": "4f85db785b526469cfebb52eb557cec9de58ebc3c10eb7f5888dd93a344ae019",
+                    "role": "实际A2内存叠合的布置、图像指纹与双人实际观察"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "delivery": {
+      "status": "passed",
+      "required_checks": [
+        "provenance",
+        "adoption_scope"
+      ],
+      "attempts": [
+        {
+          "id": "delivery-01",
+          "kind": "verification",
+          "producer": "/root/throw_blocking",
+          "tool": "原件重新解码、像素差与SHA256、NTFS对象、运行图指纹和角色索引核对",
+          "prompt": "核对最终交付原件、目标图规格、视觉复核与运行边界。",
+          "inputs": [
+            {
+              "path": "preview_a2.json",
+              "sha256": "4f85db785b526469cfebb52eb557cec9de58ebc3c10eb7f5888dd93a344ae019",
+              "role": "实际A2内存叠合的布置、图像指纹与双人实际观察"
+            },
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+              "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+              "role": "原位写回并通过独立复核的西向抛舟彩图"
+            },
+            {
+              "path": "color_final_measurement.json",
+              "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+              "role": "最终写入、逐像素差分和独立色彩复核"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "delivery.json",
+              "sha256": "dd31b4878b707f5d8863a91373e52212c8a30ba34e4808ee39aff23ce735f391",
+              "role": "正式交付原件、采用边界、纹理规格与接入状态"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/throw_blocking",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "provenance",
+                "result": "pass",
+                "observation": "重新打开原件及登记指纹，原生尺寸1672×941，核证同一NTFS对象与最终像素。",
+                "evidence": [
+                  {
+                    "path": "delivery.json",
+                    "sha256": "dd31b4878b707f5d8863a91373e52212c8a30ba34e4808ee39aff23ce735f391",
+                    "role": "正式交付原件、采用边界、纹理规格与接入状态"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  }
+                ]
+              },
+              {
+                "id": "adoption_scope",
+                "result": "pass",
+                "observation": "制作稿待用户确认，未改既有游戏抛舟图，未把A2离线使用验证计为新图的实机通过。",
+                "evidence": [
+                  {
+                    "path": "delivery.json",
+                    "sha256": "dd31b4878b707f5d8863a91373e52212c8a30ba34e4808ee39aff23ce735f391",
+                    "role": "正式交付原件、采用边界、纹理规格与接入状态"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+                    "role": "原位写回并通过独立复核的西向抛舟彩图"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+        "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+        "role": "原位写回并通过独立复核的西向抛舟彩图"
+      }
+    ],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+          "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+          "role": "原位写回并通过独立复核的西向抛舟彩图"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "原生1672×941，A2离线按1920×1080显示。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "current_revalidation_2026_11_01": {
+    "requested_at": "2026-11-01",
+    "request": "Skill更新了，修复出现的问题",
+    "status": "blocked_pending_local_face_repair",
+    "supersedes_completion_claim": true,
+    "reason": "新版逐人身份门槛下，上一轮衣装和原像素复用不能证明脸部身份。保留旧v1阶段作为历史，当前成果退为待修正。",
+    "reviewed_image": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+      "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75"
+    },
+    "method": "独立代理实际打开整图、已登记母版，并在MemoryStream内放大原像素头部，不生成新图片或补造细节。",
+    "character_checks": [
+      {
+        "character_id": "cpa",
+        "reviewer": "/root/identity_cpa_pq_v2",
+        "result": "unverified",
+        "region": [
+          945,
+          294,
+          79,
+          89
+        ],
+        "face_master": "game/lh/cpa/cpa_face_standard_01.png",
+        "comparisons": {
+          "face_shape": "右侧脸偏窄，下颌收束，但下巴边界不足以核对颏长。",
+          "features": "眼、鼻、唇和耳位混在少量色块，不能核验母版比例。",
+          "age": "青年大轮廓尚在，无法从该脸确认20至22岁观感。",
+          "hair": "单髻短碎发可辨，发际和玉簪细节不能核对。"
+        },
+        "repair": "依据母版第3格朝右侧脸，在原头脸区域恢复关键轮廓与五官可读性。",
+        "face_master_sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a"
+      },
+      {
+        "character_id": "wy",
+        "reviewer": "/root/identity_wy_zl_v2",
+        "result": "unverified",
+        "region": [
+          1070,
+          422,
+          85,
+          91
+        ],
+        "face_master": "game/lh/wy/wy_full_master_v1.png",
+        "comparisons": {
+          "face_shape": "侧脸下颌收束可见，额鼻唇颏转折模糊。",
+          "features": "近侧眼是一段暗线，眼尾、鼻底、唇峰不能分别核验。",
+          "age": "成年比例，无明显幼化，脸部细节不足。",
+          "hair": "盘髻、前发斜收和长发轮廓相容，发际细节不可辨。"
+        },
+        "repair": "依据S1最右90度侧脸，修复原脸区域的眉眼、鼻唇及小圆下巴。",
+        "face_master_sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e"
+      },
+      {
+        "character_id": "zl",
+        "reviewer": "/root/identity_wy_zl_v2",
+        "result": "unverified",
+        "region": [
+          837,
+          298,
+          59,
+          67
+        ],
+        "face_master": "game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+        "comparisons": {
+          "face_shape": "清瘦侧脸可辨，颧部与下颊转折不足以核对。",
+          "features": "眼眶、鼻梁、口髭短须只有大块，眼睑、鼻翼、上下唇位置混合。",
+          "age": "灰鬓和短须支持老人外观，皱纹和面皮结构不可辨。",
+          "hair": "黑灰后梳中小髻轮廓相容，发际细节不足。"
+        },
+        "angle_reference": "game/images/chapter2/c2_02_accept_v1.png",
+        "repair": "以固定老脸母版锁骨相，既有应允镜仅作向右略低头的角度和二维线条辅助。",
+        "face_master_sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66"
+      },
+      {
+        "character_id": "pq",
+        "reviewer": "/root/identity_cpa_pq_v2",
+        "result": "not_applicable",
+        "visibility": "not_visible",
+        "region": [
+          1009,
+          393,
+          54,
+          55
+        ],
+        "face_master": "game/lh/peiqian/peiqian_master_v02.png",
+        "reason": "沿用本镜已选站位，裴钱在吴懿身后朝前观看抛舟，后脑朝镜头，只露耳颊窄片，眼鼻口不可见。此项不表示脸部身份通过。",
+        "comparisons": {
+          "face_shape": "后脑，无法核对下颌。",
+          "features": "无可辨认眼鼻口。",
+          "age": "儿童体量与轮廓可见，脸部年龄不适用。",
+          "hair": "双团髻与朴素绑绳可辨。"
+        },
+        "face_master_sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb"
+      }
+    ],
+    "tool_boundary": {
+      "image_gen": "接口产生独立结果，未提供对本PNG原文件的局部写入能力。",
+      "photoshop": "已确认连接和选区生成可用，但已暴露的generative_fill只接收prompt，没有可登记母版实际传入的参数。save_document未保证保留原文件对象。",
+      "action": "当前未执行图像编辑；修复限制仍以用户要求的原位局部编辑和禁止新增候选/预览/备份/临时文件为准。"
+    },
+    "first_shot_fix": {
+      "path": "game/script_chapter2.rpy",
+      "change": "scene bg c2_03_quay_v1 → scene bg c2_03_quay_v2",
+      "authorization": "用户此前已明确现在切换首镜，下一镜暂用原图。"
+    },
+    "validation": {
+      "first_shot_references": "c2_03_quay_v2 的文件、bg定义、CG代号映射与脚本调用一致",
+      "next_shot_references": "c2_03_throw_v1 的文件、bg定义、CG代号映射与脚本调用一致",
+      "next_label": "chapter3_start 存在",
+      "scoped_script_change": "仅恢复首镜scene调用。当前脚本SHA256 238c6fce00a24850b4b23f2a0eeb8267eb92f35ac32425605775c06c44cd93aa",
+      "image_sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+      "catalog_check": "全量check被既有缺图 images/chapter2/c2_08_cpa_listen_v1.png 阻断，非本轮范围。",
+      "diff_check": "当前脚本第134和425行存在既有尾随空白；本轮首镜改动未引入。",
+      "runtime": "未执行RenPy lint或实机。启动引擎会写编译、缓存及备份文件，当前按禁止新建临时/备份文件约束保留未验证。",
+      "image_edit": "请求用户决定是否允许局部生成素材回填。尚未获得答复，未改图。"
+    }
+  }
+}

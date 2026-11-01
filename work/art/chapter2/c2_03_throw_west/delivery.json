@@ -1,0 +1,40 @@
+{
+  "selected": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+    "role": "原位写回并通过独立复核的西向抛舟彩图"
+  },
+  "native": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "format": "PNG",
+    "bytes": 2056891,
+    "raw_RGBA_sha256": "39b3c2665bd9ca54982367c783ca0253d5ef1c911d2dd868bcde293a52614e88"
+  },
+  "ntfs_file_id": "0x000000000000000000030000000279f4",
+  "write_verification": {
+    "path": "color_final_measurement.json",
+    "sha256": "6e535845761a02d51d294b53f9a0d715937506f316227483894386006bf910c3",
+    "role": "最终写入、逐像素差分和独立色彩复核"
+  },
+  "ui_preview": {
+    "path": "preview_a2.json",
+    "sha256": "4f85db785b526469cfebb52eb557cec9de58ebc3c10eb7f5888dd93a344ae019",
+    "role": "实际A2内存叠合的布置、图像指纹与双人实际观察"
+  },
+  "running_throw": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_throw_v1.png",
+    "sha256": "d3893734e4373406909c1ab38122e8186b2638f5648f95048e4e2bdc3c6bd46f",
+    "role": "当前运行的旧抛舟镜"
+  },
+  "environment": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+    "role": "环境来源"
+  },
+  "adoption": "待用户确认，非游戏运行文件。",
+  "index": "game/Codex/character_image_index.md 已登记此原件为待确认。",
+  "integration": "未请求、未执行。制作中并行的剧本与冻结依据出现的差异见 preview_a2.json。",
+  "unverified": "实机、存读档、移动端和辅助字号。"
+}

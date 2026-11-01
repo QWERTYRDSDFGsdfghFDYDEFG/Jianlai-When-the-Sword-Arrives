@@ -1,0 +1,23 @@
+{
+  "task": "区分地理、姿态、身份与衣装的依据。",
+  "use": {
+    "quay_v2": "环境、干街和光色",
+    "throw_v1": "切出原角色、完整服装、投掷动态和核舟",
+    "reveal_v1": "仅核后继剧情和机位边界",
+    "character_masters": [
+      "game/lh/wy/wy_full_master_v1.png",
+      "game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+      "game/lh/peiqian/peiqian_master_v02.png",
+      "game/lh/zl/zl_full_base_v1.png"
+    ],
+    "identity_rules": [
+      "game/lh/wy/wy_face_ref.md",
+      "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+      "game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "game/lh/zl/zl_face_ref.md"
+    ]
+  },
+  "actual_view": "已打开前后景与原镜整图，另在内存中查看吴懿三面版、陈平安暖季装、裴钱v02、朱敛全身母版。同一人像素材直接复用，核对时主要看衣装背部和佩物。",
+  "visible": "旧图右手扬出、长袖朝画右，陈平安背青绿书箱、腰侧红壶，裴钱儿童双髻短衣，朱敛棕衣略躬身。",
+  "source_conflict": "原图商铺在左、江在右。只继承人物和小舟，保留新底图的岸向。"
+}

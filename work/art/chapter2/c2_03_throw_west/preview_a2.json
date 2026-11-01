@@ -1,0 +1,157 @@
+{
+  "layout": "桌面 A2、默认字号，内存实际叠合结果（非游戏实机）。",
+  "asset": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+    "role": "原位写回并通过独立复核的西向抛舟彩图"
+  },
+  "ui_assets": [
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/gui/dialogue/soft_a2_mask.png",
+      "sha256": "bf7ef51e12520ab5a123bf8982d2be61a10a24bff9e5b06a5fd22273c2096001",
+      "role": "项目原透明遮罩"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/fonts/noto_sans_sc_light.ttf",
+      "sha256": "caa5a9a8ba383dfc5a863e7eb5cbb8bd553a0e63dd062c3ee70871fbd8dfeae6",
+      "role": "项目正文字体"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/gui/dialogue/soft_continue.svg",
+      "sha256": "8ec8d57b30a359109181215c1d9756e340ca21ee21cbc334117975cd94fcbc5a",
+      "role": "继续标记"
+    }
+  ],
+  "render": {
+    "canvas": [
+      1920,
+      1080
+    ],
+    "solid": "#31312e",
+    "text_xy": [
+      220,
+      855
+    ],
+    "text_size": 38,
+    "text_color": "#f2eadf",
+    "text_max_width": 1500,
+    "thumbnail": [
+      960,
+      540
+    ],
+    "continue_xy": [
+      1805,
+      960
+    ]
+  },
+  "observed": [
+    {
+      "text": "随即抛出一枚核雕小舟。",
+      "text_length_px": 418,
+      "box": [
+        218,
+        859,
+        640,
+        899
+      ],
+      "rgb_sha256": "1b6cc2a4176a4e311854161ceb647d06098576f5b77e5483828818ccfbbf9f9c",
+      "review_jpeg_sha256": "4280822ea875fb570c62aa1318a7872604e0ee68a0ec15d6eb9afccf9ebcefca"
+    },
+    {
+      "text": "吴懿一挥袖，将行人轻轻移到街道两旁，随即抛出一枚核雕小舟。",
+      "text_length_px": 1102,
+      "box": [
+        218,
+        858,
+        1324,
+        899
+      ],
+      "rgb_sha256": "8e293140bb4f431b974f391668832743b5c72a52a6fb8b654870b7fec8ab2f64",
+      "review_jpeg_sha256": "d33d1d0f35702c96f281e43b4c745d51e73127ab21262a4ed9e25c6e73b10414"
+    }
+  ],
+  "source_logic": [
+    {
+      "path": "game/screens.rpy",
+      "sha256_at_review": "5f8891f3841e13261320512104272d969b2b0324ef5366c90b7862dc41f2c8a2"
+    },
+    {
+      "path": "game/dialogue_ui.rpy",
+      "sha256_at_review": "6f52d74e54b57b7d017c7f9c4e6caeb5e46f64440a090ee14ac329723bdce25f"
+    },
+    {
+      "path": "game/script_chapter2.rpy",
+      "sha256_at_review": "86e5fec79fa63362bed616ef8a8ca678460db403e5c1929561b76a5ba8126c9a"
+    }
+  ],
+  "current_script": [
+    {
+      "line": 115,
+      "text": "    scene bg c2_03_quay_v1"
+    },
+    {
+      "line": 116,
+      "text": "    with trans_location"
+    },
+    {
+      "line": 117,
+      "text": ""
+    },
+    {
+      "line": 118,
+      "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+    },
+    {
+      "line": 119,
+      "text": "    # 03-02｜让路前置，避免楼船出现后才补述行人去向。"
+    },
+    {
+      "line": 120,
+      "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街边。\""
+    },
+    {
+      "line": 121,
+      "text": ""
+    },
+    {
+      "line": 122,
+      "text": "    scene bg c2_03_throw_v1"
+    },
+    {
+      "line": 123,
+      "text": "    with trans_short"
+    },
+    {
+      "line": 124,
+      "text": ""
+    },
+    {
+      "line": 125,
+      "text": "    narrator \"随即抛出一枚核雕小舟。\""
+    },
+    {
+      "line": 126,
+      "text": "    scene bg c2_03_reveal_v1"
+    },
+    {
+      "line": 127,
+      "text": "    with trans_illusion"
+    },
+    {
+      "line": 128,
+      "text": ""
+    }
+  ],
+  "current_script_note": "制作期间的并行剧本更新使首镜调用回到v1，清场与抛舟分成两条旁白。首轮冻结的整句和完成时磁盘短句都已叠合查看。",
+  "reviewers": [
+    "/root/throw_blocking",
+    "/root/throw_identity"
+  ],
+  "visual_result": "短句落在左下低路；冻结长句仍在单行，只触及吴懿下摆。所有头部、手势及核舟均无遮挡。吴下摆、陈鞋受柔罩压暗，阶口清楚。",
+  "excluded": [
+    "RenPy实机",
+    "移动端",
+    "辅助字号",
+    "存读档"
+  ]
+}

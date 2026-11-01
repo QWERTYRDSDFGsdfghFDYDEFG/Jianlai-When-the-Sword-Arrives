@@ -14,16 +14,26 @@ from pathlib import Path
 STAGES = {
     "brief": ("source_scope", "narrative_focus"),
     "references": ("identity_basis", "reference_roles"),
-    "composition": ("story_relation", "framing"),
-    "space": ("layout", "grounding"),
-    "sketch": ("identity", "anatomy", "continuity"),
-    "color": ("structure_preserved", "palette_light"),
-    "preview": ("actual_composite", "dialogue_safe_area"),
-    "delivery": ("provenance", "adoption_scope"),
+    "composition": ("story_relation", "framing", "staging"),
+    "space": ("layout", "grounding", "staging"),
+    "sketch": ("identity", "anatomy", "continuity", "staging"),
+    "color": ("identity", "structure_preserved", "palette_light", "staging"),
+    "preview": ("identity", "actual_composite", "dialogue_safe_area", "staging"),
+    "delivery": ("identity", "provenance", "adoption_scope", "staging"),
 }
+IDENTITY_STAGES = {"sketch", "color", "preview", "delivery"}
+STAGING_STAGES = {"composition", "space"} | IDENTITY_STAGES
+STAGING_FIELDS = ("position", "footing", "facing", "gaze", "scale_depth", "occlusion")
+SCENE_STAGING_FIELDS = ("camera", "action_target", "action_space", "route", "continuity")
+IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tif", ".tiff"}
 CONDITIONAL = {"identity_basis", "identity", "anatomy", "grounding",
-               "actual_composite", "dialogue_safe_area"}
+               "actual_composite", "dialogue_safe_area", "staging"}
 BOUNDARY = "Only record structure and file fingerprints are checked; visual quality and user approval are not established by this tool."
+
+
+def staging_digest(plan):
+    return hashlib.sha256(json.dumps(plan, ensure_ascii=False, sort_keys=True,
+                                     separators=(",", ":")).encode("utf-8")).hexdigest()
 
 
 def digest(path):
@@ -88,13 +98,16 @@ def validate(record, record_path):
                     errors.append(loc + " cannot read file: " + str(exc))
                 if output_owner:
                     key = str(target).casefold() if sys.platform == "win32" else str(target)
-                    need(key not in seen_outputs or seen_outputs[key] == output_owner,
+                    prior = seen_outputs.get(key)
+                    reusable = prior and prior[0].split("-")[0] != output_owner.split("-")[0] and prior[1] == checksum.lower()
+                    need(prior is None or prior[0] == output_owner or reusable,
                          loc + " reuses a previous attempt output path; preserve immutable outputs")
-                    seen_outputs[key] = output_owner
+                    seen_outputs[key] = (output_owner, checksum.lower())
         return entries
 
     record = obj(record, "record")
-    need(record.get("schema_version") == 1, "schema_version must be 1")
+    need(record.get("schema_version") == 2,
+         "schema_version must be 2; v1 is historical only: recover actual identity inputs and reviews before continuing, never relabel old passes")
     task = obj(record.get("task"), "task")
     for field in ("scene_id", "request", "project_root", "authorization"):
         need(nonempty(task.get(field)), "task." + field + " is required")
@@ -108,6 +121,148 @@ def validate(record, record_path):
     if nonempty(task.get("project_root")):
         need(Path(task["project_root"]).is_absolute() and Path(task["project_root"]).is_dir(), "task.project_root must be an existing absolute directory")
     sources = files(record.get("sources"), "sources")
+    identity = obj(record.get("identity"), "identity")
+    characters = {}
+    for ci, raw_character in enumerate(items(identity.get("characters"), "identity.characters")):
+        label = f"identity.characters[{ci}]"
+        character = obj(raw_character, label)
+        cid = character.get("id")
+        if need(nonempty(cid), label + ".id is required"):
+            need(cid not in characters, label + ": duplicate character id")
+            characters[cid] = character
+        need(character.get("visibility") in ("visible", "not_visible"), label + ": invalid visibility")
+        if character.get("visibility") == "not_visible":
+            need(nonempty(character.get("visibility_reason")), label + ": not_visible needs a narrative occlusion/back-view reason, not low resolution")
+        for field in ("face_master", "standard"):
+            entry = files([character.get(field)], label + "." + field, required=True)
+            need(signatures(entry) <= signatures(sources), label + "." + field + " must be bound to sources")
+        master = character.get("face_master")
+        if isinstance(master, dict) and nonempty(master.get("path")):
+            need(Path(master["path"]).suffix.lower() in IMAGE_SUFFIXES, label + ".face_master must be an image")
+    absence = identity.get("absence_reason")
+    need(isinstance(absence, str), "identity.absence_reason must be a string")
+    if characters:
+        need(not absence, "identity.absence_reason must be empty when characters are present")
+    face_masters = [c.get("face_master") for c in characters.values()]
+
+    staging = obj(record.get("staging", {}), "staging")
+    raw_stages = record.get("stages")
+    staging_started = isinstance(raw_stages, dict) and any(
+        isinstance(raw_stages.get(name), dict) and
+        (raw_stages[name].get("attempts") or raw_stages[name].get("status") == "passed")
+        for name in STAGING_STAGES)
+    staging_required = bool(characters) and staging_started
+    if staging_required:
+        for field in ("anchors",) + SCENE_STAGING_FIELDS:
+            need(nonempty(staging.get(field)), "staging." + field + " needs a concrete scene plan")
+    staging_evidence = files(staging.get("evidence", []), "staging.evidence", required=staging_required)
+    need(signatures(staging_evidence) <= signatures(sources), "staging.evidence must be bound to sources")
+    staging_characters = []
+    for ci, raw_placement in enumerate(items(staging.get("characters", []), "staging.characters")):
+        label = f"staging.characters[{ci}]"
+        placement = obj(raw_placement, label)
+        cid = placement.get("character_id")
+        need(isinstance(cid, str) and cid in characters, label + ": unknown character_id")
+        need(cid not in staging_characters, label + ": duplicate character placement")
+        staging_characters.append(cid)
+        if staging_required:
+            for field in STAGING_FIELDS:
+                need(nonempty(placement.get(field)), label + "." + field + " needs a concrete staging target")
+    if staging_required:
+        need(len(staging_characters) == len(characters) and all(cid in staging_characters for cid in characters),
+             "staging.characters must cover every character exactly once")
+    staging_sha256 = staging_digest(staging) if characters else None
+
+    def identity_input(attempt, inputs, label):
+        if not characters or attempt.get("kind") != "image":
+            return
+        need(signatures(face_masters) <= signatures(inputs), label + ": every face master must be in this attempt's inputs")
+        binding = obj(attempt.get("identity_input"), label + ".identity_input")
+        completed = bool(attempt.get("outputs")) or attempt.get("review") is not None
+        method = binding.get("method")
+        need(method in ("reference_images", "preserved_pixels"), label + ": invalid identity_input.method")
+        if method == "reference_images":
+            if completed:
+                need(nonempty(binding.get("call_id")), label + ": actual image tool call_id is required")
+            args = obj(binding.get("arguments"), label + ".identity_input.arguments")
+            need(args.get("prompt") == attempt.get("prompt"), label + ": recorded tool prompt must match the attempt prompt")
+            paths = items(args.get("referenced_image_paths"), label + ".identity_input.arguments.referenced_image_paths")
+            need(all(nonempty(x) and Path(x).is_absolute() for x in paths), label + ": actual image references must be absolute paths")
+            def key(path):
+                value = str((base / path).resolve())
+                return value.casefold() if sys.platform == "win32" else value
+            actual = {key(path) for path in paths if nonempty(path)}
+            need(all(key(m["path"]) in actual for m in face_masters if isinstance(m, dict) and nonempty(m.get("path"))),
+                 label + ": actual tool request is missing a face master")
+            need(not args.get("num_last_images_to_include"), label + ": use explicit local face reference paths, not an unbound recent-image count")
+        elif method == "preserved_pixels":
+            source = files([binding.get("source")], label + ".identity_input.source", required=True)
+            need(signatures(source) <= signatures(inputs), label + ": preserved pixel source must be in inputs")
+            files(binding.get("evidence", []), label + ".identity_input.evidence", required=completed)
+
+    def character_review(attempt, review, inputs, outputs, label, identity_result, staging_result):
+        entries = items(review.get("character_checks", []), label + ".review.character_checks")
+        found = []
+        reviewed_images = set()
+        passable = True
+        placement_passable = True
+        for ci, raw_check in enumerate(entries):
+            loc = f"{label}.review.character_checks[{ci}]"
+            check = obj(raw_check, loc)
+            cid = check.get("character_id")
+            known = isinstance(cid, str) and cid in characters
+            need(known, loc + ": unknown character_id")
+            need(cid not in found, loc + ": duplicate character review")
+            found.append(cid)
+            result = check.get("result")
+            need(result in ("pass", "fail", "unverified", "not_applicable"), loc + ": invalid identity result")
+            for field in ("observation", "view"):
+                need(nonempty(check.get(field)), loc + "." + field + " is required")
+            picture = files([check.get("image")], loc + ".image", required=True)
+            if isinstance(check.get("image"), dict) and nonempty(check["image"].get("path")):
+                need(Path(check["image"]["path"]).suffix.lower() in IMAGE_SUFFIXES, loc + ": reviewed image must be an image file")
+            image_outputs = [entry for entry in outputs if isinstance(entry, dict) and nonempty(entry.get("path")) and Path(entry["path"]).suffix.lower() in IMAGE_SUFFIXES]
+            current = outputs if attempt.get("kind") == "image" else image_outputs or inputs
+            need(signatures(picture) <= signatures(current), loc + ": reviewed image must belong to this attempt's current image outputs (or unchanged input when no image is output)")
+            reviewed_images.update(signatures(picture))
+            if not image_outputs and last_passed_identity_image:
+                need(signatures(picture) == last_passed_identity_image, loc + ": unchanged-image review must follow the last passed identity-reviewed image")
+            evidence = files(check.get("evidence"), loc + ".evidence", required=True)
+            need(signatures(picture) <= signatures(evidence), loc + ": identity evidence must include the reviewed image")
+            if known:
+                character = characters[cid]
+                need(signatures([character.get("face_master")]) <= signatures(evidence), loc + ": identity evidence must include this character's face master")
+                if result == "not_applicable":
+                    need(character.get("visibility") == "not_visible", loc + ": a visible face cannot waive identity review")
+                if result == "pass":
+                    need(character.get("visibility") == "visible", loc + ": hidden faces cannot claim a facial identity pass")
+            if result == "pass":
+                comparisons = obj(check.get("comparisons"), loc + ".comparisons")
+                for field in ("face_shape", "features", "age", "hair"):
+                    need(nonempty(comparisons.get(field)), loc + ".comparisons." + field + " needs a concrete comparison")
+            if result not in ("pass", "not_applicable"):
+                passable = False
+            placement = obj(check.get("placement"), loc + ".placement")
+            placement_result = placement.get("result")
+            need(placement_result in ("pass", "fail", "unverified"), loc + ".placement: invalid result")
+            need(nonempty(placement.get("observation")), loc + ".placement.observation is required")
+            if placement_result == "pass":
+                observations = obj(placement.get("observations"), loc + ".placement.observations")
+                for field in STAGING_FIELDS:
+                    need(nonempty(observations.get(field)), loc + ".placement.observations." + field + " needs a concrete comparison")
+            else:
+                placement_passable = False
+        need(len(found) == len(characters) and all(cid in found for cid in characters), label + ": identity review must cover every character exactly once")
+        need(len(reviewed_images) <= 1, label + ": every character must be reviewed in the same single scene image")
+        if any(c.get("visibility") == "visible" for c in characters.values()):
+            need(identity_result != "not_applicable", label + ": visible characters require an identity check")
+        if not passable:
+            need(identity_result not in ("pass", "not_applicable") and review.get("verdict") != "pass", label + ": failed/unverified character identity cannot pass")
+        if not placement_passable:
+            need(staging_result not in ("pass", "not_applicable") and review.get("verdict") != "pass",
+                 label + ": failed/unverified character placement cannot pass staging or the review")
+        return reviewed_images
+
     history_counts = {stage: 0 for stage in STAGES}
     history_extensions = {stage: 0 for stage in STAGES}
     extension_keys = set()
@@ -130,7 +285,7 @@ def validate(record, record_path):
         except (OSError, ValueError) as exc:
             errors.append("Cannot load previous record: " + str(exc))
             break
-        need(cursor.get("schema_version") == 1, "previous record must use schema_version 1")
+        need(cursor.get("schema_version") in (1, 2), "previous record must use schema_version 1 or 2")
         prior_task = obj(cursor.get("task"), "previous task")
         need(prior_task.get("scene_id") == task.get("scene_id"), "previous record must belong to the same scene_id")
         prior_stages = obj(cursor.get("stages"), "previous stages")
@@ -174,11 +329,14 @@ def validate(record, record_path):
     previous_passed = True
     previous_outputs = sources
     next_stage = None
+    last_passed_identity_image = set()
     for stage_index, (name, required_ids) in enumerate(STAGES.items()):
         stage = obj(stages.get(name), "stages." + name)
         status = stage.get("status")
         need(status in ("pending", "in_progress", "passed", "blocked"), name + ": invalid status")
         attempts = items(stage.get("attempts"), name + ".attempts")
+        if name == "references" and (attempts or status == "passed") and not characters:
+            need(nonempty(absence), "identity.absence_reason is required for a scene without characters")
         checks_needed = items(stage.get("required_checks"), name + ".required_checks")
         need(all(nonempty(x) for x in checks_needed), name + ": required check IDs must be strings")
         need(all(x in checks_needed for x in required_ids), name + ": missing mandatory check IDs")
@@ -202,6 +360,7 @@ def validate(record, record_path):
             need(bool(sources), "brief: source fingerprints are required")
             need(bool(constraints.get("locked")) and bool(constraints.get("allowed_changes")), "brief: locked constraints and allowed changes are required")
             need(not constraints.get("uncertainties"), "brief: unresolved uncertainties cannot pass")
+        stage_identity_image = set()
         for index, raw_attempt in enumerate(attempts):
             loc = f"{name}.attempts[{index}]"
             attempt = obj(raw_attempt, loc)
@@ -227,6 +386,10 @@ def validate(record, record_path):
                 need(bool(finding_ids) and all(nonempty(x) and x in prior_ids for x in finding_ids), loc + ": rework needs existing finding IDs")
             inputs = files(attempt.get("inputs"), loc + ".inputs", required=True)
             need(bool(signatures(inputs) & signatures(previous_outputs)), loc + ": inputs must include a current previous-stage output (brief: a source)")
+            identity_input(attempt, inputs, loc)
+            if name in STAGING_STAGES and characters:
+                need(attempt.get("staging_sha256") == staging_sha256, loc + ": staging_sha256 must match the current staging plan")
+                need(signatures(staging_evidence) <= signatures(inputs), loc + ": inputs must include all staging evidence")
             review = attempt.get("review")
             outputs = files(attempt.get("outputs"), loc + ".outputs", required=review is not None, output_owner=f"{name}-{index}")
             if review is None:
@@ -234,13 +397,18 @@ def validate(record, record_path):
                 continue
             review = obj(review, loc + ".review")
             need(nonempty(review.get("reviewer")), loc + ": reviewer identity is required")
-            if name in ("sketch", "color", "preview"):
+            if name in IDENTITY_STAGES or (name == "space" and characters):
                 need(review.get("reviewer") != attempt.get("producer"), loc + ": reviewer must be independent of producer")
+            if name in STAGING_STAGES and characters:
+                need(review.get("staging_sha256") == staging_sha256, loc + ": review.staging_sha256 must match the current staging plan")
             verdict = review.get("verdict")
             need(verdict in ("pass", "rework", "blocked"), loc + ": invalid review verdict")
             reviewed_ids = []
             review_evidence = []
             all_pass = True
+            identity_result = None
+            staging_result = None
+            staging_check_evidence = []
             for ci, raw_check in enumerate(items(review.get("checks"), loc + ".review.checks")):
                 check_loc = f"{loc}.review.checks[{ci}]"
                 check = obj(raw_check, check_loc)
@@ -248,14 +416,36 @@ def validate(record, record_path):
                 need(nonempty(cid), check_loc + ": check ID is required")
                 need(cid not in reviewed_ids, check_loc + ": duplicate check ID")
                 reviewed_ids.append(cid)
+                if cid == "identity":
+                    identity_result = result
+                if cid == "identity_basis" and characters:
+                    need(result != "not_applicable", check_loc + ": character identity basis cannot be waived")
                 need(result in ("pass", "fail", "unverified", "not_applicable"), check_loc + ": invalid result")
                 need(nonempty(check.get("observation")), check_loc + ": observation/reason is required")
-                review_evidence.extend(files(check.get("evidence"), check_loc + ".evidence", required=True))
+                check_evidence = files(check.get("evidence"), check_loc + ".evidence", required=True)
+                review_evidence.extend(check_evidence)
+                if cid == "staging":
+                    staging_result = result
+                    staging_check_evidence = check_evidence
+                    if characters:
+                        need(result != "not_applicable", check_loc + ": character staging cannot be waived")
+                        need(signatures(staging_evidence) <= signatures(check_evidence), check_loc + ": staging evidence must include the current plan sources")
+                        if result == "pass":
+                            observations = obj(check.get("observations"), check_loc + ".observations")
+                            for field in SCENE_STAGING_FIELDS:
+                                need(nonempty(observations.get(field)), check_loc + ".observations." + field + " needs a concrete scene observation")
+                    else:
+                        need(result == "not_applicable", check_loc + ": staging without characters must be not_applicable")
                 if result == "not_applicable":
                     need(cid in CONDITIONAL, check_loc + ": this check cannot be not_applicable")
                 if result not in ("pass", "not_applicable"):
                     all_pass = False
             need(all(cid in reviewed_ids for cid in checks_needed), loc + ": review is missing required checks")
+            if name in IDENTITY_STAGES:
+                stage_identity_image = character_review(attempt, review, inputs, outputs, loc, identity_result, staging_result)
+                if characters:
+                    need(stage_identity_image <= signatures(staging_check_evidence),
+                         loc + ": staging evidence must include the same current image reviewed for every character")
             hard_open = False
             for fi, raw_finding in enumerate(items(review.get("findings"), loc + ".review.findings")):
                 floc = f"{loc}.review.findings[{fi}]"
@@ -281,6 +471,8 @@ def validate(record, record_path):
                     blockers.append(name + ": latest review is blocked")
                 if verdict == "rework" and used_attempts >= limits[name]:
                     blockers.append(name + ": automatic rework budget exhausted; user decision required")
+        if status == "passed" and name in IDENTITY_STAGES:
+            last_passed_identity_image = stage_identity_image
         previous_passed = previous_passed and status == "passed"
         if attempts and isinstance(attempts[-1], dict):
             previous_outputs = attempts[-1].get("outputs", [])
@@ -291,6 +483,13 @@ def validate(record, record_path):
     need(adoption.get("status") in ("candidate", "confirmed"), "adoption.status must be candidate or confirmed")
     delivered = isinstance(stages.get("delivery"), dict) and stages["delivery"].get("status") == "passed"
     selected = files(adoption.get("selected"), "adoption.selected", required=delivered)
+    if delivered and characters:
+        delivery_attempts = stages["delivery"].get("attempts", [])
+        final_review = delivery_attempts[-1].get("review", {}) if delivery_attempts and isinstance(delivery_attempts[-1], dict) else {}
+        final_checks = final_review.get("character_checks", []) if isinstance(final_review, dict) else []
+        final_images = [c.get("image") for c in final_checks if isinstance(c, dict)] if isinstance(final_checks, list) else []
+        need(bool(final_images) and all(signatures(selected) == signatures([picture]) for picture in final_images),
+             "selected assets must match every character's final identity-reviewed image")
     recorded_outputs = []
     for stage in stages.values():
         if isinstance(stage, dict) and stage.get("status") == "passed" and isinstance(stage.get("attempts"), list) and stage["attempts"]:
@@ -332,7 +531,7 @@ def validate(record, record_path):
             action = "finish_attempt_and_review" if latest_review is None else "finalize_stage" if latest_review["verdict"] == "pass" else "rework"
     return {"valid_record": valid, "scope_complete": scope_complete, "production_complete": complete,
             "next_stage": next_stage, "next_action": action, "can_continue": valid and not blockers and not scope_complete,
-            "attempts_used_in_previous_records": history_counts,
+            "attempts_used_in_previous_records": history_counts, "staging_sha256": staging_sha256,
             "errors": errors, "blockers": blockers, "boundary": BOUNDARY}
 
 

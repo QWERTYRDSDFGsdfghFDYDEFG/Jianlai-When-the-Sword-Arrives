@@ -31,6 +31,7 @@ image bg c1_13_academy_gate_farewell_v1 = im.Scale("images/chapter1/c1_13_academ
 image bg c1_14_autumn_road_sendoff_v2 = im.Scale("images/chapter1/c1_14_autumn_road_sendoff_v2.png", 1920, 1080)
 
 image bg c2_01_rest_v1 = im.Scale("images/chapter2/c2_01_rest_v1.png", 1920, 1080)
+image bg c2_01_pack_v1 = im.Scale("images/chapter2/c2_01_pack_v1.png", 1920, 1080)
 # Chapter 2, scene 2: shared inn street, stable runtime names.
 image bg c2_02_cpa_pq_v1 = im.Scale("images/chapter2/c2_02_cpa_pq_v1.png", 1920, 1080)
 image bg c2_02_observe_v1 = im.Scale("images/chapter2/c2_02_observe_v1.png", 1920, 1080)

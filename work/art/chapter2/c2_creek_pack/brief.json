@@ -1,0 +1,20 @@
+{
+  "stage": "brief",
+  "scene": "c2_creek_pack",
+  "observations": {
+    "source_scope": "L111 单幅。L109陈笑而不答，L111三人收拾行装，L114换场，L116才出现御江郡城。前序挑疱和收针闲谈各有自己的画面。",
+    "narrative_focus": "取将动未动的一刻。系妥草鞋、收肩带、回首等候属于导演补全。三人普通旅途中的默契为焦点。"
+  },
+  "references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "073b8fe9f80c3f7d9a61b3e3a9ddf4ac7755f8345bd18fe2434fe606fb9817c8",
+      "role": "现行剧本第二章 L9–118，交付句 L111"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_creek_pack\\authority_snapshot.json",
+      "sha256": "e292e1fc052edd2182c2c5f1f0a1e4c24cb57ca1de7dcee3de03d7785f5b57c5",
+      "role": "持续更新的权威索引及分镜摘录，仅冻结本镜相关内容"
+    }
+  ]
+}

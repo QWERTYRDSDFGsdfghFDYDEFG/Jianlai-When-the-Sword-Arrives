@@ -224,6 +224,8 @@
 
 2026-11-01 更新：首镜 `CG02·03·01` 采用[华光楼码头朝西无人定稿](../images/chapter2/c2_03_quay_v2.png)，状态为**当前使用／可调用**。源图为 `exec-c293ee84-5587-43d1-b847-97ce3b0db9f9.png`，正式文件与源图 SHA-256 均为 `bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943`。旧四人首镜 `c2_03_quay_v1.png` 已停用并保留。下一镜按用户决定继续使用 `c2_03_throw_v1.png`。
 
+`CG02·03·02` [西向码头抛舟制作原图](C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png) 为**待修正／脸部身份未验证**。2026-11-01 按更新后的场景制作 Skill 重新查看整图、原像素头部局部及四人母版，陈平安、吴懿、朱敛的可见五官细节不足以核对身份，裴钱为朝前观看抛舟的背影。前轮只凭旧图人物复用、衣装和姿态确认身份的结论撤回。镜头仍为无人首镜推近上层干街、吴懿以右手抛舟；游戏此镜调用 `c2_03_throw_v1.png`。[制作历史与本轮复核](../../work/art/chapter2/c2_03_throw_west/record.json)
+
 以下为 2026-09-24 的八镜定稿与验收记录。八镜沿用当时确认的“变船前／搭板后”草图和第二场定稿画风，在线分镜表未另存项目。
 
 | 代号／运行文件（`images/chapter2/`） | 剧情时刻 | 生成原图 |
@@ -936,9 +938,13 @@ Photoshop母版[dialogue_no_portrait_variants.psd](../../work/art/dialogue_no_po
 
 ### 3.39 溪边收针后三人歇脚闲谈（2026-10-30 至 11-01）
 
-2026-11-01 为检验陈平安轻俯半侧时的眉眼和颊颌，新作[头颈线稿](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-381fb304-ae53-47ba-a4db-ccaf0c2b0170.png)，原生 1254×1254，**候选／局部结构研究，待用户审阅**。缩回场景脸高后，近眼虹膜与上睑可分，远眼可读，鼻尖、口与下巴顺着同一转向；左向清楚，向下看裴钱的落点仍偏浅。该稿单独审阅，未回填彩图。SHA256 为 5ce22b6ddb047854f976630f2f36c338df5bba38d67cf5d6fba5201abfd5caf4。[输入与复核](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
+2026-11-01，已按校准线稿为陈平安的脸、耳、颈取前镜肤色上色，核对师徒同框与前后镜相接后写回[收针后彩图原件](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png)。当前 **候选／局部上色已回填，待用户审阅**。原生 1672×941，写后复读确认改动 5,113 像素，脸、耳、颈蒙版外差异为零。原画幅下能读出陈低眼听裴钱说话。放大时近眼虹膜略整，前镜的鼻尖和唇下明暗稍强。最终 SHA256 为 24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59，未接入游戏。[本轮写入与复核](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
 
-2026-11-01，用户要求沿用正式前镜的脸、衣料与光色，只调整收针后的动作。当前 **候选／同构图动作差分，待用户审阅**。裴钱持草鞋抬脸，另一只鞋搁在药瓶旁的折布上；陈平安沿用前镜原脸转眼看她，朱敛仍坐右后。最终后镜原生 1672×941，和正式前镜有 1,463,145 个像素逐值相同。默认桌面 A2 静态叠放下脸与手中鞋可读，姓名会压住布面单鞋；尚未接入游戏。最终 SHA256 为 b6a1026c417e2dc9a1b5befa9b1732abe9357ac8850017b72cb1a6d61349de01。[当前后镜原图](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png) · [制作记录](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
+2026-11-01，已在同一张[头颈线稿](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-381fb304-ae53-47ba-a4db-ccaf0c2b0170.png)原位校准视线。保持眼裂，移动近远眼虹膜和高光，随后轻收下巴。在溪边原镜脸高下临时叠看，能够读成陈平安听裴钱说话；远眼仍可辨，原尺寸不能核实两人精确对眼。**候选／同框线稿复核通过，待用户审阅**。当前线稿 SHA256 为 490ddba82e13b5173042652827c75e8676bc9e98103cf6ba442925bc7e3f4a09。该项对应本轮上色前的线稿状态。[同框复核及写入记录](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
+
+2026-11-01 为检验陈平安轻俯半侧时的眉眼和颊颌，新作[头颈线稿](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-381fb304-ae53-47ba-a4db-ccaf0c2b0170.png)，原生 1254×1254，**候选／局部结构研究，待用户审阅**。缩回场景脸高后，近眼虹膜与上睑可分，远眼可读，鼻尖、口与下巴顺着同一转向；左向清楚，向下看裴钱的落点仍偏浅。此段为同框校准前的历史状态，当时 SHA256 为 5ce22b6ddb047854f976630f2f36c338df5bba38d67cf5d6fba5201abfd5caf4。[输入与复核](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
+
+2026-11-01，用户要求沿用正式前镜的脸、衣料与光色，只调整收针后的动作。当时为 **候选／同构图动作差分**。裴钱持草鞋抬脸，另一只鞋搁在药瓶旁的折布上；陈平安沿用前镜原脸转眼看她，朱敛仍坐右后。最终后镜原生 1672×941，和正式前镜有 1,463,145 个像素逐值相同。默认桌面 A2 静态叠放下脸与手中鞋可读，姓名会压住布面单鞋；尚未接入游戏。最终 SHA256 为 b6a1026c417e2dc9a1b5befa9b1732abe9357ac8850017b72cb1a6d61349de01。[当前后镜原图](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png) · [制作记录](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
 
 2026-11-01，用户要求从头重做。新图以正式前镜 `c2_01_rest_v1.png` 为唯一图像输入，三人从头按写实人物绘制。裴钱持鞋仰脸、陈平安低头回应、朱敛旁观；陈自用草鞋成双放在撑地手右侧，与竹箱侧挂的备用鞋分开。独立复核认为后镜较前镜暖亮，朱敛最接近写实，裴钱的眼睛和陈平安的脸部仍有插画感。A2 静态叠放下脸、手及主要草鞋均清楚，长句会经过脚踝和小腿。新图标记为 **候选／待用户审阅**，原生 1672×941，未接入游戏。本段记录同构图修订前的状态，当时 PNG SHA256 为 cb2c8045ff38e62800430a1555d7cd8fb2659693422c7a69e3dac5cb3824e1bf。[重做彩图](C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png) · [实际写入、画面与对白复核](../../work/art/chapter2/c2_creek_after/gaze_r04_result.json)
 
@@ -979,6 +985,10 @@ Photoshop母版[dialogue_no_portrait_variants.psd](../../work/art/dialogue_no_po
 **停用（2026-11-01）。** 四镜方案、提示词及四幅线稿全部归档，未接入游戏。酒楼画的是陈平安听旧事时对面的人。陆抬的素衣侧脸仅见于本组停用稿。山巅只取[崔东山衣装](../lh/cds/cds_full_base_v11.png)的下摆及布履。夜廊依据[雨停看掌定稿](../images/chapter2/c2_14_rain_after_v1.png)与[陈平安衣装](../lh/cpa/cpa_outfit_variant_06_warm_weather.png)取景。
 
 [青鸾国酒楼听旧事](../../work/art/chapter2/c2_chen_memory_pov/01_qingluan_winehouse.png) · [飞鹰堡听陆抬说话](../../work/art/chapter2/c2_chen_memory_pov/02_feiying_lutai.png) · [黄庭国山巅低头](../../work/art/chapter2/c2_chen_memory_pov/03_huangting_summit.png) · [夜廊折返](../../work/art/chapter2/c2_chen_memory_pov/04_tiequan_return.png) · [绘制提示词与逐图校验](../../work/art/chapter2/c2_chen_memory_pov/line_art_record.json)
+
+### 3.42 溪边歇脚后，三人重新收拾行装（2026-11-01）
+
+**当前使用／用户确认第二次上色稿。** 裴钱在岸石上系草鞋，陈平安收紧竹箱肩带，朱敛在山径上回头等候。三人沿用本索引第 3 节的身份与暖季行装。正式图 `c2_01_pack_v1.png` 保留原稿 1672×941 像素，稳定代号 `CG02·01·02`。裴钱说完“往师父兜里装”后显示此图，覆盖恢复的原旁白“歇过脚，三人重新收拾行装，沿山路继续往前。”下一页转入郡城。[正式彩图](../images/chapter2/c2_01_pack_v1.png) · [剧本调用](../script_chapter2.rpy#L48) · [单图制作记录](../../work/art/chapter2/c2_creek_pack/record.json)
 
 ## 4. 已纳入索引、但暂无专属身份标准的角色
 

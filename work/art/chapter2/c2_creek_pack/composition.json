@@ -1,0 +1,25 @@
+{
+  "stage": "composition",
+  "scene": "c2_creek_pack",
+  "observations": {
+    "story_relation": "左中裴前倾系草鞋，脚搁较高的干石；中央陈已站稳，一肩负箱，手拢另一条肩带；右后朱在已通向山径的位置驻足回首。三者依次收妥，形成动作上的接力。",
+    "framing": "宽幅中远景、从溪侧看岸，左水右路，河谷层峦保留薄雾。让裴手与鞋、陈手、肩带、朱的脸落在画面上部约68%内，底部四分之一只留低对比石、水和草。"
+  },
+  "references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+      "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "role": "游戏正式前镜，河岸地理、日光与饰物"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a18cc3-b305-7181-82c8-a56832317872\\exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+      "sha256": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+      "role": "L69–109 前段待审彩图，师徒衣色与鞋履状态辅助"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+      "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+      "role": "下一镜 L116，携行箱形、人数、体量"
+    }
+  ]
+}

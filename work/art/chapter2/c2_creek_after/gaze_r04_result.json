@@ -1914,5 +1914,97 @@
     "userApproved": false,
     "sceneReintegration": false,
     "stopAfter": "sketch"
+  },
+  "face_line_gaze_fit_20261101": {
+    "date": "2026-11-01",
+    "request": "开始做",
+    "scope": "按原脸高临时叠看，校两眼虹膜，再按复核意见轻微收颏。修改仅写入同一张 1254×1254 头颈线稿，停在线稿。",
+    "write": {
+      "mode": "r+",
+      "timeUTC": "2026-11-01T12:25:08.178Z",
+      "fileIdBefore": "7318349394734734",
+      "fileIdAfter": "7318349394734734",
+      "hashBefore": "5ce22b6ddb047854f976630f2f36c338df5bba38d67cf5d6fba5201abfd5caf4",
+      "hashAfter": "490ddba82e13b5173042652827c75e8676bc9e98103cf6ba442925bc7e3f4a09",
+      "rgbBefore": "566bf3377c729d19741215299dd423f8ac93038c3b24d03d882ed2826ae607c2",
+      "rgbAfter": "4d0b9217280f391ad06a94392286d8377591812c599af3c3fb7e12eab51d4db2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sizeBefore": 1815276,
+      "sizeAfter": 1466611,
+      "offset": 21927,
+      "bytesWritten": 1444684,
+      "eyeOnlyPassPixels": [
+        607,
+        848
+      ],
+      "gazeOutsideEyeMask": 0,
+      "finalChanged": 686468,
+      "finalOutsideMask": 0,
+      "sceneSha256ReadBack": "b6a1026c417e2dc9a1b5befa9b1732abe9357ac8850017b72cb1a6d61349de01",
+      "verifiedByReadback": true
+    },
+    "method": {
+      "eyes": "固定眼睑开合和眼角。远眼虹膜与高光向左2.4、向下3.8源像素，近眼向左4、向下5.5源像素；可见部分裁在眼裂内。",
+      "head": "首次等比同框读出交流，仍略像平视；以耳根和后颈为参照轻俯，轮廓到交领平滑过渡。",
+      "registration": "只在内存中叠看；参照耳根、颏、交领，用约15.6%等比缩放、约−5.2°平面配准并锁定眼中点参考。留原景发髻上半、簪与肩部。按1672×941全幅与双人局部原生比例检查。",
+      "overlay_rgb8": "00e57ad21cdcaaf5777c24e46532222491632b380e7f1b8485d4feccbdc15e99"
+    },
+    "review": {
+      "first": "/root/paired_gaze_read 只移虹膜后，左向读感明显，落点大致在裴额至眼附近，建议轻收下巴。",
+      "final": "/root/matched_final_read 核看写后全幅、双人原比例及原始线稿：两眼和下巴共同朝裴钱脸的方向，能读出在听她说话，近远眼与颏颈接续可辨。原镜小脸不能验准两瞳精确相对。"
+    },
+    "stage_result": "线稿阶段的两人对话关系通过独立复核，可供后续局部上色依据。用户尚未定稿。",
+    "sceneReintegration": false,
+    "gameRuntimeTested": false
+  },
+  "face_color_return_20261101": {
+    "request": "开始修改",
+    "date": "2026-11-01",
+    "scope": "将校准线稿的脸、耳和颈部在内存局部上色，核对视线和前后镜连续性，然后原位回填已存在的溪边后镜彩图。",
+    "color_source": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_01_rest_v1.png",
+    "line_source": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-381fb304-ae53-47ba-a4db-ccaf0c2b0170.png",
+    "output": "C:/Users/MSI/.codex/generated_images/01a18cc3-b305-7181-82c8-a56832317872/exec-0dcc18b9-e0bc-4895-ae7b-60916b3204d6.png",
+    "write": {
+      "mode": "r+",
+      "timeUTC": "2026-11-01T13:22:31.980Z",
+      "fileIdBefore": "11258999068623226",
+      "fileIdAfter": "11258999068623226",
+      "hashBefore": "b6a1026c417e2dc9a1b5befa9b1732abe9357ac8850017b72cb1a6d61349de01",
+      "hashAfter": "24d8f3c67cc67859288278459aeed7045ff8dd31a1680f6768a315def72e6f59",
+      "rgbBefore": "3fff859caff640058d514e69a26c47a069a1adf8d6c14efcd952e0149806afb5",
+      "rgbAfter": "ccec4a8b12cd9a89202a9cf3d902be59846a768922635bdd13739f825320d665",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "offset": 23702,
+      "bytesWritten": 2869273,
+      "sizeBefore": 2893226,
+      "sizeAfter": 2892975,
+      "changedPixels": 5113,
+      "changedBounds": [
+        776,
+        274,
+        870,
+        399
+      ],
+      "outsideFaceEarNeckMaskChanged": 0,
+      "protectedPixels": 1566888,
+      "referencePng": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "calibratedLinePng": "490ddba82e13b5173042652827c75e8676bc9e98103cf6ba442925bc7e3f4a09",
+      "verifiedByReadback": true
+    },
+    "process": "用新线稿五官、脸部外沿、耳根、下巴与领口定位，以前镜实读肤色、虹膜和颈影为色源，在脸、耳、颈分区缩绘并贴合原刘海边缘。试合成时修正下颌亮边，增加鼻翼及唇边层次，并保留暖灰眼白和灰棕虹膜。未创建中间图片。",
+    "review": {
+      "before_write": "/root/compare_color_fit 目视同框原脸高和放大局部，与正式前镜可辨同一人，视线能读成看裴钱、听她说话，未见明显的旧五官重影或下颌亮边。",
+      "final": "独立从磁盘重新打开最终后镜，核定 PNG 指纹 24d8f3c6…72e6f59。两镜肤色与下颌、颈侧衔接自然，原尺寸下可辨认人物和互动。近眼眼仁较整，后镜眉线稍细，前镜鼻尖亮点、唇下阴影更强。精确对眼无法由场景脸高证明。"
+    },
+    "status": "候选／已按校准线稿局部上色并回填后镜，待用户审阅",
+    "userApproved": false,
+    "gameIntegrated": false,
+    "gameRuntimeTested": false
   }
 }

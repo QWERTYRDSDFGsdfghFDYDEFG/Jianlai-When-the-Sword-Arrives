@@ -1,0 +1,36 @@
+{
+  "operation": "原四人和核舟按原轮廓提取，不镜像，等比放在西向上层街。首轮与人物贴地暗部统一后，本轮只微移小舟与短笔迹。",
+  "selected": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+    "role": "原位写回并通过独立复核的西向抛舟彩图"
+  },
+  "file_bytes": 2056891,
+  "bytes_written": 2034965,
+  "raw_RGBA_sha256": "39b3c2665bd9ca54982367c783ca0253d5ef1c911d2dd868bcde293a52614e88",
+  "ntfs_file_id_verified": "0x000000000000000000030000000279f4",
+  "difference_vs_pass01": {
+    "changed_pixels": 1337,
+    "inclusive_bounds": [
+      1276,
+      452,
+      1363,
+      492
+    ],
+    "old_boat_center": [
+      1345.12,
+      480.83
+    ],
+    "new_boat_center": [
+      1335.72,
+      463.93
+    ]
+  },
+  "reviewer": "/root/throw_identity",
+  "review": "在870像素宽整图及(1170,409)–(1397,521)局部复核，核舟在指尖前上方、下缘与深缝之间有浅色街面，浅弧线保留离手感。F1已解决。",
+  "pass01": {
+    "path": "color_pass01_measurement.json",
+    "sha256": "fceefccb61bddc6edfbc3e0070108f011acac937c3c3200a4523ace55dc6fd5d",
+    "role": "首轮彩稿的稳定写入证据和独立颜色问题；含可逐字节重取的原图事件"
+  }
+}

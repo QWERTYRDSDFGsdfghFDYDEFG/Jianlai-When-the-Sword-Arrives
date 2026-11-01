@@ -1,0 +1,30 @@
+{
+  "stage": "space",
+  "scene": "c2_creek_pack",
+  "observations": {
+    "layout": "平面关系由左前溪水，经干石与陈所在的岸脊，通往右后方的林间山径。朱位于靠山一侧而非隔河。侧视关系为水平水面、稍高系鞋石、渐升的岸脊及山径，以同一方向的暖灰侧顶天光照三人。",
+    "grounding": "裴一脚踏高石、另一腿承重或坐稳，系鞋的两手落到同一只鞋。陈的双足承重于干岸，背负的竹箱贴背，一侧肩带受力，另一边手可及。朱双足沿路停稳，转头朝向同伴，路口与箱侧饰物不得互相遮堵。"
+  },
+  "references": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_01_rest_v1.png",
+      "sha256": "12bb5457baca9751dc10bbbd07b95f15ac18e45bca660c6b3f51327b486cfb24",
+      "role": "游戏正式前镜，河岸地理、日光与饰物"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "陈平安暖季衣装／背箱肩带"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_bookbox_ref.jpg",
+      "sha256": "475ceb77ac890f5364edb0fab6c35c1fb70da68ea57243153275829fc15086ba",
+      "role": "青竹编敞口长方箱及侧挂笠、草鞋"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_02_cpa_pq_v1.png",
+      "sha256": "c176cfa7de6d5a1a79527135795080b59aba936cb5a0b85765d880ac20f1c1ba",
+      "role": "下一镜 L116，携行箱形、人数、体量"
+    }
+  ]
+}

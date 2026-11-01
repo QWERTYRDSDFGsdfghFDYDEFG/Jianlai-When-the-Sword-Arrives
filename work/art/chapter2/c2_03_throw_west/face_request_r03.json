@@ -1,0 +1,11 @@
+{
+  "prompt": "编辑图1的同一张1536×1024局部裁图，只修左侧朱敛和右侧陈平安的可见侧脸。这张局部将缩回1/8尺寸嵌回原作，必须为小尺度设计清楚的关键五官轮廓，保留头部位置、大小、转向、发髻、衣服与背景。不要放大头，不改变取景，不添加人物或字。\n\n图2为陈平安身份母版。按其中第3格朝右侧脸，保持20–22岁青年、偏瘦长脸、自然下颌、细长眼、直鼻及克制薄唇。重点把额头到鼻梁、鼻尖到鼻底、人中到闭合唇线、下唇到下巴的转折画清楚。近侧眼的上眼睑和眉毛之间保留浅色间隙，闭合嘴线用干净简练的细深线，与鼻底分离。无需额外毛孔、细碎阴影或眼睛高光。嘴部放松闭合，保持严肃而平静，不能噘嘴，不能出现小孩的短鼻和圆下巴。\n\n图3为朱敛老奴面皮母版。保持55–65岁清瘦老脸、颧颊收束、狭长清醒眼神、直鼻、薄唇、少量短髭和下巴短须。现有朱敛向画面右并略低头，这个朝向保持。让眉骨下缘与近侧上眼睑各自可读，中间保留窄的肤色间隔；鼻尖与鼻底轮廓要干净；薄唇闭合线清楚，紧贴嘴边的口髭减淡分开，短须重心留在下巴，避免眉眼和唇髭粘成黑团。用2至3条克制线条表达眼角和面颊年龄，别添加细碎皱纹噪声。脸型五官严格服从母版，不能转成年轻美男子或卡通老翁，也不要镜像整颗头。\n\n图4吴懿、图5裴钱是此完整场景另外两人的身份母版，仅为锁定项目角色关系，这张裁图内他们不出现，不要把他们加入裁图。\n\n画法沿用项目清楚细灰黑轮廓、低饱和色块、哑光简洁阴影，面部线条为远景缩小时保留识别而适度简化，不画照片毛孔、油亮皮肤、逐根须发或满脸碎纹。三庭比例和原头颈连接保持，人物肤色与原图的日光一致，不能突然发白或过度黑边。精修区域只在两张脸及必要的近耳发际，其他部分严格跟图1。输出同一局部修图。",
+  "referenced_image_paths": [
+    "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_region_r03_input.png",
+    "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+    "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+    "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+    "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png"
+  ],
+  "transparent_background": false
+}

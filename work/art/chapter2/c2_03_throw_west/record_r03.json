@@ -1,0 +1,1029 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "c2_03_throw_west",
+    "request": "继续已授权局部修脸，最后一轮只修陈平安鼻唇与朱敛眉眼唇髭的原尺度可读性",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "delivery",
+    "authorization": "用户明确允许局部生成并回填原图，仅三人头脸区域。此前已指定原位修改，已允许新增必要局部生成素材。",
+    "target_size": [
+      1920,
+      1080
+    ],
+    "target_native_size": [
+      1672,
+      941
+    ],
+    "edit_original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png"
+  },
+  "sources": [
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+      "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+      "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+      "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+      "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "cpa已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "cpa身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "wy已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "wy身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+      "role": "zl已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "zl身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "pq已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "pq身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "陈平安头部朝向辅助，不能覆盖脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_02_accept_v1.png",
+      "sha256": "0b7b29900009f1222d46009c1ac93c60a6bedccd398510d6f752c634bfe22f72",
+      "role": "朱敛同向低头的场次角度与二维线条辅助"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_region_input.png",
+      "sha256": "0e255d519bc73c3f7aaeaf93f7e236e3bf2dbaed2a73c50854e18068d7e72ad4",
+      "role": "已授权三脸局部生成输入，原图(810,270,384,256)放大四倍到1536×1024；本轮已实际打开，背景与头部关系仅作局部编辑定位"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+      "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+      "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+      "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+      "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+      "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+      "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_region_r03_input.png",
+      "sha256": "a01531d2ab4ae592c8836ba01e58726eba5a67460dbfb50004ffa5e0f4794b75",
+      "role": "当前1cd原图(830,292,192,128)放大八倍至1536×1024，仅陈朱局部，最后一轮实际图像输入"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_request_r03.json",
+      "sha256": "477634ca5779fdc6c406d75a724ca2972bb653066df4b4b799a2912a5a0eebbf",
+      "role": "最后一轮实际五图请求与精确提示词"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "cpa",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+          "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+          "role": "cpa已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+          "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+          "role": "cpa身份及适用衣装标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "朝右侧脸可见，现细节不足，需局部修复后验脸"
+      },
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "wy已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "wy身份及适用衣装标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "朝右侧脸可见，以S1最右视图核对"
+      },
+      {
+        "id": "zl",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+          "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+          "role": "zl已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+          "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+          "role": "zl身份及适用衣装标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "向右略低头的老奴面皮可见，不能以须发代替五官核验"
+      },
+      {
+        "id": "pq",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+          "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+          "role": "pq已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+          "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+          "role": "pq身份及适用衣装标准"
+        },
+        "visibility": "not_visible",
+        "visibility_reason": "在吴懿后方朝前观看抛舟，后脑与双髻朝镜头，眼鼻口不可见；不转头造新动作"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "延续华光楼码头朝西机位，固定当前1672×941推近构图；左江右铺、前景上层干街，地理朝向与首镜相同。",
+    "anchors": "柳树及其下石阶、两层街面的挡墙、右侧连续木铺门槛；四名主角位于挡墙右侧上层石街。",
+    "action_target": "吴懿右手刚把核雕小舟抛向铺前右前方空地，舟悬在干街上方；陈平安、朱敛、裴钱看这一动作，楼船尚未展开。",
+    "action_space": "吴懿抛手及舟前方有空石面，三名旅人位于她身后，不侵入抛手到舟的间隙；本镜不提前摆出楼船。",
+    "route": "左侧柳下石阶保持上下贯通，四人和让开的路人不占阶口。铺前干街连向远处木铺，近景施术区与低处沿江路有挡墙高差。",
+    "continuity": "以已采用朝西无人首镜锁地理，当前抛舟镜只修三处头脸；固定衣装、身体、脚点、吴自身右手、核舟位置和裴钱背影视图。",
+    "evidence": [
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+        "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+        "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+        "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+        "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+        "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+        "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "cpa",
+        "position": "三旅人中间，朱敛右前、裴钱左后、吴懿后方，背竹箱。",
+        "footing": "双鞋落在挡墙右侧上层干街，脚点不接触阶洞或墙顶。",
+        "facing": "头朝画右偏背侧，肩胸与骨盆同向右前，足点承接稳定站姿。",
+        "gaze": "看吴懿右手及离手的小舟方向。",
+        "scale_depth": "保留当前全身和头身比例，陈比近景吴稍远，不根据屏幕高度另改身高。",
+        "occlusion": "竹箱在身后，右侧部分与裴钱及吴懿长发邻接；脸和下颌轮廓须清楚。"
+      },
+      {
+        "character_id": "wy",
+        "position": "四人最前、画面右下的上层干街，三旅人在其左后。",
+        "footing": "裙摆和鞋底接地，保留既有接触暗部及足点。",
+        "facing": "头朝画右略低，肩背、躯干和抛手同向右前；不镜像左右手或衣襟。",
+        "gaze": "看右前方刚离手的核舟。",
+        "scale_depth": "近景成年女性，原头身尺度固定，不能为验脸放大头部。",
+        "occlusion": "原发冠、长发、抬起右袖与脸颈连接保留，裴钱位于其后；不遮住抛手或舟。"
+      },
+      {
+        "character_id": "zl",
+        "position": "三名见证者最左后，陈平安左侧，距柳下阶口仍有上层街面间隔。",
+        "footing": "双鞋落于上层干街，身体略前倾但承重稳定。",
+        "facing": "头向右略低，颈前探，肩腰收着，脚步朝向与观看姿势自然衔接。",
+        "gaze": "朝吴懿施术和小舟方向观看。",
+        "scale_depth": "稍后景的清瘦佝偻老人，维持原身形和头部尺度，不用绝对像素高定真实身高。",
+        "occlusion": "头脸基本独立可见，陈平安在右前，不可把朱的脸裁成无须或改年轻。"
+      },
+      {
+        "character_id": "pq",
+        "position": "陈平安右前、吴懿身后，两名成年男子与施术者之间的儿童随行位。",
+        "footing": "近腿及部分脚点受前景人物遮挡，维持原上层街落脚关系，不增加浮空脚。",
+        "facing": "头肩与身体朝前方施术，后脑双髻朝镜头，不转头露脸。",
+        "gaze": "按头部朝向观看吴懿抛舟；眼睛不可见，不宣称精确眼线可核。",
+        "scale_depth": "保留既有儿童体量和双髻头身关系，人物位置不因修脸发生缩放。",
+        "occlusion": "原后脑、双髻、耳颊窄片和被吴懿局部遮挡的身形保持；背影视图不作验脸通过。"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "原图1672×941及同一文件对象",
+      "原构图、地理高差、全身站位、衣装和吴懿右手抛舟动作",
+      "三处头脸之外像素保持",
+      "裴钱后脑朝向与双髻，不人为转头"
+    ],
+    "allowed_changes": [
+      "陈平安和朱敛脸部蒙版内的关键轮廓/五官细节，解决缩小混色；吴懿已通过的头部保持像素。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "复读前轮失败及本轮局部范围，实际查看当前完整原图后复核保持项",
+          "prompt": "对最后一次陈朱局部修订重新核对brief，不沿用旧身份通过。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+              "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+              "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+              "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+              "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "已读前轮真实失败ID_CPA/ID_ZL，当前原图指纹为1cd11f4b…；本轮只改善陈朱原尺度五官可读性。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "小舟刚离手的动作与陈朱裴见证关系不变，吴已验侧脸保持。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "复读前轮失败及本轮局部范围，实际查看当前完整原图后复核保持项",
+          "prompt": "对最后一次陈朱局部修订重新核对references，不沿用旧身份通过。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+              "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+              "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+              "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+              "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "前轮实际查看的四人母版与标准仍为同一指纹，局部参考仅辅助姿势，陈朱五官继续以母版为准。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "后续实际生成仍需传局部输入和四母版；旧生成只提供位置/色彩，不能替代身份。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "复读前轮失败及本轮局部范围，实际查看当前完整原图后复核保持项",
+          "prompt": "对最后一次陈朱局部修订重新核对composition，不沿用旧身份通过。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+              "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+              "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+              "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+              "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "最终1cd11f4b…已实际查看，三名旅人在吴后侧看抛舟，本轮仅两脸线条不改变关系。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "当前1672×941、同机位与两脸位置固定，禁止利用整景缩放或换站位掩盖小脸验收不足。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "重新查看当前最终1cd11f4b…整图并核对本次两脸修正范围，所选调度方案保持，完整跨镜可行性仍在space单独阻断。",
+                "observations": {
+                  "camera": "当前推近画面仍左江右铺，柳阶和挡墙保持西向地理。",
+                  "action_target": "吴右手指向画右核舟，三名旅人在后观看，同一个抛舟时刻。",
+                  "action_space": "抛手到核舟之间为空气，右前方有开阔石面，旅人退在身后。",
+                  "route": "柳阶上下口可见，四人位于高处街面，没有占阶洞。",
+                  "continuity": "四人原站位、右手、核舟、背影视图应作为本轮局部修脸的锁定项。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735"
+          },
+          "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735"
+        }
+      ]
+    },
+    "space": {
+      "status": "blocked",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "同一场面调度继续保留既有独立阻断，核对本轮仅两脸范围",
+          "prompt": "复查当前局部编辑与完整场面调度门槛的边界；未验证问题仍阻断完整Skill。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+              "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+              "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+              "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+              "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            }
+          ],
+          "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
+          "review": {
+            "reviewer": "/root/identity_cpa_pq_v2",
+            "verdict": "blocked",
+            "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "已实际重新查看原整图、首镜和后镜。本镜左江右铺、挡墙分上层干街与低路，柳阶上下通，四主角均在挡墙右侧的上层街面。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "限定可见接触。朱陈鞋底与干街石面及接触暗部相接，吴只有裙摆贴街可核、鞋底受长裙遮挡，裴部分腿脚被遮；未见部分不计为双足已验证，未见浮空或落入阶洞。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "unverified",
+                "observation": "当前小舟刚离手动作和地理可解释，但未来三层楼船展开净空及后镜的地标/反打对应未验证，不能登记完整场面调度通过。",
+                "observations": {
+                  "camera": "本镜与首镜均左江右铺，柳树、阶口、挡墙、木铺顺序一致，可读为推近。",
+                  "action_target": "吴右手指尖前小舟悬在右前干街上方，三人在后看动作；只能按头向核视线。",
+                  "action_space": "手至舟间有空气，人物不侵入；未来三层船占地、檐墙净空没有可靠证明。",
+                  "route": "本镜柳阶上下通，两条街路未被主角或路人堵住。展船后的通道未验证。",
+                  "continuity": "与首镜地理对应，后镜c2_03_reveal_v1为铺左江右，尚无地标与反打映射解释高低两路关系。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "ST1",
+                "severity": "hard",
+                "state": "open",
+                "problem": "未来三层楼船展开占地、店檐与挡墙净空及展船后通道未验证。",
+                "required_change": "后续在获授权的场面调度/后镜制作中建立完整体积和通道证据。",
+                "preserve": "本次仅三头局部修复，不擅自改身体、站位或环境。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              },
+              {
+                "id": "ST2",
+                "severity": "hard",
+                "state": "open",
+                "problem": "后镜左铺右江与本镜左江右铺的高低两路，缺地标及反打对应。",
+                "required_change": "后续获授权处理后镜时明确机位与地理对应，并独立核验。",
+                "preserve": "本轮已授权三脸局部成果及原构图。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+                    "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+                    "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+                    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+                    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+                  }
+                ]
+              }
+            ],
+            "view_event": {
+              "agent": "/root/identity_cpa_pq_v2",
+              "target_before_sha256": "889b90b7dc9aed4ac8964900ef371cf64b2cb63b022178dcccbd156603681f75",
+              "images_actually_opened": [
+                "原抛舟整图",
+                "c2_03_quay_v2.png",
+                "c2_03_reveal_v1.png"
+              ],
+              "source_of_observation": "本轮独立代理消息，逐项camera/action_target/action_space/route/continuity。"
+            },
+            "reuse_basis": "复用/r02已实际取得的独立space阻断，staging完整对象及相关背景/几何指纹相同；这是继续未通过结论，未宣称重新通过。"
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "in_progress",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen陈朱局部修复，随后只将两处脸部蒙版同位回填原图",
+          "prompt": "编辑图1的同一张1536×1024局部裁图，只修左侧朱敛和右侧陈平安的可见侧脸。这张局部将缩回1/8尺寸嵌回原作，必须为小尺度设计清楚的关键五官轮廓，保留头部位置、大小、转向、发髻、衣服与背景。不要放大头，不改变取景，不添加人物或字。\n\n图2为陈平安身份母版。按其中第3格朝右侧脸，保持20–22岁青年、偏瘦长脸、自然下颌、细长眼、直鼻及克制薄唇。重点把额头到鼻梁、鼻尖到鼻底、人中到闭合唇线、下唇到下巴的转折画清楚。近侧眼的上眼睑和眉毛之间保留浅色间隙，闭合嘴线用干净简练的细深线，与鼻底分离。无需额外毛孔、细碎阴影或眼睛高光。嘴部放松闭合，保持严肃而平静，不能噘嘴，不能出现小孩的短鼻和圆下巴。\n\n图3为朱敛老奴面皮母版。保持55–65岁清瘦老脸、颧颊收束、狭长清醒眼神、直鼻、薄唇、少量短髭和下巴短须。现有朱敛向画面右并略低头，这个朝向保持。让眉骨下缘与近侧上眼睑各自可读，中间保留窄的肤色间隔；鼻尖与鼻底轮廓要干净；薄唇闭合线清楚，紧贴嘴边的口髭减淡分开，短须重心留在下巴，避免眉眼和唇髭粘成黑团。用2至3条克制线条表达眼角和面颊年龄，别添加细碎皱纹噪声。脸型五官严格服从母版，不能转成年轻美男子或卡通老翁，也不要镜像整颗头。\n\n图4吴懿、图5裴钱是此完整场景另外两人的身份母版，仅为锁定项目角色关系，这张裁图内他们不出现，不要把他们加入裁图。\n\n画法沿用项目清楚细灰黑轮廓、低饱和色块、哑光简洁阴影，面部线条为远景缩小时保留识别而适度简化，不画照片毛孔、油亮皮肤、逐根须发或满脸碎纹。三庭比例和原头颈连接保持，人物肤色与原图的日光一致，不能突然发白或过度黑边。精修区域只在两张脸及必要的近耳发际，其他部分严格跟图1。输出同一局部修图。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r03.json",
+              "sha256": "57566f8b4cc60a6304da95eb7f8d1a47d6bd2e5846665139c81d44a5e6be8654",
+              "role": "最后一轮局部修复的授权沿用、目标写前条件、精确修正点及未通过门槛"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_request_r03.json",
+              "sha256": "477634ca5779fdc6c406d75a724ca2972bb653066df4b4b799a2912a5a0eebbf",
+              "role": "最后一轮精确生成请求"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+              "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+              "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+              "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+              "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_region_r03_input.png",
+              "sha256": "a01531d2ab4ae592c8836ba01e58726eba5a67460dbfb50004ffa5e0f4794b75",
+              "role": "实际提交的局部或脸部母版输入"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "实际提交的局部或脸部母版输入"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "实际提交的局部或脸部母版输入"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "实际提交的局部或脸部母版输入"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "实际提交的局部或脸部母版输入"
+            }
+          ],
+          "outputs": [],
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "functions.exec cell g26:223; tools.image_gen__imagegen exact parameters loaded from face_request_r03.json; 2026-11-01 current root chat",
+            "arguments": {
+              "prompt": "编辑图1的同一张1536×1024局部裁图，只修左侧朱敛和右侧陈平安的可见侧脸。这张局部将缩回1/8尺寸嵌回原作，必须为小尺度设计清楚的关键五官轮廓，保留头部位置、大小、转向、发髻、衣服与背景。不要放大头，不改变取景，不添加人物或字。\n\n图2为陈平安身份母版。按其中第3格朝右侧脸，保持20–22岁青年、偏瘦长脸、自然下颌、细长眼、直鼻及克制薄唇。重点把额头到鼻梁、鼻尖到鼻底、人中到闭合唇线、下唇到下巴的转折画清楚。近侧眼的上眼睑和眉毛之间保留浅色间隙，闭合嘴线用干净简练的细深线，与鼻底分离。无需额外毛孔、细碎阴影或眼睛高光。嘴部放松闭合，保持严肃而平静，不能噘嘴，不能出现小孩的短鼻和圆下巴。\n\n图3为朱敛老奴面皮母版。保持55–65岁清瘦老脸、颧颊收束、狭长清醒眼神、直鼻、薄唇、少量短髭和下巴短须。现有朱敛向画面右并略低头，这个朝向保持。让眉骨下缘与近侧上眼睑各自可读，中间保留窄的肤色间隔；鼻尖与鼻底轮廓要干净；薄唇闭合线清楚，紧贴嘴边的口髭减淡分开，短须重心留在下巴，避免眉眼和唇髭粘成黑团。用2至3条克制线条表达眼角和面颊年龄，别添加细碎皱纹噪声。脸型五官严格服从母版，不能转成年轻美男子或卡通老翁，也不要镜像整颗头。\n\n图4吴懿、图5裴钱是此完整场景另外两人的身份母版，仅为锁定项目角色关系，这张裁图内他们不出现，不要把他们加入裁图。\n\n画法沿用项目清楚细灰黑轮廓、低饱和色块、哑光简洁阴影，面部线条为远景缩小时保留识别而适度简化，不画照片毛孔、油亮皮肤、逐根须发或满脸碎纹。三庭比例和原头颈连接保持，人物肤色与原图的日光一致，不能突然发白或过度黑边。精修区域只在两张脸及必要的近耳发际，其他部分严格跟图1。输出同一局部修图。",
+              "referenced_image_paths": [
+                "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_region_r03_input.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png"
+              ],
+              "transparent_background": false
+            }
+          },
+          "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
+          "review": null,
+          "execution_status": "last permitted local generation running; target write pending",
+          "local_scope": "仅陈鼻唇及朱眉眼唇髭等脸部细节，吴懿及其余场景像素保持；全Skill因既有space问题未通过。"
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "previous_record": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r02.json",
+    "sha256": "9bd448cd9276a4dd5f46b70973cfc1c404b2a52cb1b3eba3acfeba620c81ccb2",
+    "role": "上一轮实际生成和原位写入、独立最终身份未通过及场面调度阻断；计入重试预算"
+  },
+  "revision_reason": "陈平安与朱敛在最终原尺度五官仍不可充分核验，使用最后一轮允许的局部修订；吴懿及场面调度保持。",
+  "local_edit_scope_boundary": {
+    "user_request": "允许局部生成并回填原图",
+    "authorized_action": "继续完成在新增staging门槛出现前已经实际启动的同一次局部生成回填，仅三处头脸。",
+    "unverified_outside_local_edit": [
+      "后镜地理对应",
+      "未来楼船展开净空/通道"
+    ],
+    "completion_claim": "允许报告局部修脸实际写入与逐人结果，完整Skill不能登记通过或完成。",
+    "record_validation": "保留已发生的sketch操作事实，新增space阻断后check可能返回前序未通过，不删除尝试或修改判据换取complete。",
+    "remaining_local_reworks": 1
+  },
+  "gate_update_during_execution": {
+    "observed": "5参考请求g26:214在运行时，scene_record.py出现新的staging要求。",
+    "timing": "此前check实际通过、当前补证发生于生成期间，未倒填新门槛在启动前已具备。",
+    "action": "已重新查看原整图/首镜并填写调度方案，composition本轮实审补证完成，space等待独立实际复核。",
+    "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
+    "generation_scope": "只修既有三处头脸；不改变调度。",
+    "independent_space_review": "已取得，space blocked；当前动作基础可解释，完整跨镜/未来空间未验证。"
+  }
+}

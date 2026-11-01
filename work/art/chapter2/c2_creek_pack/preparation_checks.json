@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "brief",
+    "before": {
+      "valid_record": true,
+      "next_stage": "brief",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "after": {
+      "valid_record": true,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "status": {
+      "valid_record": true,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    }
+  },
+  {
+    "stage": "references",
+    "before": {
+      "valid_record": true,
+      "next_stage": "references",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "after": {
+      "valid_record": true,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "status": {
+      "valid_record": true,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    }
+  },
+  {
+    "stage": "composition",
+    "before": {
+      "valid_record": true,
+      "next_stage": "composition",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "after": {
+      "valid_record": true,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "status": {
+      "valid_record": true,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    }
+  },
+  {
+    "stage": "space",
+    "before": {
+      "valid_record": true,
+      "next_stage": "space",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "after": {
+      "valid_record": true,
+      "next_stage": "sketch",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    },
+    "status": {
+      "valid_record": true,
+      "next_stage": "sketch",
+      "next_action": "start_stage",
+      "can_continue": true,
+      "errors": [],
+      "blockers": []
+    }
+  }
+]
