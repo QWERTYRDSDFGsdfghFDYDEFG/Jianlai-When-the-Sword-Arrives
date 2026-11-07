@@ -1,0 +1,162 @@
+{
+  "original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+  "before_sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+  "after_sha256": "a0ec9b1a6a87b3595d14766732af9d181def120a785eadc06ceb6a9ed095ddc8",
+  "after_rgba_sha256": "189ebd591b4216d0d12761b9d8b9e860a12fe3beeec4e1aebd074b4f296c0362",
+  "same_file_id": "30000000279f4",
+  "method": "Open extant NTFS object with r+, retain PNG prefix, write its IDAT byte range directly, truncate, flush, reopen, decode-check.",
+  "stream": {
+    "prefix_bytes": 21926,
+    "written_bytes": 2338032,
+    "file_length": 2359958
+  },
+  "dimensions": [
+    1672,
+    941
+  ],
+  "gray_opaque_pixels": 1573352,
+  "unchanged_outside_four_people_boat_contacts_vs_registered_ink_background": true,
+  "outside_pixel_differences": 0,
+  "local_pixels_changed_against_quay_with_two_passers": 122872,
+  "background": {
+    "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/quay_ink_basis_r06.png",
+    "sha256": "ab21ea951665cd6c66fbef04b0c779b6244edfc29748bbe7b0822d7c6fafe4a7",
+    "registered_crop": [
+      782,
+      285,
+      890,
+      501
+    ],
+    "passers_file": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/quay_passers_ink_r06.svg",
+    "passers_sha256": "d4c887198f444251327b74673d52c5789b74333c23d0209d95d11184fc161d14",
+    "composed_background_rgba_sha256": "5948c8fe539833fe73e3e4e2a6cdd9cefebf7194eebd5423473b7dd8953bb505"
+  },
+  "ink_parts": {
+    "request": "ink_request_r06.json",
+    "request_sha256": "663bdf022c0560baabaa6270257ef72ac62a9fe916acda799973a66f42104004",
+    "source": "C:/Users/MSI/.codex/generated_images/01a196a0-17d4-75a1-b51a-9ffcd610fa9d/exec-94b7f407-309b-41cb-aca3-c7281ec465e2.png",
+    "source_sha256": "841823e6976250e2985d36ed3f04559ff4b0786e30deb3c83ffa6f2f28f88c59",
+    "source_dimensions": [
+      1717,
+      916
+    ],
+    "projected_bounds": [
+      {
+        "key": "wu",
+        "box": [
+          776,
+          295,
+          945,
+          607
+        ],
+        "covered": 32976
+      },
+      {
+        "key": "pei",
+        "box": [
+          847,
+          440,
+          941,
+          704
+        ],
+        "covered": 17926
+      },
+      {
+        "key": "chen",
+        "box": [
+          996,
+          321,
+          1173,
+          752
+        ],
+        "covered": 47962
+      },
+      {
+        "key": "zhu",
+        "box": [
+          893,
+          391,
+          1078,
+          826
+        ],
+        "covered": 50276
+      },
+      {
+        "key": "boat",
+        "box": [
+          874,
+          324,
+          899,
+          337
+        ],
+        "covered": 285
+      }
+    ],
+    "depth": "Wu, Pei, Chen, Zhu",
+    "boat_drawn_separately": true,
+    "boat_center_px": [
+      887,
+      331
+    ],
+    "target_model_center_px": [
+      887,
+      334
+    ],
+    "modifications": "Right throwing elbow drawn lower than hand, exposed right wrist, three-quarter elderly head slightly dipped. Raised Chen gourd remounted by a short cord at the waist, partly or fully occluded by Zhu, upper basket rim open. Short individually fitted contact lines at feet."
+  },
+  "camera_pose": {
+    "model": "quay_pose_r06.glb",
+    "sha256": "89eb8ef05caf0a835526225a98064e87973570cc12d300fde580e07024f589e4",
+    "view": "quay_pose_3d_r06.png",
+    "view_sha256": "257424b748c9bd1677d3879e8502f7733650f079238dc770b01fc7a3643b2b30",
+    "pose_input": "quay_pose_ink_input_r06.png",
+    "pose_input_sha256": "e8104c32c3a7d7ec68b80566fa5d9efebcefe5acd7b6bfe9f310cc4de76ae23d"
+  },
+  "game_integration": "sketch_only",
+  "passes": [
+    {
+      "purpose": "First full line drawing",
+      "after_sha256": "dafda7a6a2e03ffb3d4671353ef5c9897539ee73173e8de6c73900a4f2dcfd74",
+      "rgba": "d7bd2604ed99ebe0d5d312448464438116a11b80522da2690d3f1e89ca82fc67",
+      "stream": {
+        "prefix_bytes": 21926,
+        "written_bytes": 2332730,
+        "file_length": 2354656
+      },
+      "changed_from_colour": 1573349,
+      "background": {
+        "source": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/quay_ink_basis_r06.png",
+        "sha256": "ab21ea951665cd6c66fbef04b0c779b6244edfc29748bbe7b0822d7c6fafe4a7",
+        "registered_crop": [
+          782,
+          285,
+          890,
+          501
+        ],
+        "passers_file": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/quay_passers_ink_r06.svg",
+        "passers_sha256": "3ff6b94f59bb2c6a7a0dd837eace5271f8c7e08e3af31d2f667663418daa2e2e",
+        "composed_background_rgba_sha256": "6df24f7e8bb954f2d8ce80839678a92a3d89f147e97283e91ff423813d41bd3c"
+      },
+      "local_pixels": 122862
+    },
+    {
+      "purpose": "Separate the shop bystander from Chen’s topknot within the same bay; add garment and face linework to the same extra.",
+      "before_sha256": "dafda7a6a2e03ffb3d4671353ef5c9897539ee73173e8de6c73900a4f2dcfd74",
+      "after_sha256": "a0ec9b1a6a87b3595d14766732af9d181def120a785eadc06ceb6a9ed095ddc8",
+      "pixels": 9521,
+      "bounds": [
+        1068,
+        200,
+        1167,
+        346
+      ],
+      "original_subject_layers_changed": false,
+      "stream": {
+        "prefix_bytes": 21926,
+        "written_bytes": 2338032,
+        "file_length": 2359958
+      },
+      "reloaded_same_file_id": "30000000279f4"
+    }
+  ]
+}

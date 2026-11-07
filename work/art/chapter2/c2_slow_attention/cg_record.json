@@ -1,0 +1,1674 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "c2_slow_attention_cg",
+    "request": "“且慢行”两种形式：章节尾声CG达成成就、小短片；搜索后生成线稿，现有切入先不用。",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "“且慢行”两种形式：章节尾声CG达成成就、小短片；搜索后生成线稿，现有切入先不用。 范围见basis.json.scope；停止于sketch。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+      "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+      "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+      "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部母版；主代理已实际打开"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "当前暖季衣装母版；主代理已实际打开"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "cpa",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+          "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+          "role": "唯一脸部母版；主代理已实际打开"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+          "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+          "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+        },
+        "visibility": "visible",
+        "visibility_reason": "CG及分镜04露脸；三分之四轻俯五官须可辨认，小脸不能豁免验证。"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "机位略高于栏顶、轻俯视可见栏面，仍低于人物眼位；沿栏斜看；陈右侧裁到腰上、三分之四向左轻俯。",
+    "anchors": "栏木前景左下至中右；折草在近端；陈在栏内右；江在栏外左。",
+    "action_target": "陈凝视近栏折草。",
+    "action_space": "手在画面中右停放，草在左前景；手不跨越草，不产生接触植物的新剧情。",
+    "route": "人物静止；河水反光向横向延伸，未真实制作动态。",
+    "continuity": "章末独立回收短片终镜的相同栏、草、人物朝向；新构图不沿用旧05B/C。",
+    "characters": [
+      {
+        "character_id": "cpa",
+        "position": "右三分之一，栏内",
+        "footing": "裁到腰上，双脚画外；栏在人物腰腹高度，肩肘腕到栏面支撑连续",
+        "facing": "肩/胸朝左前，脸轻俯向左",
+        "gaze": "左前景折草及水滴",
+        "scale_depth": "脸高约全图15%；草靠镜头小而清晰；岸屋远且淡",
+        "occlusion": "栏遮腰下，露够躯干与前臂，脸/目光/一只手清楚，无书箱"
+      }
+    ],
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+        "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+        "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+        "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "仅本记录对应的单幅CG线稿；不改正文、不实现成就/视频、不覆盖旧图。",
+      "雨停后陈在廊地扶栏，车轮为后文隐喻；不增加亲历事故，不令时间停住，不表现成功悟道。",
+      "沿用陈平安脸母版、20–22岁和暖季短袖衣装；夜廊无书箱，画外腰部道具不强补。",
+      "手中右、草左前景；草由栏顶承托，手不触草；略高栏顶的机位显示顶面，栏在人物腰腹高。",
+      "折草上栏是美术补全；目标1920×1080，实际尺寸待生成后读取。"
+    ],
+    "allowed_changes": [
+      "本轮允许从头设计两张线稿，以近远尺度、线条疏密及留白表达注意力变慢。",
+      "草叶形状匹配可连接隐喻与当下，但不作物理变形；不沿用旧雨街窗框。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "对照当前正文和basis，分清原文事实、美术补全、授权范围及终点。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "对照当前正文确认雨停、扶栏、檐滴和后文车轮碾花草。只制作新CG与切入分镜线稿，成就触发和视频未实施。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "焦点是看清细小损伤后的悲悯与疑问；折草上栏属美术补全，停的是镜头，不赋予人物停光阴之力。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "核对身份标准及主代理本轮实际查看的三图职责；后续生成需实际输入脸和衣装母版。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "已读取身份标准，瘦长收束青年脸、直眉窄眼、20–22岁、灰蓝短袖外袍白内衫。主代理本轮确认已实际查看脸、衣装、十五视角三图；此处仅参考依据通过，不宣称未生成图身份通过。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "当前暖季衣装母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "脸母版锁五官脸型，衣装母版锁剪裁，十五视角仅辅助卷首玉簪及转向遮挡；五色发区不是实际发色。正文锁剧情，basis锁本轮构图；旧场景图不充当身份母版。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "当前暖季衣装母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "核对最终basis的cg构图、动作、侧别、腰腹高栏、略高栏顶机位和跨镜归属。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "陈只在栏内看折草，手不伸向草。独立章末回收终镜，不搬动正文。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "已实际复核最终basis：机位略高于栏顶轻俯，低于人眼；栏在腰腹高度，人物裁至腰上，肩肘腕链不被胸部裁切吞没。右侧人物、左前景草、左上河面留白。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "本阶段核对文字镜头、动作与正文对应；实际承托、遮挡和读图交独立空间复核。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "机位略高于栏顶、轻俯视可见栏面，仍低于人物眼位；沿栏斜看；陈右侧裁到腰上、三分之四向左轻俯。",
+                  "action_target": "陈凝视近栏折草。",
+                  "action_space": "手在画面中右停放，草在左前景；手不跨越草，不产生接触植物的新剧情。",
+                  "route": "人物静止；河水反光向横向延伸，未真实制作动态。",
+                  "continuity": "章末独立回收短片终镜的相同栏、草、人物朝向；新构图不沿用旧05B/C。"
+                }
+              }
+            ],
+            "findings": [],
+            "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d"
+          },
+          "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "独立核对最终basis的cg空间方案：谁对什么做了什么、栏内外、肩肘腕/草的承托、机位目光、深度和跨镜连续性；尚无新生成图。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/space_review",
+            "verdict": "pass",
+            "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "独立复核最终581f8a版文字方案：机位略高栏顶可看见顶面、仍低于陈眼位；人物位于栏内右，草在左前景、江在栏外。单幅非对称构图保留左侧江面与右侧人物。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "文字计划修为自然腰腹高度的栏、人物裁至腰上，能保留肩肘腕连接；手臂轻靠栏顶、草由可见栏顶承托。脚画外不作脚位认证；实际接触仍须线稿复核。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "独立空间文字审核通过；仅允许进入线稿，非新图视觉通过。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "机位略高于栏顶、轻俯视可见栏面，仍低于人物眼位；沿栏斜看；陈右侧裁到腰上、三分之四向左轻俯。",
+                  "action_target": "陈凝视近栏折草。",
+                  "action_space": "手在画面中右停放，草在左前景；手不跨越草，不产生接触植物的新剧情。",
+                  "route": "人物静止；河水反光向横向延伸，未真实制作动态。",
+                  "continuity": "章末独立回收短片终镜的相同栏、草、人物朝向；新构图不沿用旧05B/C。"
+                }
+              }
+            ],
+            "findings": [],
+            "review_provenance": "/root于2026-11-05转达/root/space_review已核新版581f8a且空间文字审核通过；不冒称已看到新图。"
+          },
+          "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "in_progress",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: illustration-story.\nCreate ONE original black-and-white ink LINE DRAWING for a Chinese narrative visual novel chapter-ending CG, wide 16:9 target 1920x1080, one unified cinematic frame, NOT a poster montage, NOT a comic page. Title concept only: \"且慢行 / Look closely before moving on\"; draw NO text, no UI, no achievement badge.\nThe two supplied images are identity reference only: image 1 is Chen Ping'an's authoritative face, image 2 his current travel clothes. Preserve the same 20–22-year-old man's slim elongated face, straight brows, narrow natural eyes, understated mouth, black topknot, thin horizontal jade hairpin with delicate curled head, blue-grey SHORT-SLEEVE outer robe over white inner shirt, dark wrist guards. Interpret all in monochrome lines. No backpack because he is staying indoors at night; his waist is outside the crop. Not an idol face.\nSCENE: After the rain, a high wooden gallery overlooking the Tiequan River at night. The visual idea is that an immense moving world becomes secondary to one small damaged thing he has finally looked at. This is a restrained, intimate pause, no enlightenment, no magic.\nCOMPOSITION: a striking close, oblique view ALONG the top of an old wet wooden handrail. The camera is slightly ABOVE the handrail, looking gently down onto its TOP surface, while remaining well below Chen's eye level. The rail is at his natural waist/upper-abdomen height, not chest height; show enough torso to connect shoulder, elbow, wrist and resting hand. The near end of the handrail enters from lower left very large, recedes toward mid-right, dividing foreground from the river. On the near rail at x~0.28,y~0.66 is a single wind-blown bent grass stem with two narrow torn leaves, lying naturally ON the wet wood, a tiny drop held at the torn tip. It is a small stem made legible by proximity, not a giant plant. Close wood grain, water edge and leaf are drawn with exceptionally delicate spare lines.\nChen is BEHIND the railing on the gallery side in the right third, seen from just above the waist to head, a large recognizable three-quarter face turned left and slightly downward, quietly studying that stem. His head at x~0.77,y~0.32, around 15 percent of total frame height; natural youth and lower facial volume as reference. One forearm rests lightly along the rail, hand at x~0.60,y~0.66, relaxed fingers resting near his own body and far from the stem. His eyes guide our attention along the rail toward the grass. Hands anatomically natural, no pointing, grasping, picking up, saving or blessing the plant.\nThe remaining upper-left and middle-left two-thirds open onto the broad night river and remote inhabited shore. Tiny ordinary roofs and a few quiet window lights, subdued reflection marks stretching along the water; farther bank broken into extremely faint sparse ink lines and open white paper. No bridge, boat, people, mountains or moon required to clutter the view. One dark gallery post at far right anchors Chen's location; no massive architectural frame across the top. The river is wider than the man, but the small leaf is the first focal point then his eyes. Use near/far scale contrast and asymmetry for emotional force.\nSTYLE: confident expressive Chinese pen-and-ink storyboard linework, semi-realistic young Chinese man, Song-inspired ordinary architecture, clear structural contour, economical hatching only under sleeve and handrail, 60 percent breathing white space. Sharp fragile grass/eye lines against long flowing distant water lines. No grey airbrush fill, no all-over graphite texture, no photorealism, no watercolor color, no ornamental clouds, no effects, no snow, no rainfall (rain has ended), no heroic posing. A complete original story image rather than an establishing shot. Keep bottom edge uncluttered for optional future UI, but draw no UI.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+              "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+              "role": "cg 首次新生成线稿"
+            }
+          ],
+          "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "image_gen.imagegen 2026-11-05 exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+            "arguments": {
+              "prompt": "Use case: illustration-story.\nCreate ONE original black-and-white ink LINE DRAWING for a Chinese narrative visual novel chapter-ending CG, wide 16:9 target 1920x1080, one unified cinematic frame, NOT a poster montage, NOT a comic page. Title concept only: \"且慢行 / Look closely before moving on\"; draw NO text, no UI, no achievement badge.\nThe two supplied images are identity reference only: image 1 is Chen Ping'an's authoritative face, image 2 his current travel clothes. Preserve the same 20–22-year-old man's slim elongated face, straight brows, narrow natural eyes, understated mouth, black topknot, thin horizontal jade hairpin with delicate curled head, blue-grey SHORT-SLEEVE outer robe over white inner shirt, dark wrist guards. Interpret all in monochrome lines. No backpack because he is staying indoors at night; his waist is outside the crop. Not an idol face.\nSCENE: After the rain, a high wooden gallery overlooking the Tiequan River at night. The visual idea is that an immense moving world becomes secondary to one small damaged thing he has finally looked at. This is a restrained, intimate pause, no enlightenment, no magic.\nCOMPOSITION: a striking close, oblique view ALONG the top of an old wet wooden handrail. The camera is slightly ABOVE the handrail, looking gently down onto its TOP surface, while remaining well below Chen's eye level. The rail is at his natural waist/upper-abdomen height, not chest height; show enough torso to connect shoulder, elbow, wrist and resting hand. The near end of the handrail enters from lower left very large, recedes toward mid-right, dividing foreground from the river. On the near rail at x~0.28,y~0.66 is a single wind-blown bent grass stem with two narrow torn leaves, lying naturally ON the wet wood, a tiny drop held at the torn tip. It is a small stem made legible by proximity, not a giant plant. Close wood grain, water edge and leaf are drawn with exceptionally delicate spare lines.\nChen is BEHIND the railing on the gallery side in the right third, seen from just above the waist to head, a large recognizable three-quarter face turned left and slightly downward, quietly studying that stem. His head at x~0.77,y~0.32, around 15 percent of total frame height; natural youth and lower facial volume as reference. One forearm rests lightly along the rail, hand at x~0.60,y~0.66, relaxed fingers resting near his own body and far from the stem. His eyes guide our attention along the rail toward the grass. Hands anatomically natural, no pointing, grasping, picking up, saving or blessing the plant.\nThe remaining upper-left and middle-left two-thirds open onto the broad night river and remote inhabited shore. Tiny ordinary roofs and a few quiet window lights, subdued reflection marks stretching along the water; farther bank broken into extremely faint sparse ink lines and open white paper. No bridge, boat, people, mountains or moon required to clutter the view. One dark gallery post at far right anchors Chen's location; no massive architectural frame across the top. The river is wider than the man, but the small leaf is the first focal point then his eyes. Use near/far scale contrast and asymmetry for emotional force.\nSTYLE: confident expressive Chinese pen-and-ink storyboard linework, semi-realistic young Chinese man, Song-inspired ordinary architecture, clear structural contour, economical hatching only under sleeve and handrail, 60 percent breathing white space. Sharp fragile grass/eye lines against long flowing distant water lines. No grey airbrush fill, no all-over graphite texture, no photorealism, no watercolor color, no ornamental clouds, no effects, no snow, no rainfall (rain has ended), no heroic posing. A complete original story image rather than an establishing shot. Keep bottom edge uncluttered for optional future UI, but draw no UI.",
+              "referenced_image_paths": [
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png"
+              ],
+              "transparent_background": false
+            }
+          },
+          "review": {
+            "reviewer": "/root/space_review",
+            "verdict": "rework",
+            "staging_sha256": "343bf02e8a3c3b8c3b4d3a6bfe5138d3082f46fb1018424ed58d2c9168bbc49d",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "fail",
+                "observation": "分缕额发与高髻连续，但玉簪为旧式圆球首，不符合当前卷曲镂空标准。 脸部其余观察见逐角色检查。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "肩肘腕及手指未见明显增手、断腕、漂浮；短袖外袍、白内衫与护腕成立。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "独立章末CG，和分镜末格为共同主题，非已验证动画连续。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "人物与栏江位置成立。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "略高于栏顶，实际可见栏上表面；沿栏斜看。",
+                  "action_target": "陈低头看草，没有拾取、施法或救草动作。",
+                  "action_space": "手与草保持分离，手臂受栏支持。",
+                  "route": "静态凝视，未验证河水运动。",
+                  "continuity": "独立章末CG，和分镜末格为共同主题，非已验证动画连续。"
+                }
+              }
+            ],
+            "findings": [
+              {
+                "id": "F_CG_PIN",
+                "severity": "hard",
+                "state": "open",
+                "problem": "玉簪为旧式圆球首，当前标准要求卷曲镂空簪首。",
+                "required_change": "在原线稿玉簪区域局部改为已确认卷首，不改脸和发髻。",
+                "preserve": "人物身份、其余构图、江面及手臂支撑；不整图重生成。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  }
+                ]
+              }
+            ],
+            "character_checks": [
+              {
+                "character_id": "cpa",
+                "result": "fail",
+                "observation": "独立实际查看整图与脸部局部。分缕额发与高髻连续，但玉簪为旧式圆球首，不符合当前卷曲镂空标准。",
+                "view": "CG局部x1075,y0,w430,h530，原像素内存查看，三分之四轻俯。",
+                "image": {
+                  "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                  "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                  "role": "cg 首次新生成线稿"
+                },
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+                    "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+                    "role": "cg 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "comparisons": {
+                  "face_shape": "瘦长收束的青年脸型与母版对应，未发现足以另判换脸的证据。",
+                  "features": "直眉窄眼、长鼻薄唇与母版五官布局可对应。",
+                  "age": "仍为年轻成人，没有儿童化或明显老化。",
+                  "hair": "分缕额发与高髻连续，但玉簪为旧式圆球首，不符合当前卷曲镂空标准。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "人/栏/江关系和手的支撑成立。",
+                  "observations": {
+                    "position": "人物右侧廊内，草左前，江左外。",
+                    "footing": "足点画外；肩肘前臂腕连续，栏面承托手臂。",
+                    "facing": "头肩朝左前且轻俯。",
+                    "gaze": "目光指向左前景草。",
+                    "scale_depth": "人近岸远；近栏草可以辨认。",
+                    "occlusion": "栏遮腰下，松垂手指与前臂无漂浮。"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+          "sha256": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+          "role": "cg 首次新生成线稿"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "保留工具原生尺寸；本轮未拉伸、未接入；目标1920x1080仅为请求目标。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "reference_viewing": {
+    "viewer": "/root",
+    "event": "本轮主代理确认已实际view脸部母版、暖季服装及十五视角三图。记录代理没有冒称自己看过图。",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+        "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+        "role": "唯一脸部母版；主代理已实际打开"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+        "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+        "role": "当前暖季衣装母版；主代理已实际打开"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+        "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+        "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+      }
+    ]
+  },
+  "current_status": "用户按现稿确认已完成第09场雨停夜廊切入的场景制作，止于第390行“他低头看了一眼”；下一段从391行起制作镜05–06路边躲雨。现有单图美术采用，剧情未调用；车轮四镜为历史建议。最新范围以opening_excerpt_confirmation_20261106为准。",
+  "validation_boundary": "只核验静态线稿的身份、支撑、快慢辨识和跨镜归属。未制作动画、音频、字幕及成就系统。",
+  "inspection_scope": "当前彩图与原位修订已静态复核；2026-11-06仅确认定稿及核查图片定义、实际文件与剧情调用，未修改运行代码或图片。",
+  "delivery_note": "本轮依用户提供的两段脚本更正完成边界与下一制作段落，同步分镜、索引及目录。原图、项目图片和剧情脚本均未改，不新增演出或文件；历史调用和误判记录保留并注明已被取代。",
+  "in_place_revisions": [
+    {
+      "date": "2026-11-05",
+      "scope": "仅章末CG的玉簪，用户认可原构图，按刚更新的立绘修订。",
+      "status": "构图获认可；修订线稿经独立视觉复核通过，待用户查看。",
+      "operation": "取2026-11-05确认的脸页三分之四角度卷首轮廓，转成线稿灰阶，顺绳结斜向贴合簪杆，局部缩短并收尖右尾。内存校对后只打开指定原PNG写回。",
+      "latest_reference_paths": [
+        "game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+        "game/lh/cpa/cpa_face_standard_01.png",
+        "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md"
+      ],
+      "evidence": {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "changed": 2845,
+        "bounds": [
+          1135,
+          67,
+          1429,
+          138
+        ],
+        "outside": 0,
+        "before": "0ec0dd7d7d152d2fc1fd6255990bf706399c372317ef17b4c67b9ce63b21fb69",
+        "after": "7ee7061ffe7cd2bdf8fd9e409d0bc3d17a6e1e85fa7883efd8c13041de85346e",
+        "pixels": "b9c4a1e560e00d26ffc8e492b9d26205f92a9e54282be7e0e5aeb8f99cea2af9",
+        "referenceFace": "a75bf85e0381586c6c2561c3ccc4180b8fbd838248583306df9eacce33c78f80",
+        "referenceOutfit": "70289ed6149c25d887f252731b1014bdd68b6a3d72d1fa30617d67bb45a5a198",
+        "write": true,
+        "method": "FileHandle open r+; positional write; truncate; fsync; readback",
+        "inodeBefore": "25332747904300816",
+        "inodeAfter": "25332747904300816",
+        "device": "2119344482",
+        "readback": true
+      },
+      "allowed_regions_inclusive": [
+        [
+          1135,
+          90,
+          1208,
+          139
+        ],
+        [
+          1348,
+          66,
+          1429,
+          96
+        ]
+      ],
+      "independent_visual_review": {
+        "reviewer": "/root/space_review",
+        "image_sha256": "7ee7061ffe7cd2bdf8fd9e409d0bc3d17a6e1e85fa7883efd8c13041de85346e",
+        "verdict": "pass",
+        "region_xywh": [
+          1105,
+          0,
+          375,
+          150
+        ],
+        "observation": "重新查看磁盘整图及玉簪原像素。左侧主卷及短回钩符合新脸页，簪杆在绳结处遮挡，右尾缩短、渐尖，与左端共轴。卷首灰阶略软，整体构图、支撑及江面留白成立。"
+      },
+      "historical_note": "原生成尝试、原母版和首稿指纹保留为当时的证据。原文件经用户授权原位修改且身份母版同日更新，旧指纹不再代表当前像素。修后状态按本项实写回读和视觉复核核验。",
+      "integration": "未接入游戏"
+    },
+    {
+      "date": "2026-11-05",
+      "scope": "仅按用户要求在章末CG原件上色。",
+      "status": "彩图已完成着色和独立静态复核，待用户查看。",
+      "evidence": {
+        "write": true,
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+        "method": "open existing r+, positional write, truncate, fsync, byte and all-pixel readback",
+        "dimensions": [
+          1672,
+          941
+        ],
+        "inodeBefore": "25332747904300816",
+        "inodeAfter": "25332747904300816",
+        "device": "2119344482",
+        "before": "7ee7061ffe7cd2bdf8fd9e409d0bc3d17a6e1e85fa7883efd8c13041de85346e",
+        "after": "81fa8a1f90241469d812bdbbdc804e4fa4ea6a4a7d90f90c8f0566d153bafaa9",
+        "pixels_sha256": "3d3ecf36261a0ed455976221f1c2700043c796ebb9aa5f364c31b3ceae0fbd92",
+        "changed": 1573350,
+        "totalPixels": 1573352,
+        "readback": true
+      },
+      "visual_review": {
+        "reviewer": "/root/color_review",
+        "image_sha256": "81fa8a1f90241469d812bdbbdc804e4fa4ea6a4a7d90f90c8f0566d153bafaa9",
+        "verdict": "pass",
+        "observation": "从磁盘重新打开原图并实测指纹。远岸淡入雾中，发际阴影柔化，湿木灰褐，折草与叶尖水滴清楚。青年脸型、束髻、青玉卷首、灰蓝短袖外袍和米白内衫可认。前臂搭栏、松垂手、左下视线及画幅留白与已认可构图一致。"
+      },
+      "integration": "not_requested"
+    },
+    {
+      "date": "2026-11-06",
+      "scope": "用户同意修正水光，仅处理折草下方已有栏面积水。",
+      "status": "局部水光修订与独立复核通过；当前用途为新切入第04镜单张完成图，整体完成范围以scope_correction_20261106为准。",
+      "tool": "sharp读取和局部合成、Node FileHandle r+写回原件",
+      "operation": {
+        "region_path": "M 330 842 C 380 833 424 825 470 821 C 515 816 552 812 587 812 C 611 812 626 810 639 810 C 628 816 600 820 579 823 C 562 826 558 830 567 833 C 576 836 591 835 596 839 C 598 844 580 848 558 852 C 543 855 528 857 525 861 C 515 865 498 867 487 865 C 468 865 447 871 430 874 C 420 876 411 879 400 877 C 388 875 381 874 369 874 C 354 872 352 869 361 864 C 372 860 384 857 380 853 C 374 849 351 851 337 848 Z",
+        "protect_rule": "y<=807禁止修改，水痕内缩蒙版外禁止修改。",
+        "woodgrain": "仅在水膜内部降低木纹细节约三成，保留透见的木材。",
+        "reflection": "冷灰蓝天空反光，沿左下至右上的栏面方向分成短段细光。",
+        "reproducible_code": "async function fixWet(original,sharp){\nconst w=1672,h=941,mPath=\"M 330 842 C 380 833 424 825 470 821 C 515 816 552 812 587 812 C 611 812 626 810 639 810 C 628 816 600 820 579 823 C 562 826 558 830 567 833 C 576 836 591 835 596 839 C 598 844 580 848 558 852 C 543 855 528 857 525 861 C 515 865 498 867 487 865 C 468 865 447 871 430 874 C 420 876 411 879 400 877 C 388 875 381 874 369 874 C 354 872 352 869 361 864 C 372 860 384 857 380 853 C 374 849 351 851 337 848 Z\";\nconst rgb=await sharp(original).removeAlpha().raw().toBuffer();\nconst svg=Buffer.from('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"'+w+'\" height=\"'+h+'\"><path d=\"'+mPath+'\" fill=\"white\"/></svg>');\nconst rough=await sharp(svg).ensureAlpha().raw().toBuffer();\nconst softened=await sharp(svg).blur(2.1).ensureAlpha().raw().toBuffer();\nconst smear=await sharp(original).blur(1.35).removeAlpha().raw().toBuffer();\nconst gleamSvg=Buffer.from('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"'+w+'\" height=\"'+h+'\"><g fill=\"none\" stroke=\"white\" stroke-linecap=\"round\"><path d=\"M399 855 Q415 851.6 428 850\" stroke-width=\".9\" opacity=\".6\"/><path d=\"M438 848.1 Q458 844.3 481 842.5 Q489 842 495 840.4\" stroke-width=\"1.3\" opacity=\".9\"/><path d=\"M505 838.6 Q520 836.7 535 833.6\" stroke-width=\"1.0\" opacity=\".7\"/><path d=\"M545 831.5 L554 830\" stroke-width=\".6\" opacity=\".5\"/></g></svg>');\nconst gleam=await sharp(gleamSvg).blur(.45).ensureAlpha().raw().toBuffer(),out=Buffer.from(rgb);\nconst clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v)),smooth=(a,b,x)=>{let t=clamp((x-a)/(b-a));return t*t*(3-2*t)};\nfor(let y=808;y<=882;y++)for(let x=325;x<=642;x++){\n  let i=(y*w+x)*3,j=(y*w+x)*4;if(!rough[j+3])continue;\n  let a=(rough[j+3]/255)*(softened[j+3]/255);\n  let core=Math.exp(-Math.pow((y-(849-(x-420)*.143))/13,2));\n  let fade=smooth(334,390,x)*(1-smooth(569,642,x));\n  let cloud=.76+.15*Math.sin(x*.042+y*.075)+.09*Math.cos(x*.089-y*.13);\n  let reflection=a*(.13+.34*core*fade*cloud);\n  let smoothAmt=a*(.20+.15*core);\n  let near=smooth(826,876,y);\n  let sky=[112+near*12,132+near*9,145+near*4];\n  let line=gleam[j+3]/255*a*.48;\n  for(let c=0;c<3;c++){\n    let flat=rgb[i+c]*(1-smoothAmt)+smear[i+c]*smoothAmt;\n    let wet=flat*(1-reflection)+sky[c]*reflection;\n    out[i+c]=Math.round(clamp(wet*(1-line)+[179,192,193][c]*line,0,255));\n  }\n}\nreturn {pixels:out,originalPixels:rgb,mask:rough};\n}"
+      },
+      "evidence": {
+        "write": true,
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+        "method": "Open existing r+; positional write; truncate; fsync; bytes and pixel readback",
+        "before": "81fa8a1f90241469d812bdbbdc804e4fa4ea6a4a7d90f90c8f0566d153bafaa9",
+        "after": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+        "pixels": "541c06d0e7c91d278437632e06623bd8a54722d9f23c0d57b03393c2612f0ff5",
+        "changed": 10462,
+        "bounds": [
+          331,
+          810,
+          636,
+          877
+        ],
+        "outsideMask": 0,
+        "protectedChanges": 0,
+        "dimensions": [
+          1672,
+          941
+        ],
+        "inodeBefore": "25332747904300816",
+        "inodeAfter": "25332747904300816",
+        "device": "2119344482",
+        "verified": true
+      },
+      "visual_review": {
+        "reviewer": "/root/color_review",
+        "image_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+        "verdict": "pass",
+        "observation": "从磁盘查看整图及3倍局部。水膜透明可辨，木纹透见，灰蓝映光和断续细亮线顺栏面透视，亮度克制。独立像素比对确认10462变化像素且边界与写回记录一致。"
+      },
+      "integration": "not_requested"
+    }
+  ],
+  "color_work_20261105": {
+    "date": "2026-11-05",
+    "request": "这张现在开始上色",
+    "target": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+    "expected_source_sha256": "7ee7061ffe7cd2bdf8fd9e409d0bc3d17a6e1e85fa7883efd8c13041de85346e",
+    "expected_color_pixels_sha256": "3d3ecf36261a0ed455976221f1c2700043c796ebb9aa5f364c31b3ceae0fbd92",
+    "method": "以已修簪线稿的实际像素为明暗依据，在内存中对人物、玉簪、折草、木面、江岸分区着色，使用原稿同像素位置合成。",
+    "reference_roles": "当前暖季立绘提供衣装和玉簪固有色，当前脸页提供身份和玉簪角度，雨停看掌定稿提供夜河冷色和廊灯暖色。",
+    "palette_and_review": "远岸蓝灰、廊灯暖光、灰蓝短袖外袍、米白内衫、暗护腕、青绿玉簪。根据内存彩图独立复核意见修正x1000岸线截断、发际硬边和湿栏黄亮。",
+    "masks": {
+      "robeL": "M897 569 Q907 547 916 536 Q940 523 963 507 L1017 493 Q1040 485 1051 462 Q1057 455 1076 454 Q1098 426 1125 411 Q1154 405 1179 413 L1201 407 Q1216 405 1232 424 Q1252 447 1268 457 Q1284 465 1303 452 Q1311 496 1318 548 Q1323 613 1327 684 L1331 802 L1330 941 L1206 941 L1207 752 L1148 702 Q1110 681 1089 651 L1067 600 Q1043 560 1001 541 Q950 523 918 551 Z",
+      "robeR": "M1434 355 Q1460 362 1486 374 Q1501 390 1522 403 Q1539 411 1553 416 Q1576 431 1603 438 L1672 460 L1672 794 Q1636 794 1620 800 Q1608 804 1602 810 Q1608 822 1623 831 L1607 865 L1595 893 Q1577 846 1568 801 Q1548 720 1533 629 Q1520 552 1512 495 Q1505 433 1489 392 Q1474 371 1434 355 Z",
+      "collar": "M1303 457 Q1320 463 1331 477 Q1362 494 1391 527 Q1411 490 1428 445 Q1443 407 1443 390 Q1442 373 1434 356 Q1463 363 1484 378 Q1501 399 1509 451 Q1523 529 1533 619 Q1557 760 1582 855 L1595 894 L1564 941 L1329 941 L1331 805 Q1324 727 1323 650 Q1320 552 1303 457 Z",
+      "sleeveR": "M1672 795 Q1648 792 1621 802 Q1621 831 1606 861 Q1600 881 1586 899 Q1561 923 1560 941 L1672 941 Z",
+      "sleeveL": "M838 679 Q847 657 852 622 Q854 602 858 596 Q879 580 900 568 Q919 543 944 535 Q971 523 1003 523 Q1048 527 1077 548 Q1104 554 1117 581 L1123 597 Q1096 590 1069 583 Q1024 571 1000 600 Q975 631 965 688 L976 696 Q953 700 943 695 Q914 704 886 700 L853 704 Z",
+      "wrap": "M965 688 Q970 653 986 618 Q1004 587 1034 582 Q1056 575 1077 584 Q1125 593 1171 616 Q1194 623 1207 636 Q1184 636 1165 653 Q1142 675 1149 701 L1154 711 Q1127 704 1101 703 Q1036 698 973 695 Z",
+      "hand": "M1195 636 Q1200 635 1207 641 L1285 686 Q1291 689 1293 697 L1312 757 Q1315 765 1311 773 L1301 801 Q1299 807 1293 816 L1288 825 Q1283 832 1277 825 Q1274 820 1279 808 L1283 798 Q1278 806 1272 810 L1254 821 Q1246 830 1243 826 Q1240 823 1244 814 L1246 807 L1233 816 Q1225 824 1221 819 Q1218 815 1223 806 L1228 801 L1219 805 Q1214 815 1210 810 Q1207 807 1209 797 L1212 776 Q1213 771 1210 761 L1205 747 Q1190 738 1181 731 Q1161 720 1153 704 Q1146 695 1148 680 Q1150 660 1166 647 Q1180 636 1195 636 Z",
+      "rail": "M0 854 Q150 825 284 800 L422 776 L525 762 L642 743 L800 713 L850 704 Q872 703 884 698 Q894 706 913 702 L944 698 Q950 703 963 697 Q1005 693 1048 696 Q1104 699 1149 708 Q1163 724 1195 744 L1204 761 L1204 768 L1155 788 L1139 797 L1064 833 L1028 852 L927 908 L895 925 L865 941 H0 Z",
+      "railTop": "M0 854 Q150 825 284 800 L422 776 L525 762 L642 743 L800 713 L850 704 Q872 703 884 698 Q894 706 913 702 L944 698 Q950 703 963 697 Q1005 693 1048 696 Q1104 699 1149 708 L1144 714 Q1089 733 1042 751 Q987 774 941 792 Q876 812 814 833 Q735 854 672 878 Q581 912 502 941 H0 Z",
+      "post": "M1539 0 H1667 L1666 456 L1640 448 L1600 434 L1561 422 L1550 415 L1538 411 L1538 302 L1537 202 L1537 96 Z",
+      "sticks": "M864 941 L895 924 V941 Z M927 907 L1028 856 V941 H927 Z M1064 838 L1138 800 V941 H1064 Z M1155 793 L1204 768 V941 H1155 Z",
+      "leafTop": "M445 740 Q453 718 476 706 Q492 698 505 695 L507 697 Q521 697 527 691 Q537 688 545 690 L552 693 L562 692 L566 690 Q580 689 588 697 L596 704 Q603 707 607 713 Q599 706 589 704 L585 705 L582 702 Q569 698 561 699 L554 699 L560 705 L556 706 L550 704 L539 705 L533 702 Q519 700 506 707 L496 717 L489 719 L488 723 Q465 740 445 740 Z",
+      "leafLow": "M457 770 Q474 761 487 763 Q505 765 521 779 Q528 786 539 788 L551 787 Q561 787 570 793 L582 795 L606 797 L595 799 L591 801 L583 798 L572 799 L563 798 L552 800 L539 798 L530 799 Q508 801 487 788 Q470 776 457 771 Z",
+      "stem": "M230 844 Q252 842 280 835 Q299 824 321 804 Q365 786 421 772 Q440 769 457 770 M421 772 C429 766 435 748 445 740 M321 804 Q338 785 360 766 Q389 746 444 740",
+      "drop": "M607 713 C608 719 603 723 604 728 C605 733 611 733 612 727 C612 723 608 717 608 713 Z",
+      "pinHead": "M1213.5 95 C1204.5 96 1192.5 97.5 1182.5 100.5 C1180 98.5 1178.5 97 1176.5 98 C1174.5 99 1174 101.5 1172.5 104 C1170.5 101.5 1167.5 98 1164 97.5 C1158.5 95.5 1152.5 97.5 1148.5 100.5 C1143 104.5 1141 109.5 1141 115.5 C1141 121 1143 125 1146.5 126.5 C1150 128.5 1154 126 1155.5 123.5 C1156 128 1157.5 132.5 1161 134 C1165.5 135 1168.5 131.5 1169.5 128 C1170.5 124 1168.5 120 1166 119.5 C1163 119 1162.5 121 1163.5 123 C1164 124.5 1164 126 1162 126.5 C1160 126 1159.5 121 1160 115.5 C1160 112 1158.5 109.5 1157 107.5 C1162 106 1165 108 1167 112 C1169.5 117.5 1174 118.5 1177 115.5 C1179.5 113.5 1181 110.5 1182.5 109.5 C1192.5 106 1204.5 104.5 1212 103.5 Z M1149 111 C1147.5 114 1148 117.5 1150 118.5 C1152 119.5 1153.5 117 1152.5 114 C1152 112 1151 111 1149 111 Z",
+      "pinTail": "M1324 83 C1338 82 1350.5 80 1361 78.5 C1369.5 77.5 1378.5 77.5 1385 79 C1387.5 79.5 1387.5 80.5 1385 81.5 C1375 84 1370 85.5 1362 86.5 L1322 90.5 C1319 91 1317 90.5 1315 89 C1317 86 1321 84.5 1324 83 Z",
+      "cord": "M1211 111 C1212.5 105.5 1213 98.5 1220.5 92.5 C1228.5 85 1240.5 79.5 1252.5 77.5 C1271 74.5 1286 75 1298 79.5 C1307 82 1312.5 86.5 1318.5 90.5 C1322.5 94 1324.5 97 1324.5 100.5 C1318 100 1309.5 99 1301 97.5 C1289 95 1274 94.5 1261.5 97 C1245.5 98.5 1230.5 102.5 1219 107 Z",
+      "bun": "M1214 93 C1201.5 90.5 1195.5 84 1192.5 75.5 C1188.5 63 1192 50.5 1201 40.5 C1207 33 1209.5 22.5 1224 17 C1236 9.5 1249 9 1260.5 3.5 C1273.5 -1.5 1285.5 2 1295.5 8 C1305 10 1316.5 9.5 1325 15 C1334.5 20 1338.5 24.5 1340.5 30.5 C1349 37 1356.5 49 1354.5 60 C1355 71 1349.5 79.5 1340 86.5 C1328 91.5 1321.5 94.5 1316.5 96 C1295.5 102.5 1239 106.5 1214 93 Z",
+      "face": "M1171.5 255 C1188.5 249.5 1210.5 242.5 1227.5 242.5 C1260 249.5 1294.5 258 1321.5 276 C1341 287.5 1356.5 298 1373 303 C1390.5 313.5 1385.5 341.5 1370 357 C1367 363.5 1365.5 374.5 1358 386 C1342 409 1320 434.5 1299.5 454 C1294 459 1286 460.5 1274.5 460.5 C1267.5 460.5 1264 458 1259.5 452 C1243 430 1224.5 414 1214 402 C1201.5 388 1192 372 1183 358 C1175 345.5 1166.5 333 1162.5 317.5 C1157.5 299.5 1160.5 274.5 1171.5 255 Z",
+      "ear": "M1374.5 273 C1381.5 269 1391 263 1396 264 C1403.5 265 1408.5 275.5 1410 289 C1411 301.5 1404.5 314.5 1396.5 325 C1390 333 1385 342.5 1375 343.5 C1367 344.5 1363.5 337 1363 329 C1362.5 316 1364 306 1365 297 C1364.5 287 1369 277 1374.5 273 Z",
+      "neck": "M1280 457 C1301 448 1340 401 1366 368 L1382 339 Q1399 330 1412 350 C1420 366 1428 382 1442 392 C1441 439 1405 516 1389 543.5 C1371 524 1352 500 1334 480 C1320 464 1310 457 1303 454 L1294 461 Z",
+      "eyes": "M1175 332 Q1193 327 1206 334 Q1212 337 1215 341 Q1204 348 1191 347 Q1181 345 1175 332 Z M1255 328 Q1268 318 1286 317 Q1298 316 1307 313 Q1299 326 1284 331 Q1268 335 1255 328 Z",
+      "hair": "M1210 111 C1236 94 1290 91 1323 101.5 C1380 107 1408 142 1422 168.5 Q1441 186 1458 178 Q1446 193 1425 185 Q1439 205 1438.5 221 Q1441 248 1461 244 Q1470 246 1475.5 240 Q1463 258 1443 250 Q1449 265 1451.5 278.5 Q1454 288 1461.5 289.5 Q1450 292 1440 281 Q1442 296 1433 310 Q1443 325 1459.5 313.5 Q1452 326 1434.5 320 Q1446 334 1459 325.5 Q1450 339 1431.5 327 Q1438 347 1453 351 Q1441 355 1424 342.5 Q1426 356 1440 365.5 Q1427 364 1418 352 Q1422 371 1414 383.5 Q1418 365 1408 352 Q1411 372 1402 383.5 Q1408 361 1397.5 349 L1391 338 C1400 326 1408 313 1409 301 Q1413 282 1402 266.5 Q1396 261 1388.5 268 Q1379 271 1372.5 275.5 L1370 287.5 Q1375 298 1384 301.5 Q1376 307 1366.5 300.5 Q1370 323 1358 338.5 Q1365 323 1356.5 305.5 Q1359 339 1347 355 Q1354 334 1342 316.5 Q1347 348 1330.5 364 Q1349 334 1328.5 311.5 L1317 300 Q1328 326 1319 342.5 Q1320 322 1305.5 303 L1285.5 277.5 Q1291 297 1309 313.5 Q1291 305 1272 281.5 L1253.5 263 Q1261 281 1263 299.5 Q1251 280 1243 271 Q1247 291 1241.5 311 Q1247 278 1225 250.5 Q1212 252 1202 259.5 Q1188 252 1175 258.5 L1170 260.5 Q1169 290 1193 316.5 Q1176 304 1165.5 277.5 Q1168 311 1183 327 Q1169 318 1161.5 302.5 Q1161 335 1179.5 357.5 L1196.5 378 Q1180 369 1167 348.5 Q1184 380 1178 392 Q1179 375 1158 357 Q1146 344 1143 334.5 Q1143 350 1156.5 362.5 Q1138 351 1131.5 325 Q1129 345 1141.5 358.5 Q1126 346 1124 324.5 Q1117 337 1102 337 Q1116 331 1125 313.5 Q1121 289 1132 262.5 Q1118 273 1109.5 285 Q1113 269 1125.5 253.5 Q1112 256 1103 249.5 Q1118 248 1129 235 Q1138 217 1150 203.5 Q1128 209 1113.5 225 Q1123 206 1141.5 193 Q1131 196 1123.5 204 Q1135 184 1142.5 166 Q1169 130 1210 111 Z"
+    },
+    "renderer": "async function paint(P,base,sharp){\n  const W=1672,H=941;const raw=await sharp(base).removeAlpha().raw().toBuffer();\n  const defs=['<filter id=\"softShade\" x=\"-30%\" y=\"-30%\" width=\"160%\" height=\"160%\"><feGaussianBlur stdDeviation=\"4\"/></filter>'],layers=[];const palette={};let serial=0;\n  const gradient=(name,x1,y1,x2,y2,stops)=>{defs.push('<linearGradient id=\"'+name+'\" gradientUnits=\"userSpaceOnUse\" x1=\"'+x1+'\" y1=\"'+y1+'\" x2=\"'+x2+'\" y2=\"'+y2+'\">'+stops.map(([a,b])=>'<stop offset=\"'+a+'\" stop-color=\"'+b+'\"/>').join('')+'</linearGradient>');return 'url(#'+name+')'};\n  const g=gradient;\n  const shape=(d,fill,id,attr='')=>{if(d)layers.push({d,fill,id,attr})};\n  const ellipse=(x,y,rx,ry)=>'M '+(x-rx)+' '+y+' a '+rx+' '+ry+' 0 1 0 '+2*rx+' 0 a '+rx+' '+ry+' 0 1 0 '+(-2*rx)+' 0 z';\n  const rect=(x,y,w,h)=>'M'+x+' '+y+'h'+w+'v'+h+'h-'+w+'z';\n  const clipped=(name,d)=>{defs.push('<clipPath id=\"'+name+'\"><path d=\"'+d+'\"/></clipPath>');return 'clip-path=\"url(#'+name+')\"';};\n  const id={ground:1,wall:2,roof:3,lamp:4,post:5,sticks:6,rail:7,railTop:8,leaf:9,drop:10,robe:11,cotton:12,wrap:13,skin:14,hair:15,cord:16,jade:17,eyes:18};\n  const earth=g('shore',0,440,0,521,[[0,'#43515b'],[.65,'#58635f'],[1,'#4c5759']]);\n  shape('M0 470 Q62 483 114 478 Q151 487 196 487 L310 478 Q405 490 518 489 L690 482 L1000 481 L1000 485 Q750 488 604 499 Q437 494 307 502 Q167 506 108 513 L0 520Z',earth,id.ground);\n  const walls=g('plaster',50,430,740,490,[[0,'#757773'],[.48,'#747e80'],[1,'#6d7f83']]);\n  const roofs=g('roof',0,390,0,505,[[0,'#344653'],[.55,'#465768'],[1,'#526776']]);\n  const village=[\n  ['M115 443 L150 427 L158 435 L172 434 L170 475 L117 475 Z','M115 445 Q135 435 149 421 L161 427 L175 436 L168 440Z'],\n  ['M152 424 L183 415 L224 426 L229 471 L156 473Z','M147 426 L157 419 L158 410 Q183 419 203 415 L210 418 L223 432 L213 437Z'],\n  ['M156 447 L228 437 L264 448 L264 491 L157 490Z','M120 449 Q146 437 155 424 Q175 433 203 434 L226 435 L262 447 L267 452 Q213 446 180 450 L153 450Z'],\n  ['M206 418 L240 403 L276 418 L315 432 L317 478 L264 481 L263 449 L218 438Z','M197 424 Q211 414 220 396 Q251 404 286 402 L290 399 Q296 420 322 429 L315 434 Q281 433 246 419 L223 408Z'],\n  ['M318 443 L349 432 L392 445 L392 478 L319 478Z','M314 435 L348 437 L362 431 L394 447 L397 452 Q365 450 342 441 L321 443Z'],\n  ['M402 456 L418 449 L451 457 L453 477 L403 477Z','M399 455 Q413 448 418 441 L441 447 L455 458 L445 459Z'],\n  ['M576 476 L586 464 L616 470 L626 476 L625 485 L578 484Z','M574 476 L586 460 L615 466 L626 476 L621 479 L592 466Z'],\n  ['M629 475 L644 468 L676 475 L677 487 L630 487Z','M624 476 L642 465 L669 467 L680 476 L677 478 L646 471Z'],\n  ['M763 480 L777 474 L796 480 V487 L762 486Z','M758 481 L777 473 L788 474 L800 480Z']];\n  for(const [wall,roof] of village){shape(wall,walls,id.wall);shape(roof,roofs,id.roof)}\n  for(const [x,y,w,h] of [[171,458,9,10],[196,457,7,10],[235,458,8,10],[265,425,5,8],[301,430,4,7],[341,456,6,8],[383,457,5,7],[430,464,4,7],[607,477,3,5],[652,478,3,5],[781,481,2,3]]){shape(rect(x,y,w,h),g('lit'+x,x,y,x,y+h,[[0,'#ac865c'],[.42,'#d5af74'],[1,'#a98c68']]),id.lamp)}\n  const post=g('post',1535,0,1672,0,[[0,'#8e6e55'],[.013,'#c49868'],[.08,'#584b44'],[.33,'#715b4f'],[.62,'#524744'],[.98,'#3d383b'],[1,'#302e34']]);\n  shape(P.post,post,id.post);shape(P.sticks,g('bars',910,850,1210,930,[[0,'#655248'],[.48,'#554a44'],[1,'#392f30']]),id.sticks);\n  shape(P.rail,g('railside',520,730,566,948,[[0,'#82634f'],[.61,'#77604f'],[.85,'#594947'],[1,'#493d3c']]),id.rail);\n  shape(P.railTop,g('railtop',520,720,551,936,[[0,'#7d6e60'],[.23,'#a69279'],[.53,'#83766b'],[.75,'#a08b77'],[1,'#6d6059']]),id.railTop);\n  const rclip=clipped('wet',P.railTop);\n  shape('M-30 879 Q135 843 267 828 Q417 797 487 794 Q304 840 103 867 L-10 896Z M480 801 Q660 764 813 749 Q718 768 583 792Z M798 741 Q955 717 1082 704 Q988 720 845 740Z','#c9b293',id.railTop,rclip+' opacity=\".32\"');\n  shape(P.stem,'none',id.leaf,'stroke=\"#776848\" stroke-width=\"2.5\" stroke-linecap=\"round\"');\n  shape(P.leafTop,g('leafhi',445,742,555,687,[[0,'#68724e'],[.40,'#73865a'],[.66,'#bfb173'],[1,'#cdad72']]),id.leaf);\n  shape(P.leafLow,g('leaflo',459,763,570,799,[[0,'#8e875f'],[.55,'#717958'],[1,'#a19c73']]),id.leaf);\n  shape(P.drop,g('dew',604,712,611,731,[[0,'#b1cad3'],[.6,'#95aeb3'],[.88,'#eccfa1'],[1,'#d2d7c5']]),id.drop);\n  const coat=g('robe',916,491,1524,921,[[0,'#929298'],[.16,'#83909b'],[.45,'#647486'],[.76,'#555d72'],[1,'#425264']]);\n  const cotton=g('silk',891,570,1490,899,[[0,'#d1c9bc'],[.22,'#ddd2bf'],[.51,'#a3a4a5'],[.72,'#cac5bc'],[1,'#b6b7b6']]);\n  shape(P.robeL,coat,id.robe);shape(P.robeR,coat,id.robe);shape(P.collar,cotton,id.cotton);shape(P.sleeveR,cotton,id.cotton);shape(P.sleeveL,cotton,id.cotton);\n  const rcl=clipped('rclip',P.robeL+' '+P.robeR),ccl=clipped('cclip',P.collar+' '+P.sleeveL+' '+P.sleeveR);\n  shape('M1046 501 Q1109 502 1146 578 Q1160 603 1168 632 Q1142 601 1110 573 Q1075 535 1046 501Z M1137 409 Q1191 434 1207 507 Q1221 580 1231 654 Q1202 571 1192 520 Q1175 451 1137 409Z M1240 419 Q1262 453 1261 538 L1254 676 Q1274 625 1280 531 Q1287 462 1258 432Z M1511 392 Q1537 429 1550 527 L1568 686 Q1565 599 1553 492 Q1542 424 1511 392Z M1584 724 Q1619 825 1659 841 L1675 800 Q1626 776 1584 724Z','#39475b',id.robe,rcl+' opacity=\".37\"');\n  shape('M855 678 Q893 611 958 568 Q925 603 900 644 Q890 668 903 701 L861 704Z M948 688 Q953 632 1007 582 Q979 624 970 693Z M1321 495 Q1351 539 1407 598 L1385 649 Q1390 603 1352 553Z M1447 364 Q1489 452 1453 568 L1387 795 Q1468 611 1489 528 Q1514 434 1447 364Z M1336 913 Q1402 869 1460 770 L1415 885 L1372 942Z','#737e88',id.cotton,ccl+' opacity=\".34\"');\n  shape(P.wrap,g('wrap',1021,590,1063,705,[[0,'#8d8074'],[.30,'#6a6360'],[.60,'#4d4e52'],[1,'#423e40']]),id.wrap);\n  const skin=g('skin',1192,305,1404,395,[[0,'#e9ccac'],[.27,'#e8c5a6'],[.62,'#d8b19b'],[.87,'#b59487'],[1,'#ab9185']]);\n  shape(P.neck,g('neck',1296,435,1438,517,[[0,'#87756f'],[.35,'#ab9084'],[.72,'#d9b79d'],[1,'#d6bba5']]),id.skin);\n  shape(P.face,skin,id.skin);shape(P.ear,g('ear',1363,274,1409,336,[[0,'#b39487'],[.36,'#c6a591'],[1,'#d4b09a']]),id.skin);\n  const fcl=clipped('fclip',P.face);\n  shape('M1154 231 L1336 237 L1363 330 Q1341 320 1321 331 Q1307 294 1292 278 Q1305 304 1310 327 Q1280 293 1259 279 L1265 306 L1234 274 Q1248 298 1241 317 L1222 266 Q1208 271 1200 271 Q1188 263 1174 269 Q1177 304 1191 316 Q1166 292 1154 270Z','#8d756e',id.skin,fcl+' filter=\"url(#softShade)\" opacity=\".22\"');\n  shape('M1340 305 Q1367 326 1364 363 Q1359 389 1329 420 Q1307 441 1290 456 Q1312 429 1323 408 Q1342 374 1340 346Z','#967d77',id.skin,fcl+' filter=\"url(#softShade)\" opacity=\".17\"');\n  shape('M1225 349 Q1228 365 1223 389 L1230 395 Q1237 397 1248 390 Q1237 389 1233 385Z','#ae8a79',id.skin,fcl+' filter=\"url(#softShade)\" opacity=\".21\"');\n  shape('M1248 416 Q1271 419 1286 415 Q1272 424 1253 419Z','#b18d83',id.skin,fcl+' opacity=\".30\"');\n  shape(P.eyes,'#d0c9bf',id.eyes);\n  shape(P.hand,g('hand',1153,653,1309,821,[[0,'#dbb79b'],[.36,'#e7c6aa'],[.67,'#d1ac95'],[1,'#b29890']]),id.skin);\n  const hcl=clipped('hclip',P.hand);\n  shape('M1150 681 Q1167 713 1198 725 Q1215 737 1222 774 Q1228 787 1214 815 L1203 810 L1196 755 Q1158 735 1149 707Z M1258 731 Q1270 749 1266 783 L1240 821 Q1252 783 1255 775Z M1293 735 Q1305 754 1302 778 L1280 823 L1293 782Z','#ac8e83',id.skin,hcl+' opacity=\".42\"');\n  const hair=g('hair',1118,154,1445,320,[[0,'#52606a'],[.23,'#42484f'],[.53,'#343b44'],[.80,'#414448'],[1,'#61594e']]);\n  shape(P.bun,hair,id.hair);shape(P.hair,hair,id.hair);\n  shape(P.cord,g('cord',1240,75,1250,111,[[0,'#ba9270'],[.30,'#9c7958'],[1,'#695343']]),id.cord);\n  shape(P.pinHead,g('jade',1175,99,1178,131,[[0,'#bdcfa4'],[.22,'#a6c19a'],[.56,'#739783'],[1,'#547867']]),id.jade,'fill-rule=\"evenodd\"');\n  shape(P.pinTail,g('jadeTail',1350,77,1351,92,[[0,'#b5c89e'],[.55,'#90aa8b'],[1,'#537762']]),id.jade);\n  const xml=(which)=>Buffer.from('<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1672\" height=\"941\"><defs>'+defs.join('')+'</defs>'+layers.map(l=>'<path d=\"'+l.d+'\" fill=\"'+(which&&l.fill!=='none'?'rgb('+l.id+',0,0)':l.fill)+'\" '+(which?l.attr.replace(/opacity=\"[^\"]*\"/g,'').replace(/filter=\"[^\"]*\"/g,'').replace(/stroke=\"#[0-9a-f]+\"/g,'stroke=\"rgb('+l.id+',0,0)\"'):l.attr)+'/>' ).join('')+'</svg>');\n  const [paint,ids]=await Promise.all([sharp(xml(false)).ensureAlpha().raw().toBuffer(),sharp(xml(true)).ensureAlpha().raw().toBuffer()]);\n  const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),smooth=(a,b,x)=>{let t=clamp((x-a)/(b-a));return t*t*(3-2*t)};\n  const mix=(a,b,t)=>a+(b-a)*t;\n  const rand=(x,y)=>{let n=Math.imul(x+313,374761393)+Math.imul(y+927,668265263)|0;n=Math.imul(n^(n>>>13),1274126177);return ((n^(n>>>16))>>>0)/4294967295};\n  const noise=(x,y)=>{let ix=Math.floor(x),iy=Math.floor(y),t=x-ix,v=y-iy;t=t*t*(3-2*t);v=v*v*(3-2*v);return mix(mix(rand(ix,iy),rand(ix+1,iy),t),mix(rand(ix,iy+1),rand(ix+1,iy+1),t),v)-.5};\n  const colored=Buffer.alloc(W*H*3);let lumSum=0;\n  const sources=[[175,1],[203,.55],[238,.85],[340,.48],[384,.4],[430,.3],[607,.19],[653,.18],[782,.10]];\n  for(let y=0;y<H;y++){for(let x=0;x<W;x++){\n    const i=(y*W+x)*3,j=(y*W+x)*4,lum=(raw[i]*.2126+raw[i+1]*.7152+raw[i+2]*.0722)/255,ink=1-lum;\n    const n=noise(x/225,y/82)*14+noise(x/112,y/49)*5+noise(x/57,y/27)*2,grain=(rand(x,y)-.5)*2.5;\n    const bankY=520-37*(1-Math.exp(-x/460)),d=y-bankY,sy=clamp(y/510);\n    let rgb;\n    if(d<0){\n      let q=smooth(0,1,sy),m=Math.exp(-Math.pow((y-454)/79,2))*5,upperV=1.0-0.12*smooth(.4,1.,x/W);\n      rgb=[mix(27,91,q)+n+m,mix(44,109,q)+n+m,mix(65,122,q)+n*.9+m].map(v=>v*upperV);\n    }else{\n      let q=1-Math.exp(-d/132),w=noise(x/118,d/3.8)*4+noise(x/68,d/1.6)*1.7;rgb=[mix(100,47,q)+w+n*.29,mix(116,71,q)+w+n*.34,mix(127,88,q)+w+n*.4];\n      let gl=0;for(const [cx,pow]of sources){if(Math.abs(x-cx)>85||d>185)continue;let axis=cx+noise(cx/11,d/4)*8,dist=(x-axis)/(3+d*.07);gl+=Math.exp(-dist*dist*.85-d/(45+pow*17))*pow}\n      const band=Math.max(0,noise(x/24,d/1.5)+.07)*2,lit=gl*(.18+.7*band);\n      rgb=[rgb[0]+lit*113,rgb[1]+lit*62,rgb[2]+lit*13]; \n    }\n    let a=paint[j+3]/255,k=ids[j],isMat=a>0.02;\n    if(k===id.ground){a*=.60*(1-smooth(595,955,x));}\n    if(k===id.roof||k===id.wall){a*=.58+.30*clamp(ink*3);}\n    if(k===id.roof){a*=.65+.32*clamp(ink*2.5);}\n    if(!isMat&&y<bankY&&y>324&&x<800){\n      let canopy=0;\n      for(const [cx,cy,rx,ry] of [[120,389,65,62],[60,431,59,43],[363,434,32,32],[422,442,48,31],[699,460,34,30]]){\n        let dd=((x-cx)/rx)**2+((y-cy)/ry)**2; if(dd<1.3)canopy=Math.max(canopy,clamp((1.3-dd)*2+noise(x/17,y/11)*.8)*.13);\n      }\n      if(canopy)rgb=rgb.map((ch,c)=>mix(ch,[38,61,61][c],canopy));\n    }\n    if(k===id.hair&&lum>.7){a*=clamp((1.015-lum)/.315)}\n    if(isMat){for(let c=0;c<3;c++)rgb[c]=mix(rgb[c],paint[j+c],a)}\n    let varTone=noise(x/71,y/92)*3+noise(x/13,y/17)*1.3;\n    if(k===id.railTop){\n      const sheen=(1+Math.sin(y*.47+x*.081+noise(x/46,y/23)*3))*.5;\n      varTone+=sheen*4;\n    }\n    if(k===id.skin){\n      const w=Math.exp(-Math.pow((x-1287)/46,2)-Math.pow((y-365)/23,2))*.42;rgb[0]+=w*12;rgb[1]-=w*14;rgb[2]-=w*10;\n    }\n    if(k===id.skin){\n      const warm=Math.exp(-((x-1220)**2/9800+(y-355)**2/14000))*.84+Math.exp(-((x-1191)**2/6400+(y-680)**2/7000))*.64;\n      rgb[0]+=warm*12;rgb[1]+=warm*7;rgb[2]-=warm*4;\n      const cool=Math.exp(-((x-1350)**2/1800+(y-357)**2/5700))*.42;\n      rgb[0]-=cool*12;rgb[2]+=cool*10;\n      const glow=Math.exp(-((x-1233)**2/75+(y-385)**2/630))*.58;\n      rgb[0]+=glow*15;rgb[1]+=glow*13;rgb[2]+=glow*11;\n    }\n    if(k===id.eyes){rgb=rgb.map((ch,c)=>ch+[7,2,-2][c]);}\n    if(k===id.hair){const rim=Math.exp(-((x-1409)**2/2200+(y-213)**2/24000))+.6*Math.exp(-((x-1253)**2/5500+(y-45)**2/1900));rgb[0]+=rim*23;rgb[1]+=rim*12;rgb[2]+=rim*2;}\n    if(k===id.leaf){rgb[0]+=8;rgb[1]+=11;rgb[2]-=1;}\n    if(k===id.railTop){let gx=Math.exp(-((x-430)**2/115000+(y-784)**2/1300));rgb[0]+=gx*7;rgb[1]+=gx*6;rgb[2]+=gx*4;}\n    const depth=isMat?k===id.hair?.94:k<=id.roof?.64:.94:d<0?.65:.72;\n    const dark=Math.pow(clamp(ink),.80)*depth;\n    const lineColor=k===id.eyes?[43,39,38]:k===id.hair?[14,21,31]:k===id.skin?[55,46,48]:k===id.rail||k===id.railTop||k===id.sticks?[36,37,44]:k===id.leaf?[46,53,45]:[29,40,51];\n    for(let c=0;c<3;c++)colored[i+c]=Math.round(clamp(mix(rgb[c],lineColor[c],dark)+grain*(k===id.skin?.55:1)+varTone,0,255));\n  }}\n  return {pixels:colored,paint,ids};\n}",
+    "status": "saved_and_visually_reviewed",
+    "references": [
+      {
+        "path": "game/lh/cpa/cpa_face_standard_01.png",
+        "sha256": "a75bf85e0381586c6c2561c3ccc4180b8fbd838248583306df9eacce33c78f80"
+      },
+      {
+        "path": "game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+        "sha256": "70289ed6149c25d887f252731b1014bdd68b6a3d72d1fa30617d67bb45a5a198"
+      },
+      {
+        "path": "game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+        "sha256": "d82176bb8098183644f7fa9bc7b7c7498e6a110bba643ffbad692d080f808696"
+      },
+      {
+        "path": "game/images/chapter2/c2_14_rain_after_v1.png",
+        "sha256": "78274f64e7ab8b2f79bd0349b6d75192fbb039ca3dfe62a1d70f3c1ae6d80620"
+      }
+    ]
+  },
+  "finalization_20261106": {
+    "date": "2026-11-06",
+    "user_request": "这版定稿检查bg_images.rpy 里的图片定义名、图片路径、脚本调用名三者是否一致",
+    "adoption": "当前使用",
+    "art_approval": "上一轮先登记美术定稿；用户随后要求先核实分镜，本次归属与定稿以shot_assignment_20261106为准。",
+    "runtime_integration": "not_integrated",
+    "approved_artwork": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+      "sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "byte_length": 1959663
+    },
+    "current_cg_mapping": {
+      "definition": null,
+      "game_relative_path": null,
+      "catalog_entry": null,
+      "script_image_call": null,
+      "current_scene": "game/script_chapter2.rpy:384 scene black",
+      "exact_byte_copies_in_game": 0
+    },
+    "static_check": {
+      "scope": "bg_images.rpy全部image定义、game/**/*.rpy字面scene/show bg、image_codes.rpy别名及图片目录；独立复核/root/bg_consistency",
+      "definitions": 75,
+      "path_definitions": 70,
+      "compatibility_aliases": 5,
+      "bg_definitions": 67,
+      "literal_bg_calls_all_rpy": 57,
+      "literal_bg_calls_story_scripts": 54,
+      "undefined_bg_calls": 0,
+      "duplicate_bg_definitions": 0,
+      "broken_bg_alias_targets": 0,
+      "missing_paths": [
+        {
+          "path": "images/chapter2/c2_03_quay_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 44,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_03_throw_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 46,
+          "direct_story_call_line": 122
+        },
+        {
+          "path": "images/chapter2/c2_03_reveal_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 47,
+          "direct_story_call_line": 126
+        },
+        {
+          "path": "images/chapter2/c2_03_papers_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 48,
+          "direct_story_call_line": 130
+        },
+        {
+          "path": "images/chapter2/c2_03_maids_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 49,
+          "direct_story_call_line": 135
+        },
+        {
+          "path": "images/chapter2/c2_03_board_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 50,
+          "direct_story_call_line": 139
+        },
+        {
+          "path": "images/chapter2/c2_03_fly_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 51,
+          "direct_story_call_line": 151
+        },
+        {
+          "path": "images/chapter2/c2_08_cpa_listen_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 87,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_cpa_talk_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 88,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_sdx_listen_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 89,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_sdx_talk_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 90,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_pq_talk_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 107,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_pq_listen_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 108,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_zl_talk_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 109,
+          "direct_story_call_line": null
+        },
+        {
+          "path": "images/chapter2/c2_08_zl_listen_v1.png",
+          "definition_file": "game/bg_images.rpy",
+          "definition_line": 110,
+          "direct_story_call_line": null
+        }
+      ],
+      "missing_files_directly_used_in_story": 6,
+      "valid_naming_exceptions": "4条主菜单title_prologue前缀与文件前缀不同，5条v1至v2兼容别名及稳定代号均是既有有效映射。",
+      "catalog_check": {
+        "command": "python -B tools/build_image_catalog.py --check",
+        "exit_code": 1,
+        "first_failure": "CG02·03·02 图片不存在或越出 game：images/chapter2/c2_03_throw_v1.png"
+      },
+      "source_fingerprints": {
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\bg_images.rpy": "2870a38227d8f3cc2ed80082ff03e22f9fb547fb033f735584ef2200acf2c627",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_codes.rpy": "67324c87803676e38b16e137f36e9e6d0e36eb044a72de0f44086ef0cf127925",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_catalog.json": "d3e8aef41e6521e8f3d0e5a422c82a1c9820a51839d44712be2bf787c3298a7c",
+        "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3"
+      }
+    },
+    "write_scope": [
+      "game/Codex/character_image_index.md",
+      "game/Codex/chapter2_storyboard.md",
+      "work/art/chapter2/c2_slow_attention/cg_record.json"
+    ],
+    "verification_boundary": "本次仅静态核查与采用状态登记，未启动RenPy或运行lint；不新增编译、缓存、临时文件。未实施游戏图片接入、成就或短片。",
+    "risk": "现有6张被剧情直接调用的缺图可能在运行显示时出错；其余9条为当前未见剧情调用的缺失定义。",
+    "recheck_after_shot_assignment": {
+      "date": "2026-11-06",
+      "request": "定稿检查bg_images.rpy 里的图片定义名、图片路径、脚本调用名三者是否一致",
+      "result": "not_passed_not_integrated",
+      "cg_definition": null,
+      "cg_runtime_path": null,
+      "cg_script_call": null,
+      "source_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+      "proposed_name": "c2_end_slow_v1",
+      "proposed_path": "images/chapter2/c2_end_slow_v1.png",
+      "proposed_script_call": "scene bg c2_end_slow_v1",
+      "proposal_status": "仅供后续接入采用，未写入运行文件；已核对无名称冲突。",
+      "global_check": {
+        "definitions": 75,
+        "missing_paths": 15,
+        "missing_direct_story_assets": 6,
+        "literal_bg_calls": 57,
+        "undefined_literal_bg_calls": 0,
+        "catalog_check_exit_code": 1,
+        "catalog_check_error": "CG02·03·02 图片不存在或越出 game：images/chapter2/c2_03_throw_v1.png"
+      },
+      "line_correction": "旧记录scene black误记385行，实际384行；章末建议处541行问话之后仍是544行scene black。",
+      "source_fingerprints": {
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\bg_images.rpy": "2870a38227d8f3cc2ed80082ff03e22f9fb547fb033f735584ef2200acf2c627",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_catalog.json": "d3e8aef41e6521e8f3d0e5a422c82a1c9820a51839d44712be2bf787c3298a7c",
+        "F:\\project\\JianlaiWhentheSwordArrives\\game\\image_codes.rpy": "67324c87803676e38b16e137f36e9e6d0e36eb044a72de0f44086ef0cf127925",
+        "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3"
+      },
+      "independent_reviewer": "/root/bg_consistency",
+      "runtime_validation": "not_run"
+    },
+    "superseded_by": "integration_20261106，用户后续明确授权正式接入；本节保留此前核查。"
+  },
+  "shot_assignment_20261106": {
+    "user_request": "这张图片没有确定是哪个分镜现在需要帮我确认一下是哪个然后在定稿",
+    "classification": "原始制作归属核实及美术定稿登记；新增章末剪辑建议不作为已实施或用户已逐项确认的演出。",
+    "cg_id": "c2_slow_attention_cg",
+    "cg_title": "第二章·且慢行·章末主题回望CG",
+    "related_shot": {
+      "scheme": "2026-11-05新短片切入四镜方案",
+      "number": "04",
+      "title": "扶栏看草",
+      "scene": "第09场现实夜廊，紫阳府临河高楼，雨后夜晚",
+      "previous_shot": "新镜03湿栏折草与手近景",
+      "action": "退镜见陈平安凝视栏上折草，远处河水与人间灯火；前臂轻靠栏，不拾草、不顿悟、不停住时间。"
+    },
+    "proof": {
+      "source": "work/art/chapter2/c2_slow_attention/basis.json",
+      "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+      "fields": [
+        "story.timing[3]",
+        "cg.continuity",
+        "board.prompt PANEL 04"
+      ],
+      "actual_image_viewed_by": [
+        "/root",
+        "/root/cg_shot_match"
+      ]
+    },
+    "approved_artwork": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+      "sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "status": "当前使用·本图美术定稿"
+    },
+    "recommended_game_placement": {
+      "status": "withdrawn_after_user_scope_correction",
+      "after": {
+        "file": "game/script_chapter2.rpy",
+        "line": 541,
+        "text": "那么少爷想要懂得这些玄之又玄的大道吗？"
+      },
+      "before": {
+        "file": "game/script_chapter2.rpy",
+        "line": 547,
+        "text": "翌晨，三人辞别紫阳府，继续返乡。"
+      },
+      "presentation": "无对白主题回望剪辑，回收此前夜廊瞬间，不表示此刻从室内又走回栏边；成就不表达悟道成功。",
+      "actual_lines": {
+        "question": 541,
+        "show": 545,
+        "pause": 547,
+        "black": 550,
+        "next_morning": 553
+      }
+    },
+    "other_shots": {
+      "old_09_04": "旧灯下低头看手边水纹、入酒楼故事，不能同号替代",
+      "old_09_19_21": "主题最贴近425–428行，但包含脚步与车轮岔路的既有设计，未被自动改为此CG",
+      "old_10_06": "原为临窗、酒杯、雨灯与朱敛一问；保留原设计，不伪称本图是其现成成图"
+    },
+    "independent_review": "/root/cg_shot_match实际查看原图与当前脚本、分镜、basis，确认新切入04与章末主题回收归属。",
+    "limitations": "本轮未修改图片、重命名素材、写入运行图片定义或改变剧情；单图定稿不涵盖四镜板、视频、成就、声音及实机验证。",
+    "superseded_by": "opening_excerpt_confirmation_20261106；先前章末及车轮新四镜归属为历史误判，现用途以用户提供的第09场雨停夜廊范围为准。"
+  },
+  "integration_20261106": {
+    "date": "2026-11-06",
+    "authorization": "用户在三名统一接入建议后明确回复“可以开始修改”。",
+    "scope": "只导入已确认原图，新增原始定义及章末无对白回望、稳定代号，更新对应登记；不修复无关缺图、不实现成就系统或短片。",
+    "status": "historical_insertion_withdrawn_after_user_scope_correction",
+    "plan": [
+      "逐字节导入正式PNG并验证来源哈希",
+      "原位添加bg定义和朱敛问话后的CG停顿，保留原对白和翌晨退黑",
+      "仅追加CG02·09·01目录条目并用既有outputs函数同步生成产物",
+      "检查实际写回、三名一致和相关引用；尝试符合不落盘限制的引擎验证并记录限制"
+    ],
+    "write_receipt": {
+      "import": {
+        "source": "C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png",
+        "destination": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_end_slow_v1.png",
+        "source_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+        "destination_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+        "byte_identical": true,
+        "native_size": [
+          1672,
+          941
+        ],
+        "display_size": [
+          1919,
+          1080
+        ],
+        "original_unchanged": true,
+        "new_file_role": "正式运行资产，非预览/备份/临时文件"
+      },
+      "writes": [
+        {
+          "file": "game/bg_images.rpy",
+          "before_sha256": "2870a38227d8f3cc2ed80082ff03e22f9fb547fb033f735584ef2200acf2c627",
+          "after_sha256": "4af197b8b093fa892646bc288f92ba7539a4223f2c9015cdf100365e7ece0da5",
+          "in_place": true,
+          "byte_readback": true
+        },
+        {
+          "file": "game/script_chapter2.rpy",
+          "before_sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+          "after_sha256": "21a0f0a026a92bba53018e723d57b5d7126c3ac88ad70e42632b5d2574c016b7",
+          "in_place": true,
+          "byte_readback": true
+        },
+        {
+          "file": "game/image_catalog.json",
+          "before_sha256": "d3e8aef41e6521e8f3d0e5a422c82a1c9820a51839d44712be2bf787c3298a7c",
+          "after_sha256": "29f351afed4d600bc58a66397353a05a046167fc29885814524fdf3386173b86",
+          "in_place": true,
+          "byte_readback": true
+        },
+        {
+          "file": "game/image_codes.rpy",
+          "before_sha256": "67324c87803676e38b16e137f36e9e6d0e36eb044a72de0f44086ef0cf127925",
+          "after_sha256": "7a8ebfd11d6434791b9e582356a7ee8837857a89f63f8483c40b1fdde4da36f9",
+          "in_place": true,
+          "byte_readback": true
+        },
+        {
+          "file": "game/Codex/image_code_catalog.md",
+          "before_sha256": "b511d013f0813d54c06316b485ac4cbcf30064c27c12686dddcbf14dee2d2f92",
+          "after_sha256": "51e34ef5030daecedbf12321cba03348cdb13ab9e2402e13e4b574362061731d",
+          "in_place": true,
+          "byte_readback": true
+        },
+        {
+          "file": "game/Codex/image_code_gallery.html",
+          "before_sha256": "0903a16e887673510d0ef255b019c6de8d1cd38286206a23c869d82032dbcd47",
+          "after_sha256": "a3bd309f074ba839862595c66207904fc455792fadc0aa654c17fa49baff726f",
+          "in_place": true,
+          "byte_readback": true
+        }
+      ],
+      "mapping": {
+        "name": "bg c2_end_slow_v1",
+        "path": "images/chapter2/c2_end_slow_v1.png",
+        "call": "scene bg c2_end_slow_v1 at truecenter",
+        "code": "CG02·09·01",
+        "alias": "bg cg02_09_01"
+      },
+      "checks": {
+        "new_mapping_resolves": true,
+        "generated_outputs_synchronized": true,
+        "existing_catalog_assets_unchanged": true,
+        "all_existing_story_text_and_commands_preserved": true
+      },
+      "inserted_block": "    # 且慢行｜主题回望此前夜廊，不新增此刻返廊或悟道的动作。\n    window hide\n    scene bg c2_end_slow_v1 at truecenter\n    with trans_chapter_out\n    pause\n\n",
+      "format_restore": {
+        "file": "game/image_catalog.json",
+        "before_sha256": "29f351afed4d600bc58a66397353a05a046167fc29885814524fdf3386173b86",
+        "after_sha256": "4247f18668d1a484adaf04a3c53d365c06d2893754a173deaab600b4020d360d",
+        "in_place": true,
+        "byte_readback": true
+      }
+    },
+    "current_file_sha256": {
+      "game/bg_images.rpy": "4af197b8b093fa892646bc288f92ba7539a4223f2c9015cdf100365e7ece0da5",
+      "game/script_chapter2.rpy": "21a0f0a026a92bba53018e723d57b5d7126c3ac88ad70e42632b5d2574c016b7",
+      "game/image_catalog.json": "4247f18668d1a484adaf04a3c53d365c06d2893754a173deaab600b4020d360d",
+      "game/image_codes.rpy": "7a8ebfd11d6434791b9e582356a7ee8837857a89f63f8483c40b1fdde4da36f9",
+      "game/images/chapter2/c2_end_slow_v1.png": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3"
+    },
+    "entry_lines": {
+      "game/bg_images.rpy": 127,
+      "game/script_chapter2.rpy": 545,
+      "game/image_codes.rpy": 70
+    },
+    "current_adoption": {
+      "status": "当前使用",
+      "art_confirmed": true,
+      "user_integration_authorized": true,
+      "runtime_tested": false,
+      "source_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+      "runtime_path": "game/images/chapter2/c2_end_slow_v1.png",
+      "superseded_by": "scope_correction_20261106"
+    },
+    "validation": {
+      "local_mapping": "passed: c2_end_slow_v1文件基名、bg定义、scene调用一致；别名cg02_09_01可解析到同一路径",
+      "pixel_provenance": "source and runtime PNG byte-identical; original unchanged; no image regeneration",
+      "display": "1672×941原图，按原比例取整为1919×1080并truecenter居中，1px横向余量；无裁切。此为配置/静态检查，不等同实机画面。",
+      "story_preservation": "仅新增6行CG块；扣除新增块后脚本SHA256恢复为95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d；bg定义同样验证既有字节保持。",
+      "catalog_preservation": "旧208条JSON语义保持，恢复旧单行character_ids格式；新增1条为209条。三生成产物等于既有outputs(当前data)。",
+      "references": "新增图片与别名、trans_chapter_out、truecenter、zl和chapter3_start可定位；58处字面bg调用无未定义；23个顶层label无重复，静态jump无缺失目标。",
+      "global_catalog_check": {
+        "exit_code": 1,
+        "reason": "既有CG02·03·02仍引用缺失images/chapter2/c2_03_throw_v1.png；全局未通过",
+        "preexisting_missing_paths": 15,
+        "preexisting_missing_story_assets": 6
+      },
+      "independent_static_review": {
+        "reviewer": "/root/bg_consistency",
+        "verdict": "pass for this asset",
+        "note": "无对白停顿保留快捷菜单与心境HUD；非隐藏所有UI。现有故事/背景定义字节保持已独立核证。"
+      },
+      "engine_attempts": [
+        {
+          "method": "SDK python.exe -B stdin, audit hook to prohibit disk changes",
+          "result": "process failed before Python execution",
+          "error": "无效的系统 DLL 重定位",
+          "exit_code": 1,
+          "reviewer": "/root/runtime_check_plan"
+        },
+        {
+          "method": "bundled Python3.12 plus SDK path/dll directory, read-only audit hook",
+          "result": "RenPy native module import failed",
+          "error": "ModuleNotFoundError: No module named 'renpy.pygame.error'",
+          "disk_mutations": 0
+        }
+      ],
+      "not_verified": [
+        "RenPy parser/lint",
+        "实际切镜及显示",
+        "存档/读档",
+        "回退/回看",
+        "物理分辨率与触屏"
+      ],
+      "legacy_record_checker": {
+        "valid_record": false,
+        "reason": "原位修订使首次线稿与母版历史指纹失效，按用户约束保留历史记录；不重写旧哈希冒充当时的通过，当前接入证据单列。"
+      }
+    },
+    "user_constraints": "本轮只新增已授权的正式运行PNG；其余均原位更新既有文件，保存后核对字节与文件标识，无预览/备份/临时文件。"
+  },
+  "scope_correction_20261106": {
+    "user_request": "现在只是一张做现在只是把切入场景做好了",
+    "current_use": "第二章·且慢行·新切入第04镜·扶栏看草",
+    "completed": "本张场景图美术完成并采用，资源与定义已登记",
+    "not_completed": [
+      "整段切入连续镜头",
+      "后续剧情演出",
+      "章末CG与成就",
+      "完整短片"
+    ],
+    "action": "只撤下上轮新增的6行章末显示与停顿；更正目录和文档用途。图片、定义、稳定编号保留，当前剧情无本图调用。",
+    "legacy_asset_name": "c2_end_slow_v1，保留既有路径，不据end字样推断章末用途",
+    "image_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+    "images_unchanged": true,
+    "restored_script_sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+    "verification": "删除精确新增块后脚本与接入前SHA256一致；目录生成物使用既有outputs同步；保存后核对实际字节与同一文件标识。",
+    "runtime": "未运行；上轮SDK启动失败限制仍在。无需以未执行的实机结果证明本轮撤除通过。",
+    "writes": [
+      {
+        "file": "game/script_chapter2.rpy",
+        "before_sha256": "21a0f0a026a92bba53018e723d57b5d7126c3ac88ad70e42632b5d2574c016b7",
+        "after_sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "before_sha256": "4af197b8b093fa892646bc288f92ba7539a4223f2c9015cdf100365e7ece0da5",
+        "after_sha256": "8ab22f2347554e69bc0254188075164a82448be9ae1342e1e6c93b60cf5ccb9a"
+      },
+      {
+        "file": "game/image_catalog.json",
+        "before_sha256": "4247f18668d1a484adaf04a3c53d365c06d2893754a173deaab600b4020d360d",
+        "after_sha256": "4c36df2cdfaf05d9c84d0c349646798070e43819eff992feaeb80b627dc3936a"
+      },
+      {
+        "file": "game/Codex/chapter2_storyboard.md",
+        "before_sha256": "eb957dbca4f45414d5c01f41002d43d0de3f91997b803470e4c5c589a51165aa",
+        "after_sha256": "494d7184aa19f3f5c267ca438ea4052e38d2ece36eb1c0c56e5d3a572700e34b"
+      },
+      {
+        "file": "game/Codex/character_image_index.md",
+        "before_sha256": "7fd68c2263653f6f20f6516cac7be38abad5e81cf1c9b43a2b4d0cd0de6b6d1a",
+        "after_sha256": "17dfe640c9907612c6e940b9b82fe922f4aeb207100109ac58bd6e57e83c7c9a"
+      },
+      {
+        "file": "README.md",
+        "before_sha256": "64ecb85dfe17983b3c5bf1a0b8701e09c418b911381031006bbb7e2b5ab77721",
+        "after_sha256": "f6a74c0c665fa96944a840b8fc0db65f000fbbd3a0ec1c6ac796f39517e72617"
+      },
+      {
+        "file": "game/Codex/image_code_catalog.md",
+        "before_sha256": "51e34ef5030daecedbf12321cba03348cdb13ab9e2402e13e4b574362061731d",
+        "after_sha256": "59ccc5d1701226d1ac1327ae4dd4a0c9ae133c0d47577ef19b10ceb8f7aecc5e"
+      },
+      {
+        "file": "game/Codex/image_code_gallery.html",
+        "before_sha256": "a3bd309f074ba839862595c66207904fc455792fadc0aa654c17fa49baff726f",
+        "after_sha256": "bfdcd3ae532cfcf4f544535e8ae8496aed5f2d518a862358f89c5b00c4e523c9"
+      }
+    ],
+    "superseded_by": "opening_excerpt_confirmation_20261106；精确完成范围止于现稿第390行，下一段为路边躲雨，不再按车轮新四镜编号安排。"
+  },
+  "opening_excerpt_confirmation_20261106": {
+    "user_confirmation": [
+      "现在只是做完了第09场开头，到“他低头看了一眼”。",
+      "后面应该做路边躲雨；用户提供现稿391–394行。"
+    ],
+    "completed_scope": {
+      "file": "game/script_chapter2.rpy",
+      "scene_header_line": 382,
+      "narration_lines": [
+        387,
+        389,
+        390
+      ],
+      "narration": [
+        "雨已经停了，檐角还在滴水。",
+        "陈平安沿着廊下慢慢走，一只手轻轻搭在栏杆上。",
+        "走到灯下，一滴檐水落在他手边。他低头看了一眼。"
+      ],
+      "meaning": "用户确认的场景制作范围；一张采用彩图，不声称镜01–04各有独立成图或动态已实现。"
+    },
+    "next_scope": {
+      "start_line": 391,
+      "end_line": 394,
+      "title": "路边躲雨",
+      "shot_comments": "镜05–06。“故事”落音，檐滴接到伞沿。伞向左走过，露出抬袖赶向屋檐的行人。",
+      "narration": [
+        "他想起在青鸾国酒楼里听来的一个故事。",
+        "撑伞的人在雨里，躲雨的人在檐下。",
+        "也想起陆抬说过的“留不住”，于是心里只剩一句话：且慢行——慢一点，才看得见人间的苦。"
+      ],
+      "asset_status": "已有旧雨街双格及05B/05C效果图待复核、待修正；尚无重新采用的完成依据。",
+      "outgoing_transition": "394句从躲雨画面承接；何时转入陆抬回忆需另确认，旧表在“留不住”接小院仅保留为建议。"
+    },
+    "withdrawn_current_plan": "车轮→折草→湿栏与手→人物四镜及先补其01–03的安排退为历史建议。",
+    "runtime": "定义、路径及CG02·09·01稳定代号保留；当前剧情没有本图调用，未运行游戏。",
+    "unchanged": {
+      "image_sha256": "f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3",
+      "script_sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d"
+    },
+    "write_method": "只对既有文件以r+b打开；写前逐字节比对，定位写入、截断、flush/fsync；回读精确匹配并核对设备/文件标识，未创建或替换原件。",
+    "writes": [
+      {
+        "file": "game/Codex/chapter2_storyboard.md",
+        "before_sha256": "e23e0a4d676736ab12a35bfaee8f85a030a234fae5e9085a3d5f4b4b1475fe7f",
+        "after_sha256": "4fcda23cc9fbc509e22e374baae1eaf4465b7a0b3df47c74ce037812bb40df89"
+      },
+      {
+        "file": "game/Codex/character_image_index.md",
+        "before_sha256": "136158d34da5e678f5409c24d71e26f17db47b6969cbbd863ee1e11386388124",
+        "after_sha256": "6c7d45324794d63ad946b5611c64116e0adc0e01be27f7bcc7b811d8c83f6bee"
+      },
+      {
+        "file": "README.md",
+        "before_sha256": "f6a74c0c665fa96944a840b8fc0db65f000fbbd3a0ec1c6ac796f39517e72617",
+        "after_sha256": "260f11bbb568ab4376db7aa3af16d433b7a60036f2d4c93eef744d9888b8bdf0"
+      },
+      {
+        "file": "game/bg_images.rpy",
+        "before_sha256": "8ab22f2347554e69bc0254188075164a82448be9ae1342e1e6c93b60cf5ccb9a",
+        "after_sha256": "5bf43902b689638883213214274736f8bae677a3474a08d69244ec9660108bc6"
+      },
+      {
+        "file": "game/image_catalog.json",
+        "before_sha256": "4c36df2cdfaf05d9c84d0c349646798070e43819eff992feaeb80b627dc3936a",
+        "after_sha256": "23dfdf19e60be16cf5c823166cc2d7577af9bfabc47cde868c7502df4e412f81"
+      },
+      {
+        "file": "game/Codex/image_code_catalog.md",
+        "before_sha256": "59ccc5d1701226d1ac1327ae4dd4a0c9ae133c0d47577ef19b10ceb8f7aecc5e",
+        "after_sha256": "d686d9f14f9a7b8742d6eb24973e5567cfadf32ac820973df2b78e56e8749733"
+      },
+      {
+        "file": "game/Codex/image_code_gallery.html",
+        "before_sha256": "bfdcd3ae532cfcf4f544535e8ae8496aed5f2d518a862358f89c5b00c4e523c9",
+        "after_sha256": "3bce9e0affbea37fd69dde0120d78840e10aa3dc2a8826226a7abfa8725dcc81"
+      }
+    ]
+  }
+}

@@ -224,7 +224,1247 @@
 
 2026-11-01 更新：首镜 `CG02·03·01` 采用[华光楼码头朝西无人定稿](../images/chapter2/c2_03_quay_v2.png)，状态为**当前使用／可调用**。源图为 `exec-c293ee84-5587-43d1-b847-97ce3b0db9f9.png`，正式文件与源图 SHA-256 均为 `bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943`。旧四人首镜 `c2_03_quay_v1.png` 已停用并保留。下一镜按用户决定继续使用 `c2_03_throw_v1.png`。
 
-`CG02·03·02` [西向码头抛舟制作原图](C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png) 为**待修正／脸部身份未验证**。2026-11-01 按更新后的场景制作 Skill 重新查看整图、原像素头部局部及四人母版，陈平安、吴懿、朱敛的可见五官细节不足以核对身份，裴钱为朝前观看抛舟的背影。前轮只凭旧图人物复用、衣装和姿态确认身份的结论撤回。镜头仍为无人首镜推近上层干街、吴懿以右手抛舟；游戏此镜调用 `c2_03_throw_v1.png`。[制作历史与本轮复核](../../work/art/chapter2/c2_03_throw_west/record.json)
+`CG02·03·02` [04右侧面三人黑白线稿](C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png) 为**待修正／未采用**。2026-11-04 用户指出：人物位置照搬、动作有误。本次目标是掌中小法宝离掌后自行变化。旧稿保留；当时的局部写入、独立观察和用户否决均见[原制作记录](../../work/art/chapter2/c2_03_throw_west/record_r06.json)。运行脚本仍使用 `c2_03_throw_v1.png`。
+
+2026-11-05 逐帧吴懿线稿。第292—399帧的[结构稿](../../work/art/chapter2/c2_03_throw_west/shenfengzhou_blocks/)完整保留。[已另存线稿](../../work/art/chapter2/c2_03_throw_west/wuyi_lineart/)共82张（292—357、379—393、399）。本组**待修正／未确认、未接入**。参考片用于掌托、离掌、舟悬空变化的时序，吴懿的脸、身形、袖口和衣襟以[已确认S1](../lh/wy/wy_full_master_v1.png)为准。
+
+本次原位修订[314](../../work/art/chapter2/c2_03_throw_west/wuyi_lineart/frame_000314.png)、[333](../../work/art/chapter2/c2_03_throw_west/wuyi_lineart/frame_000333.png)、[340](../../work/art/chapter2/c2_03_throw_west/wuyi_lineart/frame_000340.png)。三帧均按原生1672×941回读，分别完成身份、解剖、摆位和相邻帧的独立目视复核。314的五指舒展，最近墨线与舟约隔19像素。333在332和334之间转向画左，舟从单篷经双檐展为三层，三帧可见舟宽约165、255、401像素。340用本帧墨线按S1调整侧脸与颈肩，339—341舟宽约961、974、990像素。340鞋底比邻帧高约13—17像素，333到334的窗格与饰纹密度仍有差异。每帧同名JSON保存实际写入、指纹及复核记录；验收范围为这三帧及其邻接关系。
+
+2026-11-06，[巨舟展开·四人终态线稿](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态线稿.png)（03-03，**待修正／近机位试调**）。1920×1080。用户指出四人过小后，在同一PNG原位调整现有线稿，人物从44—62像素增至210—295像素，前景从左到右仍为吴懿、陈平安、裴钱、朱敛；保留吴与客组的间隔、四人行装及三层楼体。吴懿身份依据S1，陈平安为最新六头像和暖季书箱行装，裴钱为v02，朱敛为老奴面皮。独立复核确认人物阅读改善、足点完整、旧小人无残留；舟下投影与船底之间有亮缝，悬空感改善。本次为二维分层近景构图模拟，不能沿用此前[尺度模拟](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_方块人尺度模拟.mp4)的三维机位通过结论。四人可见侧脸五官仍未能核验，未接入游戏。[单图制作记录](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态线稿.json)
+
+2026-11-06，[巨舟展开·四人终态彩图](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png)（03-03，**当前使用／已定稿并接入03-03终态**）。用户随后回复“可以”，确认当前陈平安重画结果；2026-11-07查看完整彩图后明确“可以这张定稿”，整张四人巨舟终态彩图定稿。继三人局部修补后，用户要求陈平安“先看立绘母版再画线稿然后上色”；本轮实际重看脸页、暖天全身、书箱与养剑壶母版后，重新绘制单人背侧线稿，独立核对衣型、箱口透视、肩带和挂件比例/侧别，再沿通过线稿上色，原位写回当前彩图。旧陈CG只借位置和朝向，不作造型母版；原先袍摆外扩、破口偏强及挂件偏大等观察与重画过程均留档。保留吴懿、裴钱、朱敛、舟景和既有场景线稿；陈修补区域外像素变化为0，文件ID与实际读回内容已核验。最终1920×1080、陈人物约295px高，完整细微五官仍未逐项验证，已按用户授权接入游戏03-03终态。实际生成参考、线稿→上色顺序、原位写入、最终复核与历次否决见[制作记录](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态线稿.json)的 current_result_revision / cpa_mother_line_color_redraw_2026_11_06。旧根v2历史指纹链保留失效状态，不作本轮通过证据。 运行素材为[四人巨舟终态](../images/chapter2/c2_03_reveal_v2.png)，沿用CG02·03·03；实际检查通过新图加载、无字停留及A2旁白恢复。前后既有缺图、B2、回退和磁盘存读档的验证边界见同一记录的 `game_integration_2026_11_06`。
+
+<a id="c2-03-04-ink-20261107"></a>
+
+**2026-11-07，03-04「吴懿松手落符」指定初稿上色。** [当前彩图](../../work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png)为**已定稿／未接入游戏**。用户明确指定 `exec-47886b55-241c-4f72-bd5e-627f6b11186a.png` 并要求“直接用这一张，开始上色”，随后允许“另存一张彩图，保留线稿”。本轮以这张初稿为唯一上色底稿，保持原有机位、人物、头饰、手势、大袖及**五张符纸**；此前六纸与头部修订稿保留，但不是本次底稿。吴懿沿S1的青蓝外袍、浅绿叠襟与袖里、暗红内层配色；木舟和石街衔接03-03定稿日间色调。
+
+内置图像工具仅生成一次上色结果。独立复核发现舟下蓝色留白易读成天空／水面后，只对该区域作局部地面调色，保留其线条与投影；调色区域外像素变化0。最终复核认为在“指定线稿只上色”范围内可交付。原稿舟下留白的纵深线索和影子落地表达仍偏弱，未以增线或挪动投影改变用户选稿。
+
+彩图原生1672×941、未拉伸，实际独占新建并写入3,543,989字节，回读逐字节一致；SHA256 `a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339`，文件ID `1688849860266613`。指定原线稿SHA256仍为 `a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf`；[此前头部修正线稿](../../work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png)也原样保留。本轮未做游戏实机、A2/B2实际叠层、移动端或放大字体检查；初稿最低两纸进入默认正文带，接入前需查遮挡，不沿用六纸修订稿的通过结论。
+
+2026-11-07，用户明确“这张定稿”。本次只核查03-04：`bg_images.rpy:50`定义`bg c2_03_papers_v1`，`script_chapter2.rpy:134`调用同名，`image_codes.rpy:33`的`bg cg02_03_04`别名正确；图片路径命名也一致，但实际`game/images/chapter2/c2_03_papers_v1.png`不存在，故运行资源链未通过。制作定稿哈希仍为上列值。仅原位更新本索引，未复制正式运行素材、改脚本或运行游戏。
+
+<details>
+<summary>03-04单图制作记录：依据、实际请求、返工与保存核验（本轮嵌入索引，未另建记录文件）</summary>
+
+```json
+{
+  "scene_id": "c2_03_papers",
+  "date": "2026-11-07",
+  "request": "直接用用户指定初稿exec-47886b55-241c-4f72-bd5e-627f6b11186a.png上色",
+  "stop_after_stage": "color",
+  "authorization_scope": "本轮生成03-04线稿；保留既有方块PNG、03-03定稿与S1母版；不上色、不接入。沿用用户不新增无关过程文件的要求，记录嵌入既有图片索引。 用户随后明确允许头部阶段素材并局部写回，授权本次三步局部续修；只在头部范围写回原线稿，其他原像素保留。",
+  "status": "当前使用",
+  "adoption": "用户已确认定稿（2026-11-07）",
+  "integration": "未接入：运行目标PNG缺失",
+  "script": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy",
+    "line": 137,
+    "text": "她松开手，一叠彩色符纸飘落。",
+    "sha256": "757a7f2c370451114a3809b2d34d635a8708b6f5aef48bd38e54878e14c6e30a"
+  },
+  "inputs": [
+    {
+      "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+      "sha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "bytes": 1932441
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "bytes": 2018213
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png",
+      "sha256": "fddbe2446300b6fcb87fe3664462731624943424160bb54c8416677e56d8f0ca",
+      "bytes": 4230797
+    }
+  ],
+  "preparation": {
+    "brief": "03-03巨舟已展开悬空之后，03-05落地化少女之前；吴懿松开符纸。三名客人保持右后方画外关系。",
+    "references": "实看S1母版、方块稿、前镜全图，读吴懿身份标准与当前脚本。",
+    "composition": "同侧推进吴懿中景，右半朝左，近侧解剖左手释放，船只露巨大侧舷；纸片与手分离，均在半空；不出现少女和搭板。",
+    "space_review": "/root/paper_blockout_review实际检查原方块PNG与手部/纸区文字修订，允许进入线稿；原PNG手块未被改动。初始计划纸区x650–850,y565–725的真实A2/B2最大alpha为19/25；生成后的图单独重验。"
+  },
+  "books": [
+    {
+      "path": "F:/中国古建筑学习资料_20261031/01_中国古建筑/中国古建筑木作营造技术 (马炳坚) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_pages": "323–325",
+      "printed_pages": "284–286",
+      "application": "只核对栏杆望柱、扶手横枋与地栿连接，不能将古建筑一般尺度强加幻想楼船"
+    },
+    {
+      "path": "F:/中国古建筑学习资料_20261031/02_动画分镜/电影镜头设计 从构思到银幕 (Pdg2Pic etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "pdf_pages": "140–141、147、170",
+      "printed_pages": "118–119、125、148",
+      "application": "同侧拉近动作主体，保持屏幕朝向与相邻镜头关系"
+    },
+    {
+      "path": "F:/中国古建筑学习资料_20261031/02_动画分镜/framed-ink_drawing-composition-for-visual-storytellers_Marcos_Mateu-Mestre.pdf",
+      "pdf_pages": "43、56",
+      "printed_pages": "42、55",
+      "application": "手指和首张纸之间留空隙，让动作发生在简洁空白中；来源由/root/local_reference_review实际只读查页"
+    }
+  ],
+  "attempts": [
+    {
+      "number": 1,
+      "tool": "image_gen__imagegen",
+      "arguments": {
+        "prompt": "制作《剑来》视觉小说03-04「吴懿松手落符」的一张完整、精确、可用于后续上色的黑白线稿。将参考1的方块动作方案转绘为真实人物与船景，保留其镜头和动作意图。目标1920×1080横版16:9，纯白纸底，细灰黑线条，干净手绘动画线稿，不上色，不加灰度渲染，不画方块人，不保留标题、文字、箭头、红线、对白框或说明标记。\n\n三份输入的职责：\n1. 03-04_方块构图初稿.png：只负责构图、人物位置、机位与动作。必须把几何人体转成吴懿真实的人体比例，不能照抄方块头胸体积；下面明确的手与纸位置修订优先。\n2. wy_full_master_v1.png：吴懿唯一S1身份、脸、头发首饰、服装及自然成人身形母版。只画其中同一个吴懿一人，绝不把三视图三个人都带入。冠饰完整，不裁头顶；成年偏长鹅蛋脸、细长眉眼、自然小而圆润的下颌、克制鼻唇轮廓、小额心圆点、近中分露额发束、盘髻与长发、瓣翼冠饰及细垂链。按S1的真实头身和颈长，不幼化，不换成陌生古风美人，不画夸张大眼。衣装叠襟、胸前结构、窄腰带、内外衣层、收束圆缓袖底均按S1，服饰花纹适度简化但结构准确，不能整个人水平镜像而翻转不对称衣襟。\n3. 悬空巨舟_四人终态彩图.png：只负责前一镜的同侧空间、巨大木船侧舷、栏杆构件与船身造型连续性。这是下一镜拉近，不能照搬全景、不能把船缩小塞入画面。陈平安、裴钱、朱敛在吴懿右后方画外，本镜只出现吴懿。\n\n镜头：同侧拉近为吴懿中景，从完整发冠画到大腿/膝附近，膝下自然出画。人物在画面右半，脸和身体朝画面左，近侧为她解剖左侧。略见侧背但侧脸眼、鼻、唇、颏应清楚可辨，纯侧面仅见近侧眼。头部范围约x1050–1220,y140–320，胸腔约x1010–1260,y330–610，下身延伸出画面底部；自然站姿、躯干稳定，头稍低看向她手下离开的符纸，安静从容。\n\n核心动作是「轻轻松开一叠纸，让纸片落下」：她自身左肩约(1050,365)，左肘约(970,490)，左腕约(810,495)，指尖约(750,530)。上臂向前下方，前臂自然向左伸，腕部连续。手从正确袖口露出，袖底随肘自然下垂。左手掌背可见，掌面斜朝下，拇指在远侧上缘并与食指分开；四指自然向左下松开，清楚呈现真实五指的体积和弯曲，不画成几条无关短线。不要僵直平掌、握拳、捏纸、指点、掌心朝上托物，不要后拉蓄力、甩臂或向上抛掷。远侧右臂自然收在身体旁后方，不能多手，也不伸出第二只释放纸片的手。\n\n符纸：大约六张细长薄纸，不是硬卡片。第一张与已松开的指尖留20–30像素明确间隙，其余向下错落、微微旋转和弯曲，纸片总范围约x650–850,y565–725（相较参考1最低纸上提约43像素），全部低于手，没有仍被捏住的纸，不得高过手或飞向天空。可有极少量细线符纹，不写可读标题，不用强光或烟雾遮盖离手间隙。最下张仍在半空，尚未触地，不能画少女、人形、木板、舷梯。所有关键手势与纸片处于画面上部约70%以内；底部保留完整场景线条，可供后续对白叠放，但现在不要画对白层。\n\n环境：背景上半幅为上一镜同一艘极巨大木船的局部侧舷与下层栏杆，横贯画幅、两端裁出；只取局部船腹弧线、水平木板缝、克制云纹雕饰、望柱与扶手/横枋/地栿的准确连接。不要把它画成一堵砖墙、走廊或贴地建筑。船底约在y430附近，街面与船底之间留出可读净空，简洁的悬空投影线在更低处；地面是干燥铺石街面，不是水面，透视同向。主手势和纸片落在相对简洁的背景区域，背景线浅、人物与手的线清楚，不让栏杆密线穿过手部阅读。不要新增其他人物、全船全貌、奇怪船门、屋顶、河岸摆件、航船动作或多个画框。\n\n输出一张完整黑白场景线稿。保持同一镜头尺度、主体位置和清楚的松手下落动作。",
+        "referenced_image_paths": [
+          "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_方块构图初稿.png",
+          "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+          "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png"
+        ],
+        "transparent_background": false
+      },
+      "output": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+      "sha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "result": "待修正：远侧右臂释放、纸区进入正文、冠髻繁复、袖口过长。"
+    },
+    {
+      "number": 2,
+      "tool": "image_gen__imagegen",
+      "arguments": {
+        "prompt": "局部修正参考1这张已生成的03-04黑白线稿，继续这张结果，不另设计新构图。参考2是吴懿唯一S1母版，参考3是镜头方块方案。输出仍是一张完整横版纯黑白细线稿，无色彩、灰色渲染、文字、方块、标注、面板或对白层。原生画幅1672×941可保持，不拉伸图像。保留吴懿在右、面向左的中景，保留同一艘巨大木船横贯上方及干燥铺石街面。需要修正的区域和问题严格如下：\n\n一、纠正释放手的解剖侧别，这是最重要的问题。现在参考1是远侧右臂从胸前伸出、近侧左臂垂在画面右边，这是错误的。改为近镜头的自身左臂从可见的近侧肩部（原生图约1160,330）自然向左前方伸出，左肘约990,420，左腕约800,425，指尖约730,455。必须能沿近侧肩—肘—腕—手连续追踪这条手臂，其衣袖在躯干前方产生正确遮挡。删除原来画面右下那只大幅垂落的近侧袖臂形态，改成身侧衣袍与后背的正常轮廓；另一只远侧右臂收在身体后侧，被躯干遮挡，不再从胸前伸出。只出现一只正在释放纸张的手。左手掌背可见，掌面斜朝下，拇指处在远侧上缘，与食指明确分开；四指松开后自然微屈向左下。五指数量正确，真实手掌体积，手腕不要反折，不是捏纸、指点、握拳或托物。人只是松指放落，不甩臂，不投掷。\n\n二、移动并整理掉落的符纸，解决对白遮挡。把现有5张过低的纸整理为6张轻薄微曲的符纸，全部低于刚松开的指尖，并集中在原生1672×941画面的 x560–745、y480–633 范围内；最下纸底边严格不超过y633。第一张纸距离手指至少20像素；六纸错落、旋转角度不同，薄纸轻弯，不画成硬卡牌。最上纸在y480附近，另外纸依次往下，整条轨迹向下而不是往上飞。纸仍悬在空中，不触地。当前底部y750–850的低纸必须完整移除，不留残影，不增加少女或登船木板。\n\n三、恢复S1身份，保持当前头的位置和朝左微低头的角度。按参考2相同的成年长鹅蛋脸和自然圆缓下颌、克制的细长眼与鼻唇轮廓，少一点尖锐锥子下巴。额心是很小的圆点，不画竖长菱形。前发近中分、弧形收拢露额；去掉额前弯垂到眉眼的大钩形额发。盘髻及冠饰按S1简洁体积：去掉额外五瓣花、层层发圈、额外头链和巨大尖羽冠；换成S1同样的紧凑瓣翼冠、中央小宝石和细链。耳坠是S1细长简单结构，短项圈保留，不增复杂花串。发束用清楚分组的线条，不把每根发丝都密描成金属纹。服装领口、窄腰带、收束袖底及不对称胸口结构按S1重构其当前左侧视角，不能把整人镜像造成左右服饰翻转。此为线稿，不填任何青红颜色。\n\n四、仅调整巨舟局部背景的垂直位置以留出动作空隙，不重新设计船。把船舷部分向画面上方移，使弧形船腹下沿在原生y380–410附近，而不是当前y550。保持既有木板缝、云纹雕饰、栏杆望柱、扶手横枋的形制和巨大横贯尺度，顶端建筑自然被画框截去更多。船底和石板街面之间保持清楚悬空净空；简洁投影保留在人物后方低处。这样左手和所有符纸位于船腹下方的干净区域，线条不与密木纹重叠。不要缩小整艘船，不加新屋顶，不把船体落地。街面和船的水平朝向保持。\n\n仅落实以上修正，保持原线稿主体在画面右半、同侧朝左、巨舟横贯与白底线稿风格。不要加文字或彩图。",
+        "referenced_image_paths": [
+          "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+          "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+          "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_方块构图初稿.png"
+        ],
+        "transparent_background": false
+      },
+      "output": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-0eaebd45-739d-444a-9e91-0b7df564eb58.png",
+      "sha256": "5dc872e83d5adb9bff9c01bd1bf82aa0addc3cc62fe7be928e6ce021306a5ce2",
+      "result": "待修正：近侧左臂已纠正；六纸最低仍触正文，袖口过长，冠饰尖叶簇与宽带不同于S1。"
+    },
+    {
+      "number": 3,
+      "tool": "image_gen__imagegen",
+      "arguments": {
+        "prompt": "对参考1的03-04现有黑白线稿做最后一轮局部精修。参考2为吴懿S1身份与衣装母版。请保留参考1目前已经正确的近侧左肩—左上臂—左前臂—释放手的完整连接，保留她朝画面左的安静侧脸、头和身体位置，保留巨舟、栏杆、木板、云纹、街面与悬空关系。不要换机位，不要新增人物，不要上色。保持1672×941原生横版细黑线稿、白底，没有说明文字和对白框。\n\n只处理以下局部：\n\n1. 把正在前伸的左臂大袖口收短、收束。现在袖底从手腕高度一直垂到接近画面底部，变成巨大的空布袋，偏离S1。按S1的圆缓收束袖底与正常手臂比例重画这一段袖形：手、手腕、上臂和肘的姿势完全保留；在袖口下方保留约一个头高的自然垂量，圆缓封闭的袖底终止在她腰带附近稍下方，约原生y640–660，绝不能再垂到y810。袖口是正常衣袖的开口，而不是巨大的双层长洞。花纹按S1简洁分组，保持衣襟和腰带其余线条。\n\n2. 六张符纸改成“刚刚松开后在手下聚拢散开的一个小群”，而不是从手一路散到膝部/地面。手指仍保持当前位置约原生y550，首纸必须在指尖下20像素左右，所有六张纸都位于原生y565–665这一段非常短的高度范围，最下纸底边无论如何不能超过y680。纸片散在x520–730之间，组成紧凑小扇形，在水平方向错开，可以轻微遮挡角部，但六张都可数。多用倾斜横向的纸片姿态降低它们的垂直占高，保持薄纸自然弯曲。所有纸片与手完全分离，没有纸片高于手，纸片上沿不低于手很多。想象纸束刚松开不足半秒，只在手下很短距离散开：第一张在手下，其余几张围绕同一区域错落，没有长长的下落拖尾。最下的纸仍明显高于她大腿和石板地。完整去掉参考1原来y700–751的两张低纸，不留残影。原有六张全部重排，不增加第七张。纸仍在半空，绝不落地化人。\n\n3. 将头顶盘髻再收紧为S1母版的紧凑髻形和瓣翼状小冠。保持脸部所在位置及成年细长眉眼、自然鼻唇关系；下巴自然圆润收束，不能锥尖。去掉头顶明显多余的高耸发包、层叠发圈和额前垂到眉眼的钩形额发，近中分前发弧形收拢露额。冠只按S1的小瓣翼冠和中央宝石画，不画大尖叶羽冠；保留简单细长耳坠和细金链，不新增花朵与花串。额心是一枚很小的圆点。发丝用少量归组线条概括，保留长发轮廓及长度，不描密集亮丝。全部保持黑白线条，不填发色或服装色。\n\n这是局部修正，不重新设计整个场景。尤其不要再把释放手改回远侧右臂。",
+        "referenced_image_paths": [
+          "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-0eaebd45-739d-444a-9e91-0b7df564eb58.png",
+          "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png"
+        ],
+        "transparent_background": false
+      },
+      "output": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-ba8c3805-d23f-4916-a4e7-4e3884c6c322.png",
+      "sha256": "c9650949a49c0726b1b7c4f6a8bc8f18b6215d9128fb18e1a9348c471a28b083",
+      "result": "保留动作与对白安全区成果，整体仍待修正：头饰身份差异未完全解决，袖型比例待核。"
+    }
+  ],
+  "independent_review": {
+    "reviewer": "/root/paper_blockout_review",
+    "verdict": "待修正",
+    "image": "exec-ba8c3805-d23f-4916-a4e7-4e3884c6c322.png",
+    "observations": {
+      "face": "成年长脸、细长近侧单眼、额心小点、低头视线可保留；没有幼化。",
+      "hair": "盘髻收简，但冠仍为尖叶簇、后脑宽冠带，与S1瓣翼冠/中央宝石/细链垂弧不同，身份整项未通过。",
+      "anatomy": "近侧左肩—上臂—前臂—腕连续，松指可读；六纸与手分离，最近有约20像素以上斜向间隙。",
+      "clothing": "袖底缩短且圆缓，比第二稿改善，不能断言已完整恢复S1比例。",
+      "staging": "吴懿右半朝左，巨舟横贯局部，手纸在空隙中，同侧悬空体量关系可保留。",
+      "dialogue": "最终纸区换算1920×1080约x528–846,y632–757；A2最大alpha37/255、B2最大40/255，默认正文y855/850不覆盖。"
+    },
+    "scope": "整图与内存局部放大、真实A2/B2蒙版静态采样；无游戏实机验证。"
+  },
+  "display_check": {
+    "method": "父代理System.Drawing内存叠加真实A2/B2蒙版、默认正文位置；两种布局实际观看，六纸及手势完整可见。未保存预览文件。",
+    "limitations": "非实机，未验移动端或放大字体。"
+  },
+  "saved": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+    "width": 1672,
+    "height": 941,
+    "format": "PNG RGBA8，完全不透明",
+    "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+    "bytes": 3543989,
+    "file_id": "1688849860266613",
+    "treatment": "沿用指定线稿原生1672×941，不拉伸；用户允许另存一张彩图，线稿保留。",
+    "write_verification": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+      "creation": "User-authorized sole project color PNG, exclusive create wx; no original overwritten",
+      "bytesWritten": 3543989,
+      "bytesReadback": 3543989,
+      "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+      "fileId": "1688849860266613",
+      "readbackExact": true,
+      "width": 1672,
+      "height": 941,
+      "selectedLineartUnchanged": true,
+      "selectedLineartSha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "groundCorrection": {
+        "method": "Deterministic local color correction of generated blue ground; existing line positions, shadows and texture retained; no extra image generation",
+        "selection": "3 largest connected blue regions within y480..752; b-r>12,b-g>8,r>55,g>70; 4-neighbor components",
+        "components": [
+          {
+            "pixels": 160786,
+            "bounds": [
+              0,
+              494,
+              853,
+              750
+            ]
+          },
+          {
+            "pixels": 58255,
+            "bounds": [
+              1351,
+              548,
+              1671,
+              750
+            ]
+          },
+          {
+            "pixels": 5441,
+            "bounds": [
+              995,
+              554,
+              1063,
+              749
+            ]
+          }
+        ],
+        "maskSha256": "a1f50c3256ac8ec14ae28890773a1766286b4853fe001907ab96807a4e3b3cbb",
+        "changedPixels": 224482,
+        "outsideMaskChangedPixels": 0,
+        "formula": "L=.2126R+.7152G+.0722B; s=clamp((190-L)/80,0,1); RGB=round(.91L+5-3s,.89L+3,.87L+3+7s)"
+      }
+    }
+  },
+  "remaining": [
+    "用户已确认彩图定稿；game/images/chapter2/c2_03_papers_v1.png缺失，当前仍未接入。",
+    "原选稿舟下留白空间线索较少，影子与石街联系偏弱；本轮仅修配色，不改原线稿结构。",
+    "原选稿较低两纸有正文遮挡风险；本轮未做A2/B2实际叠层或游戏实机，不沿用后续六纸稿验收。",
+    "内嵌记录已解析；未建独立v2记录，未执行其status校验。"
+  ],
+  "history_before_head_revision_2026_11_07": {
+    "request": "现在生成线稿",
+    "status": "待修正",
+    "saved": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGB",
+      "target_size": [
+        1920,
+        1080
+      ],
+      "treatment": "保留工具原生像素，不拉伸；未接入游戏",
+      "sha256": "c9650949a49c0726b1b7c4f6a8bc8f18b6215d9128fb18e1a9348c471a28b083",
+      "bytes": 1753114,
+      "file_id": 5348024557505148,
+      "write_verification": "独占新建指定线稿后fsync并逐字节回读，与工具原图一致；既有方块、S1、前镜彩图和剧情脚本哈希与文件ID均未变。"
+    },
+    "remaining": [
+      "仅头饰身份差异仍需按S1修正，袖型比例待核；不将返工上限当作通过依据。",
+      "初稿后两次局部修订已用完，本轮停于线稿，不自动继续抽图、上色或接入。",
+      "未另建独立JSON记录，此记录嵌入既有图片索引；未执行独立v2记录文件的status校验。"
+    ]
+  },
+  "head_local_revision_2026_11_07": {
+    "plan": {
+      "date": "2026-11-07",
+      "user_request": "按照这张图片修改：头部和头发分三步：头部指南，添加特征，然后是头发和细节",
+      "authorization": "允许头部阶段素材并局部写回",
+      "stage_scope": "只生成吴懿头部局部阶段素材；最后仅沿窄蒙版原位写回现有03-04线稿；无整图重新生成",
+      "source_crop": {
+        "x": 1020,
+        "y": 20,
+        "width": 300,
+        "height": 340,
+        "reference_width": 900,
+        "reference_height": 1020
+      },
+      "preserve": "吴懿其余脸部、耳坠与颈连；身体、左臂、手、六张符纸、巨舟、街面与构图",
+      "review_correction": "早先按垂臂S1判断抬臂袖长的推断撤回，本轮袖型保留。鼻根局部黑线放大后可误读为远侧眼，需修。",
+      "expected_masks": [
+        "冠饰：原生x1129–1212,y40–103，实际按不规则轮廓",
+        "冠带／细链：原生x1166–1255,y88–164，实际按不规则轮廓",
+        "鼻根远眼误读：原生x1062–1075,y199–217",
+        "额点：如实际需要校准为空心菱形→实心小圆点，微区修改"
+      ]
+    },
+    "stages": [
+      {
+        "stage": "1_head_guide",
+        "request": {
+          "prompt": "局部绘图施工：只处理参考1中的吴懿头部裁切，不生成整张场景。输出与参考1相同900×1020竖幅、同位置、同缩放的第一步“头部指南”阶段素材，无文字无分格。\n参考1是现有线稿的精确头部区域，所有比例、头朝屏幕左并轻微低头、鼻尖下巴耳朵颈部位置和取景必须锁定。参考2是吴懿S1真实身份母版，参考3是其实际放大，不能另设计脸。\n本步仅在参考1的头内建立简洁淡灰蓝施工线：头颅卵形体积、沿左侧面部轮廓的脸部中轴、朝耳前上斜的眼线、鼻底线、颌线和耳颈连接。保留原脸轮廓、下巴、耳位和颈线；现有五官、发束与冠饰可作为极淡灰色定位底稿，施工线清楚可辨。不要增大颅骨、不要添加正面双眼、不要改成仰头或抬眼、不要动漫幼脸。已有发髻是头骨之外的体积，不把髻当颅骨。背景和肩颈保持原线稿上下文，不添加身体或其他场景。此图只是第一步指南，后续才添加特征和头发细节。",
+          "referenced_image_paths": [
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_原位参考.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_S1头部细节参考.png"
+          ],
+          "transparent_background": false
+        },
+        "output": "Generated images are saved to C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3 as C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-6df3b8ba-9cea-4d3e-8670-2431ca438cbf.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "review": "独立复核paper_blockout_review实际看阶段1与原位参考：可进入第二步；低头朝左、眼线朝耳侧抬高、颈连合理，无双眼视角。旧发饰淡灰为定位，不判本阶段失败。额点中心约1066,183，直径3–4原生像素。",
+        "actualOutput": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-6df3b8ba-9cea-4d3e-8670-2431ca438cbf.png",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 1724952,
+          "sha256": "fc6ce62400135f7f219bf1ac41dc8f9b1077bc6d0d8a21a4fe6d7c6ec6f97313"
+        }
+      },
+      {
+        "stage": "2_features_initial",
+        "request": {
+          "prompt": "吴懿03-04头部局部施工第二步“添加特征”。编辑参考1已经建立的头部指南，输出一张相同1178×1335竖幅、完全同缩放同构图的局部阶段线稿；不生成整张场景，不添加文字或分格。\n参考1是第一步指南；参考2是原线稿精确局部，用于锁定脸的既有轮廓、位置和现有表情。参考3是唯一身份母版吴懿S1，参考4为S1实际放大。必须沿第一步指南在原位置校准五官，保持朝屏幕左、轻微低头的成年长鹅蛋脸、自然窄下巴、窄杏眼、平静低垂视线；鼻尖、唇线、近侧眼、耳位和颈部不能移动。\n近侧眼在画面左中侧，按参考2既有形状清晰落墨。鼻根最左轮廓旁旧图有一小簇睫毛似的黑笔，必须去掉，不能画出远侧眼或另一簇睫毛；留下干净连续鼻根轮廓。眉心额点由空心菱形改为同中心的实心小圆点（在900宽原位裁切中直径9–12像素，不扩大）。保留近侧眼、眉、鼻唇自然表情，不加眼镜、不大眼化、不变少女、不换脸型。\n这一阶段把头脸轮廓、五官、耳、颈连接以与原线稿相同的细黑线画清；蓝灰头部指南降为极淡或去除。头发、冠饰和耳饰依然保持极淡灰定位，不在本步重新设计，留待第三步。背景和肩领线维持上下文位置。不要上色，不加明暗块。",
+          "referenced_image_paths": [
+            "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-6df3b8ba-9cea-4d3e-8670-2431ca438cbf.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_原位参考.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_S1头部细节参考.png"
+          ],
+          "transparent_background": false
+        },
+        "output": "Generated images are saved to C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3 as C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-9f16735d-1b86-4d1a-af21-b9b6bc3ffb8c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "review": "阶段2暂不通过：额点已圆，远侧眉眼睫毛仍加黑，不能写回；输出1098×1432与原位参考900×1020纵横比不符。不使用整幅缩放；近眼脸型颈线保留原图。已用紫框定位真正错误像素后局部补修。",
+        "actualOutput": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-9f16735d-1b86-4d1a-af21-b9b6bc3ffb8c.png",
+          "width": 1098,
+          "height": 1432,
+          "bytes": 1649092,
+          "sha256": "274fdce27193a1179638dbf10ccc9a796bf84efd9e8814ca0fe9eb612ca263b1"
+        }
+      },
+      {
+        "stage": "2_features_local_repair",
+        "request": {
+          "prompt": "精确局部修正，仅输出吴懿头部裁切900×1020，与参考1/2完全同位置同取景同宽高比。参考1紫红方框就是唯一需要擦除错误眼线的位置，输出时删除紫红定位框。\n这是步骤二五官校准的补修。紫框内目前有第二只小眼睛、向左凸出的睫毛和眉根粗黑线：把这只小眼睛整只擦掉，含眼线、瞳孔、睫毛、内折线。紫框内只留一根细而自然的脸部外轮廓线，平顺连接上方额头和下方鼻梁，框内部皮肤空白。禁止保留框内像眼睛的黑簇。右边完整的近侧大眼睛完全保留，这是唯一可见的眼睛。鼻尖、嘴唇、下巴、耳朵与颈部、所有头发和冠饰不动。额头原空心小菱形改成同位置同大小实心小圆点。\n参考2为没有紫框的现有线稿，必须作为几何位置和画幅的精确底板。参考3是上一五官阶段，提供已经确立的成年脸型和小圆点，仅这部分可借鉴，不借它发生偏移的裁切。参考4是吴懿S1身份母版。不要上色，不要增加引导线或说明文字。不重新生成身体或场景，只处理给定头部局部。",
+          "referenced_image_paths": [
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_五官修正定位.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_原位参考.png",
+            "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-9f16735d-1b86-4d1a-af21-b9b6bc3ffb8c.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png"
+          ],
+          "transparent_background": false
+        },
+        "output": "Generated images are saved to C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3 as C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-26652aff-21c1-4777-a713-4cc4b0ae2d9b.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "review": "独立复核paper_blockout_review实际看补修后限定通过：远侧眉眼/睫毛清除、轮廓连续、小实心圆点。只用鼻根与额点，近侧眼/眼神/脸型保留原像素。可进入第三步。",
+        "actualOutput": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-26652aff-21c1-4777-a713-4cc4b0ae2d9b.png",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 2359151,
+          "sha256": "f564e24fc560aa51b01a8e03be15e5a0d6c64d7017fce3069ef6c2ae522960c0"
+        }
+      },
+      {
+        "stage": "3_hair_details_initial",
+        "request": {
+          "prompt": "继续同一局部施工的第三步：吴懿S1“头发与细节”黑白线稿。只编辑参考1头部裁切中的冠饰与头上宽带，严格保持这张1178×1335竖幅、同像素构图、同放大倍率、朝屏幕左稍低头角度。不要生成完整场景。\n参考2是唯一吴懿S1母版；参考3是S1同一母版的真实局部放大，特别看其冠饰和盘髻上的细链。参考4是修改前原位头部线稿，仅锁位置。\n两项具体修改：\n1）头顶现有冠是很多长尖叶和叶脉，必须整体改成参考2/3的紧凑“瓣翼冠”：中央一片较高饱满圆润莲瓣、左右较低向两侧展开的宽圆瓣翼，下面中心有小竖宝石。外轮廓只有少数饱满瓣尖，不能叶脉、锯齿、羽毛、许多细长尖叶或大花冠。维持原冠的占地和佩戴位置，整体更紧凑、略低，不变大。黑白线稿只用轮廓与少数内部宝石分割线，不能填颜色。\n2）现在从冠后绕到后髻的一整条宽双边冠带须完全去掉，原处恢复顺着既有盘发方向的发束细线。按S1改成一根轻细珠链，沿发髻自然垂成下弯的弧，不贴成宽紧箍带；链两端接原冠附近和后髻饰件，不新增大挂坠。下方已有长垂饰和顶部连接位置仍要接顺。\n保持前额中分收拢发束、盘髻外轮廓和髻体积、长发去向、耳和耳坠、近侧眼、鼻嘴下巴、圆形额点和干净单眼侧脸，全部来自参考1。不要恢复第二只眼或睫毛。发丝密度与原线稿相近，不加黑块。去除施工蓝线与淡灰底稿，输出干净细灰黑线。背景栏杆、肩领、项链不要改动。只输出这张头部局部，不要方法图、字幕或并排多头。",
+          "referenced_image_paths": [
+            "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-26652aff-21c1-4777-a713-4cc4b0ae2d9b.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_S1头部细节参考.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_原位参考.png"
+          ],
+          "transparent_background": false
+        },
+        "output": "Generated images are saved to C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3 as C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-8f48c657-d84f-464f-bea4-d795d23a6474.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "review": "独立复核：瓣翼冠和中央宝石可采用；饰链新增三颗中段大圆珠及起点大圆珠不符合S1细金链，需去掉中段三珠、缩小起点连接点。原位位置/弧/后垂饰连接合理。",
+        "actualOutput": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-8f48c657-d84f-464f-bea4-d795d23a6474.png",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 2185265,
+          "sha256": "4c646dbe0339071e12b6e2cc0eca6c891c11233acbf40923db89c9fb44ff9a90"
+        }
+      },
+      {
+        "stage": "3_chain_local_repair",
+        "request": {
+          "prompt": "非常小范围修正参考1的头上饰链。输出同一张1178×1335头部裁切，保留所有既有像素位置、画幅、冠饰和头发。不要重画其余任何部分。\n只修改从瓣翼冠右下方通向后髻的一条弧链：这条细链上现在有四颗明显大圆珠，中心约(621,293)、(657,334)、(715,381)、(793,418)。将中间三颗大圆珠全部去掉，在原圆珠位置接回同样细的链线，周围白色圆珠底恢复原来方向的发束细线。起点(621,293)仅保留很小的连接点，不要大圆珠。结果应该是吴懿S1的一根细金链的黑白轮廓，顺着当前下垂弧线连续连到后髻，不是珠串，也不是宽带。参考2是S1原母版，参考3是它的放大。下方已经存在的长垂饰/耳坠不要动，冠的瓣翼和中央宝石不要动，所有脸部五官与圆点不要动。不要新增图案、文字、颜色或别的饰品。",
+          "referenced_image_paths": [
+            "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-8f48c657-d84f-464f-bea4-d795d23a6474.png",
+            "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+            "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_S1头部细节参考.png"
+          ],
+          "transparent_background": false
+        },
+        "output": "Generated images are saved to C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3 as C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-8fa35766-dca3-4cbf-a45a-b3e9c39abeef.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+        "review": "独立复核实际看去珠补修：三颗中段圆珠去掉，起点小连接点，链弧连续、末端接回垂饰；冠保持。局部素材可写回，合成接缝须另核。",
+        "actualOutput": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-8fa35766-dca3-4cbf-a45a-b3e9c39abeef.png",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 2326245,
+          "sha256": "45ce20fa0c31d1cfbe891dd61875fde46fc12faaf37af82fa42cad08255a7f8f"
+        }
+      }
+    ],
+    "method_source": "C:/Users/MSI/Desktop/头部和头发.jpg",
+    "method_limit": "仅借鉴头部指南→五官→头发细节方法，不借用示例人物身份、粉发、眼镜、机位或服装。",
+    "referenceFingerprints": [
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_原位参考.png",
+        "bytes": 1335915,
+        "sha256": "6ebbf9e756c043426e3071f36706ec4d602c24d82fabec788e7c794be4993f0d"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "bytes": 2018213,
+        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_S1头部细节参考.png",
+        "bytes": 2362854,
+        "sha256": "07e73e5ff53c353ecce24cf6f9ac49070f939255c65076f6e2857184eb576d51"
+      },
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-6df3b8ba-9cea-4d3e-8670-2431ca438cbf.png",
+        "bytes": 1724952,
+        "sha256": "fc6ce62400135f7f219bf1ac41dc8f9b1077bc6d0d8a21a4fe6d7c6ec6f97313"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_头部阶段_五官修正定位.png",
+        "bytes": 1335397,
+        "sha256": "f4c3e69d4c38ec3f1e932accd49e8b4c4cd6a150ea4c502ffa9932f27e3d9fa6"
+      },
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-9f16735d-1b86-4d1a-af21-b9b6bc3ffb8c.png",
+        "bytes": 1649092,
+        "sha256": "274fdce27193a1179638dbf10ccc9a796bf84efd9e8814ca0fe9eb612ca263b1"
+      },
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-26652aff-21c1-4777-a713-4cc4b0ae2d9b.png",
+        "bytes": 2359151,
+        "sha256": "f564e24fc560aa51b01a8e03be15e5a0d6c64d7017fce3069ef6c2ae522960c0"
+      },
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-8f48c657-d84f-464f-bea4-d795d23a6474.png",
+        "bytes": 2185265,
+        "sha256": "4c646dbe0339071e12b6e2cc0eca6c891c11233acbf40923db89c9fb44ff9a90"
+      },
+      {
+        "path": "C:/Users/MSI/Desktop/头部和头发.jpg",
+        "bytes": 164272,
+        "sha256": "a8b5cd367c2a31edc248bc5cb2c9098746bd7835d430d27f432b33206ed6415a"
+      }
+    ],
+    "writeVerification": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+      "mode": "existing file r+, positional writes, truncate, sync; no replacement or new final file",
+      "bytesWritten": 1540713,
+      "beforeBytes": 1753114,
+      "afterBytes": 1540713,
+      "beforeSha256": "c9650949a49c0726b1b7c4f6a8bc8f18b6215d9128fb18e1a9348c471a28b083",
+      "afterSha256": "8871ccda91053c6ee9475635948cb24e85cdd7127fbdf0d31a9fbf197f0c746b",
+      "fileIdBefore": "5348024557505148",
+      "fileIdAfter": "5348024557505148",
+      "encodedReadbackExact": true,
+      "decodedPixelsExact": true,
+      "width": 1672,
+      "height": 941,
+      "changedPixels": 6466,
+      "maskPixels": 6629,
+      "changedBoundingBox": [
+        1056,
+        38,
+        1255,
+        223
+      ],
+      "outsideMaskChangedPixels": 0,
+      "masks": [
+        {
+          "name": "petal_crown",
+          "source": "details",
+          "poly": [
+            [
+              1123,
+              82
+            ],
+            [
+              1134,
+              70
+            ],
+            [
+              1134,
+              54
+            ],
+            [
+              1148,
+              57
+            ],
+            [
+              1166,
+              38
+            ],
+            [
+              1175,
+              38
+            ],
+            [
+              1182,
+              60
+            ],
+            [
+              1196,
+              58
+            ],
+            [
+              1198,
+              73
+            ],
+            [
+              1212,
+              69
+            ],
+            [
+              1211,
+              86
+            ],
+            [
+              1218,
+              98
+            ],
+            [
+              1209,
+              108
+            ],
+            [
+              1187,
+              101
+            ],
+            [
+              1173,
+              103
+            ],
+            [
+              1153,
+              100
+            ],
+            [
+              1133,
+              101
+            ],
+            [
+              1122,
+              91
+            ]
+          ],
+          "feather": 2
+        },
+        {
+          "name": "fine_chain",
+          "source": "details",
+          "poly": [
+            [
+              1172,
+              88
+            ],
+            [
+              1186,
+              93
+            ],
+            [
+              1203,
+              106
+            ],
+            [
+              1223,
+              117
+            ],
+            [
+              1245,
+              117
+            ],
+            [
+              1253,
+              130
+            ],
+            [
+              1256,
+              151
+            ],
+            [
+              1250,
+              162
+            ],
+            [
+              1242,
+              159
+            ],
+            [
+              1237,
+              146
+            ],
+            [
+              1221,
+              144
+            ],
+            [
+              1204,
+              132
+            ],
+            [
+              1186,
+              117
+            ],
+            [
+              1167,
+              102
+            ]
+          ],
+          "feather": 2.2
+        },
+        {
+          "name": "nose_root",
+          "source": "features",
+          "poly": [
+            [
+              1057,
+              192
+            ],
+            [
+              1066,
+              192
+            ],
+            [
+              1074,
+              202
+            ],
+            [
+              1078,
+              215
+            ],
+            [
+              1076,
+              224
+            ],
+            [
+              1068,
+              225
+            ],
+            [
+              1064,
+              214
+            ],
+            [
+              1056,
+              207
+            ]
+          ],
+          "feather": 1.2
+        },
+        {
+          "name": "forehead_dot",
+          "source": "features",
+          "poly": [
+            [
+              1061,
+              178
+            ],
+            [
+              1072,
+              178
+            ],
+            [
+              1072,
+              189
+            ],
+            [
+              1061,
+              189
+            ]
+          ],
+          "feather": 1
+        }
+      ]
+    },
+    "compositing": {
+      "approach": "Only 4 irregular local masks, area-average resampling from head crops; no whole-scene generation or whole-crop overwrite",
+      "sourceCrop": [
+        1020,
+        20,
+        300,
+        340
+      ],
+      "featureSource": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-26652aff-21c1-4777-a713-4cc4b0ae2d9b.png",
+      "detailSource": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-8fa35766-dca3-4cbf-a45a-b3e9c39abeef.png",
+      "prewriteMemoryCheck": "Bilinear downsample produced aliasing; corrected to area-average before any target write. Broadened crown mask slightly to remove old spike tip, kept irregular head-local shape.",
+      "preservedNearEyeFaceEarNeckBodyHandsSleevePapersBoatOutsideMasks": true
+    },
+    "preservedInputsCheck": [
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_方块构图初稿.png",
+        "sha256": "d84b01046d1f22c56a358ed55eccf166c1cf5c062a999210278b4ac2ceeee88b",
+        "expectedUnchanged": true
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png",
+        "sha256": "fddbe2446300b6fcb87fe3664462731624943424160bb54c8416677e56d8f0ca",
+        "expectedUnchanged": true
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v2.png",
+        "sha256": "fddbe2446300b6fcb87fe3664462731624943424160bb54c8416677e56d8f0ca",
+        "expectedUnchanged": true
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+        "expectedUnchanged": true
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy",
+        "sha256": "757a7f2c370451114a3809b2d34d635a8708b6f5aef48bd38e54878e14c6e30a",
+        "expectedUnchanged": true
+      }
+    ],
+    "finalIndependentReview": {
+      "reviewer": "/root/paper_blockout_review",
+      "result": "通过；修正后线稿候选，待用户确认",
+      "actualViewed": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+      "sha256": "8871ccda91053c6ee9475635948cb24e85cdd7127fbdf0d31a9fbf197f0c746b",
+      "observations": [
+        "旧尖叶无残留，瓣翼冠、中央宝石、细链与后侧垂饰连接自然",
+        "鼻根远侧眼线已去除，小圆额点清楚；原有脸型与近侧眼保持",
+        "左臂松手、六张符纸、袖型和巨舟构图保持",
+        "原生像素4倍复核：旧宽带末段约x1210–1238,y125–155有轻微线密度/灰度过渡，原尺寸不形成明显断缝，无需继续返工"
+      ],
+      "limitations": [
+        "未上色",
+        "未进行游戏实机、移动端或放大字体验证",
+        "未建立独立v2记录文件，未执行该文件的status校验"
+      ]
+    }
+  },
+  "history_before_selected_ink_color_2026_11_07": {
+    "request": "开始修改；按用户头部与头发示范分三步：头部指南→五官→头发细节；允许头部阶段素材并局部写回",
+    "stop_after_stage": "sketch",
+    "status": "候选",
+    "adoption": "待用户确认修正后线稿",
+    "saved": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG RGBA8，完全不透明",
+      "target_size": [
+        1920,
+        1080
+      ],
+      "treatment": "沿用原文件1672×941，不拉伸；原文件r+原位写入；未上色、未接入",
+      "sha256": "8871ccda91053c6ee9475635948cb24e85cdd7127fbdf0d31a9fbf197f0c746b",
+      "bytes": 1540713,
+      "file_id": "5348024557505148",
+      "write_verification": {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+        "mode": "existing file r+, positional writes, truncate, sync; no replacement or new final file",
+        "bytesWritten": 1540713,
+        "beforeBytes": 1753114,
+        "afterBytes": 1540713,
+        "beforeSha256": "c9650949a49c0726b1b7c4f6a8bc8f18b6215d9128fb18e1a9348c471a28b083",
+        "afterSha256": "8871ccda91053c6ee9475635948cb24e85cdd7127fbdf0d31a9fbf197f0c746b",
+        "fileIdBefore": "5348024557505148",
+        "fileIdAfter": "5348024557505148",
+        "encodedReadbackExact": true,
+        "decodedPixelsExact": true,
+        "width": 1672,
+        "height": 941,
+        "changedPixels": 6466,
+        "maskPixels": 6629,
+        "changedBoundingBox": [
+          1056,
+          38,
+          1255,
+          223
+        ],
+        "outsideMaskChangedPixels": 0,
+        "masks": [
+          {
+            "name": "petal_crown",
+            "source": "details",
+            "poly": [
+              [
+                1123,
+                82
+              ],
+              [
+                1134,
+                70
+              ],
+              [
+                1134,
+                54
+              ],
+              [
+                1148,
+                57
+              ],
+              [
+                1166,
+                38
+              ],
+              [
+                1175,
+                38
+              ],
+              [
+                1182,
+                60
+              ],
+              [
+                1196,
+                58
+              ],
+              [
+                1198,
+                73
+              ],
+              [
+                1212,
+                69
+              ],
+              [
+                1211,
+                86
+              ],
+              [
+                1218,
+                98
+              ],
+              [
+                1209,
+                108
+              ],
+              [
+                1187,
+                101
+              ],
+              [
+                1173,
+                103
+              ],
+              [
+                1153,
+                100
+              ],
+              [
+                1133,
+                101
+              ],
+              [
+                1122,
+                91
+              ]
+            ],
+            "feather": 2
+          },
+          {
+            "name": "fine_chain",
+            "source": "details",
+            "poly": [
+              [
+                1172,
+                88
+              ],
+              [
+                1186,
+                93
+              ],
+              [
+                1203,
+                106
+              ],
+              [
+                1223,
+                117
+              ],
+              [
+                1245,
+                117
+              ],
+              [
+                1253,
+                130
+              ],
+              [
+                1256,
+                151
+              ],
+              [
+                1250,
+                162
+              ],
+              [
+                1242,
+                159
+              ],
+              [
+                1237,
+                146
+              ],
+              [
+                1221,
+                144
+              ],
+              [
+                1204,
+                132
+              ],
+              [
+                1186,
+                117
+              ],
+              [
+                1167,
+                102
+              ]
+            ],
+            "feather": 2.2
+          },
+          {
+            "name": "nose_root",
+            "source": "features",
+            "poly": [
+              [
+                1057,
+                192
+              ],
+              [
+                1066,
+                192
+              ],
+              [
+                1074,
+                202
+              ],
+              [
+                1078,
+                215
+              ],
+              [
+                1076,
+                224
+              ],
+              [
+                1068,
+                225
+              ],
+              [
+                1064,
+                214
+              ],
+              [
+                1056,
+                207
+              ]
+            ],
+            "feather": 1.2
+          },
+          {
+            "name": "forehead_dot",
+            "source": "features",
+            "poly": [
+              [
+                1061,
+                178
+              ],
+              [
+                1072,
+                178
+              ],
+              [
+                1072,
+                189
+              ],
+              [
+                1061,
+                189
+              ]
+            ],
+            "feather": 1
+          }
+        ]
+      }
+    },
+    "inputs": [
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_方块构图初稿.png",
+        "sha256": "d84b01046d1f22c56a358ed55eccf166c1cf5c062a999210278b4ac2ceeee88b",
+        "role": "已显示的方块构图；原文件未修改"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+        "role": "唯一S1身份母版；三次实际图像调用均传入"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+        "role": "吴懿身份标准"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png",
+        "sha256": "fddbe2446300b6fcb87fe3664462731624943424160bb54c8416677e56d8f0ca",
+        "role": "前镜同侧空间、巨舟船型连续性；不作吴懿身份母版"
+      }
+    ],
+    "remaining": [
+      "修正后线稿尚待用户确认；未上色、未接入游戏。",
+      "原生1672×941；未做游戏实机、移动端或放大字体检查。",
+      "沿用内嵌记录，未另建独立JSON，未执行独立v2记录文件status校验。"
+    ]
+  },
+  "current_staging": "用户选定初稿构图：吴懿右侧朝左，保持原图伸手及另一臂位置，5张符纸下落，背景巨舟侧舷与石街按原线条。此前六纸修订稿不是本轮底稿。",
+  "selected_ink_color_revision_2026_11_07": {
+    "date": "2026-11-07",
+    "userRequest": "直接用这一张，开始上色",
+    "selectedAttachmentOriginal": "/C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+    "resolvedAttachment": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+    "userAuthorization": "允许另存一张彩图，保留线稿",
+    "selectionMeaning": "用户明确采用初稿进入上色，优先于本镜此前头部修订版本；本轮不再改手势、袖型、冠饰、机位或五纸位置。S1仍为身份母版，本镜选稿不改全局母版。",
+    "scope": "只上色；另存唯一项目彩图；原始选定线稿及之前头部修订稿均保留；不接入游戏",
+    "selectedLineart": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "bytes": 1932441
+    },
+    "actualRequest": {
+      "prompt": "给参考1这张已由用户选定的线稿直接上色。任务是严格沿现有线条填色与少量明暗，不是重新构图或重新绘制人物。仅输出一张完成彩图，1672×941横幅，维持参考1画幅、机位、裁切、全部线条位置。\n参考分工：\n1. 参考1是唯一被上色的底稿。保持吴懿在画面右边朝左微低头的现有脸型、表情、眼睛位置、头部与发冠形状、所有现有首饰、盘髻、长发、伸出的手及垂下的另一臂、大袖轮廓和衣纹。不得拿别的版本换脸、换头饰、调整手臂或缩短袖子。五张飘落符纸数量、形状、符号、位置全部按此图，不能变成六张；保持手指与最高纸片间的空隙。巨舟船腹、栏杆、窗格、帷幔、云纹雕饰、悬空高度、地面投影及石街的位置均锁定。无其他人物，无少女化形，无新增道具。\n2. 参考2是吴懿S1母版，只用于核对本角色的固有色、成年肤色与二维绘画方式；不把三视图人物、字样、姿势或形状搬进画面。\n3. 参考3是同场前镜已定稿彩图，仅借环境光色、木舟材料与石街色调，不复制其远景构图或四个人物。\n\n配色：吴懿青蓝偏青绿外袍，浅灰绿叠襟与内袖边，暗红内层和胸前衣料；现有服装金线用低亮暖金赭色，深色窄腰带。黑色头发，发束仅少量冷灰柔和层次，不出现大片白色亮发丝。头冠、发饰、耳坠按既有线条填温润旧金、青绿色与小红宝石；小额点用低饱和红。自然淡暖成年肤色，微弱腮与唇色，不浓妆、不苍白发蓝、不幼化。\n巨舟：前镜相同的温暖棕褐木板，深红棕窗柱和栏杆，暖赭金云纹与栏板饰件，浅米白帷幔；清楚保留木板拼缝和结构线，纹理轻且哑光。上方自然日间漫射光，明暗方向与前镜相容；船腹下缘较暗，但不是漆黑。舟下仍有明亮空气间隙和地面柔和灰蓝投影，必须读成巨大楼船悬空，不落地、不缩成小船。\n地面：灰米色石板，微弱暖灰与冷灰变化；舟下远处空白区域处理为浅灰蓝日间空气，不增加建筑、山川、地平线或任何新线条。\n五张符纸使用相互区分但克制的淡赭黄、浅朱红、淡青绿、灰蓝、米白，符文留深色线描；纸有极轻柔的体积阴影，不能浓烈霓虹发光、不出现魔法火焰、法阵或光线。\n\n画风：东方幻想，二维细灰黑线描、轻赛璐璐阴影、低饱和哑光手绘质感。保留原线稿的全部结构和轮廓，把颜色铺在线条下面；不改成3D、照片、光亮丝绸、游戏海报、油画厚涂。背景的色彩对比适当收敛，使吴懿的脸、松手和五张纸仍易读。无标题、文字标签、水印、分格或边框。",
+      "referenced_image_paths": [
+        "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+        "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png"
+      ],
+      "transparent_background": false
+    },
+    "actualInputs": [
+      {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-47886b55-241c-4f72-bd5e-627f6b11186a.png",
+        "sha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+        "bytes": 1932441
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+        "bytes": 2018213
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态彩图.png",
+        "sha256": "fddbe2446300b6fcb87fe3664462731624943424160bb54c8416677e56d8f0ca",
+        "bytes": 4230797
+      }
+    ],
+    "nativeOutput": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3/exec-e2a58233-ff92-449d-85ff-6784e6bcd5c5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6652a1a3143b6f4ee46e223d5f90a464906e05dd4a3a35036b68584f04037257",
+      "bytes": 2590710
+    },
+    "initialIndependentReview": {
+      "reviewer": "/root/paper_blockout_review",
+      "result": "人物上色可保留，环境待修",
+      "observations": [
+        "原初稿人物、手势、5纸和头饰形状延续；三层衣色、成年脸和黑发符合配色与身份",
+        "舟下浅蓝带呈天空/水面感，阴影悬于蓝带中；需修正地面色"
+      ]
+    },
+    "localColorCorrection": {
+      "method": "Deterministic local color correction of generated blue ground; existing line positions, shadows and texture retained; no extra image generation",
+      "selection": "3 largest connected blue regions within y480..752; b-r>12,b-g>8,r>55,g>70; 4-neighbor components",
+      "components": [
+        {
+          "pixels": 160786,
+          "bounds": [
+            0,
+            494,
+            853,
+            750
+          ]
+        },
+        {
+          "pixels": 58255,
+          "bounds": [
+            1351,
+            548,
+            1671,
+            750
+          ]
+        },
+        {
+          "pixels": 5441,
+          "bounds": [
+            995,
+            554,
+            1063,
+            749
+          ]
+        }
+      ],
+      "maskSha256": "a1f50c3256ac8ec14ae28890773a1766286b4853fe001907ab96807a4e3b3cbb",
+      "changedPixels": 224482,
+      "outsideMaskChangedPixels": 0,
+      "formula": "L=.2126R+.7152G+.0722B; s=clamp((190-L)/80,0,1); RGB=round(.91L+5-3s,.89L+3,.87L+3+7s)"
+    },
+    "saved": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+      "creation": "User-authorized sole project color PNG, exclusive create wx; no original overwritten",
+      "bytesWritten": 3543989,
+      "bytesReadback": 3543989,
+      "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+      "fileId": "1688849860266613",
+      "readbackExact": true,
+      "width": 1672,
+      "height": 941,
+      "selectedLineartUnchanged": true,
+      "selectedLineartSha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "groundCorrection": {
+        "method": "Deterministic local color correction of generated blue ground; existing line positions, shadows and texture retained; no extra image generation",
+        "selection": "3 largest connected blue regions within y480..752; b-r>12,b-g>8,r>55,g>70; 4-neighbor components",
+        "components": [
+          {
+            "pixels": 160786,
+            "bounds": [
+              0,
+              494,
+              853,
+              750
+            ]
+          },
+          {
+            "pixels": 58255,
+            "bounds": [
+              1351,
+              548,
+              1671,
+              750
+            ]
+          },
+          {
+            "pixels": 5441,
+            "bounds": [
+              995,
+              554,
+              1063,
+              749
+            ]
+          }
+        ],
+        "maskSha256": "a1f50c3256ac8ec14ae28890773a1766286b4853fe001907ab96807a4e3b3cbb",
+        "changedPixels": 224482,
+        "outsideMaskChangedPixels": 0,
+        "formula": "L=.2126R+.7152G+.0722B; s=clamp((190-L)/80,0,1); RGB=round(.91L+5-3s,.89L+3,.87L+3+7s)"
+      }
+    },
+    "finalIndependentReview": {
+      "reviewer": "/root/paper_blockout_review",
+      "actualFile": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+      "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+      "result": "按指定线稿只上色的范围可交付，彩图候选，待用户确认",
+      "observations": [
+        "舟下改暖灰，天空/水面误读明显减弱",
+        "人物服色、五张符纸、船木颜色及手势位置保持，未发现新的硬性上色问题",
+        "原线稿大块留白缺少地面纵深线索，椭圆影与石街联系仍弱；属于选稿空间表达限制，本轮不擅增线或移动投影"
+      ],
+      "limitations": [
+        "非完整空间验收",
+        "非游戏实机验收"
+      ]
+    },
+    "preservation": {
+      "originalSelectedInkUnchanged": true,
+      "originalSelectedInkSha256": "a15b712f09ffccd00d83a378761c4aa0a27aa4ecc4c286c262d52ac3b6f8c2cf",
+      "previousHeadRepairedLineartPath": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_线稿.png",
+      "previousHeadRepairedLineartSha256": "8871ccda91053c6ee9475635948cb24e85cdd7127fbdf0d31a9fbf197f0c746b",
+      "previousHeadRepairedLineartUnchanged": true
+    },
+    "displayCheck": {
+      "performed": "独立查看完整彩图及原选定线稿，未移动原稿五纸",
+      "notPerformed": [
+        "本轮未重做A2/B2实际叠层",
+        "未做游戏实机/移动端/放大字体检查"
+      ],
+      "staticConcern": "默认A2正文y855、B2正文y850（1920×1080）；选定初稿最低两纸进入此正文带，保留用户选稿位置，接入前需检查遮挡。不得沿用后续六纸线稿的UI通过结论。"
+    },
+    "recordValidation": "现有索引内嵌JSON解析与指纹/写入回读核验；未创建独立v2记录，未执行其status脚本。",
+    "userFinalConfirmation": {
+      "date": "2026-11-07",
+      "userQuote": "这张定稿检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致",
+      "asset": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+      "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+      "scope": "确认本张彩图为美术定稿；要求核查本镜引用一致性。未改母版，未新增运行文件或更改脚本。"
+    }
+  },
+  "status_scope": "当前采用的美术制作定稿；尚未成为游戏运行素材",
+  "user_final_confirmation_2026_11_07": {
+    "date": "2026-11-07",
+    "userQuote": "这张定稿检查bg_images.rpy里的图片定义名、图片路径、脚本调用名三者是否一致",
+    "asset": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+    "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+    "scope": "确认本张彩图为美术定稿；要求核查本镜引用一致性。未改母版，未新增运行文件或更改脚本。"
+  },
+  "runtime_reference_audit_2026_11_07": {
+    "date": "2026-11-07",
+    "scope": "03-04定稿的定义名/路径/脚本调用名检查；只读运行配置，未授权新增正式运行素材",
+    "imageDefinition": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/bg_images.rpy",
+      "matches": [
+        {
+          "line": 50,
+          "text": "image bg c2_03_papers_v1 = im.Scale(\"images/chapter2/c2_03_papers_v1.png\", 1920, 1080)"
+        }
+      ],
+      "name": "bg c2_03_papers_v1",
+      "relativeImagePath": "images/chapter2/c2_03_papers_v1.png"
+    },
+    "scriptCall": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy",
+      "matches": [
+        {
+          "line": 134,
+          "text": "    scene bg c2_03_papers_v1"
+        }
+      ],
+      "name": "bg c2_03_papers_v1"
+    },
+    "stableAlias": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/image_codes.rpy",
+      "matches": [
+        {
+          "line": 33,
+          "text": "image bg cg02_03_04 = \"bg c2_03_papers_v1\""
+        }
+      ],
+      "name": "bg cg02_03_04",
+      "target": "bg c2_03_papers_v1"
+    },
+    "checks": {
+      "definitionUnique": true,
+      "scriptCallsMatchDefinition": true,
+      "aliasUniqueAndMatches": true,
+      "pathBasenameMatchesName": true,
+      "runtimeFileExists": false,
+      "finalArtPresent": true,
+      "finalArtReferencedByRuntime": false
+    },
+    "runtimeFilePath": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_papers_v1.png",
+    "finalArt": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/03-04_吴懿松手落符_彩图.png",
+      "sha256": "a9ec57ddf092132739fa70eb1b30585ab2fb081016698bacc3e3f67a8ace9339",
+      "bytes": 3543989,
+      "width": 1672,
+      "height": 941
+    },
+    "result": "名称、别名和路径命名一致；运行PNG缺失，03-04新定稿尚未接入，图片加载链不通过。",
+    "validationBoundary": "未修改bg_images.rpy、脚本、别名或图片；未执行游戏实机/存读档检查；此次只作静态一致性与文件存在性核验。",
+    "independentReview": {
+      "reviewer": "/root/paper_blockout_review",
+      "method": "只读独立核对本镜文件与行号",
+      "result": "定义bg_images.rpy:50、脚本script_chapter2.rpy:134、别名image_codes.rpy:33对应一致；运行PNG缺失；制作彩图哈希一致，尚未接入"
+    }
+  }
+}
+```
+
+</details>
 
 以下为 2026-09-24 的八镜定稿与验收记录。八镜沿用当时确认的“变船前／搭板后”草图和第二场定稿画风，在线分镜表未另存项目。
 
@@ -695,6 +1935,14 @@ Ren'Py 8.5.3 lint未报告语法、角色、图片路径或章节跳转错误；
 
 2026-10-31 原位修订。首排增大仰角，第 8、9 排放松眉头，并清理中央六格内眉头的残线。平视格作对照。已回读原文件，写入前后文件标识相同。与 10 月 30 日成图逐像素比较，指定区域外差异为 0。当前 SHA256 为 `f66cea77e7e5497e18cdcdd8de96967778c6a10197e74c069b1baed29da6e2db`。状态为**待修正／待用户审阅的绘画参考**。首排局部线条稍软，角度未经三维校准。两次实际写入与局部检查见上方记录的 `in_place_revision`。
 
+#### 暖天行路立绘采用与脸部页配簪（2026-11-05）
+
+用户指定 [透明 PNG 原图](C:/Users/MSI/.codex/generated_images/01a14a12-5216-7b91-bfb5-10f147b4e459/exec-1bc6aae2-953f-4c66-a3f3-14d272a56ec2.png) 作为新的陈平安全身立绘。[暖天行路服母版](../lh/cpa/cpa_outfit_variant_06_warm_weather.png)沿用既有路径和代号参考01·02，采用状态为**当前使用／仅参考**。原附件为 1672×941 RGBA，SHA256 为 `70289ed6149c25d887f252731b1014bdd68b6a3d72d1fa30617d67bb45a5a198`。原图轮廓仍有少量彩色杂边，鞋底贴画面下缘。本次采用的是角色通用造型，无特定剧情镜头关联。
+
+用户同时限定两张身份页只换玉簪。[脸部身份标准页](../lh/cpa/cpa_face_standard_01.png)的六处以新全身立绘为准，保持**当前使用／仅参考**（参考01·01）。[三视角身份参考页](../lh/cpa/cpa_face_locked_identity_sheet_01.png)的三处按同一器形处理。用户于 2026-11-05 查看正面及侧面的放大对照后确认两页；三视角页登记为**当前使用／仅参考**（参考01·03），用于佩簪角度对照。
+
+三张 PNG 均从既有文件句柄原位保存并回读，保存前后文件标识一致。参考01·02 与指定附件逐字节相同。参考01·01 和参考01·03 分别核对了六处和三处簪区，区域外像素差异均为 0。两张脸部页当前 SHA256 依次为 `a75bf85e0381586c6c2561c3ccc4180b8fbd838248583306df9eacce33c78f80` 和 `4da58882a913863d8facd8823bfc9963ec8fb846b950d822f78705f92d62fe6f`。
+
 ### 3.35 08-04催席同行：固定位置立绘与空廊（2026-10-18）
 
 用户确认08-04采用传统Galgame演出：背景在后，陈平安左、孙登先右，中间留出通往宴堂的夜廊；紫阳府修士以画外对白出现。两位主角说话时可轻微压暗另一人，末句催萧鸾可转无人廊道，再接08-05吴懿相迎。偶尔出现的配角无需专门露脸，超过三人时按对话关系轮换并保持关键站位。上述为已批准的制作方案，2026-10-18用户确认彩图定稿后，已将独立背景与四张彩色立绘按此方案接入08-04；本节保留制作历史，最新定稿与验收见节末。
@@ -989,6 +2237,37 @@ Photoshop母版[dialogue_no_portrait_variants.psd](../../work/art/dialogue_no_po
 ### 3.42 溪边歇脚后，三人重新收拾行装（2026-11-01）
 
 **当前使用／用户确认第二次上色稿。** 裴钱在岸石上系草鞋，陈平安收紧竹箱肩带，朱敛在山径上回头等候。三人沿用本索引第 3 节的身份与暖季行装。正式图 `c2_01_pack_v1.png` 保留原稿 1672×941 像素，稳定代号 `CG02·01·02`。裴钱说完“往师父兜里装”后显示此图，覆盖恢复的原旁白“歇过脚，三人重新收拾行装，沿山路继续往前。”下一页转入郡城。[正式彩图](../images/chapter2/c2_01_pack_v1.png) · [剧本调用](../script_chapter2.rpy#L48) · [单图制作记录](../../work/art/chapter2/c2_creek_pack/record.json)
+
+### 3.43 第二章第09场镜04 · 雨停扶栏（2026-11-02）
+
+**本轮最新边界（2026-11-07）：全新Y01–Y04粗分镜已交付。** 用户要求“做新的分镜，之前的不需要”，并批准伞沿接滴、伞过露人、入檐停步、停看雨街的四格方案。[新台本](../../work/art/chapter2/c2_09_rain_storyboard.png)为本轮唯一交付图；实际画面待用户确认采用，未进入正式素材或游戏接入。匿名伞客和赶檐人无正式脸部母版，不建立主角身份标准。此前05A／05B台本、双格分镜、05A正式线稿及更早05B／05C与PSD全部停用，原文件保留；已采用夜廊彩图保持原状态。新台本原生1024×1536，SHA256为efae35d4fe114832c4d60d073586455a9a23ec06a83605219f196b63f5f43147；独立整页复核确认叙事与旁白可读，Y02／Y03石台左端偏移须在正式背景阶段统一，雨线仍为示意。完整原始请求、写入证据及未验证项见[本轮制作记录](chapter2_storyboard.md#c2-rain-shelter-new-sheet)。
+
+**路边躲雨此前采用边界（历史，本轮全新四格方案取代）。** 用户选用05A／05B分镜，明确“06A和06B已经不需要出现”，并批准原PNG裁去下排；06A／06B停用，不再制作、展示或自动恢复。随后用户指出现有图只是分镜稿，并批准“允许新建独立05A正式线稿”。本次已完成05A单幅正式线稿，待用户确认；原双格分镜保留，05B止于分镜阶段。下方旧双格雨街、旧05B／05C效果图及对应PSD继续停用，文件保留。
+
+**05A／05B手绘台本 · 停用（2026-11-07，本轮重做；以下为先前采用历史）。** 用户明确批准新建一张手绘台本，随后回复“可以就这样”确认采用；已完成[两行台本](C:/Users/MSI/.codex/generated_images/01a19a5d-ef09-7682-afa3-c78a4ca1d1ae/exec-f339ff21-ab4e-48ca-ac66-95784d94eb90.png)：镜05同一固定机位的两个动作关键格，附镜号、旁白、声音建议、时间与推进栏。只用当前双格原图作为动作与空间参考；匿名路人不绑定正式脸部母版，未增加主角或停用画格。原生1199×1312，SHA256为f1f407b2676740f893a78e8217fcc94a4ead79d1cb40b1b022b90c6c8206d9ef。独立目检确认台本可读；05B台阶前沿相对05A有位移、画框略窄于16:9，正式制作前需统一。后半句画面承载仍待定。原双格保留为已选用构图参考，独立05A正式线稿的采用状态不变；本次确认仅限台本，已知差异和未验证项保留，未接入游戏。[实际请求与检查记录](chapter2_storyboard.md#c2-rain-shelter-handdrawn-sheet)。
+
+**05A／05B · 停用（本轮新方案取代；以下为此前分镜与色稿历史）。06A／06B仍停用。** [当前双格原图](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-f111620a-6287-405c-83da-b956de53bd61.png)最初为1672×941四格；用户明确批准裁去下排后，已原位保存为1672×497，仅含标题、05A和05B。当前SHA256为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7，保留区域像素与裁前完全一致，原文件对象一致；实际写入和检查见[双格裁切记录](chapter2_storyboard.md#c2-rain-shelter-two-panel)。05A沿用灰米褐油纸伞、灰青近伞客、麻灰赶檐人，冷湿街与浅暖石台区分，详见[05A上色记录](chapter2_storyboard.md#c2-rain-shelter-05a-color)；[线稿局修历史](chapter2_storyboard.md#c2-rain-shelter-local-repair)。近伞客与赶檐人头脸被伞遮住，远人仅剪影，没有正式角色母版绑定。05B仍止于前鞋越阶将落／初触缘；“躲雨的人在檐下”及“且慢行”正文保留，承载方式另定，不构成恢复06A／06B的待办。两格仍为分镜用途，原分镜不另存单镜；本次另获授权制作的独立05A正式线稿见下段。未接入游戏，未做实机验收。
+
+**05A独立正式线稿 · 停用（本轮新方案取代）。** [05A独立正式线稿](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-8ca83436-2e44-4622-aef9-66e66433db10.png)依据已选用分镜左05A重新绘制，仅一张独立画面，无标题、镜号或拼板。近伞继续遮住赶檐人的头肩，右侧目的屋檐、石台与通路可见；近伞客、赶檐人均为匿名成人，脸按剧情遮住，远人仅剪影，不绑定正式主角母版。原生1672×941，已在同一新原图内等比整理为1920×1080；最终SHA256为7556e593cff66a804ee8ac964f583b03a3ff1b86880a8afd251c2123f9db53a6，实际写入、回读和文件标识一致均已核验。独立复核未见阻挡交付的结构问题，保留伞杆与伞顶中轴轻微偏离这一精修项。只到正式线稿，未上色、未接入游戏；[完整实际请求、尺寸整理与复核记录](chapter2_storyboard.md#c2-rain-shelter-05a-formal)。
+
+**候选 · 线稿待确认。** 陈平安在廊板上缓行，一只手搭着湿栏，低头看水。人物按[脸部母版](../lh/cpa/cpa_face_standard_01.png)和[暖季衣装](../lh/cpa/cpa_outfit_variant_06_warm_weather.png)绘制。镜04单镜原画为1672×941；双格上幅将下一滴檐水对齐下幅伞沿，供转场审阅，尚未接入游戏。[单镜原画](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-9a4a7c28-c3c8-40dd-8108-70867760168f.png) · [双格线稿](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-bd440d80-231a-4b30-ae22-46346aeea503.png) · [第二章分镜](chapter2_storyboard.md#c2-scenes-09-10)
+
+**同场镜05B–05C · 停用（以下为历史修订记录）。** 2026-11-04 在原 PNG 内仅简化墙板、瓦面、窗槛细纹并补前脚接触影；窗框未完成，试改已撤回。Photoshop Document.save 保存并回读：1182×1330，指定修订区域外像素差为 0，陈平安、持伞路人、下格身体及抬起后脚的保护区差为 0；前鞋接触边缘有 6 个深色像素产生不超过 2/255 的明度变化。保存后 SHA256：9b327dc7b463cd022a72a420907aec0bce6491a0136fded87e98098d6d862c5d。未作游戏实机验证，仍待用户确认。 青鸾国酒楼里，镜05B只见陈平安的后肩、发髻和横簪。持伞人与抬袖人均为普通路人。此图用于检查同窗收紧的机位与空间。[双格线稿](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-87ff2e72-f90c-4ebf-82cb-e71c93114276.png) · [分镜与古建图页依据](chapter2_storyboard.md#c2-scenes-09-10)
+
+**镜05B／05C 两张独立路人效果图 · 停用（以下为2026-11-04历史修订记录）。** 本轮接着现有两张 PNG 修改：05B 左侧新增路人 A 从原复制比例 0.85 调到 0.94，保持落脚位置；05C 补回上一镜原前景伞客，并按窗槛遮挡下身，同步左缘 A 的伞。右侧新增路人 B、奔跑者及主体建筑未修改。两名新增路人的短衣提篮／去包袱造型仍未完成：用户已授权仅在这两人的选区内使用 Adobe 局部生成填补，但 Photoshop 界面提示“要在 Adobe 应用程序中访问 Firefly 支持的功能，您必须拥有正版 Adobe 应用程序”，未产生生成结果图层。已撤回不合格的几何化衣装及测试用编辑层，只保留比例和连续性修正。
+
+实际保存：在绑定原路径的 Photoshop 文档 167、170 内使用 Document.flatten 后 Document.save；两文档均返回 saved=true，再从磁盘回读核验。05B 为 1159×649，变化像素 14577 个、边界 [209,241,350,439)；05C 为 1159×645，变化像素 32178 个、边界 [0,238,286,583)，限左缘伞及前景伞客区域；约定修订区域外像素差均为 0。保存后磁盘文件标识发生变化，因此记录为编辑器正常保存，不声称磁盘文件对象标识保持不变。05B SHA256：7f9bcb23f21f93d25719230080c646b94f95686afa9acd021ea7670c47306b72；05C SHA256：92ecd3e4fc0174b8cda8191c5cb1bae40a0240ab842d166e0a0db2ec04a59584。原双格源图 SHA256 仍为 9b327dc7b463cd022a72a420907aec0bce6491a0136fded87e98098d6d862c5d，未改动。当前仅供比例与衔接审阅，尚未完成衣装差异、窗框／干湿边界修订；未接入游戏，未做游戏实机验证，待用户确认。[镜05B](C:/Users/MSI/.codex/visualizations/2026/11/01/01a1975a-1fa1-7d01-b992-4ed5dc477864/c2_09_05b_people_effect.png) · [镜05C](C:/Users/MSI/.codex/visualizations/2026/11/01/01a1975a-1fa1-7d01-b992-4ed5dc477864/c2_09_05c_people_effect.png)
+
+### 3.44 “且慢行”切入场景单图与四镜线稿（2026-11-05）
+
+**当前使用（本图美术采用）·第09场雨停夜廊切入。用户确认已完成场景范围为三句旁白，止于“他低头看了一眼”；下一段做路边躲雨。当前剧情未调用本图，连续演出未验证。** 11月5日车轮四镜仅保留为历史草案；此前“旧切入先不用”不再被解释成取消当前脚本的路边躲雨段落。第3.43节雨街旧稿均已按本轮要求停用，当前制作入口为该节全新Y01–Y04粗台本；夜廊采用范围不受影响。[当前分镜与边界](chapter2_storyboard.md#c2-slow-attention-intro-table)。
+
+陈平安仍用脸部母版、暖季衣装及15视角玉簪结构参考；廊下无书箱、无背带。CG实际输入脸部和衣装两图；四镜另实际输入15视角图。两张首稿均由内置imagegen生成，原生1672×941。本张单图随后在原PNG上修簪并着色。
+
+- [雨停夜廊切入彩图](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png)：陈在右侧扶栏低看，左近景折草与江面形成尺度对照。用户认可这张构图。2026-11-05 依据新版暖季立绘及确认的脸页三分之四视角，局部修为卷首和渐尖短尾，保持线稿灰阶。原文件标识一致，簪部两处共变化2,845个像素，区域外差为0。回读和独立视觉复核通过。修簪线稿的历史SHA256为7ee7061ffe7cd2bdf8fd9e409d0bc3d17a6e1e85fa7883efd8c13041de85346e。同日依用户要求在该原件上色。衣色和玉色取自确认立绘，夜河及廊灯取自同场雨停彩图。首轮彩图的历史SHA256为81fa8a1f90241469d812bdbbdc804e4fa4ea6a4a7d90f90c8f0566d153bafaa9。2026-11-06 按用户确认，仅原位修正折草下方现有栏面积水。木纹减弱约三成，加入断续冷灰蓝映光。变化10,462个像素，边界[331,810,636,877]，内缩水痕蒙版外差为0。原文件标识一致，回读吻合，独立视觉复核通过。当前SHA256为f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3。
+- 历史草案（待修正，非当前制作安排）：[四镜分镜线稿](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png)：轮疾行、折草、湿栏与手、陈凝视。04卷首玉簪与身份成立；03/04草根似穿木，跨场归属未通过。SHA256：6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700。
+
+2026-11-06 用户以现稿第387、389、390行明确已完成的夜廊切入范围，止于“他低头看了一眼”；第391行“他想起在青鸾国酒楼里听来的一个故事。”起接镜05–06路边躲雨，属于下一制作段落。本图不再归入未确认的车轮四镜方案。保留[已登记图片](../images/chapter2/c2_end_slow_v1.png)、定义和稳定代号CG02·09·01，当前剧情未调用。既有文件基名保留，不代表章末用途。原生1672×941，图片像素与哈希未改；本轮只更正范围及素材登记，不改变脚本。后续陆抬忆述、章末CG及成就、完整短片均未完成；实机未验证。[本图分镜与制作边界](chapter2_storyboard.md#c2-slow-attention-final-shot) · [原始研究依据](../../work/art/chapter2/c2_slow_attention/basis.json) · [最新范围与制作记录](../../work/art/chapter2/c2_slow_attention/cg_record.json) · [历史四镜记录](../../work/art/chapter2/c2_slow_attention/board_record.json)。
 
 ## 4. 已纳入索引、但暂无专属身份标准的角色
 

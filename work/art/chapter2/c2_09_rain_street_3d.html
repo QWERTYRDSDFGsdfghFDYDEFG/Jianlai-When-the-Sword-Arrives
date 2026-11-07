@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>青鸾国 · 酒楼雨街 | 三维走位台</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#202a29;color:#ece8db;font:14px "Microsoft YaHei",system-ui,sans-serif}body{display:grid;grid-template-rows:auto minmax(230px,1fr) auto}
+header{padding:14px clamp(14px,3vw,42px);display:flex;gap:15px;align-items:center;border-bottom:1px solid #52605a;background:#242e2d}h1{font:500 clamp(18px,2.5vw,28px) SimSun,serif;letter-spacing:.1em;margin:0}small{color:#c8c9b9;letter-spacing:.12em}.tag{margin-left:auto;color:#e7ce91}
+main{position:relative;overflow:hidden}canvas{height:100%;width:100%;display:block;touch-action:none}#mode{position:absolute;top:16px;left:18px;background:#25332fed;padding:8px 12px;border-radius:3px;pointer-events:none;border-left:3px solid #e3bd74}#labels{position:absolute;inset:0;pointer-events:none;overflow:hidden}.pin{position:absolute;transform:translate(-50%,-100%);background:#26322ff0;color:#fbf6e8;padding:4px 8px;border:1px solid #86948a;border-radius:3px;white-space:nowrap;font-size:12px}
+footer{padding:12px clamp(14px,3vw,42px) 13px;display:grid;gap:9px;background:#222e2b;border-top:1px solid #52605a}.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}button{color:#f5efde;background:#384841;border:1px solid #647269;border-radius:4px;padding:7px 12px;cursor:pointer;font:inherit}button.on,#play{background:#dfc58c;color:#222a25;border-color:#dfc58c}button:focus-visible,input:focus-visible{outline:2px solid #fff}input[type=range]{min-width:90px;flex:1;accent-color:#e0c489}#sec{width:55px;font-variant-numeric:tabular-nums}#note{color:#dcdfd0}#help{margin-left:auto;font-size:12px;color:#b7c4bc}.divider{width:1px;height:20px;background:#63726a}a{color:#f6e8c7}@media(max-width:720px){header{padding:8px 10px}header small,.tag,#help{display:none}footer{padding:8px;gap:5px}button{padding:5px 7px;font-size:12px}.pin{font-size:10px}}
+</style>
+<header><small>第二章 / 第09场</small><h1>青鸾国 · 酒楼雨街</h1><span class="tag">镜05–06　空间与走位</span></header>
+<main><canvas id="cv" aria-label="可转动的三维酒楼与街面模型"></canvas><div id="mode"></div><div id="labels"></div></main>
+<footer><div class="row" id="views"><button data-view="model">全景模型</button><button data-view="window">05A–B 窗内过肩</button><button data-view="tight">05C 同窗收紧</button><button data-view="plan">俯视走位</button><span class="divider"></span><button id="roofs">显示屋顶</button><button id="marks">位置标注</button><button id="export">导出 GLB 模型</button></div>
+<div class="row"><button id="play">播放走位</button><button id="reset">回到起点</button><input id="seek" type="range" min="0" max="7" step=".01" value="0" aria-label="走位时间"><span id="sec">0.00 秒</span></div>
+<div class="row"><span id="note"></span><span id="help">拖动旋转 · 滚轮缩放 · 俯视只用于检查</span></div></footer>
+<script>'use strict';
+const $=id=>document.getElementById(id), DURATION=7, pi=Math.PI;
+const add=(a,b)=>a.map((v,i)=>v+b[i]),sub=(a,b)=>a.map((v,i)=>v-b[i]),mul=(a,s)=>a.map(v=>v*s),dot=(a,b)=>a.reduce((s,v,i)=>s+v*b[i],0),cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],unit=a=>mul(a,1/(Math.hypot(...a)||1)),lim=(v,a,b)=>Math.min(b,Math.max(a,v)),mix=(a,b,t)=>a+(b-a)*t,sm=u=>{u=lim(u,0,1);return u*u*(3-2*u)},qaxis=(ax,v)=>[...mul(unit(ax),Math.sin(v/2)),Math.cos(v/2)],qz=v=>qaxis([0,0,1],v),qx=v=>qaxis([1,0,0],v),one=[1,1,1],zero=[0,0,0],qi=[0,0,0,1];
+const palette={paper:'#e4dcc6',stone:'#919792',grout:'#79827f',flag:'#a8aca3',alt:'#a0a79f',edge:'#c1bdad',dry:'#c7b99a',plinth:'#7d8279',beam:'#69594a',trim:'#8e7560',wood:'#aa9170',panel:'#d4c9b0',dark:'#514c43',door:'#615f52',tile:'#65706b',rid:'#82877c',earth:'#a29a86',cinn:'#ab644b',lamp:'#ddbd77',ink:'#333e3d',hair:'#393e3a',skin:'#c6a98b',robe:'#657d75',linen:'#dfd8bd',blue:'#596d7a',belt:'#766954',shoe:'#564f45',sack:'#9f805d',um:'#ad8e62',um2:'#b8a078',coat:'#817a88',sage:'#8a9582',pale:'#a8b3a4',jug:'#987c66',shadow:'#828b82',table:'#8d7155',bronze:'#b09d71'};
+const geos={},nodes=[];
+function geo(name,make){let p=[],n=[];const tri=(a,b,c)=>{const v=unit(cross(sub(b,a),sub(c,a)));p.push(...a,...b,...c);n.push(...v,...v,...v)};const quad=(a,b,c,d)=>{tri(a,b,c);tri(a,c,d)};make(tri,quad);geos[name]={p,n};return name}
+geo('box',(t,q)=>{let a=[-.5,-.5,-.5],b=[.5,-.5,-.5],c=[.5,.5,-.5],d=[-.5,.5,-.5],e=add(a,[0,0,1]),f=add(b,[0,0,1]),g=add(c,[0,0,1]),h=add(d,[0,0,1]);q(a,d,c,b);q(e,f,g,h);q(a,b,f,e);q(b,c,g,f);q(c,d,h,g);q(d,a,e,h)});
+function lathe(name,rings,N){return geo(name,(t,q)=>{for(let i=0;i<N;i++){const pt=(j,r)=>[Math.cos(j*pi*2/N)*r[0],Math.sin(j*pi*2/N)*r[0],r[1]];for(let k=1;k<rings.length;k++){let a=pt(i,rings[k-1]),b=pt(i+1,rings[k-1]),c=pt(i+1,rings[k]),d=pt(i,rings[k]);if(rings[k-1][0]<.00001)t(a,c,d);else if(rings[k][0]<.00001)t(a,b,c);else q(a,b,c,d)}}})}
+lathe('round',[[0,-.5],[.5,-.5],[.5,.5],[0,.5]],12);
+lathe('head',[[0,-.5],[.33,-.40],[.48,-.17],[.50,.12],[.45,.32],[.31,.46],[0,.5]],12);
+lathe('robe',[[0,0],[.5,0],[.45,.20],[.34,.57],[.40,.83],[.44,.92],[.21,1],[0,1]],12);
+lathe('trouser',[[0,0],[.33,0],[.45,.3],[.5,.85],[.44,1],[0,1]],10);
+lathe('umbrella',[[0,-.04],[.3,-.018],[.50,0],[.43,.065],[.32,.132],[.18,.194],[.028,.235],[0,.246]],16);
+lathe('jar',[[0,0],[.28,0],[.48,.22],[.50,.62],[.40,.79],[.24,.86],[.25,.96],[.29,.98],[.29,1],[0,1]],14);
+function node(name,mesh,mat,t=zero,s=one,q=qi,parent=-1,group=''){let id=nodes.length;nodes.push({name,mesh,mat,t:[...t],q:[...q],s:[...s],parent,group});return id}
+const root=(s,t=zero,q=qi,parent=-1,grp='')=>node(s,null,null,t,one,q,parent,grp);
+const box=(s,t,sz,mat,par=-1)=>node(s,'box',mat,t,sz,qi,par);
+function rod(s,a,b,r,mat,par=-1){const v=sub(b,a),u=unit(v);let q=u[2]<-.99999?qx(pi):[...cross([0,0,1],u),1+u[2]];q=unit(q);return node(s,'round',mat,mul(add(a,b),.5),[2*r,2*r,Math.hypot(...v)],q,par)}
+function shade(x,y,z,w,d,parent){return node('脚下投影','round','shadow',[x,y,z],[w,d,.009],qi,parent)}
+function roof(name,x1,x2,y,eave,half,rise,par){
+ const geometry=geo('roof'+nodes.length,(t,q)=>{for(const side of [-1,1]){const a=[x1, y+side*half,eave],b=[x2,y+side*half,eave],c=[x2,y+side*half*.42,eave+rise*.51],d=[x1,y+side*half*.42,eave+rise*.51],e=[x1,y,eave+rise],f=[x2,y,eave+rise];if(side<0){q(a,b,c,d);q(d,c,f,e)}else{q(b,a,d,c);q(c,d,e,f)}}});
+ node(name,geometry,'tile',zero,one,qi,par);
+ rod('瓦脊',[x1-.12,y,eave+rise],[x2+.12,y,eave+rise],.09,'rid',par);
+ for(const s of [-1,1]){box('封檐板',[(x1+x2)/2,y+s*half,eave-.07],[x2-x1,.12,.16],'beam',par);
+ for(let x=x1+.12;x<x2;x+=.46){rod('瓦垄',[x,y+s*half,eave+.012],[x,y+s*half*.42,eave+rise*.51+.015],.031,'rid',par);rod('瓦垄',[x,y+s*half*.42,eave+rise*.51+.015],[x,y,eave+rise+.008],.031,'rid',par)}}}
+
+const base=root('青鸾国 · 街口'),tav=root('酒楼 / 窗在二层',zero,qi,base),outer=root('酒楼屋顶 / 拆视',zero,qi,tav,'roof'),shop=root('对街铺面 / 右侧避雨檐',zero,qi,base);
+box('石基底盘',[0,2.1,-.30],[19.4,15.3,.55],'earth',base);
+box('路面灰缝',[0,3.08,-.057],[19.1,6.06,.10],'grout',base);
+for(let r=0;r<8;r++){let x=-9.55,idx=0;while(x<9.54){let len=Math.min((idx===0&&r%2?.57:1.33+(idx+2*r)%3*.13),9.55-x);box('湿石板',[x+len/2,.43+r*.754,-.028],[Math.max(.012,len-.018),.735,.054],(idx+r*2)%4===0?'alt':'flag',base);x+=len;idx++}}
+box('酒楼台基',[0,-2.42,.07],[9.3,5.05,.18],'plinth',tav);
+box('酒楼下层地面',[0,-2.42,.16],[9.05,4.86,.13],'dry',tav);
+box('二楼楼板',[0,-2.44,2.98],[9.18,4.96,.20],'wood',tav);
+for(let x=-4.36;x<4.45;x+=.44){box('楼板拼缝',[x,-2.43,3.084],[.014,4.75,.006],'trim',tav)}
+box('后墙',[0,-4.85,2.81],[8.9,.14,5.38],'panel',tav);
+for(const x of [-4.47,4.47])box('山墙',[x,-2.45,2.78],[.14,4.84,5.32],'panel',tav);
+for(let x of [-4.46,-2.72,2.72,4.46])for(let y of [-4.77,-.04]){
+ box('方形柱础',[x,y,.23],[.37,.38,.2],'stone',tav);box('通柱',[x,y,2.87],[.24,.23,5.32],'beam',tav)}
+for(const x of [-3.62,3.62]){box('二楼窗侧实墙',[x,-.045,4.25],[1.65,.12,2.35],'panel',tav);box('一楼格墙',[x,-.045,1.45],[1.65,.12,2.45],'panel',tav)}
+box('窗下裙板',[0,-.04,3.34],[5.37,.13,.54],'wood',tav);
+box('二楼湿窗台',[0,-.015,3.635],[5.56,.30,.08],'beam',tav);
+box('二楼窗楣',[0,-.08,5.43],[8.96,.25,.22],'beam',tav);
+box('一楼额枋',[0,-.02,2.78],[9.04,.26,.23],'beam',tav);
+for(let x of [-1.88,0,1.88])box('底层板门',[x,-.09,1.46],[1.80,.12,2.53],'trim',tav);
+for(let x of [-2.72,2.72]){box('打开的窗扇',[x,-.49,4.47],[.10,.81,1.54],'wood',tav)}
+for(let x of [-2.15,1.84]){box('酒桌',[x,-1.64,3.82],[1.48,.78,.10],'table',tav);for(let dx of [-.53,.53])for(let dy of [-.23,.23])box('桌腿',[x+dx,-1.64+dy,3.45],[.09,.09,.7],'beam',tav)}
+node('窗边小杯','jar','linen',[-1.60,-1.43,3.875],[.15,.15,.12],qi,tav);
+roof('酒楼悬山顶',-4.92,4.92,-2.43,5.63,3.0,1.54,outer);
+const sx=1.44;
+box('檐下台基',[sx,7.84,.07],[9.95,3.48,.16],'plinth',shop);box('干石铺面',[sx,7.84,.155],[9.96,3.46,.025],'dry',shop);
+box('对街后墙',[sx,9.54,1.57],[9.76,.16,2.8],'panel',shop);
+for(const x of [-3.42,6.30])box('铺面山墙',[x,8.48,1.52],[.14,2.13,2.74],'panel',shop);
+for(let x of [-3.40,-.75,3.65,6.28]){box('柱础',[x,6.48,.26],[.36,.36,.20],'stone',shop);box('廊柱',[x,6.48,1.61],[.20,.20,2.76],'beam',shop)}
+for(let x of [-2.13,.06,4.74,5.73]){let w=x===.06?1.76:x===-2.13?2.45:.90;box('铺门隔扇',[x,7.44,1.52],[w,.14,2.7],'door',shop);for(let dx=-w/2+.16;dx<w/2;dx+=.26)box('隔扇直棂',[x+dx,7.35,2.10],[.025,.026,.94],'wood',shop)}
+box('门楣',[sx,7.42,2.92],[9.96,.23,.19],'beam',shop);box('檐枋',[sx,6.48,2.97],[10,.19,.18],'beam',shop);
+for(let x of [-3.40,-.75,3.65,6.28]){rod('斜撑',[x,6.48,2.46],[x+.34,6.48,2.89],.045,'trim',shop)}
+const marketRoof=root('铺面瓦顶 / 掀顶检查',zero,qi,shop,'roof');
+roof('铺面瓦顶',-3.85,6.72,8.00,3.10,1.91,.93,marketRoof);
+box('滴水线檐板',[sx,6.09,3.05],[10.55,.13,.14],'trim',shop);
+for(let x of [-3.40,-.75,3.65,6.28])rod('出檐挑杆',[x,7.43,3.14],[x,6.06,3.04],.054,'beam',shop);
+box('后堂门扇',[2.44,9.425,1.25],[1.35,.10,2.19],'door',shop);
+for(let q of [1.69,3.19])box('门套',[q,9.34,1.38],[.10,.15,2.44],'trim',shop);
+box('门框上横木',[2.44,9.34,2.62],[1.60,.15,.12],'trim',shop);
+for(let xx of [-4.52,4.52]){
+ for(let y of [-4.70,-2.45,-.14])box('外墙明柱',[xx,y,2.86],[.13,.18,5.34],'beam',tav);
+ for(let z of [.52,2.9,5.40])box('侧墙梁',[xx,-2.44,z],[.13,4.84,.12],'trim',tav);
+ for(let y of [-3.64,-1.25]){box('侧窗',[xx*1.012,y,4.44],[.08,1.31,.96],'door',tav);
+ for(let k=-.45;k<.61;k+=.23)box('窗格',[xx*1.022,y+k,4.44],[.04,.046,.94],'trim',tav);}}
+for(let z of [.48,2.92,5.42])box('后墙枋',[0,-4.96,z],[9.03,.13,.14],'beam',tav);
+for(let x of [-4.43,-1.46,1.46,4.43])box('后墙柱',[x,-4.96,2.89],[.18,.13,5.31],'beam',tav);
+for(let x of [4.2,4.7,-2.6])node('粗陶酒瓮','jar','jug',[x,7.01,.175],[.40,.40,.50],qi,shop);
+for(let x of [1.18,1.57,1.96,2.35,2.74,3.13])box('店门布幔',[x,7.28,2.58],[.377,.04,.55],'linen',shop);
+for(let x of [-.82,3.75]){rod('灯吊线',[x,6.32,2.99],[x,6.32,2.75],.012,'beam',shop);node('铺灯','round','lamp',[x,6.32,2.55],[.27,.27,.40],qi,shop);box('灯脚',[x,6.32,2.32],[.23,.20,.04],'dark',shop)}
+function actor(name,costume,role,sz=1){
+ const id=root(name,zero,qi,base),hips=root('身躯',zero,qi,id),h=root('颈首',[0,0,1.42],qi,hips);
+ node('长衫','robe',costume,[0,0,.48],[.59,.40,.95],qi,hips); node('束带','round','belt',[0,0,1.01],[.39,.29,.09],qi,hips);
+ rod('交领',[-.13,.10,1.37],[.10,.18,1.10],.025,'linen',hips);
+ node('面部','head','skin',[0,.009,.13],[.212,.218,.285],qi,h);node('发冠','head','hair',[0,-.018,.206],[.226,.224,.175],qi,h);
+ node('发髻','head','hair',[0,-.052,.31],[.113,.12,.105],qi,h);node('鼻','head','skin',[0,.106,.125],[.054,.06,.068],qi,h);
+ if(role==='chen'){rod('横发簪',[-.13,-.052,.306],[.14,-.052,.306],.013,'wood',h);node('养剑葫','jar','cinn',[.21,-.04,.81],[.15,.15,.2],qi,hips)}
+ const legs=[];for(const side of [-1,1]){
+ let leg=root('腿 '+side,[.104*side,0,.66],qi,id),shin=root('胫',[0,0,-.29],qi,leg);
+ rod('裤脚',[0,0,0],[0,0,-.28],.078,costume,leg);rod('绑腿',[0,0,0],[0,0,-.29],.054,'belt',shin);
+ node('布履','head','shoe',[0,.046,-.314],[.125,.245,.088],qi,shin);legs.push([leg,shin]);}
+ const sh=(side)=>[side*.19,.006,1.33];
+ let shieldingArm=-1;
+ function arm(side,el,hand){const shoulder=sh(side),joint=root('肩臂',shoulder,qi,hips),localEl=sub(el,shoulder),localHand=sub(hand,shoulder);
+ rod('上袖',zero,localEl,.108,costume,joint);rod('下袖',localEl,localHand,.075,costume,joint);node('手','head','skin',localHand,[.094,.115,.09],qi,joint);return joint}
+ if(role==='carrier'||role==='extra'){
+ arm(1,[.29,.09,1.09],[.13,.21,1.20]);arm(-1,[-.24,-.04,1.04],[-.24,0,.82]);
+ const u=root('手持油纸伞',[.13,.21,1.98],qi,hips);node('纸伞','umbrella',role==='carrier'?'um':'um2',zero,[1.54,1.54,1.40],qi,u);
+ rod('竹伞柄',[0,0,-.90],[0,0,.34],.017,'beam',u);
+ for(let i=0;i<16;i++){let a=2*pi*i/16;const ring=(r,z)=>[r*Math.cos(a),r*Math.sin(a),z];rod('竹伞骨',ring(.035,.330),ring(.50,.193),.009,'trim',u);rod('竹伞骨',ring(.50,.193),ring(.769,.004),.009,'trim',u)}
+ if(role==='carrier'){rod('布包结带',[-.24,0,.82],[-.24,0,.65],.024,'sack',hips);node('布包','head','sack',[-.24,0,.58],[.29,.24,.33],qi,hips)}
+ }else if(role==='runner'){
+ shieldingArm=arm(1,[.28,.16,1.46],[.068,.169,1.64]);arm(-1,[-.28,-.11,1.08],[-.21,-.19,.95]);nodes[hips].q=qx(-.16);nodes[h].q=qx(-.19);
+ }else{arm(-1,[-.22,.10,1.08],[-.18,.24,.99]);arm(1,[.22,0,1.08],[.22,.07,.85]);}
+ if(role!=='chen')shade(0,0,.003,.46,.25,id);nodes[id].s=[sz,sz,sz];return {id,hips,h,legs,role,sz,shieldingArm}
+}
+const chen=actor('陈平安 · 青鸾国酒楼','linen','chen'),carrier=actor('持伞提包路人','robe','carrier'),runner=actor('抬袖赶雨路人','cinn','runner');
+const extras=[actor('街西伞客','sage','extra',.98),actor('街东伞客','blue','extra',1.02),actor('远处过客','coat','extra',.96)];
+const foot=(a,X,Y,Z,yaw,phase,amount)=>{
+ const nd=nodes[a.id];nd.t=[X,Y,Z+.012];nd.q=qz(yaw);
+ for(let i=0;i<2;i++){let ph=phase+i*pi;nodes[a.legs[i][0]].q=qx(.36*amount*Math.sin(ph));nodes[a.legs[i][1]].q=qx(-.32*amount*Math.max(0,-Math.sin(ph)))}
+};
+let time=0;
+function pose(t){
+ let travel=sm((t-.88)/4.84),run=sm((t-1.15)/4.05),amp=Math.sin(pi*run);
+ foot(chen,-.70,-.46,3.08,.055,0,0);nodes[chen.h].q=qx(-.11+.08*sm(t/1.15));
+ foot(carrier,.18-4.50*travel,4.35+.045*travel,.0,pi/2+.01,travel*21,Math.min(1,8*travel,8*(1-travel)));
+ const ry=5.14+1.54*run;
+ foot(runner,.19+2.30*run,ry,.168*sm((ry-6.04)/.21),-1.03,run*17.4,amp);
+ nodes[runner.hips].q=qx(-.13-.16*amp+.13*sm((t-5.28)/.8));nodes[runner.shieldingArm].q=qx(-2.04*sm((t-5.30)/.82));
+ const paths=[[-5.40,3.4,-.9,pi/2],[5.8,2.36,1.2,-pi/2],[-4.4,5.37,1.0,-pi/2]];
+ extras.forEach((a,i)=>{let [x,y,dx,an]=paths[i];foot(a,x+dx*t/7,y,0,an,t*2.6+i,.36)});
+}
+pose(0);
+
+function mat(t,q,s){
+ const [x,y,z,w]=q,[a,b,c]=s;
+ return [(1-2*(y*y+z*z))*a,2*(x*y+w*z)*a,2*(z*x-w*y)*a,0,2*(x*y-w*z)*b,(1-2*(x*x+z*z))*b,2*(y*z+w*x)*b,0,2*(x*z+w*y)*c,2*(y*z-w*x)*c,(1-2*(x*x+y*y))*c,0,...t,1]
+}
+function mm(a,b){let result=Array(16);for(let i=0;i<4;i++)for(let j=0;j<4;j++)result[i*4+j]=a[j]*b[i*4]+a[4+j]*b[i*4+1]+a[8+j]*b[i*4+2]+a[12+j]*b[i*4+3];return result}
+function orient(eye,at,up=[0,0,1]){const z=unit(sub(eye,at)),x=unit(cross(up,z)),y=cross(z,x);return [x,y,z]}
+function look(eye,at,up){const [x,y,z]=orient(eye,at,up);return [x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-dot(x,eye),-dot(y,eye),-dot(z,eye),1]}
+function proj(fov,a){const n=.045,f=160,h=1/Math.tan(fov*pi/360);return[h/a,0,0,0,0,h,0,0,0,0,(f+n)/(n-f),-1,0,0,2*f*n/(n-f),0]}
+const eye=[0,-1.35,4.80],windowAt=[.52,5.25,1.16],winFov=54;
+function basisQ(x,y,z){let m=[x,y,z],trace=x[0]+y[1]+z[2];if(trace>0){let k=2*Math.sqrt(trace+1);return [(y[2]-z[1])/k,(z[0]-x[2])/k,(x[1]-y[0])/k,k/4]}
+ let i=x[0]>y[1]&&x[0]>z[2]?0:y[1]>z[2]?1:2,j=(i+1)%3,k=(i+2)%3;let v=2*Math.sqrt(1+m[i][i]-m[j][j]-m[k][k]);let q=[0,0,0,0];q[i]=v/4;q[j]=(m[i][j]+m[j][i])/v;q[k]=(m[i][k]+m[k][i])/v;q[3]=(m[j][k]-m[k][j])/v;return q;}
+let active='model',orbitTarget=[0,1.8,1.9],orbitYaw=-.93,orbitPitch=.64,orbitRadius=23.4,showRoof=true,mark=true,playing=false,last=0;
+const cameras=()=>{
+ if(active==='window')return [eye,windowAt,winFov];
+ if(active==='tight')return [eye,[1.85,6.25,.96],37];
+ if(active==='plan')return [[0,2.1,23],[0,2.101,0],40];
+ const h=orbitRadius*Math.cos(orbitPitch);
+ return [add(orbitTarget,[h*Math.sin(orbitYaw),-h*Math.cos(orbitYaw),orbitRadius*Math.sin(orbitPitch)]),orbitTarget,41];
+};
+const modeNames={model:'全景模型 · 可拖动',window:'窗内过肩 · 固定窗位',tight:'同窗收紧 · 同一视点',plan:'俯视走位 · 空间检查'};
+const pins=[['二楼酒楼窗',()=>[-2.85,0,4.2]],['陈平安',()=>[-.70,-.46,4.96]],['撑伞人',()=>add(nodes[carrier.id].t,[0,0,2.39])],['无伞人',()=>add(nodes[runner.id].t,[0,0,1.86])],['避雨铺檐',()=>[3.65,6.48,3.28]]];
+const pinEls=pins.map(([label])=>{const el=document.createElement('span');el.className='pin';el.textContent=label;$('labels').appendChild(el);return el});
+const cv=$('cv'),gl=cv.getContext('webgl',{antialias:true,alpha:false,preserveDrawingBuffer:true});let program,attrP,attrN,locVP,locM,locC;const buffers={},cols={};
+function shader(type,src){const h=gl.createShader(type);gl.shaderSource(h,src);gl.compileShader(h);if(!gl.getShaderParameter(h,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(h));return h}
+if(gl){
+ const vs='attribute vec3 p,n;uniform mat4 vp,m;varying vec3 norm;varying vec3 world;void main(){vec4 w=m*vec4(p,1.);world=w.xyz;mat3 a=mat3(m);norm=normalize(a[0]*n.x/max(dot(a[0],a[0]),.000001)+a[1]*n.y/max(dot(a[1],a[1]),.000001)+a[2]*n.z/max(dot(a[2],a[2]),.000001));gl_Position=vp*w;}';
+ const fs='precision mediump float;uniform vec3 color;varying vec3 norm,world;void main(){vec3 n=normalize(norm);float k=.72+.30*max(dot(n,normalize(vec3(-.62,-.42,.75))),0.)+.055*n.z;gl_FragColor=vec4(color*k,1.);}';
+ program=gl.createProgram();gl.attachShader(program,shader(gl.VERTEX_SHADER,vs));gl.attachShader(program,shader(gl.FRAGMENT_SHADER,fs));gl.linkProgram(program);
+ if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+ attrP=gl.getAttribLocation(program,'p');attrN=gl.getAttribLocation(program,'n');gl.enableVertexAttribArray(attrP);gl.enableVertexAttribArray(attrN);
+ locVP=gl.getUniformLocation(program,'vp');locM=gl.getUniformLocation(program,'m');locC=gl.getUniformLocation(program,'color');
+ for(const [name,g] of Object.entries(geos)){const f=[];for(let i=0;i<g.p.length;i+=3)f.push(...g.p.slice(i,i+3),...g.n.slice(i,i+3));let v=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,v);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(f),gl.STATIC_DRAW);buffers[name]=v}
+ for(const [k,v] of Object.entries(palette))cols[k]=[1,3,5].map(i=>parseInt(v.slice(i,i+2),16)/255);
+ gl.enable(gl.DEPTH_TEST);gl.clearColor(.785,.803,.761,1);
+}
+function draw(){
+ pose(time);let w=cv.clientWidth,h=cv.clientHeight;if(!w||!h)return;
+ if(!gl){$('mode').textContent='浏览器未启用 WebGL，可导出 GLB 打开模型';return}
+ const dpr=Math.min(1.6,devicePixelRatio||1);if(cv.width!==Math.round(w*dpr)||cv.height!==Math.round(h*dpr)){cv.width=Math.round(w*dpr);cv.height=Math.round(h*dpr)}
+ gl.viewport(0,0,cv.width,cv.height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+ const [e,tar,fov]=cameras();const vp=mm(proj(fov,w/h),look(e,tar,active==='plan'?[0,1,0]:[0,0,1]));gl.uniformMatrix4fv(locVP,false,vp);
+ const world=[],visible=[];let curMesh=null,curCol=null;
+ for(let i=0;i<nodes.length;i++){let n=nodes[i],m=mat(n.t,n.q,n.s);world[i]=n.parent<0?m:mm(world[n.parent],m);
+ visible[i]=(n.parent<0||visible[n.parent])&&(n.group!=='roof'||showRoof);
+ if(!n.mesh||!visible[i])continue;
+ if(curMesh!==n.mesh){curMesh=n.mesh;gl.bindBuffer(gl.ARRAY_BUFFER,buffers[n.mesh]);gl.vertexAttribPointer(attrP,3,gl.FLOAT,false,24,0);gl.vertexAttribPointer(attrN,3,gl.FLOAT,false,24,12)}
+ if(curCol!==n.mat){curCol=n.mat;gl.uniform3fv(locC,cols[n.mat])}gl.uniformMatrix4fv(locM,false,world[i]);gl.drawArrays(gl.TRIANGLES,0,geos[n.mesh].p.length/3)}
+ pinEls.forEach((el,i)=>{const [x,y,z]=pins[i][1]();let at=j=>vp[j]*x+vp[4+j]*y+vp[8+j]*z+vp[12+j],ww=at(3),px=(at(0)/ww+1)*w/2,py=(1-at(1)/ww)*h/2;
+ el.hidden=!mark||ww<=0||px<30||px>w-30||py<36||py>h||((active==='window'||active==='tight')&&(i===0||i===1));if(!el.hidden){el.style.left=px+'px';el.style.top=py+'px'}});
+ $('seek').value=time;$('sec').textContent=time.toFixed(2)+' 秒';$('note').textContent=time<1.15?'起幅　窗内看出去，近伞遮住后方路人。':time<3.7?'让开　持伞人向左，抬袖的路人斜向右侧铺檐。':time<5.3?'入檐　跨过滴水线，鞋底登上干石。':'收步　无伞人站稳放下衣袖，持伞人继续沿街。';
+}
+function refresh(){document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('on',b.dataset.view===active));$('mode').textContent=modeNames[active];$('roofs').classList.toggle('on',showRoof);$('marks').classList.toggle('on',mark);$('play').textContent=playing?'暂停走位':'播放走位';draw()}
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>{active=b.dataset.view;if(active==='plan')showRoof=false;else if(active==='model')showRoof=true;refresh()});
+$('roofs').onclick=()=>{showRoof=!showRoof;refresh()};$('marks').onclick=()=>{mark=!mark;refresh()};
+$('reset').onclick=()=>{playing=false;time=0;refresh()};$('seek').oninput=e=>{playing=false;time=+e.target.value;refresh()};
+function tick(now){if(!playing)return;if(last)time=Math.min(DURATION,time+Math.max(0,now-last)/1000);last=now;draw();if(time>=DURATION){playing=false;refresh()}else requestAnimationFrame(tick)}
+$('play').onclick=()=>{playing=!playing;if(playing){if(time>=DURATION)time=0;last=0;requestAnimationFrame(tick)}refresh()};
+let drag=null;
+cv.onpointerdown=e=>{if(active!=='model')return;drag=[e.clientX,e.clientY];cv.setPointerCapture(e.pointerId)};
+cv.onpointermove=e=>{if(!drag)return;orbitYaw-=(e.clientX-drag[0])*.006;orbitPitch=lim(orbitPitch+(e.clientY-drag[1])*.006,.10,1.53);drag=[e.clientX,e.clientY];draw()};
+cv.onpointerup=cv.onpointercancel=()=>drag=null;
+cv.onwheel=e=>{if(active!=='model')return;e.preventDefault();orbitRadius=lim(orbitRadius*Math.exp(e.deltaY*.001),5,48);draw()};cv.addEventListener('wheel',()=>{},{passive:false});
+window.addEventListener('resize',draw);
+
+function exportModel(){
+ const d={asset:{version:'2.0',generator:'青鸾国酒楼雨街走位台'},scene:0,scenes:[{nodes:[nodes.length]}],nodes:[],meshes:[],materials:[],buffers:[],bufferViews:[],accessors:[]};
+ const parts=[],attrs=new Map(),meshMap=new Map(),mats=new Map();let size=0;
+ function acc(values,n,bounds=false,target=0){const a=Float32Array.from(values);if(!a.length||a.length%n)throw Error('Missing accessor');const v={buffer:0,byteOffset:size,byteLength:a.byteLength};if(target)v.target=target;
+ const t={bufferView:d.bufferViews.length,componentType:5126,count:a.length/n,type:{1:'SCALAR',3:'VEC3',4:'VEC4'}[n]};
+ if(bounds){t.min=Array(n).fill(Infinity);t.max=Array(n).fill(-Infinity)}for(let i=0;i<a.length;i++){const x=a[i],k=i%n;if(!Number.isFinite(x))throw Error('Nonfinite vertex');if(bounds){t.min[k]=Math.min(t.min[k],x);t.max[k]=Math.max(t.max[k],x)}}
+ d.bufferViews.push(v);parts.push(new Uint8Array(a.buffer));size+=a.byteLength;return d.accessors.push(t)-1}
+ function matId(k){if(mats.has(k))return mats.get(k);const rgb=cols[k]||[1,3,5].map(i=>parseInt(palette[k].slice(i,i+2),16)/255);
+ let j=d.materials.push({name:k,pbrMetallicRoughness:{baseColorFactor:[...rgb.map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4),1],metallicFactor:0,roughnessFactor:.87},doubleSided:true})-1;mats.set(k,j);return j}
+ function meshId(g,m){let key=g+'/'+m;if(meshMap.has(key))return meshMap.get(key);const geo=geos[g];if(!attrs.has(g))attrs.set(g,{POSITION:acc(geo.p,3,true,34962),NORMAL:acc(geo.n,3,false,34962)});
+ const j=d.meshes.push({name:g,primitives:[{attributes:attrs.get(g),material:matId(m),mode:4}]})-1;meshMap.set(key,j);return j}
+ const saved=time,tracks=new Map(),ts=Array.from({length:DURATION*24+1},(_,i)=>i/24);
+ try{pose(0);for(const n of nodes){const o={name:n.name,translation:[...n.t],rotation:[...n.q],scale:[...n.s]};
+ if(n.mesh)o.mesh=meshId(n.mesh,n.mat);if(n.group)o.extras={group:n.group};d.nodes.push(o)}
+ const root=d.nodes.push({name:'青鸾国 · 米制场景',rotation:[-Math.SQRT1_2,0,0,Math.SQRT1_2],children:[]})-1;
+ nodes.forEach((n,i)=>{const p=n.parent===-1?root:n.parent;(d.nodes[p].children??=[]).push(i)});
+ d.cameras=[];
+ for(const [name,pt,at,fov,up] of [['05A–B 窗内过肩',eye,windowAt,winFov,[0,0,1]],['05C 同窗收紧',eye,[1.85,6.25,.96],37,[0,0,1]],['俯视 / 空间检查',[0,2.1,23],[0,2.1,0],40,[0,1,0]]]){
+  const index=d.cameras.push({name,type:'perspective',perspective:{yfov:fov*pi/180,znear:.045,zfar:160}})-1;d.nodes[root].children.push(d.nodes.length);
+  d.nodes.push({name,camera:index,translation:pt,rotation:basisQ(...orient(pt,at,up))});}
+ for(let f=1;f<ts.length;f++){pose(ts[f]);nodes.forEach((n,i)=>{for(const [field,path] of [['t','translation'],['q','rotation']]){const base=d.nodes[i][path],key=i+field,tr=tracks.get(key);let v=n[field];if(field==='q'){const prev=tr?tr.data.slice(-4):base;if(dot(v,prev)<0)v=mul(v,-1)}
+ if(!tr&&!v.some((x,j)=>Math.abs(x-base[j])>1e-6))continue;
+ if(!tr){const data=[];for(let j=0;j<f;j++)data.push(...base);tracks.set(key,{i,path,data})}tracks.get(key).data.push(...v)}})}
+ const input=acc(ts,1,true),anim={name:'伞过街 · 路人入檐',channels:[],samplers:[]};
+ for(const {i,path,data} of tracks.values()){anim.channels.push({sampler:anim.samplers.length,target:{node:i,path}});anim.samplers.push({input,output:acc(data,path==='rotation'?4:3),interpolation:'LINEAR'})}d.animations=[anim];
+ }finally{pose(saved)}
+ d.buffers=[{byteLength:size}];const js=new TextEncoder().encode(JSON.stringify(d)),len=Math.ceil(js.length/4)*4;
+ const out=new Uint8Array(28+len+size),dv=new DataView(out.buffer),put=(o,v)=>dv.setUint32(o,v,true);put(0,0x46546c67);put(4,2);put(8,out.length);put(12,len);put(16,0x4e4f534a);out.fill(32,20,20+len);out.set(js,20);put(20+len,size);put(24+len,0x004e4942);
+ let o=28+len;for(const p of parts){out.set(p,o);o+=p.byteLength}return out;
+}
+$('export').onclick=()=>{const data=exportModel(),url=URL.createObjectURL(new Blob([data],{type:'model/gltf-binary'})),a=document.createElement('a');a.href=url;a.download='c2_09_rain_street.glb';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000)};
+refresh();
+</script></html>

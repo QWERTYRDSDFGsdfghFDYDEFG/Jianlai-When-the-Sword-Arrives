@@ -1,0 +1,99 @@
+{
+  "user_direction": "四人靠江侧挡墙，沿街抛舟",
+  "scene": "CG02·03·02，吴懿先使行人退至边缘，继而抛出核雕小舟，下一拍化作低悬街面上的三层楼船。",
+  "target_before": {
+    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+    "native": [
+      1672,
+      941
+    ],
+    "file_id": "30000000279f4"
+  },
+  "script_evidence": {
+    "script": "game/script_chapter2.rpy",
+    "sha256": "238c6fce00a24850b4b23f2a0eeb8267eb92f35ac32425605775c06c44cd93aa",
+    "excerpt": [
+      {
+        "line": 114,
+        "text": "    narrator \"吴懿领着三人往江边去。\""
+      },
+      {
+        "line": 115,
+        "text": "    scene bg c2_03_quay_v2"
+      },
+      {
+        "line": 116,
+        "text": "    with trans_location"
+      },
+      {
+        "line": 117,
+        "text": ""
+      },
+      {
+        "line": 118,
+        "text": "    narrator \"临近码头，沿江街面渐渐开阔。\""
+      },
+      {
+        "line": 119,
+        "text": "    # 03-02｜让路前置，避免楼船出现后才补述行人去向。"
+      },
+      {
+        "line": 120,
+        "text": "    narrator \"吴懿一挥袖，将行人轻轻移到街边。\""
+      },
+      {
+        "line": 121,
+        "text": ""
+      },
+      {
+        "line": 122,
+        "text": "    scene bg c2_03_throw_v1"
+      },
+      {
+        "line": 123,
+        "text": "    with trans_short"
+      },
+      {
+        "line": 124,
+        "text": ""
+      },
+      {
+        "line": 125,
+        "text": "    narrator \"随即抛出一枚核雕小舟。\""
+      },
+      {
+        "line": 126,
+        "text": "    scene bg c2_03_reveal_v1"
+      },
+      {
+        "line": 127,
+        "text": "    with trans_illusion"
+      },
+      {
+        "line": 128,
+        "text": ""
+      },
+      {
+        "line": 129,
+        "text": "    narrator \"水雾散开，三层楼船低悬在街面上。\""
+      },
+      {
+        "line": 130,
+        "text": "    scene bg c2_03_papers_v1"
+      }
+    ]
+  },
+  "locked": [
+    "当前原图同一文件和画幅，华光楼西望及左江右铺地理",
+    "上层干街、挡墙与柳下阶口、行人退让结果和原场景背景",
+    "陈吴朱沿用已确认脸部母版，裴钱沿用儿童身份，全部角色母版均进入实际图像请求",
+    "本镜仍只画核雕小舟离手；下一镜船体外形纵向占用仅作本镜预留尺度依据"
+  ],
+  "change": [
+    "重新安排四人沿江侧挡墙的站位，吴懿沿街长轴投向空出的上层干街",
+    "局部清除旧主角、核舟及相关投影，依据新机位姿态局部绘制并回填；新旧位置范围外核验零差分"
+  ],
+  "new_plan_review": "旧r03的站位方案在本次定位下失效。需从动作目标往前推敲船体长轴、沿墙人物、足点、阶口通路、路人位置和实际后镜对应，等待独立space实审。",
+  "evidence_scope": "本表是本次任务和稳定背景依据。新的坐标、船体边界、独立复核及实际输出在对应record_r04阶段随工作写入。"
+}

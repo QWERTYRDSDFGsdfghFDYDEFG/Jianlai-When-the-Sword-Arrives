@@ -1,0 +1,1032 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "wuyi_lineart_358",
+    "request": "Wu Yi frame358 suspended boat transformation lineart",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "2026-11-05 user explicitly allows separate Wu Yi final lineart outputs preserving original blocks; root assigns357–378.",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+      "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+      "role": "Actual target frame pose block"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "S1身份母版"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+      "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+      "role": "已验314原生线描风格"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+      "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+      "role": "已验399原生木楼船与线描风格"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+      "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+      "role": "正式楼船结构参考"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "吴懿身份、衣装、画风标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+      "role": "125核雕小舟，129三层楼船低悬街面"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+      "role": "当前第三场分镜"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "S1身份母版"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "吴懿身份、衣装、画风标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "全身远景朝画面左舟，近侧面需核对；若生成脸小到不可识别须记unverified"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "White 16:9 wide shot, fixed 4.5 transform, source camera pulls back; no isolated object zoom.",
+    "anchors": "Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+    "action_target": "Wu Yi watches hovering boat on left, action arm lowered below waist, other hand near waist.",
+    "action_space": "Floating three-storey boat left of figure with clear gap; no water, no person aboard.",
+    "route": "Both feet planted, camera moves, no walking.",
+    "continuity": "Frame358 of original uninterrupted wide shot: transforming carved boat already separated, figure remains on right.",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+        "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+        "role": "Actual target frame pose block"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+        "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+        "role": "正式楼船结构参考"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+        "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "role": "125核雕小舟，129三层楼船低悬街面"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+        "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+        "role": "当前第三场分镜"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "wy",
+        "position": "Head[1336.7, 421.6], small full-body figure on right",
+        "footing": "Feet[1289.9, 786.1]/[1395.2, 784.3] planted, hidden legs inferred beneath long robe.",
+        "facing": "Head and torso turned left toward floating ship; retain S1 asymmetric neckline.",
+        "gaze": "Toward suspended enlarging boat on left",
+        "scale_depth": "One fixed coordinate transform across 314–399, root adjusts drift after actual output review.",
+        "occlusion": "Broad hanging sleeves partially conceal elbow, fingers visible below waist; boat separate."
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "Wu Yi S1 identity/costume",
+      "Numbered original pose and shot",
+      "Same 399 three-storey ship vocabulary and 314 line style",
+      "Existing image files unchanged"
+    ],
+    "allowed_changes": [
+      "New completed white background lineart from numbered block"
+    ],
+    "uncertainties": [
+      "Raw joint placement is approximate; integral framing/scale requires post-generation registration."
+    ]
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "Actual reference inspection; mapping from approved numbered original block",
+          "prompt": "Convert numbered block358 into Wu Yi lineart; Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "User approved separate final outputs; current target PNG is new.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "Suspended and transforming miniature boat, Wu Yi watches with forearm lowered.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "Actual reference inspection; mapping from approved numbered original block",
+          "prompt": "Convert numbered block358 into Wu Yi lineart; Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "S1 master actually viewed; same adult face, crown, robe and proportions.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "Block controls pose; S1 identity; immutable314 line style; immutable399 and reveal only boat architecture.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "Actual reference inspection; mapping from approved numbered original block",
+          "prompt": "Convert numbered block358 into Wu Yi lineart; Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "Same Wu Yi stands on ground, single boat hovers apart.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ],
+                "observations": {
+                  "camera": "White 16:9 wide shot, fixed 4.5 transform, source camera pulls back; no isolated object zoom.",
+                  "action_target": "Wu Yi watches hovering boat on left, action arm lowered below waist, other hand near waist.",
+                  "action_space": "Floating three-storey boat left of figure with clear gap; no water, no person aboard.",
+                  "route": "Both feet planted, camera moves, no walking.",
+                  "continuity": "Frame358 of original uninterrupted wide shot: transforming carved boat already separated, figure remains on right."
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "5e3d59f03344eb3fe43739db55334f6a03bc7ef3b71dcd6377a07eed9376add6"
+          },
+          "staging_sha256": "5e3d59f03344eb3fe43739db55334f6a03bc7ef3b71dcd6377a07eed9376add6"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "Actual reference inspection; mapping from approved numbered original block",
+          "prompt": "Convert numbered block358 into Wu Yi lineart; Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "Numbered approved block inspected; root confirms fixed prior 4.5 map for this wide sequence.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "Feet [1289.9, 786.1]/[1395.2, 784.3], hull low above implied ground.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "Head [1336.7, 421.6]; feet [1289.9, 786.1]/[1395.2, 784.3]; action shoulder/elbow/wrist [1297.1, 485.5]/[1279.1, 548.5]/[1261.1, 584.5]; projected boat hull bounds [369.2, 357.7, 1078.4, 738.7].",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                    "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+                    "role": "Actual target frame pose block"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  }
+                ],
+                "observations": {
+                  "camera": "White 16:9 wide shot, fixed 4.5 transform, source camera pulls back; no isolated object zoom.",
+                  "action_target": "Wu Yi watches hovering boat on left, action arm lowered below waist, other hand near waist.",
+                  "action_space": "Floating three-storey boat left of figure with clear gap; no water, no person aboard.",
+                  "route": "Both feet planted, camera moves, no walking.",
+                  "continuity": "Frame358 of original uninterrupted wide shot: transforming carved boat already separated, figure remains on right."
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "5e3d59f03344eb3fe43739db55334f6a03bc7ef3b71dcd6377a07eed9376add6"
+          },
+          "staging_sha256": "5e3d59f03344eb3fe43739db55334f6a03bc7ef3b71dcd6377a07eed9376add6"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "in_progress",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "image_gen.imagegen built-in",
+          "prompt": "Create one finished Wu Yi (吴懿) animation line-art frame 358, exactly the wide shot of the FIRST input block, not the text/layout around it. Landscape target1920x1080, clean white background, thin gray-black ink contours. No text, box construction, borders, other people, background, water, color, glow or solid shadows.\nFrame geometry on native1672x941: head center[1337, 422]; two planted feet[1290, 786]/[1395, 784]; action shoulder/elbow/wrist[1297, 486]/[1279, 548]/[1261, 584]. Whole character is small, only about 42% of frame height at far right. Full crown through shoes visible. Camera has pulled back; keep large white space above. Do not move the figure toward center or zoom to portrait.\nCRITICAL: Wu Yi's own right arm (on the screen-left side of her body) has ALREADY LOWERED AFTER RELEASE. Right shoulder points downward to elbow, forearm angles down-left and wrist/fingers hang visibly BELOW THE WAIST beside the thigh. Do not extend the hand toward the ship or copy the lifted-palm pose from inputs3/4. Her other hand is close to the waist, elbow gently out. Her head, torso and shoes face left toward the boat, calm observant adult expression; long skirt and broad soft cuffs settle naturally around grounded feet.\nThe same single suspended wooden ship is on the LEFT, separate from her by white air. Its full bounds approximately x369..1078, y358..739; include the eaves without letting the ship overlap the woman. Keep the exact same wooden three-level pavilion vessel design of inputs4/5: bird-carved prow, feather-like stern ornament, warm planked hull rendered only in ink, tiered upturned eaves, windows and rails. No green energy shell, no basin or metal object. Ship hovers off ground without water.\nInput2, S1 master, is the only identity/costume authority: preserve adult long oval face, softly rounded jaw, fine calm eyes, tiny forehead dot, middle-part forehead and coiled hair, petal-wing crown with chains, earrings/neckband, asymmetric chest edge without mirroring, one narrow sash and hanging bands, curved broad sleeves, full long skirt and closed flat shoes. Input3 is immutable314 linework style only. Input4 locks the same ship linework only, never its outstretched arm. Input5 supplies ship architecture only, take no street scenery. Clean organic fine lines, no filled black hair or heavy wash. One finished drawing only.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+              "sha256": "6cf8ff982c539776f9e756133bd53eecf51adfaaac76e00cfe196b0d1167b2e0",
+              "role": "Actual target frame pose block"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [],
+          "review": null,
+          "staging_sha256": "5e3d59f03344eb3fe43739db55334f6a03bc7ef3b71dcd6377a07eed9376add6",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "",
+            "arguments": {
+              "prompt": "Create one finished Wu Yi (吴懿) animation line-art frame 358, exactly the wide shot of the FIRST input block, not the text/layout around it. Landscape target1920x1080, clean white background, thin gray-black ink contours. No text, box construction, borders, other people, background, water, color, glow or solid shadows.\nFrame geometry on native1672x941: head center[1337, 422]; two planted feet[1290, 786]/[1395, 784]; action shoulder/elbow/wrist[1297, 486]/[1279, 548]/[1261, 584]. Whole character is small, only about 42% of frame height at far right. Full crown through shoes visible. Camera has pulled back; keep large white space above. Do not move the figure toward center or zoom to portrait.\nCRITICAL: Wu Yi's own right arm (on the screen-left side of her body) has ALREADY LOWERED AFTER RELEASE. Right shoulder points downward to elbow, forearm angles down-left and wrist/fingers hang visibly BELOW THE WAIST beside the thigh. Do not extend the hand toward the ship or copy the lifted-palm pose from inputs3/4. Her other hand is close to the waist, elbow gently out. Her head, torso and shoes face left toward the boat, calm observant adult expression; long skirt and broad soft cuffs settle naturally around grounded feet.\nThe same single suspended wooden ship is on the LEFT, separate from her by white air. Its full bounds approximately x369..1078, y358..739; include the eaves without letting the ship overlap the woman. Keep the exact same wooden three-level pavilion vessel design of inputs4/5: bird-carved prow, feather-like stern ornament, warm planked hull rendered only in ink, tiered upturned eaves, windows and rails. No green energy shell, no basin or metal object. Ship hovers off ground without water.\nInput2, S1 master, is the only identity/costume authority: preserve adult long oval face, softly rounded jaw, fine calm eyes, tiny forehead dot, middle-part forehead and coiled hair, petal-wing crown with chains, earrings/neckband, asymmetric chest edge without mirroring, one narrow sash and hanging bands, curved broad sleeves, full long skirt and closed flat shoes. Input3 is immutable314 linework style only. Input4 locks the same ship linework only, never its outstretched arm. Input5 supplies ship architecture only, take no street scenery. Clean organic fine lines, no filled black hair or heavy wash. One finished drawing only.",
+              "referenced_image_paths": [
+                "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000358.png",
+                "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png"
+              ],
+              "transparent_background": false
+            }
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "registration_target": {
+    "mapping": "x=4.5*raw_x-331, y=4.5*raw_y-1832",
+    "canvas": [
+      1672,
+      941
+    ],
+    "head_center": [
+      1336.7,
+      421.6
+    ],
+    "feet_points": [
+      [
+        1289.9,
+        786.1
+      ],
+      [
+        1395.2,
+        784.3
+      ]
+    ],
+    "action_shoulder_elbow_wrist": [
+      [
+        1297.1,
+        485.5
+      ],
+      [
+        1279.1,
+        548.5
+      ],
+      [
+        1261.1,
+        584.5
+      ]
+    ],
+    "boat_bounds": [
+      369.2,
+      357.7,
+      1078.4,
+      738.7
+    ],
+    "source": "manifest.blockout_study.frames anatomy and boat_outline, hand-estimated original joints"
+  },
+  "reference_limitations": "Coordinate targets derive from approximate original anatomy/boat annotation, not proof of generated placement. Independent review plus root registration pending."
+}

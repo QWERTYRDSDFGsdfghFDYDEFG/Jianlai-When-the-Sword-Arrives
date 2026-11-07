@@ -1,0 +1,933 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "c2_slow_attention_board",
+    "request": "“且慢行”两种形式：章节尾声CG达成成就、小短片；搜索后生成线稿，现有切入先不用。",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "“且慢行”两种形式：章节尾声CG达成成就、小短片；搜索后生成线稿，现有切入先不用。 范围见basis.json.scope；停止于sketch。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+      "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+      "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+      "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "唯一脸部母版；主代理已实际打开"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+      "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+      "role": "当前暖季衣装母版；主代理已实际打开"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+      "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+      "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "cpa",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+          "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+          "role": "唯一脸部母版；主代理已实际打开"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+          "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+          "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+        },
+        "visibility": "visible",
+        "visibility_reason": "CG及分镜04露脸；三分之四轻俯五官须可辨认，小脸不能豁免验证。"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "四格均16:9，两列两行组成16:9横纸；01–02地面隐喻，03–04夜廊；02/03草叶同角度图形匹配。",
+    "anchors": "01–02道路/轮辙；03–04近栏草左、陈手/身体右、江在栏外左。",
+    "action_target": "先轮行看不清，再停镜头看折草，再落回陈的凝视。",
+    "action_space": "01轮左入右出；02无轮；03手与草分开；04沿用CG关系。",
+    "route": "轮左往右出画；02/03剪辑跨场不作物质变形；03/04退镜。",
+    "continuity": "02/03只匹配草叶形状；03/04同一栏、同一草、同一人物侧别；未复用旧图。",
+    "characters": [
+      {
+        "character_id": "cpa",
+        "position": "01–02无人；03右侧手；04右侧腰上人物",
+        "footing": "足点画外；03/04镜头略高于栏顶，手臂轻靠自然腰腹高度的栏",
+        "facing": "04头肩朝左前且轻俯",
+        "gaze": "左前景折草",
+        "scale_depth": "04脸约单格高度25%，需实际验身份",
+        "occlusion": "03不露脸；04脸清晰、栏遮胸腰下部；无书箱"
+      }
+    ],
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+        "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+        "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+        "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "仅本记录对应的四镜2×2分镜线稿；不改正文、不实现成就/视频、不覆盖旧图。",
+      "雨停后陈在廊地扶栏，车轮为后文隐喻；不增加亲历事故，不令时间停住，不表现成功悟道。",
+      "沿用陈平安脸母版、20–22岁和暖季短袖衣装；夜廊无书箱，画外腰部道具不强补。",
+      "手中右、草左前景；草由栏顶承托，手不触草；略高栏顶的机位显示顶面，栏在人物腰腹高。",
+      "折草上栏是美术补全；目标1920×1080，实际尺寸待生成后读取。"
+    ],
+    "allowed_changes": [
+      "本轮允许从头设计两张线稿，以近远尺度、线条疏密及留白表达注意力变慢。",
+      "草叶形状匹配可连接隐喻与当下，但不作物理变形；不沿用旧雨街窗框。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "对照当前正文和basis，分清原文事实、美术补全、授权范围及终点。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "对照当前正文确认雨停、扶栏、檐滴和后文车轮碾花草。只制作新CG与切入分镜线稿，成就触发和视频未实施。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "焦点是看清细小损伤后的悲悯与疑问；折草上栏属美术补全，停的是镜头，不赋予人物停光阴之力。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "核对身份标准及主代理本轮实际查看的三图职责；后续生成需实际输入脸和衣装母版。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "已读取身份标准，瘦长收束青年脸、直眉窄眼、20–22岁、灰蓝短袖外袍白内衫。主代理本轮确认已实际查看脸、衣装、十五视角三图；此处仅参考依据通过，不宣称未生成图身份通过。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "当前暖季衣装母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "脸母版锁五官脸型，衣装母版锁剪裁，十五视角仅辅助卷首玉簪及转向遮挡；五色发区不是实际发色。正文锁剧情，basis锁本轮构图；旧场景图不充当身份母版。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+                    "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+                    "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+                    "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+                    "role": "当前暖季衣装母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+                    "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+                    "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "核对最终basis的board构图、动作、侧别、腰腹高栏、略高栏顶机位和跨镜归属。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/recall_records",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "陈只在栏内看折草，手不伸向草。01–02道路隐喻；03–04夜廊当下。剪辑只匹配草形，两地不是同一物理空间。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "已实际复核最终basis：机位略高于栏顶轻俯，低于人眼；栏在腰腹高度，人物裁至腰上，肩肘腕链不被胸部裁切吞没。四个16:9格两列两行组成横纸；04脸约单格高25%，实际可辨识程度待成图复核。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "本阶段核对文字镜头、动作与正文对应；实际承托、遮挡和读图交独立空间复核。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "四格均16:9，两列两行组成16:9横纸；01–02地面隐喻，03–04夜廊；02/03草叶同角度图形匹配。",
+                  "action_target": "先轮行看不清，再停镜头看折草，再落回陈的凝视。",
+                  "action_space": "01轮左入右出；02无轮；03手与草分开；04沿用CG关系。",
+                  "route": "轮左往右出画；02/03剪辑跨场不作物质变形；03/04退镜。",
+                  "continuity": "02/03只匹配草叶形状；03/04同一栏、同一草、同一人物侧别；未复用旧图。"
+                }
+              }
+            ],
+            "findings": [],
+            "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854"
+          },
+          "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "主代理basis文字方案与参考图查看；记录代理只读核对正文、标准并登记",
+          "prompt": "独立核对最终basis的board空间方案：谁对什么做了什么、栏内外、肩肘腕/草的承托、机位目光、深度和跨镜连续性；尚无新生成图。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/space_review",
+            "verdict": "pass",
+            "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "独立复核最终581f8a版文字方案：机位略高栏顶可看见顶面、仍低于陈眼位；人物位于栏内右，草在左前景、江在栏外。四格2×2区分道路隐喻与夜廊当下。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "文字计划修为自然腰腹高度的栏、人物裁至腰上，能保留肩肘腕连接；手臂轻靠栏顶、草由可见栏顶承托。脚画外不作脚位认证；实际接触仍须线稿复核。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "独立空间文字审核通过；仅允许进入线稿，非新图视觉通过。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "四格均16:9，两列两行组成16:9横纸；01–02地面隐喻，03–04夜廊；02/03草叶同角度图形匹配。",
+                  "action_target": "先轮行看不清，再停镜头看折草，再落回陈的凝视。",
+                  "action_space": "01轮左入右出；02无轮；03手与草分开；04沿用CG关系。",
+                  "route": "轮左往右出画；02/03剪辑跨场不作物质变形；03/04退镜。",
+                  "continuity": "02/03只匹配草叶形状；03/04同一栏、同一草、同一人物侧别；未复用旧图。"
+                }
+              }
+            ],
+            "findings": [],
+            "review_provenance": "/root于2026-11-05转达/root/space_review已核新版581f8a且空间文字审核通过；不冒称已看到新图。"
+          },
+          "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "in_progress",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen.imagegen",
+          "prompt": "Use case: illustration-story.\nDraw ONE clean director's STORYBOARD SHEET of FOUR sequential wide 16:9 frames, arranged 2 columns x 2 rows, on one 16:9 landscape sheet target 1920x1080. Each panel wide, consistent size, separated by plain narrow white gutters, with only small numerals 01 through 04 in the upper-left of each frame. No title, no captions, no arrows, no dialogue, no Chinese lettering. This sheet visualizes only a 25–30 second poetic COLD OPEN for \"且慢行\", not the entire film.\nUse expressive monochrome ink contour drawings, varying from fierce broken strokes to very spare fine lines. No rendered grey painting, no heavy crosshatching everywhere. Keep each panel easy to read at thumbnail size.\nThe supplied face and clothes are ONLY Chen Ping'an identity references. Same 20–22 young man, slim elongated face, straight brows, narrow eyes, black topknot, delicate curled horizontal jade hairpin, short-sleeve outer robe over white inner shirt, dark wristguards. No backpack in night-gallery scenes. He appears only in panel 04 (panel 03 his hand only). No other human characters.\nPANEL 01: an unsettling ground-level extreme close shot of an ORDINARY wooden cart wheel rushing left-to-right across wet earthen road. Most of the wheel is cropped by left and top edges; only lower curved rim and a few spokes readable. Fine roadside grasses at lower right are bent; long broken horizontal ink strokes above express rapid passage. Wheel contact physically grounded. No gigantic cosmic wheel, no carriage body, driver or human injury. An editorial metaphor for the later dialogue about history's wheel, NOT an event Chen witnessed.\nPANEL 02: SAME ROAD AFTER THE WHEEL HAS EXITED. Sudden visual stillness: an extreme close shot of ONE bent grass stem with two thin torn leaves and a tiny droplet at the broken tip. The small stem lies over pressed mud at lower edge. Mostly empty white paper. No wheel and no motion strokes. Precise fragile form, no flower, no magical sprout. Align the stem diagonally from lower left to middle right and show the torn tip with drop near center-left.\nPANEL 03: GRAPHIC MATCH CUT, separate place. A similarly angled wind-blown bent grass stem and droplet are lying ON a wet WOODEN GALLERY HANDRAIL, at the same relative image position as panel02. Wood grain replaces muddy rut; this is a cut, not a magical physical transformation. A natural male hand with dark wristguard enters at far right, relaxed fingers RESTING on the rail near his own body, visibly separate from the grass. A continuous sleeve leads off right. Above rail a few long quiet river reflection lines. No hand grabbing the leaf, no extra hand, no levitation.\nPANEL 04: pull out to an asymmetrical cinematic portrait landscape. The same wet handrail, viewed from just ABOVE its top with a slight downward angle (below the man's eye level), enters large from lower left and recedes to mid-right. Same small torn grass on left foreground. Chen shown from just above the waist to head BEHIND rail in the right third, three-quarter face looking left/down at the stem; forearm rests lightly on rail at natural waist/upper-abdomen height, with shoulder-elbow-wrist connected. Face height about 25 percent of this panel so identity remains readable. Upper-left background is broad NIGHT river, remote low roofs with faint lines and ample white space. One post at far right. Quiet recognition, no smile, no enlightenment, no heroic gesture. This final frame is the motif to reprise as an independent chapter-ending CG.\nContinuity rules: 01–02 are editorial metaphor; 03–04 are present night reality. Only a graphic match joins the two places. Rain has ended in 03–04, no falling rain. The river continues, camera and attention slow; Chen does not stop time. No earlier umbrella/street-window composition. Light expressive Chinese pen linework with physically sound wood and anatomy.\nREFERENCE 3 is Chen's approved 15-angle head and jade-hairpin STRUCTURE guide only: do NOT copy its coloured overlays or labels. Use the slender open asymmetric curled jade pin head from its upper-right inset, not the old round bead shape visible in the face reference. This third reference does not replace the face proportions in reference 1.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+              "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+              "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "陈平安固定脸型、五官、20至22岁、衣装与玉簪规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "唯一脸部母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+              "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+              "role": "当前暖季衣装母版；主代理已实际打开"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png",
+              "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+              "role": "玉簪和轻俯角度辅助，不取代脸母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+              "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+              "role": "board 首次新生成线稿"
+            }
+          ],
+          "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "image_gen.imagegen 2026-11-05 exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+            "arguments": {
+              "prompt": "Use case: illustration-story.\nDraw ONE clean director's STORYBOARD SHEET of FOUR sequential wide 16:9 frames, arranged 2 columns x 2 rows, on one 16:9 landscape sheet target 1920x1080. Each panel wide, consistent size, separated by plain narrow white gutters, with only small numerals 01 through 04 in the upper-left of each frame. No title, no captions, no arrows, no dialogue, no Chinese lettering. This sheet visualizes only a 25–30 second poetic COLD OPEN for \"且慢行\", not the entire film.\nUse expressive monochrome ink contour drawings, varying from fierce broken strokes to very spare fine lines. No rendered grey painting, no heavy crosshatching everywhere. Keep each panel easy to read at thumbnail size.\nThe supplied face and clothes are ONLY Chen Ping'an identity references. Same 20–22 young man, slim elongated face, straight brows, narrow eyes, black topknot, delicate curled horizontal jade hairpin, short-sleeve outer robe over white inner shirt, dark wristguards. No backpack in night-gallery scenes. He appears only in panel 04 (panel 03 his hand only). No other human characters.\nPANEL 01: an unsettling ground-level extreme close shot of an ORDINARY wooden cart wheel rushing left-to-right across wet earthen road. Most of the wheel is cropped by left and top edges; only lower curved rim and a few spokes readable. Fine roadside grasses at lower right are bent; long broken horizontal ink strokes above express rapid passage. Wheel contact physically grounded. No gigantic cosmic wheel, no carriage body, driver or human injury. An editorial metaphor for the later dialogue about history's wheel, NOT an event Chen witnessed.\nPANEL 02: SAME ROAD AFTER THE WHEEL HAS EXITED. Sudden visual stillness: an extreme close shot of ONE bent grass stem with two thin torn leaves and a tiny droplet at the broken tip. The small stem lies over pressed mud at lower edge. Mostly empty white paper. No wheel and no motion strokes. Precise fragile form, no flower, no magical sprout. Align the stem diagonally from lower left to middle right and show the torn tip with drop near center-left.\nPANEL 03: GRAPHIC MATCH CUT, separate place. A similarly angled wind-blown bent grass stem and droplet are lying ON a wet WOODEN GALLERY HANDRAIL, at the same relative image position as panel02. Wood grain replaces muddy rut; this is a cut, not a magical physical transformation. A natural male hand with dark wristguard enters at far right, relaxed fingers RESTING on the rail near his own body, visibly separate from the grass. A continuous sleeve leads off right. Above rail a few long quiet river reflection lines. No hand grabbing the leaf, no extra hand, no levitation.\nPANEL 04: pull out to an asymmetrical cinematic portrait landscape. The same wet handrail, viewed from just ABOVE its top with a slight downward angle (below the man's eye level), enters large from lower left and recedes to mid-right. Same small torn grass on left foreground. Chen shown from just above the waist to head BEHIND rail in the right third, three-quarter face looking left/down at the stem; forearm rests lightly on rail at natural waist/upper-abdomen height, with shoulder-elbow-wrist connected. Face height about 25 percent of this panel so identity remains readable. Upper-left background is broad NIGHT river, remote low roofs with faint lines and ample white space. One post at far right. Quiet recognition, no smile, no enlightenment, no heroic gesture. This final frame is the motif to reprise as an independent chapter-ending CG.\nContinuity rules: 01–02 are editorial metaphor; 03–04 are present night reality. Only a graphic match joins the two places. Rain has ended in 03–04, no falling rain. The river continues, camera and attention slow; Chen does not stop time. No earlier umbrella/street-window composition. Light expressive Chinese pen linework with physically sound wood and anatomy.\nREFERENCE 3 is Chen's approved 15-angle head and jade-hairpin STRUCTURE guide only: do NOT copy its coloured overlays or labels. Use the slender open asymmetric curled jade pin head from its upper-right inset, not the old round bead shape visible in the face reference. This third reference does not replace the face proportions in reference 1.",
+              "referenced_image_paths": [
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_outfit_variant_06_warm_weather.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_15view_jade_v1.png"
+              ],
+              "transparent_background": false
+            }
+          },
+          "review": {
+            "reviewer": "/root/space_review",
+            "verdict": "rework",
+            "staging_sha256": "d8d6f692586f0f18a31cd2c78e6d73a6aa18f20f4689eee79390687a8ab5a854",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "分缕额发、高髻与卷首玉簪成立。 脸部其余观察见逐角色检查。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "肩肘腕及手指未见明显增手、断腕、漂浮；短袖外袍、白内衫与护腕成立。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "fail",
+                "observation": "02泥土草根与03/04栏面草根过于相同且后者似穿木，跨场归属不通过。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "fail",
+                "observation": "人物与栏江位置成立。草的落点和跨场归属有硬问题。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "observations": {
+                  "camera": "略高于栏顶，实际可见栏上表面；沿栏斜看。",
+                  "action_target": "陈低头看草，没有拾取、施法或救草动作。",
+                  "action_space": "手与草保持分离，手臂受栏支持。",
+                  "route": "01轮疾行，02停看草；实际动态未制作。",
+                  "continuity": "02泥土草根与03/04栏面草根过于相同且后者似穿木，跨场归属不通过。"
+                }
+              }
+            ],
+            "findings": [
+              {
+                "id": "F_BOARD_GRASS",
+                "severity": "hard",
+                "state": "open",
+                "problem": "02草簇植根泥地，03/04类似根部穿入木面，误读长在栏上或同株草迁移。",
+                "required_change": "03/04局部明确画成独立断草平躺/搭在湿木面，露出断端与接触影；保留02地上草，维持形状呼应而非同物迁移。",
+                "preserve": "人物身份、其余构图、江面及手臂支撑；不整图重生成。",
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  }
+                ]
+              }
+            ],
+            "character_checks": [
+              {
+                "character_id": "cpa",
+                "result": "pass",
+                "observation": "独立实际查看整图与脸部局部。分缕额发、高髻与卷首玉簪成立。",
+                "view": "分镜04局部x1335,y488,w200,h250，原像素内存查看，三分之四轻俯。",
+                "image": {
+                  "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                  "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                  "role": "board 首次新生成线稿"
+                },
+                "evidence": [
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+                    "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+                    "role": "board 首次新生成线稿"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "唯一脸部母版；主代理已实际打开"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_slow_attention\\basis.json",
+                    "sha256": "581f8abb1d85b7523448679be7e224d9f8b6a2f2517e41d8aff85d913a6611ed",
+                    "role": "本轮授权范围、研究出处、事实与美术补全、实际构图及两图精确提示词；规划阶段成果"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "当前正文：雨停廊下、且慢行、历史车轮与花草"
+                  }
+                ],
+                "comparisons": {
+                  "face_shape": "瘦长收束的青年脸型与母版对应，未发现足以另判换脸的证据。",
+                  "features": "直眉窄眼、长鼻薄唇与母版五官布局可对应。",
+                  "age": "仍为年轻成人，没有儿童化或明显老化。",
+                  "hair": "分缕额发、高髻与卷首玉簪成立。"
+                },
+                "placement": {
+                  "result": "fail",
+                  "observation": "人/栏/江关系和手的支撑成立。草的归属使整体站位连续检查未通过。",
+                  "observations": {
+                    "position": "人物右侧廊内，草左前，江左外。",
+                    "footing": "足点画外；肩肘前臂腕连续，栏面承托手臂。",
+                    "facing": "头肩朝左前且轻俯。",
+                    "gaze": "目光指向左前景草。",
+                    "scale_depth": "人近岸远；近栏草可以辨认。",
+                    "occlusion": "03/04同一手、护腕和栏面连续；但草根看似穿入栏面。"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a90c-e7e6-76b1-8057-9306586218e7\\exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png",
+          "sha256": "6ca12e37e951ef6b01c40053d8d3956bbf01d7dd5dd4499be323668055a67700",
+          "role": "board 首次新生成线稿"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "保留工具原生尺寸；本轮未拉伸、未接入；目标1920x1080仅为请求目标。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "reference_viewing": {
+    "viewer": "/root",
+    "event": "本轮主代理确认已实际view脸部母版、暖季服装及十五视角三图。记录代理没有冒称自己看过图。",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_face_standard_01.png",
+        "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+        "role": "唯一脸部母版；主代理已实际打开"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_outfit_variant_06_warm_weather.png",
+        "sha256": "d2bcfabc20d690f7edd83c4e9a118914de210aa0f03622bfd5d36423339f0e73",
+        "role": "当前暖季衣装母版；主代理已实际打开"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\cpa\\cpa_15view_jade_v1.png",
+        "sha256": "1d7e44cbcd93166a3b29eb083136d0740389c548de1f365631867cacdfcf1c76",
+        "role": "十五视角及卷首玉簪辅助绘画参考，非精确三维转面；主代理已实际打开"
+      }
+    ]
+  },
+  "current_status": "空间文字方案已独立通过；sketch-01仅登记实际待发提示词及脸/衣装参考路径，尚无调用id或输出，等待主代理调用。",
+  "validation_boundary": "只核验静态线稿的身份、支撑、快慢辨识和跨镜归属。未制作动画、音频、字幕及成就系统。",
+  "inspection_scope": "静态首稿构图研究；未上色、未做实际动画/声音/成就系统或游戏QA。旧切入暂不采用，不改旧图。",
+  "delivery_note": "本轮仅交付首稿线稿供用户审阅，状态待修正；无上色/游戏接入。编辑既有图须确认原位局部修改能力，不通过整图重生成修复。"
+}

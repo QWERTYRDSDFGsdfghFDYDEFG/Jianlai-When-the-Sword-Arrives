@@ -1,0 +1,3103 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "wuyi_lineart_333",
+    "request": "依吴懿S1在第333帧原位修订人物脸向、体态与悬空核舟，接顺332→333→334。",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "2026-11-05 用户指定只修314、333、340，原位编辑现有线稿；转脸接顺，舟按参考变化，人物按吴懿身形。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "吴懿S1唯一身份服装母版"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "吴懿身份、衣袖、饰物规则"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+      "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+      "role": "原333结构稿，时序与运动表意"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+      "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+      "role": "动作参考的阶段顺序、锚点及推定范围"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+      "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+      "role": "前一帧332，原项目可见站位和舟大小"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+      "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+      "role": "后一帧334，保留线稿的头转终点"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+      "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+      "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "吴懿S1唯一身份服装母版"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "吴懿身份、衣袖、饰物规则"
+        },
+        "visibility": "visible",
+        "visibility_reason": "完整全身、轻微朝画面左侧的可见脸；需独立核对实际成品"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "原1672×941远景。取332和334在现有机位的实际可见头心、足点、舟边界作为两端。",
+    "anchors": "头心约(1105,312)，舟中心(694,305)；在332头心≈(1091,315)、334≈(1120,310)之间。",
+    "action_target": "吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+    "action_space": "吴懿在右，舟在左，掌下垂、二者已分离；用S1重建关节关系。",
+    "route": "人物原地，头转向和纸上位置承接未编辑的332及334。",
+    "continuity": "原动作的掌托→离掌→变化顺序不变；手已降，舟在独立轨迹上增长。",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+        "role": "原333结构稿，时序与运动表意"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+        "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+        "role": "前一帧332，原项目可见站位和舟大小"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+        "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+        "role": "后一帧334，保留线稿的头转终点"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+        "role": "动作参考的阶段顺序、锚点及推定范围"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "wy",
+        "position": "全身立在右部；头心和着地点介于相邻两帧。",
+        "footing": "双鞋在同一地面附近，右手处于收落阶段。",
+        "facing": "胸胯轻向画左，额点、鼻尖和下巴随左转，远眼尚可见而变窄。",
+        "gaze": "看向左上方的舟。",
+        "scale_depth": "按S1成人头身与现有两邻帧维持尺度，舟独立放大。",
+        "occlusion": "冠、脸、脚在画，袖弯仍遮住部分肘部，裸手可见。"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "S1身份与非对称服装；332和334是既有边界；1672×941原画布；原结构稿。"
+    ],
+    "allowed_changes": [
+      "原人物和舟内的局部墨线形状、位置、舟宽；指定编辑区域外像素需完全一致。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "只读查看S1、332、333、334与已验结构，结合原动画对应区段和独立实测",
+          "prompt": "第333帧本轮原位动作方案：吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿S1唯一身份服装母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣袖、饰物规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+              "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+              "role": "动作参考的阶段顺序、锚点及推定范围"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+              "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+              "role": "前一帧332，原项目可见站位和舟大小"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+              "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+              "role": "后一帧334，保留线稿的头转终点"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "本次只改指定333原画布，原结构保留，332和334是现状边界。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "舟是变化的器物，画中人始终是吴懿；收手后舟继续变大。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+          },
+          "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "只读查看S1、332、333、334与已验结构，结合原动画对应区段和独立实测",
+          "prompt": "第333帧本轮原位动作方案：吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿S1唯一身份服装母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣袖、饰物规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+              "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+              "role": "动作参考的阶段顺序、锚点及推定范围"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+              "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+              "role": "前一帧332，原项目可见站位和舟大小"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+              "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+              "role": "后一帧334，保留线稿的头转终点"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "S1为人物专用身份、袖型及比例依据；旧333的发冠、衣纹不取代S1。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "方块和源帧用于节奏；332和334用于连接已有姿态与舟框，S1用于人。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+          },
+          "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "只读查看S1、332、333、334与已验结构，结合原动画对应区段和独立实测",
+          "prompt": "第333帧本轮原位动作方案：吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿S1唯一身份服装母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣袖、饰物规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+              "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+              "role": "动作参考的阶段顺序、锚点及推定范围"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+              "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+              "role": "前一帧332，原项目可见站位和舟大小"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+              "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+              "role": "后一帧334，保留线稿的头转终点"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_sequence_audit",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "空掌已降，脸和视线轻转向左方核舟，舟与手各有位置。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "在同一远景内，保留全身和悬空空间，避免按另一个角色的绝对位置套人。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "已对照两邻帧和S1，设定333远眼压窄、鼻尖居间，舟宽约257。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ],
+                "observations": {
+                  "camera": "原1672×941远景。取332和334在现有机位的实际可见头心、足点、舟边界作为两端。",
+                  "action_target": "吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+                  "action_space": "吴懿在右，舟在左，掌下垂、二者已分离；用S1重建关节关系。",
+                  "route": "人物原地，头转向和纸上位置承接未编辑的332及334。",
+                  "continuity": "原动作的掌托→离掌→变化顺序不变；手已降，舟在独立轨迹上增长。"
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+          },
+          "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "只读查看S1、332、333、334与已验结构，结合原动画对应区段和独立实测",
+          "prompt": "第333帧本轮原位动作方案：吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿S1唯一身份服装母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣袖、饰物规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+              "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+              "role": "动作参考的阶段顺序、锚点及推定范围"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+              "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+              "role": "前一帧332，原项目可见站位和舟大小"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+              "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+              "role": "后一帧334，保留线稿的头转终点"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_sequence_audit",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "两邻帧给出身体和船的实测端点；333只需做居间姿势。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "左右鞋落地线及裙脚按同一机位延续。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "已对照两邻帧和S1，设定333远眼压窄、鼻尖居间，舟宽约257。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣袖、饰物规则"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                    "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                    "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+                  }
+                ],
+                "observations": {
+                  "camera": "原1672×941远景。取332和334在现有机位的实际可见头心、足点、舟边界作为两端。",
+                  "action_target": "吴懿收右臂，面部朝画左的舟渐转；前帧舟主轮廓宽165、后帧401，本帧约256，维持悬空。",
+                  "action_space": "吴懿在右，舟在左，掌下垂、二者已分离；用S1重建关节关系。",
+                  "route": "人物原地，头转向和纸上位置承接未编辑的332及334。",
+                  "continuity": "原动作的掌托→离掌→变化顺序不变；手已降，舟在独立轨迹上增长。"
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+          },
+          "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "System.Drawing 局部像素变形，直接对既有句柄写回(FileMode.Open/Flush(true))",
+          "prompt": "按吴懿S1修现有333，使332转向334有居中的鼻尖、眼宽及颌角；头部、胸肩、下垂手与双鞋取相邻端点间姿势；空中核舟同比例扩至256左右。 随后仅在舟选区原位勾线，让双层起檐、凤首先显，接334完整三层。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "吴懿S1唯一身份服装母版"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣袖、饰物规则"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+              "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+              "role": "原333结构稿，时序与运动表意"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+              "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+              "role": "动作参考的阶段顺序、锚点及推定范围"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+              "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+              "role": "前一帧332，原项目可见站位和舟大小"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+              "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+              "role": "后一帧334，保留线稿的头转终点"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+              "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+              "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_sequence_audit 对本次/root原位修订的独立复核，该代理参与旧333底稿",
+            "verdict": "pass",
+            "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ],
+                "observation": "成年长脸、额点、眉眼与盘髻和S1相符，332到334的转头居间可读。"
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ],
+                "observation": "颈肩连贯，降手放松，腰旁手和鞋底清楚，无多手或断肢。"
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ],
+                "observation": "255px双檐体块位于两邻之间，凤首、羽尾以简线起形，接334完整凤舟。脸转连续。"
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ],
+                "observation": "已实际核对三帧画面：吴懿在右朝舟，舟悬空增长且与掌分离。",
+                "observations": {
+                  "camera": "332/333/334仍为同一白底远景和实际显示尺度。",
+                  "action_target": "吴懿右掌收落，空处的核舟正显双檐并增大。",
+                  "action_space": "指尖在舟的右下，两者留有明确空隙。",
+                  "route": "人物站立，三个舟心(712,273)、(693,305)、(676,335)连续向左下。",
+                  "continuity": "舟宽165→255→401，单篷→双檐→三层；远眼、鼻尖、下巴呈居中转脸。"
+                }
+              }
+            ],
+            "character_checks": [
+              {
+                "character_id": "wy",
+                "result": "pass",
+                "image": {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                  "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                  "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                },
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ],
+                "view": "原生整图、面部局部、S1和332/334并排；舟专修后人物像素核对为零差。",
+                "observation": "转脸时额点、眼形、鼻尖、颌角和冠饰方向连贯。",
+                "comparisons": {
+                  "face_shape": "成人偏长鹅蛋形和收束圆颌延续；下颌随转脸，区别于正面轮廓机械平移。",
+                  "features": "额点保留，远眼比332窄而仍可见，鼻尖在远眼中心略右；尚未转成334的更侧角度。",
+                  "age": "成人窄眼、鼻口和纵向脸部关系连贯，维持S1年龄感。",
+                  "hair": "近中分额发、盘髻、瓣冠和耳侧垂饰朝向随脸，未见新增冠饰。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "足点、降手、舟中心和大小分别衔接相邻端点。",
+                  "observations": {
+                    "position": "人物在右侧，头肩与双足的纸上位置在相邻端点之间。",
+                    "footing": "鞋底承重，裙边和地线保持落地。",
+                    "facing": "颈肩相接，头向画左转，胸胯随之小幅相应。",
+                    "gaze": "看向左前方悬浮的核舟。",
+                    "scale_depth": "全身成人比例衔接S1和两邻，船独立放大。",
+                    "occlusion": "手腕从袖口自然伸出，另一手在腰边；舟与掌无交叠。"
+                  },
+                  "evidence": [
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                      "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                      "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                    },
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                      "role": "吴懿S1唯一身份服装母版"
+                    },
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                      "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                      "role": "前一帧332，原项目可见站位和舟大小"
+                    },
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                      "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                      "role": "后一帧334，保留线稿的头转终点"
+                    },
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                      "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                      "role": "原333结构稿，时序与运动表意"
+                    },
+                    {
+                      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                      "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                      "role": "动作参考的阶段顺序、锚点及推定范围"
+                    }
+                  ]
+                }
+              }
+            ],
+            "findings": [
+              {
+                "id": "333-roof-detail-density",
+                "severity": "soft",
+                "state": "accepted",
+                "problem": "333的笔线较匀细，窗格、凤首和栏饰到334有所加密。",
+                "required_change": "需整段连播时再评估饰纹密度，本次三帧小修已具可读的中间形态。",
+                "preserve": "当前动作、S1身份、两层初展和已保存的相邻帧。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                    "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                    "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "吴懿S1唯一身份服装母版"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000332.png",
+                    "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e",
+                    "role": "前一帧332，原项目可见站位和舟大小"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000334.png",
+                    "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194",
+                    "role": "后一帧334，保留线稿的头转终点"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                    "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                    "role": "原333结构稿，时序与运动表意"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "动作参考的阶段顺序、锚点及推定范围"
+                  }
+                ]
+              }
+            ]
+          },
+          "staging_sha256": "cf1be11e5241c7f7356a1c4e1b35f162cb1f83bf53f809d64faf2fb18b748d47",
+          "identity_input": {
+            "method": "preserved_pixels",
+            "source": {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+            },
+            "evidence": [
+              {
+                "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+                "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+              },
+              {
+                "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+                "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+              },
+              {
+                "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                "role": "吴懿S1唯一身份服装母版"
+              }
+            ]
+          },
+          "history_attempt_count_excluding_current": 1
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+          "sha256": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+          "role": "原位修订后333最终线稿，双层起檐、头转过渡"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "原尺寸，局部修改，未经用户确认接入。"
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "frame_number": 333,
+  "planned_anatomy_1672x941": [
+    [
+      1133.8,
+      341.5
+    ],
+    [
+      1131,
+      391.4
+    ],
+    [
+      1082,
+      417.1
+    ],
+    [
+      1184.6,
+      417.1
+    ],
+    [
+      1063.5,
+      513.4
+    ],
+    [
+      1247.6,
+      472
+    ],
+    [
+      1034.3,
+      568.3
+    ],
+    [
+      1205.3,
+      516.1
+    ],
+    [
+      1135.5,
+      570.5
+    ],
+    [
+      1102.2,
+      711
+    ],
+    [
+      1181.9,
+      718.6
+    ],
+    [
+      1099.5,
+      850.9
+    ],
+    [
+      1196.8,
+      854
+    ]
+  ],
+  "planned_boat_bbox": [
+    642.5,
+    225.6,
+    866,
+    350
+  ],
+  "producer_review_status": "本次333局部独立复核通过，整组与运行使用仍未验",
+  "write_receipt": {
+    "before": "4d4eb65c878fb7df77556e0e3dba4ead2e1ba2b1e1d8a04b2fca5edcbacb41a1",
+    "after": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+    "changed_pixels": 34642,
+    "outside_boat_changed": 0,
+    "bytes": 779084,
+    "size": [
+      1672,
+      941
+    ],
+    "pixelhash": "679454e493c0759a29d023a925a4b65cf080ca75551f0c3d11ddd0b83230b0fd",
+    "file_id": 2533274790406179,
+    "readback_equal": true,
+    "unchanged_pixels_outside_boat_since_first_write": 0,
+    "changed_outside_combined_since_original": 0
+  },
+  "registration_observed": {
+    "observer": "monitor of saved file and approximate visual landmarks",
+    "head_center": [
+      1106,
+      313
+    ],
+    "feet_approx": [
+      [
+        1057,
+        873
+      ],
+      [
+        1162,
+        873
+      ]
+    ],
+    "boat_bbox": [
+      566,
+      247,
+      820,
+      363
+    ],
+    "boat_center": [
+      693,
+      305
+    ],
+    "wrist_approx": [
+      992,
+      552
+    ],
+    "status": "已目视核对332→333→334，本次局部通过"
+  },
+  "revision_history": [
+    {
+      "record_sha256": "c6b67ff496ac6b3c12b5e93b9cde0ec154375ca25b9590e6c30afb1bfdc20da9",
+      "task": {
+        "scene_id": "wuyi_lineart_333",
+        "request": "将第333帧结构转吴懿线稿；用户2026-11-05明确允许另存成品，保留原结构稿",
+        "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+        "scope": "candidate",
+        "stop_after_stage": "sketch",
+        "authorization": "2026-11-05用户：允许本轮另存吴懿线稿成品，保留现有结构稿。root分派315—333逐帧独立imagegen。",
+        "target_size": [
+          1920,
+          1080
+        ]
+      },
+      "sources": [
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "吴懿S1唯一身份服装母版"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "吴懿身份、衣袖、饰物规则"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+          "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+          "role": "第333帧已复核动作结构"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+          "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+          "role": "已独立核验的314线稿，统一画风和取景依赖"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+          "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+          "role": "已通过314记录和统一取景独立复核"
+        },
+        {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+          "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+          "role": "全部结构帧及原始逐帧位置、既有独立复核"
+        }
+      ],
+      "staging": {
+        "camera": "1672×941横版统一取景；原坐标x′=4.5x−331,y′=4.5y−1832，不逐帧单独缩放人物。",
+        "anchors": "本帧头心[1133.8, 341.5]，双足[[1099.5, 850.9], [1196.8, 854]]；空白背景上的轻地面线。",
+        "action_target": "吴懿画面左侧自身右手逐渐放下，小核雕舟在左上方悬空；肘[1063.5, 513.4]，腕[1034.3, 568.3]；舟边界[642.5, 225.6, 866, 350]。",
+        "action_space": "人物在右侧，舟在左上，物掌留清楚间隙；左侧保留随后放大空间。",
+        "route": "人物不行走；原镜头拉远和位移由统一映射保留；无新增背景通道。",
+        "continuity": "沿已验314造型与统一取景；原315—333动作骨架已经在108帧结构研究中复核，本帧按实际点位降手；不继承314固定抬腕。",
+        "evidence": [
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+            "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+            "role": "第333帧已复核动作结构"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+            "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+            "role": "已独立核验的314线稿，统一画风和取景依赖"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+            "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+            "role": "已通过314记录和统一取景独立复核"
+          },
+          {
+            "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+            "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+            "role": "全部结构帧及原始逐帧位置、既有独立复核"
+          }
+        ],
+        "characters": [
+          {
+            "character_id": "wy",
+            "position": "完整全身在右半幅，头心[1133.8, 341.5]。",
+            "footing": "双足落点[[1099.5, 850.9], [1196.8, 854]]，长裙遮腿但鞋底可见。",
+            "facing": "头胸轻朝左侧舟，肩胯朝向一致；近侧动作手是人物自身右手。",
+            "gaze": "看向左前上方核雕小舟。",
+            "scale_depth": "从原结构位置信息按统一4.5倍投影，不拉伸身体或缩放单个器物。",
+            "occlusion": "宽袖遮臂但掌腕及舟空隙保持清楚；脸、发冠、双鞋不得被遮。"
+          }
+        ]
+      },
+      "constraints": {
+        "locked": [
+          "S1身份衣装、细灰黑线稿、统一1672×941取景、帧号、原结构稿不修改",
+          "一人一舟，脸可见，衣襟不镜像，宽袖收束袖底，完整鞋底"
+        ],
+        "allowed_changes": [
+          "按本帧关节点调整降手和舟位置；329—332只少量变化弧线"
+        ],
+        "uncertainties": []
+      },
+      "retry_policy": {
+        "max_reworks": 2,
+        "extensions": []
+      },
+      "adoption": {
+        "status": "candidate",
+        "authorization": "",
+        "selected": [],
+        "asset_specs": [
+          {
+            "asset": {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+              "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+              "role": "第333帧吴懿独立imagegen线稿，待root独立复核"
+            },
+            "width": 1672,
+            "height": 941,
+            "format": "PNG RGB",
+            "display_treatment": "保留工具原生尺寸，没有重采样或代码形变"
+          }
+        ],
+        "integration": {
+          "status": "not_requested",
+          "authorization": "",
+          "evidence": []
+        }
+      },
+      "stages": {
+        "brief": {
+          "status": "passed",
+          "required_checks": [
+            "source_scope",
+            "narrative_focus"
+          ],
+          "attempts": [
+            {
+              "id": "brief-01",
+              "kind": "plan",
+              "producer": "/root/wuyi_sequence_audit",
+              "tool": "read-only sources and inherited approved projection",
+              "prompt": "按已核验314统一取景和本帧原结构关节点规划吴懿动作线稿；此处是既有空间依据的继承，不是新成品复核。",
+              "inputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                  "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                  "role": "吴懿S1唯一身份服装母版"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                  "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                  "role": "吴懿身份、衣袖、饰物规则"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                  "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                  "role": "已独立核验的314线稿，统一画风和取景依赖"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                  "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                  "role": "已通过314记录和统一取景独立复核"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                  "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                  "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                }
+              ],
+              "outputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                }
+              ],
+              "review": {
+                "reviewer": "/root/blockout_plan_review (原动作骨架315—333既有独立复核) + /root (本轮统一取景及逐帧执行指令)",
+                "verdict": "pass",
+                "checks": [
+                  {
+                    "id": "source_scope",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段brief。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "narrative_focus",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段brief。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  }
+                ],
+                "findings": [],
+                "character_checks": [],
+                "inherited_review_sources": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                    "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                    "role": "已通过314记录和统一取景独立复核"
+                  }
+                ],
+                "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+              }
+            }
+          ]
+        },
+        "references": {
+          "status": "passed",
+          "required_checks": [
+            "identity_basis",
+            "reference_roles"
+          ],
+          "attempts": [
+            {
+              "id": "references-01",
+              "kind": "plan",
+              "producer": "/root/wuyi_sequence_audit",
+              "tool": "read-only sources and inherited approved projection",
+              "prompt": "按已核验314统一取景和本帧原结构关节点规划吴懿动作线稿；此处是既有空间依据的继承，不是新成品复核。",
+              "inputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                  "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                  "role": "吴懿S1唯一身份服装母版"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                  "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                  "role": "吴懿身份、衣袖、饰物规则"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                  "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                  "role": "已独立核验的314线稿，统一画风和取景依赖"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                  "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                  "role": "已通过314记录和统一取景独立复核"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                  "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                  "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                }
+              ],
+              "outputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                }
+              ],
+              "review": {
+                "reviewer": "/root/blockout_plan_review (原动作骨架315—333既有独立复核) + /root (本轮统一取景及逐帧执行指令)",
+                "verdict": "pass",
+                "checks": [
+                  {
+                    "id": "identity_basis",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段references。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "reference_roles",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段references。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  }
+                ],
+                "findings": [],
+                "character_checks": [],
+                "inherited_review_sources": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                    "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                    "role": "已通过314记录和统一取景独立复核"
+                  }
+                ],
+                "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+              }
+            }
+          ]
+        },
+        "composition": {
+          "status": "passed",
+          "required_checks": [
+            "story_relation",
+            "framing",
+            "staging"
+          ],
+          "attempts": [
+            {
+              "id": "composition-01",
+              "kind": "plan",
+              "producer": "/root/wuyi_sequence_audit",
+              "tool": "read-only sources and inherited approved projection",
+              "prompt": "按已核验314统一取景和本帧原结构关节点规划吴懿动作线稿；此处是既有空间依据的继承，不是新成品复核。",
+              "inputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                  "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                  "role": "吴懿S1唯一身份服装母版"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                  "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                  "role": "吴懿身份、衣袖、饰物规则"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                  "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                  "role": "已独立核验的314线稿，统一画风和取景依赖"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                  "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                  "role": "已通过314记录和统一取景独立复核"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                  "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                  "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                }
+              ],
+              "outputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                }
+              ],
+              "review": {
+                "reviewer": "/root/blockout_plan_review (原动作骨架315—333既有独立复核) + /root (本轮统一取景及逐帧执行指令)",
+                "verdict": "pass",
+                "checks": [
+                  {
+                    "id": "story_relation",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段composition。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "framing",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段composition。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "staging",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段composition。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ],
+                    "observations": {
+                      "camera": "1672×941横版统一取景；原坐标x′=4.5x−331,y′=4.5y−1832，不逐帧单独缩放人物。",
+                      "action_target": "吴懿画面左侧自身右手逐渐放下，小核雕舟在左上方悬空；肘[1063.5, 513.4]，腕[1034.3, 568.3]；舟边界[642.5, 225.6, 866, 350]。",
+                      "action_space": "人物在右侧，舟在左上，物掌留清楚间隙；左侧保留随后放大空间。",
+                      "route": "人物不行走；原镜头拉远和位移由统一映射保留；无新增背景通道。",
+                      "continuity": "沿已验314造型与统一取景；原315—333动作骨架已经在108帧结构研究中复核，本帧按实际点位降手；不继承314固定抬腕。"
+                    }
+                  }
+                ],
+                "findings": [],
+                "character_checks": [],
+                "inherited_review_sources": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                    "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                    "role": "已通过314记录和统一取景独立复核"
+                  }
+                ],
+                "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+              },
+              "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+            }
+          ]
+        },
+        "space": {
+          "status": "passed",
+          "required_checks": [
+            "layout",
+            "grounding",
+            "staging"
+          ],
+          "attempts": [
+            {
+              "id": "space-01",
+              "kind": "plan",
+              "producer": "/root/wuyi_sequence_audit",
+              "tool": "read-only sources and inherited approved projection",
+              "prompt": "按已核验314统一取景和本帧原结构关节点规划吴懿动作线稿；此处是既有空间依据的继承，不是新成品复核。",
+              "inputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                  "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                  "role": "吴懿S1唯一身份服装母版"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                  "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                  "role": "吴懿身份、衣袖、饰物规则"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                  "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                  "role": "已独立核验的314线稿，统一画风和取景依赖"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                  "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                  "role": "已通过314记录和统一取景独立复核"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                  "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                  "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                }
+              ],
+              "outputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                }
+              ],
+              "review": {
+                "reviewer": "/root/blockout_plan_review (原动作骨架315—333既有独立复核) + /root (本轮统一取景及逐帧执行指令)",
+                "verdict": "pass",
+                "checks": [
+                  {
+                    "id": "layout",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段space。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "grounding",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段space。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "staging",
+                    "result": "pass",
+                    "observation": "继承已验314身份参考与统一取景，按本帧block和manifest实际关节点细化。原结构315—333已由独立审阅者检查；本记录不声明新成品已通过。阶段space。",
+                    "evidence": [
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                        "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                        "role": "吴懿S1唯一身份服装母版"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                        "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                        "role": "吴懿身份、衣袖、饰物规则"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                        "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                        "role": "第333帧已复核动作结构"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                        "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                        "role": "已独立核验的314线稿，统一画风和取景依赖"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                        "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                        "role": "已通过314记录和统一取景独立复核"
+                      },
+                      {
+                        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                        "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                        "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                      }
+                    ],
+                    "observations": {
+                      "camera": "1672×941横版统一取景；原坐标x′=4.5x−331,y′=4.5y−1832，不逐帧单独缩放人物。",
+                      "action_target": "吴懿画面左侧自身右手逐渐放下，小核雕舟在左上方悬空；肘[1063.5, 513.4]，腕[1034.3, 568.3]；舟边界[642.5, 225.6, 866, 350]。",
+                      "action_space": "人物在右侧，舟在左上，物掌留清楚间隙；左侧保留随后放大空间。",
+                      "route": "人物不行走；原镜头拉远和位移由统一映射保留；无新增背景通道。",
+                      "continuity": "沿已验314造型与统一取景；原315—333动作骨架已经在108帧结构研究中复核，本帧按实际点位降手；不继承314固定抬腕。"
+                    }
+                  }
+                ],
+                "findings": [],
+                "character_checks": [],
+                "inherited_review_sources": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                    "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                    "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                    "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                    "role": "已通过314记录和统一取景独立复核"
+                  }
+                ],
+                "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+              },
+              "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86"
+            }
+          ]
+        },
+        "sketch": {
+          "status": "in_progress",
+          "required_checks": [
+            "identity",
+            "anatomy",
+            "continuity",
+            "staging"
+          ],
+          "attempts": [
+            {
+              "id": "sketch-01",
+              "kind": "image",
+              "producer": "/root/wuyi_sequence_audit",
+              "tool": "image_gen.imagegen",
+              "prompt": "绘制吴懿动作序列第333帧的单张成品。横版1672×941（16:9），纯白底细灰黑线稿，无文字、序号、教程栏、色彩、背景场景或拼图。\n参考1是吴懿唯一S1身份服装母版；参考2是本帧动作结构，仅用姿态关系，不画方块；参考3是已验314成品，严格继承它的人物大小、脸、头发、冠饰、服装线条密度、留白取景。只按本帧稍移动小舟与放下动作手，不换脸、不改变画风、不重新居中或放大人物。\n本帧具体屏幕坐标（1672×941）：头心1133.8,341.5，颈1131,391.4，画面左/右肩1082,417.1/1184.6,417.1；近侧（画左、人物自身右）肘1063.5,513.4、腕1034.3,568.3，另一肘1247.6,472、腕1205.3,516.1；骨盆1135.5,570.5；双足1099.5,850.9/1196.8,854。身体全身仍画面右侧，完整发冠到双脚，头肩基本稳定。动作手在逐渐降下；上臂垂下，前臂按肘腕位置弯曲，手心随降手转向斜内侧，五指自然松开，不能沿用314较高的手，不能横向伸直展示，不能握拳投掷。手腕自然从S1宽袖口伸出，圆缓收束袖底随降手下垂。另一手保持腰旁；眼看向左上方的小舟。\n小舟的唯一边界约左上(642.5,225.6)右下(866,350)，严格按此大小和位置，舟与手有可见空隙。舟刚开始变大，按给定边界约50×26原片像素（225×117输出像素），不得提前画成占半张的大船。\n锁吴懿同一成年长鹅蛋脸、柔圆小下巴、细长眉眼、小鼻、闭唇克制表情、极小圆额点；中分盘髻、原瓣翼冠饰、长发分束与耳坠项圈。锁原不对称胸口、三层叠襟、窄腰带、长垂带、长裙和平底闭口鞋。不镜像衣襟；不增加首饰，不改韩立护腕、现代服饰或陌生美型脸。仅灰黑细线，少量发束线和衣褶，别加浓重阴影或毛孔；人物和舟之外留白。保持相邻帧的画面连续性。\n重要位置核验：小舟中心必须在画幅宽45.1%、高30.6%，位于人物脸的左侧，其中心与动作腕的垂直距离约280像素。相对参考3的小舟中心（约907,355）须向左移动153像素、向上移动67像素，尺寸约224×124像素。不能把小舟留在手掌近旁或沿用参考3舟的位置。\n动作纠正的硬要求：本帧动作腕已经低于肘关节55像素，腕的纵坐标为568.3（画幅高60.4%），处在腰带下方。上臂贴近身体向下，前臂从肘向左下方倾斜62度，不是向左上方托物。手指放松随降手转向，绝不把动作手重新抬高到314参考里的胸口。袖口也必须跟随降低，衣袖底部低垂；另一只手继续腰旁。掌托已经完成，此刻是放下空手。\n手臂已经接近放下状态，画左动作腕应接近骨盆的高度，明确低于腰带80—100像素。腕低于肘，五指松垂朝左下，不能做平掌展示。脸、躯干、另一只手和两脚照参考3原位不动，只改变动作前臂和下垂宽袖。\n舟的大小必须随变化增加：本帧舟体宽224像素、高124像素，宽度约为吴懿头部宽度的3.2倍。不可继续画成参考3那种仅一指节宽的小船；本帧舟只在上述左侧边界内稍展开，人物身高、脸和衣服细节严格保持前段一致。",
+              "inputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                  "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                  "role": "吴懿S1唯一身份服装母版"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                  "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                  "role": "吴懿身份、衣袖、饰物规则"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000333.png",
+                  "sha256": "e5292259a8f05eaddf6f5521c5df30e444250f7112e050fce00192cdd5443f06",
+                  "role": "第333帧已复核动作结构"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.png",
+                  "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                  "role": "已独立核验的314线稿，统一画风和取景依赖"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000314.json",
+                  "sha256": "2615137995f194b57d6f76ffd7011a2eee3d3e75fbc536244aed007df7e991fb",
+                  "role": "已通过314记录和统一取景独立复核"
+                },
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_frames\\manifest.json",
+                  "sha256": "ff009db52edf7d73d55d1e88498161620f03e5c8c6bb570317c3a71ab1240767",
+                  "role": "全部结构帧及原始逐帧位置、既有独立复核"
+                }
+              ],
+              "outputs": [
+                {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+                  "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+                  "role": "第333帧吴懿独立imagegen线稿，待root独立复核"
+                }
+              ],
+              "review": null,
+              "staging_sha256": "461ffa73eb9d726a8315fd1b0f4b19c55d44ab14afb26a3d836b80f145cf4e86",
+              "identity_input": {
+                "method": "reference_images",
+                "call_id": "exec-e101304d-9073-4d05-a1f8-63c2b50c0e93",
+                "arguments": {
+                  "prompt": "绘制吴懿动作序列第333帧的单张成品。横版1672×941（16:9），纯白底细灰黑线稿，无文字、序号、教程栏、色彩、背景场景或拼图。\n参考1是吴懿唯一S1身份服装母版；参考2是本帧动作结构，仅用姿态关系，不画方块；参考3是已验314成品，严格继承它的人物大小、脸、头发、冠饰、服装线条密度、留白取景。只按本帧稍移动小舟与放下动作手，不换脸、不改变画风、不重新居中或放大人物。\n本帧具体屏幕坐标（1672×941）：头心1133.8,341.5，颈1131,391.4，画面左/右肩1082,417.1/1184.6,417.1；近侧（画左、人物自身右）肘1063.5,513.4、腕1034.3,568.3，另一肘1247.6,472、腕1205.3,516.1；骨盆1135.5,570.5；双足1099.5,850.9/1196.8,854。身体全身仍画面右侧，完整发冠到双脚，头肩基本稳定。动作手在逐渐降下；上臂垂下，前臂按肘腕位置弯曲，手心自然朝上或随降手略转，五指自然松开，不能沿用314较高的手，不能横向伸直展示，不能握拳投掷。手腕自然从S1宽袖口伸出，圆缓收束袖底随降手下垂。另一手保持腰旁；眼看向左上方的小舟。\n小舟的唯一边界约左上(642.5,225.6)右下(866,350)，严格按此大小和位置，舟与手有可见空隙。舟刚开始变大，按给定边界约50×26原片像素（225×117输出像素），不得提前画成占半张的大船。\n锁吴懿同一成年长鹅蛋脸、柔圆小下巴、细长眉眼、小鼻、闭唇克制表情、极小圆额点；中分盘髻、原瓣翼冠饰、长发分束与耳坠项圈。锁原不对称胸口、三层叠襟、窄腰带、长垂带、长裙和平底闭口鞋。不镜像衣襟；不增加首饰，不改韩立护腕、现代服饰或陌生美型脸。仅灰黑细线，少量发束线和衣褶，别加浓重阴影或毛孔；人物和舟之外留白。保持相邻帧的画面连续性。\n重要位置核验：小舟中心必须在画幅宽45.1%、高30.6%，位于人物脸的左侧，其中心与动作腕的垂直距离约280像素。相对参考3的小舟中心（约907,355）须向左移动153像素、向上移动67像素，尺寸约224×124像素。不能把小舟留在手掌近旁或沿用参考3舟的位置。",
+                  "referenced_image_paths": [
+                    "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/shenfengzhou_blocks/block_000333.png",
+                    "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wuyi_lineart/frame_000314.png"
+                  ],
+                  "transparent_background": false
+                }
+              }
+            }
+          ]
+        },
+        "color": {
+          "status": "pending",
+          "required_checks": [
+            "identity",
+            "structure_preserved",
+            "palette_light",
+            "staging"
+          ],
+          "attempts": []
+        },
+        "preview": {
+          "status": "pending",
+          "required_checks": [
+            "identity",
+            "actual_composite",
+            "dialogue_safe_area",
+            "staging"
+          ],
+          "attempts": []
+        },
+        "delivery": {
+          "status": "pending",
+          "required_checks": [
+            "identity",
+            "provenance",
+            "adoption_scope",
+            "staging"
+          ],
+          "attempts": []
+        }
+      },
+      "original_registration_observed": {
+        "observer": "/root/wuyi_sequence_audit producer visual estimate",
+        "head_center": [
+          1091,
+          315
+        ],
+        "foot_points": [
+          [
+            1047,
+            875
+          ],
+          [
+            1148,
+            875
+          ]
+        ],
+        "boat_bbox": [
+          602,
+          252,
+          715,
+          302
+        ],
+        "boat_center": [
+          658.5,
+          277.0
+        ],
+        "near_wrist": [
+          969,
+          555
+        ],
+        "uncertainty_px": 8,
+        "status": "uncalibrated; root to align then independently review; not continuity pass"
+      },
+      "original_write_receipt": {
+        "source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+        "target": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000333.png",
+        "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+        "bytes": 1026525,
+        "file_id": 2533274790406179,
+        "created_exclusively": true,
+        "readback_equal": true,
+        "source_structure_unmodified": true
+      },
+      "native_immutable_output": {
+        "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+        "sha256": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+        "role": "初稿不可变生成器原图，写回前与工程333帧逐字节相同"
+      },
+      "resolution": "本轮对旧333转脸突变与舟逆向缩小的复核记录。旧工程输出由同哈希的不可变工具原图核验，原调用路径和提示词保持在此历史中。"
+    }
+  ],
+  "actual_attempt_budget": {
+    "actual_imagegen_calls": 1,
+    "actual_native_revisions": 2,
+    "count_all_sketch_attempts": 3,
+    "remaining_default_attempts": 0,
+    "note": "两次原位写回均在同一记录记载；首次与第二次已分别有真实读回指纹。"
+  },
+  "local_edit_2026_11_05": {
+    "operation": "在源RGB缓冲内局部编辑。人物以S1和相邻五官、肩、腰、手、足对应位置约束原墨，核舟在单独区域等比放大；区域边缘平滑衔接。两区域以外为原像素。",
+    "author": "/root",
+    "curve_control_source_to_destination": [
+      [
+        906,
+        218,
+        906,
+        218
+      ],
+      [
+        906,
+        903,
+        906,
+        903
+      ],
+      [
+        965,
+        218,
+        965,
+        218
+      ],
+      [
+        965,
+        903,
+        965,
+        903
+      ],
+      [
+        1045,
+        218,
+        1045,
+        218
+      ],
+      [
+        1045,
+        903,
+        1045,
+        903
+      ],
+      [
+        1125,
+        218,
+        1125,
+        218
+      ],
+      [
+        1125,
+        903,
+        1125,
+        903
+      ],
+      [
+        1215,
+        218,
+        1215,
+        218
+      ],
+      [
+        1215,
+        903,
+        1215,
+        903
+      ],
+      [
+        1268,
+        218,
+        1268,
+        218
+      ],
+      [
+        1268,
+        903,
+        1268,
+        903
+      ],
+      [
+        906,
+        245,
+        906,
+        245
+      ],
+      [
+        1268,
+        245,
+        1268,
+        245
+      ],
+      [
+        906,
+        322,
+        906,
+        322
+      ],
+      [
+        1268,
+        322,
+        1268,
+        322
+      ],
+      [
+        906,
+        400,
+        906,
+        400
+      ],
+      [
+        1268,
+        400,
+        1268,
+        400
+      ],
+      [
+        906,
+        510,
+        906,
+        510
+      ],
+      [
+        1268,
+        510,
+        1268,
+        510
+      ],
+      [
+        906,
+        610,
+        906,
+        610
+      ],
+      [
+        1268,
+        610,
+        1268,
+        610
+      ],
+      [
+        906,
+        715,
+        906,
+        715
+      ],
+      [
+        1268,
+        715,
+        1268,
+        715
+      ],
+      [
+        906,
+        830,
+        906,
+        830
+      ],
+      [
+        1268,
+        830,
+        1268,
+        830
+      ],
+      [
+        906,
+        884,
+        906,
+        884
+      ],
+      [
+        1268,
+        884,
+        1268,
+        884
+      ],
+      [
+        1114,
+        240,
+        1133.76,
+        241.04
+      ],
+      [
+        1082,
+        246,
+        1105.4,
+        245.48
+      ],
+      [
+        1097,
+        258,
+        1119.36,
+        258
+      ],
+      [
+        1134,
+        257,
+        1152.72,
+        255.96
+      ],
+      [
+        1149,
+        282,
+        1172.4,
+        282.52
+      ],
+      [
+        1060,
+        291,
+        1079.24,
+        290.48
+      ],
+      [
+        1066.5,
+        282.4,
+        1085.32,
+        281.88
+      ],
+      [
+        1078.6,
+        281.4,
+        1095.45,
+        281.71
+      ],
+      [
+        1091.5,
+        282.6,
+        1106.32,
+        282.91
+      ],
+      [
+        1062.1,
+        299.7,
+        1081.44,
+        299.13
+      ],
+      [
+        1073.8,
+        302.6,
+        1089.87,
+        302.08
+      ],
+      [
+        1083.4,
+        303.1,
+        1097.7,
+        302.27
+      ],
+      [
+        1097.5,
+        300,
+        1111.9,
+        299.58
+      ],
+      [
+        1063.2,
+        307.2,
+        1082.08,
+        306.68
+      ],
+      [
+        1068.1,
+        308.5,
+        1085.57,
+        307.46
+      ],
+      [
+        1074.4,
+        308.5,
+        1090.1,
+        307.41
+      ],
+      [
+        1064.8,
+        311,
+        1083.1,
+        310.22
+      ],
+      [
+        1072.9,
+        311.1,
+        1089.07,
+        310.32
+      ],
+      [
+        1086.3,
+        308.2,
+        1099.98,
+        307.42
+      ],
+      [
+        1091.4,
+        309.4,
+        1104.82,
+        308.46
+      ],
+      [
+        1100.4,
+        306.7,
+        1114.08,
+        306.39
+      ],
+      [
+        1090.6,
+        311.3,
+        1104.33,
+        310.62
+      ],
+      [
+        1078.5,
+        298.1,
+        1093.42,
+        297.42
+      ],
+      [
+        1075.3,
+        314,
+        1090.28,
+        313.22
+      ],
+      [
+        1073.1,
+        323.6,
+        1086.98,
+        322.4
+      ],
+      [
+        1076.2,
+        325.4,
+        1088.84,
+        323.79
+      ],
+      [
+        1083.2,
+        325.1,
+        1095.16,
+        324.01
+      ],
+      [
+        1077.4,
+        330.9,
+        1089.88,
+        330.07
+      ],
+      [
+        1086,
+        332.2,
+        1099.1,
+        331.16
+      ],
+      [
+        1080,
+        334.1,
+        1093,
+        333.16
+      ],
+      [
+        1073.5,
+        335,
+        1088.32,
+        334.79
+      ],
+      [
+        1080,
+        343.6,
+        1094.82,
+        342.92
+      ],
+      [
+        1085.1,
+        344,
+        1100.75,
+        342.7
+      ],
+      [
+        1099.4,
+        337.5,
+        1115.99,
+        336.82
+      ],
+      [
+        1114,
+        314.6,
+        1131,
+        313.61
+      ],
+      [
+        1122.2,
+        318.7,
+        1139.1,
+        317.61
+      ],
+      [
+        1114.2,
+        328,
+        1131.31,
+        327.38
+      ],
+      [
+        1063.9,
+        319.3,
+        1083.56,
+        317.84
+      ],
+      [
+        1065.8,
+        326.8,
+        1083.79,
+        325.86
+      ],
+      [
+        1088,
+        350,
+        1106.2,
+        349.74
+      ],
+      [
+        1114,
+        350,
+        1131.16,
+        348.96
+      ],
+      [
+        1081,
+        359,
+        1098.32,
+        357.49
+      ],
+      [
+        1122,
+        358,
+        1137.96,
+        357.32
+      ],
+      [
+        1061,
+        360,
+        1078,
+        359.5
+      ],
+      [
+        1050,
+        373,
+        1069.5,
+        372
+      ],
+      [
+        1041,
+        390,
+        1060.5,
+        390.5
+      ],
+      [
+        1148,
+        372,
+        1160.5,
+        370
+      ],
+      [
+        1167,
+        389,
+        1180.5,
+        388
+      ],
+      [
+        1092,
+        377,
+        1109.5,
+        376
+      ],
+      [
+        1062,
+        455,
+        1076.5,
+        453.5
+      ],
+      [
+        1132,
+        455,
+        1143.5,
+        453
+      ],
+      [
+        1097,
+        467,
+        1111.5,
+        466.5
+      ],
+      [
+        1060,
+        477,
+        1075.5,
+        476
+      ],
+      [
+        1131,
+        477,
+        1143,
+        474.5
+      ],
+      [
+        1019,
+        474,
+        1038.5,
+        473.5
+      ],
+      [
+        1020,
+        499,
+        1037.5,
+        500
+      ],
+      [
+        968,
+        548,
+        992,
+        550
+      ],
+      [
+        936,
+        592,
+        968.5,
+        596.5
+      ],
+      [
+        952,
+        587,
+        981,
+        590.5
+      ],
+      [
+        978,
+        560,
+        1003,
+        561
+      ],
+      [
+        1007,
+        635,
+        1020.5,
+        636.5
+      ],
+      [
+        1215,
+        454,
+        1226,
+        453
+      ],
+      [
+        1183,
+        583,
+        1193.5,
+        580.5
+      ],
+      [
+        1140,
+        507,
+        1154,
+        504.5
+      ],
+      [
+        1106,
+        508,
+        1119.5,
+        504.5
+      ],
+      [
+        1011,
+        635,
+        1026.5,
+        635
+      ],
+      [
+        1174,
+        635,
+        1187,
+        635
+      ],
+      [
+        974,
+        839,
+        990,
+        838
+      ],
+      [
+        1219,
+        840,
+        1233.5,
+        839.5
+      ],
+      [
+        1042,
+        873,
+        1056.5,
+        872
+      ],
+      [
+        1149,
+        874,
+        1162.5,
+        873
+      ],
+      [
+        1090,
+        857,
+        1104,
+        855.5
+      ]
+    ],
+    "boat_scale": 2.285,
+    "boat_center_before": [
+      658.5,
+      276
+    ],
+    "boat_center_after": [
+      694,
+      305
+    ],
+    "write_receipt": {
+      "before": "7d3621a5b7f25d1cb9dce9b5f9b1fb5b7c1048a1b93b3ef78eb4b479e42130ae",
+      "after": "4d4eb65c878fb7df77556e0e3dba4ead2e1ba2b1e1d8a04b2fca5edcbacb41a1",
+      "pixelhash": "d6cb7717c4109be28d55976e4c36c3cf45a054ccc1cc2cf7769236107195f3ac",
+      "bytes": 756205,
+      "size": [
+        1672,
+        941
+      ],
+      "native_method": "FileMode.Open; same handle, Flush(true), on-disk encoded/decoded verification"
+    },
+    "onsite_pixels": {
+      "file_id": 2533274790406179,
+      "post_sha256": "4d4eb65c878fb7df77556e0e3dba4ead2e1ba2b1e1d8a04b2fca5edcbacb41a1",
+      "original_source": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-daad-7993-af97-dc342a17eb00\\exec-e101304d-9073-4d05-a1f8-63c2b50c0e93.png",
+      "before_boat": [
+        603,
+        251,
+        714,
+        301
+      ],
+      "after_boat": [
+        566,
+        247,
+        821,
+        362
+      ],
+      "total_pixels_changed": 220915,
+      "person_pixels_changed": 187656,
+      "person_face_pixels_changed": 15129,
+      "boat_pixels_changed": 33259,
+      "outside_edit_areas_changed": 0,
+      "face_roi": [
+        1050,
+        234,
+        1188,
+        356
+      ],
+      "person_roi": [
+        906,
+        218,
+        1268,
+        903
+      ],
+      "boat_roi": [
+        552,
+        234,
+        837,
+        378
+      ],
+      "width": 1672,
+      "height": 941,
+      "stable_neighbors": [
+        {
+          "frame": 332,
+          "sha256": "06955e720c72d1330c4525ae41b212143384c49657cda97a0692e4718134fe5e"
+        },
+        {
+          "frame": 334,
+          "sha256": "d835f1f955fb9392cceaa5d7a12209aceb23e5f8e3af81ac882a68d163c08194"
+        }
+      ]
+    },
+    "second_local_write": {
+      "actual_write": {
+        "before": "4d4eb65c878fb7df77556e0e3dba4ead2e1ba2b1e1d8a04b2fca5edcbacb41a1",
+        "after": "d518d15d6d25f22ac757141ad728bade3a8aef59a218594a443811de1b9a8028",
+        "changed_pixels": 34642,
+        "outside_boat_changed": 0,
+        "bytes": 779084,
+        "size": [
+          1672,
+          941
+        ],
+        "pixelhash": "679454e493c0759a29d023a925a4b65cf080ca75551f0c3d11ddd0b83230b0fd"
+      },
+      "before_visual_review": {
+        "reviewer": "/root/wuyi_sequence_audit",
+        "result": "人物、解剖、舟宽与位置通过；舟线偏粗和单篷到三层突变需修",
+        "sha256": "4d4eb65c878fb7df77556e0e3dba4ead2e1ba2b1e1d8a04b2fca5edcbacb41a1"
+      },
+      "method": "System.Drawing原画布上仅在舟选区内提取同纸白底，使用抗锯齿灰墨曲线勾出尚未完全展开的双檐、栏窗、正在显形的凤首和羽尾。人物逐像素沿用第一处原位修改。",
+      "final_measurements": {
+        "changed_vs_initial": 215324,
+        "outside_both_regions_vs_initial": 0,
+        "head_roi_changed_vs_initial": 15129,
+        "ship_bounds_inclusive": [
+          566,
+          247,
+          820,
+          363
+        ],
+        "ship_width": 255,
+        "neighbor_ship_widths": [
+          165,
+          255,
+          401
+        ],
+        "ship_centers_consecutive": [
+          [
+            712,
+            273
+          ],
+          [
+            693,
+            305
+          ],
+          [
+            676,
+            335
+          ]
+        ]
+      }
+    }
+  }
+}

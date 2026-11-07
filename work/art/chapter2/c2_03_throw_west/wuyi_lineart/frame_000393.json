@@ -1,0 +1,1096 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "wuyi_lineart_393",
+    "request": "第393帧吴懿白底线稿，保留结构动作；用户允许另存成品。",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "2026-11-05用户允许本轮另存吴懿线稿成品，保留现有结构稿；root分派本次仅399，原生结果先送审。",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+      "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+      "role": "本帧原结构动作"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "S1身份母版"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+      "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+      "role": "已验314原生线描风格"
+    },
+    {
+      "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+      "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+      "role": "已验399原生木楼船与线描风格"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+      "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+      "role": "正式楼船结构参考"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "吴懿身份、衣装、画风标准"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+      "role": "125核雕小舟，129三层楼船低悬街面"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+      "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+      "role": "当前第三场分镜"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "S1身份母版"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "吴懿身份、衣装、画风标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "全身远景朝画面左舟，近侧面需核对；若生成脸小到不可识别须记unverified"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "统一16:9白底远景，原480x852到1672x941按x=4.5x-331,y=4.5y-1832；目标1920x1080如生成则同比缩放",
+    "anchors": "第393帧统一取景头[1442.0, 445.0]；足[1397.0, 782.5]/[1503.5, 787.0]；肩肘腕[1404.5, 500.5]/[1382.0, 551.5]/[1362.5, 569.5]。原点是手工约3—6px原图误差。",
+    "action_target": "吴懿向左方木楼船缓缓抬右手，按本帧肩肘腕，不跳到399伸手最终状态",
+    "action_space": "舟在左、人物最右，两者保持空隙，给舱楼显露范围；上方40%和左方25%留白",
+    "route": "站定的动作序列，不新增行走；原片镜头变化造成位置与尺度变化",
+    "continuity": "序列第393帧，延续同一人物和木楼船，镜头拉远/右移及动作严格依据本帧block；不是乘舟飞行",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+        "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+        "role": "本帧原结构动作"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+        "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+        "role": "正式楼船结构参考"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+        "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "role": "125核雕小舟，129三层楼船低悬街面"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+        "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+        "role": "当前第三场分镜"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "wy",
+        "position": "头心[1442.0, 445.0]，完整全身在最右区域；第393帧原始空间对应",
+        "footing": "双鞋以两足点支撑干燥地面简短落地线，衣裙内结构为推定",
+        "facing": "头胸胯轻侧向画面左舟，侧向强于314，不能镜像不对称衣领",
+        "gaze": "左前方悬空舟体",
+        "scale_depth": "全组统一坐标变换；生成的整体位置漂移将由root原位摆位校准，校准前不宣称空间通过",
+        "occlusion": "长裙遮腿、宽袖遮部分肘；手与舟间隙和可见近侧脸保留"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "S1成年身份/衣装/闭唇",
+      "第393帧原block姿势、人物右侧",
+      "原结构稿保持不变",
+      "同一取景变换x=4.5x-331,y=4.5y-1832"
+    ],
+    "allowed_changes": [
+      "方块结构转吴懿线稿",
+      "移除教学排版",
+      "核舟显露木质舱楼结构"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_far_end",
+          "tool": "local reference inspection and root assigned staging plan",
+          "prompt": "第393帧：沿原block动作和统一视图制作S1吴懿木楼船线稿",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_far_end",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "用户授权本轮108帧转吴懿线稿，本记录只对应第393帧",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "吴懿向左方木楼船缓缓抬右手，按本帧肩肘腕，不跳到399伸手最终状态",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+          },
+          "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_far_end",
+          "tool": "local reference inspection and root assigned staging plan",
+          "prompt": "第393帧：沿原block动作和统一视图制作S1吴懿木楼船线稿",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_far_end",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "已实际查看S1母版，锁定成年长鹅蛋脸、闭唇、盘髻冠饰与服装结构",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "block399锁姿态，S1锁身份，c2_03_reveal仅提供木船舱楼结构，不取神风舟绿光弧壳",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+          },
+          "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_far_end",
+          "tool": "local reference inspection and root assigned staging plan",
+          "prompt": "第393帧：沿原block动作和统一视图制作S1吴懿木楼船线稿",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_far_end",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "吴懿最右朝左舟伸手，一人一舟，完整全身",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "统一坐标变换，主体在右下，画面上方/左方留白；船体不侵占人物",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "root提供统一坐标视图并指定各帧原block约束。原108帧block已完成全帧独立空间复核，本次只将体块转为吴懿和楼船细节。成品空间需另验。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ],
+                "observations": {
+                  "camera": "统一16:9白底远景，原480x852到1672x941按x=4.5x-331,y=4.5y-1832；目标1920x1080如生成则同比缩放",
+                  "action_target": "吴懿向左方木楼船缓缓抬右手，按本帧肩肘腕，不跳到399伸手最终状态",
+                  "action_space": "舟在左、人物最右，两者保持空隙，给舱楼显露范围；上方40%和左方25%留白",
+                  "route": "站定的动作序列，不新增行走；原片镜头变化造成位置与尺度变化",
+                  "continuity": "序列第393帧，延续同一人物和木楼船，镜头拉远/右移及动作严格依据本帧block；不是乘舟飞行"
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+          },
+          "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_far_end",
+          "tool": "local reference inspection and root assigned staging plan",
+          "prompt": "第393帧：沿原block动作和统一视图制作S1吴懿木楼船线稿",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "第393帧统一取景头[1442.0, 445.0]；足[1397.0, 782.5]/[1503.5, 787.0]；肩肘腕[1404.5, 500.5]/[1382.0, 551.5]/[1362.5, 569.5]。原点是手工约3—6px原图误差。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "双足落点稳定；长裙内膝为原片遮挡推定，不声称3D测量",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "root提供统一坐标视图并指定各帧原block约束。原108帧block已完成全帧独立空间复核，本次只将体块转为吴懿和楼船细节。成品空间需另验。",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                    "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+                    "role": "本帧原结构动作"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "S1身份母版"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                    "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+                    "role": "已验314原生线描风格"
+                  },
+                  {
+                    "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                    "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+                    "role": "已验399原生木楼船与线描风格"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "正式楼船结构参考"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+                    "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+                    "role": "吴懿身份、衣装、画风标准"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "125核雕小舟，129三层楼船低悬街面"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+                    "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+                    "role": "当前第三场分镜"
+                  }
+                ],
+                "observations": {
+                  "camera": "统一16:9白底远景，原480x852到1672x941按x=4.5x-331,y=4.5y-1832；目标1920x1080如生成则同比缩放",
+                  "action_target": "吴懿向左方木楼船缓缓抬右手，按本帧肩肘腕，不跳到399伸手最终状态",
+                  "action_space": "舟在左、人物最右，两者保持空隙，给舱楼显露范围；上方40%和左方25%留白",
+                  "route": "站定的动作序列，不新增行走；原片镜头变化造成位置与尺度变化",
+                  "continuity": "序列第393帧，延续同一人物和木楼船，镜头拉远/右移及动作严格依据本帧block；不是乘舟飞行"
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+          },
+          "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "in_progress",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root/wuyi_far_end",
+          "tool": "image_gen.imagegen",
+          "prompt": "制作吴懿动作序列第393帧的完成线稿。横版16:9目标1920×1080，纯白底，灰黑细线，无字无边栏，无背景、光效或其他人。参考1是本帧动作骨架，优先服从它的姿态而非其它参考的姿势；参考2锁吴懿S1身份服装；参考3仅锁吴懿线描风格；参考4和5锁同一三层木楼船造型。\n人物只占画高约38%，站在最右方朝左看船，千万不要放大为满幅人物大立绘。若输出1672×941，本帧主要位置：头心[1442,445]，自身右肩/画面左肩[1404,501]，该侧肘[1382,552]，腕[1363,570]，双脚[1397,783]/[1504,787]。她正将已放低的自身右手缓缓向左方舟抬起伸出；严格按本帧方块肩肘腕高度，不要一下跳到399最终姿势。另一手始终近腰，肘向外微张。头、胸胯、裙摆、双鞋协调朝画面左，脚踩简短轻落地线，不坐船。手从真正圆缓收束的袖口露出，宽袖和长裙随动作自然下垂。\n左方一艘悬空三层木楼船，外形完全延续参考4的楼船（不要换船）：三层檐顶、木板厚船壳、栏杆、雕刻鸟首及尾，不画绿色弧壳。船居画面中部偏左，约x523—1174，底缘约y720；可见舱楼向上延伸，总高度仍控制在中下半幅。船和人物分开，空隙清楚，不接手、不落地、不入水。相较399，位置尺度依本帧骨架略有差别。\n吴懿必须与S1是同一位成年女性：长鹅蛋脸与自然柔圆下颌、细长眉眼、小鼻、闭唇克制神情、额心极小圆点；近中分前发平顺、盘髻长发、瓣翼冠饰与细链耳坠项圈。不要尖锥脸、大眼少女或硬朗男性。保留S1不对称胸口（不能镜像）、三层叠襟、一条窄腰带与垂带、圆缓宽袖、长裙和平底闭口鞋。真实成年比例、完整冠饰到鞋底。只用细线条和少量衣褶，不上色、不画大面积灰影、不填黑头发，不重新设计衣服花纹。船和人保持同一种细线密度。\n双鞋平稳分开，要保留原block中水平足距（约人物头脸宽的2.5倍），裙摆覆盖两腿但双鞋清楚分开。右手从髋旁略抬，指尖指向船侧下方，腕约在腰带高度；上臂仍向下，前臂斜向左下、近45度，不可横平托掌。",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+              "sha256": "b03b31a8621bb6f68e590db5df5701ad92175e2c3784305a12dc71c4c431e76a",
+              "role": "本帧原结构动作"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "S1身份母版"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+              "sha256": "f62a374d04ad71610e2f3cec4ee86cb681a976555594b3f35819ef7dbe724e8f",
+              "role": "已验314原生线描风格"
+            },
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+              "sha256": "6891d67fd68312a3f2f5408620ae9f8abd0181b0a00c6ddc99c81524b521a989",
+              "role": "已验399原生木楼船与线描风格"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "正式楼船结构参考"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "吴懿身份、衣装、画风标准"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "125核雕小舟，129三层楼船低悬街面"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\Codex\\chapter2_storyboard.md",
+              "sha256": "45b866213502ad62291f77cb13bf624f8f385503c8fb9a6575a0f75641a47524",
+              "role": "当前第三场分镜"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-bcfcd980-070e-4cc7-b6c8-4beb56a8dff9.png",
+              "sha256": "642153bbfbfcd3099c29377df9abb58379228f6823ca2c852e432ca410b8e549",
+              "role": "第393帧imagegen原生输出"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000393.png",
+              "sha256": "642153bbfbfcd3099c29377df9abb58379228f6823ca2c852e432ca410b8e549",
+              "role": "第393帧吴懿线稿成品；待root独立复核及整体位置校准"
+            }
+          ],
+          "review": null,
+          "staging_sha256": "7e3d616006b014a31563e83a72e3aafa0bc3a9db912d7a5f8cadd2740b8c4d6d",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "exec-bcfcd980-070e-4cc7-b6c8-4beb56a8dff9",
+            "arguments": {
+              "prompt": "制作吴懿动作序列第393帧的完成线稿。横版16:9目标1920×1080，纯白底，灰黑细线，无字无边栏，无背景、光效或其他人。参考1是本帧动作骨架，优先服从它的姿态而非其它参考的姿势；参考2锁吴懿S1身份服装；参考3仅锁吴懿线描风格；参考4和5锁同一三层木楼船造型。\n人物只占画高约38%，站在最右方朝左看船，千万不要放大为满幅人物大立绘。若输出1672×941，本帧主要位置：头心[1442,445]，自身右肩/画面左肩[1404,501]，该侧肘[1382,552]，腕[1363,570]，双脚[1397,783]/[1504,787]。她正将已放低的自身右手缓缓向左方舟抬起伸出；严格按本帧方块肩肘腕高度，不要一下跳到399最终姿势。另一手始终近腰，肘向外微张。头、胸胯、裙摆、双鞋协调朝画面左，脚踩简短轻落地线，不坐船。手从真正圆缓收束的袖口露出，宽袖和长裙随动作自然下垂。\n左方一艘悬空三层木楼船，外形完全延续参考4的楼船（不要换船）：三层檐顶、木板厚船壳、栏杆、雕刻鸟首及尾，不画绿色弧壳。船居画面中部偏左，约x523—1174，底缘约y720；可见舱楼向上延伸，总高度仍控制在中下半幅。船和人物分开，空隙清楚，不接手、不落地、不入水。相较399，位置尺度依本帧骨架略有差别。\n吴懿必须与S1是同一位成年女性：长鹅蛋脸与自然柔圆下颌、细长眉眼、小鼻、闭唇克制神情、额心极小圆点；近中分前发平顺、盘髻长发、瓣翼冠饰与细链耳坠项圈。不要尖锥脸、大眼少女或硬朗男性。保留S1不对称胸口（不能镜像）、三层叠襟、一条窄腰带与垂带、圆缓宽袖、长裙和平底闭口鞋。真实成年比例、完整冠饰到鞋底。只用细线条和少量衣褶，不上色、不画大面积灰影、不填黑头发，不重新设计衣服花纹。船和人保持同一种细线密度。\n双鞋平稳分开，要保留原block中水平足距（约人物头脸宽的2.5倍），裙摆覆盖两腿但双鞋清楚分开。右手从髋旁略抬，指尖指向船侧下方，腕约在腰带高度；上臂仍向下，前臂斜向左下、近45度，不可横平托掌。",
+              "referenced_image_paths": [
+                "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000393.png",
+                "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                "C:\\Users\\MSI\\.codex\\generated_images\\01a1a52b-6de8-7fd2-8b8d-6f2ef3716be3\\exec-e6c36b36-8146-49d7-a70d-f46f2d6fc7cd.png",
+                "C:\\Users\\MSI\\.codex\\generated_images\\01a1a922-3b89-7a72-aab8-12715c70a36e\\exec-da91215b-f30d-4e5f-b896-5a1d17a57142.png",
+                "F:\\project\\JianlaiWhentheSwordArrives\\game\\images\\chapter2\\c2_03_reveal_v1.png"
+              ],
+              "transparent_background": false
+            }
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "用户允许本轮另存吴懿线稿成品，保留现有结构稿；整体位置待root校准",
+    "selected": [],
+    "asset_specs": [],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "reference_limitations": [
+    "舟变化中木楼细节属于依据现有三层楼船的补全，不能声称来自神风舟原片测量"
+  ],
+  "actual_generation": {
+    "native_size": [
+      1672,
+      941
+    ],
+    "format": "PNG",
+    "bytes": 1412868,
+    "sha256": "642153bbfbfcd3099c29377df9abb58379228f6823ca2c852e432ca410b8e549",
+    "workspace_png_saved": true,
+    "generation_call_id": "exec-bcfcd980-070e-4cc7-b6c8-4beb56a8dff9",
+    "producer_observation": "右腕约齐腰，手背朝上斜向左，三层楼船完全分离；掌面方向与392略有波动。",
+    "review_pending": "/root"
+  },
+  "registration_observed": {
+    "head_center": [
+      1378,
+      473
+    ],
+    "feet_baseline": 856,
+    "feet_points_approx": [
+      [
+        1322,
+        848
+      ],
+      [
+        1403,
+        848
+      ]
+    ],
+    "boat_bounds": [
+      320,
+      239,
+      1171,
+      728
+    ],
+    "status": "pending_root_registration",
+    "pose_observation": "右腕约齐腰，手背朝上斜向左，三层楼船完全分离；掌面方向与392略有波动。",
+    "observation_method": "生成原图实际看图，手工估计，未独立复核"
+  }
+}

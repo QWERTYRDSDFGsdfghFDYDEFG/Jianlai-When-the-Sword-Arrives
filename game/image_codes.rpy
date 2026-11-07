@@ -29,7 +29,7 @@ image bg cg02_02_05 = "bg c2_02_consider_v1"
 image bg cg02_02_06 = "bg c2_02_accept_v1"
 image bg cg02_03_01 = "bg c2_03_quay_v2"
 image bg cg02_03_02 = "bg c2_03_throw_v1"
-image bg cg02_03_03 = "bg c2_03_reveal_v1"
+image bg cg02_03_03 = "bg c2_03_reveal_v2"
 image bg cg02_03_04 = "bg c2_03_papers_v1"
 image bg cg02_03_05 = "bg c2_03_maids_v1"
 image bg cg02_03_06 = "bg c2_03_board_v1"
@@ -67,6 +67,7 @@ image peiqian o01_p01_e01 = "peiqian c2_08_pq_listen_v1"
 image peiqian o01_p01_e09 = "peiqian c2_08_pq_talk_v1"
 image zl o01_p01_e02 = "zl c2_08_zl_listen_v1"
 image zl o01_p01_e09 = "zl c2_08_zl_talk_v1"
+image bg cg02_09_01 = "bg c2_end_slow_v1"
 
 define IMAGE_CODE_NAMES = {
     "CG01·01·01": "bg cg01_01_01",
@@ -134,7 +135,8 @@ define IMAGE_CODE_NAMES = {
     "立绘02·01·01·01": "peiqian o01_p01_e01",
     "立绘02·01·01·09": "peiqian o01_p01_e09",
     "立绘06·01·01·02": "zl o01_p01_e02",
-    "立绘06·01·01·09": "zl o01_p01_e09"
+    "立绘06·01·01·09": "zl o01_p01_e09",
+    "CG02·09·01": "bg cg02_09_01"
 }
 
 define _IMAGE_CODE_UNAVAILABLE = {

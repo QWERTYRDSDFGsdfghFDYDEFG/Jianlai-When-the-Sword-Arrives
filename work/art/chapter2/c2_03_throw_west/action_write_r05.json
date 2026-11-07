@@ -1,0 +1,98 @@
+{
+  "original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+  "old_sha256": "ebfe2f720075af052de31801bbdd037596f1b495f20779e275bad9e7743aa0a6",
+  "new_sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+  "rgba_sha256": "c6e1b3debf48a72ab8f743700bf8fb9c1cefddb97ab73b3631f773cecc9af4d9",
+  "same_file_id": "30000000279f4",
+  "written_bytes": 2061457,
+  "file_length": 2083383,
+  "native": [
+    1672,
+    941
+  ],
+  "changed_pixels": 23194,
+  "wu_pixels": 6959,
+  "chen_pixels": 16235,
+  "outside_action_and_contact_shadow_regions_changed": 0,
+  "head_check_changed": 0,
+  "boat_pixels_changed": 0,
+  "bounds": [
+    722,
+    323,
+    1225,
+    751
+  ],
+  "local_generation": {
+    "source_sha256": "aecb728cc9e8073309ba6f7aac0e631fa977ae7dd11d1bfcc591129ce68cfc1a",
+    "source_request": "action_request_r05.json",
+    "method": "Registered far sleeve and open right hand taken from the local image. Adjusted elbow crease and modest upper shoulder rotation; retained original head, near sleeve/hand and both feet."
+  },
+  "wu": {
+    "right_fingertip": [
+      727.31,
+      329.4300754387565
+    ],
+    "boat_center": [
+      710,
+      322
+    ],
+    "wrist_est": [
+      762,
+      345
+    ],
+    "elbow_drape_est": [
+      775,
+      360
+    ],
+    "shoulder_advance_max_px": 3.8
+  },
+  "chen": {
+    "part": "wall_cpa_settle_r05.png",
+    "source_sha": "8a7cc5b38aa04502db1cc71fbf4d0c7f2f8ad58c3b4d33bac35cd796170e28d7",
+    "foot_before_after_local": {
+      "support": [
+        [
+          50,
+          340
+        ],
+        [
+          50,
+          340
+        ]
+      ],
+      "rear_forefoot": [
+        [
+          75.5,
+          374.3
+        ],
+        [
+          67,
+          363
+        ]
+      ],
+      "rear_heel": [
+        [
+          110,
+          357
+        ],
+        [
+          105.6,
+          363.8
+        ]
+      ]
+    },
+    "contact_band_local": [
+      71,
+      104,
+      365
+    ],
+    "same_source_projection": [
+      1003,
+      337,
+      198,
+      411
+    ],
+    "ground_shadow_height": 400
+  },
+  "game_integration": "not_requested"
+}

@@ -1,0 +1,1527 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "c2_03_throw_west",
+    "request": "开始修改",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "delivery",
+    "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。",
+    "target_size": [
+      1920,
+      1080
+    ],
+    "edit_original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+    "target_native_size": [
+      1672,
+      941
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+      "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+      "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r04.json",
+      "sha256": "a691abcca222778b6a13bee5f6a0b1fabae42a0d0545ea944c5b80838f872a47",
+      "role": "r04已完成沿墙调度并留下身份不可全验及下镜限制，继承重试预算"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+      "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+      "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+      "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+      "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+      "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+      "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+      "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+      "role": "cpa已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+      "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+      "role": "cpa身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "wy已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "wy身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+      "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+      "role": "zl已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+      "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+      "role": "zl身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+      "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+      "role": "pq已确认脸部母版"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+      "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+      "role": "pq身份及适用衣装标准"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_request_r05.json",
+      "sha256": "fdbd92faa8ec03ed60960716fc75680d79a7159bc005461c4f45c7bf97dd730c",
+      "role": "本轮吴懿局部实际请求的精确prompt与四母版显式路径"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_wu_input_r05.png",
+      "sha256": "8beebfb096f60263d1c23ad33886e1df5d66a32d94abbaa0f14d5305595ec1e6",
+      "role": "原画(685,276,210,228)吴懿与舟局部抠出后放大5倍，生成输入"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "cpa",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+          "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+          "role": "cpa已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+          "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+          "role": "cpa身份及适用衣装标准"
+        },
+        "visibility": "not_visible",
+        "visibility_reason": "本镜沿街向前看舟，人物背对镜头，观察仅见后脑和侧耳颈，正侧面五官被转头与头发完整遮去。"
+      },
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "wy已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "wy身份及适用衣装标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "按选定背三分之四朝前看核舟，实际出现的侧颊/五官须对母版核验，不为露脸回望；所见不足时如实记未验证。"
+      },
+      {
+        "id": "zl",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+          "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+          "role": "zl已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+          "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+          "role": "zl身份及适用衣装标准"
+        },
+        "visibility": "visible",
+        "visibility_reason": "按选定背三分之四朝前看核舟，实际出现的侧颊/五官须对母版核验，不为露脸回望；所见不足时如实记未验证。"
+      },
+      {
+        "id": "pq",
+        "face_master": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+          "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+          "role": "pq已确认脸部母版"
+        },
+        "standard": {
+          "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+          "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+          "role": "pq身份及适用衣装标准"
+        },
+        "visibility": "not_visible",
+        "visibility_reason": "定稿调度明确裴钱完全背对镜头、朝前纵深看核舟；后脑双髻可见，不转头也不以双髻声称验脸。"
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "沿华光楼码头向西。保持第二镜原生1672×941推近视野，由左江、右铺与两层街面关系定位。上层街长轴透视约朝画面(560,235)消失点。",
+    "anchors": "柳下阶口在画面左侧，阶口及挡墙顶不得被占用。四人站高处挡墙靠街侧，保持两名退让行人与右侧木铺门槛。",
+    "action_target": "吴懿自身右肩前送，右肘略低于肩并露出折向前臂的轮廓，腕轻送张指，沿街指向悬空原舟(710,322)，保留手舟离隙。近侧左袖左手仍低垂。",
+    "action_space": "原靠江侧挡墙站位及三层楼船纵向预留带[(665,333),(823,333),(1400,550),(875,550)]保持，仅在吴肩肘腕指的小范围和陈收步后跟处修改；不把本镜预留解释为已验实船檐宽。",
+    "route": "沿墙人员不过墙顶、不占柳下阶口。船预留带外保留挡墙侧通路及铺面侧通路；清场后的两名路人须在抛掷动作线及船预留带之外。",
+    "continuity": "维持华光楼西向地理、四人原站位和核舟离手时刻。陈从前行收步转为停看，以眼前动作衔接抛舟。现行旧化船图与本镜的具体地标对渡仍待后镜处理。",
+    "evidence": [
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+        "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+        "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+        "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+        "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+        "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+        "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+      },
+      {
+        "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+        "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+        "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "wy",
+        "position": "位于队首挡墙高街一侧，脚点(845,600)，动作近边有余量。",
+        "footing": "高处干街承重，按实际裙/鞋边和接地暗部检查，核对接触暗部。",
+        "facing": "背三分之四面向街深处，自身右肩轻前送，右肘略低且折向前臂，腕与张指把动作延续到离手小舟，近侧低袖和垂手独立。",
+        "gaze": "看右手所出的前方纵深核舟，随实际指尖而非横向店铺。",
+        "scale_depth": "原生画幅目标人高约305px；居四人稍远前方，与街面透视相合。",
+        "occlusion": "保留发冠、长发与身体大轮廓，右袖与左袖须分开，右肩肘边缘避免全被长发或躯干吞没。"
+      },
+      {
+        "character_id": "cpa",
+        "position": "在吴懿、裴钱后方，朱敛右前，脚点(1082,747)，竹箱与裴钱之间留出清楚轮廓。",
+        "footing": "原(1082,747)站立带内收后步、落低后跟，合理连接前脚掌、鞋底及接触阴影，避免挤入裴和朱的足点。",
+        "facing": "保持头肩与竹箱朝沿街小舟，下半身收步停看，脚尖、膝和盆骨同向，不以转动整个身体代替收步。",
+        "gaze": "看沿街纵深离手的小舟，不为了展示正脸扭回镜头。",
+        "scale_depth": "目标人高约411px；更近于吴懿，按原身形和透视调整。",
+        "occlusion": "竹箱与身体同向，给裴钱双髻、朱敛和吴懿抛舟手留可读轮廓。"
+      },
+      {
+        "character_id": "pq",
+        "position": "在吴懿身后、陈平安左前，沿墙靠江侧更近，脚点(897,695)，与陈朱身形分开。",
+        "footing": "儿童双脚或实际遮挡部分落在高街，不能踩墙顶。",
+        "facing": "头、肩、身与脚朝前远的核舟，完全背影视角，不为验脸强转头。",
+        "gaze": "随头肩朝向前方吴懿动作与小舟，眼睛不可见。",
+        "scale_depth": "目标人高约249px，保持儿童比例和与同伴的前后深度。",
+        "occlusion": "双髻、后脑和身形辨识清楚，避免被陈的竹箱或吴的长袖完全遮没。"
+      },
+      {
+        "character_id": "zl",
+        "position": "位于沿墙队尾，脚点(992,817)；最左鞋边约x925避开近景墙柱。",
+        "footing": "两足/可见鞋底自墙顶内侧稳落上层街面，维持老人俯身稳定重心。",
+        "facing": "肩、骨盆和脚共同转向前远略左，颈轻前探观察核舟，不机械平移或镜像旧头像。",
+        "gaze": "顺吴懿投掷方向看向上层高街前方。",
+        "scale_depth": "目标人高约422px，近景清瘦驼背的老仆比例，以足点和俯身取景判断。",
+        "occlusion": "维持近景朱与陈、裴之间的独立轮廓，避免覆盖吴/舟和台阶口。"
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "本镜原幅与同一原文件。既定沿江侧挡墙的四人相对位置、上层街投掷轴、核舟中心(710,322)、柳下阶口和纵向船带。",
+      "吴头脸冠饰、陈头肩竹箱与养剑壶、朱敛、裴钱、让到两边的路人及原场景。",
+      "r04实际未验证的旧后镜地理、船檐净空、吴及朱窄颊五官保持原边界。"
+    ],
+    "allowed_changes": [
+      "吴懿自身右肩轻前送，右肘稍低于肩并露出连接轮廓，手腕沿街前送轻垂、手指自然张开。近侧低垂的左袖和左手保持可辨。",
+      "陈平安收后步、降低后跟，仍在原站位，保留绑腿、鞋底朝向及合理接触阴影。"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": [
+      {
+        "stage": "brief",
+        "extra_reworks": 1,
+        "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。"
+      },
+      {
+        "stage": "references",
+        "extra_reworks": 1,
+        "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。"
+      },
+      {
+        "stage": "composition",
+        "extra_reworks": 1,
+        "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。"
+      },
+      {
+        "stage": "space",
+        "extra_reworks": 1,
+        "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。"
+      },
+      {
+        "stage": "sketch",
+        "extra_reworks": 1,
+        "authorization": "用户本轮在吴懿肩肘腕指和陈平安收步落跟的具体修订方案后答“开始修改”。仅为本次动作局部修订给此前已用尽的必要阶段增加一次尝试。"
+      }
+    ]
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "复读当前剧本、用户动作范围和r04落位，并实际查看原图与指定局部",
+          "prompt": "按本轮明确动作修订重核brief，维持本镜已有站位和投掷轴。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r04.json",
+              "sha256": "a691abcca222778b6a13bee5f6a0b1fabae42a0d0545ea944c5b80838f872a47",
+              "role": "r04已完成沿墙调度并留下身份不可全验及下镜限制，继承重试预算"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+              "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+              "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/CPA_FACE_IDENTITY_STANDARD.md",
+              "sha256": "6b6bfc74727927efef846543aa258f45f2bfb01ab8daf9bcd8bb707e4522b2fb",
+              "role": "cpa身份及适用衣装标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "wy身份及适用衣装标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/zl_face_ref.md",
+              "sha256": "129ee6e4737e307c11a943a61a538c33a29de5216f9dc8153f70478813719c10",
+              "role": "zl身份及适用衣装标准"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/PEIQIAN_FACE_IDENTITY_STANDARD.md",
+              "sha256": "7bb534d60d05619101e97297578e7e747d243422a5af8b74ca4d84fec493bf64",
+              "role": "pq身份及适用衣装标准"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "已核剧本125/129行与当前原图，修的是核舟刚离手时肩肘腕指和陈的收步；用户已明确开始修改。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "吴施术、陈裴朱见证，船尚未展开。收步与张指让同一时刻读得更清楚。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/faces_v2_record",
+          "tool": "复读当前剧本、用户动作范围和r04落位，并实际查看原图与指定局部",
+          "prompt": "按本轮明确动作修订重核references，维持本镜已有站位和投掷轴。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+              "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+              "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "本轮再次查看四份已登记母版、实际原图、吴肩肘和陈后腿局部。保持原有背向/窄侧颊视图，脸部未验证项不由动作修改升级。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "沿用r04原幅、四人位置及服装，实际图像请求需含新动作局部和四份母版。陈下半身以原画几何和实际接触地平校准。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  }
+                ]
+              }
+            ],
+            "findings": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "复读当前剧本、用户动作范围和r04落位，并实际查看原图与指定局部",
+          "prompt": "按本轮明确动作修订重核composition，维持本镜已有站位和投掷轴。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+              "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+              "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "cpa已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "wy已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "zl已确认脸部母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "pq已确认脸部母版"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/faces_v2_record",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "吴在前沿街抛舟，陈在右后停看，朱裴原位。右手的沿街递出节奏和陈落跟均服务这一下已离手的时刻。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "已看原画上半身与后腿局部。原画幅、核舟、阶口、路人与四人位置固定，动作局部可在原构图中检查。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "已将 r04 落位与本轮动作改动逐项对照，小范围校准不需移动大站位或舟位。",
+                "observations": {
+                  "camera": "同一西向推近视图，左江右铺。",
+                  "action_target": "右肩、可见右肘、腕和指指向既有手舟纵深线。",
+                  "action_space": "吴袖和后腿局部分属原舞台上两处独立区域，船预留带在人物前方。",
+                  "route": "挡墙与柳下阶口保持，陈后跟落在既有足点邻域。",
+                  "continuity": "抬臂与收步同属小舟离手一拍；正式下镜地理及檐高仍待核。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d"
+          },
+          "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root",
+          "tool": "对照r04实际画面和本轮局部动作要求，独立核可用空间、袖层及后脚落点",
+          "prompt": "核验局部动作是否能在原沿街站位成立，独立确认范围与限制。",
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+              "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+              "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            }
+          ],
+          "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d",
+          "review": {
+            "reviewer": "/root/wall_stage_verification",
+            "verdict": "pass",
+            "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "已核实际剧本125、129行与 r04 原整图。两项局部修改分属吴上肢和陈下腿，不需移动岸侧四人或既有核舟。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "陈的后脚可在原立足带内收近、压低后跟，与朱裴足点保持间距。写入后须核鞋底和接触暗部。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "独立审者确认 r05 前置空间方案可进入局部制作；近袖低手和抛袖肩根须保持可分。",
+                "observations": {
+                  "camera": "同一华光楼西望推近镜头，前镜既有岸墙锚点保持。",
+                  "action_target": "远侧右肩小幅前送，肘稍低于肩后折向前臂，腕轻垂张指，指与舟心(710,322)保留离手间隙。",
+                  "action_space": "抛舟线沿街斜上左，两个袖口与肩根避免粘成同侧。其余人、核舟和未来船带固定。",
+                  "route": "陈在原站位区收腿，不踩进裴朱脚位，原阶口及沿铺通路不受方案影响。",
+                  "continuity": "保留当前离手瞬间与既定沿街方案；后续正式楼船实际净空和地理关系仍须另验。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "scope": "计划的可行性通过，非写后解剖或实机通过。",
+            "binding_acknowledged_by_reviewer": "独立空间员明确确认前置观察绑定d4863303…。"
+          }
+        }
+      ]
+    },
+    "sketch": {
+      "status": "blocked",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root",
+          "tool": "image_gen对吴懿上肢局部带母版修订，陈平安下半身用原画几何校正；合成时回填指定动作区到同一原文件。",
+          "prompt": "在参考图1这张孤立的透明局部上做动作修正。保持与图1同样纵向画幅、人物尺度、裁切位置，保持左上小核舟、吴懿的头部、盘髻、发饰、背向镜头微向左的视角、衣装图案、腰的位置、低垂的那只左手都在原位置。原有场景只给了吴懿从髻顶到腰以下的一段局部；输出也只要这一段，透明底，不要补全成全身，不要画街道、地面、文字、箭头或边框。只画吴懿，图片3、4、5中的角色均不出现在这个局部；图2是吴懿S1身份母版，用于衣装、皮肤和用线。\n\n需要重画的只有施术的右肩、右肘、右腕与其宽袖。画一个轻投很小的木舟刚脱手的瞬间。去掉参考图1里“掌心向上、指尖全竖起、前臂没露出、像摊手展示”的姿态。这是克制的投掷随动，右臂的肩—肘—腕应在缩小五倍时也看得出分段。让远侧右肩随重心小幅向街深处前送，头部仍看左前方核舟。右肘稍向身体外打开，露出一段从肩到肘的斜线和宽袖外缘的明确折角；肘稍低于肩。让前臂从肘再向画面左前上方伸出，较图1露出更多前臂与腕，斜向舟。手背及手的侧面朝观者可见，手腕自然略落，手指刚松开掷出的小舟，食指中指沿前方伸，另外几指放松微曲，拇指自然，不能五指并拢比手势。手不要僵硬地点指，不要掌心朝天；手指离开舟后和舟之间有清楚的小段透明空气。以图1局部的比例，肩约在画幅宽55–63%高36%，露出的肘部折点可落在宽40–44%高40–43%，腕约宽31–35%高28–32%，放松的指尖约宽22–26%高28%，核舟仍在左上宽12%高20%。这是朝画面左侧且向远处的轻轻一掷，不是横向大幅挥袖。肩与肘之间以及肘与腕之间均要在人物轮廓外读得出来，布袖随肘转折自然下垂，袖口和皮肤相接。近侧的另一只宽袖及低垂左手保持自然，严禁多手或在肩颈处凭空冒出的手。保持原画低饱和青蓝金边、浅绿内袖、自然柔和日光、哑光细线设色，局部主体必须有真正透明边缘。",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "functions.exec cell g2:54; tools.image_gen__imagegen exact arguments loaded from action_request_r05.json; 2026-11-02 current root chat",
+            "arguments": {
+              "referenced_image_paths": [
+                "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_wu_input_r05.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png"
+              ],
+              "transparent_background": true,
+              "prompt": "在参考图1这张孤立的透明局部上做动作修正。保持与图1同样纵向画幅、人物尺度、裁切位置，保持左上小核舟、吴懿的头部、盘髻、发饰、背向镜头微向左的视角、衣装图案、腰的位置、低垂的那只左手都在原位置。原有场景只给了吴懿从髻顶到腰以下的一段局部；输出也只要这一段，透明底，不要补全成全身，不要画街道、地面、文字、箭头或边框。只画吴懿，图片3、4、5中的角色均不出现在这个局部；图2是吴懿S1身份母版，用于衣装、皮肤和用线。\n\n需要重画的只有施术的右肩、右肘、右腕与其宽袖。画一个轻投很小的木舟刚脱手的瞬间。去掉参考图1里“掌心向上、指尖全竖起、前臂没露出、像摊手展示”的姿态。这是克制的投掷随动，右臂的肩—肘—腕应在缩小五倍时也看得出分段。让远侧右肩随重心小幅向街深处前送，头部仍看左前方核舟。右肘稍向身体外打开，露出一段从肩到肘的斜线和宽袖外缘的明确折角；肘稍低于肩。让前臂从肘再向画面左前上方伸出，较图1露出更多前臂与腕，斜向舟。手背及手的侧面朝观者可见，手腕自然略落，手指刚松开掷出的小舟，食指中指沿前方伸，另外几指放松微曲，拇指自然，不能五指并拢比手势。手不要僵硬地点指，不要掌心朝天；手指离开舟后和舟之间有清楚的小段透明空气。以图1局部的比例，肩约在画幅宽55–63%高36%，露出的肘部折点可落在宽40–44%高40–43%，腕约宽31–35%高28–32%，放松的指尖约宽22–26%高28%，核舟仍在左上宽12%高20%。这是朝画面左侧且向远处的轻轻一掷，不是横向大幅挥袖。肩与肘之间以及肘与腕之间均要在人物轮廓外读得出来，布袖随肘转折自然下垂，袖口和皮肤相接。近侧的另一只宽袖及低垂左手保持自然，严禁多手或在肩颈处凭空冒出的手。保持原画低饱和青蓝金边、浅绿内袖、自然柔和日光、哑光细线设色，局部主体必须有真正透明边缘。"
+            }
+          },
+          "inputs": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+              "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+              "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+              "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+              "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+              "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+              "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+              "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+              "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_request_r05.json",
+              "sha256": "fdbd92faa8ec03ed60960716fc75680d79a7159bc005461c4f45c7bf97dd730c",
+              "role": "本轮吴懿局部实际请求的精确prompt与四母版显式路径"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_wu_input_r05.png",
+              "sha256": "8beebfb096f60263d1c23ad33886e1df5d66a32d94abbaa0f14d5305595ec1e6",
+              "role": "本次生成请求实际传入的局部或身份母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "本次生成请求实际传入的局部或身份母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+              "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+              "role": "本次生成请求实际传入的局部或身份母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+              "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+              "role": "本次生成请求实际传入的局部或身份母版"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+              "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+              "role": "本次生成请求实际传入的局部或身份母版"
+            }
+          ],
+          "process_assets": [
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_cpa_settle_r05.png",
+              "sha256": "8a7cc5b38aa04502db1cc71fbf4d0c7f2f8ad58c3b4d33bac35cd796170e28d7",
+              "role": "陈平安原画下半身几何收步部件，原框内后跟(110,357)至(105.6,363.8)，shoe sole y365；上身与前脚不变。"
+            },
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a196a0-17d4-75a1-b51a-9ffcd610fa9d/exec-2f7082d6-b9f2-4d37-881a-6be2ef7edc22.png",
+              "sha256": "aecb728cc9e8073309ba6f7aac0e631fa977ae7dd11d1bfcc591129ce68cfc1a",
+              "role": "g2:54实际返回的1203×1307透明局部；仅远侧抛舟袖、腕和手用于本机动作校准和原位回填。"
+            }
+          ],
+          "non_generative_component": {
+            "part": "陈平安下身局部原画收步，不独立生成新人物",
+            "source_evidence": {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_cpa_settle_r05.png",
+              "sha256": "8a7cc5b38aa04502db1cc71fbf4d0c7f2f8ad58c3b4d33bac35cd796170e28d7",
+              "role": "陈平安原画下半身几何收步部件，原框内后跟(110,357)至(105.6,363.8)，shoe sole y365；上身与前脚不变。"
+            }
+          },
+          "outputs": [
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+              "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+              "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+              "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+              "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/identity_wy_zl_v2 + /root/wall_stage_verification",
+            "verdict": "blocked",
+            "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "unverified",
+                "observation": "对最终同一画面逐人核对，头部核验区像素差异为零。吴、朱背侧窄颊未能验清五官，陈、裴为剧情背影。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "实际全图及吴手腕4倍、陈后脚3倍观察。腕与轻张手指沿街送出，近侧左袖垂手保持；陈后鞋更平、后跟降低，停步可读。远肘大半受宽袖和近肩遮挡，另一脚承重不可证。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "本镜核舟和头像核验区零变化，轻送与收步都在原时刻。后续楼船实物与地标对应未做实机核验。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "独立空间员核最终原图与吴手脚观测，四人朝向、通道及船位保持，仍为沿街纵深抛舟。",
+                "observations": {
+                  "camera": "同一西向原幅、左江右铺及沿岸挡墙。",
+                  "action_target": "吴腕轻折，指端与核舟分离，结合舟的位置读作轻送；单独看手仍可能像轻点。",
+                  "action_space": "肘被宽袖遮住部分，沿街抬手和指舟间隙可读，干街船预留带保持。",
+                  "route": "陈后腿在自己的原站带收步，阶口与铺前通路保持，未侵入朱裴位置。",
+                  "continuity": "仍是核舟刚离手，既有后镜实地对渡和楼船檐高依然待正式镜头验证。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_action_r05.json",
+                    "sha256": "06499a6d6488c6577f3eaddbf6869c84e71d4cda721831b8aa2b783377b79727",
+                    "role": "本轮动作修订授权、局部要求、剧情及原图写前基线"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用西望无人背景，地标、两层街面、柳阶及铺前行动空间"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_reveal_v1.png",
+                    "sha256": "a86db34d34b903db3cf6a436a03f3ec255749bb3a089cf6f9137aec2a3b55a07",
+                    "role": "当前后镜三层船纵向外形、地理及反打关系，非本轮替换对象"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_write_r04.json",
+                    "sha256": "1dbed4522fc009c01c088022eb61a2c7351ca7d3311597d1f6c9666c4fffd14f",
+                    "role": "r04实际落位、右手与舟锚点和路人保护的真实写入记录"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              }
+            ],
+            "character_checks": [
+              {
+                "character_id": "wy",
+                "result": "unverified",
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                  "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                },
+                "view": "实际看最终全图及头区[782,286,856,360]×4、手舟[691,305,798,408]×4。",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "placement_reviewer": "/root/wall_stage_verification",
+                "observation": "背向露窄颊耳，脸龄、眉眼与鼻唇比例不足以对母版验清；本轮头区差分为零。",
+                "comparisons": {
+                  "face_shape": "背后可见少许腮与耳，完整下颌不清。",
+                  "features": "眼鼻唇不能按S1侧脸逐项核对。",
+                  "age": "身形是成年女性，脸部年龄信息不足。",
+                  "hair": "盘髻、长发分束和冠饰可辨。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "独立查看本轮最终同一整图及动作局部，四人站位朝向和通路与r05方案相符；动作边界外像素零差分。",
+                  "observations": {
+                    "position": "队首先行，较远地站在挡墙街侧。",
+                    "footing": "裙摆/可见鞋在上层街面，足点处于船带近端后方。",
+                    "facing": "吴肩和远袖前送，腕折、手指开放，近侧低手与远侧抬袖可区分。远肘大半在宽袖和近肩后。",
+                    "gaze": "头向和沿街投掷共同指向悬空核舟，不能由不可见眼睛确认精确瞳孔落点。",
+                    "scale_depth": "比另外三人远，画幅内约305px，人头、肩和身形无明显比例突变。",
+                    "occlusion": "宽袖保留肩肘自然遮挡，指与舟之间有可读距离，近侧低袖及手保持可分。"
+                  }
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              },
+              {
+                "character_id": "zl",
+                "result": "unverified",
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                  "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                },
+                "view": "实际看最终全图及头区[903,391,967,475]×4。",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "placement_reviewer": "/root/wall_stage_verification",
+                "observation": "后侧窄颊与短须可辨，无法据此核对老奴面皮的眼鼻唇及脸型。",
+                "comparisons": {
+                  "face_shape": "后侧只露窄颊和耳际，不能核对颧颊和下颌全形。",
+                  "features": "侧边短须可见，眼睑、鼻翼、薄唇的位置不可详核。",
+                  "age": "灰鬓和习惯性弯身呈年长，脸龄仍未验证。",
+                  "hair": "灰黑束发、小髻保持。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "独立查看本轮最终同一整图及动作局部，四人站位朝向和通路与r05方案相符；动作边界外像素零差分。",
+                  "observations": {
+                    "position": "在队尾靠江方向，近景朱与陈、裴分开。",
+                    "footing": "最左鞋边x925，与前景墙柱分开，双脚落在上层石面。",
+                    "facing": "略俯躬，足点与肩背共同朝街深处。",
+                    "gaze": "窄颊与收肩朝向前方抛舟动作，无法验证精确视线。",
+                    "scale_depth": "约422px、在队尾更近，老人略躬体量符合当前透视。",
+                    "occlusion": "与裴衣边有限遮叠，未遮双髻和手舟动作线。"
+                  }
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              },
+              {
+                "character_id": "cpa",
+                "result": "not_applicable",
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                  "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                },
+                "view": "实际看最终全图及头区[1010,335,1083,415]×4；后脚[1054,636,1189,753]×3。",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "placement_reviewer": "/root/wall_stage_verification",
+                "observation": "剧情背面朝街深处，头发与转向遮脸。仅后脚姿态改变。",
+                "comparisons": {
+                  "face_shape": "后脑视图，脸型不可核。",
+                  "features": "眉眼鼻唇不可见。",
+                  "age": "背书箱青年体量可辨，未验脸龄。",
+                  "hair": "黑色高髻与颈后发束保持。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "独立查看本轮最终同一整图及动作局部，四人站位朝向和通路与r05方案相符；动作边界外像素零差分。",
+                  "observations": {
+                    "position": "位于队列右后，裴右侧、朱右前，上层街近景。",
+                    "footing": "原足带内后鞋跟降低、鞋底近水平，步幅变小，可读为收步；另一足被朱衣摆遮挡，未声称双足完全承重。",
+                    "facing": "原头肩与书箱朝沿街目标，下身前行步态收小，落低后跟。",
+                    "gaze": "由后脑与偏前头向可读在看吴施术，不宣称见到瞳孔。",
+                    "scale_depth": "目标约411px，较吴靠近，背书箱体量与画面景深相合。",
+                    "occlusion": "另一足被前景朱衣摆遮挡，书箱及头肩保持原轮廓。"
+                  }
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              },
+              {
+                "character_id": "pq",
+                "result": "not_applicable",
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                  "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                },
+                "view": "实际看最终全图及头区[854,441,920,502]×4。",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "placement_reviewer": "/root/wall_stage_verification",
+                "observation": "完全背向观舟，后脑和分开的双髻可辨。",
+                "comparisons": {
+                  "face_shape": "后脑视图，不能核对短下庭。",
+                  "features": "眼、鼻、口不可见。",
+                  "age": "儿童体量保持，未验脸龄。",
+                  "hair": "两个分离发髻和夹绳保持。"
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "独立查看本轮最终同一整图及动作局部，四人站位朝向和通路与r05方案相符；动作边界外像素零差分。",
+                  "observations": {
+                    "position": "在陈靠江侧、吴身后，已由初版校准向墙边让出独立轮廓。",
+                    "footing": "双脚可见且在高街，未跨墙顶或落入阶洞。",
+                    "facing": "后脑、双肩和足尖共同朝向前远抛舟区。",
+                    "gaze": "根据朝向看前方小舟，眼线不可见。",
+                    "scale_depth": "约249px儿童体量，与前后两位成年人共同解释深度及比例。",
+                    "occlusion": "双髻、身形和脚可辨；右衣边与朱的局部遮叠符合前后关系。"
+                  }
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "R05_FACE",
+                "severity": "hard",
+                "state": "open",
+                "problem": "吴、朱只露侧后窄颊，最终成图缺少可核的眼鼻唇比例。",
+                "required_change": "保留完整Skill的脸部身份未验证状态；本次用户只要求动作局部，未安排转头验脸。",
+                "preserve": "本镜背向观舟的站位、方向和动作。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  }
+                ]
+              },
+              {
+                "id": "R05_READABILITY",
+                "severity": "soft",
+                "state": "open",
+                "problem": "单独看手还有轻点的读法，远侧肘大半被袖褶与近肩遮挡；陈另一足承重不可见。",
+                "required_change": "如需验完整肘关节或双足承重，须有相应可见机位或新证据。当前按实际整体可读性登记。",
+                "preserve": "当前沿街抛舟方向、舒展腕指和收步节奏。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+                    "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+                    "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+                    "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+                  }
+                ]
+              }
+            ]
+          },
+          "staging_sha256": "d486330328c3f04ff6fc5e9a03af95aaf9f8625bfa233d6dcc2fe7664f69163d",
+          "execution_status": "已完成用户授权的局部原位动作修订和实际同图独立复核；全镜身份门槛仍有未验证项。",
+          "generation_result": {
+            "call": "g2:54",
+            "actual_image_generations": 1,
+            "native": [
+              1203,
+              1307
+            ],
+            "target_write": "已按同一文件对象写回，并重新解码核验。"
+          },
+          "local_write": {
+            "evidence": {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+              "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+              "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+            },
+            "same_file_id": "30000000279f4",
+            "new_rgba_sha256": "c6e1b3debf48a72ab8f743700bf8fb9c1cefddb97ab73b3631f773cecc9af4d9",
+            "changed_pixels": 23194,
+            "wu_pixels": 6959,
+            "chen_pixels": 16235,
+            "outside_action_and_contact_shadow_regions_changed": 0,
+            "head_check_changed": 0,
+            "boat_pixels_changed": 0,
+            "wu_actual": {
+              "right_fingertip": [
+                727.31,
+                329.4300754387565
+              ],
+              "boat_center": [
+                710,
+                322
+              ],
+              "wrist_est": [
+                762,
+                345
+              ],
+              "elbow_drape_est": [
+                775,
+                360
+              ],
+              "shoulder_advance_max_px": 3.8
+            },
+            "chen_actual": {
+              "support": [
+                [
+                  50,
+                  340
+                ],
+                [
+                  50,
+                  340
+                ]
+              ],
+              "rear_forefoot": [
+                [
+                  75.5,
+                  374.3
+                ],
+                [
+                  67,
+                  363
+                ]
+              ],
+              "rear_heel": [
+                [
+                  110,
+                  357
+                ],
+                [
+                  105.6,
+                  363.8
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "previous_record": {
+    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r04.json",
+    "sha256": "a691abcca222778b6a13bee5f6a0b1fabae42a0d0545ea944c5b80838f872a47",
+    "role": "r04已完成沿墙调度并留下身份不可全验及下镜限制，继承重试预算"
+  },
+  "revision_reason": "上一稿的沿墙站位成立，本轮修正肩肘被掩及陈抬跟步态，重验动作层级和接地。",
+  "staging_derived_from": {
+    "record": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/record_r04.json",
+      "sha256": "a691abcca222778b6a13bee5f6a0b1fabae42a0d0545ea944c5b80838f872a47",
+      "role": "r04已完成沿墙调度并留下身份不可全验及下镜限制，继承重试预算"
+    },
+    "previous_staging_sha256": "e224a06f2c672aea6d34092155f929199763edaa3d20300b5b825acea1c09928",
+    "changes": "仅任务范围内的肩肘腕指与后脚接地方案。原站位及船位保持，新动作需按本摘要另审。"
+  },
+  "local_result": {
+    "scope": "吴懿抛舟上肢及陈平安收步落跟局部修订已原位写入。",
+    "asset": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+      "sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+      "role": "r05 吴右肩肘腕指及陈收步落跟局部修改后的原场景PNG"
+    },
+    "write_evidence": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/action_write_r05.json",
+      "sha256": "e6f974474d90cd608ae2412979273004c86a578b4c64018064f7b814c52ac298",
+      "role": "本轮原文件对象实际写回、写后RGBA、两个动作及接触影限制区域的逐像素比较"
+    },
+    "native": [
+      1672,
+      941
+    ],
+    "file_id": "30000000279f4",
+    "changed_pixels": 23194,
+    "wu_pixels": 6959,
+    "chen_and_contact_shadow_pixels": 16235,
+    "outside_action_scope_changed": 0,
+    "heads_check_changed": 0,
+    "boat_changed": 0,
+    "identity_results": {
+      "wy": "unverified",
+      "zl": "unverified",
+      "cpa": "not_applicable",
+      "pq": "not_applicable"
+    },
+    "staging": "本镜沿街投掷、四人观舟朝向和路线成立。",
+    "remaining_action_limits": [
+      "单看手略像轻点，结合核舟可读作轻送",
+      "远侧肘多数被袖和近肩挡住",
+      "另一只脚的承重不可见"
+    ],
+    "a2": {
+      "source_sha256": "6634d7a1532316390ea03ee1a9a71329214feb0645f27d851f1437bd8e26bf0d",
+      "observer": "/root/identity_wy_zl_v2",
+      "method": "最终原图叠当前桌面A2真实mask、项目字体与SVG短旁白，正文范围[218,859,640,899]。",
+      "rgb_sha256": "b64bdb61653824a2f15410924db37e8c89dda79cecd77a559e8e0a531b5d2e56",
+      "observation": "吴手、舟未遮挡；陈鞋虽处柔罩边缘仍可见。非实机。"
+    },
+    "adoption": "修订稿待用户查看，未接入游戏。",
+    "full_skill_complete": false,
+    "unverified": [
+      "吴与朱可见窄颊的完整脸部身份",
+      "正式下镜地理与楼船展开后的真实净空",
+      "实机切镜及存读档"
+    ]
+  }
+}

@@ -1,0 +1,880 @@
+{
+  "schema_version": 2,
+  "task": {
+    "scene_id": "wuyi_lineart_frame_000303",
+    "request": "第303帧吴懿掌托核舟近景线稿，按已批准的新成品另存，保留原结构稿和母版",
+    "project_root": "F:\\project\\JianlaiWhentheSwordArrives",
+    "scope": "candidate",
+    "stop_after_stage": "sketch",
+    "authorization": "2026-11-05 user: 允许本轮另存吴懿线稿成品，保留现有结构稿。Parent task assigns frame303.",
+    "target_size": [
+      1920,
+      1080
+    ]
+  },
+  "sources": [
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+      "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+      "role": "Wu Yi S1 identity and costume master"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+      "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+      "role": "Wu Yi authoritative identity/costume rules"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+      "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+      "role": "frame303 approved motion geometry"
+    },
+    {
+      "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+      "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+      "role": "current palm carved miniature boat narrative"
+    }
+  ],
+  "identity": {
+    "characters": [
+      {
+        "id": "wy",
+        "face_master": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+          "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+          "role": "Wu Yi S1 identity and costume master"
+        },
+        "standard": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+          "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+          "role": "Wu Yi authoritative identity/costume rules"
+        },
+        "visibility": "not_visible",
+        "visibility_reason": "The approved source shot is hand and forearm close-up. Head/face are outside frame."
+      }
+    ],
+    "absence_reason": ""
+  },
+  "staging": {
+    "camera": "Hand and forearm close-up derived from central action area of block303; face and torso outside view.",
+    "anchors": "Open palm and wrist are placement anchors; no ground or set needed.",
+    "action_target": "Wu Yi presents a small carved boat on her open palm before gentle release.",
+    "action_space": "Fingers open left, thumb above, small boat diagonally crosses palm; cuff behind wrist must not hide palm or boat.",
+    "route": "Hand remains connected to the forearm entering from upper right; no body travel shown.",
+    "continuity": "This is frame303 in the approved 292–313 hand close-up. Subsequent wrist rotation and departure are not substituted for this palm support phase.",
+    "evidence": [
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+        "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+        "role": "frame303 approved motion geometry"
+      },
+      {
+        "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+        "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+        "role": "current palm carved miniature boat narrative"
+      }
+    ],
+    "characters": [
+      {
+        "character_id": "wy",
+        "position": "Only hand and sleeve, across center/lower image; wrist on right and fingertips on left.",
+        "footing": "Feet outside shot; the miniature boat has visible support from palm and fingers.",
+        "facing": "Palm surface faces camera/upward, thumb above and four fingers extend left; body outside shot.",
+        "gaze": "Face and gaze outside shot.",
+        "scale_depth": "Hand and boat relative scale follows the approved block303 central drawing.",
+        "occlusion": "Boat overlaps portions of finger bases and palm; sleeve begins at wrist and must preserve the visible hand silhouette."
+      }
+    ]
+  },
+  "constraints": {
+    "locked": [
+      "Frame303 palm orientation, thumb upper, four relaxed fingers to left, wrist from upper right",
+      "Nutshell boat upper-left to lower-right long axis across palm, palm support",
+      "Wu Yi S1 adult hand and soft wide robe cuff structure",
+      "Original master and block images unchanged"
+    ],
+    "allowed_changes": [
+      "New separately saved hand/sleeve line art from geometric reference",
+      "Remove instructional headings and sidebars; frame action on white background",
+      "Replace block volumes with organic hand and S1 sleeve contours"
+    ],
+    "uncertainties": []
+  },
+  "retry_policy": {
+    "max_reworks": 2,
+    "extensions": []
+  },
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "required_checks": [
+        "source_scope",
+        "narrative_focus"
+      ],
+      "attempts": [
+        {
+          "id": "brief-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "source inspection and source-bound construction plan",
+          "prompt": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "Wu Yi S1 identity and costume master"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "Wu Yi authoritative identity/costume rules"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "current palm carved miniature boat narrative"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "source_scope",
+                "result": "pass",
+                "observation": "Read current script and parent-confirmed task. This is one separately saved frame303 study, not game replacement.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "narrative_focus",
+                "result": "pass",
+                "observation": "The palm supports a carved miniature boat before it leaves the hand.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": []
+          }
+        }
+      ]
+    },
+    "references": {
+      "status": "passed",
+      "required_checks": [
+        "identity_basis",
+        "reference_roles"
+      ],
+      "attempts": [
+        {
+          "id": "references-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "source inspection and source-bound construction plan",
+          "prompt": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "Wu Yi S1 identity and costume master"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "Wu Yi authoritative identity/costume rules"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "current palm carved miniature boat narrative"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity_basis",
+                "result": "pass",
+                "observation": "Actually viewed S1 master and read wy_face_ref.md. Face is outside this shot; cuff and hand belong to S1.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "reference_roles",
+                "result": "pass",
+                "observation": "S1 governs costume; block303 governs pose, perspective and boat-hand relationship.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              }
+            ],
+            "findings": [],
+            "character_checks": []
+          }
+        }
+      ]
+    },
+    "composition": {
+      "status": "passed",
+      "required_checks": [
+        "story_relation",
+        "framing",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "composition-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "source inspection and source-bound construction plan",
+          "prompt": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "Wu Yi S1 identity and costume master"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "Wu Yi authoritative identity/costume rules"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "current palm carved miniature boat narrative"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            }
+          ],
+          "review": {
+            "reviewer": "/root/wuyi_closeup_lead",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "story_relation",
+                "result": "pass",
+                "observation": "Only Wu Yi hand and miniature boat; no other persons or scene added.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "framing",
+                "result": "pass",
+                "observation": "Remove instructional text while retaining close-up shot and relative geometry.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ],
+                "observations": {
+                  "camera": "The source and block303 show hand close-up, not full figure.",
+                  "action_target": "Open palm supports the small boat; fingers do not grip it.",
+                  "action_space": "Boat diagonal and hand are in frame; sleeve goes behind wrist.",
+                  "route": "Forearm enters from upper right with no body travel visible.",
+                  "continuity": "Preserves frame303 support phase rather than release frames310–313."
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a"
+          },
+          "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a"
+        }
+      ]
+    },
+    "space": {
+      "status": "passed",
+      "required_checks": [
+        "layout",
+        "grounding",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "space-01",
+          "kind": "plan",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "source inspection and source-bound construction plan",
+          "prompt": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "Wu Yi S1 identity and costume master"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "Wu Yi authoritative identity/costume rules"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "current palm carved miniature boat narrative"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "layout",
+                "result": "pass",
+                "observation": "Root independently verified block303 and raw source: upper-right forearm, upper thumb, four left fingers, diagonal boat.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "grounding",
+                "result": "pass",
+                "observation": "No feet are visible. Boat support on palm is explicit and must remain readable.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "Source pose, wrist path, palm support and object diagonal explicitly bound to this plan.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ],
+                "observations": {
+                  "camera": "The source and block303 show hand close-up, not full figure.",
+                  "action_target": "Open palm supports the small boat; fingers do not grip it.",
+                  "action_space": "Boat diagonal and hand are in frame; sleeve goes behind wrist.",
+                  "route": "Forearm enters from upper right with no body travel visible.",
+                  "continuity": "Preserves frame303 support phase rather than release frames310–313."
+                }
+              }
+            ],
+            "findings": [],
+            "character_checks": [],
+            "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a"
+          },
+          "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a"
+        }
+      ]
+    },
+    "sketch": {
+      "status": "passed",
+      "required_checks": [
+        "identity",
+        "anatomy",
+        "continuity",
+        "staging"
+      ],
+      "attempts": [
+        {
+          "id": "sketch-01",
+          "kind": "image",
+          "producer": "/root/wuyi_closeup_lead",
+          "tool": "image_gen.imagegen built-in",
+          "prompt": "Create one finished animation line-art frame for Wu Yi (吴懿), frame 303 of the approved palm-held miniature talisman boat action. White paper background, refined thin dark gray ink contours, human anatomical drawing, no color fill, no gray wash, no heavy hatching. Target 1920 x 1080 landscape. ONE image, no contact sheet.\nREFERENCE ROLES:\n1. wy_full_master_v1.png is the authoritative Wu Yi costume and 2D line style reference. Only her hand and a portion of her forearm/sleeve are visible in this shot; do NOT add her face, torso, full figure or the three-view characters. Her outer robe has a wide, softly rounded hanging sleeve, a pale inner cuff/band and restrained curved linear botanical embroidery. No black leather arm guard, no armor, no bracelet. Adult graceful hand, natural skin volume, normal finger count.\n2. block_000303.png is the exact pose and object-placement reference. Ignore ALL typography, rulers, frame number, side panels and explanatory marks. Use only its central action drawing (image rectangle x360 y90 to x1560 y990). Replace its box palm and segmented block fingers with a believable drawn human hand at the SAME wrist angle, palm orientation, finger spread and perspective. The sleeve enters from upper right and the open hand points left. The forearm connects naturally to the palm through the correct sleeve opening. The thumb is above the palm; the four separate fingers point toward the left/lower left and are relaxed, slightly cupped. The palm is visibly supporting the small object, with the fingers open. This is palm presentation immediately before gentle release; not a clenched grip, throwing windup, flick, catch or pinching gesture.\nPreserve the miniature boat's diagonal long axis from upper left to lower right across the open hand, its scale relative to the palm, its projected narrow elongated hull shape and actual contact/support relationship from the block drawing. It is a small intricately carved Chinese nutshell boat talisman (核雕小舟), with a simple shallow cabin suggestion in the same compact hull volume; no large ship, no sail, no wing blades, no luminous green crystal, no flame, no explosion. Restrained fine structural lines for hull rim and carved planking, modest carving detail. The object must remain clearly readable above the palm rather than merge into fingers.\nCompose the hand, boat and sleeve together as a hand close-up occupying the middle and lower part of the landscape sheet, retaining the same relative spatial arrangement from reference 2. Remove the excess blank instructional layout and leave generous clean white space around the action. The sleeve may continue beyond the right edge, as the forearm is in the original close-up, but do not crop the fingertips or boat tips. Smooth organic skin contours and joint creases, only the necessary sleeve folds. There must be no geometric boxes, cuboid fingers, construction axes, dashed skeletons, labels, text, number, border, watermark or other person. The visible hand and sleeve must be coherent Wu Yi line art, not a filtered rendering or a block diagram.",
+          "inputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+              "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+              "role": "frame303 approved motion geometry"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+              "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+              "role": "Wu Yi S1 identity and costume master"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_face_ref.md",
+              "sha256": "a844a2cb8abaa3d07683e95cd81bbef576ead23ac86676c76c0b05b7300ae485",
+              "role": "Wu Yi authoritative identity/costume rules"
+            },
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+              "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+              "role": "current palm carved miniature boat narrative"
+            }
+          ],
+          "outputs": [
+            {
+              "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+              "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+              "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+            }
+          ],
+          "review": {
+            "reviewer": "/root",
+            "verdict": "pass",
+            "checks": [
+              {
+                "id": "identity",
+                "result": "not_applicable",
+                "observation": "Not applicable: face and hair outside the approved hand close-up. No claim of face verification.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                    "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                    "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "Root inspected actual303 with block and S1: five fingers readable, thumb above, four fingers relaxed, wrist connects naturally to cuff.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                    "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                    "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "pass",
+                "observation": "Root inspected303 boat across palm, wide cuff and fine line quality; no black arm guard.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                    "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                    "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "pass",
+                "observation": "Root inspected303: palm left, thumb upper, fingers open, hull diagonal across palm supported by it.",
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                    "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                    "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png",
+                    "sha256": "031af3c856873a2ca7f679817893c87fc9e31fe3b4e0d043944f39f1551a2dd9",
+                    "role": "frame303 approved motion geometry"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\script_chapter2.rpy",
+                    "sha256": "95ce6130891263f542ad296057f38a5dad4dd5f6e493195f64ffd9d2f6616d0d",
+                    "role": "current palm carved miniature boat narrative"
+                  }
+                ],
+                "observations": {
+                  "camera": "Hand close-up preserved, face and feet outside image.",
+                  "action_target": "Five natural open fingers and palm support the miniature boat.",
+                  "action_space": "Boat remains left-upper to right-lower across palm and sleeve does not hide hand.",
+                  "route": "Wrist exits soft broad cuff from image right/upper right.",
+                  "continuity": "This is frame303 palm support, not fist throwing or empty hand."
+                }
+              }
+            ],
+            "findings": [],
+            "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a",
+            "character_checks": [
+              {
+                "character_id": "wy",
+                "result": "not_applicable",
+                "observation": "Face intentionally outside this hand shot. Visible costume hand region matches S1 broad cuff; facial identity is not tested.",
+                "view": "Root actually viewed whole303 result,303 block and S1 master in parent thread.",
+                "image": {
+                  "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                  "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                  "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                },
+                "evidence": [
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+                    "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+                    "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+                  },
+                  {
+                    "path": "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "Wu Yi S1 identity and costume master"
+                  }
+                ],
+                "comparisons": {
+                  "face_shape": "Outside shot.",
+                  "features": "Outside shot.",
+                  "age": "Face outside shot; visible hand adult.",
+                  "hair": "Outside shot."
+                },
+                "placement": {
+                  "result": "pass",
+                  "observation": "Hand, cuff and diagonal boat match intended support action.",
+                  "observations": {
+                    "position": "Hand reaches left from upper-right forearm.",
+                    "footing": "Feet outside shot; palm supports boat.",
+                    "facing": "Palm upward/visible, thumb above, four fingers to left.",
+                    "gaze": "Face outside shot.",
+                    "scale_depth": "Small boat lies diagonally across open palm.",
+                    "occlusion": "Boat overlaps palm and finger bases; cuff stays behind wrist."
+                  }
+                }
+              }
+            ]
+          },
+          "staging_sha256": "c3a8b0eb9135384f67c13499fb8a091bcdaa7c86c897d70ee9c9e3ee4f82951a",
+          "identity_input": {
+            "method": "reference_images",
+            "call_id": "image_gen.imagegen exec-5b479e69-8aae-4786-9228-b2e2b37a5382",
+            "arguments": {
+              "prompt": "Create one finished animation line-art frame for Wu Yi (吴懿), frame 303 of the approved palm-held miniature talisman boat action. White paper background, refined thin dark gray ink contours, human anatomical drawing, no color fill, no gray wash, no heavy hatching. Target 1920 x 1080 landscape. ONE image, no contact sheet.\nREFERENCE ROLES:\n1. wy_full_master_v1.png is the authoritative Wu Yi costume and 2D line style reference. Only her hand and a portion of her forearm/sleeve are visible in this shot; do NOT add her face, torso, full figure or the three-view characters. Her outer robe has a wide, softly rounded hanging sleeve, a pale inner cuff/band and restrained curved linear botanical embroidery. No black leather arm guard, no armor, no bracelet. Adult graceful hand, natural skin volume, normal finger count.\n2. block_000303.png is the exact pose and object-placement reference. Ignore ALL typography, rulers, frame number, side panels and explanatory marks. Use only its central action drawing (image rectangle x360 y90 to x1560 y990). Replace its box palm and segmented block fingers with a believable drawn human hand at the SAME wrist angle, palm orientation, finger spread and perspective. The sleeve enters from upper right and the open hand points left. The forearm connects naturally to the palm through the correct sleeve opening. The thumb is above the palm; the four separate fingers point toward the left/lower left and are relaxed, slightly cupped. The palm is visibly supporting the small object, with the fingers open. This is palm presentation immediately before gentle release; not a clenched grip, throwing windup, flick, catch or pinching gesture.\nPreserve the miniature boat's diagonal long axis from upper left to lower right across the open hand, its scale relative to the palm, its projected narrow elongated hull shape and actual contact/support relationship from the block drawing. It is a small intricately carved Chinese nutshell boat talisman (核雕小舟), with a simple shallow cabin suggestion in the same compact hull volume; no large ship, no sail, no wing blades, no luminous green crystal, no flame, no explosion. Restrained fine structural lines for hull rim and carved planking, modest carving detail. The object must remain clearly readable above the palm rather than merge into fingers.\nCompose the hand, boat and sleeve together as a hand close-up occupying the middle and lower part of the landscape sheet, retaining the same relative spatial arrangement from reference 2. Remove the excess blank instructional layout and leave generous clean white space around the action. The sleeve may continue beyond the right edge, as the forearm is in the original close-up, but do not crop the fingertips or boat tips. Smooth organic skin contours and joint creases, only the necessary sleeve folds. There must be no geometric boxes, cuboid fingers, construction axes, dashed skeletons, labels, text, number, border, watermark or other person. The visible hand and sleeve must be coherent Wu Yi line art, not a filtered rendering or a block diagram.",
+              "referenced_image_paths": [
+                "F:\\project\\JianlaiWhentheSwordArrives\\game\\lh\\wy\\wy_full_master_v1.png",
+                "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\shenfengzhou_blocks\\block_000303.png"
+              ],
+              "transparent_background": false
+            }
+          },
+          "native_result": {
+            "path": "C:\\Users\\MSI\\.codex\\generated_images\\01a1a916-b4f3-72a3-be04-bbf8b4b76968\\exec-5b479e69-8aae-4786-9228-b2e2b37a5382.png",
+            "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+            "actual_size": [
+              1672,
+              941
+            ],
+            "target_size": [
+              1920,
+              1080
+            ],
+            "display_treatment": "Unchanged native image, byte-for-byte copy; no resize or stretch."
+          },
+          "write_receipt": {
+            "new_file": true,
+            "readback_equal": true,
+            "bytes": 1387375,
+            "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+            "file_id": 844424930145998,
+            "original_references_unchanged": true
+          },
+          "producer_observations": [
+            "Thin gray-black line art on white. Five fingers visible, palm supports diagonal miniature boat.",
+            "Soft broad cuff and curved embroidery replace block forearm; no black arm guard.",
+            "Face and feet are intentionally outside shot.",
+            "Native image1672x941 differs from requested1920x1080; unchanged to avoid unapproved resampling."
+          ]
+        }
+      ]
+    },
+    "color": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "structure_preserved",
+        "palette_light",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "preview": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "actual_composite",
+        "dialogue_safe_area",
+        "staging"
+      ],
+      "attempts": []
+    },
+    "delivery": {
+      "status": "pending",
+      "required_checks": [
+        "identity",
+        "provenance",
+        "adoption_scope",
+        "staging"
+      ],
+      "attempts": []
+    }
+  },
+  "adoption": {
+    "status": "candidate",
+    "authorization": "",
+    "selected": [],
+    "asset_specs": [
+      {
+        "asset": {
+          "path": "F:\\project\\JianlaiWhentheSwordArrives\\work\\art\\chapter2\\c2_03_throw_west\\wuyi_lineart\\frame_000303.png",
+          "sha256": "4abac175fca29f9c67c424019fe94733f72527e06df8680487517dde2234c551",
+          "role": "Generated Wu Yi hand close-up frame303 line art, pending independent review"
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "PNG RGB",
+        "display_treatment": "Native 1672x941, byte copy, not resized."
+      }
+    ],
+    "integration": {
+      "status": "not_requested",
+      "authorization": "",
+      "evidence": []
+    }
+  },
+  "space_independent_review_event": "Parent /root message after actual image inspection in preceding thread: space passes; preserve palm support and keep sleeve off palm/boat.",
+  "independent_review_event": "Root NEW_TASK: actual303 viewed and passed, face not applicable because outside shot.",
+  "registration_observed": {
+    "wrist_center_px": [
+      1089,
+      524
+    ],
+    "actual_size": [
+      1672,
+      941
+    ],
+    "method": "producer actual visual estimate: midpoint of wrist-to-cuff opening endpoints; pending root calibration",
+    "reviewer": "/root/wuyi_closeup_lead"
+  }
+}

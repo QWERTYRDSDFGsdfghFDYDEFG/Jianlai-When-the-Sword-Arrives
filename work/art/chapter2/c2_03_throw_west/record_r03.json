@@ -870,7 +870,7 @@
       ]
     },
     "sketch": {
-      "status": "in_progress",
+      "status": "blocked",
       "required_checks": [
         "identity",
         "anatomy",
@@ -936,7 +936,18 @@
               "role": "实际提交的局部或脸部母版输入"
             }
           ],
-          "outputs": [],
+          "outputs": [
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+              "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+              "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+            },
+            {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+              "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+              "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+            }
+          ],
           "identity_input": {
             "method": "reference_images",
             "call_id": "functions.exec cell g26:223; tools.image_gen__imagegen exact parameters loaded from face_request_r03.json; 2026-11-01 current root chat",
@@ -953,9 +964,433 @@
             }
           },
           "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
-          "review": null,
-          "execution_status": "last permitted local generation running; target write pending",
-          "local_scope": "仅陈鼻唇及朱眉眼唇髭等脸部细节，吴懿及其余场景像素保持；全Skill因既有space问题未通过。"
+          "review": {
+            "reviewer": "/root/identity_cpa_pq_v2 + /root/identity_wy_zl_v2",
+            "verdict": "blocked",
+            "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
+            "character_checks": [
+              {
+                "character_id": "cpa",
+                "result": "pass",
+                "reviewer": "/root/identity_cpa_pq_v2",
+                "view": "实际查看最终原幅全图、头区(945,294,79,89)最近邻4倍及脸区(976,327,35,42)9倍，重开母版第3格。",
+                "observation": "本镜可见侧脸通过，鼻孔和唇厚细线仍不能量测。",
+                "comparisons": {
+                  "face_shape": "窄颊，下颌由耳下斜收，颏端稍后退。",
+                  "features": "窄眉眼、耳位清楚，鼻尖向前、鼻底回折、短闭唇线和唇下至颏的间隔可分，与母版侧面主比例相合。",
+                  "age": "瘦长中下庭及克制窄眼读作年轻成年人，与母版年龄感相容。",
+                  "hair": "高单髻、额侧碎发和耳后颈发束保留。"
+                },
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                  "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ],
+                "placement": {
+                  "result": "pass",
+                  "observation": "结合最终全图、前轮真实站位观察和本次两脸蒙版外零差分，当前抛舟站位保持。",
+                  "observations": {
+                    "position": "在朱右前、裴左后、吴后方，与计划同位；全图和零差分写入证据相符。",
+                    "footing": "原双鞋落在干街，距挡墙边有石面；回填区不触及足点。",
+                    "facing": "腿、骨盆、肩和右向侧头总体朝画右，当前头部外形延续。",
+                    "gaze": "头向支持看吴施术方向；眼线精确落点不另宣称。",
+                    "scale_depth": "原全身、足点和景深保持，未以屏幕像素高重定身高。",
+                    "occlusion": "书箱遮背与右侧同伴重叠保留，面部轮廓独立可见。"
+                  }
+                }
+              },
+              {
+                "character_id": "wy",
+                "result": "pass",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "view": "实际重开最终整图及S1母版，原区(1070,422,85,91)内存最近邻6倍。",
+                "observation": "本镜可见侧脸通过，第二次写入吴懿像素零变化。",
+                "comparisons": {
+                  "face_shape": "下颌收束且为小圆下巴，与S1侧脸相合。",
+                  "features": "细长近眼和鼻唇落点清楚。",
+                  "age": "脸部为成年比例。",
+                  "hair": "弧形前发、盘髻与长发衔接连续。"
+                },
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                  "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ],
+                "placement": {
+                  "result": "pass",
+                  "observation": "结合最终全图、前轮真实站位观察和本次两脸蒙版外零差分，当前抛舟站位保持。",
+                  "observations": {
+                    "position": "近景前侧上层干街，三旅人在后，动作地标关系保持。",
+                    "footing": "裙摆最低处贴街，鞋受长裙遮挡，只验可见裙摆接地。",
+                    "facing": "躯干向右，原右臂和侧头共同指向动作区；两袖与后垂手仍可区分。",
+                    "gaze": "侧头朝向指尖前核舟，精确瞳孔落点不另宣称。",
+                    "scale_depth": "原成年近景体量与全身比例保持，未整体放大人物。",
+                    "occlusion": "原发尾、袖口、后方裴钱遮挡及手舟空隙保持。"
+                  }
+                }
+              },
+              {
+                "character_id": "zl",
+                "result": "pass",
+                "reviewer": "/root/identity_wy_zl_v2",
+                "view": "实际重开最终整图与固定老脸母版，原区(837,298,59,67)内存最近邻8倍。",
+                "observation": "本镜可见侧脸通过；微小唇峰、左右非对称和细皱纹未验证。",
+                "comparisons": {
+                  "face_shape": "窄脸及下颊颌线收束，额鼻颏位置可读。",
+                  "features": "眉峰和稍低靠后的窄眼线可分别定位，鼻底暗折与闭唇位置分开，髭靠上唇，下唇与颏须已有明暗分界。",
+                  "age": "灰鬓、眼眶和收瘦颊面呈老年。",
+                  "hair": "额角略退、黑灰后梳和后上小髻与母版对应。"
+                },
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                  "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ],
+                "placement": {
+                  "result": "pass",
+                  "observation": "结合最终全图、前轮真实站位观察和本次两脸蒙版外零差分，当前抛舟站位保持。",
+                  "observations": {
+                    "position": "朱在后左靠挡墙而非阶洞，和陈前后关系保持。",
+                    "footing": "可见双鞋落在干街并有接触暗部，身体原位。",
+                    "facing": "弯腰颈前倾、肩背收着和向右头部相连贯。",
+                    "gaze": "头向支持看抛舟动作，原尺寸瞳孔精确落点不可核。",
+                    "scale_depth": "较后景体量符合既定前后深度，不改变全身尺度。",
+                    "occlusion": "头脸基本独立，未移到手舟动作线或遮住同伴。"
+                  }
+                }
+              },
+              {
+                "character_id": "pq",
+                "result": "not_applicable",
+                "reviewer": "/root/identity_cpa_pq_v2",
+                "view": "最终整图中仍为朝前观舟的后脑，结合上轮原像素局部及写入记录中本轮裴钱零改动。",
+                "observation": "裴钱背影视图不验脸，双髻和头向保持。",
+                "comparisons": {
+                  "face_shape": "后脑背影视角，不可核。",
+                  "features": "眼鼻口不可见。",
+                  "age": "脸部年龄不可核。",
+                  "hair": "朝前背影的双髻保持。"
+                },
+                "image": {
+                  "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                  "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                  "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                },
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ],
+                "placement": {
+                  "result": "pass",
+                  "observation": "结合最终全图、前轮真实站位观察和本次两脸蒙版外零差分，当前抛舟站位保持。",
+                  "observations": {
+                    "position": "陈与吴之间的后侧儿童随行位保持。",
+                    "footing": "近侧小腿鞋位于街面，另一腿及部分脚遮挡；不把不可见双足写成已验。",
+                    "facing": "双髻后脑、背肩和身体朝施术区，未转头。",
+                    "gaze": "后脑朝向表示关注前方动作，无可见眼线可核。",
+                    "scale_depth": "原儿童轮廓及足点深度保持，未从像素高比推定身高。",
+                    "occlusion": "吴懿长发/袖及裴裤脚的局部遮挡保持，双髻可辨。"
+                  }
+                }
+              }
+            ],
+            "checks": [
+              {
+                "id": "identity",
+                "result": "pass",
+                "observation": "在最终同一指纹逐人复核，陈、吴、朱三位本镜可见侧脸通过，裴为剧情背影脸不可见。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/cpa_face_standard_01.png",
+                    "sha256": "2fc50c9ffddb29c6cc14005603a31af7c9fa101ccdf09b4a656a53c9d8857e8a",
+                    "role": "cpa已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/wy/wy_full_master_v1.png",
+                    "sha256": "a7269f1a9b0d451bb4e396f242728b4d7c8608639364f984825aa7733616f80e",
+                    "role": "wy已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/zl/exec-42da0fb1-b19a-4708-b3b4-2fc6f04516aa.png",
+                    "sha256": "e7212dbc0d12fa1565d96867fc0b5c92b5a01acd52d48d76c9686f7f75c4ec66",
+                    "role": "zl已确认脸部母版"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/lh/peiqian/peiqian_master_v02.png",
+                    "sha256": "6a83d8adb52d454a8d3d9aa8d6c1b01b195069192ffe2015a00e6f77fb05ebdb",
+                    "role": "pq已确认脸部母版"
+                  }
+                ]
+              },
+              {
+                "id": "anatomy",
+                "result": "pass",
+                "observation": "最终整图及头区的耳颈发际衔接可读。两脸蒙版外差异为零，原身体、手袖、锚点与舟保持。",
+                "evidence": [
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ]
+              },
+              {
+                "id": "continuity",
+                "result": "unverified",
+                "observation": "两轮局部操作均有蒙版外零差分证明，原图自身局部连续性保持。后镜地理关系与未来楼船净空在完整场面调度中仍未验证。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ]
+              },
+              {
+                "id": "staging",
+                "result": "unverified",
+                "observation": "当前小舟刚离手动作和地理可解释，但未来三层楼船展开净空及后镜的地标/反打对应未验证，不能登记完整场面调度通过。",
+                "observations": {
+                  "camera": "本镜与首镜均左江右铺，柳树、阶口、挡墙、木铺顺序一致，可读为推近。",
+                  "action_target": "吴右手指尖前小舟悬在右前干街上方，三人在后看动作；只能按头向核视线。",
+                  "action_space": "手至舟间有空气，人物不侵入；未来三层船占地、檐墙净空没有可靠证明。",
+                  "route": "本镜柳阶上下通，两条街路未被主角或路人堵住。展船后的通道未验证。",
+                  "continuity": "与首镜地理对应，后镜c2_03_reveal_v1为铺左江右，尚无地标与反打映射解释高低两路关系。"
+                },
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ]
+              }
+            ],
+            "findings": [
+              {
+                "id": "ST1",
+                "severity": "hard",
+                "state": "open",
+                "problem": "未来三层楼船展开占地、店檐与挡墙净空及展船后通道未验证。",
+                "required_change": "后续在获授权的场面调度/后镜制作中建立完整体积和通道证据。",
+                "preserve": "本次仅三头局部修复，不擅自改身体、站位或环境。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ]
+              },
+              {
+                "id": "ST2",
+                "severity": "hard",
+                "state": "open",
+                "problem": "后镜左铺右江与本镜左江右铺的高低两路，缺地标及反打对应。",
+                "required_change": "后续获授权处理后镜时明确机位与地理对应，并独立核验。",
+                "preserve": "本轮已授权三脸局部成果及原构图。",
+                "evidence": [
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/basis_face_r02.json",
+                    "sha256": "7d0d2de6f175f9b41c46f66ca6e710b08e6609163691ff52678a16f49c3c11f7",
+                    "role": "本轮授权、当前剧情摘录、原位目标条件与四阶段局部修脸规划"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+                    "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943",
+                    "role": "已采用首镜环境，锁西向左江右铺、柳下石阶及两层街面"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/sketch_geometry.json",
+                    "sha256": "70e0402feacf870164aaaf9f22a0a6b4c97a1f16367c5b7eeb07173b01a5e275",
+                    "role": "原构图、足点及相机关系历史数据；核舟最后微移以当前目标为准"
+                  },
+                  {
+                    "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+                    "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+                    "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+                  },
+                  {
+                    "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+                    "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+                    "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "final in-place face repair delivered for inspection; three visible profile identities passed independent comparison; unrelated full staging check remains blocked; automatic sketch budget exhausted",
+          "local_scope": "仅陈鼻唇及朱眉眼唇髭等脸部细节，吴懿及其余场景像素保持；全Skill因既有space问题未通过。",
+          "process_assets": [
+            {
+              "path": "C:/Users/MSI/.codex/generated_images/01a196a0-17d4-75a1-b51a-9ffcd610fa9d/exec-c9af82a0-c1d3-4695-aa9e-fe3037fc8338.png",
+              "sha256": "cbbcbd549f18531faed27aa0fc38d40fbc9a6251b2b065f0c50f7cc093c63676",
+              "role": "g26:223实际生成的陈朱两脸局部素材，仅蒙版内用于回填"
+            }
+          ],
+          "generation_result": {
+            "call": "g26:223",
+            "returned": true,
+            "actual_image_generations": 1,
+            "source_size": [
+              1536,
+              1024
+            ]
+          },
+          "local_write": {
+            "evidence": {
+              "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+              "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+              "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+            },
+            "changed_pixels": 1691,
+            "cpa_changed": 993,
+            "zl_changed": 698,
+            "outside_two_masks": 0,
+            "outside_original_three_masks": 0,
+            "wy_and_pq_changed": 0,
+            "same_file_id": "30000000279f4",
+            "pixel_sha256": "0edd2c9948135503092970c0806d123efad021e14c822e7a68227050a566a37f"
+          }
         }
       ]
     },
@@ -1025,5 +1460,47 @@
     "staging_sha256": "d7568983ac7141408d5c707c28444416de6d7325478ede684036abc3ac7ac735",
     "generation_scope": "只修既有三处头脸；不改变调度。",
     "independent_space_review": "已取得，space blocked；当前动作基础可解释，完整跨镜/未来空间未验证。"
+  },
+  "local_result": {
+    "scope": "用户授权的三人脸部局部修复已原位完成，最后一次只修陈朱。",
+    "asset": {
+      "path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+      "sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+      "role": "最终两脸修正完成的同一原场景PNG，原尺寸1672×941"
+    },
+    "native": [
+      1672,
+      941
+    ],
+    "same_file_id": "30000000279f4",
+    "write_evidence": {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/face_write_r03.json",
+      "sha256": "a26c5722e946373b45fdb314b159d49dabda2efbc038f4d553c3052bf5be75c8",
+      "role": "最终写后解码、两脸区与许可边界交集外零差分、原文件编号证据"
+    },
+    "changed_pixels_latest": 1691,
+    "changed_by_character_latest": {
+      "cpa": 993,
+      "zl": 698,
+      "wy": 0,
+      "pq": 0
+    },
+    "outside_two_final_masks_changed": 0,
+    "outside_original_three_head_masks_changed": 0,
+    "rgba_sha256": "0edd2c9948135503092970c0806d123efad021e14c822e7a68227050a566a37f",
+    "identity_results": {
+      "cpa": "pass",
+      "wy": "pass",
+      "zl": "pass",
+      "pq": "not_applicable"
+    },
+    "full_skill_complete": false,
+    "unverified": [
+      "后镜左铺右江与本镜左江右铺的地标／反打对应",
+      "展开后三层楼船与店檐和挡墙的净空及通道",
+      "未接入游戏，未做实机验收"
+    ],
+    "preview_boundary": "上轮做过A2实际内存叠图，最终仅陈朱两脸区更新；本轮未另作实机或完整preview阶段验收。",
+    "adoption": "三张可见侧脸通过；全镜场面调度待验，未确认采用或接入。"
   }
 }

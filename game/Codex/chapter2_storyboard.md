@@ -6,6 +6,500 @@
 
 2026-11-01 更新：[第09、10场逐镜表](#c2-scenes-09-10)对应现行剧本从高楼栏杆到朱敛临窗发问的段落。
 
+<a id="c2-rain-y02-formal"></a>
+
+## Y02正式线稿制作（2026-11-07）
+
+**授权与终点。** 用户明确“定下四格分镜，再从Y02开始制作正式线稿”。四格台本现为**当前使用／用户已确认镜头安排**；本次只制作Y02一张独立正式线稿，止于sketch，不自动上色、制作其余三镜或接入游戏。旧雨街素材继续停用。
+
+**记录方式与限制。** 本镜的长期单图记录直接维护在本节，不新增过程稿、预览、备份或临时文件。两人均为匿名群演，没有已确认的正式脸部母版。现行v2检查器无条件要求每人提供face_master，不能诚实表示此情形；独立静态核查者`/root/anonymous_record`已确认该限制。故本节保存真实手工阶段证据，不伪填母版、不登记“无人物”、不声称v2机械通过。默认Python入口无法运行，Ren'Py附带Python也返回系统DLL重定位错误；未运行status/check，未改校验器。此限制不改变用户已确认的匿名人物与镜头范围。
+
+### 出图前阶段证据
+
+| 阶段 | 实际依据、观察与结论 |
+| --- | --- |
+| brief | 核对现稿395–398行；Y02对应“撑伞的人在雨里，”。两名普通成年人位于听来的故事内，陈平安及陆抬不在雨街。近伞左行露人，中景人右赶空檐；本镜两脚尚在湿街。后接Y03到达结果，不新增跨阶过程。 |
+| references | 实际打开确认台本整页，并在内存放大Y02。只用第二格锁机位、匿名成年人轮廓、长袍伞客／短衣裤赶檐人的区别；不把台本当成正式脸部母版。实际绘制将传入整张确认台本并限定只取Y02；旧图和旧PSD不输入。 |
+| composition | 目标1920×1080；左街右檐、胸/眼高斜向平视；两人向相反方向行走。以Y02较短的石台左端为建筑基准，后续Y03统一到本镜，暂不改四格台本像素。先保留右侧空檐和上阶通路，再安排两人，略增上下余量保全脚。 |
+| space | 独立复核者`/root/y02_space_review`实际查看整页和Y02内存3倍近邻放大，确认二维方案可进入正式线稿。近伞不遮赶檐动作，右柱未堵通路；前脚在街、后掌推地，自身右臂为远侧抬袖、近侧左臂后垂。正式稿须让袖布实际遮额。无需另造3D，不宣称实尺净空、碰撞或檐雨投影通过。 |
+
+来源指纹：确认台本`work/art/chapter2/c2_09_rain_storyboard.png`，SHA256 `efae35d4fe114832c4d60d073586455a9a23ec06a83605219f196b63f5f43147`；剧情`game/script_chapter2.rpy`，SHA256 `757a7f2c370451114a3809b2d34d635a8708b6f5aef48bd38e54878e14c6e30a`。两份文件均只读；构图依据为当次用户确认的台本，程序正文不变。
+
+### 锁定构图与逐人站位
+
+```json
+{
+  "camera": "1920×1080横向，街边胸/眼高的斜向平视；承接已确认台本Y02，街道向左纵深延伸，不反打、不翻转。",
+  "anchors": "按Y02而非Y03扩出的石台锁建筑。右前柱x约0.95、门洞x约0.79–0.94；石台前缘左端约(0.57,0.76)到右近端(0.95,0.98)。坐标是归一化构图锚点，不是实尺。台阶为可跨越的低阶、檐下有完整站立地面，滴水线在遮蔽区外。",
+  "action_target": "近处伞客继续朝画左沿街走；中景抬袖者朝画右空屋檐赶去，本镜仍在湿街，未跨阶。",
+  "action_space": "两条动线分开；伞不盖住赶檐人的抬袖轮廓；赶檐人与台阶之间保留约一脚步可读空隙，目的平台空着，右柱不入通路。",
+  "route": "伞客从左前景走向左方街道纵深。赶檐人从中景湿街朝右侧低阶、门前檐下走；不迎向伞客，不横穿石柱。",
+  "continuity": "Y01为同一伞的伞沿细节；Y03使用本Y02石台边界，省略跨阶过程后双脚站稳；Y04同侧收紧。只有台本，无Y03/Y04正式图，因此不声称正式背景跨镜已验。",
+  "characters": [
+    {
+      "character_id": "umbrella_passer",
+      "position": "左前景x约0.07–0.25，伞冠x约0.02–0.27，不挡住中景人完整动作。",
+      "footing": "足点y约0.92–0.96，左向步行，一脚着地另一脚后跟提起；双脚在湿街，不上台阶。",
+      "facing": "头肩胸胯和双脚共同朝画左并随街道略向纵深，后侧视角。",
+      "gaze": "沿画左街道前行，不回看赶檐者。",
+      "scale_depth": "靠近相机的成人，服装更长、伞冠在身上；不把成人身高差当成前后差。",
+      "occlusion": "伞和背侧视角部分遮脸，握柄手和腕应连贯；保留两腿、伞杆结构，不求正面露脸。"
+    },
+    {
+      "character_id": "shelter_seeker",
+      "position": "中景x约0.36–0.54，头约(0.49,0.35)，在石台左方街上；后面空檐在右。",
+      "footing": "前鞋约(.50,.87)在湿街承接重心，后脚掌蹬地/后跟提起；两脚尚不在台面，支撑与运动方向对应。",
+      "facing": "头、胸胯与前脚朝右，身体前倾；自身右臂为远侧抬起挡雨，近侧左臂后垂。",
+      "gaze": "看右前方目的檐下与落脚路面，不朝观众。",
+      "scale_depth": "普通成年偏瘦体型；处中景且弯身，校正姿态后与伞客成人体量一致，无孩童化。",
+      "occlusion": "右臂袖口与前臂连续，袖布实际遮额；左手后垂，不多手。不得用伞再次遮掉赶檐动作。"
+    }
+  ]
+}
+```
+
+**独立空间复核保留项。** 伞客看画左路向，头肩、长袍和鞋尖一致；握手、伞杆和伞面轴心需连贯。赶檐人头肩前倾、前鞋向右，目光落向台阶前方，不提前转成Y03/Y04左望；按中景与弯身校正成人体量。平台须有能放下双脚、站直降袖的连续地面，不能以黑门洞代替净空。Y03/Y04只有台本，没有正式图，不声称已完成正式跨镜背景验收。
+
+### 实际绘制请求
+
+内置image_gen；transparent_background=false；唯一参考路径为`F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_09_rain_storyboard.png`。阶段：sketch；执行状态：已完成出图前核对，待实际生成与独立成图复核。
+
+<details>
+<summary>Y02正式线稿实际提示词</summary>
+
+```text
+Use case: illustration-story / formal production line art.
+Produce ONE new independent formal line-art scene for shot Y02 of a restrained Chinese historical visual novel. Target size 1920 x 1080, landscape 16:9. This is the full scene to be used later as a production illustration, NOT a storyboard sheet, NOT a crop/enlargement or grayscale conversion of the sketch.
+
+INPUT REFERENCE: the supplied image is the user-confirmed four-row STORYBOARD. Use ONLY the SECOND row, labelled Y02, as the approved shot, camera, architecture and anonymous costume/action design. The other rows are continuity context only and MUST NOT be reproduced. The Y03 platform has a known left-edge drift; the Y02 SHORTER platform corner is the authoritative geometry. Exactly one borderless widescreen illustration, with no labels, arrows, captions, table, title, split panels or lettering.
+
+NARRATIVE: Two anonymous ordinary adults in a rainy old town. Left foreground umbrella carrier walks screen LEFT and is now clear of the center, revealing a lean man hurrying screen RIGHT toward a shop eave. The second man is STILL ON THE WET STREET, NOT on the step or standing sheltered. The shot accompanies the narration about umbrella-bearers being out in rain. Do not add Chen Ping'an, Lu Tai, a child, any hero, extra pedestrians, swords, book boxes, packs, valuables or other new story.
+
+LOCKED GEOGRAPHY: preserve row Y02's oblique street-side chest-height view. Rainy lane recedes to the left; the modest timber shop, low stone landing, hanging plain lantern and open dark doorway are at right. The closest timber post stays at the extreme right edge, behind/outside the walking route, not between man and shelter. Keep the platform's LEFT start near 57% of width, and its front edge running toward lower right. Do not import Y03's platform extension into the middle of the lane. Leave a clear empty place on the landing behind the runoff line where the same man can stand in the next shot. Low practical one-step height, coherent perspective, posts planted on stone bases, wall/door joints align. No palace ornaments, modern architecture or new signs.
+
+UMBRELLA CARRIER: modest ordinary adult in a plain long coarse-cloth wrap robe, cloth belt and cloth shoes; hair tied simply. In LEFT foreground, back-side three-quarter view walking LEFT, one leg carrying weight and the other heel lifting naturally. Full feet remain inside the image. Head and gaze follow the route, not turned to the viewer. The umbrella naturally partly hides the face. One visible hand holds a straight wooden shaft naturally with continuous wrist and sleeve. Coherent umbrella hub, ribs and canopy; umbrella large enough to cover the wearer but not oversized across the center. Carrier occupies roughly x7–25%, feet around 92% of frame height. Preserve the approved ordinary silhouette; no glamorous facial redesign.
+
+SHELTER SEEKER: lean ORDINARY ADULT, not a boy, simple cloth-tied bun, loose coarse-cloth short wrap tunic with a plain waist tie, calf-length loose trousers, cloth shoes. Position center midground, roughly x36–54% of width; head around x49%, y35%. He leans forward and hurries RIGHT. His own RIGHT arm is the FAR arm: it rises through shoulder-elbow-wrist above his brow, and actual sleeve fabric shields the brow against rain; do not merely show a naked forearm saluting. His near LEFT arm hangs naturally somewhat behind the body. Make the two arms anatomically connected, separated and legible, with no extra hand or fused elbow. The leading foot is at approximately x50%, y87% on the WET STREET just BEFORE the low stone platform; it is NOT on top of the step. Rear foot toes push off the wet street with heel lifted. Leave about one readable short stride of clear pavement before the step. Both feet visible, no floating, no crossing into the riser. Face down/right toward shelter and footing, partially obscured by sleeve and rear-side angle; natural ordinary adult proportions, no hero portrait.
+
+COMPOSITION AND CONTINUITY: the two motion directions are intentionally opposite. Preserve leftward umbrella carrier and rightward shelter seeker, not both going the same way. Foreground carrier is nearer; midground seeker is proportionate after accounting for depth and forward lean. Keep the men separate so the lifted sleeve, forward leg and destination can be read immediately. Keep moderate empty wet street around the feet and clear space inside the eave. The street-level line, the raised landing surface, and roof drip line must be distinct. Rain falls outside the shelter, not across the dry doorway/interior. The future Y03 will use exactly this architecture, so avoid arbitrary platform shape changes.
+
+FORMAL DRAWING QUALITY: refined but economical black and neutral-gray ink/pencil LINEWORK on clean white. Semi-realistic restrained Chinese historical figures and practical Song-inspired vernacular architecture. Reconstruct correct anatomy, hands, footwear, umbrella shaft/hub, timber joints, stone riser and perspective. Clear controlled contours with varied line weights: foreground strongest, midground moderate, distant buildings lighter and simpler. Sparse selective hatch marks only at real occlusion/core shadows. Very few purposeful clothing folds that follow the action. Minimal thin separated rain strokes and sparse broken wet reflections. Do not fill the sky or street with dense pencil scribble, blanket crosshatching, muddy grays, photoreal tone rendering, dark comic screentone, excessive tile/wood texture or a fully shaded grayscale painting. No color, no sepia, no glossy game art, no anime hero features. Formal clean linework should remain easy to color later.
+
+Output only the one independent Y02 illustration. Preserve every storyline constraint and approved row-Y02 geometry; deliberately finish the drawing rather than mechanically copying the worksheet's rough texture.
+```
+
+</details>
+
+<a id="c2-rain-shelter-new-sheet"></a>
+
+## 路人躲雨：全新四格粗分镜（2026-11-07，本轮）
+
+**本轮交付：Y01–Y04四格粗分镜。** 用户要求“按照制作流程把‘且慢行’路人躲雨段剧情做新的分镜，之前的不需要”，随后明确批准四格方案及分镜记录、图片索引更新。以本节为当前制作入口；此前05A／05B两行台本、双格分镜、独立05A正式线稿，以及更早的雨街05B／05C和PSD全部停用，原文件保留。已采用的雨停夜廊彩图不在此次否决范围内。
+
+[打开本轮四格台本](../../work/art/chapter2/c2_09_rain_storyboard.png)。用户已明确“定下四格分镜，再从Y02开始制作正式线稿”，四格台本为**当前使用／用户已确认镜头安排**。当前从[Y02正式线稿](#c2-rain-y02-formal)继续；台本采用不等于正式素材、上色或游戏接入通过。
+
+### 剧情与演出设计
+
+依据现稿[第395–398行](../script_chapter2.rpy:395)，从“他想起在青鸾国酒楼里听来的一个故事。”到“慢一点，才看得见人间的苦。”；第402行起的陆抬忆述不纳入本页。剧情正文保持原样。雨街只有两名匿名普通成人；陈平安与陆抬不在现场。Y04的心念仍属于画外陈平安，由旁白叙述。新Y编号只用于本页，不新增或替换程序镜号。
+
+| 镜号 | 画面动作 | 原稿旁白 | 声音、推进与切换（建议） |
+| --- | --- | --- | --- |
+| Y01 | 伞沿水滴近景，右侧略见街屋，承接夜廊。 | 他想起在青鸾国酒楼里听来的一个故事。 | “故事”句后切入；檐滴接雨声。檐滴匹配切待制作，时长待定。 |
+| Y02 | 伞客向左走，露出抬袖朝右侧屋檐赶去的路人；尚在湿街。 | 撑伞的人在雨里， | 固定机位；雨声、湿脚步；逗号处换格，同下一格承载脚本中的同一句旁白，时长待定。 |
+| Y03 | 省略跨阶过程，路人已双脚入檐，收步放低衣袖；伞客在左街走远。 | 躲雨的人在檐下。 | 同机位；脚步停、雨声继续；句末停留，点击推进。 |
+| Y04 | 同侧略收紧，檐下人静望雨街，伞客在左方更远处。 | 也想起陆抬说过的“留不住”，于是心里只剩一句话：且慢行——慢一点，才看得见人间的苦。 | 只留雨声；读完点击推进；下一段再转陆抬忆述，时长待定。 |
+
+新稿让“雨中行走／檐下停留”形成完整对照。Y03是全新方案的到达结果，并非恢复旧06A／06B文件或重新采用旧画格。建筑以街左、檐右为统一方向，伞客沿左街远去；赶檐人进入右侧遮蔽区后停留。声音、时间和转场均只是制作建议，未实施。
+
+### 实际请求、文件与写入证据
+
+- 内置image_gen单次生成；transparent_background=false；**没有传入任何参考图片**，未输入旧分镜或旧PSD。制作前只查看当前已采用夜廊图以核对衔接，未把它传入生成器。匿名路人没有正式脸部母版，本页不建立主角身份标准。
+- 生成工具实际输出：`C:/Users/MSI/.codex/generated_images/01a1b570-a3ee-7550-a7a6-74520845273d/exec-de720a77-4378-4913-b0fe-37e489709e48.png`。
+- 原生1024×1536 PNG，2,368,420字节；SHA256：`efae35d4fe114832c4d60d073586455a9a23ec06a83605219f196b63f5f43147`。四格为横向画框，接近16:9，未作为严格16:9单镜交付。
+- 仅把本轮交付台本逐字节保存到上述项目路径；以排他创建方式写入新文件，目标不存在才可写，回读字节和SHA256与工具输出一致。没有修改、覆盖、裁切或重新编码任何旧图，没有候选副本、预览、备份或临时文件。
+- 分镜文档和图片索引在原文件句柄内定位写入、截尾并同步落盘；写前校验基线SHA256，写后回读比对全部内容及文件标识，并核验指定变更范围外文本不变。写入结果以本轮实际工具回执为准。
+- 剧情依据SHA256：`757a7f2c370451114a3809b2d34d635a8708b6f5aef48bd38e54878e14c6e30a`；夜廊项目图SHA256：`f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3`。交付核验两者保持原值。
+
+### 独立复核与待定项
+
+独立复核者`/root/rain_story_review`实际查看整页，并逐格对照现稿395–398行：Y01伞沿接滴、Y02伞左行露出右行赶檐者、Y03双脚入檐并降袖、Y04同侧收紧静看左街均可读；两人连续、没有新增主角或归属错误。原旁白逐句完整，Y04明确写“旁白（陈平安的思绪）”；声音、停留、切换和时长均未虚报实现。**未发现阻断粗台本交付的问题。**
+
+正式制作前仍须处理：Y02／Y03灯笼、门框、右柱基本对齐，但Y03石台左端向左扩出，固定背景几何尚不严格一致；雨线为示意，尚未做精确屋檐投影验证；排线与建筑笔触较粗草图要求偏多。上述差异不影响当前镜头叙事阅读，不据此批准连续动画背景。
+
+未执行正式脸部身份、单镜线稿、上色、声音、动态、对白叠放或游戏实机验证；未改脚本、资源定义或图片代号，未运行Ren'Py。交付终点仅为新粗分镜及其记录，用户是否采用画面待确认。
+
+<details>
+<summary>本次内置image_gen实际请求全文</summary>
+
+```text
+Use case: illustration-story.
+Create ONE brand-new rough hand-drawn storyboard worksheet for a restrained Chinese historical visual novel. The user approved this four-panel plan. Do not reuse any prior storyboard image or composition sheet. This is the final requested ROUGH STORYBOARD deliverable, not production line art.
+
+PAGE: clean white upright worksheet, FOUR rows read top to bottom. Each row has a slim left shot-number column, a large landscape 16:9 drawing in the middle, and a spacious Chinese annotation column on the right. Four equal 16:9 picture frames, approximately 62% of page width devoted to the picture column, 31% to notes. Thin ruled table, plenty of white space. At top title “且慢行 · 路人躲雨” and subtitle “新分镜台本｜四格｜雨街是听来的故事”. Column headers “镜号”, “画面”, “旁白／演出与推进”. Use a high-resolution upright page so all Chinese text is clearly readable. Text is crucial, especially the full final narration.
+
+DRAWING: loose economical graphite thumbnails, simplified human figures, gesture and weight readable, basic roof and door geometry. Sparse gray tonal strokes. No dense hatching, roof-tile rendering, elaborate fabric folds or finished faces. Use only tiny muted red arrows for CHARACTER movement, never camera movement. Rough but physically coherent. Song-inspired ordinary timber street, not palatial fantasy. No named characters: Chen Ping'an and Lu Tai are only mentioned in narration/context, NEVER physically present.
+
+NARRATIVE AND GEOGRAPHY:
+Only TWO ordinary adults throughout this sheet: an umbrella carrier and a bareheaded man seeking shelter. Same clothes, proportions and umbrella across rows. Umbrella carrier wears a modest long plain robe; face partly hidden by umbrella. Shelter seeker is a lean adult with cloth-tied bun, coarse short wrap tunic, calf-length trousers and cloth shoes, visibly ordinary and slightly hunched. No swords, book boxes, jewelry, jade hairpins, begging, injury, dramatic sobbing or added plot.
+Rainy street recedes to LEFT. A simple shop with a deep eave is on RIGHT, with a low stone landing and dark doorway. Establish clear wet street versus covered floor. Roof runoff falls OUTSIDE the sheltered standing zone. A post at the extreme RIGHT must not obstruct the entrance or man's route. Row 2 and Row 3 MUST share exactly the same chest-height oblique fixed camera, door position, landing corners, post and vanishing direction. Row 4 stays on the same side of the axis and moderately tightens framing toward the sheltered man; preserve left street/right shelter orientation. Umbrella carrier moves screen LEFT and continues farther LEFT into the lane. Shelter seeker goes screen RIGHT onto the landing, then stays there. No simultaneous duplicate instances of either person.
+
+ROW 1, left label “Y01”:
+Close-up of curved oil-paper umbrella rim in upper half; one water drop falling from the rim around 36% of picture width, 74% of height. Sparse rain behind. A very simple glimpse of street and eave on right establishes environment, but no human portrait. This is an umbrella detail, not a separate new umbrella.
+Right column EXACT text, with sensible line breaks:
+他想起在青鸾国酒楼里
+听来的一个故事。
+
+画面：伞沿一滴水落下。
+声音建议：檐滴接雨声。
+推进：“故事”句后切入。
+檐滴匹配切待制作；时长待定。
+
+ROW 2, left label “Y02”:
+Chest-height street-side wide shot. Umbrella carrier in LEFT foreground is walking LEFT and has just cleared the center enough to reveal the shelter seeker behind. The seeker is in center-right midground, leaning forward and stepping RIGHT toward the visibly reachable covered landing, RIGHT forearm/sleeve raised over forehead. Both his feet are still OUTSIDE the landing on the wet street (one taking weight, the other in motion). Destination to his right is empty and clear. Keep full support leg and foot readable. Two small red motion arrows: at carrier pointing LEFT labelled “伞左行”; at seeker pointing RIGHT labelled “赶檐”. No camera arrow. His face is anonymous simplified sketch only.
+Right column EXACT text:
+撑伞的人在雨里，
+
+画面：伞过，露出抬袖赶檐的人。
+声音建议：雨声、湿脚步。
+固定机位；与下一格为同一句旁白。
+逗号处换格（建议），时长待定。
+
+ROW 3, left label “Y03”:
+EXACT SAME fixed camera and architecture as Row 2. Time advances by the small walk into shelter, without drawing extra crossing keyframes. SAME seeker now fully UNDER the deep eave at RIGHT, BOTH feet on the landing behind the roof drip line; body has stopped, weight natural, right sleeve now lowered toward chest. Head still mostly oriented in walking direction, subtly catching breath, no exaggerated emotion. Wet cloth hangs from lowered elbow. SAME umbrella carrier now farther LEFT and slightly smaller along the receding street, still walking left; do not teleport to right or change direction. Dry shelter area must be legible. No extra people. Small label by ground “檐内” and rain edge “落雨线”, kept unobtrusive.
+Right column EXACT text:
+躲雨的人在檐下。
+
+画面：人已入檐，收步、放下衣袖。
+声音建议：脚步停，雨声继续。
+同机位；省略跨阶过程。
+句末停留，点击推进（建议）。
+
+ROW 4, left label “Y04”:
+Same-axis somewhat closer medium-wide view, NOT a reverse view. SAME sheltered man at RIGHT beneath eave, staying at the same spot, hands now lowered comfortably, shoulders settle; he quietly turns head LEFT to watch the rainy street. Modest restrained adult face, no glamour. Keep some of his legs visible and show sheltered ground versus rain. LEFT side retains airy rainy street and SAME umbrella carrier now much farther LEFT and smaller moving away. Rain and empty space between the two people carry the feeling. Do not move the sheltered man back into rain or introduce Lu Tai or Chen Ping'an. No arrows in this still last panel.
+Right column EXACT text:
+也想起陆抬说过的“留不住”，
+于是心里只剩一句话：
+且慢行——慢一点，
+才看得见人间的苦。
+
+画面：檐下人停看雨街。
+声音建议：只留雨声。
+同侧略收紧；读完点击推进。
+下一段再转陆抬忆述，时长待定。
+
+Bottom footer EXACT text:
+本页仅为粗分镜；对白为原稿旁白。声音、停顿与切换均为演出建议。
+
+Ensure all four panels and all notes are fully on page without cropped text. Preserve simplified rough sketch quality and generous negative space. The top-to-bottom reading should clearly show: detail of drop, revealed hurried movement, achieved shelter, quiet pause and looking outward. Do NOT deliver a polished full-page illustration, comic dialogue bubbles, reference montage, old shot IDs 05A/05B/06A/06B, or multiple versions.
+Narration attribution: all right-column story text is NARRATOR text. In Row 4 the thinking belongs to Chen Ping'an offscreen, not the anonymous sheltered man; no thought balloons or spoken dialogue. Add small explicit label “旁白（陈平安的思绪）” above that row's narration.
+```
+
+</details>
+
+## 2026-11-05 “且慢行”双形式线稿研究
+
+历史目标是章节尾声CG与成就、另做小短片；11月5日曾研究替换切入的方案。2026-11-06用户按当前脚本明确：已完成第09场“雨停夜廊”切入的场景制作，止于“他低头看了一眼”；下一段应做“路边躲雨”。当前范围以下方确认表为准，正文未改。
+
+历史四镜草案为：车轮疾行 → 折草 → 湿栏与手 → 陈平安凝视，曾按约25–30秒构想。该草案未被确认为当前演出安排，不再据此分派车轮、折草等补图；保留研究记录和原图。章末CG、成就及完整短片仍是后续目标。
+
+研究依据：[Gorogoa作者谈画框与蒙太奇](https://blog.playstation.com/2018/03/20/the-power-of-the-frame-in-gorogoa-coming-soon-to-ps4/)；[高畑勋谈线条与留白](https://medium.com/@Film4/isao-takahata-on-the-tale-of-the-princess-kaguya-4221f5df60a9)。借用构图与节奏方法，未把参考作品图像导入生成器。
+
+两张图原生均为1672×941。夜廊切入单图已完成上色并采用；车轮四镜线稿保留为历史草案，状态待修正。
+- [雨停夜廊切入彩图](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-a3a99d79-58d6-4851-8714-7293e7a6f1ea.png)。在修正卷首玉簪的线稿上原位着色。铁券河及远岸用冷蓝灰，暖光落在脸、手和湿栏上，青绿玉簪与叶尖水滴可辨。已回读原PNG并复核静态画面。2026-11-06 又在折草下方已有积水内减弱木纹，补入顺栏面的断续冷灰蓝反光，局部复核通过。2026-11-06 用户以脚本确认其属于第09场雨停夜廊切入，完成范围止于“他低头看了一眼”；后接路边躲雨，不能继续归入未确认的车轮四镜方案。已撤下误加的章末调用。保留[已登记资源](../images/chapter2/c2_end_slow_v1.png)，当前剧情未调用，后续衔接待制作。
+- [短片四镜线稿](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-ceff44fb-579f-48f5-ad65-6f92d1f813b8.png)：03/04草根似穿入栏面，需明确独立断草落在木面，避免被读成同株草跨场迁移。
+
+[任务依据、检索来源与完整提示词](../../work/art/chapter2/c2_slow_attention/basis.json) · [CG实际调用与复核](../../work/art/chapter2/c2_slow_attention/cg_record.json) · [四镜实际调用与复核](../../work/art/chapter2/c2_slow_attention/board_record.json)。独立复核已检查静态身份与空间；声音、时长、动画、成就效果和实机均未验证。
+
+<a id="c2-slow-attention-final-shot"></a>
+
+### 本图分镜归属与定稿（2026-11-06）
+
+本图当前用途为“第二章·第09场·雨停夜廊切入”。用户确认完成的场景制作范围是下面三句旁白，止于“他低头看了一眼”。本图美术采用与工程演出接入分别登记。
+
+| 项目 | 当前确认结果 |
+| --- | --- |
+| 脚本归属 | 第09场开头，脚本注释镜01及镜02–04；三句旁白位于第387、389、390行。彩图呈现扶栏低看的结果画面。 |
+| 画内时空 | 紫阳府临河高楼夜廊，雨已停。 |
+| 画面动作 | 陈平安前臂轻搭湿栏，垂眼看近处折草及水滴；远处为江面与人家灯光。 |
+| 已完成范围 | “雨已经停了，檐角还在滴水。”→“陈平安沿着廊下慢慢走，一只手轻轻搭在栏杆上。”→“走到灯下，一滴檐水落在他手边。他低头看了一眼。” |
+| 后接制作段落 | 当前脚本第395–398行路人躲雨，由本轮全新Y01–Y04粗台本承载；此前雨街分镜及05A正式线稿停用，见[最新记录](#c2-rain-shelter-new-sheet)。 |
+| 完成口径 | 用户确认上述切入场景已完成；当前已核实的是一张采用彩图，不据此声称镜01–04各有独立成图，或行走、落滴、低头及声音均已完成。 |
+| 工程登记 | 保留图片、定义和CG02·09·01稳定代号，当前剧情无本图调用。既有基名c2_end_slow_v1保留，不据end字样推断章末用途。 |
+| 核验与限制 | 原图和项目图SHA256均为f078d454659805112145d545a6710417c46beefc83ec7467f5bd89299b2824a3；本轮只更正记录，图片和剧情脚本未改，实机未验证。 |
+
+<a id="c2-slow-attention-intro-table"></a>
+
+### 切入分镜、台词、转场与缺图表（2026-11-07，本轮新方案）
+
+**已完成的夜廊切入止于现稿第394行；路边躲雨范围为第395–398行。** 当前雨街制作按本轮Y01–Y04粗台本；旧镜号仅保留在脚本注释和历史记录中。游戏中第388行仍是黑场，本轮未增加调用。雨街画的是陈平安听来的故事，不是他亲历躲雨。
+
+| 段落／镜号 | 画面与动作 | 对应台词（保留现稿） | 转场 | 素材状态／待补 |
+| --- | --- | --- | --- | --- |
+| 已完成｜夜廊切入，镜01–04范围 | 雨停后的夜廊，扶栏缓行，止于灯下低看。采用单图呈现扶栏低看的结果。 | [L391](../script_chapter2.rpy:391)「雨已经停了，檐角还在滴水。」<br>[L393](../script_chapter2.rpy:393)「陈平安沿着廊下慢慢走，一只手轻轻搭在栏杆上。」<br>[L394](../script_chapter2.rpy:394)「走到灯下，一滴檐水落在他手边。他低头看了一眼。」 | 已完成范围到第三句句末。 | **当前使用：夜廊彩图。** 动态与实机效果未验证。 |
+| Y01｜伞沿接滴 | 伞沿水滴近景接夜廊。 | [L395](../script_chapter2.rpy:395)「他想起在青鸾国酒楼里听来的一个故事。」 | “故事”句后切入；雨声接续建议，檐滴匹配切待制作。 | 本轮粗台本已交付，画面待用户确认；现有夜廊挂滴不等于落滴动画完成。 |
+| Y02｜伞过露人、赶檐 | 伞向左走过，露出抬袖朝右侧屋檐赶去的匿名行人。 | [L397](../script_chapter2.rpy:397)「撑伞的人在雨里，」 | 逗号处换格建议；与Y03为脚本中的同一句旁白。 | 本轮粗台本已交付；此前05A／05B分镜及05A独立正式线稿均停用。 |
+| Y03｜已在檐下 | 同机位，省略跨阶过程，行人双脚入檐、降袖收步。 | [L397](../script_chapter2.rpy:397)「躲雨的人在檐下。」 | 脚步停、雨声继续，句末停留及点击推进建议。 | 后半句已有新粗台本承载；石台几何仍需统一。旧06A／06B和05C继续停用，不恢复旧画格。 |
+| Y04｜停看雨街 | 同侧略收紧，檐下人看雨，伞客在左街走远；陈平安心念仍属画外旁白。 | [L398](../script_chapter2.rpy:398)「也想起陆抬说过的“留不住”，于是心里只剩一句话：且慢行——慢一点，才看得见人间的苦。」 | 读完点击推进建议，下一段再转陆抬忆述，时长待定。 | 本轮粗台本已交付，未制作陆抬小院、正式单镜、短片或游戏演出。 |
+
+**素材采用边界（2026-11-07，本轮重做）。** 用户要求新的分镜，之前的不需要。本轮仅以[全新四格粗台本](#c2-rain-shelter-new-sheet)继续制作；旧两行台本、双格分镜、05A独立正式线稿和更早的雨街05B／05C及PSD全部停用，文件保留，未输入本轮生成器。夜廊采用彩图不变。[图片索引](character_image_index.md#343-第二章第09场镜04--雨停扶栏2026-11-02)。
+
+**接出边界。** 现稿第402行“又记得陆抬曾经在飞鹰堡小院感慨……”进入后续忆述。本轮不改变文字、归属或演出，时长待配音或阅读节奏确定，不沿用历史车轮草案的25–30秒。
+
+<a id="c2-rain-shelter-handdrawn-sheet"></a>
+
+### 停用历史：路边躲雨两行手绘分镜台本（2026-11-07）
+
+**停用（本轮全新四格方案取代；以下为先前确认与制作历史）。** 用户要求按新规则把之前段落做成手绘台本，并明确批准“允许新建这一张手绘台本”。本轮仅新建[05A／05B手绘台本](C:/Users/MSI/.codex/generated_images/01a19a5d-ef09-7682-afa3-c78a4ca1d1ae/exec-f339ff21-ab4e-48ca-ac66-95784d94eb90.png)一张，采用纵向两行、镜号／画面／旁白与演出／推进四栏。用户随后回复“可以就这样”，确认采用本张手绘台本。原双格保留为已选用构图参考，独立05A正式线稿的采用状态保持原记录；本次确认限于手绘台本，未新增正式素材或接入游戏。
+
+**范围与实际内容。** 依据本页当前采用决定及现稿第395、397行，05A／05B作为镜05同一固定机位的两个动作关键格：05A近伞遮住赶檐人、伞沿接滴；05B伞左移、露出朝右赶檐的普通行人，前鞋越阶将落、后脚仍在湿街，尚未站稳。旁栏收录前句“他想起在青鸾国酒楼里听来的一个故事。”及旁白“撑伞的人在雨里，”。声音和点击推进明确标为建议，时长待定；页底保留“躲雨的人在檐下。”画面承载待定。未恢复06A／06B，未增加陈平安或陆抬在雨街现场。
+
+**工具、参考与文件证据。** 内置 image_gen 一次调用；transparent_background=false；实际传入的唯一参考为[当前双格原图](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-f111620a-6287-405c-83da-b956de53bd61.png)，只用于人物动作与空间构图，SHA256为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7。用户早前的手绘台本图用于理解页面形式，本轮未作为参考文件传入。输出原生1199×1312，RGB PNG，1,754,972字节；SHA256为f1f407b2676740f893a78e8217fcc94a4ead79d1cb40b1b022b90c6c8206d9ef。已从实际输出解码核对尺寸并读取文件哈希，未缩放、重新编码、复制或替换任何图片。匿名路人的发髻、短袍、布鞋与伞具仅供本镜辨识，无正式角色脸部母版绑定。
+
+**独立目检（/root/prepare_rain_sheet）。** 复核者实际查看新台本及采用原图后确认：两行粗草图和各栏可读，旁白正确，05A遮挡接滴与05B左移露人、朝右赶檐可读，05B没有画成站稳，只有本次两格。可交付观察台本形式。非阻断差异：05B石台前沿左端比05A向左延伸，背景几何未严格一致；两画框略窄于标准16:9。正式制作前需统一构图，不能把本轮作为严格连续背景、正式人物身份、动态或实机验收。用户已确认本台本采用；上述制作差异和未验证项继续保留。
+
+<details>
+<summary>本次实际图像请求（原文）</summary>
+
+工具：image_gen；referenced_image_paths仅含上述双格原图；transparent_background=false。
+
+```text
+Use case: illustration-story.
+Create ONE independent rough animation storyboard worksheet for the user's Chinese historical visual novel. The user expressly authorizes one new sheet. The provided image is a CONTENT AND GEOGRAPHY reference only: transform its existing 05A and 05B into very loose thumbnail storyboard drawings in the new worksheet format. Preserve the two action beats, screen directions, characters and location; reduce drawing detail drastically.
+
+OUTPUT: a single upright white paper worksheet, two rows read TOP TO BOTTOM. At top a modest title “路边躲雨” and smaller subtitle “镜05｜同一固定机位的两个关键格”. Four table columns from left to right: a narrow shot-number column headed “镜号”, a dominant wide image column headed “画面”, a comfortable notes column headed “旁白／演出”, a narrow timing column headed “推进”. Exactly TWO landscape 16:9 drawn picture boxes, one in each row. Clear black table rules and ample white space. Readable Chinese annotations are essential. Do not add third/fourth panels or any other pictures. Match an animator's practical pencil storyboard sheet rather than a comic page or finished illustration.
+
+DRAWING STYLE: extremely economical rough gray graphite gestural sketches. Visible searching strokes, simple head ovals, basic figure masses, loose clothing contours, minimal architectural perspective outlines. White paper predominates. Only a few rough gray strokes for depth. NO detailed roof tiles, brick textures, dense hatching, rendered shading, elaborate fabric folds, polished contours or photographic details. All scene drawings monochrome. Small muted RED pencil action arrows and brief labels are allowed. Annotations are neatly legible black Chinese handwriting/print; table lines straight. The storytelling can be read even at thumbnail size.
+
+GEOGRAPHY in both frames: SAME fixed oblique street-side standing eye/chest-height camera. Wet open street on LEFT; humble Song-inspired timber shop, deep eave, low stone landing and doorway on RIGHT. One post at far right is outside the man's route. Same doorway, step edge and camera in both panels. Keep architecture to a few lines. Nearby umbrella carrier moves LEFT across the foreground. A lean adult man behind them hurries diagonally RIGHT toward the shop eave, right sleeve over forehead, coarse short tunic, cloth waist belt, calf-length trousers, cloth shoes, small cloth-bound bun. Anonymous ordinary adults only; no named protagonist. The umbrella carrier's face stays concealed.
+
+ROW 05A: left number “05A”. Large foreground oil-paper umbrella at center-left hides the hurrying man's head, lifted sleeve and upper torso; a glimpse of moving calf/foot shows behind the umbrella carrier. The destination doorway/landing at RIGHT is visible. A single visible droplet falls from the umbrella rim; tiny muted red arrow downward and label “接滴”. Tiny far umbrella silhouette on left distance. Draw no full visible face.
+Notes text exactly:
+前句：
+他想起在青鸾国酒楼里
+听来的一个故事。
+
+伞沿接滴，遮住赶檐人。
+声音建议：檐滴接雨声。
+Timing text exactly:
+“故事”句后切入
+匹配切待制作
+时长待定
+
+ROW 05B: left number “05B”. EXACT SAME fixed camera and stable architecture. Foreground umbrella carrier has moved largely out of LEFT edge, revealing the man hurrying RIGHT toward shelter. Clear raised right sleeve and forward leaning pose. His RIGHT leading shoe crosses the step edge, about to touch or just touching the edge; LEFT rear foot remains on wet street, body still moving, not settled. Do not draw a man standing relaxed with both feet on landing. Small muted red LEFT arrow beside umbrella, marked “伞左移”; small RIGHT/diagonal arrow by the man's route, marked “赶檐”. Distant umbrella is occluded by foreground carrier here, not relocated.
+Notes text exactly:
+旁白：
+撑伞的人在雨里，
+
+近伞左移，露出赶檐人。
+前鞋越阶将落，尚未站稳。
+声音建议：雨声、湿脚步。
+Timing text exactly:
+同机位
+点击推进（建议）
+时长待定
+
+Below the table, one unobtrusive footnote exactly:
+后半句“躲雨的人在檐下。”的画面承载待定。
+
+Keep the illustration purposefully rough, unfinished and easy to revise. The user's main correction is to see a rough HAND-DRAWN STORYBOARD SCRIPT with notes, not another fully rendered single-frame line drawing. No colored scene, no hero portrait, no new story action, no completed arrival/settling pose, no extra panels.
+```
+
+</details>
+
+<a id="c2-rain-shelter-redesign"></a>
+
+### 停用历史：路边躲雨05A／05B及05A正式线稿（2026-11-07）
+
+用户明确旧线稿不用，要求从本地动画分镜资料重新思考，并授权“找到怎么做就生成线稿”。因此停止沿旧05B／05C修补推进；旧文件保留，不作为本次构图或人物输入。首次生成时仅交付四格分镜线稿；其后仅05A上色，最新采用与展示范围以本节决定为准，不改原PSD或剧情。下方11月6日两镜五格与PSD修补记录降为历史，不作为当前执行指令。
+
+**此前采用决定（已被本轮新方案取代）。** 用户明确现有05A／05B只是分镜稿，要求先做05A正式线稿，并批准“允许新建独立05A正式线稿”。05A单幅正式线稿已完成并整理为1920×1080，状态为候选、待用户确认，见[正式线稿记录](#c2-rain-shelter-05a-formal)；原双格分镜保留，05A此前配色仅为分镜色稿，05B仍为分镜线稿。06A／06B停用且已从原图裁去，不再制作或展示。本次止于正式线稿，未上色或接入游戏。
+
+**剧情范围。** “他想起在青鸾国酒楼里听来的一个故事。”接入雨街，05A／05B呈现伞沿接滴、伞过露人与赶檐。05B止于越阶将落，不冒充双脚站稳。“躲雨的人在檐下”及“也想起陆抬说过的‘留不住’……”正文保留，其画面承载另定，这不构成恢复06A／06B的待办；不自动删改剧情。画面中的人是故事里的普通路人，陈平安和陆抬均不在现场。雨停夜廊已采用彩图保持不变。
+
+**空间方案。** 街边胸／眼高斜向平视，湿街在左，铺檐和低石平台在右。近伞客在前景沿街向左；无伞人从中景向右后方进入铺檐，两条路分开。檐柱置于通路外缘，门洞、柱和低台阶跨镜固定。檐口滴水线按投影落在站立区外，不与台阶前沿合成同一根重线。远景小伞从第一格就出现并向左走。无伞人为匿名成年群演，素布束髻、粗布短袍与布鞋，不设定为既有人物母版；新人物细节仅供本次分镜，不反向确立正式身份。
+
+| 画格 | 构图与行动 | 台词、声音与检查点 |
+| --- | --- | --- |
+| **已选用：05A 接滴** | 近伞在前景遮住无伞人的头肩和举袖，伞沿滴水；右侧目的屋檐始终可见。 | “故事”落音后切入；檐滴接伞滴为待制作的匹配切。现有夜廊彩图的叶尖挂滴不冒称已完成檐滴动画。 |
+| **已选用：05B 露人、赶檐** | 同机位，近伞左移，让出中景抬袖赶向右侧屋檐的人。原方案前脚仍在湿地；实际线稿画为前脚越过阶沿、将落／初触缘，尚未全脚落稳；不再安排06A接续承重。 | “撑伞的人在雨里，”；视线从伞移向行人，不用镜头追着伞跑。 |
+
+<details>
+<summary>停用的06A／06B设计记录（不再制作或展示）</summary>
+
+| 历史画格 | 原构图与行动 | 原台词与检查点 |
+| --- | --- | --- |
+| 停用：06A 跨入、收脚 | 同轴收近为全身；同一前脚落到檐下，后脚正在收过滴水线，身体仍向内移动。 | 动作中切，不重复跨步，不调换前后脚；大近伞已出画，远景小伞继续走。 |
+| 停用：06B 站稳、停留 | 同一近机位，双脚平稳落在檐内同一平台，重心落稳，肩背松、抬袖臂放低；左侧留雨街。 | “躲雨的人在檐下。”落在站稳；后续“且慢行”旁白继续停留。画人停住、雨仍下，不增摔倒、受伤、救助。 |
+
+</details>
+
+**首次四格方案资料与独立预审（历史）。** Framed Ink印页55（PDF56）看相邻画面焦点位置，印页68–69（PDF69–70）看固定机位内的人物运动与先后显露；本轮已目读原页。《电影镜头设计》印页148、222、324–326（PDF170、244、346–348）分别提供动作中切、兴趣中心转移、匹配镜头与动作划变的区分；/root/rain_film_reference复核既有实读依据。/root/rain_animation_reference空间预审要求：05B脚仍在湿地、06A同一前脚入檐；近远通路分开；滴水线与台阶边缘分别成立；出画的大伞不重现。此为方案预审，不等于实际线稿已通过。目标整张1920×1080，2×2四格，每格横向画幅；实际原生输出1672×941，未放大或改写像素。
+
+**历史状态（本轮已停用）。** [路边躲雨05A／05B双格原图](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-f111620a-6287-405c-83da-b956de53bd61.png)最初由内置image_gen生成四格，生成标识exec-f111620a-6287-405c-83da-b956de53bd61；该次请求未输入旧线稿。初始1672×941的历史SHA256为aa2142b156a89a7887925d5d5097aa7a5c5c631292e1064e3e30e220175a5c4b，局修线稿历史SHA256为a4eccd6b9f5447c25f6871e9d637939c906f905111879af817dbeabdffc83bf2，05A上色后的历史SHA256为e556495a3ca07af0dd5596ee2bb43d8db61fb5d1e2a504b3ca0636fee55820ad。按用户最新批准已裁去下排，当前为1672×497、全不透明RGBA PNG，SHA256为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7。05A／05B当前使用（分镜构图已选用；05A分镜色稿待确认，05B保持分镜线稿）；06A／06B停用，已从原文件移除。该分镜仍为同一原文件；另获授权制作的独立05A正式线稿见下节，动画与游戏演出未完成。
+
+<a id="c2-rain-shelter-05a-formal"></a>
+
+**05A独立正式线稿制作历史（2026-11-07，本轮已停用）。** 用户指出现有图只是分镜稿，要求先做正式线稿并授权“开始修改”，随后明确“允许新建独立05A正式线稿”。本次例外仅新制作一张独立正式05A；现有双格分镜保留，05B不推进，06A／06B继续停用。停止点为正式线稿，不自动上色或接入游戏；之前05A上色仅记为分镜色稿，不作为正式美术已完成。
+
+**任务、构图与空间依据。** 沿用本节已确认剧情、镜位和遮挡。街左、檐右，近伞客向左经过，赶檐人向右进檐且头肩仍被伞遮住，右侧保留目的石台与通路；远处只有一名小伞客。正式画幅目标1920×1080，单幅横版，无标题、镜号或拼板。对近伞汇聚、弧面、握柄手及袖口重新落实结构，梳理赶檐人的露出肢体、石台砖缝和梁柱节点，减少不解释结构的碎纹。近伞客与赶檐人均为匿名成人，其脸按剧情遮挡，远人仅作剪影；不绑定陈平安等主角母版。前述独立制作任务单要求重画结构与线条，不以去色、锐化或放大充当正式线稿。
+
+**实际参考与调用。** 内置image_gen成功返回一张新图；transparent_background=false；referenced_image_paths仅含当前双格原图。原图SHA256为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7，1672×497；已实际查看。请求明确仅采用左05A构图，右05B只是后续动作对照，不出现在结果中。无旧PSD、旧四格底排或主角母版输入。完整实际请求保留在下方。
+
+**实际输出与同文件尺寸整理。** [05A独立正式线稿](C:/Users/MSI/.codex/generated_images/01a1a90c-e7e6-76b1-8057-9306586218e7/exec-8ca83436-2e44-4622-aef9-66e66433db10.png)；生成标识exec-8ca83436-2e44-4622-aef9-66e66433db10。原生1672×941、3,186,611字节，原生SHA256为828ce75b47857893c5879be16c63bbcb9f0fcc66bb5ffef5c1311f1d0c257615。随后在内存中按1.1483253588516746倍等比重采样，竖向居中裁去约0.287像素／边，得到1920×1080；未改变构图、姿态或局部结构。使用FileMode.Open打开这张新原图，写前锁定核验原生哈希，定位写入、截尾、Flush(true)，无另存、替换或中间图文件。回读字节与内存编码一致，最终4,094,673字节、全不透明RGBA PNG，SHA256为7556e593cff66a804ee8ac964f583b03a3ff1b86880a8afd251c2123f9db53a6，原文件标识4222124651165711保持一致。原双格分镜逐字节未变，哈希仍为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7。
+
+**正式线稿独立复核。** /root/rain_animation_reference实际查看原生图、握手及腿脚局部，并重新查看上述最终哈希图：大伞维持05A遮挡，赶檐人仍只露衣摆、裤腿及鞋，朝画右屋檐行进；近伞客的脚在画外，具体步态不据此宣称完成。握柄手、腕与袖口连接成立，赶檐人的可见腿鞋和湿街接触未见硬伤。柱脚、石台和铺地关系清楚，雨街与檐内干湿可读；线条已重新绘制为独立单幅。最终尺寸整理未引入可见拉伸、截断或线条损坏。近景匿名人物头脸按剧情遮住，远人仅作小剪影，本图不作陈平安或陆抬身份验收。
+
+**保留项与历史采用状态。** 本轮已停用；先前为候选（正式线稿完成，待用户确认）；伞杆延长线与伞顶中轴轻微偏离，原生约15–22像素、最终约17–25像素，独立复核判为非阻挡精修项，未声称已修正。未上色，未制作05B正式图，未绑定bg_images.rpy或剧本调用；转场动画、对白框叠放与游戏实机未验证。本次仅更新既有制作记录和图片索引，不新建记录、候选副本、预览或备份文件。
+
+<details>
+<summary>05A正式线稿实际请求</summary>
+
+Use case: illustration-story / production line art.
+Create ONE new independent FINAL-LINEWORK drawing for shot 05A of a restrained Chinese historical visual novel. Target 1920 x 1080, landscape 16:9. This is the full-size production line-art stage, NOT a storyboard thumbnail or an enlarged / desaturated copy.
+
+REFERENCE USE: The attached image is a two-panel storyboard sheet. Use ONLY its LEFT panel, 05A, as the composition and blocking reference. The RIGHT panel is a later moment and MUST NOT be reproduced. Output exactly ONE continuous scene filling the entire canvas. Remove all sheet titles, panel labels, borders, gutters and comparison layouts. No text or lettering anywhere. Do not depict 05B or any extra frame. The source sheet remains a separate reference.
+
+NARRATIVE MOMENT: A story heard in a tavern, about ordinary people in rain. A large oil-paper umbrella passes screen-left in the foreground, currently still concealing the head, raised sleeve and upper torso of a second man who is hurrying toward a shop eave on screen-right. This is the BEFORE-REVEAL moment. Do not show the second man fully revealed or already standing under the eave. Do not introduce the storyteller, Chen Ping'an, Lu Tai, a jade hairpin, weapons or a book box.
+
+LOCKED COMPOSITION: Retain the LEFT panel's street-side chest/eye-level oblique view along the rainy lane. Rainy open lane and distant houses on the left; humble tiled timber shop and raised stone landing on the right. Main nearest timber post remains near the far right edge. The same shop doorway, small ceramic jar and leaning bamboo container remain behind the landing. The foreground umbrella canopy occupies roughly the left 60% of the frame; apex around x35%, y15%; its lower curved rim around y53–57%. The carrier's clothed body occupies lower center-left and continues out of the bottom frame. Keep ample readable empty landing to the right. A tiny distant umbrella carrier is visible in the far left street. Preserve this quiet three-depth arrangement; do not add crowds.
+
+FORMAL REDRAW REQUIREMENTS:
+1. Reconstruct the oil-paper umbrella with one coherent central hub, ribs meeting that hub, correct smoothly curved canopy, and a believable foreground rim. Each visible rib is a purposeful structural line rather than doubled scribbles. Draw a slender wooden shaft whose connection to the concealed upper structure is plausible and whose visible lower part is firmly held in ONE natural hand. Clearly resolve fingers, thumb, wrist, sleeve opening and shaft occlusion without extra digits.
+2. The foreground carrier is an anonymous adult in a plain long coarse-cloth robe walking screen LEFT. Head and face remain completely hidden behind the umbrella. Draw a clean natural garment silhouette and a limited hierarchy of major folds following gravity and walking, with finer secondary seams only where useful. No jewelry or heroic costume.
+3. The second anonymous man remains behind the first carrier and canopy, oriented diagonally toward screen RIGHT. Preserve only the original small visible portions: a hem / sleeve fragment behind the umbrella's right underside, plain calf-length trousers, an exposed lower leg and simple cloth shoe on the wet street side of the step. Work out his anatomy behind the occluder so these fragments connect logically; no disembodied leg, duplicated foot, visible new head, long exposed upper body or different pose. The umbrella must still hide the revelation that will happen in 05B. Do not mirror him.
+4. Refine architecture as a real humble Song-inspired timber storefront: door jambs meet their beam, panel frames have coherent joints, the near post terminates in a stone base, tile rows follow roof planes. Align the platform's upper surface, vertical step face and paving joints to the same perspective. The front edge stays low enough to step onto and out of the man's way; no impossible raised wall or bent step. Ceramic jar and bamboo container sit with clear contact on the landing. Keep architecture placement stable relative to the LEFT reference panel.
+5. Draw rain as fine separated strokes and broken runoff, with a few readable droplets at the RIGHT tip of the large foreground umbrella as the attention point for the preceding eave-drip cut. Wet street has sparse broken reflection marks and small puddle ripples, not an ocean, thick radiating circles or densely scribbled water. Covered landing is mostly dry with faint dampness near its outer edge and no rainfall inside. Roof runoff and the front stone step edge are distinct physical boundaries.
+6. Establish deliberate line weight: foreground umbrella, hand and robe clearest; midground architectural structure thinner; distant houses and tiny umbrella simplified and lighter. Use clean continuous contours with selective elegant line breaks, controlled fine internal detail, very sparse short hatching only for necessary overlap or core shadows. Remove the rough pencil grain, crosshatching carpet, muddy tone masses, duplicate construction strokes and indiscriminate tile/wood noise of the storyboard. The result must be suitable for subsequent careful coloring.
+
+STYLE: semi-realistic Chinese historical production illustration, natural anatomy and practical building structure, restrained everyday humanity, refined black and neutral gray INK LINES on a clean white base, no colored pixels, no sepia paper, no filled color, no finished grayscale painting, no heavy comic screen tones, no photoreal render, no anime stylization, no fantasy ornament. Detailed where structure and storytelling need it, spacious and quiet elsewhere.
+
+DELIVERABLE: one standalone 16:9 production line-art frame based on LEFT 05A only, fully redrawn with crisp resolved linework. No heading, no number, no panel borders, no inset, no side-by-side image, no lower row, no arrows. Stop at line art.
+
+</details>
+
+<a id="c2-rain-shelter-two-panel"></a>
+
+**取消下排并原位裁切（2026-11-07）。** 用户先要求“06A和06B已经不需要出现”，再明确批准“允许裁去原图下排并保存”。在同一原PNG中保留[0,0,1672,497)，裁去下方06A／06B；标题、两格标记、格框及05A／05B画面均保留原坐标，不重采样、不重画。06A／06B不再作为当前制作、展示或自动恢复任务，先前生成、分镜与检查文字仅作历史。
+
+**实际写入与验证。** 已确认使用System.Drawing内存裁取与原文件FileMode.Open／ReadWrite直接保存；写入前核对源哈希和并发变更，定位写入后SetLength、Flush(true)，再回读核对写入字节。源SHA256为e556495a3ca07af0dd5596ee2bb43d8db61fb5d1e2a504b3ca0636fee55820ad；当前1672×497、1,639,946字节，SHA256为910a14c9ebb12ae31cebd47dcf2ba72e1efdb14fa242dbf1bcfdd47b28d895e7，RGBA像素SHA256为1f67f0537f093b3f4e0575cd3166c599d122701b0e83c32af9e04b497cc5f7a8。独立PNG解码回读与裁切前上方497行逐字节一致，保留区域像素变化为0；原文件对象ID15762598696002754与编辑前一致。未创建候选、预览、备份、临时文件或另存新图，未删除文件，未改剧情、图片定义或游戏运行素材。
+
+**裁切后独立目检（/root/rain_animation_reference）。** 已实际读取保存后的双格原图：仅见“路边躲雨”标题、05A和05B；两格上下左右黑框完整，底部留白正常，没有06A／06B图像、编号或边框残边。仅验证本次裁切，色彩与人物检查沿用此前05A上色及05B线稿复核，并由保留像素完全一致的差分证据绑定。当前为分镜展示图，未执行游戏对白、动态或实机验证。
+
+<a id="c2-rain-shelter-05a-color"></a>
+
+**05A逐张上色（2026-11-07）。** 用户明确“先做05A”，在已通过局部修补的同一原PNG上继续。场景仍为听来的青鸾国雨街故事：近伞遮住赶檐人的头肩，目的屋檐在右；没有陈平安或陆抬在场。沿用已验证构图、台阶、人物动作和遮挡，本轮只改变05A各材质的色调，不重采样、不移动或重画结构。匿名近伞客和赶檐人均按本镜遮挡保留头脸不可见；远景伞客只有剪影，不新增脸部身份。三人的位置、服装轮廓和道具数保持原稿，未建立正式角色母版。
+
+**配色与实际操作。** 阴雨散射光；湿街、远屋与雨幕偏冷灰，檐下石台浅暖灰，瓦顶灰青，木门与柱灰棕。近景油纸伞灰米褐，近伞客灰青布衣，赶檐人麻灰短袍、灰绿裤、素布鞋，手和裸露小腿用低饱和肤色。沿原伞面、伞柄、手、衣服、门木、陶罐、竹篮、石台与柱础分区映射明暗，保留既有笔触、雨线和碎反光；伞面、手脚轮廓经放大对照后收边。原像素的明暗逐点映射到各材质颜色，未生成替代图、未输入其他角色图、未添加灯笼或新光源。供05B后续衔接的工作色：油纸高光RGB(219,199,161)，近伞客布衣高光(147,164,164)，赶檐人短袍高光(192,179,151)，湿街高光(215,226,226)，石台高光(211,210,190)，门木高光(158,145,121)；这些是本轮方案，尚非用户锁定的角色标准。
+
+**首轮上色原位保存证据。** 编辑前确认使用Node文件接口的r+原文件读写方式，操作只在内存解码、局部颜色映射与编码；以同一已存在文件句柄定位写入、ftruncate及fsync。写入前核对源SHA256和文件对象并再次检测并发变更，编码后先验证像素，再写入并完整回读；未创建图片、脚本、预览、备份或临时文件，未重命名或替换原件。实际调用为exec_command的Node标准输入脚本，退出码0。保存后3,253,659字节，文件对象ID仍为15762598696002754；首轮文件SHA256为b6b2bdd9652fa34900dbfa0027b7316be2293338e54d84f90d3a1150bff3bfbb，RGBA像素SHA256为9ddd320e1d165222c317debaa325f24de3deeab9045ba6ab428671fac66cf532。独立PNG解码回读与内存期望像素逐字节一致。相上色前变化343,410个像素，全部位于05A [8,70,830,489)；05A标记保护区[17,75,65,96)、区域外、其余三格以及全部alpha通道变化均为0。
+
+**建筑分色返修与最终保存。** 首轮独立目检指出灰墙上沿木色形成硬边、门洞深色斜切木板。对照原墨线，将墙面收回梁柱间，补齐门框立柱与横档木色，将暗色收进实际门洞内缘；仅修正建筑局部16,513个像素，涉及[555,122,743,349)，其他色区不动。终端分块传输因接收问题没有触发写入，已结束该等待进程；最终用直接原文件读写完成修补，没有把失败传输计为已保存。续修从首轮已保存像素的色调区间反算明暗并重新分色，未重新生成或移动结构。
+
+最终文件3,251,756字节，SHA256为e556495a3ca07af0dd5596ee2bb43d8db61fb5d1e2a504b3ca0636fee55820ad，RGBA像素SHA256为9b131642a07969b55a38d3c21e7b3a0531270d3012b97a85a5489a3f2326f8ed。实际r+定位写入、ftruncate及fsync后回读逐字节一致，另一PNG解码器读回像素亦与准备结果一致；磁盘文件对象ID15762598696002754仍与本轮编辑前相同。相上色前局修线稿共变化343,410像素，边界[8,70,830,489)；05A保护标记、区域外、其余三格及alpha变化均为0。两份既有制作文档直接原位更新；未改剧情、图片定义、游戏素材，未创建独立图片或新记录文件。
+
+**05A上色独立复核（/root/rain_animation_reference）。** 已读取最终原图并核对上述SHA256，查看整板与局部：两项建筑硬边问题已消除，灰墙位于梁柱之间，门框及横档分色完整，深门洞沿内缘落色；未见新增明显漏色或接缝。暖灰米纸伞、灰青近伞客、麻灰赶檐人层次可读，伞继续遮住后者头肩；手与伞柄、小腿与裤脚及鞋分色明确，水滴与雨丝清楚，冷湿街与较暖石台区分成立。可交付05A本轮着色结果，颜色尚待用户最终确认。头脸按剧情遮挡，不构成脸部身份验证；远人只保留剪影。05B、06A、06B没有本轮色彩通过结论。未执行上色后的动态、对白框或游戏实机验证，未将本次分镜色稿记为正式精绘。
+
+<a id="c2-rain-shelter-local-repair"></a>
+
+**05A／05B局部修补及实际保存（2026-11-07）。** 授权为用户“用05A和05B”后续“开始修改”，目标是上方同一新四格PNG，不恢复旧PSD任务。先核对门洞、门边器物及柱在两格中的横向偏移为836像素、纵向基本固定；真正阶沿在05B比05A低约29像素，不能把石板砖缝误当阶沿。保持05B的脚与台阶关系，以其空平台为依据接回05A地面；05B原错位远景小伞及短倒影以邻近雨街纹理局部补除，使其在这一瞬间由前景伞客遮住，不把远人画成向右跳位。主赶檐人、近伞客、门洞与器物主体、标题、格框和下排不修改。
+
+首次局修保存的历史SHA256为87d141fe8cbbc7788e89f80ad1b94e09ad7e02ab3d2492b727b91aa470a99556。独立目检发现05A左端地面局部模糊、重复弧纹，因此继续只修x427–564、y346–448的接缝，以05B空地面的清晰石板纹理沿阶沿方向接回；05B保持首轮局修结果。返修没有整图生成或新增图像文件。
+
+**线稿局修写入证据。** 使用Windows System.Drawing在内存处理指定区域并编码PNG，随后以FileMode.Open／ReadWrite打开原文件，写回、截断到实际长度并Flush(true)；无另存、新建文件替换、重命名、候选、备份或临时文件。两次写入均有前置哈希与并发变更检查、写后字节哈希回读。最终文件为3,255,818字节，磁盘文件对象ID15762598696002754与编辑前一致；这同时有实际写入记录支持，不只依据路径。最终RGBA像素SHA256为7da2093bca9a49350248095f0bc4406a907165663d34ac60436ecff0f42929e2，磁盘回读与本轮修补期望像素完全一致。相最初原图变化60,562个像素，合并边界为[428,238,1033,489)；05A允许区[427,346,830,489)与05B允许区[969,234,1038,347)之外变化为0。两主人物保护区、下排06A／06B变化均为0。未改剧情、bg_images.rpy或游戏资源文件。
+
+**保存后独立视觉复核（/root/rain_animation_reference）。** 已核对最终SHA256，并查看整板与05A修补处放大画面：模糊和重复弧纹已消除，砖缝清楚，未见明显矩形贴片、双重阶沿或腿脚被台阶吞入；05A／05B的平台关系协调。05B小伞清除区无可辨残人、伞尖或短倒影残留，前鞋仍读作越阶将落／初触缘。结论为本轮局修可接受，可交付已选用的上排分镜线稿；不代表上色、动画逐帧连续性、游戏接入或用户最终美术确认。
+
+**首稿独立目检（/root/rain_animation_reference，2026-11-07）。** 已读取同一SHA256原图，并在内存放大05B／06A／06B足部。05A近伞遮头肩、05B左移露人可读；05B前鞋越沿将落／初触缘，06A前鞋平贴平台且后脚收进，06B两脚落稳、上身直起且手臂下降，未见明显反向或前后腿交换。主行人布束髻、粗布短袍、布带、短裤与素鞋总体连续；05A头部遮挡，匿名群演无正式脸部母版，不宣称主角身份通过。门洞、近远柱和门边器物均保留同侧。可交付为待确认分镜线稿，非正式美术定稿。
+
+**未验证与剩余限制。** 已消除05B远景小伞向右跳位，并将05A可见阶沿和地面接到05B的空间位置；未把背景逐线统一，不能直接作为连续动画帧。滴水线地面投影未精确验证。当前双格板1672×497，各格仍略宽于16:9，不能直接当作正式16:9单镜。05B仅为越阶将落／初触缘，尚非收步站稳；后半句正文的画面承载另定，不恢复06A／06B。
+
+**验证边界。** 当前采用05A／05B两格，原始四格生成与检查记录仅作历史；不能证明雨线、脚步、伞客运动及匹配切已经制作。尚无连续帧、配音时长、游戏对白遮挡或实机验收。人物为新设计的匿名群演，没有已确认脸部母版；只验证本张内部的发髻、衣装、朝向和动作连续性，不宣称主角身份通过。
+
+<details>
+<summary>2026-11-07实际生成请求（原文）</summary>
+
+工具：内置image_gen；transparent_background=false；无参考图输入；一次调用。
+
+Use case: illustration-story.
+Create ONE NEW monochrome hand-drawn cinematic storyboard sheet for a restrained Chinese historical narrative, titled only “路边躲雨”. This is a fresh design, not an edit of any earlier image. Do not use any previous window-view drawings or character images from this conversation. Target canvas 1920 x 1080, landscape 16:9. Four equally sized cinematic wide frames in a clean 2-by-2 grid, read top left, top right, bottom left, bottom right. Narrow white gutters. Small discreet panel labels exactly “05A”, “05B”, “06A”, “06B”. No other writing, no dialogue, no arrows. Each panel is a successive moment of ONE action in ONE consistent place, never four concept variants.
+
+STORY: A remembered story of ordinary passersby: a large umbrella crosses leftward in the rain, gradually revealing a man hurrying to shelter. He enters a shop eave, brings his rear foot in and stands still while rain and an umbrella farther in the street continue. Do not depict the storyteller or any named protagonist.
+
+LOOK: refined but economical graphite and pen storyboard linework, mostly white paper, varying thin and thicker outlines, a little dry pencil hatching to separate foreground and depth. Accurate natural adult proportions, restrained everyday gestures, historical Chinese / Song-inspired humble timber storefronts, tiled overhang, worn paving. Natural weather, quiet humane feeling. No color, no polished grayscale painting, no fantasy ornament, no anime faces, no decorative dense texture. Prioritize clear silhouette, readable hands, grounded shoes, spatial continuity, and contrast between walking and stopping.
+
+GEOGRAPHY AND CAMERA: street-side camera around a standing person's chest/eye height, oblique view along a narrow rainy lane. Never upstairs, never through a window, no interior window frame or sill. The wet open lane lies on the LEFT and center. A humble storefront with a deep roof overhang and a low covered stone platform is on the RIGHT. A single timber support near the far right edge and the shop doorway behind it are stable landmarks. Roof eave makes a strong diagonal across upper right; the street recedes toward upper left. The pillar is outside the man's walking route, not blocking it. There is clear walking room under the roof. Roof drip boundary lies outward of the dry standing area; it is a broken curtain of sparse drops, not a thick line and not identical to the stone step edge. Under the roof the paving has faint damp shoe marks but no falling rain, no mirror-like standing water. Outside has thin rain streaks, little puddles and broken reflections, never ocean waves.
+
+CHARACTERS kept identical throughout:
+A) main unprotected passerby: one ordinary adult man, lean average build, plain cloth-bound small bun, coarse knee-length wrap tunic, simple cloth waist belt, calf-length trousers and plain cloth shoes. Three-quarter rear/side view facing screen RIGHT throughout, never posing toward viewer. His right forearm/sleeve initially raised over his brow against rain. No jade hairpin, weapons, backpack, costume change, youthful hero face, luxury details.
+B) one nearer umbrella carrier, plain long robe, face concealed by a big oil-paper umbrella, walking from screen RIGHT toward LEFT in the foreground wet lane. Their lane is closer to camera than A's diagonal route toward the shelter; they do not collide. Their umbrella is overhead, shaft attached naturally to a hand.
+C) one very small distant umbrella silhouette in the left background, already present in 05A and walking gradually leftward in each frame. It stays a distant ordinary figure, not another focal character. No other crowd.
+
+PANEL 05A (top left): wide establishing frame, fixed camera. The large foreground oil-paper umbrella spans much of the center-left foreground, its canopy overlaps and hides most of A's raised arm/head and upper torso behind it. A hint of his moving lower leg may show below but his whole action must not yet be revealed. Show one clear little drop falling vertically from the nearby umbrella rim as a visual bridge from the prior eave-drip scene. The doorway, covered landing and pillar on the RIGHT remain visible as the destination. Distant small umbrella is visible in the left depth. Do not clutter the opening with a fully visible second main man.
+
+PANEL 05B (top right): EXACT SAME camera, focal length, roof, platform and pillar placement as 05A. Foreground large umbrella has moved toward and partly beyond the LEFT edge, exposing A clearly at middle-right. A is caught hurrying diagonally toward screen RIGHT into the shelter, right sleeve raised, torso slightly pitched forward. His lead foot is STILL ON THE WET STREET, about to step onto the low covered platform; neither foot has already completed the entry. His stride and clear empty path carry the eye to the dry landing. The near umbrella must not reverse direction or remain centered.
+
+PANEL 06A (bottom left): cut during the entry movement to a CLOSER full-body view on the same side of the action axis, same screen-right direction and same storefront. A's SAME lead foot has now landed flat on the dry platform, his rear foot is still lifting over the drip boundary, knee naturally bent and body moving inward. One believable support foot, one moving foot: no extra limbs. His raised right sleeve is beginning to lower. Preserve the doorway and timber post on the RIGHT, with enough left-side rainy street to understand where he came from. The big foreground umbrella has already left this closer frame; do not reintroduce it. The distant little umbrella continues in the left background.
+
+PANEL 06B (bottom right): EXACT SAME closer framing and landmarks as 06A. A has finished arriving and stopped. Both shoes now rest FLAT on the SAME covered paving surface inside the roof-drip boundary, separated in a relaxed stable stance; rear shoe comes alongside but not crossed over the other. No raised heel exposing a whole sole to camera, no airborne running foot. Body mass settles between the two feet, torso is upright, shoulders slightly relaxed; the previously raised right arm is lowered to roughly chest/waist height naturally, not still shielding the head. He quietly faces out toward the rain at screen-left only with a small head turn, while chest/hips retain the same generally screen-right orientation; do not rotate his whole body. The empty wet lane occupies the left half and the distant small umbrella has progressed leftward. Keep this ending quiet and spacious so the still figure, continuous rain and departing umbrella tell the feeling of a brief pause. No theatrical sadness, injury, falling, rescue, moral judgement or gestures to camera.
+
+Continuity is more important than extra detail. Large umbrella moves left; main man moves right and then stops. 05A/05B share one stable view; 06A/06B share another stable closer view. Show the action sequence rather than four copies of the same running pose.
+ANATOMY CONTINUITY LOCK: His RIGHT foot leads into the shelter in 05B/06A; his LEFT foot follows in 06A/06B. Track these same physical feet across the cut. Do not mirror the figure.
+
+</details>
+
+<a id="c2-rain-shelter-execution"></a>
+
+### 路边躲雨：旧两镜五格与PSD修补记录（2026-11-06，已停止执行）
+
+用户在阅读分镜资料后的方案基础上授权“开始解决”。本轮先在现有原件范围内落实动作和遮挡；保留05B宽景、05C收紧画面的俯视机位与建筑位置，不改整条街，不扩大到车轮、陆抬小院或章末演出。镜05的三格为同一固定机位的动作阶段；镜06的两格为同一较近画面的收步与停留，不据五格要求新建五张背景。
+
+| 关键画格 | 画面与动作目标 | 台词／声音／切点 | 验收条件 |
+| --- | --- | --- | --- |
+| 镜05·接滴 | 近处伞沿接住前一镜水滴的注意位置；右侧仍可辨屋檐与石阶。赶檐人的肩和举袖先被近伞遮住。 | 夜廊上说完“他想起在青鸾国酒楼里听来的一个故事。”；“故事”落音后切入雨街，檐滴接雨打伞声。 | 不把已有叶尖挂滴当作已完成檐滴；不加陈平安在窗内观看的前景。 |
+| 镜05·露人 | 机位不动，近伞向左平稳走开，逐渐露出抬袖遮雨、朝右侧檐下赶去的人。 | “撑伞的人在雨里，”；注意从伞转给无伞人。 | 以真实前后遮挡实现露人；不能只在原图上加箭头。伞客与赶檐者不互相穿过。 |
+| 镜05·赶檐 | 同一空间继续。赶檐者前脚将跨上台阶，后脚仍在湿地；伞持续离开。 | 湿脚步略急，在跨入动作进行中接镜06。 | 来路与去向清楚，台阶前沿和檐柱不挡通路；切镜后不重复起步。 |
+| 镜06·收步 | 同侧较近画面保留人物、檐柱与滴水边界。后脚收进，双脚落稳，肩背松一点，抬袖的手臂开始放下。 | “躲雨的人在檐下。”；脚步停，雨声继续。 | 能读成到达并停住，不能沿用后脚仍悬起的奔跑姿势冒充收步。 |
+| 镜06·停留 | 继续停在檐下的人，边缘仍可见雨街与经过的伞；不另插入苦脸特写或新增事件。 | 本轮按建议在此承载第394行“也想起陆抬说过的‘留不住’……”完整旁白，实际原文不改。时长待配音确定。 | 人停而雨仍在；不因旁白提到陆抬就把他画成雨街现场人物。 |
+
+**原件结构已核对，尚未修改。** Photoshop内只读打开[05B原PSD](<F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/05B rain crowd effect.psd>)和[05C原PSD](<F:/project/JianlaiWhentheSwordArrives/game/lh/cpa/05C rain crowd effect.psd>)。两份均为三层：新增左／右路人各一层，其余合在背景中。05B为1159×649，陈平安过肩、主要近伞和赶檐人不在独立层；05C为1159×645，主行人及其脚部也合在背景。故下列处理属于局部补画，不能描述成简单隐藏人物层或挪动现成分件。
+
+| 原件 | 本轮局部处理范围 | 必须保留 |
+| --- | --- | --- |
+| 05B | 沿陈平安前景轮廓补回被遮挡的窗边／街景；重排近伞的遮挡，使肩与举袖确实先被盖住、再向左露出。人物去除区约在左侧x0–315，须沿轮廓选择，不能整块矩形涂除。当前近伞约x350–500、y300–515；它的高度低于赶檐者头顶，不能只横移而忽略遮挡高度。 | 原画幅、建筑透视、门洞、檐柱、台阶、酒瓮和普通路人身份；已完成夜廊彩图不动。 |
+| 05C | 赶檐者约x600–725、y205–425内调整后脚、重心及举袖臂；整理其附近檐下雨线、地面水纹和鞋底接触，明确滴水线内外。 | 原画幅、建筑、人物衣装发型朝向及既有相邻路人，不将整个平台抹成干白。 |
+
+上述坐标来自原PNG目检，只用于圈定待核区域；实际操作须以PSD像素位置复核，不直接当作矩形填补范围。独立空间复核为 /root/rain_animation_reference：原机位与建筑可沿用；原05B只呈现露出后的状态，原05C只呈现跨入过程，两镜五格目前未通过。
+
+**资料依据。** [Framed Ink](F:/中国古建筑学习资料_20261031/02_动画分镜/framed-ink_drawing-composition-for-visual-storytellers_Marcos_Mateu-Mestre.pdf)印页55、68–69（PDF56、69–70）：关注点衔接及固定机位中的动作构图。[电影镜头设计](<F:/中国古建筑学习资料_20261031/02_动画分镜/电影镜头设计 从构思到银幕 (Pdg2Pic etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf>)印页148、222、324–326（PDF170、244、346–348）：动作中切镜、兴趣中心转移、匹配连接与动作划变的区别。[动画分镜头设计](<F:/中国古建筑学习资料_20261031/02_动画分镜/动画分镜头设计 经典动画片解析 (刘辉，孙文博编著, 刘辉, 孙文博编著, 孙文博, Sun wen bo, 刘辉 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf>)印页48、146–149（PDF56、154–157）：固定镜头、连接逻辑、相似形象与视线连接。以上为实际查阅页；具体场景安排是本项目应用，不冒称书中原例。
+
+**当前执行状态（2026-11-06续做）。** 用户已明确允许“原PSD正常保存”，并要求先核验05B、无问题再保存，然后修改05C收步。05B局部生成两次未留下结果；内容识别试填出现街面误填到室内，已撤回。随后在原05B文档中以原图像素和局部填色重建遮挡区，当前四个编辑层为“05B foreground removal repair”“05B window jamb continuation”“05B sill and street continuation”“05B lower sill edge alignment”。最后一轮窗框／窗台接缝尚未完成视觉核验：电脑操作连接曾报“already has an active request”，刷新后截图仍返回其他窗口而非Photoshop画布。未执行保存，改动只留在Photoshop内存；不能标为通过或定稿。05C尚未修改。已请用户恢复Photoshop前台及处理待确认的其他电脑操作；不再要求重复批准正常保存。磁盘05B SHA256仍为f243beec698544258b3c81a633f7835bb3db9d6a501c5cbc1c5684db3c6852cf，05C仍为1e16a20b70ef8dce98c553aa77e77560fdad68b289a0dea56bcfb4efc28aa790。未另存图片、未接入游戏。
+
+<details>
+<summary>已撤回的车轮四镜建议（仅保留历史，不作为当前分镜或补图顺序）</summary>
+
+以下为被用户最新脚本范围取代的旧建议；其中把第391–394行留在夜廊读完、先补车轮等安排均不再执行。
+
+#### 已撤回的车轮四镜建议（历史文本）
+
+本表依用户要求整理新四镜切入。范围止于现稿第394行“且慢行——慢一点，才看得见人间的苦。”句末；第398行开始的陆抬忆述属于下一段。沿用当前正文顺序，不提前搬用第419行崔东山的“历史车轮”台词。本轮仅整理此表，未改剧情、图片或运行调用。独立文字与连续性复核为 /root/intro_table_review。
+
+镜号均指11月5日新四镜方案，与下方旧第09场镜01–04分别识别。前两镜是剪辑意象；第三镜回到现实夜廊。泥地上的折草与栏上的折草只以形状相接，不能表现为同一茎草移动或变形。
+
+| 新镜号／镜名 | 画面与动作 | 对应台词（当前剧本） | 转场与声音设计 | 素材状态／缺图 |
+| --- | --- | --- | --- | --- |
+| 01｜车轮疾行 | 贴近路面的局部特写，普通木轮从左向右迅速掠过，轮缘大部分出框，路边草被压弯。镜内无人。 | **无对白。** 保留后文“历史车轮”的首次完整解释，不在这里提前朗读。 | 前段敬酒台词结束后，宴席声退去，短黑场中轮声先起，再切进木轮；轮声短而近，不用宏大配乐。 | **缺独立成图。** 已有四格概念线稿可作设计依据，不能算镜01成图。 |
+| 02｜轮过折草 | 同一道路、同一低机位方向。轮已出画，停看泥地上受损的细草与叶尖水滴，让细物显出来。 | **无对白。** 给观众看清草的时间。 | 接轮子向右离开的方向；碾压声迅速远去，留一拍安静。镜尾用折草斜向和叶形准备切到镜03。 | **缺独立成图。** 需锁定轮辙与草的尺度，明确草落在泥地上。 |
+| 03｜湿栏与手 | 叶形相接，画面已换为湿木栏；另一茎折草搁在栏上。陈平安的手与袖口在画右搭住栏沿，与草保持距离。脚步在画外渐停。 | [L387](../script_chapter2.rpy#L387)「雨已经停了，檐角还在滴水。」<br>[L389](../script_chapter2.rpy#L389)「陈平安沿着廊下慢慢走，一只手轻轻搭在栏杆上。」 | 02→03直接形状匹配切；泥纹变为木纹，檐滴、轻脚步和江声明确回到现实夜廊。手不碰草，不用草叶变形动画。 | **缺独立成图。** 以已完成镜04的栏杆透视、草叶形状、手与袖口位置为连续性依据。旧四格中草根似穿木的问题须修正，不能直接采用。 |
+| 04｜扶栏看草 | 切到已完成彩图：陈在画右轻扶湿栏，低头看折草；远岸灯火与江面留在左侧。停在这个凝视结果上，承载随后忆述。 | [L390](../script_chapter2.rpy#L390)「走到灯下，一滴檐水落在他手边。他低头看了一眼。」<br>[L391](../script_chapter2.rpy#L391)「他想起在青鸾国酒楼里听来的一个故事。」<br>[L393](../script_chapter2.rpy#L393)「撑伞的人在雨里，躲雨的人在檐下。」<br>[L394](../script_chapter2.rpy#L394)「也想起陆抬说过的“留不住”，于是心里只剩一句话：且慢行——慢一点，才看得见人间的苦。」 | 03→04保持草左、手右、栏向与光向，切宽见人；以近处一声檐滴接低头的结果画面。青鸾故事由旁白回忆，画面留在夜廊凝视，不切回停用的旧雨街。第394行句末留一拍，作为切入段出口。 | **单张彩图已完成并采用。** 原图与项目图均保留。低头、檐滴落下、拉镜、水面动态均未制作；本图不能单独证明这些动作已完成。 |
+
+**接出边界。** 下一段从 [L398](../script_chapter2.rpy#L398)「又记得陆抬曾经在飞鹰堡小院感慨，人间的遗憾，多是“留不住”三字。」开始，接第399–401行“且慢行／感同身受／措手不及”。保持旁白“陆抬·回忆”归属；是否切飞鹰堡小院、用哪些画面，另做下一段分镜。本表不自动采用旧镜07，也不把陆抬安排到当下夜廊。
+
+**台词与画面核对。** 旧雨街画面停用不等于删去第391、393、394行正文；这些句子在新镜04的当下凝视画面上读完。第390行的“手边檐滴”与彩图中的“叶尖挂滴”是两处水：游戏静态呈现可用旁白和落水声承接结果图；短片若要实际拍出落滴或低头，需要另列局部动作制作，不能把叶尖挂滴当作已完成落滴。
+
+**节奏与制作顺序。** 原25–30秒来自静默构图草案，不能直接套在加入全部现稿台词的版本。游戏按页阅读与停留，短片待配音后核定时长。当前缺镜01、02、03三张独立图，镜04不重画。此表确认后，建议先做与镜04直接相接的镜03，再完成镜01、02，最后验证四镜衔接；完整短片、章末CG和成就另行制作。
+
+</details>
+
 ## 2026-10-30 当前执行与制作边界
 
 - 当前487条对白／旁白／心声，按19个场头注释分段；保留2处显式自动存档、2处可点击无字停留、3句裴朱专用头像对白。19段是当前脚本的时间和空间定位，不等于已经完成19套分镜或19组美术。
@@ -42,45 +536,55 @@
 
 ## 第09、10场逐镜表
 
-第09场「且慢行与善恶之问」分九组，镜01至镜51。第10场「宴后临窗夜谈」分一组，镜01至镜06。以下为分镜设计，画面、运镜和声音按设计列出。剧本中两场目前以黑场文字呈现。[栏杆起笔](../script_chapter2.rpy#L386) · [路上问答的三个选项](../script_chapter2.rpy#L464) · [临窗入夜](../script_chapter2.rpy#L520) · [朱敛最后一问](../script_chapter2.rpy#L535)
+2026-11-06范围补充：用户确认已完成的夜廊切入止于第390行“他低头看了一眼”；第391行及镜05–06路边躲雨为下一制作段落。下列镜04同时列有第391行，不代表该句也已完成；本轮范围与素材状态以[最新表格](#c2-slow-attention-intro-table)为准。镜06细分动作和第394行接小院仍属分镜建议。
 
-### 第09场·第01组　紫阳府高楼檐下·栏杆缓行
+第09场「且慢行与善恶之问」分九组，镜01至镜51。第10场「宴后临窗夜谈」分一组，镜01至镜06。以下为分镜设计，画面、运镜和声音按设计列出。剧本中两场目前以黑场文字呈现。[雨停廊下](../script_chapter2.rpy#L387) · [路上问答的三个选项](../script_chapter2.rpy#L470) · [临窗入夜](../script_chapter2.rpy#L526) · [朱敛最后一问](../script_chapter2.rpy#L541)
 
-紫阳府高楼，雨夜。站在廊内往外望，近处一根檐柱，远处是栏端，两者之间留出一段可以走完、又能走回来的距离。开场四镜共用这段栏杆。
+### 第09场·第01组　紫阳府高楼檐下·扶栏缓行
+
+紫阳府高楼，夜雨初停。近处是檐柱，远处是廊道尽头。楼外紧贴湖面。陈平安脚踩廊板，一只手搭着木栏，沿廊走一个来回。
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜01 | **檐下空景。** 机位先定住。檐角下，一滴水落过湿栏顶，栏外大片淡青灰里只透出两三点市灯。画面里暂时无人。 | 先听雨。等近处的檐滴和远处的市声分得开，再起第一句旁白“紫阳府高楼檐下，陈平安独自站在栏杆上。”起句时栏顶仍是空的。 |
-| 第09场·镜02 | **人从柱后入画。** 承上一个中远景。陈平安沿栏顶从画左走来，先露出衣摆，再从檐柱后露出全身。他只占两根檐柱之间的一小块。镜头留在原处，让他走过檐灯，画右还看得见他将要走的路。 | 承首句的后半。人走进画面后，雨里才听得见鞋底轻擦湿木的声音。 |
-| 第09场·镜03 | **沿栏横移。** 等他走过第一根柱，镜头才沿栏向右平移，景别保持不变。湿栏上一线反光先把目光引到他的步子。下一根柱身从眼前掠过，短暂遮住他，柱外的远岸灯影就露了出来。等衣摆重新出现，他已经走过一跨。 | 留一段没有旁白的路。人被柱子遮住时，脚步仍接得上，檐雨也一直可闻。 |
-| 第09场·镜04 | **固定远景看折返。** 仍从廊内这一侧看，让近柱、上檐框住栏端。陈平安从柱后走向画右，在雨幕留白最宽处转身。他朝左走回，再一次从同一根柱后经过。镜头一直留在原处，直到人影重回灯边。 | 转身时让雨声独自占一拍，接着听见反向走回的脚步。镜尾才起“陈平安想起青鸾国酒楼里听来的故事”，同一句延续到镜05的伞与屋檐。 |
+| 第09场·镜01 | **檐下空景。** 机位定住。檐角一滴水落过湿栏，栏外河面只透出两三点灯光。 | 先听檐水滴落和远处市声。廊内尚且无人，旁白起「雨已经停了，檐角还在滴水。」 |
+| 第09场·镜02 | **人从柱后入画。** 陈平安从画左的柱后走来，草鞋踏着廊板，一只手轻轻搭上栏杆。镜头留在中远景，画右留出他要走的路。 | 旁白「陈平安沿着廊下慢慢走，一只手轻轻搭在栏杆上。」鞋底擦过廊板的声音很轻。 |
+| 第09场·镜03 | **沿廊横移。** 镜头随他往右走一段，搭在栏上的手掠过一线水光。下一根柱子短暂遮住他的衣摆，柱外露出远岸灯影。 | 留一段没有旁白的路。柱后脚步仍接得上，间或听见檐滴。 |
+| 第09场·镜04 | **灯下低头。** 机位定住。陈平安走到廊道尽头折返。经过灯下时，一滴檐水落在他手边的湿栏上。他低头。镜头落到指尖旁的水纹，栏外近处只有湖面。画面在这里停一拍。 | 旁白「走到灯下，一滴檐水落在他手边。他低头看了一眼。」「他想起在青鸾国酒楼里听来的一个故事。」第二句旁白在手边与湖面的画面上说完。“故事”落音，檐滴才接到青鸾国的伞沿。 |
 
-镜05、06承接酒楼这句旁白，“也想起陆抬说过的‘留不住’……”随后引入镜07的小院。两句按现行剧本顺序说完。
+镜04以[想起酒楼故事](../script_chapter2.rpy#L391)收住。镜05、06共用[撑伞与躲雨一句](../script_chapter2.rpy#L393)。[忆及陆抬的下一句](../script_chapter2.rpy#L394)从镜06跨到镜07，以“留不住”三字入小院。
 
-**现实栏杆线的画面参照。** 《春江水暖》用在镜01、03，先给空间时间，再让视线沿栏从近物移到远处。侯孝贤的固定长镜用在镜04，柱子先后两次遮住人，观众凭它认出他走回了原处。《鹿铃》的留白留给雨气与河面，远岸屋脊只显一截，近处湿木的边沿才落实笔。《剑来》的墨色变化落在同一件衣衫上，檐灯在深色柱影里留一豆暖光，他从灯前经过时衣褶稍清，走到栏端时衣摆的边缘融进雨幕，折返后才重新清楚。
+**现实夜廊的画面参照。** 《春江水暖》用在镜01、03，先给空间时间，再让视线沿栏从近物移到远处。侯孝贤的固定长镜用在镜04，柱子先后两次遮住人，观众凭它认出他走回了原处。《鹿铃》的留白留给雨后的水汽与河面，远岸屋脊只显一截，近处湿木的边沿才落实笔。《剑来》的墨色变化落在同一件衣衫上，檐灯在深色柱影里留一豆暖光，他从灯前经过时衣褶稍清，走到廊端时衣摆渐淡在水汽里，折返后才重新清楚。
 
-**镜01线稿记录（2026-11-01）。** 本镜[单张线稿原图](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png)已在Photoshop原文档中局部修改并正常保存，保留原生1672×941。右侧栏端在画内闭合，栏杆由左近右远递减；远岸楼群、木纹与反光已减简，柱脚接缝已收顺。独立看图确认无人、落地关系与中上部留白保留；中央留白和檐灯的抽取区域逐像素无变化。新栏杆比原檐柱略规整，待用户确认线稿，未上色或接入游戏。[制作及实际写入核验记录](../../work/art/chapter2/c2_09_01_empty/record.json)
+**镜01线稿记录（2026-11-02）。** [单张线稿原图](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png)保留1672×941。已取回初稿笔触修整湿木扶手、横枋、柱脚倒影和远岸。扶手收进右端望柱，栏柱间距向右递减，檐下仍为无人空景。右端柱脚已补一笔短接触影，落点可辨，线稿待确认。书页依据及实际写入核验见[单图制作记录](../../work/art/chapter2/c2_09_01_empty/record.json)。
 
-### 第09场·第02组　陆抬回忆·两拍
+[镜04→05双格线稿](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-bd440d80-231a-4b30-ae22-46346aeea503.png)上格里陈平安双脚踩在廊板上。上格收尾的小格取他手边的湿栏和栏外湖面，旁白在这里说完「他想起在青鸾国酒楼里听来的一个故事。」下格才俯看故事里的雨街。上格线稿待确认。[镜04单镜原画](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-9a4a7c28-c3c8-40dd-8108-70867760168f.png)
+
+### 第09场·第02组　酒楼听来的故事与飞鹰堡小院的旧话
 
 空间/时间：回忆线，旧黄/水墨。
 
-功能：把“留不住”“且慢行”“感同身受难”第一次落地。内部两拍，不拆组。
+两拍都从陈平安的记忆展开。先见他在青鸾国酒楼听来的故事，再见他记得的陆抬。
 
 **A拍　青鸾国酒楼·撑伞与檐下**
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜05 | 旧色雨幕中，青鸾国酒楼外，撑伞人走在雨里，躲雨人站在檐下。构图一左一右，中间是雨帘。 | 旁白：“陈平安想起青鸾国酒楼里听来的故事：撑伞的人在雨里，躲雨的人在檐下。” |
-| 第09场·镜06 | 特写：伞沿滴水；檐下人的鞋尖试探雨水又缩回。 | 不配大道理，只让“不同处境”可视化。 |
+| 第09场·镜05 | **伞过，人躲雨。** 切入青鸾国酒楼里听来的故事，用街口的高机位俯看伞群。近伞的伞沿正落下一滴水，接着檐滴的位置和下落方向。机位定住。近处的路人一手持伞，一手提布包，朝画左走过。伞沿一点点让开，才看清后面抬袖遮头的人。他斜赶几步，前脚跨进画右的酒楼檐下。对街一把淡淡的小伞仍在往前走。 | 零落的檐滴声接成雨打伞面的细响。旁白接「撑伞的人在雨里，」。伞继续往街上走，几声急促的湿脚步靠近门口。 |
+| 第09场·镜06 | **后脚收进檐下。** 低机位接同一个无伞路人：前脚已踩在干处，后脚从湿石板上提起，越过滴水线，落在前脚旁。他站定。檐水仍落在刚才鞋尖所在的地方。 | 后脚落地，湿脚步声停。旁白续「躲雨的人在檐下。」在这双停住的脚上起下一句「也想起陆抬说过的」。 |
+
+动作参照：[英一蝶《雨宿り图屏风》](https://webarchives.tnm.jp/imgsearch/show/C0072048)看持伞者与掩头奔向屋檐者的身势；[《罗生门》开场镜5–8](https://thesuccessfulscreenwriter.com/wp-content/uploads/Rashomon-Continuity-Script.pdf)看路人涉水、上阶、在檐下收步回望的先后。《莎木》商店转角的伞客分在街角前后，近处行人手里的提篮让步子有了分量。《言叶之庭》漫画第一话以近伞遮住一角，对街的伞只留一小笔。镜05取这两层距离，露人的时机交给走过去的伞。[《莎木》街角截图](https://medium.com/@MoosaviAmir/what-s-shenmue-6145a484bbf1) · [《言叶之庭》漫画第一话](https://pocket.shonenmagazine.com/title/01951/episode/360947)
+
+镜05B–05C同窗线稿（2026-11-04 原位修订，待修正）。本轮仅简化墙板、瓦面与窗槛细纹，补下格前脚外侧接触影；人物位置、双格构图和原窗框保留。窗框试改的接缝不合格，已撤回；干湿边界和水面碎反光尚未处理。两格沿用青鸾国酒楼二楼窗位，从路人露出全身接到跨入对街铺檐，以右侧檐柱和两只酒瓮定位。窗槛参马炳坚《中国古建筑木作营造技术》印页264图7-1，铺基、石板街和廊棚参《江南 水乡古镇》印页22及西塘章开篇。取构件关系，透视按本场模型试排。[双格线稿](C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-87ff2e72-f90c-4ebf-82cb-e71c93114276.png) · [三维窗位](../../work/art/chapter2/c2_09_rain_street_3d.html)
+
+镜05B／05C 两张独立路人效果图（2026-11-04，待修正）：本轮修正05B左侧新增路人的比例，并补回05C的原前景伞客及左缘伞，保持窗槛遮挡和主动作可见。两名新增路人的衣装、手部和包袱差异仍未完成，已授权的 Firefly 局部填补被 Adobe 正版应用验证阻断，未生成结果。两张既有效果 PNG 已经 Photoshop 正常保存并回读核验，修订区外像素不变；原双格源图保留。仅供位置与连续性审阅，未接入游戏。[镜05B](C:/Users/MSI/.codex/visualizations/2026/11/01/01a1975a-1fa1-7d01-b992-4ed5dc477864/c2_09_05b_people_effect.png) · [镜05C](C:/Users/MSI/.codex/visualizations/2026/11/01/01a1975a-1fa1-7d01-b992-4ed5dc477864/c2_09_05c_people_effect.png) · [保存与核验记录](character_image_index.md#343-第二章第09场镜04--雨停扶栏2026-11-02)
 
 **B拍　飞鹰堡小院·留不住**
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜07 | 飞鹰堡小院，陆抬回忆中的侧影或背影，院中旧物、风过。 | 旁白：“人间的遗憾，多是‘留不住’三字。最深的肺腑之言，不过是对种种风景、种种人的一句‘且慢行’。” |
-| 第09场·镜08 | 小院石桌上一杯未喝完的茶，风把落叶吹走；镜头慢推到空处。 | 旁白：“我们很难对世间诸多苦难真正感同身受。所以当苦难临头，落在一个人的身上时，谁都会措手不及。” |
-| 第09场·镜09 | 回到现实栏杆线一瞬：陈平安脚步未停，画面从旧黄化回青灰。 | 转场：雨声渐起，接第09场·镜10。 |
+| 第09场·镜07 | **“留不住”入小院。** 旁白念到“留不住”时，切到飞鹰堡小院。石桌旁是陆抬的侧影。镜头停在这里，让陈平安把念头想完。 | 旁白接「“留不住”，于是心里只剩一句话：且慢行——慢一点，才看得见人间的苦。」其中“留不住”是陆抬的旧话，“慢一点，才看得见人间的苦”是陈平安此刻的领会。随后旁白以“陆抬·回忆”忆述：「又记得陆抬曾经在飞鹰堡小院感慨，人间的遗憾，多是“留不住”三字。」「最深的肺腑之言，不过是对种种风景、种种人的一句“且慢行”。」 |
+| 第09场·镜08 | 石桌上还剩半杯茶。一片落叶被风带出画面，镜头缓缓推向空处。 | 旁白仍以“陆抬·回忆”忆述：「陆抬又说，我们很难对世间诸多苦难，真正感同身受。」「所以当苦难临头，落在一个人的身上时，谁都会措手不及。」 |
+| 第09场·镜09 | **回到夜廊。** 小院的旧色切回廊下的青灰。陈平安已经走过灯边，仍在廊板上沿栏朝左走。 | 小院最后一句说完，檐滴之间又听见鞋底轻擦廊板，接镜10。 |
 
 要体现：不是只做“撑伞/躲雨”，必须补足飞鹰堡“留不住、且慢行、感同身受难、措手不及”。
 
@@ -96,7 +600,7 @@
 | 第09场·镜11 | 意象镜头：一条细小光阴长河在福地中可快、可慢、可停滞；落叶悬停，雨滴倒回，行人定格。 | 旁白：“道法通天的无名老道人，显然可以掌控一座藕花福地的那条光阴长河，可快可慢，可停滞不前。” |
 | 第09场·镜12 | 镜头猛拉开：四座天下的光阴洪流横贯画面，巨浪滔天；一只象征道祖的手或拂尘试图一拦，洪流仍不可阻挡。 | 旁白：“可是四座天下的光阴洪流，别说掌控，就是想要拦上一拦，据说连道祖都做不到。” |
 | 第09场·镜13 | 水边空镜：逝水不舍昼夜。 | 旁白：“故而至圣先师曾经观水有悟：‘逝者如斯夫，不舍昼夜。’” |
-| 第09场·镜14 | 回到陈平安栏杆缓行，心声起。 | 陈平安心声：“已经站得那么高、看得那么远的三教圣人，到底为何非要慢下来？至圣先师，佛祖，道祖，这三位有开天辟地之功的圣人，又到底在看什么？以至于一定要三座天下人间‘且慢行’。” |
+| 第09场·镜14 | 回到廊下，陈平安仍沿栏慢慢走，心声起。 | 陈平安心声：“已经站得那么高、看得那么远的三教圣人，到底为何非要慢下来？至圣先师，佛祖，道祖，这三位有开天辟地之功的圣人，又到底在看什么？以至于一定要三座天下人间‘且慢行’。” |
 
 要体现：尺度对照要清楚；设问要留悬念，不提前回答。
 
@@ -112,24 +616,24 @@
 | 第09场·镜16 | 意象切入：巨大历史车轮前行，碾过花草；花草稀烂特写，不血腥，但具体。 | 崔东山回忆：“历史的车轮前行之时，必然要碾碎许多花草。” |
 | 第09场·镜17 | 车轮上方的马车阴影，车窗里隐约可见大人物轮廓；镜头仰拍，压迫感。 | 崔东山回忆：“这不是帝王心性的无情之语，而是一位中土醇儒的悲悯之言。” |
 | 第09场·镜18 | 关键镜头：马车上的大人物低头看一眼车下稀烂花草。只给一个低头动作，不露全脸。 | 崔东山回忆：“那个读书人，希望所有看到这句话的掌权者，或是当时就坐在那辆马车上的大人物，能够低头看一眼那些稀烂的花草。” |
-| 第09场·镜19 | 回到现实栏杆，陈平安脚步稍顿，心声进入推理。 | 陈平安心声：“世道慢慢变好，需要担心吗？只要是变好，方向是对的，再慢都无所谓，当然不需要担心。” |
+| 第09场·镜19 | 回到廊下，陈平安脚步稍顿，心声进入推理。 | 陈平安心声：“世道慢慢变好，需要担心吗？只要是变好，方向是对的，再慢都无所谓，当然不需要担心。” |
 
 要体现：重点不是“无情”，是“低头看一眼”的悲悯；车轮与花草要成为后续“慢”的理由。
 
 ### 第09场·第05组　陈平安的思辨闭环与心田种子
 
-空间/时间：现实栏杆线 + 心田蒙太奇。
+空间/时间：现实夜廊 + 心田蒙太奇。
 
 功能：补全陈平安自己的推理；把“念头是种子”泛化为世人皆然；明确他本人不知道，只当散步散心。
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜20 | 陈平安继续在栏杆上缓行，心声继续。 | 陈平安心声：“若是世道在变得糟糕，比如历史车轮，以迅猛势头一碾而过，一路碾碎无数花草，哪怕有人想要低头去看一眼，也未必看得清楚。又何谈弥补？所以才要慢上一些？” |
+| 第09场·镜20 | 陈平安继续在廊下缓行，心声继续。 | 陈平安心声：“若是世道在变得糟糕，比如历史车轮，以迅猛势头一碾而过，一路碾碎无数花草，哪怕有人想要低头去看一眼，也未必看得清楚。又何谈弥补？所以才要慢上一些？” |
 | 第09场·镜21 | 关键落点：慢速镜头下，车轮偏入错误大道，又出现可修改的岔口；花草被避开一小片。 | 陈平安心声：“因为若是慢慢而行，哪怕是岔入了一条错误的大道，慢慢而错，是不是就意味着有了修改的机会？又或者，人间苦难可以少一些？” |
 | 第09场·镜22 | 种子蒙太奇开始：心田土壤中，一粒粒念头种子抽芽；有的半路夭折，有的开花结果。 | 旁白：“陈平安并不知道，在一个人自己都浑然不觉的内心深处，每一个深刻的念头，就像心田里的种子。会抽芽，可能许多会半路夭折，可有些会在某天开花结果。” |
 | 第09场·镜23 | 竹简特写：刻刀刻字；大太阳下裴钱晒竹简。 | 旁白：“那些以刻刀用心刻在竹简上的文字，那些被他反复咀嚼和念叨，甚至会在大太阳的天气里让裴钱去晒一晒的竹简文字……都是在他心田撒下的种子。” |
 | 第09场·镜24 | 泛化群像蒙太奇：爹娘牢骚、夫子教诲、翻回再看的书上语句、听了很多遍蓦然开窍的老话、青山绿水、错过的心仪女子、走散的朋友。不具体指向宁姚。 | 旁白：“陈平安并不是孤例，事实上，世人一样会如此……皆是所有人心田里的一粒粒种子，等待着开花。” |
-| 第09场·镜25 | 回到陈平安：他仍只是缓行，神情平常。 | 旁白：“陈平安仍是不知道，他只是当作一场散步散心的栏杆缓行。” |
+| 第09场·镜25 | 回到陈平安：他仍只是缓行，神情平常。 | 旁白：“陈平安哪里知道这些。他只当自己是在廊下散步散心。” |
 
 要体现：推理闭环必须完整；种子蒙太奇是“世人皆然”，不是陈平安专属；不提前消费宁姚。
 
@@ -145,7 +649,7 @@
 | 第09场·镜27 | 金色文胆府邸外，真气火龙盘踞酣睡；镜头低机位，压迫又安静。 | 旁白：“而拥有金色文胆的那座府邸，外边盘踞着那条酣睡的真气火龙。” |
 | 第09场·镜28 | 府邸内，金色儒衫小人负长剑、腰挂几本金色小书，金光凝练，熠熠生辉，如神祇塑金身。 | 旁白：“府邸里边，背负长剑、腰挂几本金色小书本的金色儒衫小人儿，一身金光越发凝练，熠熠生辉，如一尊神祇塑金身。” |
 | 第09场·镜29 | 特写：金光虽亮，却有星星点点金色光彩流溢飘散，显然不稳固。 | 旁白：“只是从那个全身金光流淌的儒衫小人儿身上，不断有星星点点的金色光彩流溢飘散出去，显然并不稳固。” |
-| 第09场·镜30 | 金色小人望向府门，充满期待，等陈平安停步；切回现实，陈平安仍在缓缓而行。 | 旁白：“他充满了期待，期待着陈平安在栏杆上停下脚步的那一刻。但陈平安依旧在缓缓而行。” |
+| 第09场·镜30 | 金色小人望向府门，充满期待，等陈平安停步；切回现实，陈平安仍在缓缓而行。 | 旁白：“他等着陈平安停下脚步，心里满是期待。可陈平安还在廊下慢慢走。” |
 
 要体现：金光“凝练但不稳固”；期待越强，后面被“想姑娘”打断越好笑。
 
@@ -181,7 +685,7 @@
 
 ### 第09场·第08组　气府小人急跳脚·陈平安停步却想宁姚
 
-空间/时间：气府内景 + 现实栏杆线，交叉剪辑。
+空间/时间：气府内景 + 现实夜廊，交叉剪辑。
 
 功能：全段反差喜剧高潮。分两拍：先“急”，再“停步揭示”。
 
@@ -198,22 +702,22 @@
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜43 | 现实线：陈平安终于在栏杆上停下脚步。气府两座府邸的金色小人和绿衣童子都充满期待。 | 旁白：“陈平安终于在栏杆上停下脚步。两座府邸的金色儒衫小人和绿衣童子们，都充满了期待。” |
+| 第09场·镜43 | 现实线：陈平安终于在栏边停下脚步。气府两座府邸的金色小人和绿衣童子都充满期待。 | 旁白：“陈平安终于在栏边停下脚步。两座府邸的金色儒衫小人和绿衣童子们，都充满了期待。” |
 | 第09场·镜44 | 静一拍。然后绿衣小童们面面相觑，突然哄然大笑，满地打滚。 | 旁白：“然后绿衣童子们面面相觑，突然间哄然大笑起来。” |
 | 第09场·镜45 | 陈平安心声揭示：他想念一个姑娘；下次剑气长城重逢，不能只是牵牵手，要胆子更大些。画面用少年脸红、手指蜷缩、栏杆雨滴等含蓄表现，不直给低俗画面。 | 陈平安心声：“原来陈平安站定之后，那一刻的纯粹心念，竟是开始想念一个姑娘了。而且想法特别不那么正人君子，竟是想着下次在剑气长城与她重逢，可不能只是牵牵手了，要胆子更大些。” |
 | 第09场·镜46 | 继续心声：宁姑娘不愿意大不了被打一顿骂几句；万一她其实愿意，等他主动呢？大老爷们没气魄像话吗。 | 陈平安心声：“若是宁姑娘不愿意，大不了就是给打一顿骂几句，相信两人还是会在一起的。可如果万一宁姑娘其实是愿意的，等着他陈平安主动呢？你是个大老爷们啊，没点气魄，扭扭捏捏，像话吗？” |
 
 要体现：先急后停，两拍不能压成一拍；喜剧来自“大道契机”被“想姑娘”打断，但表达要少年慌乱、含蓄。
 
-### 第09场·第09组　跳下栏杆·自我鼓气与气府收笑点
+### 第09场·第09组　转身回房·自我鼓气与气府收笑点
 
-空间/时间：现实栏杆线，接屋内。
+空间/时间：现实夜廊，接屋内。
 
 功能：轻喜剧过渡；体现陈平安烟火气，不是高高在上的悟道者。
 
 | 镜号 | 画面与动作 | 旁白、台词与声音 |
 | --- | --- | --- |
-| 第09场·镜47 | 陈平安跳下栏杆，落地，有睡意，走向屋子。 | 旁白：“陈平安跳下栏杆，有睡意了，走向屋子的时候，以拳击掌，给自己不断鼓气。” |
+| 第09场·镜47 | 陈平安有了睡意，松开搭在栏上的手，转身沿廊走向房门。 | 旁白：“陈平安有些困了，便转身往房里走。他边走边用拳头轻击手掌，给自己鼓气。” |
 | 第09场·镜48 | 以拳击掌特写，边走边自言自语。 | 陈平安：“不像话，肯定不像话！”<br>陈平安：“再说了，倒悬山那边，你又不是没抱过宁姑娘，只是那次光顾着发蒙了，啥个滋味都记不住，这怎么行？” |
 | 第09场·镜49 | 他忽然停一下，自己把自己吓到。 | 陈平安：“亲个小嘴儿……陈平安找死啊，你？” |
 | 第09场·镜50 | 继续走，强行拉回“慢”。 | 陈平安：“不能想这个，这个有些快了。你不刚想了那么多慢吗？与宁姑娘还是要慢些，文火慢炖，也是好的……”<br>陈平安：“好个屁的好……” |
@@ -385,13 +889,15 @@
 
 ### 第3场：核舟化船、纸人迎客与登船
 
+2026-11-06 接入更新：用户已确认的四人巨舟彩图以 `c2_03_reveal_v2.png` 接入03-03，沿用 **CG02·03·03**。先无字停留，点击后显示“水雾散开，三层楼船低悬在街面上”；画面只表示核舟悬空变大的终态。原图与运行素材逐字节一致，A2实机已核对终态与旁白恢复。此前删除的抛舟、落符、化人、搭板、登船后升空旧图仍缺失，因此连续整段未通过验收；下方旧“已接入”描述不代表缺失文件已恢复。接入与检查边界见[本图制作记录](../../work/art/chapter2/c2_03_throw_west/悬空巨舟_四人终态线稿.json)的 `game_integration_2026_11_06`。
+
 实际次序为先疏散，再抛核舟、楼船化形、符纸化少女、搭板、登船后升空。核舟与楼船都位于干燥街面上方，升空图已能看到众人上船后的结果。
 
 | ID | 当前标题 | 实际T/V与脚本行 | 当前画面代号 | 接入状态 | 具体待补／边界 |
 |---|---|---|---|---|---|
 | 03-01 | 来到开阔处 | T057<br>[L114](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:114) | CG02·03·01 | 已接入 | 无必需补图；不得将人物改记为站在水面或水中码头。 |
 | 03-02 | 先让路，再抛出核舟 | T058–T059<br>[L116–121](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:116) | CG02·03·01 → CG02·03·02 | 已接入 | 让路动作由保留旁白交代，当前无必需补图。若要把让路改为无字，需要独立清场结果或挥袖差分；不能宣称已有移人动画。 |
-| 03-03 | 楼船显形，低悬街面 | T060<br>[L125](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:125) | CG02·03·03 | 已接入 | 当前低悬状态已可见，无必需补图；无需重列完整船展开动画。 |
+| 03-03 | 楼船显形，低悬街面 | 无字停留＋原旁白<br>[L126](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:126) | CG02·03·03（四人巨舟定稿版） | 已定稿并接入／局部实机核对 | 2026-11-07用户查看完整彩图后确认定稿。1920×1080原图原样导入；先完整展示四人与巨舟，点击后恢复旁白。仅终态静帧，未制作连续变大动画；前后旧图缺失，连续流程未通过。 |
 | 03-04 | 松手落符纸 | T061<br>[L129](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:129) | CG02·03·04 | 已接入 | 无必需补图；符纸落地过程仍是静态关键相位加文字。 |
 | 03-05 | 纸人已化少女 | T062<br>[L133](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:133) | CG02·03·05 | 已接入 | 无必需补图；身份因果由前后图和保留短旁白共同成立。 |
 | 03-06 | 板落稳后相邀登船 | T063–T067<br>[L137–144](F:/project/JianlaiWhentheSwordArrives/game/script_chapter2.rpy:137) | CG02·03·06 | 已接入 | 当前图与下一张全员登船后的升空图足以承接，无必需单独补登船动画；不把本图记为全员已上船。 |

@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-05",
+  "request": "“且慢行”两种形式：章节尾声CG达成成就、小短片；搜索后生成线稿，现有切入先不用。",
+  "scope": "仅研究与两张新线稿；不修改正文，不实现成就或视频，不覆盖旧图。当前用户新请求授权从头设计两张线稿；旧原位编辑约束仍适用于既有文件。",
+  "sources": [
+    {
+      "title": "Gorogoa作者谈画框与蒙太奇",
+      "url": "https://blog.playstation.com/2018/03/20/the-power-of-the-frame-in-gorogoa-coming-soon-to-ps4/",
+      "use": "缩小观察范围重新理解物象；形状相接。"
+    },
+    {
+      "title": "高畑勋Film4访谈",
+      "url": "https://medium.com/@Film4/isao-takahata-on-the-tale-of-the-princess-kaguya-4221f5df60a9",
+      "use": "线条粗细、断续、空白承担情绪节奏。"
+    },
+    {
+      "title": "山水情主创访谈",
+      "url": "https://m.yangshipin.cn/video?cid=3zvrf6vvnb0cm09&type=0&vid=c00007885md",
+      "use": "据主创节目页面摘要：林涛、墨雨、离别段剪辑；未声称逐帧观看正片。"
+    }
+  ],
+  "story": {
+    "facts": "当下夜雨已停；陈平安在廊板上扶栏缓行；回忆青鸾酒楼、陆抬留不住；后文历史车轮碾花草及慢能看清的思索。",
+    "artistic_additions": "短片以前摄意象预引后文历史车轮，非新增亲历事故。栏上风吹来的折草为美术补全；只凝视不救草，不表示顿悟成功。",
+    "chapterEnding": "可在章节尾声回收此画并停留后轻显成就“且慢行”；具体章节句位和触发规则未实施，本轮不搬动剧情。",
+    "film": "本次四镜2×2横版分镜只覆盖25–30秒切入；完整段落尚需陆抬旧话、善恶问答等后续设计。",
+    "timing": [
+      [
+        "01",
+        0,
+        3,
+        "轮声先到，木轮近景疾行，草被墨线遮掩。"
+      ],
+      [
+        "02",
+        3,
+        9,
+        "轮已出画，镜头停看折草，撤去密集声。"
+      ],
+      [
+        "03",
+        9,
+        16,
+        "叶形匹配湿木栏上的另一茎草；手已停，檐滴回到现实。"
+      ],
+      [
+        "04",
+        16,
+        28,
+        "退镜见陈目光，河仍流；随后进入现有正文。"
+      ]
+    ]
+  },
+  "cg": {
+    "prompt": "Use case: illustration-story.\nCreate ONE original black-and-white ink LINE DRAWING for a Chinese narrative visual novel chapter-ending CG, wide 16:9 target 1920x1080, one unified cinematic frame, NOT a poster montage, NOT a comic page. Title concept only: \"且慢行 / Look closely before moving on\"; draw NO text, no UI, no achievement badge.\nThe two supplied images are identity reference only: image 1 is Chen Ping'an's authoritative face, image 2 his current travel clothes. Preserve the same 20–22-year-old man's slim elongated face, straight brows, narrow natural eyes, understated mouth, black topknot, thin horizontal jade hairpin with delicate curled head, blue-grey SHORT-SLEEVE outer robe over white inner shirt, dark wrist guards. Interpret all in monochrome lines. No backpack because he is staying indoors at night; his waist is outside the crop. Not an idol face.\nSCENE: After the rain, a high wooden gallery overlooking the Tiequan River at night. The visual idea is that an immense moving world becomes secondary to one small damaged thing he has finally looked at. This is a restrained, intimate pause, no enlightenment, no magic.\nCOMPOSITION: a striking close, oblique view ALONG the top of an old wet wooden handrail. The camera is slightly ABOVE the handrail, looking gently down onto its TOP surface, while remaining well below Chen's eye level. The rail is at his natural waist/upper-abdomen height, not chest height; show enough torso to connect shoulder, elbow, wrist and resting hand. The near end of the handrail enters from lower left very large, recedes toward mid-right, dividing foreground from the river. On the near rail at x~0.28,y~0.66 is a single wind-blown bent grass stem with two narrow torn leaves, lying naturally ON the wet wood, a tiny drop held at the torn tip. It is a small stem made legible by proximity, not a giant plant. Close wood grain, water edge and leaf are drawn with exceptionally delicate spare lines.\nChen is BEHIND the railing on the gallery side in the right third, seen from just above the waist to head, a large recognizable three-quarter face turned left and slightly downward, quietly studying that stem. His head at x~0.77,y~0.32, around 15 percent of total frame height; natural youth and lower facial volume as reference. One forearm rests lightly along the rail, hand at x~0.60,y~0.66, relaxed fingers resting near his own body and far from the stem. His eyes guide our attention along the rail toward the grass. Hands anatomically natural, no pointing, grasping, picking up, saving or blessing the plant.\nThe remaining upper-left and middle-left two-thirds open onto the broad night river and remote inhabited shore. Tiny ordinary roofs and a few quiet window lights, subdued reflection marks stretching along the water; farther bank broken into extremely faint sparse ink lines and open white paper. No bridge, boat, people, mountains or moon required to clutter the view. One dark gallery post at far right anchors Chen's location; no massive architectural frame across the top. The river is wider than the man, but the small leaf is the first focal point then his eyes. Use near/far scale contrast and asymmetry for emotional force.\nSTYLE: confident expressive Chinese pen-and-ink storyboard linework, semi-realistic young Chinese man, Song-inspired ordinary architecture, clear structural contour, economical hatching only under sleeve and handrail, 60 percent breathing white space. Sharp fragile grass/eye lines against long flowing distant water lines. No grey airbrush fill, no all-over graphite texture, no photorealism, no watercolor color, no ornamental clouds, no effects, no snow, no rainfall (rain has ended), no heroic posing. A complete original story image rather than an establishing shot. Keep bottom edge uncluttered for optional future UI, but draw no UI.",
+    "camera": "机位略高于栏顶、轻俯视可见栏面，仍低于人物眼位；沿栏斜看；陈右侧裁到腰上、三分之四向左轻俯。",
+    "anchors": "栏木前景左下至中右；折草在近端；陈在栏内右；江在栏外左。",
+    "action_target": "陈凝视近栏折草。",
+    "action_space": "手在画面中右停放，草在左前景；手不跨越草，不产生接触植物的新剧情。",
+    "route": "人物静止；河水反光向横向延伸，未真实制作动态。",
+    "continuity": "章末独立回收短片终镜的相同栏、草、人物朝向；新构图不沿用旧05B/C。",
+    "characters": [
+      {
+        "character_id": "cpa",
+        "position": "右三分之一，栏内",
+        "footing": "裁到腰上，双脚画外；栏在人物腰腹高度，肩肘腕到栏面支撑连续",
+        "facing": "肩/胸朝左前，脸轻俯向左",
+        "gaze": "左前景折草及水滴",
+        "scale_depth": "脸高约全图15%；草靠镜头小而清晰；岸屋远且淡",
+        "occlusion": "栏遮腰下，露够躯干与前臂，脸/目光/一只手清楚，无书箱"
+      }
+    ]
+  },
+  "board": {
+    "prompt": "Use case: illustration-story.\nDraw ONE clean director's STORYBOARD SHEET of FOUR sequential wide 16:9 frames, arranged 2 columns x 2 rows, on one 16:9 landscape sheet target 1920x1080. Each panel wide, consistent size, separated by plain narrow white gutters, with only small numerals 01 through 04 in the upper-left of each frame. No title, no captions, no arrows, no dialogue, no Chinese lettering. This sheet visualizes only a 25–30 second poetic COLD OPEN for \"且慢行\", not the entire film.\nUse expressive monochrome ink contour drawings, varying from fierce broken strokes to very spare fine lines. No rendered grey painting, no heavy crosshatching everywhere. Keep each panel easy to read at thumbnail size.\nThe supplied face and clothes are ONLY Chen Ping'an identity references. Same 20–22 young man, slim elongated face, straight brows, narrow eyes, black topknot, delicate curled horizontal jade hairpin, short-sleeve outer robe over white inner shirt, dark wristguards. No backpack in night-gallery scenes. He appears only in panel 04 (panel 03 his hand only). No other human characters.\nPANEL 01: an unsettling ground-level extreme close shot of an ORDINARY wooden cart wheel rushing left-to-right across wet earthen road. Most of the wheel is cropped by left and top edges; only lower curved rim and a few spokes readable. Fine roadside grasses at lower right are bent; long broken horizontal ink strokes above express rapid passage. Wheel contact physically grounded. No gigantic cosmic wheel, no carriage body, driver or human injury. An editorial metaphor for the later dialogue about history's wheel, NOT an event Chen witnessed.\nPANEL 02: SAME ROAD AFTER THE WHEEL HAS EXITED. Sudden visual stillness: an extreme close shot of ONE bent grass stem with two thin torn leaves and a tiny droplet at the broken tip. The small stem lies over pressed mud at lower edge. Mostly empty white paper. No wheel and no motion strokes. Precise fragile form, no flower, no magical sprout. Align the stem diagonally from lower left to middle right and show the torn tip with drop near center-left.\nPANEL 03: GRAPHIC MATCH CUT, separate place. A similarly angled wind-blown bent grass stem and droplet are lying ON a wet WOODEN GALLERY HANDRAIL, at the same relative image position as panel02. Wood grain replaces muddy rut; this is a cut, not a magical physical transformation. A natural male hand with dark wristguard enters at far right, relaxed fingers RESTING on the rail near his own body, visibly separate from the grass. A continuous sleeve leads off right. Above rail a few long quiet river reflection lines. No hand grabbing the leaf, no extra hand, no levitation.\nPANEL 04: pull out to an asymmetrical cinematic portrait landscape. The same wet handrail, viewed from just ABOVE its top with a slight downward angle (below the man's eye level), enters large from lower left and recedes to mid-right. Same small torn grass on left foreground. Chen shown from just above the waist to head BEHIND rail in the right third, three-quarter face looking left/down at the stem; forearm rests lightly on rail at natural waist/upper-abdomen height, with shoulder-elbow-wrist connected. Face height about 25 percent of this panel so identity remains readable. Upper-left background is broad NIGHT river, remote low roofs with faint lines and ample white space. One post at far right. Quiet recognition, no smile, no enlightenment, no heroic gesture. This final frame is the motif to reprise as an independent chapter-ending CG.\nContinuity rules: 01–02 are editorial metaphor; 03–04 are present night reality. Only a graphic match joins the two places. Rain has ended in 03–04, no falling rain. The river continues, camera and attention slow; Chen does not stop time. No earlier umbrella/street-window composition. Light expressive Chinese pen linework with physically sound wood and anatomy.",
+    "camera": "四格均16:9，两列两行组成16:9横纸；01–02地面隐喻，03–04夜廊；02/03草叶同角度图形匹配。",
+    "anchors": "01–02道路/轮辙；03–04近栏草左、陈手/身体右、江在栏外左。",
+    "action_target": "先轮行看不清，再停镜头看折草，再落回陈的凝视。",
+    "action_space": "01轮左入右出；02无轮；03手与草分开；04沿用CG关系。",
+    "route": "轮左往右出画；02/03剪辑跨场不作物质变形；03/04退镜。",
+    "continuity": "02/03只匹配草叶形状；03/04同一栏、同一草、同一人物侧别；未复用旧图。",
+    "characters": [
+      {
+        "character_id": "cpa",
+        "position": "01–02无人；03右侧手；04右侧腰上人物",
+        "footing": "足点画外；03/04镜头略高于栏顶，手臂轻靠自然腰腹高度的栏",
+        "facing": "04头肩朝左前且轻俯",
+        "gaze": "左前景折草",
+        "scale_depth": "04脸约单格高度25%，需实际验身份",
+        "occlusion": "03不露脸；04脸清晰、栏遮胸腰下部；无书箱"
+      }
+    ]
+  },
+  "validation": "只核验静态线稿的身份、支撑、快慢辨识和跨镜归属。未制作动画、音频、字幕及成就系统。"
+}

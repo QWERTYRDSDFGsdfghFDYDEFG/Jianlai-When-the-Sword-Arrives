@@ -1,0 +1,132 @@
+{
+  "original": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+  "old_sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+  "new_sha256": "ebfe2f720075af052de31801bbdd037596f1b495f20779e275bad9e7743aa0a6",
+  "rgba_sha256": "e73681c40efdc2b8091b92e172891f8b732f8da25df9572c6afde52c683accb7",
+  "native": [
+    1672,
+    941
+  ],
+  "same_file_id": "30000000279f4",
+  "written_bytes": 2064001,
+  "file_length": 2085927,
+  "changed_pixels": 176212,
+  "bounds": [
+    696,
+    294,
+    1377,
+    857
+  ],
+  "old_foreground_pixels_restored": 145668,
+  "outside_old_new_foreground_and_shadows_changed": 0,
+  "existing_passers_and_shadows_pixels_changed": 0,
+  "clean_plate_sha256": "6a0ebdf00ae9992f2bb348858be46bd12a71f8742a2d91ec4ef9efa0b40303d8",
+  "stage_with_passers_sha256": "84c2a172fc6a3c095967a030ca06db739124f8f72b1a73f1f6a0691c8ea3022b",
+  "source_part_sha256": "ee6edee92b8d520f7a4d3a8301bb1d6ef7754ca8d70762ae4b6f7ec6eca24dfe",
+  "source_files": [
+    {
+      "path": "C:/Users/MSI/.codex/generated_images/01a196a0-17d4-75a1-b51a-9ffcd610fa9d/exec-a034c31f-1896-4975-9529-4ffcd0da33ec.png",
+      "sha256": "ee6edee92b8d520f7a4d3a8301bb1d6ef7754ca8d70762ae4b6f7ec6eca24dfe"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_03_quay_v2.png",
+      "sha256": "bdfdb0cf707a01457deb54467ec25fd37de1c13f521d1c84d86f7c64e2442943"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/game/images/chapter2/c2_07_gate_v1.png",
+      "sha256": "9db7e82ee3f9b632675ea645e13742fe145c9bd316fd88c311c47ff53a85ab7e"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_wu_body_r04.png",
+      "sha256": "323468ad62de1080b2de9a9a4d59712fc6353eba91284d1c4f501f136e73495b"
+    },
+    {
+      "path": "F:/project/JianlaiWhentheSwordArrives/work/art/chapter2/c2_03_throw_west/wall_cpa_part_r04.png",
+      "sha256": "aee3ec14dc12a62543f73783f0c8a6ec8185186bf29bbb4070878d8a68fd162d"
+    }
+  ],
+  "actors": [
+    {
+      "id": "wy",
+      "foot_anchor": [
+        845,
+        600
+      ],
+      "image_rect": [
+        767,
+        296,
+        159,
+        305
+      ]
+    },
+    {
+      "id": "pq",
+      "foot_anchor": [
+        897,
+        695
+      ],
+      "image_rect": [
+        849,
+        447,
+        90,
+        249
+      ]
+    },
+    {
+      "id": "cpa",
+      "foot_anchor": [
+        1082,
+        747
+      ],
+      "image_rect": [
+        1003,
+        337,
+        198,
+        411
+      ]
+    },
+    {
+      "id": "zl",
+      "foot_anchor": [
+        992,
+        817
+      ],
+      "image_rect": [
+        903,
+        396,
+        161,
+        422
+      ]
+    }
+  ],
+  "hand_pivot": [
+    770.4219999999999,
+    346.177
+  ],
+  "right_fingertip": [
+    743.1562215295847,
+    336.3878568095954
+  ],
+  "boat_center": [
+    710,
+    322
+  ],
+  "boat_source_cutout_sha256": "9af7fac757ed1ec6b5a6748eb4e507d28ad4b96840d7aeb5b532bd8fe73cf50f",
+  "arm": {
+    "root": [
+      840,
+      361
+    ],
+    "cloth_linear_map": [
+      -0.326,
+      0.018,
+      -0.025,
+      0.217
+    ],
+    "right_hand_rotation_degrees": -139,
+    "right_hand_scale": 0.3,
+    "description": "Far right sleeve reprojected in depth with hanging drape; anatomical right hand independently rotated with positive determinant, behind the body. Gate source low left arm preserved; previous hanging far sleeve clipped."
+  },
+  "shadow_method": "projected silhouette plus foot contact",
+  "integration": "not_requested"
+}

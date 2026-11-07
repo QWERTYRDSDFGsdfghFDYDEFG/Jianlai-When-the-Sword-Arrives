@@ -421,15 +421,15 @@
     "selected": [],
     "asset_specs": [
       {
-        "asset": {
-          "path": "C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png",
-          "sha256": "e18b7113b5e38006f9dba1880823938cf643e8d494bf02149dcce7b0f1c3b45b",
-          "role": "第09场镜01原图经Photoshop非生成局部修改后的实际存盘图"
-        },
+        "format": "PNG RGB",
         "width": 1672,
         "height": 941,
-        "format": "PNG RGB",
-        "display_treatment": "保留原生1672×941，只看本轮线稿；未缩放到1920×1080。"
+        "asset": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png",
+          "sha256": "885365d20cb835d669373de3bc3e25bd13403d8b31f0cc2e62e05b3c2ff2531a",
+          "role": "右端柱脚精修后的同一原线稿"
+        },
+        "display_treatment": "原生线稿尺寸。"
       }
     ],
     "integration": {
@@ -439,7 +439,7 @@
     }
   },
   "production_note": "仅生成用户要求的线稿原图，JSON文件是长期制作记录。阶段图不复制成额外版本或预览。",
-  "current_status": "局部修改已保存至同一原PNG，独立复核认为本轮线稿几何修正可接受；待用户确认。旧v1阶段结论仅作历史，不据此宣称新流程已完成。",
+  "current_status": "镜01线稿右端柱脚已收笔，局部接地复核完成，待用户确认。",
   "edit_boundary": "原文档原生局部修改，用户允许编辑器内部临时文件和正常保存原图；不新建候选、预览、备份或替换成品。",
   "in_place_edit_log": {
     "date": "2026-11-01",
@@ -589,5 +589,109 @@
     "legacy_evidence_status": "schema_version仍为1。原有attempt及其哈希保留为历史；旧图已经原位修改，旧图证据不能用于当前版本。此附记登记本次真实局部写入与独立复核，不改写旧哈希、不将旧v1阶段视作新v2通过。",
     "scope": "仅线稿构图与空间关系修订；未上色、未获用户确认采用、未接入游戏。",
     "new_deliverable_files": 0
-  }
+  },
+  "in_place_edits_2026_11_02": [
+    {
+      "request": "开始修改；查阅F:/中国古建筑学习资料_20261031中的本地构造和空间参考",
+      "scope": "仅本镜线稿；用户尚未确认采用。",
+      "before": {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png",
+        "sha256": "e18b7113b5e38006f9dba1880823938cf643e8d494bf02149dcce7b0f1c3b45b"
+      },
+      "original_material": {
+        "sha256": "349363ffabf6ed17141192249ff38bfebe4968053bbf5e43c4609983686781bc",
+        "size": 2310754,
+        "source": "本镜最初出图留在同一聊天的原始PNG字节，已核对，内存取样。"
+      },
+      "after": {
+        "path": "C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png",
+        "sha256": "df49bdad7a7ec1d9529a846ec9e723664cc3476a4020aed7d43d556bc13c7155",
+        "role": "镜01原线稿在同一PNG中修复原稿笔触和端柱后的存盘图"
+      },
+      "references": [
+        {
+          "file": "F:/中国古建筑学习资料_20261031/中国古建筑木作营造技术 (马炳坚) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "pdf_page": 325,
+          "printed_page": 286,
+          "figure": "图7-23 寻杖栏杆及其构造",
+          "observation": "望柱与檐柱分开；寻杖扶手两端做榫交于望柱。用于端部横材入柱、柱面连续。"
+        },
+        {
+          "file": "F:/中国古建筑学习资料_20261031/07_配套原典_营造法式_文渊阁四库全书本.pdf",
+          "pdf_page": 547,
+          "section": "卷三十二第二十二叶；卷八小木作制度三·鉤䦨条文另见PDF 133–135页",
+          "observation": "单、重台钩栏立面可见端柱高于扶手，横材止于两侧柱身。此图用于结构层次。"
+        },
+        {
+          "file": "F:/中国古建筑学习资料_20261031/中国古建筑之旅——江南 水乡古镇 (许超 宫灵娟) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "pdf_page": 48,
+          "figure": "同里，下图",
+          "observation": "檐下近圆柱、较细后柱、窄廊沿和池岸遮挡可辨。用于廊内地面与栏外水面的分界。"
+        },
+        {
+          "file": "F:/中国古建筑学习资料_20261031/苏州古典园林 英汉对照 (苏州市园林管理局编, 苏州市园林管理局编, 苏州 (Jiangsu Sheng etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+          "pdf_page": 47,
+          "figure": "右下庭廊；同页上图可对照水池",
+          "observation": "横栏收于角柱，后方柱距逐段收窄。仅参考连接与透视关系。"
+        }
+      ],
+      "method": "用原稿的栏顶、横枋、细柱、柱帽、廊板及河岸局部像素整形与调节对比；方位以当前稿左近右远为准。Windows GDI+在原位图上按像素坐标写局部，PNG编码先在内存核验，再用已打开的原文件句柄正常写回并读回。",
+      "native_write": {
+        "file_mode": "Open",
+        "bytes_written": 1455616,
+        "check": {
+          "file_sha256": "df49bdad7a7ec1d9529a846ec9e723664cc3476a4020aed7d43d556bc13c7155",
+          "rgba_sha256": "afdd0d293dfb6707e9f66f8dc01b9db49d39bf43d280e62c400495e2a3158485",
+          "size": [
+            1672,
+            941
+          ],
+          "all_pixels_equal_reviewed": true,
+          "modified_pixels": 903518,
+          "central_rain_changed": 0,
+          "lantern_changed": 0
+        },
+        "output_color_information": "GDI+生成PNG显示信息；旧编辑器的caBX及iTXt块未随重新编码保留。"
+      },
+      "review": {
+        "who": "/root/current_sketch_diagnosis",
+        "evidence": {
+          "path": "C:/Users/MSI/.codex/generated_images/01a1975a-1fa1-7d01-b992-4ed5dc477864/exec-55ab0add-6550-4ef8-b638-394ab63664f3.png",
+          "sha256": "df49bdad7a7ec1d9529a846ec9e723664cc3476a4020aed7d43d556bc13c7155",
+          "role": "镜01原线稿在同一PNG中修复原稿笔触和端柱后的存盘图"
+        },
+        "observation": "实看存盘图。木栏的木纹、厚度、接头与檐柱笔触更接近；柱距递减、端头收住，远岸和中央留白可读。右端柱脚与浅色廊板的交界偏淡，长扶手仍为前景主线。"
+      },
+      "tool_note": "Photoshop 控制连接等待超时，已停止此次专用导入助手；原PNG的实际写入使用GDI+本地位图接口。第一次编码发现像素尺度偏差，写入前中止，改为显式像素位置后逐像素匹配。",
+      "prior_records": "此前制作尝试及指纹保留为历史；本次记录只对应after指纹。"
+    },
+    {
+      "date": "2026-11-02",
+      "scope": "右端柱脚与浅色廊板的局部交界",
+      "method": "已确认支持原位编辑的 Windows GDI+ 按实际底边局部补接触影，以 FileMode.Open 保存同一原文件并读回解码。",
+      "before": "df49bdad7a7ec1d9529a846ec9e723664cc3476a4020aed7d43d556bc13c7155",
+      "after": "885365d20cb835d669373de3bc3e25bd13403d8b31f0cc2e62e05b3c2ff2531a",
+      "rgba_sha256": "70d72c9b6bdbd89099e56edf27fe8678b2c32b669ce6c81bb9e571761eef4a13",
+      "bytes_written": 1455763,
+      "verified": true,
+      "pixel_difference": {
+        "x_inclusive": [
+          1439,
+          1482
+        ],
+        "y_inclusive": [
+          671,
+          680
+        ],
+        "changed_pixels": 381,
+        "unchanged_pixels": 1572971
+      },
+      "observation": "原尺寸看端柱底部接触线和一小段向外收淡的灰影可辨，未额外绘制柱础。",
+      "independent_review": {
+        "who": "/root/current_sketch_diagnosis",
+        "image_sha256": "885365d20cb835d669373de3bc3e25bd13403d8b31f0cc2e62e05b3c2ff2531a",
+        "observation": "实看存盘图。短浅接触影与下横档的底边接得上，原尺寸可读落地，放大没有突兀黑边。"
+      }
+    }
+  ]
 }

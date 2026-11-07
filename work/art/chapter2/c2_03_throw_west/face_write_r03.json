@@ -1,0 +1,169 @@
+{
+  "original_path": "C:/Users/MSI/.codex/generated_images/01a0bdde-f263-7c03-bc93-fe6a889ae0bf/exec-43fb7f39-02ba-4935-b1de-0d052d87337c.png",
+  "old_sha256": "1cd11f4b9152d7333909ca35c1cb064657935e46b2ce636a23f643632b38bf4e",
+  "new_sha256": "b242d9a221f838787effde28e4bb9d737ad83081f3476d8e06aa1f36e77ce941",
+  "source_generated": "C:/Users/MSI/.codex/generated_images/01a196a0-17d4-75a1-b51a-9ffcd610fa9d/exec-c9af82a0-c1d3-4695-aa9e-fe3037fc8338.png",
+  "source_generated_sha256": "cbbcbd549f18531faed27aa0fc38d40fbc9a6251b2b065f0c50f7cc093c63676",
+  "native": [
+    1672,
+    941
+  ],
+  "same_file_id": "30000000279f4",
+  "written_bytes": 2038232,
+  "file_bytes": 2060158,
+  "pixelHash": "0edd2c9948135503092970c0806d123efad021e14c822e7a68227050a566a37f",
+  "changedPixels": 1691,
+  "regions": {
+    "zl": 698,
+    "cpa": 993
+  },
+  "outside_two_face_masks_changed": 0,
+  "outside_original_three_head_masks_changed": 0,
+  "wu_and_pei_changed": 0,
+  "crop_transform": {
+    "left": 830,
+    "top": 292,
+    "width": 192,
+    "height": 128,
+    "source_size": [
+      1536,
+      1024
+    ],
+    "resampling": "lanczos3, mild local sharpening and fractional dark-line blend around two near eyes and closed lips only",
+    "inward_feather": 1.1
+  },
+  "head_masks": [
+    {
+      "name": "zl",
+      "polygon": [
+        [
+          872,
+          311
+        ],
+        [
+          881,
+          311
+        ],
+        [
+          884,
+          322
+        ],
+        [
+          884,
+          335
+        ],
+        [
+          880,
+          341
+        ],
+        [
+          876,
+          349
+        ],
+        [
+          868,
+          350
+        ],
+        [
+          864,
+          343
+        ],
+        [
+          857,
+          342
+        ],
+        [
+          855,
+          334
+        ],
+        [
+          860,
+          323
+        ],
+        [
+          865,
+          320
+        ],
+        [
+          870,
+          323
+        ]
+      ]
+    },
+    {
+      "name": "cpa",
+      "polygon": [
+        [
+          981,
+          332
+        ],
+        [
+          989,
+          329
+        ],
+        [
+          997,
+          324
+        ],
+        [
+          1004,
+          326
+        ],
+        [
+          1008,
+          334
+        ],
+        [
+          1007,
+          343
+        ],
+        [
+          1007,
+          353
+        ],
+        [
+          1003,
+          361
+        ],
+        [
+          998,
+          365
+        ],
+        [
+          992,
+          364
+        ],
+        [
+          986,
+          361
+        ],
+        [
+          984,
+          365
+        ],
+        [
+          978,
+          362
+        ],
+        [
+          976,
+          355
+        ],
+        [
+          978,
+          349
+        ],
+        [
+          977,
+          343
+        ],
+        [
+          978,
+          336
+        ]
+      ]
+    }
+  ],
+  "mask_intersection": "Intersection with corresponding original allowed head polygon in face_write_r02.json",
+  "game_integration": "not_requested"
+}

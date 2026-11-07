@@ -44,7 +44,9 @@ image bg c2_02_accept_v1 = im.Scale("images/chapter2/c2_02_accept_v1.png", 1920,
 image bg c2_03_quay_v1 = im.Scale("images/chapter2/c2_03_quay_v1.png", 1920, 1080)
 image bg c2_03_quay_v2 = im.Scale("images/chapter2/c2_03_quay_v2.png", 1920, 1080)
 image bg c2_03_throw_v1 = im.Scale("images/chapter2/c2_03_throw_v1.png", 1920, 1080)
-image bg c2_03_reveal_v1 = im.Scale("images/chapter2/c2_03_reveal_v1.png", 1920, 1080)
+image bg c2_03_reveal_v2 = im.Scale("images/chapter2/c2_03_reveal_v2.png", 1920, 1080)
+# Compatibility for saved scenes using the previous reveal image name.
+image bg c2_03_reveal_v1 = "bg c2_03_reveal_v2"
 image bg c2_03_papers_v1 = im.Scale("images/chapter2/c2_03_papers_v1.png", 1920, 1080)
 image bg c2_03_maids_v1 = im.Scale("images/chapter2/c2_03_maids_v1.png", 1920, 1080)
 image bg c2_03_board_v1 = im.Scale("images/chapter2/c2_03_board_v1.png", 1920, 1080)
@@ -122,3 +124,6 @@ transform c2_08_reaction(scale=1.0, dx=0, dy=0, shade=0.0):
 
 # Chapter 2: after the rain, looking at water in the palm before stepping onto the rail.
 image bg c2_14_rain_after_v1 = im.Scale("images/chapter2/c2_14_rain_after_v1.png", 1920, 1080)
+
+# Chapter 2 scene 09 opening, ending at the downward glance; registered, not yet called.
+image bg c2_end_slow_v1 = im.Scale("images/chapter2/c2_end_slow_v1.png", 1919, 1080)
